@@ -1,14 +1,42 @@
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Python
+.Python
+venv/
+.venv/
 __pycache__/
 *.py[cod]
-*$py.class
 *.so
-.Python
-env/
-venv/
-.venv
 *.egg-info/
+*.pkl
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Node dependencies
+node_modules/
+**/node_modules/
+
+# Build files
+dist/
+build/
+.next/
+
+# IDE configuration
+.vscode/
+.idea/
+.qoder/
 .streamlit/
-.env
-data/
-*.csv
-*.json
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Git report
+git_report.txt

@@ -1,0 +1,568 @@
+laptop_name,sentence,compound_score,sentiment
+HP Omen 17,"first off the price this cost me about 1800 usd after tax used in perfect condition, you won't find another 4090 laptop for that price period and a 4090 is basically just as powerful as a 5090. next look at the beautiful keyboard layout, port selection and clean aesthetic of the laptop.",0.9201,positive
+HP Omen 17,"plus the trackpad is glass, look at the msi titan, and lenovo awful plastic trackpads, and the keyboard itself is omni mechanical so it feels and sounds great.",0.2732,positive
+HP Omen 17,very little flex and thankfully bad hinges are a thing of the past.,-0.2415,negative
+HP Omen 17,isn't ultra thin either so there's good heat dispersion.,0.4902,positive
+HP Omen 17,yeah it's a 13th gen i9 cpu but it's exactly the same as a 14th gen cpu they didn't upgrade anything.,0.1531,positive
+HP Omen 17,you're still getting 32gb of ddr5 ram.,0.0,neutral
+HP Omen 17,blazing fast 2tb ssd.,0.0,neutral
+HP Omen 17,"and let me tell you i'm well aware of the cost compromises but they honestly don't even matter i'll explain why, 4k is pointless on a small screen you're not going to see the difference at 16 inches.",0.664,positive
+HP Omen 17,qhd (2k) is the sweet spot: sharp visuals and high framerates.,0.4588,positive
+HP Omen 17,"hdr 500 is garbage washed-out blacks, no real peak brightness, and fake hdr effect.",-0.4019,negative
+HP Omen 17,"frankly, sdr looks better 99 of the time on most laptops.",0.4404,positive
+HP Omen 17,300 nits is plenty for indoors that's where you'll game anyway.,0.0,neutral
+HP Omen 17,"unless you're gaming on a beach (don't), you won't need more.",0.0,neutral
+HP Omen 17,dlss frame gen 16gb vram smooth sailing.,0.0,neutral
+HP Omen 17,"with that combo, you'll run any modern game at 120 fps at 2k no sweat.",-0.296,negative
+HP Omen 17,you shouldn't push higher than 120 fps on laptops anyway it just ramps up heat and noise for zero practical benefit.,0.4588,positive
+HP Omen 17,vapor chamber cooling?,0.0,neutral
+HP Omen 17,"only matters when maxing everything out, which is dumb.",-0.4939,negative
+HP Omen 17,"with undervolting and a locked framerate, regular cooling is more than enough.",0.0,neutral
+HP Omen 17,"plastic chassis is underrated keeps the laptop lighter, cooler to the touch, and easier to carry.",0.4215,positive
+HP Omen 17,metal heat trap.,-0.3182,negative
+HP Omen 17,this model still beats the competition in real-world 3dmark scores and thermals.,0.0,neutral
+HP Omen 17,got this omen for around 1388 or 1292 spec: i7 13700hx rtx 4060 32gb ddr5 ram 5600mt s 1tb m.2 ssd 144hz 1080p 17.3 display 4 zone rgb keyboard pros: - gaming feels super smooth.,0.5994,positive
+HP Omen 17,-amazing build quality - a keyboard with super sturdy chassis so there is no flexing - runs most games i play on high ultra (the most demanding one i tried was shadow of the tomb raider and need for speed unbound on ultra both run at around 100 150 fps depending on the action tomb raider dips to 70 90ish sometimes (still more than playable and i don't use dlss)) - i mostly play rocket league and cs2 so the 144hz display is amazing plus the games run well above that sometimes even double (in cs2) rocket league runs at 650 fps (i cap it at 360 and it never dips bellow) cons: - the display is not vibrant enough for me so i had to boost in in nvidia control panel and intel command panel or whatever its called for the integrated graphics.,0.9381,positive
+HP Omen 17,"- every time you want to switch to the discrete graphics only mode you have to do a restart (it takes max 5s so its not that bad tho be aware), i found out that it helps with input lag ever so slightly if u run it in that mode instead of hybrid.",0.5187,positive
+HP Omen 17,"- battery performance is shit even on performance mode games stutter for some reason, rocket league for example, runs at 200fps but dips all the time to 30fps and than back up.",-0.4215,negative
+HP Omen 17,"-battery life is good enough for a gaming laptop (mine rarely leaves the charger when in use tho, i just deplete the battery to 50 something to keep it healthy for longer), around 3 5h depending on what u are doing and the brightness level.",0.802,positive
+HP Omen 17,- the charger is humongous (i fully understand that its 330w but why is it built like a router?,0.5023,positive
+HP Omen 17,i would be fine if it was long and fat but its cube shaped plus its super heavy) - fans get loud but i have anc headphones so that isn't much of a problem for me (be aware that if u use normal phone headphones like i do sometimes you are gonna hear the fan a lot when u are pushing the laptop).,0.9417,positive
+HP Omen 17,- keyboard is good but i found that i have massive input lag for some reason (it can be fixed in nvidia control panel by turning on low latency mode on ultra (at least that worked for me).,-0.5859,negative
+HP Omen 17,if you have any questions feel free to ask.,0.5106,positive
+HP Omen 17,fya it's s my first time posting on here so sorry if it's bad,-0.6418,negative
+HP Omen 17,looking to get a laptop for gaming and editing what's the pros and cons of this laptop,0.0,neutral
+HP Omen 17,"hello all, bought the omen 17 and replaced it with asus tuf.",0.0,neutral
+HP Omen 17,"the specs are ryzen 7 ai 350, 16gb ram, rtx 5060, 1tb.",0.0,neutral
+HP Omen 17,i understand every brand laptop has it's unique set of issues and solutions.,0.1779,positive
+HP Omen 17,i want to know from this community.,0.0772,positive
+HP Omen 17,"so far, on the first couple of boots, the win 11 has been giving window glitches and unresponsive behavior to keyboard shortcuts which i am planning to reset once and let it settle with a couple of updates.",0.7351,positive
+HP Omen 17,-what all to test -what to remove install -any particular issues noticed?,0.0,neutral
+HP Omen 17,(i will use it elevated) -any other advice is welcome.,0.4588,positive
+HP Omen 17,omencore 2.7.0 - a complete omen gaming hub replacement (no hp software required) hey everyone!,0.0,neutral
+HP Omen 17,"wanted to share omencore , a free, open-source control center i've been developing for hp omen and victus laptops.",0.6705,positive
+HP Omen 17,--- what is omencore?,0.0,neutral
+HP Omen 17,omencore is a complete replacement for hp omen gaming hub .,0.0,neutral
+HP Omen 17,"it's a single 70mb executable that gives you full control over your laptop without any hp bloatware, telemetry, or microsoft account requirements.",0.0,neutral
+HP Omen 17,"key differences from omen gaming hub: - works without ogh installed - uses native wmi bios commands - no ads, no telemetry, no sign-in - runs on windows and linux - open source (mit license) --- core features fan control - custom fan curves with visual editor - independent cpu gpu fan curves based on component temps - preset profiles (silent, balanced, performance, max) - real-time rpm monitoring performance modes - switch between quiet, balanced, performance modes - gpu power level control (min med max) - undervolt support via pawnio (intel amd) - tcc offset for thermal throttling control rgb lighting - full keyboard backlight control - per-zone color customization - ambient mode (syncs to screen colors) - multi-brand peripheral support (corsair, logitech, razer) battery management - custom charge threshold (60-100 ) - battery-aware fan profiles monitoring - real-time cpu gpu temps, usage, power - temperature history charts - on-screen display overlay --- recent major updates v2.5 - profile import export, auto-update checker, game library integration v2.3 - fan curve safety system with hardware watchdog, diagnostics export v2.1 - linux gui (avalonia), gpu overclocking via nvapi, ambient rgb lighting v2.0 - system optimizer, bloatware manager, multi-brand rgb support --- what's new in v2.7.0 no more antivirus false positives - removed winring0 entirely, now uses pawnio exclusively (signed driver) fan diagnostics - guided test sequence to verify your fans respond correctly hp model database - auto-detects your laptop and shows verified working features bug fixes - sidebar temps working, version display fixed, better disabled button styling --- download website: omencore.info ( website: r omencore ( download discord: in comments file size ------ ------ omencoresetup-2.7.0.exe 105 mb (windows installer) omencore-2.7.0-win-x64.zip 109 mb (portable) omencore-2.7.0-linux-x64.zip 61 mb (linux) --- compatibility works with most omen and victus laptops from 2019 onwards: - omen 15 16 17 series - omen max 16 - victus 15 16 series - both intel and amd models note: omencore is primarily for laptops only .",0.9651,positive
+HP Omen 17,"however, omen desktop preliminary support is provided.",0.4019,positive
+HP Omen 17,"please feel free to test with desktops, unfortunately the feature set isn't as high as the laptops.",0.4939,positive
+HP Omen 17,--- let me know if you have any questions!,0.0,neutral
+HP Omen 17,happy to help with setup or troubleshooting.,0.7964,positive
+HP Omen 17,hi i get this for about 1400 is it worth it in 2026 ?,0.2263,positive
+HP Omen 17,"hp omen, 14th gen intel core i9-14900hx, 8gb rtx 5060, 24gb ddr5(upgradeable) 1tb ssd, 165hz, 2k wuxga, 3ms, 400 nits, 16"" 40.6cm are hp omen laptops good in 2025 (india)?",0.4404,positive
+HP Omen 17,"pros, cons after-sales experience?",0.0,neutral
+HP Omen 17,- i'm considering an hp omen laptop and wanted some real-world feedback.,0.0,neutral
+HP Omen 17,"- how are omen laptops in terms of performance, thermals, and build quality?",0.0,neutral
+HP Omen 17,"- what are the common pros and cons owners have faced (gaming, editing, dev work)?",0.0,neutral
+HP Omen 17,"- how s hp after-sales service in india warranty support, service centers, turnaround time, recurring issues?",0.4019,positive
+HP Omen 17,"- this is coming with 24gb single stick, can i add a combination of 24gb 16gb or do i have to use only 24gb 24 gb?",0.0,neutral
+HP Omen 17,"would appreciate insights from current or past omen users in india, especially long-term experiences.",0.4019,positive
+HP Omen 17,"hi all, i created a reddit account just so i can share this with fellow omen users whose otherwise beautiful, well-built, well-specced, and enjoyable machines have been rendered borderline unusable because of touchpad issues that seem to be present on all hp omen 15, 16 and 17 laptops, with no fix in sight.",0.8434,positive
+HP Omen 17,"i spent a month banging my head against the wall with this problem, trying all sorts of things, from multiple drivers, to os reinstalls, to even opening the laptop up over a dozen times and trying to adjust the positioning, but nothing worked.",-0.2646,negative
+HP Omen 17,"i was on the verge of opening a warranty claim when i finally discovered the true cause and therefore, the solution.",0.6249,positive
+HP Omen 17,the problem is caused by static electricity build-up.,-0.4019,negative
+HP Omen 17,"it's got nothing to do with touchpad positioning, drivers, heat, insulation or any number of other theories people have come up with.",0.0772,positive
+HP Omen 17,"the touchpad surface builds up static electricity after some use, so you'll start getting jerky cursor movement, no response to taps, parts of the touchpad not responding, multi-finger gestures not working, and so on.",-0.296,negative
+HP Omen 17,"if you've been using one of these laptops for a while you might have noticed how the issue often flares up if you happen to rub your finger slightly too roughly on the touchpad, or when lying in bed with the laptop on your stomach or thighs.",-0.5267,negative
+HP Omen 17,"a user on the r hewlett packard ( sub suggested it was static build-up but couldn't verify it, so last night i opened it up again, removed the battery, plugged it in, powered on, used the touchpad till it started acting up, then touched one of two metal 'risers' that enable the touchpad to 'click', and sure enough, the touchpad started working normally again instantly.",0.4497,positive
+HP Omen 17,"so now that i knew what the problem was, here's what i did to fix it.",-0.4019,negative
+HP Omen 17,i hooked up a piece of wire i had lying around to the left riser that props up the touchpad click-plate and tied the other end around a screw that didn't seem to be attached to anything important.,-0.4588,negative
+HP Omen 17,this effectively 'grounds' the touchpad so static doesn't build up.,0.4404,positive
+HP Omen 17,"here is a picture for reference ( this was taken while the laptop was running on ac power so it's a bit of an awkward angle, lying on its screen, but you can see the wire at the top left.",-0.0772,negative
+HP Omen 17,"you'll also see that i have the metal retaining plate underneath the risers, rather than on top.",0.2023,positive
+HP Omen 17,"this is a remnant of my earlier attempts at fixing this problem, when i thought the problem was because of chassis flex, but it has no bearing on the issue at all.",-0.7118,negative
+HP Omen 17,"i don't use the clicking feature so i've left it this way, with some thick double-sided tape below the metal plate and the two touchpad 'wings' to prevent engagement of the click and lock the touchpad in place.",0.4767,positive
+HP Omen 17,i've tested this extensively and if anyone has any questions i'd be happy to answer them.,0.5719,positive
+HP Omen 17,"i'm just relieved i found a solution and don't have to return the thing, as i think this is a fantastic machine otherwise.",0.8176,positive
+HP Omen 17,edit: attached the picture to the post as some people had difficulty seeing it.,-0.34,negative
+HP Omen 17,edit 2: u b15hop77 made a video showing the fix for his omen 17 rtx 3070:,0.0,neutral
+HP Omen 17,am i hallucinating or is this typo?,0.0,neutral
+HP Omen 17,if it's real then i'm gonna pick it for sure,0.3182,positive
+HP Omen 17,"i've been using my hp omen 17 laptop for over a year now and it has always had low battery capacity (around 2 hours max on light usage) and back then when i contacted hp support, they told me it was normal.",0.1531,positive
+HP Omen 17,"now it gets around 1 hour of battery time on light usage (watching youtube on browser, programming, etc).",0.0,neutral
+HP Omen 17,i use it for heavy gaming most of the time while it is plugged in so idk if this is normal.,-0.2183,negative
+HP Omen 17,i'm getting the following results from the battery check in hp support assistant cycles: 996 design capacity: 83 whr full charge capacity capacity: 58 whr (70 ) the image attached shows the powercfg battery report (for some reason its showing a different result?),0.4019,positive
+HP Omen 17,anyway i'd like to know why my cycle count is already this high and why my battery is draining so fast and also if there is a way to prevent the battery drain from getting worse,-0.128,negative
+HP Omen 17,"omen 17-db1500nr gaming laptop - amd ryzen ai 7 350 - 16gb memory nvidia geforce rtx 5050 - 512gb ssd 17.3"" screen i grabbed this from a brief woot special -- otherwise, i haven't seen a price below 1189. any direct experience?",0.6705,positive
+HP Omen 17,hello!,0.0,neutral
+HP Omen 17,"as the title says, my beautiful computer fried.",0.5994,positive
+HP Omen 17,i've decided it's worth it to replace the motherboard instead of buying a new one.,0.2263,positive
+HP Omen 17,"this computer was like 1800 because it was customized by the original store where i bought it, and it's still pretty new.",0.7906,positive
+HP Omen 17,"the guy who has my computer and will be repairing it told me he couldn't find any other motherboards like the one in mine at the moment due to supply issues, etc.",0.3612,positive
+HP Omen 17,i'm wondering - and be gentle because i know nothing - are there compatibilities between motherboards?,0.4404,positive
+HP Omen 17,i'm going to give you some info he sent me and i'm hoping there are some that are interchangeable if this one can't be found due to supply issues: the serial number for the machine: 5cd3184y0z your omen hp product support page (includes the brand specific name of the laptop): two listings of the motherboard you need for the device: also if anyone has any other places to look for parts that would be great too!,0.8805,positive
+HP Omen 17,thank you so much!,0.4199,positive
+HP Omen 17,i miss my computer 3,-0.1531,negative
+HP Omen 17,"hey everyone, i've been troubleshooting my hp omen 17-cb0040nr (2019, i7-9750h rtx 2070 144 hz g-sync panel) for years, and it's finally reaching a weird, half-alive state.",0.2023,positive
+HP Omen 17,here s the full story in chronological order.,0.0,neutral
+HP Omen 17,2019 early 2020 laptop worked great for the first 6 months.,0.6249,positive
+HP Omen 17,"heavy gaming (apex legends, etc.)",0.0,neutral
+HP Omen 17,"pushed gpu temps to 80 85 c. the display would suddenly go black, sound would freeze, and i had to force shutdown.",0.0516,positive
+HP Omen 17,"after cooling down, it would boot normally again.",0.0,neutral
+HP Omen 17,"lag when plugged in: occasionally, since purchase, performance would drop badly until i unplugged and re-plugged the charger, then fps would instantly recover.",-0.765,negative
+HP Omen 17,mid 2020 2021 found dust clogging the cooling system; cleaned it thoroughly.,0.0,neutral
+HP Omen 17,temps improved and random shutdowns reduced.,0.4767,positive
+HP Omen 17,"around 2021, hp uefi diagnostics flagged a video memory f failure confirmed early vram instability on the gpu.",-0.5106,negative
+HP Omen 17,"from this point onward, the gpu remained functional but unstable under high load.",-0.5023,negative
+HP Omen 17,2022 2024 continued gaming on medium settings; gpu stayed below 78 c. occasional driver crashes or screen flickers.,0.0,neutral
+HP Omen 17,"no major shutdowns, but instability kept creeping back.",-0.1531,negative
+HP Omen 17,2025 hp smart reported a blown charge-state fuse battery stopped charging completely.,0.2023,positive
+HP Omen 17,removed the battery since this.,0.0,neutral
+HP Omen 17,i get cmos error and i press enter to see boot (hp omen logo).,-0.4019,negative
+HP Omen 17,"began using the laptop plugged in only, like a desktop.",0.3612,positive
+HP Omen 17,the power button started blinking continuously even during normal operation likely due to the battery-circuit fault.,-0.4019,negative
+HP Omen 17,system still booted and worked fine on ac.,0.2023,positive
+HP Omen 17,current state (2025 october) the internal laptop display stays black most of the time (backlight faintly glows).,0.0,neutral
+HP Omen 17,external 200 hz monitor (hdmi) works well i can even play apex legends for hours on medium settings with gpu vram capped to 4 gb.,0.5423,positive
+HP Omen 17,"nvidia control panel won't open, though the rtx 2070 is visible in device manager and task manager.",0.0,neutral
+HP Omen 17,boot behavior: external monitor connected via hdmi.,0.0,neutral
+HP Omen 17,"press power cmos error occurs(sometimes it won't be displayed in either of the displays, occurs when i start the laptop after a long time, like half a day etc) (i press enter to proceed with booting, as one can see if windows is booted or not by pressing caps lock to see if the button lights are working or not) what happens next in a successful boot is, the powee button light goes off and turns on in like 2 sec, i press entee agan and the same cycle happens for one more time (2 to 3 timez at max), and then the external display connected (sometimes internal display too) gets hp omen logo boot screen.",0.7269,positive
+HP Omen 17,"post this, if windows login acreen comes, in atleast one of the displays, it is a successful boot.",0.5859,positive
+HP Omen 17,"else, i have to force shutdown the pc and start again system reboots itself once or twice.",0.0,neutral
+HP Omen 17,hp omen logo appears almost always on the external monitor.,0.0,neutral
+HP Omen 17,display outcomes (approx.,0.0,neutral
+HP Omen 17,"10 boots): 5 times only external monitor shows the windows login screen, laptop panel stays blank.",0.0,neutral
+HP Omen 17,1 time both monitors work correctly and internal 144 hz panel shows windows login.,0.0,neutral
+HP Omen 17,"4 times internal panel black, external hp logo only (no windows output).",0.0,neutral
+HP Omen 17,"i can still log in blindly and shut down via alt f4, so the system is running headless.",0.0,neutral
+HP Omen 17,"when i try to duplicate display, both displays drop to 1024 768 60 hz, the only modes windows detects for the laptop screen.",-0.2732,negative
+HP Omen 17,current symptoms summary gpu and hdmi output work reliably; internal panel almost dead.,-0.6133,negative
+HP Omen 17,cmos error on every cold boot bios resets device detection.,-0.4019,negative
+HP Omen 17,hp diagnostics previously confirmed video memory failure.,-0.5106,negative
+HP Omen 17,my suspicions partial gpu vram degradation or faulty edp (output to internal panel).,-0.802,negative
+HP Omen 17,possible loose or damaged edp cable panel connector.,-0.6369,negative
+HP Omen 17,weak cmos battery causing repeated re-detection and boot loops.,-0.4404,negative
+HP Omen 17,"battery-charging fuse blown (confirmed), forcing ac-only operation.",0.0,neutral
+HP Omen 17,what still works external monitor gaming at 200 hz for hours.,0.0,neutral
+HP Omen 17,"all usb, audio, and ethernet functions.",0.0,neutral
+HP Omen 17,"internal panel sometimes returns to life for one boot, then fails again.",-0.4215,negative
+HP Omen 17,looking for advice has anyone seen an rtx-series gpu that works fine externally but fails internally?,-0.5106,negative
+HP Omen 17,could a failing vram or edp transmitter cause intermittent cmos errors?,-0.6908,negative
+HP Omen 17,"is a gpu reball worth it on this board (l50873-006), or should i hunt for a replacement motherboard?",0.2263,positive
+HP Omen 17,any way to disable the internal panel entirely to speed up boot?,0.0,neutral
+HP Omen 17,any insights or similar experiences would really help.,0.4576,positive
+HP Omen 17,thanks for reading posting this so future omen owners facing half-dead gpus can find a full timeline too.,0.4404,positive
+HP Omen 17,i can't tell why it won't boot up connected to second monitor to see if display is not booting up.,0.0,neutral
+HP Omen 17,still nothing.,0.0,neutral
+HP Omen 17,also what is this disconnected,0.0,neutral
+HP Omen 17,"hey everyone, i'm using an hp omen 17-cm2003tx (specifications - 13th gen intel i7 13700hx, 16gb ddr5 ram, 1tb ssd, nvidia rtx 4060 laptop gpu windows 11) and i'm having serious issues with gpu switching through the omen gaming hub.",-0.0772,negative
+HP Omen 17,"there are two options: hybrid mode uses both integrated and discrete graphics depending on the app discrete mode uses only the dedicated gpu (better for gaming and heavy tasks) here s what's happening: --- in discrete mode: laptop runs fine for about a minute, but then screen flickering starts after a few flickers, the screen goes completely black and stays like that no recovery i have to manually shut down by holding the power button no blue screen appears, just flickering black screen hard crash happens even with light medium usage (not just gaming) --- in hybrid mode: the laptop works perfectly as long as i boot without the charger plugged in if i start the laptop with the charger plugged in, it gets stuck on a black screen after the omen logo then after a few minutes, it throws a blue screen usually: video tdr failure once booted, i can plug in the charger and everything works normally however, occasionally i experience random lags, and apps like video editors can freeze the laptop, sometimes leading to bsods like: video tdr failure dpc watchdog violation --- what i've done: tried both gpu modes multiple times updated gpu drivers and bios temps are normal not an overheating issue bsods only happen in hybrid mode, not in discrete mode discrete mode is currently completely unusable due to constant black screening (only happens when the charger is plugged in) --- question: has anyone else faced this issue?",-0.8766,negative
+HP Omen 17,"is it a driver bug, bios firmware issue, or a hardware problem (gpu or motherboard)?",-0.4019,negative
+HP Omen 17,any help or suggestions would be massively appreciated!,0.7424,positive
+HP Omen 17,last night i left my laptop screen open for a couple of hours to download a game update.,0.0,neutral
+HP Omen 17,"when i got back, the screen was full of lines.",0.0,neutral
+HP Omen 17,"i tried turning it off and on again, but the problem persists.",-0.5499,negative
+HP Omen 17,"it's as if the lines were a ""transfer"" of the images on the screen.",0.0,neutral
+HP Omen 17,(you can see some photos i took above) i tried connecting it to an external monitor and everything is visible perfectly.,0.6369,positive
+HP Omen 17,i checked all the drivers and they are updated.,0.0,neutral
+HP Omen 17,i ran the hardware diagnostic tool by hp and everything is working.,0.0,neutral
+HP Omen 17,"the only time this problem ""changes"" is when i go from 165hz to 60hz.",-0.481,negative
+HP Omen 17,"for 3 4 seconds it disappears, then the screen starts to flicker and the lines reappear.",-0.34,negative
+HP Omen 17,do you have any idea what the problem could be and if it can be solved by me easily?,0.2023,positive
+HP Omen 17,or do you recommend taking it to assistance?,0.3612,positive
+HP Omen 17,(warranty expired) thank you all for help,0.6369,positive
+HP Omen 17,"i found this hp omen 17 w122tx it's got a i7 6700hq paired with a gtx 1070 i saw a used deal for 400 , my current laptop is a avita that's at the end of its lifespan which i also bought at 400 brand new at 2018.",0.0,neutral
+HP Omen 17,1170 for a 4080 laptop but it's renewed and has 1 month warranty is it still worth it?,0.3291,positive
+HP Omen 17,i have an hp omen 17 laptop.,0.0,neutral
+HP Omen 17,"i bought it in september and was very happy with it, but today it suddenly shut down and gave a 30f error while playing fortnite, and then i noticed that it was overheating in games.",0.0378,neutral
+HP Omen 17,"it sees 87 degrees in minecraft, but there was no such situation yesterday.",-0.4215,negative
+HP Omen 17,"it suddenly started overheating, the fans are clean and the cooler is high.",0.4019,positive
+HP Omen 17,the room is not hot either.,0.0,neutral
+HP Omen 17,so what could have changed between yesterday?,0.0,neutral
+HP Omen 17,i can't find it.,0.0,neutral
+HP Omen 17,can you help?,0.4019,positive
+HP Omen 17,"i bought this laptop 2 years ago and never used it, moved it in a backpack couple of times.",0.0,neutral
+HP Omen 17,"when the screen supposed to be black but the backlight is on, some parts of the screen are very light and not really black.",0.0,neutral
+HP Omen 17,"i made a photo, but on the photo there are colors.",0.0,neutral
+HP Omen 17,"my eyes see it a white light ""stains"" on the black screen.",0.0,neutral
+HP Omen 17,does it mean i need screen replacement?,0.0,neutral
+HP Omen 17,or can i fix it with some settings or any other way?,0.0,neutral
+HP Omen 17,"i also attched the photo of screen of the omen laptop when the screen is not black (my eyes don't see any ""stains"" that way, or in a windows menu) and a black screen of my old hp laptop for comparison (it is 10 years old, but white ""stains"" are much less white, i see it as almost perfectly black.",0.7477,positive
+HP Omen 17,which one is best for - 3d animation - 2d animation - typing,0.6369,positive
+HP Omen 17,"hi guys, i have an hp omen 17 (17-cm2076ng) with 13700hx and i just found these specs sheet.",0.0,neutral
+HP Omen 17,"it says that my laptop, unlike the i9 17-ck2xxx, have a thunderbolt 3 port 40gbps, but right after says with usb-c 10gbps .",0.0,neutral
+HP Omen 17,does this mean that if not used with thunderbolt devices the port is a normal usbc 10gbps?,0.0,neutral
+HP Omen 17,i thought that every thunderbolt 3 port was also usb4 40gbps.,0.0,neutral
+HP Omen 17,in fact in the description of the i9 variant it just says thunderbolt 4 with usbc 40gbps so i assume that the port is tb4 and usb4 at the same time.,0.0,neutral
+HP Omen 17,"hey everyone, thinking of picking up the hp omen 17-db0277ng for 999. specs: cpu: amd ryzen 7 8845hs gpu: nvidia rtx 4060 (laptop) ram: 16gb ddr5 storage: 512gb ssd display: 17.3"" fhd, 144hz, ips battery: 83wh ports: hdmi 2.1, usb-c w dp pd, 3x usb-a, rj45, audio jack weight: 2.95kg",0.0,neutral
+HP Omen 17,hi reddit!,0.0,neutral
+HP Omen 17,"i'm based in eu and looking for a gaming laptop for 16yo around 1500-1600 (primary use: gaming, multimedia; secondary: programming, 3d design).",0.0,neutral
+HP Omen 17,"1. his selection so far is the asus rog strix g16 (g614jir): i9-14900hx 16"" 2560x1600,240hz,500nits 32gb 1tb ssd rtx 4070 - 1760 is the cheapest i can find this config.",0.0,neutral
+HP Omen 17,is this a good investment for the next 4-5 years?,0.4404,positive
+HP Omen 17,"2. i found a black friday deal on dell g16 - i9-13900hx 16"" 2560x1600,240hz 32gb 1tb ssd rtx 4070 - for 1480 .",0.0,neutral
+HP Omen 17,"how does the dell compare against rog in real-world scenario, since the performance on paper seems on par.",0.0,neutral
+HP Omen 17,"i'm aware of the added gamer aesthetic of the rog series, which might play a big role for him :-) 3. i also came across some demo pieces online for hp omen 17 - core i7 13700hx 1.50 ghz, 32 gb, 1024 gb ssd, nvidia geforce rtx 4080 12gb, 17.3 "" 2560 x 1440 px 240hz, also the same specifications for another omen 16 model.",0.5719,positive
+HP Omen 17,the price for each of these demo pieces is between 1550-1600 .,0.0,neutral
+HP Omen 17,i can choose one with i9-13900hx for 1900 (is i9 such a significant improvement for laptops btw?).,0.5859,positive
+HP Omen 17,the store seems established and offers normal warranty.,0.0,neutral
+HP Omen 17,"i believe 4080 is a big improvement over 4070, according to the forums at least.",0.4588,positive
+HP Omen 17,"however, i have never bought a demo piece, so i do not know if the trade-off (?)",0.0,neutral
+HP Omen 17,is worth the benefits.,0.5423,positive
+HP Omen 17,"i'm not a gamer myself, and have primarily used thinkpads so far.",0.0,neutral
+HP Omen 17,"between option 1 and 2 above, asus vs dell, what do you guys recommend?",0.3612,positive
+HP Omen 17,how does option 3 stack up against the rest?,0.0,neutral
+HP Omen 17,thoughts?,0.0,neutral
+HP Omen 17,recommendations?,0.0,neutral
+HP Omen 17,any other good laptop deals in this price range?,0.4404,positive
+HP Omen 17,thank you all very much!,0.4199,positive
+HP Omen 17,"hello, i'm looking for a new pc and this one caught my eye, being a 4090 mobile an i9 for a relatively low price all things considered.",-0.2732,negative
+HP Omen 17,i can get it for 2299 from microcenter.,0.0,neutral
+HP Omen 17,"in reading reviews that i could find about this model, one of the main issues was with the screen.",0.0,neutral
+HP Omen 17,"i currently have an omen 15, which seems to have a similar 300 nit screen which i have no issues with.",-0.296,negative
+HP Omen 17,"additionally, most of the time, i use my laptop as a desktop at home, plugged into a monitor and external keyboard setup.",0.0,neutral
+HP Omen 17,"regarding games, i'm mostly fine with 1080 p, and tend to prefer high fps over high visual quality.",0.2023,positive
+HP Omen 17,i come from a background of competitive csgo so i prefer to often have things on low.,-0.1027,negative
+HP Omen 17,does anyone have this laptop?,0.0,neutral
+HP Omen 17,how has your experience been with it?,0.0,neutral
+HP Omen 17,i would like something that can last me a fair amount of time (at least the next 4-5 years.),0.5859,positive
+HP Omen 17,thanks!,0.4926,positive
+HP Omen 17,"the omen 17 has an rtx 4080 and an i7-13700hx, with 32gb ram for 1848. the rog strix has an rtx 4080, an i9-13980hz and 16gb ram (upgradable) for 2015. i'm wondering if anyone has knowledge of experience with these laptops, and if they could recommend one over the other?",0.3612,positive
+HP Omen 17,"i care about gaming performance, longevity, something that would be appropriate in an office, a good screen and good thermals.",0.8402,positive
+HP Omen 17,i'm looking at pre-bf deals and need your suggestions in choosing between the two of these.,0.0,neutral
+HP Omen 17,i haven't owned a lenovo or hp machine until now.,0.0,neutral
+HP Omen 17,"priority: gaming performance, durability and longevity.",0.0,neutral
+HP Omen 17,omen is at 1650 while legion will be at around 1300.,0.0,neutral
+HP Omen 17,you can read my previous post here: i'm almost 100 decided to go with the hp omen 17 now (with custom upgrades) due to the price having fallen and apparently being seemingly much lower for the same specs currently (if you now a reason not to please tell).,-0.687,negative
+HP Omen 17,"the only thing is factory customization only goes up to 2tb ssd and i need at least 4. i couldn't find any information on their site (even talked to a sales rep who knew nothing and gave evasive answers), on whether it has 1 or 2 m2 nvme slots, and whether if i order the 2tb model it comes as 1x1tb or 2x2tb, i need to be sure before buying so i can do aftermarket expansions.",0.3182,positive
+HP Omen 17,anyone here has that laptop or knows that info?,0.0,neutral
+HP Omen 17,"my other option would be the new xps 17 laptop, which allows for more options for customization, but it seems to be a lot more expensive for an inferior cpu (i9-13900h for xps vs i9-13900hx for omen), the only advantage (for same specs, xps can go higher in ram and ssd) seems to be the higher definition screen, which isn't a must really.",-0.2617,negative
+HP Omen 17,"also, anyone knows the main differences between ""realtek wi-fi 6e (2x2) and bluetooth 5.3 compatible combo (supporting gigabit data rate)"" and ""intel wi-fi 6e ax211 (2x2) and bluetooth 5.3 wireless card"" and which one plays nicer with linux?",0.5994,positive
+HP Omen 17,i'm open to other suggestions of course.,0.0,neutral
+HP Omen 17,"basically what the title says, not sure which one to get as the msi is 1000 and the hp omen is 1200. msi has 4060 and i7-12650h and omen has 3070ti with i7-12700h ( all other specs fairly similar) i've heard very good reviews for the omen laptops but more towards mixed for the katana.",0.157,positive
+HP Omen 17,the quality of the screen isn't that big of a problem to me but it is a plus that i'll consider.,-0.2144,negative
+HP Omen 17,any help would be appreciated.,0.7184,positive
+HP Omen 17,laptop questionnaire x200b; total budget (in local currency) and country of purchase.,0.0,neutral
+HP Omen 17,please do not use usd unless purchasing in the us: 1200 -1600 usd are you open to refurbs used?,0.3182,positive
+HP Omen 17,"no how would you prioritize form factor (ultrabook, 2-in-1, etc.",-0.296,negative
+HP Omen 17,"), build quality, performance, and battery life?",0.0,neutral
+HP Omen 17,"not worried about form factor, would sacrifice look portability for sturdier build quality with higher capacity battery how important is weight and thinness to you?",0.3995,positive
+HP Omen 17,"not important, can be thick and heavy do you have a preferred screen size?",-0.1511,negative
+HP Omen 17,"if indifferent, put n a.",-0.2023,negative
+HP Omen 17,16:10 1440p are you doing any cad video editing photo editing gaming?,0.0,neutral
+HP Omen 17,list which programs games you desire to run.,0.4019,positive
+HP Omen 17,"primarily programming(vms, compiling etc), occasional gaming if you're gaming, do you have certain games you want to play?",0.5859,positive
+HP Omen 17,at what settings and fps do you want?,0.0772,positive
+HP Omen 17,"satisfied with 60-120 hertz on older games, not planning to play any new last gen aaa games any specific requirements such as a good keyboard, reliable build quality, touch-screen, finger-print reader, optical drive, or good input devices (keyboard touchpad)?",0.7625,positive
+HP Omen 17,"ability to upgrade ram and rom, 16:10 screen which is preferably higher than fhd (although i would take a 16:9 with a higher resolution than fhd), type-c pd to charge the laptop, if it has discrete graphics, then a mux switch along with the ability to turn down the graphics card and use onboard graphics to conserve battery leave any finishing thoughts here that you may feel are necessary and beneficial to the discussion.",0.743,positive
+HP Omen 17,"i have narrowed down my search to the following options, let me which of them should i consider and if there is any other option i should be looking at.",0.0,neutral
+HP Omen 17,"x200b; hp omen 17-ck1020nr 17.3"" gaming laptop computer - black intel core i7 12th gen 12700h 1.7ghz processor; nvidia geforce rtx 3070 ti 8gb gddr6; 16gb ddr5-4800 ram; 512gb solid state drive ( at usd 1199 1099 or lenovo legion pro 5 16"" gaming laptop computer platinum collection - onyx grey intel core i7 13th gen 13700hx 1.5ghz processor; nvidia geforce rtx 4070 8gb gddr6; 32gb ddr5-4800 ram; 1tb solid state drive ( at usd 1499 then omen has i believe a 150w 3070ti while the legion has a 140w 4070. in terms of cpu gpu, there might be a 5 to 10 overall increase in performance in some cases but maybe just the same performance in other cases also, the legion has a full-size keyboard with a taller screen which is better for work-related stuff.",0.7351,positive
+HP Omen 17,"also for the selected configurations at the given price, the legion has twice the amount of ram and storage.",0.0,neutral
+HP Omen 17,x200b; edit: the price of the omen just dropped to 1099,0.0,neutral
+HP Omen 17,as the title say's i wanto to buy an hp omen 17-ck1065cl i7-12700h 32 gb ram- ddr5 1tb ssd nvidia rtx 3070 ti i need it for games and for unreal engine 5 anyonea knows how good is it?,0.4404,positive
+HP Omen 17,or has any references?,0.0,neutral
+HP Omen 17,looks like a powerful notebook.,0.6486,positive
+HP Omen 17,but i didn't see it on the top 10 ratings thanks,0.7227,positive
+HP Omen 17,"ordered an hp omen 17"" (best value) during black friday sales.",0.0,neutral
+HP Omen 17,paid for a huge headache and a expensive brick.,0.3182,positive
+HP Omen 17,"to start, order was delayed for 2.5 weeks from when it was supposed to arrive, when i planned to use it for a big work presentation.",-0.2263,negative
+HP Omen 17,"once i received the computer had plenty of bloatware, figured was par the course for a new laptop.",0.0,neutral
+HP Omen 17,however within the first hour bluescreened due to a faulty graphics card attachment.,-0.0258,neutral
+HP Omen 17,"the system recovery attempted to repair afterwards, but this ended up corrupting the os.",0.0,neutral
+HP Omen 17,"this permanently rendered windows 10 unactivated and lost me a full purchase of the office suite, which was already registered to the os.",-0.3182,negative
+HP Omen 17,"called hp tech support, got forwarded to red herrings and purchase traps when my product was under warranty at less than 4 days old.",0.4019,positive
+HP Omen 17,"one guy even told me that i should call a ""special"" number that after i hung up turned out to be the call center itself so i ended up repeating the whole process.",0.0772,positive
+HP Omen 17,"after two days of spending time on hold, and weeks waiting for what should have been a thrilling gaming experience, wanted to make sure none of you make the same mistake.",0.4588,positive
+HP Omen 17,"ama, also let me know what you'd buy if i ever get back my purchase money.",0.0,neutral
+HP Omen 17,help me decide!,0.4574,positive
+HP Omen 17,specs mostly the same in both.,0.0,neutral
+HP Omen 17,"intel i7 12700h, 3070ti, 32gb ddr5 ram, 2 tb gen 4 ssd, 1440p screens.",0.0,neutral
+HP Omen 17,priced almost the same.,0.0,neutral
+HP Omen 17,"msi would come with 4 year asurion protection plan, hp would come with 3 year hp support protection plan.",0.4019,positive
+HP Omen 17,msi has a better webcam (1080) and the hp has 720p webcam.,0.4404,positive
+HP Omen 17,what do you think?,0.0,neutral
+HP Omen 17,anyone have experience with either?,0.0,neutral
+HP Omen 17,"they would be used for music production, some video and website editing, and some gaming.",0.0,neutral
+HP Omen 17,"need whichever one i get to last at least 5 years hopefully, so build quality matters to me.",0.4703,positive
+HP Omen 17,all opinions welcome!,0.5093,positive
+HP Omen 17,"hello, i recently ordered an hp laptop through costco ( for 1679. i plan on using this laptop mostly for games like elden ring but also do a decent amount of math involving large matrices.",0.1901,positive
+HP Omen 17,so my question is which one do y'all think is better and which one should i return?,0.4404,positive
+HP Omen 17,they seem very comparable but the rated 130w gpu on the gigabyte has me leaning that way.,0.0,neutral
+HP Omen 17,any thoughts are appreciated.,0.5106,positive
+HP Omen 17,specs are below.,0.0,neutral
+HP Omen 17,"hp omen 17.3"" gaming laptop 12th gen intel core i7-12700h geforce rtx 3070 ti (2560 x 1440) 165hz - windows 11 16gb ddr5 4800mhz ram 1tb pcie nvme m.2 solid state drive gigabyte: nvidia geforce rtx 3070 ti laptop gpu 8gb gddr6, boost clock 1410 mhz, maximum graphics power 130 w 12th gen intel core i7-12700h (2.3ghz 4.7ghz) ddr4 3200 8gb 2, 2x ddr4 slots 1tb ssd 17.3"" thin bezel fhd 1920x1080",0.5106,positive
+HP Omen 17,i'm leaning toward hp omen 17 laptop (see comment at bottom).,0.0,neutral
+HP Omen 17,total budget 1000 - 1700 are you open to refurbs used?,0.0,neutral
+HP Omen 17,"- yes, i'm open to refurbs if a good guarantee is provided but, from my observations, people aren't enthusiastic about refurbs.",-0.0366,neutral
+HP Omen 17,"how would you prioritize form factor (ultrabook, 2-in-1, etc.",0.0,neutral
+HP Omen 17,"), build quality, performance, and battery life?",0.0,neutral
+HP Omen 17,"1a) build quality 1b) screen size 2) keyboard quality i'm not sure how i should value performance, the computer that i'm replacing is ancient, so a 10 year newer computer should be sufficient but this old computer, unlike the new computer, my current computer isn't being used for software development.",0.0565,positive
+HP Omen 17,how important is weight and thinness to you?,0.2023,positive
+HP Omen 17,weight and thinness makes no difference to me do you have a preferred screen size?,-0.296,negative
+HP Omen 17,"if indifferent, put n a. i want a 17"" screen are you doing any cad video editing photo editing gaming?",-0.128,negative
+HP Omen 17,list which programs games you desire to run.,0.4019,positive
+HP Omen 17,"none if you're gaming, do you have certain games you want to play?",0.5859,positive
+HP Omen 17,at what settings and fps do you want?,0.0772,positive
+HP Omen 17,none.,0.0,neutral
+HP Omen 17,"any specific requirements such as good keyboard, reliable build quality, touch-screen, finger-print reader, optical drive or good input devices (keyboard touchpad)?",0.7003,positive
+HP Omen 17,i want a good keyboard and touchpad.,0.4939,positive
+HP Omen 17,leave any finishing thoughts here .,-0.0516,negative
+HP Omen 17,apart from the usual browser and youtube use: the computer will be used for sqlserver and r development.,0.0,neutral
+HP Omen 17,i use evernote.,0.0,neutral
+HP Omen 17,i observe very poor performance from evernote and i'm hoping that the new computer will obvate the need to move to a different notetaking system.,-0.1513,negative
+HP Omen 17,"i'm leaning toward an hp omen 17 laptop, ie",0.0,neutral
+HP Omen 17,both laptops have nearly same components.,0.0,neutral
+HP Omen 17,"both have i7 11800h and rtx 3070. i am a ""gamer"" and an engineer.",0.0,neutral
+HP Omen 17,which one would you suggest and why?,0.0,neutral
+HP Omen 17,i don't care about looks.,-0.3875,negative
+HP Omen 17,"i only care about performance, long term usability.",0.4939,positive
+HP Omen 17,x200b; total budget (in local currency) and country of purchase.,0.0,neutral
+HP Omen 17,please do not use usd unless purchasing in the us: .,0.3182,positive
+HP Omen 17,are you open to refurbs used?,0.0,neutral
+HP Omen 17,"no how would you prioritize form factor (ultrabook, 2-in-1, etc.",-0.296,negative
+HP Omen 17,"), build quality, performance, and battery life?",0.0,neutral
+HP Omen 17,performance is top priority how important is weight and thinness to you?,0.3818,positive
+HP Omen 17,not important do you have a preferred screen size?,-0.1511,negative
+HP Omen 17,"if indifferent, put n a.",-0.2023,negative
+HP Omen 17,"17"" is preferred are you doing any cad video editing photo editing gaming?",0.0,neutral
+HP Omen 17,list which programs games you desire to run.,0.4019,positive
+HP Omen 17,"cad, python, matlab, c , deep leaning algorithms, image processing, gaming.",0.0,neutral
+HP Omen 17,"if you're gaming, do you have certain games you want to play?",0.5859,positive
+HP Omen 17,at what settings and fps do you want?,0.0772,positive
+HP Omen 17,ultra-60fps is enough for me for most recent games.,0.0,neutral
+HP Omen 17,"any specific requirements such as good keyboard, reliable build quality, touch-screen, finger-print reader, optical drive or good input devices (keyboard touchpad)?",0.7003,positive
+HP Omen 17,none leave any finishing thoughts here that you may feel are necessary and beneficial to the discussion.,0.4675,positive
+HP Omen 17,hello everyone!,0.0,neutral
+HP Omen 17,"my wife's ge75 raider recently fried to a crisp, so i am trying to find a replacement laptop for her.",0.0,neutral
+HP Omen 17,we are gamers and want a good laptop to be able to play on when we have to travel for work at times.,0.6808,positive
+HP Omen 17,we are big costco shoppers and i am trying to decide between two laptops they have on sale right now.,0.0,neutral
+HP Omen 17,"ge76 raider - 1299.99 - i7 11800h, rtx3060, 16gb ddr4 3200mhz ram x200b; hp omen 17 - 1599.99 - i711800h, rtx 3070, 16gb ddr4 3200mhz ram pretty similar in specs except for the graphics card.",0.4939,positive
+HP Omen 17,"i don't mind that the omen is more, but i have always heard hp to not be a good brand for gaming laptops.",-0.4782,negative
+HP Omen 17,"at the same time, my ge75 had cooling issues, so i'm worried the ge76 will have the same thing?",-0.3566,negative
+HP Omen 17,any help would be appreciated!,0.7424,positive
+HP Omen 17,"ck0088tx 3080 16gb, 11th gen i7-11800h 2.3ghz, 32gb ram 1tb i bought it in 2022 and it's really well looked after with no scratches and the battery full charge is 72,525 83,028mwh.",0.0498,neutral
+HP Omen 17,it's australian but live in uk now.,0.0,neutral
+HP Omen 17,thank you,0.3612,positive
+HP Omen 17,"so, i'm in need of a new gaming laptop and, at the moment, i'm basically limited to this one option in the market - unless i wait longer to see what else comes up.",-0.2263,negative
+HP Omen 17,"info: model: hp omen 17-db1002ne gaming laptop price: bhd 799.9 , or (usd) 2,109.08 (converted from bhd) , or gbp 1,540.07 (converted from bhd) main specs: ram: 32 gb display size: 17.3"" (need the extra screen space for architectural design and gaming).",0.0,neutral
+HP Omen 17,"graphics card: nvidia geforce rtx 5070 (8 gb) storage: 1 tb ssd i did ask around here on reddit about the rtx 5070 (8gb) and i understand from the responses i got that for aaa gaming, it's not exactly enough - except maybe for fulfilling minimum system requirements.",0.5574,positive
+HP Omen 17,"i'm only interested in playing games like the sims 2 (all dlcs) , the sims 3 (all dlcs) and tomb raider games.",0.7184,positive
+HP Omen 17,"plus, i need it for any architectural urban design work.",0.0,neutral
+HP Omen 17,"with tomb raider, the two games that were recently announced (tr: legacy of atlantis and tr: catalyst) will be on unreal engine 5, which i understand is an engine that is quite extremely demanding.",-0.3551,negative
+HP Omen 17,"so, i suppose i'm willing to forgo playing those two games if need be.",0.2023,positive
+HP Omen 17,"so, is this hp omen 17-db1002ne gaming laptop worth it for bhd 799.9 , or (usd) 2,109.08 , or gbp 1,540.07 ?",0.2263,positive
+HP Omen 17,would appreciate any advice or feedback!,0.4574,positive
+HP Omen 17,thanks!,0.4926,positive
+HP Omen 17,hp omen 17 rtx4070 ruzen7 8845hs 16gb ram 1tb ssd do i go for it or is the price too low.,-0.2732,negative
+HP Omen 17,im afraid there is something wrong with the laptop,-0.4767,negative
+HP Omen 17,"something i didn't think about much in the past 2 year of owning my laptop as i play mostly older games (wow gw2), but it came up recently as i started playing nioh3.",0.4404,positive
+HP Omen 17,"i know, this game has an opinion of not having the best optimisation, but i started doing some research and used msi afterburner and some benchtests.",-0.0987,negative
+HP Omen 17,"my gpu is running from 1500mhz at the begining, and then getting to and circling at around 800-1000 for the rest of the bench, and it quite fast reaches 88-89 and stays at those temps.",0.1226,positive
+HP Omen 17,am i missing something?,-0.296,negative
+HP Omen 17,people seem to post way better results for this configuration.,0.4404,positive
+HP Omen 17,"i have iets cooling pad, sure there is performance difference between turning this pad on and off i did clean the laptop inside recently, so my next bet is replacing thermal paste, or ""it is what it is"" for gaming laptops?",0.6124,positive
+HP Omen 17,hp omen 17 i7-12700h 32gb rtx3070ti,0.0,neutral
+HP Omen 17,"pretty much what the title says bought a hp omen 17-db1006nr 17.3 for 1,400 about 2 weeks ago to replace my bricked 2022 legion 5 and haven't exactly been impressed.",0.1645,positive
+HP Omen 17,"today's the last day to return it and i noticed the same store now has the msi vector 18'' on sale for 1,700 with the 5070ti.",0.0,neutral
+HP Omen 17,"supposedly the difference between the 5070 and ti is like 33 in performance, but i'm worried about longevity and build quality since i never owned a msi, whats your opinion?",-0.2617,negative
+HP Omen 17,"5500 ron after voucher 1080 eur, 1270 usd",0.0,neutral
+HP Omen 17,"my laptop is maxed out btw, i'm more just worried that they advertise this as a freesync monitor and not a gsyn monitor even though it does seem to be compatible with both.",-0.3566,negative
+HP Omen 17,"here's the link jlink 34"" ultrawide curved gaming monitor, 165hz 128 srgb, rgb led breathing mood light, wqhd 1500r computer monitor, hdr freesync g-sync va panel, 1ms mprt, pip pbp kvm, hdmi dp type-c usb : amazon.ca: electronics (",0.0,neutral
+HP Omen 17,they gave me a hp omen 17 w210nd and i wanted to upgrade the ram.,0.0,neutral
+HP Omen 17,16gb or 32gb which ram is good for this laptop?,0.4404,positive
+HP Omen 17,hp omen-17 2019 model: 17-cb0006na product should still have 30 months of warranty.,0.0,neutral
+HP Omen 17,"so this happened today, laptop was completely fine yesterday - i always keep it plugged in as its like my primary computer; put it on sleep mode and close the lid.",0.5563,positive
+HP Omen 17,"i had it on sleep mode over night, opened the lid the lights on the keyboard turned off.",0.0,neutral
+HP Omen 17,did the usual - power off - reset - but still absolutely nothing.,0.0,neutral
+HP Omen 17,only red led light on the power button shows up.,0.0,neutral
+HP Omen 17,(in fact the fans don't even spin).,0.0,neutral
+HP Omen 17,"after several trouble shoot using both the ""virtual assistant"" as well as help from community from other users.",-0.0772,negative
+HP Omen 17,"i've performed these fixes so far: -taken off battery -powered off 10s, powered back on - still nothing.",0.0,neutral
+HP Omen 17,"-figured it must be a ram issue, tried taking all of them off, rearranging, still nothing.",0.0,neutral
+HP Omen 17,- tried win b power - still nothing.,0.5859,positive
+HP Omen 17,i have tried absolutely every possible trouble shoot that i can do without breaking my warranty.,-0.6557,negative
+HP Omen 17,i think i may have to send this into hp physically and get it repaired.,0.0,neutral
+HP Omen 17,"but before i do that, i need help from the community.",0.5499,positive
+HP Omen 17,"note: the laptop never indicated any sign of fault ever before; it performed perfectly well, never overheated, never had any form of issue, this is the first time i had to take off the back.",0.5574,positive
+HP Omen 17,"hello, i'd like some help with building my first pc.",0.6369,positive
+HP Omen 17,"currently i have an hp omen 17 laptop with intel core i7-11800h, 16gb ram, and a geforce 3070 8gb laptop gpu.",0.0,neutral
+HP Omen 17,"my primary use is gaming, but of course different games have different requirement.",0.0,neutral
+HP Omen 17,"and the relevant context here is this: i don't think that i have ever maxed out my gpu for any game i have ever played (though the sims 4 comes close, at 84 sometimes).",0.34,positive
+HP Omen 17,however.,0.0,neutral
+HP Omen 17,"loading into my main save on planet zoo immediately almost maxes out my ram and cpu, and sometimes there will be instances where instead of fps i have spf.",0.4939,positive
+HP Omen 17,"i have been looking at gaming laptops that i could buy from local retailers, but it's occurred to me before, and now again, that building a pc would be cheaper long term, as i would be able to upgrade or replace individual parts instead of having to get a whole new machine every time.",0.0,neutral
+HP Omen 17,"i have never built a pc before and haven't used one at home in 13 years, so while i'm familiar with general specs, i'm a bit lost on the specifics of how to pick compatible parts, so that i don't end up with one part so weak it slows down the whole build, or another so strong the rest of the build can't keep up.",-0.2023,negative
+HP Omen 17,"i did some research over what's at least available for me to buy, and to have somewhere to start with the parts, but with a few parts i'm a bit lost.",-0.4497,negative
+HP Omen 17,"my budget, including the price for a monitor is about 2300 .",0.0,neutral
+HP Omen 17,"i'm aware that currently ram and gpus are prohibitively expensive, but it is what it is - i would actually like to get all the parts and build my new pc within 3 weeks.",0.5023,positive
+HP Omen 17,"that said: i know i want 32gb ram, and a 2tb ssd, and i've mostly settled on getting a geforce rtx5070 gpu.",0.0772,positive
+HP Omen 17,"i used pcpartspicker to try and put together a build, and that at least ensures that the parts i pick will physically connect, but of course having another persons help will be much more reassuring.",0.8196,positive
+HP Omen 17,"for the stats i know i want, i've tentatively settled on the following parts: corsair vengeance rgb 32 gb (2 x 16 gb) ddr5-6000 cl36 memory ( samsung 990 pro 2 tb m.2-2280 pcie 4.0 x4 nvme solid state drive ( asus dual oc geforce rtx 5070 12 gb video card ( i am somewhat concerned about the 12gb vram becoming an issue, and so i was considering getting an rtx 5060ti 16gb card instead, but would that actually give me worse performance?",-0.5719,negative
+HP Omen 17,"i will probably be buying this case: darkflash dk352 atx mid tower case ( pcpp does not actually have the monitor i will be getting, but this one has the same specs: gigabyte gs27qca 27.0"" 2560 x 1440 180 hz curved monitor ( and this psu seems like it should match all my needs for a good while: asus tuf gaming 750g 750 w 80 gold certified fully modular atx power supply ( the rest of the parts are where i get much less certain of my choices.",0.8523,positive
+HP Omen 17,"currently the game i want to play is being most throttled by the cpu (the game is poorly optimized, but still), and so i thought i should get a fairly powerful one.",0.7615,positive
+HP Omen 17,"the problem is, all 3 of the laptops i've had, have had intel cpus, and i've read that those tend to output more heat, and seem to be more expensive in general, but i have no idea how to evaluate an amd cpu.",-0.5647,negative
+HP Omen 17,"for the purposes of seeing the build compatibility, i've selected the amd ryzen 7 9850x3d 4.7 ghz 8-core processor ( on pcpp.",0.0,neutral
+HP Omen 17,is that a good choice?,0.4404,positive
+HP Omen 17,overkill?,0.0,neutral
+HP Omen 17,or would it underperform?,0.0,neutral
+HP Omen 17,"then we come to the motherboard, and here is where what i know runs out.",0.0,neutral
+HP Omen 17,"for part of the building process on pcpp, i was looking at the build of someone with a similar budget, that they had shared on a different reddit, and so i did a bit of a 'can i copy your homework' and put the same motherboard into my build: asus prime x870-p wifi atx am5 motherboard ( but i also read a review that said that it's lacking in some useful features like diagnostic lights, which i think i would want.",0.85,positive
+HP Omen 17,"pcpp also produced a warning about the the motherboard potentially not coming with bios up to date enough to run the cpu, and i don't have another cpu which i could connect for the update, would that be an insurmountable issue?",-0.34,negative
+HP Omen 17,would i be able to bring the motherboard into our local repair shop and ask them to update the bios?,0.0,neutral
+HP Omen 17,"and finally, what kind of fans should i get for cooling, and would one be enough?",0.0,neutral
+HP Omen 17,"if not, then how many should i be getting?",0.0,neutral
+HP Omen 17,"i would welcome suggestions for substitutions that would still be sufficient for my purposes but would cost less, or that you think would work together better, or would make upgrades easier in the future!",0.8702,positive
+HP Omen 17,"though if everything else fits together fine, then i'd really like suggestions on what to do about the motherboard and cooling fans?",0.5563,positive
+HP Omen 17,"tl;dr: what motherboard would best serve to tie my build together, and how many fans do i need?",0.6369,positive
+HP Omen 17,the pcpp list for easier viewing: thank you to anyone who took the time to read and respond to this very long post.,0.6486,positive
+HP Omen 17,hi guys.,0.0,neutral
+HP Omen 17,my laptop recently died which was a 2016 hp omen 17 with 7700hq and gtx 1070m.,-0.5574,negative
+HP Omen 17,"as i needed something to do photo editing on and wanted to do some gaming, while being aware that we are very close to the release of zen 3 and ampere, i decided to buy the 3300x and a 1660 super as ""placeholder"" or ""temporary"" solutions.",0.6808,positive
+HP Omen 17,holy crap i was not expecting these levels of performance either in productivity or gaming at 1440p!,-0.4389,negative
+HP Omen 17,"my full rig is: msi unify x570 - 300 (managed to randomly find a batch in stock at amazon uk) amd 3300x - 120 gainward 1660 super - 230 32gb g.skill trident z neo 3600 - 215 (no issues, runs great) 2tb adata sx8200 pro ssd - 290 (1tb wasn't enough on my laptop with all my games mods and this will last me ages) bequiet!",0.6588,positive
+HP Omen 17,"500dx - 100 (awesome case, runs cool, comes with 3 fans and is very well designed) seasonic focus gx850 - 120 (amazing psu for the money and will handle any upcoming cpu and gpu) this rig chews through every gaming or productivity task (mostly lightroom with many 42mp photos) i have thrown at it and it is seriously impressive how much processing performance 120 on a cpu gets you nowadays.",0.6876,positive
+HP Omen 17,"the msi x570 unify is a little more than i wanted to spend on a mobo, but the msi x570 tomahawk was out of stock everywhere and i am ok with paying an extra 50 if it means actually being able to build my pc and not wait for weeks until they arrive.",0.4215,positive
+HP Omen 17,it's very well-featured but has a learning curve after so long using laptops so i am now learning the settings etc.,0.0,neutral
+HP Omen 17,the 1660 super is so tiny yet packs in so much performance that it has really pleasantly surprised me.,0.8581,positive
+HP Omen 17,i haven't yet tried a ton of games but total war warhammer 2 and witcher 3 redux (graphically stunning) run smooth as butter at 1440p with all details maxed out vs my old laptop and the minimum framerates are great (yes i know they are not the newest games).,0.0772,positive
+HP Omen 17,"the scythe mugen 5 cooler is a very strong performer and my cpu maxes out on boost to 4.35ghz easily, meaning that i haven't yet seen the need to mess around with overclocking, although i may try undervolting soon to lower thermal output.",0.6115,positive
+HP Omen 17,the be quiet!,0.0,neutral
+HP Omen 17,500dx is such a well-designed high airflow mesh case that was a cinch to build in with excellent cable management and it look great.,0.8316,positive
+HP Omen 17,"it runs cool and comes with 3 fans, although i may change these for pwm later.",0.3182,positive
+HP Omen 17,the rest of the components all seem very high quality and i think i made good choices in terms of price performance.,0.4404,positive
+HP Omen 17,i needed a high capacity ssd and the seasonic focus gx850 psu just feels way more expensive than its price-point suggests.,0.0,neutral
+HP Omen 17,"so yeah, in summary i got the 3300x and 1660 super as ""temporary placeholders"" for when zen3 and ampere arrive, but the performance they give both generally and while gaming really has a kick to it and these components would make a very competent budget gaming build if you put them into a rig with lower overall specs.",0.4653,positive
+HP Omen 17,hey !,0.0,neutral
+HP Omen 17,"i'm looking to upgrade the ram in my laptop (hp omen 17-cb series, i5-9300h) and i could use some advice.",0.0,neutral
+HP Omen 17,"my system currently runs ddr4 at 2666 mhz, and i want to upgrade to 32gb (2 16gb).",0.0772,positive
+HP Omen 17,"i found this one for 40 bucks on internet, but i don't know if it's really a good choice - kingston technology kcp426ss8 thanks so much.",0.8458,positive
+HP Omen 17,"hey buildapc, my but i'm not sure how to get there.",-0.3491,negative
+HP Omen 17,"part name price (cad) :- :- :- cpu intel core i5-13600k 3.5 ghz 14-core processor 278.98 cpu cooler thermalright phantom spirit 120 se argb 6.17 cfm cpu cooler 79.89 motherboard msi b760 gaming plus wifi atx lga1700 194.99 memory patriot viper venom 16 gb (2x8 gb) ddr5-5200 cl36 memory 67.98 storage teamgroup ax2 2 tb 2.5"" ssd 114.99 video card asus dual oc radeon rx 7800 xt 16 gb video card ( case antec performance 1 ft argb atx full tower case 176.00 power supply seasonic focus gx 750w 80 gold certified modular atx power supply 185.00 operating system windows 11 home oem 149.50 monitor samsung odyssey neo g75nb 32.0"" 3840 x 2160 160 hz curved monitor 1017.37 changelog: part change cost change :- :- :- operating system removed windows (i'll just get it from a usb and buy a key) - 149.50 motherboard was msi pro z790-p wifi atx lga1700 ( 216.73), now msi b760 gaming plus wifi atx lga1700 ( 194.99) - 22.74 video card was gigabyte gaming oc radeon rx 7800 xt 16 gb video card ( 679.99), now - 45.00",0.1779,positive
+HP Omen 17,hi all!,0.0,neutral
+HP Omen 17,"right now i've got an hp omen 17 laptop with a 3070 gpu, 16 gb ram, i7-11800h, and 1tb nvme storage.",0.0,neutral
+HP Omen 17,although it has been great for me for a few years i'm more often having to run things at medium settings with dlss enabled to get performance that i'm looking for.,0.6249,positive
+HP Omen 17,i'm looking to get a desktop and then sell off my laptop to recoup some of the cost.,0.0,neutral
+HP Omen 17,"i'll still be using my computer primarily for gaming and some games i play are baldurs gate 3, returnal, fortnite, rocket league, and some gamepass games like riders republic and forza.",0.5994,positive
+HP Omen 17,my monitor is 3440x1440 and primarily where i'll play.,0.34,positive
+HP Omen 17,i wanted something that was portable enough to move between my office area and my living room and thought a smaller build might be best.,0.6369,positive
+HP Omen 17,i'd prefer to do amd over intel and nvidia for budget reasons but am not totally married to one brand over the other.,0.0,neutral
+HP Omen 17,i've conjured up the parts below and wasn't sure if this was good - any feedback is welcome.,0.6044,positive
+HP Omen 17,thank you!,0.4199,positive
+HP Omen 17,"pcpartpicker part list ( type item price :- :- :- cpu amd ryzen 7 7700x 4.5 ghz 8-core processor ( amazon cpu cooler thermalright peerless assassin 120 se 66.17 cfm cpu cooler ( amazon motherboard asrock b650m pro rs wifi micro atx am5 motherboard ( newegg memory teamgroup t-create expert 32 gb (2 x 16 gb) ddr5-6000 cl30 memory ( amazon storage crucial p3 plus 1 tb m.2-2280 pcie 4.0 x4 nvme solid state drive ( ibuypower storage crucial p3 plus 1 tb m.2-2280 pcie 4.0 x4 nvme solid state drive ( ibuypower storage toshiba mq01abd050 500 gb 2.5"" 5400 rpm internal hard drive ( amazon video card xfx speedster qick 319 core radeon rx 7800 xt 16 gb video card ( amazon case jonsbo jonsplus z20 microatx desktop case ( newegg sellers power supply corsair rm650 (2023) 650 w 80 gold certified fully modular atx power supply ( corsair case fan arctic p12 pst 56.3 cfm 120 mm fans 5-pack ( amazon prices include shipping, taxes, rebates, and discounts total 1374.19 generated by pcpartpicker ( 2024-09-11 22:12 edt-0400",0.8519,positive
+HP Omen 17,hey everyone so i have an hp omen 17 gaming laptop with a 144hz screen.,0.0,neutral
+HP Omen 17,i want to get a gaming monitor but i've been lost down the rabbit hole of the internet regarding how to hook it up.,-0.4215,negative
+HP Omen 17,my laptop only has hdmi 2.0a and a mini-display port.,0.0,neutral
+HP Omen 17,the new gaming monitor has a regular display port and hdmi.,0.0,neutral
+HP Omen 17,"i've been reading online about how with an hdmi cable i apparently won't be able to get 144hz from my laptop to the monitor, which defeats the purpose of me buying one.",-0.3182,negative
+HP Omen 17,i do have this mini display port so i thought about using an adapter to a regular display port?,0.0,neutral
+HP Omen 17,any advice would be great if anyone knows how to these monitors cables work and if i can actually get 165hz from my laptop to the monitor via hdmi?,0.6249,positive
+HP Omen 17,thank you for reading cheers!,0.7088,positive
+HP Omen 17,i am using hp omen 17 17-ck0000 and i want to upgrade its ram.,0.0772,positive
+HP Omen 17,you can checkout specs from here ( i am planning to buy ddr4 3200mhz 2x16 gb dual kit but i can't decide about cas latency.,0.0,neutral
+HP Omen 17,how can i learn the lowest cas latency my pc can support?,0.0258,neutral
+HP Omen 17,"when i checked cpu-z it says my cl is 15 (it changes between 15 and 21 in cpu-z) but in - p n: hma81gs6cjr8n-xn"" and in its website says it is cl22 ram but then why cpu-z showing cas latency as 15?",0.0,neutral
+HP Omen 17,what my ram's cas latency should be?,0.0,neutral
+HP Omen 17,cpu-z screenshots: i will appreciate if you can help.,0.6597,positive
+HP Omen 17,"hello all, i have almost no idea what i'm doing.",-0.228,negative
+HP Omen 17,"the most compliated thing i've ever done with a hardware was move the internals of a laptop to a new case, and that took two hours and i was bricking it.",0.0,neutral
+HP Omen 17,"my six year old hp omen 17 laptop is giving up the ghost (it hasn't been the same since i dropped it, hard, and some of the keys usb ports have stopped working).",-0.296,negative
+HP Omen 17,i want a new tower for gaming now that i have space for a desk where a tower pc can live.,0.0772,positive
+HP Omen 17,what is your intended use for this build?,0.0,neutral
+HP Omen 17,the more details the better.,0.4877,positive
+HP Omen 17,i'm a kind of player and never pick up aaa titles on release.,0.0,neutral
+HP Omen 17,"i play a lot of fallout nv, stardew valley, fallout 76, skyrim, dwarf fortress, caves of qud and indie puzzle adventure games (e.g.",0.5719,positive
+HP Omen 17,"disco elysium, untitled goose game, weird things off of itch.io).",-0.1779,negative
+HP Omen 17,"the most high-end thing i'm going to play is probably red dead 2, but i haven't got it yet, and i mostly play things that seem much less taxing.",0.2846,positive
+HP Omen 17,"i want something that i can ideally upgrade if needed, e.g.",0.4767,positive
+HP Omen 17,"with a new ssd, more memory, etc.",0.0,neutral
+HP Omen 17,"i mostly otherwise just use the computer for browsing, watching tv, and the occasional bit of admin.",0.0,neutral
+HP Omen 17,"if gaming, what kind of performance are you looking for?",0.0,neutral
+HP Omen 17,"(screen resolution, framerate, game settings) i only have a 1080p monitor at the moment and i'm not planning to upgrade it, so anything that gives more (e.g.",0.0,neutral
+HP Omen 17,4k) will be wasted.,-0.4939,negative
+HP Omen 17,i'm happy playing on medium to high settings.,0.6705,positive
+HP Omen 17,what is your budget (ballpark is okay)?,0.0,neutral
+HP Omen 17,budget is about 900- 1100. in what country are you purchasing your parts?,0.0,neutral
+HP Omen 17,"uk post a draft of your potential build here i based this on a pre-built model, taking into account some things from logical increments.",0.0,neutral
+HP Omen 17,is the graphics card too much for my needs?,0.0,neutral
+HP Omen 17,if you've read this far .,0.0,neutral
+HP Omen 17,thank you!,0.4199,positive
+HP Omen 17,i really need a bit of a check to see if this looks reasonable and if i've made any massive mistakes.,-0.3612,negative
+HP Omen 17,pcpartpicker part list ( type item price :---- :---- :---- cpu intel core i5-12400f 2.5 ghz 6-core processor ( 114.97 amazon uk cpu cooler be quiet!,0.2481,positive
+HP Omen 17,"pure rock 2 cpu cooler ( 29.99 amazon uk motherboard gigabyte h610m s2h v2 ddr4 micro atx lga1700 motherboard ( 80.98 morecoco memory kingston fury beast 16 gb (2 x 8 gb) ddr4-3200 cl16 memory ( 39.98 ccl computers storage western digital black sn770 1 tb m.2-2280 pcie 4.0 x4 nvme solid state drive ( 66.54 amazon uk video card gigabyte gaming oc geforce rtx 4060 ti 16 gb video card ( 466.00 morecoco case gamemax white diamond argb atx mid tower case ( 46.99 awd-it power supply msi mag a650bn 650 w 80 bronze certified atx power supply ( 55.00 computer orbit operating system microsoft windows 11 home oem - dvd 64-bit ( 108.98 overclockers.co.uk prices include shipping, taxes, rebates, and discounts total 1009.43",0.1779,positive
+HP Omen 17,"i have an hp omen 17, to start.",0.0,neutral
+HP Omen 17,"about four or five months ago it started making a weird clacking sound when i started it and then one of the fans stopped working, so i brought it into the shop.",-0.3818,negative
+HP Omen 17,"the guy's english wasn't great but i gathered that the fan wasn't attached well, so he somehow reattached it.",-0.1073,negative
+HP Omen 17,cpu temps were running super hot recently so i bought a repair kit thermal adhesive to replace my thermal paste (thought that was the problem) and i discovered this (pics attached.),0.5994,positive
+HP Omen 17,looks like thermal glue in a bunch of places it shouldn't be?,0.3612,positive
+HP Omen 17,but also i don't really know.,0.0,neutral
+HP Omen 17,"also a missing screw close to the top left of the heat sink cover, and a weird little clear plastic tape thing in the third pic.",-0.0498,neutral
+HP Omen 17,"i never measured my temps before the repair, so this might be normal, not sure.",-0.2411,negative
+HP Omen 17,"ambient temps run high 30s at lowest to low 60s at highest (celsius), but when gaming with cpu graphics intensive games it's almost always up there in the 90s.",-0.3291,negative
+HP Omen 17,service manual here: any advice?,0.0,neutral
+HP Omen 17,"hey guys i'm looking for some advice, currently i have an hp omen 17 laptop with a 3060 in it.",0.0,neutral
+HP Omen 17,"i want something with just a little more oomph, i see great deals on desktops for around 1,000-1,500 dollars and was wondering how a desktop with a 3060-3080 would compare to what i have right now or if i should consider buying a new gaming laptop with the 40 series?",0.6872,positive
+HP Omen 17,any input greatly appreciated.,0.5563,positive
+HP Omen 17,dear redditors!,0.4389,positive
+HP Omen 17,i would like to ask your kind help to finalize my new pc build.,0.8225,positive
+HP Omen 17,"i am doing architectural planning and visualisation, currently using archicad 26 and twinmotion 2023. for some time now i considering to switch from my gaming laptop ( hp omen 17-an0xx ) to a newly built pc, because after 5 years my skills have overgrowth the laptops capabilities.",0.0,neutral
+HP Omen 17,"i have already started learning unreal engine 5, but my laptop just can't keep up with it.",0.0,neutral
+HP Omen 17,"at the end of the learning-curve i would like to make ""near photorealistic"" vr presentations to my clients.",0.3612,positive
+HP Omen 17,i am planning to build this setup: any advice or observation is more than welcome!,0.553,positive
+HP Omen 17,"long story short, i have 1500 and i am debating between the microcenter deal for the hp omen 17-ck1020nr 17.3 with a rtx 3070 for about 1000 or spending 1500 (maximum) on a custom build.",0.0,neutral
+HP Omen 17,i currently have a razorblade 15 with a gtx 1660 ti and would not mind a new laptop.,0.0,neutral
+HP Omen 17,"my question is, is there a build for 1000- 1500 that would give me a better performance output than the omen's sale price?",0.4404,positive
+HP Omen 17,"my only requirement for a build is that it must have an nvidia card, nothing below a 3070. i am mainly interested in vr, blender and video editing.",0.4019,positive
+HP Omen 17,"i already have accessories such as monitors, keyboard, and mouse.",0.0,neutral
+HP Omen 17,"my wife has a gift card worth around 550 600. with it, i could get either a macbook air m4 13-inch with 16 gb ram and 512 gb ssd for 1,453 (including a 3-year warranty), or an hp omen 17-db0006nw a7qm2ea (or any other windows laptop): r5 8645hs, 17.3"" 144hz, 32 gb ram, 1 tb ssd, rtx 4060, windows 11, which would cost 1,287 total, so i would need to pay the remaining amount on top of the gift card.",0.7964,positive
+HP Omen 17,"alternatively, i could also buy something just using the gift card and not pay anything extra.",0.4932,positive
+HP Omen 17,i've been using hp for 20 years and never had any problems they work great.,0.7475,positive
+HP Omen 17,"on the other hand, i'm considering the macbook, but i'm a bit worried about pwm and other potential drawbacks.",-0.1779,negative
+HP Omen 17,which would you choose in my place?,0.0,neutral
+HP Omen 17,which one is better and healthier for the eyes?,0.4404,positive
+HP Omen 17,"i recently purchased an hp omen 17 cm2027tx, and while the thermals are impressive, i'm considering getting a laptop cooler for extended gaming or video editing sessions.",0.5106,positive
+HP Omen 17,i'm particularly interested in models like the iets gt500 or llano v13 especially the ones with the airtight foam seal design.,0.6697,positive
+HP Omen 17,"however, i'm a bit concerned about compatibility.",0.0,neutral
+HP Omen 17,"although these coolers are advertised as supporting laptops up to 18"" or 19"", the omen 17 has intake fans positioned at the extreme sides rather than centrally, as shown in the image.",0.4404,positive
+HP Omen 17,"my main questions are: 1. will this type of cooler effectively cool the omen 17, given the side-positioned intake fans?",0.6369,positive
+HP Omen 17,"2. will the laptop physically fit within the cooling chamber, or is it too large causing the fans to be misaligned or sit on the foam edges, reducing cooling performance?",0.3612,positive
+HP Omen 17,"or should i just go for a open-style cooler, that too, which one should i go for?",0.0,neutral
+HP Omen 17,help :,0.4019,positive
+HP Omen 17,so i've decided to upgrade to a more future proof gaming laptop than my present one as while i could upgrade my present one i can't upgrade the graphics card and with only 1 m.2 slot i'd have to copy everything to a new ssd and well i figured i'd upgrade to a more future proof machine.,0.2732,positive
+HP Omen 17,"my options are lenovo legion pro 5i gen 8 (this may be mislabelled as it's the amd not the intel version of it) or the hp omen 17-db0011na price wise the hp omen is 1,349.00 presently on a 250 discount while the lenovo is 1,999.00 with no discount but regularly seems to be discounted by 400 to 500. what's making me lean each way so far.",0.1901,positive
+HP Omen 17,"hp: newer processor even if less powerful, physical webcam privacy shutter, advertises specifically low blu light settings lenovo: slightly more powerful processor, 1 more usb a port and 1 more usb c port, claims to have an advanced cooling system, higher resolution and higher refresh rate screen",0.6012,positive
+HP Omen 17,any information regarding this laptop will be helpful.,0.4215,positive
+HP Omen 17,i'll buying one so.,0.0,neutral
+HP Omen 17,damn thing is slow figured maybe ram was bad so replaced it with more than factory.,-0.7351,negative
+HP Omen 17,but it didn't help and when i look in task manager it says my disk usage is damn near always 100 and it takes forever to load even internet browser.,-0.7534,negative
+HP Omen 17,"hello all, i just (2 months ago) bought hp omen 187 laptop, so far only used it a couple of times for gaming (eldenring and anno 1800. no problem at all!).",-0.8516,negative
+HP Omen 17,now i wanted to play horizon zero dawn and could not really play at all because it was so laggy.,0.5859,positive
+HP Omen 17,did a benchmark and apparently my laptop performes very very poor compared similar ones.,-0.5678,negative
+HP Omen 17,"userbenchmarks: game 10 , desk 47 , work 9 ( model bench :---- :---- :---- cpu intel core i7-11800h ( gpu nvidia rtx 3070 (laptop) ( ssd nvme samsung mzvl21t0hclr-00bh1 1tb ( ram samsung m471a1k43eb1-cwe 2x8gb ( mbd hp omen by hp laptop 17-ck0xxx ( x200b; do any one of you know whats wrong with the laptop and how to handle these problems?",-0.7003,negative
+HP Omen 17,really appreciate your help.,0.7146,positive
+HP Omen 17,thank you very much and kind regards paul,0.7322,positive
+HP Omen 17,"o key not aligning, is there a fix to this?",0.0,neutral
+HP Omen 17,just picked up today,0.0,neutral
+HP Omen 17,when i was in school i took my laptop with me to study.,0.0,neutral
+HP Omen 17,i turned it on and everything works fine.,0.2023,positive
+HP Omen 17,"in order to conserve power i manually switched the power settings to ""power saver"".",0.0,neutral
+HP Omen 17,"then i looked across the room and found a place where i could plug in, so that my computer would charge.",0.0,neutral
+HP Omen 17,"i move seats, plug in and when i turn on my computer.nothing.the screen seems to be totally black, even thou everything else seems to be working.",0.0,neutral
+HP Omen 17,"then i input my password (even thou i can't see jack), press enter and then ctrl alt delete.",0.0,neutral
+HP Omen 17,"and when i press the ctrl alt delete i can see, very faintly the popup window.",0.0,neutral
+HP Omen 17,"that's how i knew the display was working, it was just realy dark to the point where it is almost totally black.",0.0,neutral
+HP Omen 17,later i decided to hook up my graphics tablet monitor thing to my laptop in order to see if everything else was working and if i could change power settings.,0.0,neutral
+HP Omen 17,"so i do that, change power settings and still.nothing.the display is still almost pitch black, even thou i did a hard reset, have it plugged in and got battery on performance not power save.",-0.4639,negative
+HP Omen 17,maybe someone knows what could be the problem?,-0.4019,negative
+HP Omen 17,please help.,0.6124,positive
+HP Omen 17,please.,0.3182,positive
+HP Omen 17,gaming laptop?,0.0,neutral
+HP Omen 17,loser!,-0.5707,negative
+HP Omen 17,"yes, i've heard it before, no i can't do a desktop.",0.128,positive
+HP Omen 17,specs: hp omen 17 17.3 144hz gaming laptop 144hz i7-10750h 12gb ram 512gb ssd rtx 2070 8gb price: 1145 ( 500 off right now) i'm on a very low end laptop right now (gtx 950m) and i drop to less than 10fps playing hades and path of exile (the only games i really care about at the moment).,0.1372,positive
+HP Omen 17,"i don't care about playing cyberpunk 2077 at ultra settings at 120fps, or call of duty, or anything like that.",-0.1828,negative
+HP Omen 17,"i'm fine with games running at medium to high, or not having the best top notch settings.",-0.1945,negative
+HP Omen 17,"i know that the rtx 3000 series are coming out over the next several months (and some in the next few weeks), but i've seen how incredibly difficult it is to buy an rtx 3000 series card for desktops right now, and i'm not sure if i care too much about a 10 increase for either the same price or the headache of trying to get one or for spending 300 more.",-0.7667,negative
+HP Omen 17,"so with that being said, is this a decent to great laptop?",0.6249,positive
+HP Omen 17,"i've never purchased an expensive laptop (always something sub 700, mostly for work and internet browsing.",0.0,neutral
+HP Omen 17,"but this is the first time that i'm considering doing some light gaming on it, and i would like it to last a few years (i've had my current laptop for 6 years now).",0.5023,positive
+HP Omen 17,"also i have 32gb of ram to instantly upgrade my next laptop with since i do a lot of video editing for work and always like having a lot of ram, so just consider the 12gb of the specs here as 32gb.",0.3612,positive
+HP Omen 17,i'm also a fan of the hp omens because they have an internal hd bay as well as 2x ssd slots.,0.5267,positive
+HP Omen 17,let me know what you think.,0.0,neutral
+HP Omen 17,hp omen 17 (2019) i7-8750 gtx1060 6gbs ddr5 16gbs ddr4 ram 1080p 144hz ips 512 samsung ssd windows 10 pro used for 8-9 months but never for gaming really clean i would appreciate it if u could suggest the current market price of this laptop,0.8375,positive
+HP Omen 17,"hello dear all, i want to upgrade the ram of my hp omen 17-ck090 6 ng laptop (currently 16gb ddr4).",0.4404,positive
+HP Omen 17,should i go for 32gb for about 100 or for 64gb for about 180 ?,0.0,neutral
+HP Omen 17,"(mainly using it for data science stuff and coding, and sometimes playing games) 2.)",0.2023,positive
+HP Omen 17,"on crucial ( i only can find ram sticks for hp omen 17-ck090 7 ng, do you think this one will be compatible?",0.0,neutral
+HP Omen 17,thanks already in advance and best regards paul,0.7964,positive
+HP Omen 17,"hp omen 17 temp issues i have a 2019 hp omen with an i7 10870h and rtx 2070 about 2 months ago i opened my laptop for a clean and paste change,i used a generic paste with pretty bad results i opened the laptop for a second time about a week after and changed the paste to thermal grizzlies kryonaught which worked great for about a week afterwhich the temps started climbing and throttling i tried the coolermaster master gelmaker for the third time which worked great again for about 3 weeks and now im throttling again is there a possibility this is because of something other than the paste?if not does anyone recommend any other longer lasting paste for me to use?",0.8705,positive
+HP Omen 17,appreciate the help,0.6597,positive

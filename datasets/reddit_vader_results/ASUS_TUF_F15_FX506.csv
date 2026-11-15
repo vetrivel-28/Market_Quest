@@ -1,0 +1,1222 @@
+laptop_name,sentence,compound_score,sentiment
+ASUS TUF F15 FX506,"hi, i have an asus tuf f15 fx506he (i7 11th gen, out of warranty).",0.0,neutral
+ASUS TUF F15 FX506,"fans are locked around 5000 rpm even inside bios from cold boot, with normal temps.",0.0,neutral
+ASUS TUF F15 FX506,this starts happens randomly while using laptop it shifts to this wierd state.,0.0,neutral
+ASUS TUF F15 FX506,"along with this, fn keys don't work except volume i can't change performance modes, fan modes, or even put the laptop to sleep using fn keys.",0.3182,positive
+ASUS TUF F15 FX506,"what i've already done: bios reflashed via asus ez flash full ec power drain (battery disconnected, wait, etc.)",0.3612,positive
+ASUS TUF F15 FX506,"armoury crate removed, tried g-helper issue still happens in bios, so os software ruled out this looks like an embedded controller (ec) sensor bus issue, where the ec enters failsafe mode.",0.3612,positive
+ASUS TUF F15 FX506,has anyone faced this on fx506 fx507 series?,0.0,neutral
+ASUS TUF F15 FX506,"did ec reprogramming or chip-level repair help, or is motherboard replacement the only real fix?",0.4019,positive
+ASUS TUF F15 FX506,looking for hardware-level experiences.,0.0,neutral
+ASUS TUF F15 FX506,thanks.,0.4404,positive
+ASUS TUF F15 FX506,"hi, i have an asus tuf f15 fx506he (i7 11th gen, out of warranty).",0.0,neutral
+ASUS TUF F15 FX506,"fans are locked around 5000 rpm even inside bios from cold boot, with normal temps.",0.0,neutral
+ASUS TUF F15 FX506,"along with this, fn keys don't work except volume i can't change performance modes, fan modes, or even put the laptop to sleep using fn keys.",0.3182,positive
+ASUS TUF F15 FX506,"what i've already done: bios reflashed via asus ez flash full ec power drain (battery disconnected, wait, etc.)",0.3612,positive
+ASUS TUF F15 FX506,"armoury crate removed, tried g-helper issue still happens in bios, so os software ruled out this looks like an embedded controller (ec) sensor bus issue, where the ec enters failsafe mode.",0.3612,positive
+ASUS TUF F15 FX506,has anyone faced this on fx506 fx507 series?,0.0,neutral
+ASUS TUF F15 FX506,"did ec reprogramming or chip-level repair help, or is motherboard replacement the only real fix?",0.4019,positive
+ASUS TUF F15 FX506,looking for hardware-level experiences.,0.0,neutral
+ASUS TUF F15 FX506,thanks,0.4404,positive
+ASUS TUF F15 FX506,i'm planning to sell my gaming laptop and wanted to check if 600 is a fair asking price.,0.3182,positive
+ASUS TUF F15 FX506,"here are the specs: model: asus tuf f15 (fx506) cpu: intel core i5-11400h (6 cores 12 threads, 2.7-4.5 ghz) gpu: nvidia geforce rtx 3050 4gb (75w) ram: 24gb ddr4 storage: 1tb ssd 512gb ssd (total 1.5tb) os: windows 11 home (activated) condition: 3 years old.",0.0,neutral
+ASUS TUF F15 FX506,"excellent, works perfectly.",0.836,positive
+ASUS TUF F15 FX506,only issue is the charger had some damage but was repaired and still works fine.,0.0258,neutral
+ASUS TUF F15 FX506,some reseller offered me 600 for it.,0.0,neutral
+ASUS TUF F15 FX506,"i've seen some similar models selling between 500-700 depending on upgrades and condition, but mine has more ram and storage than most listings.",0.0,neutral
+ASUS TUF F15 FX506,(most are 16gb ram 512gb ssd) do you think 600 is a reasonable price?,0.0,neutral
+ASUS TUF F15 FX506,or should i ask for more?,0.0,neutral
+ASUS TUF F15 FX506,trying to sell it and buy a new macbook for better portability and ios app development.,0.4404,positive
+ASUS TUF F15 FX506,i was able to get this laptop for 150 used does anybody think that this laptop can run builders gate 3 here is specs it is a used pc from 2021 so it's about four years old but i figured for 150 bucks.,0.0,neutral
+ASUS TUF F15 FX506,it seemed very reasonable what everybody thinks.,0.0,neutral
+ASUS TUF F15 FX506,"asus tuf f15 gaming laptop, 15.6"" 144hz fhd ips-type display, intel core i5-10300h processor, geforce gtx 1650, 8gb ddr4 ram, 512gb pcie ssd, wi-fi 6, windows 11 home, fx506lh-as51",0.0,neutral
+ASUS TUF F15 FX506,i'm wanting to upgrade my gaming laptop to either 32 or 64 gb of ddr4 ram.,0.0,neutral
+ASUS TUF F15 FX506,the rest of the specs for the gaming laptop is an i5 11th gen and a 3050 graphics card.,0.0,neutral
+ASUS TUF F15 FX506,i currently have two sticks of ram in it.,0.0,neutral
+ASUS TUF F15 FX506,one of them is a 3200 mhz 8 gb and the other one's a 4 gb that runs at 2667 mhz.,0.0,neutral
+ASUS TUF F15 FX506,"so i bought an asus tuf f15 (fx506, 10th gen i5 1650ti) which lasted me less than 6 months.",0.0,neutral
+ASUS TUF F15 FX506,"the motherboard is dead and they rejected my warranty on the basis of ""liquid damage"", which i think is bs because i treated this laptop like a temple, no liquids ever came close it, not even a glass of water.",-0.8074,negative
+ASUS TUF F15 FX506,"anyway, i'm not very experienced in the matter but is it possible for the motherboard to be repaired or replaced?",0.0129,neutral
+ASUS TUF F15 FX506,"if so, any idea how much it would cost me and if it's worth the effort or not?",0.2263,positive
+ASUS TUF F15 FX506,i need to replace the fans on my laptop.,0.0,neutral
+ASUS TUF F15 FX506,"however, ""perfect"" parts are 6-8 weeks away, and i don't have that time to wait while my laptop increasingly struggles to manage its heat.",-0.3612,negative
+ASUS TUF F15 FX506,"if a fan is rated to be compatible with fx506, but doesn't specify subfamilies (like lh), can it be taken to assume that those fans will work with all subvariants of that series?",0.1655,positive
+ASUS TUF F15 FX506,i can get an fx506-compatible fan within three days.,0.3182,positive
+ASUS TUF F15 FX506,but the return policy doesn't apply if i open the package.,0.0,neutral
+ASUS TUF F15 FX506,anyone with experience using repairing asus laptops is welcome.,0.4588,positive
+ASUS TUF F15 FX506,"hi everyone, i have the above laptop.",0.0,neutral
+ASUS TUF F15 FX506,no issues until this morning.,-0.296,negative
+ASUS TUF F15 FX506,i turned it on.,0.0,neutral
+ASUS TUF F15 FX506,booted up and was ready to jump on rust.,0.3612,positive
+ASUS TUF F15 FX506,then it was just off.,0.0,neutral
+ASUS TUF F15 FX506,"no lights, not even the orange plugged in light.",-0.296,negative
+ASUS TUF F15 FX506,"i have checked the cables, they are fine and the laptop was fully charged so it should still turn on.",-0.0754,negative
+ASUS TUF F15 FX506,"i have disconnected the battery and reconnecting, nothing.",0.0,neutral
+ASUS TUF F15 FX506,i also attempted to boot up with it plugged in and battery disconnected and nothing.,0.0,neutral
+ASUS TUF F15 FX506,i'm really hoping it's not fried any suggestions?,0.4754,positive
+ASUS TUF F15 FX506,i want to connect an egpu to my asus tuf f15 i5-10300h fx506 i5-10300h .,0.0772,positive
+ASUS TUF F15 FX506,the dgpu is 1650. the egpu i want to connect is rx6700xt.,0.0772,positive
+ASUS TUF F15 FX506,my laptop has an empty m.2 pcie slot.,-0.2023,negative
+ASUS TUF F15 FX506,just wanted to confirm before doing this diy.,0.0,neutral
+ASUS TUF F15 FX506,my laptop needs a keyboard replacement it's asus tuf f15 fx517ze but i can't find this exact same keyboard model all i found was ( fx506 fa506 fx706 fa706 fx506u fx506l fx506ii fx506ih fx506li fa506q fa506u rgb) so can any of these models work instead ?,0.0,neutral
+ASUS TUF F15 FX506,"is this ssd compatible for my laptop asus tuf f15 fx506 samsung 990 evo ssd 1tb, pcie 5.0 x2 m.2 2280 (",0.0,neutral
+ASUS TUF F15 FX506,"hey guys, today i was playing ets2 and i noticed that while the left speaker was working fine, the right speaker had some sort of crackle-like sound coming out.",0.3818,positive
+ASUS TUF F15 FX506,"this wasn't an old issue, no.",-0.296,negative
+ASUS TUF F15 FX506,"the speakers ran fine until yesterday, when i took the laptop and it started making this noise.",0.2023,positive
+ASUS TUF F15 FX506,"i had given it to my friend the day before since he needed it for a presentation, and he had kept it safe and sound.",0.7269,positive
+ASUS TUF F15 FX506,i've checked the laptop and so far i don't see any signs of damage.,-0.4939,negative
+ASUS TUF F15 FX506,any idea what should be done?,0.0,neutral
+ASUS TUF F15 FX506,the laptop in question is a 2021 asus tuf f15 fx506-hm,0.0,neutral
+ASUS TUF F15 FX506,"i bought this laptop a few years ago, and i've had nothing but problems with it.",0.438,positive
+ASUS TUF F15 FX506,"i've been using asus (rog and now tuf) for over a decade, but my experiences with my current laptop have left me wanting to look for alternatives.",0.0,neutral
+ASUS TUF F15 FX506,"i use the laptop for work, gaming and graphic design.",0.0,neutral
+ASUS TUF F15 FX506,"i understand this is an asus sub, but where do ex-asus users go who no longer believe in the quality of asus?",-0.4215,negative
+ASUS TUF F15 FX506,what laptops have you guys switched to?,0.0,neutral
+ASUS TUF F15 FX506,thanks in advance for hopefully some good recommendations to replace my tuf.,0.8176,positive
+ASUS TUF F15 FX506,"hi, i'm looking for a new laptop for graphic design work, adobe stuff mostly.",0.0,neutral
+ASUS TUF F15 FX506,i have opportunity to get the asus tuf f15-fx506 for decent money.,0.4215,positive
+ASUS TUF F15 FX506,"only problem is that its the 144hz display, only 65 srgb coverage.",-0.4019,negative
+ASUS TUF F15 FX506,on i saw a post about how people upgrade their screens in a15.,0.0,neutral
+ASUS TUF F15 FX506,would something like this be achieved in f15?,0.3612,positive
+ASUS TUF F15 FX506,i've already checked the cost of the screen would still save me money.,0.4939,positive
+ASUS TUF F15 FX506,thanks,0.4404,positive
+ASUS TUF F15 FX506,just noticed how awfully the fans on the laptop make a bad vibranting noise like they're contacting something they shouldn't.,-0.25,negative
+ASUS TUF F15 FX506,im going to open the laptop tomorrow to see if they're good or is dust causing the problem.,0.0516,positive
+ASUS TUF F15 FX506,could asus send me a pair of fans?,0.0,neutral
+ASUS TUF F15 FX506,edit: i did the myasus fan diagnosis thing and i can hear the fans rotate like a loose tire kinda like in oval motion.,0.6124,positive
+ASUS TUF F15 FX506,"hi, can anyone suggest good ssd for asus tuf f15 fx506.",0.4404,positive
+ASUS TUF F15 FX506,it already has 512 gb ssd ( nvme).,0.0,neutral
+ASUS TUF F15 FX506,i want buy another one but not sure whether i can add 1 tb or it supports only 512 gb.,0.2399,positive
+ASUS TUF F15 FX506,also please suggest medium range ssd for any of above two with which my laptop would be comapitable.,0.3182,positive
+ASUS TUF F15 FX506,thanks.,0.4404,positive
+ASUS TUF F15 FX506,"hello, i'd like to upgrade my 48w battery with the 90w one.",0.3612,positive
+ASUS TUF F15 FX506,"i've seen that it works, from other posts, but i still have one question for the people that did the swap.",0.0,neutral
+ASUS TUF F15 FX506,from comparing pictures i've seen that you can screw the 90w battery in just 3 out of 4 screws if i'm correct.,-0.34,negative
+ASUS TUF F15 FX506,will just 3 screws hold it in place alright?,0.0,neutral
+ASUS TUF F15 FX506,"and another question, are there any tabs or anything in the way of the 90w battery?",0.0,neutral
+ASUS TUF F15 FX506,or any other problems?,-0.4019,negative
+ASUS TUF F15 FX506,thanks a lot.,0.4404,positive
+ASUS TUF F15 FX506,will a set with bits from ph00 to ph2 and t4-t15 get the job done?,0.0,neutral
+ASUS TUF F15 FX506,i just wanna add a stick of ram and a m2 ssd.,0.0,neutral
+ASUS TUF F15 FX506,"hi all, my asus tuf f15 fx506 li has turned sluggish suddenly.",-0.4019,negative
+ASUS TUF F15 FX506,basic tasks seem difficult.,-0.3612,negative
+ASUS TUF F15 FX506,even browsing has become sluggish.,-0.4019,negative
+ASUS TUF F15 FX506,on checking the task manager.,0.0,neutral
+ASUS TUF F15 FX506,my internal gpu is missing.,-0.296,negative
+ASUS TUF F15 FX506,i've reinstalled armory crate and nvidia graphics drivers but the issue still persists.,0.0,neutral
+ASUS TUF F15 FX506,i've tried reinstalling the display driver as it showed intel uhd graphics is not working properly.,0.0,neutral
+ASUS TUF F15 FX506,it picked up intel basic display driver instead.,0.0,neutral
+ASUS TUF F15 FX506,pls help.,0.4588,positive
+ASUS TUF F15 FX506,"the left and right arrow keys labeled with ""aura"" don't seem to work with fn, fn f5 doesn't seem to change how fast the fan is running.",0.3182,positive
+ASUS TUF F15 FX506,"by the way, the laptop i got is the asus tuf f15 fx506 (2022) with an rtx 3050 and intel i5-11400h, and 8gb ram",0.0,neutral
+ASUS TUF F15 FX506,"hy i have an asus tuf f15 fx506 i5 11th with an intel ax 201 and i'm having the error code 43 or 10 the wifi disapears so i want to change the wifi card , after searching i discover that my wifi card is cnvio2 so i can't replace it with ax 210 or ax 200 wich are not cnvio2 so i only have ax 211 or ax 411 but i cannot replace it with them cause they only support cpu 12 generation and later and i have 11 generation so what should i do i hope i can get an answer asap sorry my english is bad and thanks in advance",0.6778,positive
+ASUS TUF F15 FX506,i can only tell becuase of the blue.,0.0,neutral
+ASUS TUF F15 FX506,it occured when updating drivers with gefore experience its a asus tuf f15 fx506,0.0,neutral
+ASUS TUF F15 FX506,my asus tuf f15 fx506 while playing valorant reaches 85-90 degrees.,0.25,positive
+ASUS TUF F15 FX506,is this good?,0.4404,positive
+ASUS TUF F15 FX506,"hello, i have an asus tuf f15 fx506, i5 10300h, gtx 1650, 16 gb ram, 1tb ssd.",0.0,neutral
+ASUS TUF F15 FX506,i was wondering if any of you with this exact model used throttlestop or something to undervolt.,0.0,neutral
+ASUS TUF F15 FX506,or if you have another cooling alternatives please let me know.,0.3182,positive
+ASUS TUF F15 FX506,i get 80-95 cpu temps while gaming.,0.0,neutral
+ASUS TUF F15 FX506,i'm also using windows 11.,0.0,neutral
+ASUS TUF F15 FX506,"i bought a tuf f15 model for my girlfriend, specs: i5 11400h, rtx 3050 75w, 16gb 3200mhz, 512gb nvme (samsung drive in my one), 48wh battery, 1080 144hz.",0.0,neutral
+ASUS TUF F15 FX506,"x200b; price: bf deal for 650 euros in europe, a steal in my opinion, considering the well balanced hw.",-0.2732,negative
+ASUS TUF F15 FX506,"the laptop is very well build, solid plastic, very tanky feeling, not too much gamery look, everything feels very strong overall.",0.8238,positive
+ASUS TUF F15 FX506,"keyboard have a nice travel, a good clicky feeling, not mushy, awesome rgb illumination (single zone tho, but very precise colors, even white, rare to see on rgb keyboard that sometimes in white have multiple shades colors, like my 2k pcs vyper, aka eluk max 17).",0.6373,positive
+ASUS TUF F15 FX506,"screen is decent, contrast is the best part, but as usual in this price range lacks color gamut (about 65 srgb) and latency is not awesome, i notice quite a bit of blur at naked eye, especially coming from my daily setup with lg gp850 that is insanely fast on response times, but anyway not a big deal for the price.",-0.4293,negative
+ASUS TUF F15 FX506,"performance:, as usual armoury crate have 3 mode that i well know (i had a 2 rog for 5 years before my actual pcs vyper), silent, performance and turbo.",0.2732,positive
+ASUS TUF F15 FX506,"silent basically keep fan as low as possible, using a cap on cpu tdp and limiting gpu by setting a 70 degrees temp limit, it works awesomly for low end games and daily tasks, i even suggest to disable turbo boost in silent mode power plan, capping windows at 98 performance, it will stay to 2.6ghz max, enough for even 60fps gaming, and for any daily task with a 6c 12t cpu like this, cinebench r23 use only 25w of power at 2.6ghz and scores about 6000 points with this mode plus turbo boost off like i said.",0.8176,positive
+ASUS TUF F15 FX506,"performance mode (default one) is basically 80w cpu cap with full speed gpu, moderate fan noise, i suggest even here to put 98 on windows performance mode power plan, still enough for any games at 60 fps, and you will have basicallu 70 degrees on both cpu and gpu during games or heavy workloads.",0.3182,positive
+ASUS TUF F15 FX506,"turbo mode, it pushes fan to max (if needed) and auto oc gpu by 100mhz on both core and memory, it's a little monster for 600 euros with 3050, especially at 1080p with dlss.it can mash it anything at high details.",0.3182,positive
+ASUS TUF F15 FX506,"cinebench r23 scores 9000 points in this mode (as usual 90 95 degrees with intel that play with throttling thermal in this target to push at his own limits), not too much far away from my 10875h with ptm7950 that scores about 11k points, crazy considering it have 2 core more than this.",0.0,neutral
+ASUS TUF F15 FX506,"x200b; x200b; 3.7ghz stable after settling down from over 4ghz ( x200b; some numbers, heaven bench 1080p maxed out extreme tesselation 8xx aa) score 68 fps (50 in silent mode), so not too bad for this little beast.",0.8231,positive
+ASUS TUF F15 FX506,"to give and example, my pcs vyper with 115w rtx 2070 super scores 112fps, similarly to a rtx 3060 130w), so this is not bad at all, considering again, 600 euros.",0.775,positive
+ASUS TUF F15 FX506,"r23: 9000 points turbo, 6000 points with turbo boost off (2.6ghz, 25w costant pulling) i tested some games that i have on my portable ssd: dirt rally 2, easy 60 fps at 1080p with a mix among high and ultra with about 70 gpu usage (i can crank up more but i prefer a good stable comprimes considering it already look very good).",0.846,positive
+ASUS TUF F15 FX506,"sackboy, pretty much maxed out without rt, with dlss on is 60fps locked with barely 55 gpu usage on average.",0.4939,positive
+ASUS TUF F15 FX506,"hotwheels unleashed 1080p dlss quality, everything on high produce a skyrocketing 120 to 150 fps (locking to 60 fps, is pretty much 40 gpu usage).",0.4939,positive
+ASUS TUF F15 FX506,"goat simulator 3 (unreal engine 4) 1080p high, again about 50 to 60 gpu usage at 60 fps, so plenty of headroom for any games.",0.0,neutral
+ASUS TUF F15 FX506,"the sims 4 maxed out is about 100 to 160 fps fps (i just tested with cpu lock at 2.6ghz, so cpu limit at bit, but not a big deal considerin i locked it again at 60fps later in nvcp).",0.0,neutral
+ASUS TUF F15 FX506,"x200b; dr 2 ( x200b; hotwheels ( x200b; sackboy ( x200b; goat sim 3 ( x200b; this machine at this price range is a little monster, temperatures are awesome with intelligent limit and 60 fps locks, pushing gpu over 4ghz in games and pretending over 100 fps gaming with this hw is just stupid, this is one of the smoothest and stable experience you can have if you target 60 fps with costant frametimes (much more important than any 100 fps) or 30 fps in heavy cases like cb77 or plague tale requiem (i don't have those games with me, but maybe i will test in future).",0.6648,positive
+ASUS TUF F15 FX506,"x200b; future upgrade tips: repaste with ptm 7950 should lead to even better thermal concistency, but i will do this only in future, at least not before 1 and half year from now.",0.2382,positive
+ASUS TUF F15 FX506,"hey, i just ordered this laptop online.",0.0,neutral
+ASUS TUF F15 FX506,"just want to ask, can you install hdd ssd inside this laptop if it's have 48 w h battery instead of 90?",0.0772,positive
+ASUS TUF F15 FX506,"i search on youtube that you can put in hdd in this laptop, just not sure what version of the f15.if it does, does asus include the connector cable inside the box?",-0.2411,negative
+ASUS TUF F15 FX506,this method is compatible with asus tuf gaming fx506 (intel 10300h) devices.,0.0,neutral
+ASUS TUF F15 FX506,no bios modifying required you just need a clean usb flash drive and some spare time.,0.128,positive
+ASUS TUF F15 FX506,"also, your bios version must be 310 or newer one step 1. do a full format (not the quick one) of the usb drive using fat32 and copy folder from this file ( to it.",0.0,neutral
+ASUS TUF F15 FX506,then restart the laptop step 2. make sure secure boot is disabled in bios (you can boot into bios by holding f2 while restarting).,0.5719,positive
+ASUS TUF F15 FX506,"step 3. boot into bios again and head over to the boot menu (f8) step 4. in the opened menu, choose the usb drive.",0.0,neutral
+ASUS TUF F15 FX506,you should see the grub shell there.,0.0,neutral
+ASUS TUF F15 FX506,"if so is happening, you're doing things right.",0.0,neutral
+ASUS TUF F15 FX506,step 5. type below command lines into the grub one by one.,0.0,neutral
+ASUS TUF F15 FX506,"you should see confirmation messages like ""cpusetup opened"", ""writing 0x0 to offset"" and so on.",0.3612,positive
+ASUS TUF F15 FX506,"1) setup var cpusetup 0x3e 0x0 2) setup var cpusetup 0xda 0x0 3) reboot step 6. now download the throttlestop ( unzip it, this file already should contain modified offset settings in fivr, you can adjust them.",0.0,neutral
+ASUS TUF F15 FX506,you should change both cpu clock and cpu cache settings the same way at the same time.,0.0,neutral
+ASUS TUF F15 FX506,i'd not recommend you to go further than -120mv.,-0.2755,negative
+ASUS TUF F15 FX506,"also, don't forget to turn on the app on the main screen.",0.1695,positive
+ASUS TUF F15 FX506,step 7.,0.0,neutral
+ASUS TUF F15 FX506,"(optional) to make sure that settings are applied, download the cpuid hwinfo app and check the voltage parameters.",0.3182,positive
+ASUS TUF F15 FX506,"though this method is fully safe, you must read the instructions carefully, and you'll get awesome results in terms of temps and power consumption.",0.8313,positive
+ASUS TUF F15 FX506,"like this ( credits: , u flat camera, my humble self :) feel free to hit me up in the pm if you have any questions",0.8834,positive
+ASUS TUF F15 FX506,hello!,0.0,neutral
+ASUS TUF F15 FX506,i have an asus tuf gaming f15 fx506 laptop.,0.0,neutral
+ASUS TUF F15 FX506,i tried undervolting via bios but limits to 50mv -30mv.,0.0,neutral
+ASUS TUF F15 FX506,can anyone share bios for this laptop that could remove the limit to the core voltage?,0.296,positive
+ASUS TUF F15 FX506,thanks!,0.4926,positive
+ASUS TUF F15 FX506,"hey guys looking a getting my son a gaming laptop that will last him good threw school now i can get an asus tuf f15 (fx506) that comes with an i710870 and a 1660ti 6gb, or asus tuf dash f15 which comes with an i7113070h and a rtx3050ti 4gb.",0.4404,positive
+ASUS TUF F15 FX506,just wondering if the new technology would be a better purchase that the older tech.,0.4404,positive
+ASUS TUF F15 FX506,i mean it will be for school as well but i want at least a good 3 yrs out of it for him for schooling and games,0.705,positive
+ASUS TUF F15 FX506,"i want to buy a new laptop, i already have two options: asus tuf f15 fx506 with i5-11400h and rtx 3050ti and the same model but i7-11800h and rtx 3050 i don't really know which one i should get, better graphics card or better cpu.",0.8338,positive
+ASUS TUF F15 FX506,"hello, so i spilled juice on my laptop, the keys are all sticky, and i took spacebar key apart, cleaned it, and now i can't put it back on properly, i haven't had this problem with other keys, can someone that has this laptop model send me a pic of how the hinge is positioned exactly or something like that?",-0.1593,negative
+ASUS TUF F15 FX506,i can't seem to find a picture like that on the internet.,0.3612,positive
+ASUS TUF F15 FX506,thanks a lot.,0.4404,positive
+ASUS TUF F15 FX506,i have a cat 7 cable which was able to achieve 1 gbps speeds earlier on my laptop.,0.0,neutral
+ASUS TUF F15 FX506,however speeds are capped at 100 mbps for my new pc whose specs are - msi b550m a pro ryzen 7 5700 rx 7700 xt 16gbx2 ddr4 3200mhz 500 gb ssd (unaware of read write speeds) msi mag a650bn 80 bronze my asus tuf f15 fx506 laptop was able to achieve 1gbps connections earlier and i was testing it today as well however i was only achieving 200 mbps.,0.2732,positive
+ASUS TUF F15 FX506,i would update the situation after i test the speeds again on my laptop once i reach home.,0.0258,neutral
+ASUS TUF F15 FX506,one thing i also noticed is that gopeed and free download manager give me 25 mbps which equates to 200 mbps.,0.5106,positive
+ASUS TUF F15 FX506,i suspect this being a firefox issue as well as i get 500kbps or 1 mbps download speeds on sites like gofile and buzzheaver.,0.34,positive
+ASUS TUF F15 FX506,the speed shows as 1 gbps on both the network adapter and ethernet.,0.0,neutral
+ASUS TUF F15 FX506,i have updated the drivers however i need to update the bios.,0.0,neutral
+ASUS TUF F15 FX506,i am ruling out a cable issue for now as i wouldn't have been able to get even 200 mbps on my laptop then.,0.0,neutral
+ASUS TUF F15 FX506,please help me,0.6124,positive
+ASUS TUF F15 FX506,i was looking into upgrading my gpu on my asus tuf f15 fx506 laptop because i love the thing but i'd like better game performance.,0.8658,positive
+ASUS TUF F15 FX506,i had hoped you could change since you can change out ram and such but apparently the cpu and gpu are soldered.,0.2023,positive
+ASUS TUF F15 FX506,would it be possible (or smart) to undo the solders on the gpu and replace it myself?,0.0,neutral
+ASUS TUF F15 FX506,or is this more less impossible to do without messing something up.,0.0,neutral
+ASUS TUF F15 FX506,"i bought my asus tuf f15 fx507 in 2023. long story short, the laptop is still alive and well over two years later.",0.5719,positive
+ASUS TUF F15 FX506,"performance is great, and i have not noticed any slowdown at all, aside from the occasional annoyance with hybrid or optimus switching in games.",0.4215,positive
+ASUS TUF F15 FX506,there was one small issue though.,0.0,neutral
+ASUS TUF F15 FX506,"shortly after the warranty expired, the w key started randomly missing inputs.",-0.296,negative
+ASUS TUF F15 FX506,"i am not a heavy gamer, i do not hit the keyboard hard, and i do not move the laptop around much.",-0.1027,negative
+ASUS TUF F15 FX506,"i carefully followed a guide on how to clean under the key and put the keycap back, but it still behaved oddly.",0.2732,positive
+ASUS TUF F15 FX506,then i noticed the rubber dome underneath was torn in half.,-0.25,negative
+ASUS TUF F15 FX506,"i removed it, replaced it with a new one, and tried to reinstall the key carefully.",0.128,positive
+ASUS TUF F15 FX506,that is when the internal hinge of the w key broke.,-0.4215,negative
+ASUS TUF F15 FX506,"at that point, it was hard to even tell what the original issue was.",0.2263,positive
+ASUS TUF F15 FX506,"i ended up replacing the entire keyboard myself, which asus did their best to make as difficult and frustrating as possible.",-0.0516,negative
+ASUS TUF F15 FX506,"the replacement worked, but i never found out whether the w key had another input issue or if it was just bad luck with the rubber part.",-0.1901,negative
+ASUS TUF F15 FX506,"if you are reading this and own an asus tuf laptop, regardless of the model or specs, i strongly recommend using an external keyboard if you can.",0.5574,positive
+ASUS TUF F15 FX506,"the laptop itself is great, but a single keyboard issue outside of warranty can easily cost you time, stress, and extra money.",0.2382,positive
+ASUS TUF F15 FX506,what happened was that my x looking led or the indicating led weren't working so i've searched it everywhere and i found that to do an embedded reset or hard reset by pressing power button for 40 seconds.,-0.1027,negative
+ASUS TUF F15 FX506,after doing that it isn't turning on.please help asap!,-0.3716,negative
+ASUS TUF F15 FX506,"i'm less than a novice in this field, so i have no idea what anything means, so if you could, please reply and explain to me like you are talking to a baby.",0.323,positive
+ASUS TUF F15 FX506,"i saw a review on some asus tuf gaming laptops, a15, f15, f16.",0.0,neutral
+ASUS TUF F15 FX506,"and most of the comments are saying like they regret buying an asus tuf gaming laptop, and they hate it very much.",-0.6124,negative
+ASUS TUF F15 FX506,why is that?,0.0,neutral
+ASUS TUF F15 FX506,"i'm mainly buying the asus tuf because of the build quality, i was considering msi but i heard in some reviews saying that the build quality is very bad even though the insides are good.",-0.3269,negative
+ASUS TUF F15 FX506,"so i'm buying the asus tuf because of the build quality being very solid, and i'm hoping it would live a long life.",0.5709,positive
+ASUS TUF F15 FX506,"hello everyone, you see, i have an asus tuf f15, i'm in high school and i'm taking an electronics class.",0.0,neutral
+ASUS TUF F15 FX506,we use arduino uno to work and make circuits.,0.0,neutral
+ASUS TUF F15 FX506,"today i was working on a project that wasn't working as it should, so i started moving everything around in the circuit to find the problem.",-0.4019,negative
+ASUS TUF F15 FX506,"in my last attempt to get it to work, i connected a 9-volt battery to the breadboard (which was connected to the arduino uno).",0.0,neutral
+ASUS TUF F15 FX506,then i connected the arduino to the pc via usb to upload the code to the arduino.,0.0,neutral
+ASUS TUF F15 FX506,"as soon as i did that, the laptop suddenly shut down.",0.0,neutral
+ASUS TUF F15 FX506,"i tried to turn it on in various ways, doing a hard reset, but nothing worked.",-0.0516,negative
+ASUS TUF F15 FX506,"i tried using the charger, but that didn't work either.",0.0,neutral
+ASUS TUF F15 FX506,"when i plug it in, it doesn't even heat up.",0.0,neutral
+ASUS TUF F15 FX506,it shows no signs of life.,-0.296,negative
+ASUS TUF F15 FX506,any advice?,0.0,neutral
+ASUS TUF F15 FX506,i want to do everything possible that won't void the warranty before taking it to technical support.,0.4588,positive
+ASUS TUF F15 FX506,translated with,0.0,neutral
+ASUS TUF F15 FX506,"hey, so i just got this asus tuf gaming f15 as my first computer, and it was a real struggle to find a good one with these specs for my engineering studies in afghanistan: fx507 id color:2a-mecha gray lcd:15.6 fhd wv vram:8gb cpu:intel i7-13620h bga storage.",0.1531,positive
+ASUS TUF F15 FX506,:1tb pcie g4 ssd odd:wo odd ram:ddr5 85x 2 wlan:wifi6 11ax2x2 wn bt usb:usb3.2a2 usb3.2c usb4.0c os type.,-0.3182,negative
+ASUS TUF F15 FX506,:win11 home kb language:us .power cord.,0.0,neutral
+ASUS TUF F15 FX506,:ul accessory:4cell 90wh i just got a new laptop and need some help figuring out how to use and take care of it.,0.7096,positive
+ASUS TUF F15 FX506,"can you give me a quick intro to laptops, plus some tips on how to keep this one in good shape and any other general advice you have?",0.4404,positive
+ASUS TUF F15 FX506,thanks,0.4404,positive
+ASUS TUF F15 FX506,"hello all, i've shortlisted the following asus tuf f15 for my needs; processor: intel i7, 13th gen gpu: nvidia rtx 4060 (8 gb) ram: 32 gb i'll be using the laptop for some light gaming (probably games released from early 2010s to early 2020s) and running some engineering softwares (medium use).",0.5574,positive
+ASUS TUF F15 FX506,"but considering the model was released in 2023, i'm a bit concerned about how the laptop will age on the software and hardware side of things, going ahead as the processor generation as well as the nvidia models are not from the latest generation.",0.3919,positive
+ASUS TUF F15 FX506,"from what i've read, the above specifications are still competitive but would appreciate your inputs about things i should be aware of that that i might not be observing at this point.",0.5994,positive
+ASUS TUF F15 FX506,thanks in advance!,0.4926,positive
+ASUS TUF F15 FX506,"how s the battery life on this laptop, assuming i lowered all the battery-hungry settings?",-0.128,negative
+ASUS TUF F15 FX506,i found a bargain for the specs i wanted but just skeptical on the battery life.,-0.3716,negative
+ASUS TUF F15 FX506,i'm aware gaming laptops are not known for their battery life to begin with but how does this fair with the competition?,0.5326,positive
+ASUS TUF F15 FX506,"specs for the exact model i found: asus tuf gaming f15 fx507v-ihq118w i7-13620h 16gb ddr5 4800 1tb 4.0 1 zone rgb rtx 4070 8gb 15.6"" wqhd 165hz w11",0.0,neutral
+ASUS TUF F15 FX506,"brand new under a stress test the cpu and gpu both hits 90c while maintaining full performance (cpu 4ghz) nowdays even after the repaste (repasted 3 times yesterday with different thermal paste and last repaste i used ptm7950) under a stress test today (gpu cpu), the gpu doesn't overheat or throttles but the cpu throttles all the way down to 1.6ghz while maintaining 95c the first repaste yesterday was without changing the fan, the second was another repaste but with fan replacement, third and last was with ptm7950 the second and third did better than the first (most likely due to fan replacement) but like i said, it's maintaining 95c running on 1.6ghz instead of 4ghz.",-0.2568,negative
+ASUS TUF F15 FX506,what do i do?,0.0,neutral
+ASUS TUF F15 FX506,is the heatsink failing on me?,-0.5106,negative
+ASUS TUF F15 FX506,it's been 1 and half year now hinges are good yeah it freezes once or twice in a month but there is not any hinges issue i was also surprised but then i noticed that only metal lid ones have these problems mine is graphite edition and i have not seen any graphite edition laptop on internet whose hinges are getting loose or broken its really surprising,-0.5734,negative
+ASUS TUF F15 FX506,a few days ago i made a post about upgrading ny battery.,0.0,neutral
+ASUS TUF F15 FX506,which was just a byproduct of me trying to replace a broken fan.,-0.2023,negative
+ASUS TUF F15 FX506,"now that the fan has arrived, i finally replaced it.",0.3182,positive
+ASUS TUF F15 FX506,"i have the tuf f15 fx506he, board designs will vary depending on the model.",0.0,neutral
+ASUS TUF F15 FX506,"here is my process: image 1 first, removing the cover.",0.0,neutral
+ASUS TUF F15 FX506,using a ph1 screwdriver i removed a total of 10 screws and loosened the bottom right screw.,-0.2732,negative
+ASUS TUF F15 FX506,"after that, use some sort of pry tool made of plastic or a credit card of some sort to unclip the cover and finally pull the cover upwards.",0.3818,positive
+ASUS TUF F15 FX506,"image 2 second, disconnect the battery, (higlighted with full circle) image 4 third, removing the fan.",0.3182,positive
+ASUS TUF F15 FX506,"i disconnected the cables (highlighted with full circles) first then removed the fan screws (highlighted with broken circles) fourth, i carefully pulled the fan towards my direction while carefully wiggling it up and down.",0.128,positive
+ASUS TUF F15 FX506,"image 5 fifth, i carefully placed the new fan while carefully prying up the pcb (highlighted with an arrow).",0.5106,positive
+ASUS TUF F15 FX506,"lastly, i did steps 3, 2, and 1. in reverse order.",0.0,neutral
+ASUS TUF F15 FX506,on a sidenote: i was able to fix the broken fan by just blowing on it repeatedly at various angles.,-0.2023,negative
+ASUS TUF F15 FX506,"so i was working on my laptop, and coffee spilled on about half of the keyboard and on the top vents (really worrying), i unplugged everything, powered off the laptop, and immediately took it to the kitchen to pat it dry with some kitchen tissues, i didn't shake it to avoid further leakage throughout areas of the laptop that i don't want, i tried turning it on twice, the keys illuminated and the laptop just shut down again, the orange low battery light has remained illuminated throughout this entire time, and i can't get the laptop to turn back on.",-0.2969,negative
+ASUS TUF F15 FX506,"like the complete idiot i am, i frantically took my hair dryer and blow dried my laptop for a good 3 minutes as a last ditch effort to evaporate get rid of the remaining liquid inside the laptop, but i melted some of the keys (shift, a, s, d, z, and x), so now i have a fucked up computer and melted keyboard, what do i even do from this point forwards?",-0.8246,negative
+ASUS TUF F15 FX506,i'll attach some images below (blue circle indicates spill area),0.0,neutral
+ASUS TUF F15 FX506,"cleaned my laptop today, wifi was having some issues so thought of cleaning wifi card, then cleaned the fans too.",0.0,neutral
+ASUS TUF F15 FX506,i made a 20 c difference on the temps.,0.0,neutral
+ASUS TUF F15 FX506,gonna order a thermal paste soon and repaste it myself.,0.0,neutral
+ASUS TUF F15 FX506,got all the tools i needed,0.0,neutral
+ASUS TUF F15 FX506,i'm new to gaming laptop please tell me whats the first things to do,0.3182,positive
+ASUS TUF F15 FX506,i can't install asusctl.,0.0,neutral
+ASUS TUF F15 FX506,"today i change from the obsolete nvidia-asus version to nividia-open, but i can't install asusctl and no, i will not return to nvidia-asus due to its lack of updates.",-0.7469,negative
+ASUS TUF F15 FX506,any ideas?,0.0,neutral
+ASUS TUF F15 FX506,hola gente queria quitarme la duda vi esta asus tuf f15 en mercado libre a precio deberia de comprar esta o otra con un procesador ryzen las demas caracteristicas para mi estan bien no lo cambiaria al menos para el corto plazo,-0.296,negative
+ASUS TUF F15 FX506,i'm planning to sell my old laptop (specs in the image).,0.0,neutral
+ASUS TUF F15 FX506,can anyone tell me what price i should realistically expect for it in the used market?,0.0,neutral
+ASUS TUF F15 FX506,condition: overall good condition slight keyboard imprint visible on dark screen minor distortion noise only when sound is at high level purchase date - december model: asus tuf gaming f15 fx506li processor: intel core i5-10300h ram: 8 gb storage: 512 gb ssd graphics card: 4 gb gtx 1650ti display: 15.6-inch refresh rate 144hz operating system: windows 11,0.4404,positive
+ASUS TUF F15 FX506,"hey everyone, my asus tuf dash f15 wouldn't turn on this morning the lights would just blink for a second and then die.",-0.5994,negative
+ASUS TUF F15 FX506,i opened it up and found a burnt melted spot on the bottom part of the motherboard.,0.0,neutral
+ASUS TUF F15 FX506,the backstory: i actually spilled some tea on this laptop about two years ago.,0.0,neutral
+ASUS TUF F15 FX506,i thought i got away with it because it worked fine until today.,0.2023,positive
+ASUS TUF F15 FX506,"i cleaned the area with some alcohol to get the old tea residue off, and the laptop actually started up and works now!",0.0,neutral
+ASUS TUF F15 FX506,but that one little square part is definitely fried.,0.5499,positive
+ASUS TUF F15 FX506,does anyone know what this part is called?,0.0,neutral
+ASUS TUF F15 FX506,"since the laptop is working now, is it ""safe"" to keep using it, or am i playing with fire?",-0.1531,negative
+ASUS TUF F15 FX506,"i cleaned this laptop 2 months ago because i was getting high temps and after that i was working fine but from a last couple of days ago it was heating too much, touching 98 -99 c. so i decided to open it up once again and i think this was too much dust for just 2 months and my brother has also carried this laptop for his work, so i guess that explains the dust.",0.1027,positive
+ASUS TUF F15 FX506,looks much better now!,0.4926,positive
+ASUS TUF F15 FX506,"hi everyone, i have an asus tuf f15 gaming laptop, and i ran into a serious problem after a windows update.",-0.4588,negative
+ASUS TUF F15 FX506,"here s exactly what happened: i clicked update restart the laptop was plugged in during the update restart process, the charger got disconnected after that, the laptop turns on, but the screen is completely black no asus logo, no backlight, nothing however: the keyboard lights turn on the fans are spinning normally the laptop clearly has power it looks like the laptop is running, but there is no display at all, not even bios.",-0.4315,negative
+ASUS TUF F15 FX506,i took it to a technician.,0.0,neutral
+ASUS TUF F15 FX506,"he tried to install windows, but he couldn't, because nothing shows on the screen.",0.0,neutral
+ASUS TUF F15 FX506,"he told me the bios is corrupted ( dead ), and that he needs to open the laptop and replace or reprogram the bios chip.",-0.6486,negative
+ASUS TUF F15 FX506,"he initially told me the repair would cost around 49 , but now he says the bios chip itself may need replacement.",0.0,neutral
+ASUS TUF F15 FX506,my questions: is this a normal situation after an interrupted update?,-0.296,negative
+ASUS TUF F15 FX506,is replacing or reflashing the bios chip a common and safe repair?,0.4404,positive
+ASUS TUF F15 FX506,"after replacing reflashing the bios chip, will the laptop work normally again?",0.0,neutral
+ASUS TUF F15 FX506,is there any risk that the motherboard is permanently damaged?,-0.6124,negative
+ASUS TUF F15 FX506,is 49 90 a reasonable price for this kind of repair?,0.0,neutral
+ASUS TUF F15 FX506,"there was: no burning smell no liquid damage no physical damage the problem happened immediately after the interrupted update it seems like a corrupted bios, not a hardware failure.",-0.8933,negative
+ASUS TUF F15 FX506,"if anyone experienced this with an asus tuf f15 or similar laptop, i'd really appreciate your advice.",0.4576,positive
+ASUS TUF F15 FX506,thanks!,0.4926,positive
+ASUS TUF F15 FX506,my asus f15 was unfortunately damaged beyond repair in a drink related incident by a family member over the festive period.,-0.3182,negative
+ASUS TUF F15 FX506,(it's fine - i forgive them!),0.4926,positive
+ASUS TUF F15 FX506,i sent my laptop to a tech company to see if it was salvageable- it was not.,0.0,neutral
+ASUS TUF F15 FX506,but they did salvage some data for me which i have on a hard drive.,-0.1531,negative
+ASUS TUF F15 FX506,"i've looked online to replace it but it seems it's out of stock everywhere, and although i got it in 2022 23 it's the same price if not more (even for refurbished ones).",0.0,neutral
+ASUS TUF F15 FX506,"i use the laptop primarily for voiceover work but usually isolate it away from my mic so loud fans aren't an issue, but i also game a lot when in lot recording.",-0.296,negative
+ASUS TUF F15 FX506,"(the games range from cod, sims 4, indie games on steam) i'm sad to get a replacement but definitely need something.",0.3612,positive
+ASUS TUF F15 FX506,i'm based in the uk.,0.0,neutral
+ASUS TUF F15 FX506,any advice would be mega - thank you!,0.4199,positive
+ASUS TUF F15 FX506,"hi, everyone.",0.0,neutral
+ASUS TUF F15 FX506,"i have a tuf f15, and i've been using g helper since i got it.",0.34,positive
+ASUS TUF F15 FX506,"i was bothered by the high temperatures and having to manually switch modes, etc.",-0.3182,negative
+ASUS TUF F15 FX506,"so i tried downloading armoury create, but it didn't work for me because when i let windows decide, i had enough fps and performance for some games, but for some games i had low fps because the graphics were running at low w and went up to a maximum of 30 .",-0.5789,negative
+ASUS TUF F15 FX506,so i uninstalled armoury create and put g helper back.,0.5809,positive
+ASUS TUF F15 FX506,but the problem persists.,-0.5499,negative
+ASUS TUF F15 FX506,"in hagwarts legacy, i have 150 fps with qhd ultra settings, and 120 w goes to the gpu.",0.0,neutral
+ASUS TUF F15 FX506,"but in some games, it's only 20 w and i have low fps.",-0.3919,negative
+ASUS TUF F15 FX506,"i wouldn't mind if i wasn't a graphic designer and davinci resolve, blender, and all the programs ran well.",0.5719,positive
+ASUS TUF F15 FX506,"unfortunately, that's where the problem is most noticeable, and during video editing and rendering, it stutters because the gpu is using 20w.",-0.7269,negative
+ASUS TUF F15 FX506,i need help!,0.4574,positive
+ASUS TUF F15 FX506,"but please, not the basic stuff like power-saving modes and other useless things.",0.3612,positive
+ASUS TUF F15 FX506,it's something deeper than that.,0.0,neutral
+ASUS TUF F15 FX506,"i have a asus laptop bought in 2023 with i5 12500h rtx 3050 4gm 90w 16gb ram but now i am facing error while only gaming screen black and error pop your system have issues need to restart, and error code is clock watchdog timeout , and i noticed when i play games on wifi the game progresses are not save after crash but when i play on lan after crash the game data save and losing progress i noticed in my gta v, and game crash in any gpu loaded game like cyberpunk 77, gta v, hogwarts etc",-0.0317,neutral
+ASUS TUF F15 FX506,hello!,0.0,neutral
+ASUS TUF F15 FX506,i've had this problem for over 3 months now and it's been driving me nuts.,-0.6625,negative
+ASUS TUF F15 FX506,"a while ago, and for no reason the laptop started requiring several presses to turn on (it wouldn't turn on for like 10 mins for pressing), and i used to shrug it off.",0.0772,positive
+ASUS TUF F15 FX506,"but recently it's been taking longer and longer, sometimes like 2 hours of constant trying until it boots up, until today, i've tried for 4 hours and it didn't boot up i looked around on the internet, and nobody seems to have the exact same problem, most of what i've seen is the same from the same brand are laptops wouldn't be booting up, but the ac light wouldn't light up when plugged, and in the end it'd be a motherboard issue, though, in my case it's always been lighting up when plugged.",-0.0772,negative
+ASUS TUF F15 FX506,"list of what i have tried: -multiple hours of pressing the power button (not holding it) -holding the power button for 60 seconds either while plugged in or not -unplugged the battery and held the power button for 60 seconds -tried to boot it up while the battery was unplugged, and the ac is plugged, the indicator would start twitching a red color on and off, but still wouldn't boot up.",0.0,neutral
+ASUS TUF F15 FX506,i'd appreciate any advice help cos i've been losing over the past few hours!,0.4753,positive
+ASUS TUF F15 FX506,thank you!,0.4199,positive
+ASUS TUF F15 FX506,-name of the exact model: asus tuf f15 fx507zc4,0.0,neutral
+ASUS TUF F15 FX506,good day po!,-0.2481,negative
+ASUS TUF F15 FX506,planning to upgrade the ram of my laptop which is the asus tuf f15 fx517zr can you suggest what are the compatible ram for this laptop?,0.0,neutral
+ASUS TUF F15 FX506,and what type of brand?,0.0,neutral
+ASUS TUF F15 FX506,"like teamgroup, kingston, adata, gskill thanks!",0.69,positive
+ASUS TUF F15 FX506,i'm also from the philippines so i wish that the brands you'll mentioned can be seen here or the one you'll recommend is the brands i mentioned,0.7177,positive
+ASUS TUF F15 FX506,good day po!,-0.2481,negative
+ASUS TUF F15 FX506,planning to upgrade ng ram ng aking laptop which is the asus tuf f15 fx517zr can you suggest po kung ano ang compatible ram for this laptop?,-0.5574,negative
+ASUS TUF F15 FX506,"and what type of brand po?like teamgroup, kingston, adata, gskill thanks po!",-0.2481,negative
+ASUS TUF F15 FX506,this is a laptop to be able to play arc raiders and possibly bf6 as well as just random basic games while i'm traveling for work.,0.5423,positive
+ASUS TUF F15 FX506,i think this would work great at 1080p and should be able to play all the games i want and with frame generation if needed to get to the 144hz refresh rate.,0.7783,positive
+ASUS TUF F15 FX506,i'm buying this second hand do you think 500 it's a great deal?,0.8074,positive
+ASUS TUF F15 FX506,was going to take a look at this find on marketplace this week.,0.0,neutral
+ASUS TUF F15 FX506,any thoughts on whether this is a good deal?,0.4404,positive
+ASUS TUF F15 FX506,anything i should be looking for in particular if this is a used laptop?,0.0,neutral
+ASUS TUF F15 FX506,specs: i5-10300h gtx 1650 ti 8gb ddr4 ram,0.0,neutral
+ASUS TUF F15 FX506,laptop questionnaire total budget (in local currency) and country of purchase.,0.0,neutral
+ASUS TUF F15 FX506,"please do not use usd unless purchasing in the us: 55,000 70,000 tl, turkey are you open to refurbs used?",0.3182,positive
+ASUS TUF F15 FX506,prefer new; open to manufacturer-refurbished with full local warranty.,0.0,neutral
+ASUS TUF F15 FX506,"how would you prioritize form factor (ultrabook, 2-in-1, etc.",0.0,neutral
+ASUS TUF F15 FX506,"), build quality, performance, and battery life?",0.0,neutral
+ASUS TUF F15 FX506,performance thermals build quality form factor battery life.,0.0,neutral
+ASUS TUF F15 FX506,how important is weight and thinness to you?,0.2023,positive
+ASUS TUF F15 FX506,important.,0.2023,positive
+ASUS TUF F15 FX506,"target 2.3 kg and 25 mm if possible, without hurting cooling.",0.3089,positive
+ASUS TUF F15 FX506,do you have a preferred screen size?,0.0,neutral
+ASUS TUF F15 FX506,"if indifferent, put n a.",-0.2023,negative
+ASUS TUF F15 FX506,15 16 inches.,0.0,neutral
+ASUS TUF F15 FX506,are you doing any cad video editing photo editing gaming?,0.0,neutral
+ASUS TUF F15 FX506,list which programs games you desire to run.,0.4019,positive
+ASUS TUF F15 FX506,primarily machine learning (pytorch cuda) and gaming ; i need an nvidia gpu for cuda support.,0.4019,positive
+ASUS TUF F15 FX506,no photo video editing.,-0.296,negative
+ASUS TUF F15 FX506,"if you're gaming, do you have certain games you want to play?",0.5859,positive
+ASUS TUF F15 FX506,at what settings and fps do you want?,0.0772,positive
+ASUS TUF F15 FX506,"modern aaa ( baldur s gate 3, elden ring ).",0.0,neutral
+ASUS TUF F15 FX506,i prioritize stable 60 fps at 1080p 1200p with a medium high mix and upscaling (dlss fsr).,0.296,positive
+ASUS TUF F15 FX506,"any specific requirements such as good keyboard, reliable build quality, touch-screen, finger-print reader, optical drive or good input devices (keyboard touchpad)?",0.7003,positive
+ASUS TUF F15 FX506,at least 2 3 usb-a ports.,0.0,neutral
+ASUS TUF F15 FX506,"reliable laptop no chronic common issues, not prone to repairs.",-0.296,negative
+ASUS TUF F15 FX506,good cooling and keyboard.,0.4404,positive
+ASUS TUF F15 FX506,"32 gb ram (or easy upgrade), 1 tb nvme, 2 m.2 slots.",0.4404,positive
+ASUS TUF F15 FX506,leave any finishing thoughts here that you may feel are necessary and beneficial to the discussion.,0.4019,positive
+ASUS TUF F15 FX506,shortlist below with local pricing and links.,0.0,neutral
+ASUS TUF F15 FX506,"i'm stuck between two 15"" laptops available in turkey and would love your advice.",0.4939,positive
+ASUS TUF F15 FX506,"prices (turkey usd) asus tuf gaming f15 (fx507vv) 62,999 tl 1,533 lenovo legion 5 (15irx10) 68,999 tl 1,679 option a asus tuf f15 (fx507vv) cpu: i7-13620h (10c 16t) gpu: rtx 4060 up to 140w (8 gb) display: 15.6"" 1920 1080 144 hz ram ssd: 32 gb 1 tb (2 m.2) option b lenovo legion 5 (15irx10) cpu: i7-13650hx (14c 20t) gpu: rtx 5060 115w (8 gb, gddr7) display: 15.3"" 1920 1200 165 hz (16:10) ram ssd: 32 gb 1 tb (2 m.2) i am open for different device advices as well.",0.8519,positive
+ASUS TUF F15 FX506,"i wanna know whats better, i know that rog series are the premium line on asus but i don't know if the strix g16 is overpriced or if its a better option to get the tuf f15.",0.7003,positive
+ASUS TUF F15 FX506,"both have a rtx 4060, 16gb of ram and an intel core i7 of 13th gen but doing a deeper research i find that although they have the same processor, they have some differences on performance.",0.0,neutral
+ASUS TUF F15 FX506,"also, the air flow is something that get me worried, i want my laptop to really last through years.",-0.2263,negative
+ASUS TUF F15 FX506,i converted my currency to dollars for better exposure.,0.4404,positive
+ASUS TUF F15 FX506,"the asus tuf f15 i find has a price of 1,252 and the asus rog strix g16 is on 1,643 also, if they had others gaming laptops that they recommend i would really appreciate it.",0.6697,positive
+ASUS TUF F15 FX506,"hi everyone, i'm trying to choose between three laptops for ai programming and gaming.",0.0,neutral
+ASUS TUF F15 FX506,"i'd appreciate your feedback, experiences, and which is the best value.",0.8519,positive
+ASUS TUF F15 FX506,"here are the options: dell g15 5530 -57,000 egp cpu: intel core i7 13650hx gpu: nvidia rtx 4050 (6 gb) ram: 16 gb ddr5 storage: 512 gb ssd display: 15.6"", fhd, 120hz, anti-glare keyboard: rgb os: windows 11 asus tuf f15 (fx507vv-lp156w)- 54,400 egp cpu: intel core i7 13620h gpu: nvidia rtx 4060 (8gb) ram: 16 gb ddr5 4800 storage: 1 tb ssd display: 15.6"", fhd, 144hz, 300 nits, 100 srgb ips keyboard: full rgb os: windows 11 lenovo loq 15irx9 (83dv00vmed) - 57,000 egp cpu: intel core i7 14700hx (5.5ghz, 33mb cache) gpu: nvidia rtx 4060 (8gb) ram: 16 gb ddr5 4800 storage: 1 tb ssd display: 15.6"", fhd, 144hz, 300 nits, 100 srgb ips keyboard: backlit os: windows 11 use cases: ai ml programming running jupyter notebooks, training models gaming occasional video editing and multitasking my questions: 1. which one offers the best balance of performance, thermals, manufacturing quality ,and reliability for both ai and gaming?",0.6369,positive
+ASUS TUF F15 FX506,2. has anyone used any of these laptops for ai programming or gaming?,0.0,neutral
+ASUS TUF F15 FX506,how s your experience?,0.0,neutral
+ASUS TUF F15 FX506,"3. is the lenovo loq a better investment due to the newer cpu, or should i stick with asus tuf for its proven thermals?",0.4404,positive
+ASUS TUF F15 FX506,any advice or first-hand experience would be awesome!,0.6588,positive
+ASUS TUF F15 FX506,looking for a new lap top and feeling overwhelmed with all of the choices.,0.3612,positive
+ASUS TUF F15 FX506,"my last laptop was an asus with i7, 16gb of ram, and nvidia graphics card (can't recall which exact one).",0.0,neutral
+ASUS TUF F15 FX506,"it always ran great and last me nearly ten years, so i'd like to replace it with some comparable.",0.7832,positive
+ASUS TUF F15 FX506,"i was at a local store and saw they have an asus tuf f15 fx507zc4 on sale for 579. it has an i5, 16gb of ram, 512gb ssd, and nvidia rtx3050 graphics.",0.0,neutral
+ASUS TUF F15 FX506,they claim the original price is 899. is it worth pulling the trigger on this?,0.4939,positive
+ASUS TUF F15 FX506,"i am a very light gamer but this would mostly be used for every day tasks (not a work laptop, but youtube, web browsing, etc).",0.0,neutral
+ASUS TUF F15 FX506,is there any harm in having a gaming laptop for tasks like that?,-0.25,negative
+ASUS TUF F15 FX506,thanks!,0.4926,positive
+ASUS TUF F15 FX506,"hey guys, i'm torn between these three models: asus tuf gaming f15: - rtx 4050 - intel core i7 13620h - 16gb ram - 512gb ssd - 15.6"" fhd 144hz acer nitro v: - rtx 4050 - intel core i7 13620h - 16gb ram - 512gb ssd - 15.6 fhd 144hz dell g15: - rtx 4050 - intel core i7 13650hx - 16gb ram - 1tb ssd - 15.6"" fhd 165hz i know the first two are (practically) identical, but when i look at reviews, the comments seem like a war of ""the tuf is more expensive but the nitro is better,"" ""the nitro is capped,"" and i'm completely lost on what to do.",-0.7899,negative
+ASUS TUF F15 FX506,"in your personal opinion, which one seems better?",0.4404,positive
+ASUS TUF F15 FX506,i want it to last a long time and run a lot of stuff (games).,0.0772,positive
+ASUS TUF F15 FX506,"despite the claims that the nitro is capped, in benchmark videos it ends up getting more fps than the tuf.",0.0,neutral
+ASUS TUF F15 FX506,"if you know of other models that are better, i'm open to suggestions.",0.4404,positive
+ASUS TUF F15 FX506,thanks a lot!,0.4926,positive
+ASUS TUF F15 FX506,"i want to know if this would be a good deal for my first gaming laptop (if i buy it i will increase the ram), in my country there are laptops with better components but they are more expensive and are second hand, this asus is the only quality-price that i have seen so far",0.8402,positive
+ASUS TUF F15 FX506,"my asus tuf f15's hinge broke, and i've encountered numerous bugs and software issues.",-0.4215,negative
+ASUS TUF F15 FX506,even the screws have started coming loose on their own.,-0.5106,negative
+ASUS TUF F15 FX506,"after spending considerable time researching alternatives, the best option i've found is the rog zephyrus.",0.6369,positive
+ASUS TUF F15 FX506,"however, i'm hesitant to stick with the asus brand.",-0.25,negative
+ASUS TUF F15 FX506,"are there any other reliable laptop manufacturers you'd recommend , like i only play csgo and valo and only do casual gaming.",0.802,positive
+ASUS TUF F15 FX506,so just high specs don't matter to me.,-0.0191,neutral
+ASUS TUF F15 FX506,asus tuf f15 intel i5 11 gen rtx 3050 ideapad gaming 3 ryzen 5 rtx 3050 plss help me,0.4019,positive
+ASUS TUF F15 FX506,can someone tell me if this is good enough for games like fortnite and valorant.,0.6597,positive
+ASUS TUF F15 FX506,also how are the thermals and are there any issues with temps or anything,0.0,neutral
+ASUS TUF F15 FX506,"hi, i am looking at options to buy a gaming laptop, and i've found that the asus tuf f15 (fx507zv) ( has great specs and display for the value.",0.7579,positive
+ASUS TUF F15 FX506,"the model i've taken a liking to has the following display: 15.6-inch, wqhd (2560 x 1440) 16:9, ips-level, anti-glare display, dci-p3:100 , refresh rate:165hz, g-sync, mux switch nvidia advanced optimus i've picked this laptop mainly because the screen specs look better than most, but i recently read older posts saying that the dci-p3 100 colour gamut might actually be more of a harm than good.",0.2459,positive
+ASUS TUF F15 FX506,"i'll be using the laptop for gaming, watching movies, and also web design.",0.0,neutral
+ASUS TUF F15 FX506,"i think i can switch between display colour modes, so i can utilise the wider colour range for games and videos, while doing work at srgb 100 .",0.0,neutral
+ASUS TUF F15 FX506,"yet, i am not sure if gaming and videos actually do benefit from dci-p3, and whether applying a colour profile will provide me with an accurate srgb for doing colour-accurate stuff.",0.2589,positive
+ASUS TUF F15 FX506,which one should i buy msi gf63 with hexa core i5 10500h 10 gen with rtx3050 144hz ips level screen 8gb ram ddr4 clock speed 4.5 ghz ssd 512gb or asus tuf f15 with core i5 10300h 10 gen 4 core 8 threads with gtx1650ti 144hz screen 8gb ram ddr4 clock speed 4.5ghz ssd 512gb,0.0,neutral
+ASUS TUF F15 FX506,"the asus tuf f15 has a i7 12gen, rtx 4070, 16gb ddr4 and 1tb ssd, at 979 lenovo loq 15 has i5 13gen, rtx 4050.",0.0,neutral
+ASUS TUF F15 FX506,"8gb ddr5 and 500gb ssd, at 700 most everything else is the same the price difference is like 250 but the asus has a 4070 and 1tb, but the lenovo has ddr5 and gen 13 i5, so i don't know if the 250 is worth",0.4767,positive
+ASUS TUF F15 FX506,"hello everyone, i wanted to ask for your opinion on this matter.",0.0323,neutral
+ASUS TUF F15 FX506,"i'm in need of laptop for python programming in the moment so i'm in x-fire between macbook air m1 (8 256gb) and asus tuf( i5-11400h, rtx 3050, 16 512gb).",0.5574,positive
+ASUS TUF F15 FX506,i know macbook battery is really good and can last for bigger period of time which i favor but i also like more ram which i at the moment can't get.,0.7349,positive
+ASUS TUF F15 FX506,for asus i like more power of the laptop but dislike low battery life.,-0.6486,negative
+ASUS TUF F15 FX506,i don't plan to game on it.,0.0,neutral
+ASUS TUF F15 FX506,i asked several people and they said 8gb is not that good comparing to 16gb version which i can't get right now because it's not available in my place.,-0.3412,negative
+ASUS TUF F15 FX506,and asus' battery life is not in my favor and idk what to do.,-0.3935,negative
+ASUS TUF F15 FX506,macbook is 1148 and asus 1073 .,0.0,neutral
+ASUS TUF F15 FX506,what do you think i should go for between these two?,0.0,neutral
+ASUS TUF F15 FX506,"after doing some research i pulled the trigger on this beast for 1300 it comes with rtx 4070 and i7-12700h 16gb ddr4 ram and 1tb of storage, i would say a very nice upgrade from my old dell inspiron n 5110 and hp 840 g3, planning on upgrading the ram to 32gb after testing the 16gb!",0.5244,positive
+ASUS TUF F15 FX506,let me know your thoughts if you got an asus tuf series!,0.0,neutral
+ASUS TUF F15 FX506,"still can't believe how lucky i got with this, so beyond happy!",0.4476,positive
+ASUS TUF F15 FX506,any advice or tips are appreciated!,0.5562,positive
+ASUS TUF F15 FX506,cpu temp easily reaches 95 when playing valorant.,0.5267,positive
+ASUS TUF F15 FX506,sometimes even gets to 97. i haven't tried any other game yet but is that normal?,0.0,neutral
+ASUS TUF F15 FX506,it's the asus tuf f15 fx507vu lp163w.,0.0,neutral
+ASUS TUF F15 FX506,it usually keeps fluctuating between 80-95.,0.0,neutral
+ASUS TUF F15 FX506,i'm a student so i don't be editing 4k videos but i want a great performance.,0.7964,positive
+ASUS TUF F15 FX506,also i want to play some games like valorant and minecraft.,0.6369,positive
+ASUS TUF F15 FX506,i can't choose between those bc macbook have a great battery life and tuf have like great gaming performance.,0.8934,positive
+ASUS TUF F15 FX506,"those models fit my budget quite well; both are 2023 versions with an i7-13, 16gb of ddr5 ram, and a 1tb ssd.",0.5984,positive
+ASUS TUF F15 FX506,the asus tuf has an rtx 4060 with 8gb of ddr6 memory.,0.0,neutral
+ASUS TUF F15 FX506,i've been reading a lot of opinions and i'm confused.,-0.3182,negative
+ASUS TUF F15 FX506,i'd be very grateful if you could help me.,0.7178,positive
+ASUS TUF F15 FX506,": it's for university, guys.",0.0,neutral
+ASUS TUF F15 FX506,i purchased an asus tuf f15 with an upgraded set up from best buy a few months back (see links for specs below).,0.6369,positive
+ASUS TUF F15 FX506,"at the same time, i also bought two vengeance sodimm ddr5 ram (4800 mhz).",0.0,neutral
+ASUS TUF F15 FX506,the laptop was working fine up until i upgraded the ram last weekend.,0.2023,positive
+ASUS TUF F15 FX506,"now, it works fine for the most part but crashes at random (varies from 1 to 5 times per day) and i can't determine why.",0.1027,positive
+ASUS TUF F15 FX506,any insights?,0.0,neutral
+ASUS TUF F15 FX506,asus tuf f15: ram:,0.0,neutral
+ASUS TUF F15 FX506,"hi everyone, i'm really struggling with my asus tuf gaming f15 (model fx506lh) and need some serious advice.",-0.5256,negative
+ASUS TUF F15 FX506,"i've spent the last 6 hours trying to fix a sudden code 43 error on my nvidia gtx 1650, and every ""fix"" seems to break the system further.",-0.4019,negative
+ASUS TUF F15 FX506,"the specs: model: asus tuf f15 (fx506lh) gpu: nvidia geforce gtx 1650 os: windows 11 the situation: my gpu suddenly stopped working, and device manager shows the yellow triangle with ""windows has stopped this device because it has reported problems.",-0.6705,negative
+ASUS TUF F15 FX506,"(code 43).""",0.0,neutral
+ASUS TUF F15 FX506,i am currently forced to run on the intel integrated graphics.,-0.4588,negative
+ASUS TUF F15 FX506,what i have tried (in chronological order): generic nvidia drivers: tried updating via geforce experience and device manager.,0.0,neutral
+ASUS TUF F15 FX506,"result: installation finishes, but code 43 remains immediately.",0.0,neutral
+ASUS TUF F15 FX506,"the official asus factory driver (the ""holy grail"" attempt): i downloaded the specific rog nvidia dch driver from the official asus support page for the fx506lh.",0.4019,positive
+ASUS TUF F15 FX506,i booted into safe mode.,0.4404,positive
+ASUS TUF F15 FX506,"i ran the installer and selected ""perform a clean installation.""",0.4019,positive
+ASUS TUF F15 FX506,result: the laptop went into a boot loop automatic repair loop.,0.0,neutral
+ASUS TUF F15 FX506,it refused to boot into windows until i forced a system restore.,-0.4588,negative
+ASUS TUF F15 FX506,"manual older driver install: tried manually installing an older, supposedly ""stable"" version of the driver.",0.0,neutral
+ASUS TUF F15 FX506,result: immediate bsod (blue screen) with error kmode exception not handled.,-0.7096,negative
+ASUS TUF F15 FX506,current status: i had to use system restore twice just to get back to a working desktop.,0.296,positive
+ASUS TUF F15 FX506,"the laptop works fine for basic tasks using the intel chip, but any attempt to install a driver that actually ""wakes up"" the nvidia card causes a system crash or boot loop.",-0.4854,negative
+ASUS TUF F15 FX506,the question: has anyone with this specific chassis (fx506lh) managed to fix this?,0.0,neutral
+ASUS TUF F15 FX506,"since even the official asus driver installed via safe mode clean install caused a boot loop, does this confirm that my gpu hardware is physically dead?",0.0772,positive
+ASUS TUF F15 FX506,i want to avoid a full windows reinstall if the hardware is likely toast anyway.,-0.2263,negative
+ASUS TUF F15 FX506,any help is appreciated.,0.7184,positive
+ASUS TUF F15 FX506,thanks.,0.4404,positive
+ASUS TUF F15 FX506,good day!,0.4926,positive
+ASUS TUF F15 FX506,planning to upgrade of ram for my laptop which is the asus tuf f15 fx517zr can you suggest compatible ram for this laptop?,0.0,neutral
+ASUS TUF F15 FX506,"and what type of brand po?like teamgroup, kingston, adata, gskill thanks!",0.4926,positive
+ASUS TUF F15 FX506,"i changed the thermal paste and removed the putty that had the vram on it and left it bare, the vram does not touch the dissipator.",0.0,neutral
+ASUS TUF F15 FX506,the computer worked fine for two hours and then it crashed and turned off.,0.2023,positive
+ASUS TUF F15 FX506,"now when i try to turn it on it stays stuck on the asus logo, is this caused by the vram heating up or could it be because?",-0.25,negative
+ASUS TUF F15 FX506,i'm losing my sanity.,-0.3818,negative
+ASUS TUF F15 FX506,i feel like my vision is slowly being destroyed.,0.0772,positive
+ASUS TUF F15 FX506,i can't even be sure of which subreddit to post this to!,-0.308,negative
+ASUS TUF F15 FX506,has anyone else had issues with the above?,0.0,neutral
+ASUS TUF F15 FX506,i purchased the monitor ( recently because i'd seen decent reviews that mentioned nothing about motion blur problems.,-0.4019,negative
+ASUS TUF F15 FX506,when i scroll text or play games like horizon zero dawn: remastered and pan the camera the image is super blurry given i'm pushing 100 fps.,0.8126,positive
+ASUS TUF F15 FX506,i've tried looking for a firmware upgrade but nothing appears to be available online.,0.0,neutral
+ASUS TUF F15 FX506,i've tried playing around with g sync vrr settings.,0.2023,positive
+ASUS TUF F15 FX506,"i've reduced my hz from 180 to 144 and set the max fps output from the gpu at 141. i've played with the response time settings, disabled hdr etc.",0.34,positive
+ASUS TUF F15 FX506,"for some reason, i am missing a 1ms motion blur reduction setting on my osd but i can access something related in the on screen control utility by lg under mbrt.",-0.1531,negative
+ASUS TUF F15 FX506,enabling this seems to introduce some other type of visual artefact.,0.0,neutral
+ASUS TUF F15 FX506,"no matter what i change, i simply cannot get a smooth image.",-0.2732,negative
+ASUS TUF F15 FX506,it's driving me crazy since i know how smooth 144hz is supposed to be.,-0.34,negative
+ASUS TUF F15 FX506,"i've noticed more motion blur on the laptop display recently as i don't tend to look at it for games, but there seem to be absolutely zero ways to tweak any settings related to the display here.",0.0,neutral
+ASUS TUF F15 FX506,"anyway, the monitor is more of a concern and i do appreciate it's not an expensive solution by any standard but it's unusable.",0.0948,positive
+ASUS TUF F15 FX506,any advice is greatly appreciated.,0.5563,positive
+ASUS TUF F15 FX506,"edit: removed ""as shown below"" since i can't post an image of an example.",0.0,neutral
+ASUS TUF F15 FX506,whenever i try to play video games the screen would go black and it would keep changing power modes.,0.34,positive
+ASUS TUF F15 FX506,"the issue only happens when it is under load (playing video games, having to many tabs, etc.)",0.0,neutral
+ASUS TUF F15 FX506,i've tried playing while not plugged in and it doesn't happen.,0.2023,positive
+ASUS TUF F15 FX506,i've seen similar posts and have said the charger is faulty but what do you guys think?,-0.1655,negative
+ASUS TUF F15 FX506,is this a common problem for everyone?,-0.4019,negative
+ASUS TUF F15 FX506,any fix for this?,0.0,neutral
+ASUS TUF F15 FX506,is there anything i could do for it not to happen again?,0.0,neutral
+ASUS TUF F15 FX506,"hey, today i opened my laptop asus tuf f15 for motherboard cleaning.",0.0,neutral
+ASUS TUF F15 FX506,there i found a surface ceramic capacitor burned or broken in asus tuf f15 motherboard.,-0.4767,negative
+ASUS TUF F15 FX506,but the laptop is working and booting properly.,0.0,neutral
+ASUS TUF F15 FX506,what cause it will have to mobo in future?,0.0,neutral
+ASUS TUF F15 FX506,"hello guys , i am a 3d artist and for my work i use blender and for that i need so much ram to smoothly render and work properly so i am planning to upgrade ram in my laptop which is asus tuf f15 2023 model.",0.0,neutral
+ASUS TUF F15 FX506,the issue is i don't know how much ram i can upgrade and what ram it supports so i need help from you guys.,0.6682,positive
+ASUS TUF F15 FX506,after running certain command for checking how many slots i have and how much ram i can upgrade and it showed like 4slots and 128gb can be upgraded (it has only 8gb ram now ) but in the videos i see it has only two slots and it can only upgraded to 32gb in both slots 16 2 .,0.3182,positive
+ASUS TUF F15 FX506,but the problem is the model in the video is different its 2022 model and i have 2023 also i don't know if the command which i run to check the ram shows the right amount of ram i can upgrade also it has ddr4 ram can i upgrade it to ddr5 ?,-0.5499,negative
+ASUS TUF F15 FX506,my model is asus tuf f15 fx506h please tell me so i could buy right ram.,0.3182,positive
+ASUS TUF F15 FX506,need help i have an asus tuf f15 fx506hf i am planning to put in a 16 gb ram card and a 2 tb nvme ssd does it matter what brand i get?,0.4215,positive
+ASUS TUF F15 FX506,i am thinking of getting these if you have any other recommendations or if my choices are bad please tell me,-0.296,negative
+ASUS TUF F15 FX506,"hello, first time posting here but i'm getting desperate.",-0.4497,negative
+ASUS TUF F15 FX506,this has been going on for a month and i am starting to worry that there might be no fix.,-0.6249,negative
+ASUS TUF F15 FX506,my device is a asus tuf f15 fx517ze.,0.0,neutral
+ASUS TUF F15 FX506,"when i updated, i lost bluetooth and wi-fi toggles.",-0.3182,negative
+ASUS TUF F15 FX506,i have removed all the bluetooth drivers via device manager as those has been hidden.,0.0,neutral
+ASUS TUF F15 FX506,"that's where i notice a ""network controller"" that is looking for drives, so i assumed that it was faulty drives.",-0.3182,negative
+ASUS TUF F15 FX506,"i have reinstalled the intel drivers and it didn't fix it, installed bluetooth and wireless drives from asus.com ( website, it did not budge.",0.0,neutral
+ASUS TUF F15 FX506,"i have uninstalled the network controller, thrice, installed the ones from asus, none.",0.0,neutral
+ASUS TUF F15 FX506,"i went to intel's dsa, it detected this issue and assumed it has fixed it.",0.0,neutral
+ASUS TUF F15 FX506,it did not.,0.0,neutral
+ASUS TUF F15 FX506,"it won't budge, geek uninstalled the wireless connection drives, did it all again, code 28 remains.",0.1511,positive
+ASUS TUF F15 FX506,"i am tired of being on a ethernet cable life support and being unable to use bluetooth, what must i do?",-0.0516,negative
+ASUS TUF F15 FX506,i have exhausted all options i know.,-0.3612,negative
+ASUS TUF F15 FX506,"hey guys, i recently bought a 1440p monitor and realized that my laptop cannot for the love of god handle generating enough frames to make the games playable.",-0.3111,negative
+ASUS TUF F15 FX506,"i have the asus tuf f15 which comes with i7 12th gen cpu, nvidia 3050 ti with just 4gb vram and 16gb ram.",0.0,neutral
+ASUS TUF F15 FX506,so i thought its time i build myself a pc and then buy a lighter laptop with just integrated graphics for my day to day use.,0.0,neutral
+ASUS TUF F15 FX506,"i was thinking about getting a i7 14th gen cpu (480 in my region) the other strong contender was the ryzen 7 9800x3d and 9700x (around same price, while 9700x being few dollars cheaper).",0.5859,positive
+ASUS TUF F15 FX506,"for the graphics card, i wanted something that can truly provide me that eye candy on my 2k monitor with max video settings and thought maybe nvidia (4070ti or 5060ti - 4070 ti super asus tuf 16gb is available for 850 in my region) was the way to go but open for suggestions in case of amd radeon for similar performance or even better.",0.8047,positive
+ASUS TUF F15 FX506,"overall, i want the pc for gaming, programming and other day to day tasks that can run most games at 1440p with 60 fps at highest settings around my 1500 budget.",0.0772,positive
+ASUS TUF F15 FX506,(would love other suggestions regarding the pc components like mobo and coolers.,0.7717,positive
+ASUS TUF F15 FX506,as for ram i will go with 2x16gb 6000mhz.),0.0,neutral
+ASUS TUF F15 FX506,"hi all, so i'm trying to upgrade the ram on an older asus tuf f15 laptop i recently got and am uncertain of what i can use.",-0.296,negative
+ASUS TUF F15 FX506,"model is fx506hf, which seems to be a model that isn't on a lot of compatibility lists and even some asus support pages.",0.4019,positive
+ASUS TUF F15 FX506,"i've been trying to figure out what ram i can put in for an upgrade, specifically if the cl matters.",0.0258,neutral
+ASUS TUF F15 FX506,i ran hwinfo and my stock 8 gb ram is cl22.,0.0,neutral
+ASUS TUF F15 FX506,i've searched all over for compatibility checks but cannot find anything for this specific model.,0.0,neutral
+ASUS TUF F15 FX506,"i haven't checked my bios to see if it supports xmp, but i just left for a trip without the laptop.",0.1901,positive
+ASUS TUF F15 FX506,"so my question is, can i only put cl22 ram, or can i go with something faster like cl18?",0.3612,positive
+ASUS TUF F15 FX506,"ciao, ho un laptop asus tuf f15 collegato ad un odyssey g5 tramite un hub con hdmi.",0.0,neutral
+ASUS TUF F15 FX506,"nonostante la frequenza di aggiornamento massima del monitor sia di 180 hz, ho notato nelle impostazioni dello schermo di windows che la frequenza fissata a 59,95 hz e pu arrivare a 75,03 hz - comunque ben lontana da 180 hz.",-0.2732,negative
+ASUS TUF F15 FX506,il display utilizza la gpu integrata anzich la nvidia a bordo del notebook.,0.0,neutral
+ASUS TUF F15 FX506,"collegando il monitor direttamente al laptop senza passare dall'hub, windows passa ad utilizzare la nvidia e anche la frequenza arriva a 180 hz.",0.0,neutral
+ASUS TUF F15 FX506,"dunque il colpevole sembra essere l'hub, che va ad utilizzare la gpu interna.",0.0,neutral
+ASUS TUF F15 FX506,che voi sappiate c' modo di forzare windows ad usare la gpu nvidia anche passando dall'hub?,0.0,neutral
+ASUS TUF F15 FX506,temo che anche cambiando hub potrei avere lo stesso problema.,0.0,neutral
+ASUS TUF F15 FX506,"my asus tuf f15 came with a 16 gb ddr4 32000 mhz stick in one slot, and i am considering pairing it with an 8 gb ddr4 2666 mhz cl19 from my old laptop.",0.0,neutral
+ASUS TUF F15 FX506,"will this cause any problems for the pc, or will it improve it?",0.0516,positive
+ASUS TUF F15 FX506,"(note: i don't really have any need for more ram, i'm just tempted to do it.)",0.0,neutral
+ASUS TUF F15 FX506,so it's not about building pc but i needed help with something and didn't know where to go.,0.5499,positive
+ASUS TUF F15 FX506,so i have a laptop (asus tuf f15).,0.0,neutral
+ASUS TUF F15 FX506,and from some months there are some issues that i'm facing with it.,0.0,neutral
+ASUS TUF F15 FX506,mostly with wifi and bluetooth drivers.,0.0,neutral
+ASUS TUF F15 FX506,both the drivers disappears out of the blue.,-0.34,negative
+ASUS TUF F15 FX506,like everytime not once a day but everytime i'm using my laptop they disappear in the middle of my work and i don't know how.,-0.1531,negative
+ASUS TUF F15 FX506,"and also the blue screen comes in sometimes, saying pc didn't start properly needs restart and it happens a lot.",0.0,neutral
+ASUS TUF F15 FX506,i also contacted asus service centre.,0.0,neutral
+ASUS TUF F15 FX506,"they sent someone, he opened my laptop and said there's no hardware problem it might be a software problem then he asked me if he can format my laptop and i said okay and he did.",-0.6908,negative
+ASUS TUF F15 FX506,and it was working fine but just for some days started facing the same issues again.,0.1027,positive
+ASUS TUF F15 FX506,need suggestions.,0.0,neutral
+ASUS TUF F15 FX506,what should i do.,0.0,neutral
+ASUS TUF F15 FX506,so i installed 16x2 ddr4 2666mhz ram on my laptop which supports ddr4 3200mhz (previously it had 8x2 ddr4 3200mhz).,0.3612,positive
+ASUS TUF F15 FX506,"and since this upgrade, my laptop keeps on crashing every hr or something and my games also keep on shutting down very frequently which never happened before with the factory ram.",0.0,neutral
+ASUS TUF F15 FX506,is the new installed ram corrupt or is it because of the wrong frequency?,-0.4767,negative
+ASUS TUF F15 FX506,"please help me out, thank you my laptop specs (asus tuf f15- fx507vu): 13th gen intel core i7-13700h nvidia geforce rtx 4050 laptop gpu 8gb ddr4-3200 so-dimm x 2, max capacity:64gb, support dual channel memory",0.8481,positive
+ASUS TUF F15 FX506,"i purchased an asus tuf gaming laptop worth 1,00,000 from flipkart .",0.2263,positive
+ASUS TUF F15 FX506,"within a short period of use, the laptop started showing black lines on the screen and frequent blue screen errors .",-0.34,negative
+ASUS TUF F15 FX506,i contacted asus support and submitted the laptop to the service center for repair.,0.4019,positive
+ASUS TUF F15 FX506,"however, after receiving it back, the condition became even worse.",-0.4767,negative
+ASUS TUF F15 FX506,the laptop now lags heavily and the display shows a pink screen videos of these defects (,-0.6369,negative
+ASUS TUF F15 FX506,i recently changed thermal paste on both cpu and gpu from nehru place.,0.0,neutral
+ASUS TUF F15 FX506,not thermal putty as it mostly seemed fine.,0.2023,positive
+ASUS TUF F15 FX506,but while playing kcd2 i noticed mad high cpu temps.,-0.4767,negative
+ASUS TUF F15 FX506,but gpu temps are fine.,0.296,positive
+ASUS TUF F15 FX506,around 95-96 constant at 50 percent utilization approx.,0.0,neutral
+ASUS TUF F15 FX506,i don't know if it's too high or not and whether it will damage motherboard or something.,-0.4939,negative
+ASUS TUF F15 FX506,anyone else suffering from same thing.,-0.4767,negative
+ASUS TUF F15 FX506,i live in delhi and don't use it in an ac room.,0.0,neutral
+ASUS TUF F15 FX506,normal ceiling fan and ventilation.,0.3182,positive
+ASUS TUF F15 FX506,i also elevate it's back.,0.0,neutral
+ASUS TUF F15 FX506,and use it only on bed table.,0.0,neutral
+ASUS TUF F15 FX506,please someone tell me what is better for raw performance and max fps in games,0.6369,positive
+ASUS TUF F15 FX506,what's better for pure raw performance and fps in games?,0.4404,positive
+ASUS TUF F15 FX506,"laptop: asus tuf f15 fx507vi gpu: rtx 4070 cpu: intel i7-13620h ram: 16gb ddr5 storage: 1tb ssd screen: 144hz, 15 6 laptop: hp victus 16 gpu: rtx 4070 cpu :amd ryzen 7 8845hs ram: 16gb ddr5 storage: 1tb ssd screen: 144hz, 16 1",0.0,neutral
+ASUS TUF F15 FX506,hi all my cpu fan stopped working so i removed it and ordered a replacement.,0.1027,positive
+ASUS TUF F15 FX506,the serial number matched but the fitting is too big to go in the original socket on the motherboard.,0.4767,positive
+ASUS TUF F15 FX506,i've attached 2 pics for reference.,0.0,neutral
+ASUS TUF F15 FX506,the black plug is the original that broke and the white plug is the new one.,-0.128,negative
+ASUS TUF F15 FX506,can anyone help i'm not the best with computers and really don't wanna pay asus for a repair :(,-0.4603,negative
+ASUS TUF F15 FX506,i am going to buy a gaming laptop for 4-5 years please help me differentiate between them.,0.6124,positive
+ASUS TUF F15 FX506,which would be best for me someone suggest me?,0.6369,positive
+ASUS TUF F15 FX506,"i'm thinking of buying the asus tuf f15, with core i7 13620h, rtx 4060, 16gb ram ddr5 and 1tb m.2 has anyone used it in current games?",0.0,neutral
+ASUS TUF F15 FX506,do you know how it goes?,0.0,neutral
+ASUS TUF F15 FX506,it's hard to find reviews with those specs.,-0.1027,negative
+ASUS TUF F15 FX506,thanks for the help!,0.7088,positive
+ASUS TUF F15 FX506,"i'm having some problems with my gaming laptop, it heat so fast with such basics games like valorant and it don't ge me the fps i feel that it can push, i get like 200 fps in valorant and 80 c cpu.",0.3182,positive
+ASUS TUF F15 FX506,"recently i got forza horizon 4, and when i installed poped an warning that my pc did not have the specs to play the game smooth, so it ran a test and now its running on the really low graphics, plz somebody help me to fix this.",0.2193,positive
+ASUS TUF F15 FX506,im brazilian so if the help come in portuguese i would really appreciate!,0.739,positive
+ASUS TUF F15 FX506,i recently bought this laptop on sale.,0.0,neutral
+ASUS TUF F15 FX506,it came with 512 gb ssd and 16 gb ram.,0.0,neutral
+ASUS TUF F15 FX506,i7-13620h rtx 4060. but there are clearly not much information available regarding what is the generation of the second m2 slot.,0.5499,positive
+ASUS TUF F15 FX506,and i definitely need to upgrade the storage.,0.4019,positive
+ASUS TUF F15 FX506,so if anyone else has the same device as mine can you tell me what is the maximum amount ssd i can add in this laptop?,0.0,neutral
+ASUS TUF F15 FX506,i had my earphone connected to the laptop.,0.0,neutral
+ASUS TUF F15 FX506,"it kinda got pulled in a weird way , and the earphone jack got damaged.",-0.5574,negative
+ASUS TUF F15 FX506,i removed it completely from the laptop.,0.0,neutral
+ASUS TUF F15 FX506,"but now whenever i talk in the laptop mic, only a beep sound is heard.",0.0,neutral
+ASUS TUF F15 FX506,it's not working.,0.0,neutral
+ASUS TUF F15 FX506,what should i do ?,0.0,neutral
+ASUS TUF F15 FX506,please help it's a new lap.,0.6124,positive
+ASUS TUF F15 FX506,"intel core i5 11th gen h rtx 2050 2 ram slots, one used by a 8gb ram stick 450gb ssd forgot to mention, is there any possible way to upgrade the gpu?",0.0,neutral
+ASUS TUF F15 FX506,the cpu temperatures of my laptop are very high even when i am not performing any heavy tasks.,0.0,neutral
+ASUS TUF F15 FX506,"i purchased a new tuf f15 with an i7 12th gen processor a year ago, but these temperatures seem unusually high.",0.0,neutral
+ASUS TUF F15 FX506,i have previously used the legion series and never faced such issues.,0.0,neutral
+ASUS TUF F15 FX506,could you please suggest what i should do?,0.3182,positive
+ASUS TUF F15 FX506,"if i decide to change the thermal paste, which one should i buy?",0.0,neutral
+ASUS TUF F15 FX506,"i am looking for a decent entry level gaming laptop for around 1k (r18k) to max 1.1k, that can at least handle modern games (i am not talking god-tier graphics, but decently run most games, 16gb ram and a decent rtx card) and also do everyday pc things.",0.0,neutral
+ASUS TUF F15 FX506,"i have been checking out my options here in south africa and i have also been doing a lot of research, which has brought me to these two options.",0.0,neutral
+ASUS TUF F15 FX506,the nitro v and the tuf f15.,0.0,neutral
+ASUS TUF F15 FX506,"i'd really like to have some advice on which one is the best and some owners comments, please.",0.8516,positive
+ASUS TUF F15 FX506,i am not the oop.,0.0,neutral
+ASUS TUF F15 FX506,"that would be u throwraaverage trigger warning : !homophobia, politics, child endangerment, racism!",-0.7955,negative
+ASUS TUF F15 FX506,mood spoiler : !frustrating!,0.0,neutral
+ASUS TUF F15 FX506,"being completely honest, my mom and i don't agree on much, and today was another example.",0.3576,positive
+ASUS TUF F15 FX506,"we went to church this morning with plans for a restaurant afterwards, but mom said my sister ruined the mood and we didn't end up going.",-0.631,negative
+ASUS TUF F15 FX506,mom stayed in her room with the door closed when we returned and after yelling at my sister in her room.,0.0,neutral
+ASUS TUF F15 FX506,"there was no sunday school today because they wanted families to sit together to honor mom, but my sister excused herself to the restroom when the pastor got on her nerves our pastor often talks about things going on, and he made jabs in his sermon that felt unnecessary.",-0.0258,neutral
+ASUS TUF F15 FX506,"he said that the world was ""disrespecting moms"" by ""forcing gay marriage down everyone's throats"" because we ""wouldn't be here if we had gay parents"".",0.0,neutral
+ASUS TUF F15 FX506,"he also joked about how some people ""needed the stupid slapped out of them from mom"" in regards to people coming out, and the jabs felt unnecessary for a mother's day sermon (or at all during church).",-0.2732,negative
+ASUS TUF F15 FX506,"my sister went to the bathroom during the sermon, but stayed in there until service was done which ticked her off.",-0.5719,negative
+ASUS TUF F15 FX506,mom and dad both yelled at her on the car ride home and continued in her room when we returned from church.,0.0,neutral
+ASUS TUF F15 FX506,"this is just one of many times she's been yelled at, but i wanna keep this post to mother's day.",0.0,neutral
+ASUS TUF F15 FX506,"i just need advice because i tried to cheer her up, but she wanted to be left alone edit: for those who keep asking messaging me about talking to a teacher at school, we are both homeschooled, so that would be useless.",-0.6187,negative
+ASUS TUF F15 FX506,"our mom is our teacher, and i don't trust anyone at our church my sister mostly stayed in her room on mother's day, and my parents were in a mood for most of the day too.",-0.4023,negative
+ASUS TUF F15 FX506,"mom also carried her mood through monday, and she gets a certain way when she does.",0.2732,positive
+ASUS TUF F15 FX506,she has a habit of zoning out on her headphones while listening to a podcast music when she's upset.,-0.3818,negative
+ASUS TUF F15 FX506,"but if she's feeling obnoxious, she'll stream christian music really loudly from the tv while working around the home, and it's annoying because you can hear it from any room.",-0.7783,negative
+ASUS TUF F15 FX506,but that's not the weirdest part of it.,0.2498,positive
+ASUS TUF F15 FX506,"you know how people sometimes yell out tongues in church, and everyone perceives it to be normal?",0.0,neutral
+ASUS TUF F15 FX506,"mom has never done that in church, but there are times when she'll yell something prophetically in our home when she's in a mood.",0.0,neutral
+ASUS TUF F15 FX506,"she'll sing, dance or clap along to music or a youtube sermon, and it's as if she's possessed.",0.0,neutral
+ASUS TUF F15 FX506,"it's not unusual in church when surrounded by others, but it's weird when you're at home she also did the same after the 2020 election.",-0.2617,negative
+ASUS TUF F15 FX506,she went to bed thinking that he had won.,0.5719,positive
+ASUS TUF F15 FX506,"but when she learned that he lost, she began doing her music thing again as if it were some sort of thearpy.",-0.4497,negative
+ASUS TUF F15 FX506,"i'm trying to explain how weird it is, but she'll randomly yell stuff like ""you have no authority here, satan"" whenever she's upset.",-0.431,negative
+ASUS TUF F15 FX506,"literal outbursts when she starts yelling ""amen"" or some random chants she makes up on the spot.",0.0,neutral
+ASUS TUF F15 FX506,"i've told this to a relative (who's also a christian), and she didn't think it was weird.",-0.1779,negative
+ASUS TUF F15 FX506,"but if my mom were on drugs and yelling non-religious stuff, i feel as if it'd be taken more seriously.",-0.359,negative
+ASUS TUF F15 FX506,"mom also purchased maga t-shirts and hats for us to wear ahead of the 2020 election, and it wasn't enough for her to buy them for herself.",0.0,neutral
+ASUS TUF F15 FX506,"i guess it makes sense in the context of church and how we're forced to go and can't stay home the worst thing she did was force my sister to wear the t-shirt and hat for a ""homeschool assignment"" (during school hours) that she didn't put on the homeschool report she sent to the district (where she writes what we did for each class that semester).",-0.7964,negative
+ASUS TUF F15 FX506,"she had her stand in the front yard of my neighbor's home with my neighbor who has a lot of maga signs, and the two of them gave thumbs up to passing cars while mom cowardly recorded bits through our living room window.",-0.3818,negative
+ASUS TUF F15 FX506,"she wasn't brave enough to even record from our front porch, and she subjected my sister to profanity and someone who spat in their direction (which thankfully missed).",0.0062,neutral
+ASUS TUF F15 FX506,"i could go on and on about my mom, but i'm just glad she's seemingly over the mother's day thing there were a lot of messages since the last time i used this account, so i'm gonna write this here instead of replying to too many people.",0.6124,positive
+ASUS TUF F15 FX506,"i don't know why my sister was forced to wear the t-shirt and hat when i wasn't, and it feels like mom had it out for her more than me.",-0.128,negative
+ASUS TUF F15 FX506,"i'm 19 now, but have been struggling to make ends meet.",-0.5719,negative
+ASUS TUF F15 FX506,i live by myself and work two jobs because my parents wanted me to move out for many reasons.,0.0,neutral
+ASUS TUF F15 FX506,i didn't get a graduation party or offer to split tuition like my sister did.,0.0624,positive
+ASUS TUF F15 FX506,"over the years, i tried to support her when mom was rough on her-even arguing on her behalf many times.",-0.0772,negative
+ASUS TUF F15 FX506,"dad never cared to defend either of us, and i felt like my sister and i were getting closer because she would vent to me many times.",0.0433,neutral
+ASUS TUF F15 FX506,"however, she changed since my last update and has become their favorite in many ways my sister (now 18) has become a clone of my mom.",0.4588,positive
+ASUS TUF F15 FX506,"one of my friends said it might've been a coping mechanism, but i'm not sure if i buy that.",-0.101,negative
+ASUS TUF F15 FX506,"unlike when he ran in 2020, she became pro-maga in the leadup to the 2024 election.",0.0,neutral
+ASUS TUF F15 FX506,she and mom also began to talk politics together and are often on the same wavelength.,0.0,neutral
+ASUS TUF F15 FX506,"aside from politics, she's become more active in the church.",0.4576,positive
+ASUS TUF F15 FX506,"she currently attends a young adults class after many years of youth group, and she's also dating someone she met in youth group.",0.0,neutral
+ASUS TUF F15 FX506,"she even attended a maga rally with my parents in the leadup to the 2024 election, and this is someone who used to despise maga before 2024 and would leave the room when they'd stream his rallies.",-0.3818,negative
+ASUS TUF F15 FX506,"maybe it was a coping mechanism or similar to someone falling in love with their captor, but i personally think that your environment has an impact on who you become as mentioned in my first post, our pastor had a habit of talking politics and current world events.",0.3182,positive
+ASUS TUF F15 FX506,"and when you're in church numerous times a week like her, maybe she began to adapt to her surroundings.",0.3612,positive
+ASUS TUF F15 FX506,"in hindsight, our church felt like attending a political rally instead of what church should be.",0.3612,positive
+ASUS TUF F15 FX506,"whenever our pastor would make a right-leaning conservative point during his sermon, he'd often be met with enthusiastic applause and hollers compared to uninspired applause (if any at all) when raising his voice about a biblical point he was trying to make.",0.8316,positive
+ASUS TUF F15 FX506,"compared to his political moments, the congregation's reaction to the biblical parts felt like a dead bedroom.",-0.4215,negative
+ASUS TUF F15 FX506,but they eat it up and get excited when he gets political.,0.4767,positive
+ASUS TUF F15 FX506,almost as if they're waiting to see when he does.,0.0,neutral
+ASUS TUF F15 FX506,i remember when he spoke about how roe vs wade was overturned and the enthusiastic response to it.,0.4939,positive
+ASUS TUF F15 FX506,"how he praised god when the ""conservative party"" won in 2024. he opened the service with reflections on kirk after he passed, and he voiced disgust about blm rallies and anti-police sentiment after george floyd years ago too i could name so many more instances from growing up in this church.",0.83,positive
+ASUS TUF F15 FX506,"for those who asked if we're in the deep south, the most i'll say is that we weren't.",0.0,neutral
+ASUS TUF F15 FX506,"that church was on long island, new york (pentecostal).",0.0,neutral
+ASUS TUF F15 FX506,"my sister was given a graduation party and assistance with splitting tuition, and she's going to an online college while staying at home.",0.4019,positive
+ASUS TUF F15 FX506,"she also began criticizing me like my mom for not wanting to talk politics or go to their church anymore, and it hurts when my sister used to be brave enough to walk out of a sermon when she heard homophobia.",0.0772,positive
+ASUS TUF F15 FX506,it hurts to realize that that part of her is gone and was consumed by her new maga personality (and her boyfriend who is also pro-maga which perhaps had a lot to do with her change).,-0.4767,negative
+ASUS TUF F15 FX506,"but more than that, it hurts to not be close to her anymore, and i'm just hoping to make some friends to fill that void (comments) (hoaxshmoax) : ""the pastor exploited the mother child bond to trojan horse his bigotry into his sermon.",-0.0772,negative
+ASUS TUF F15 FX506,"it's not your sisters fault that she saw through it and left"" (realitymatter) : ""as a christian, that pastor sounds absolutely insane.",-0.1864,negative
+ASUS TUF F15 FX506,"he couldn't even take one day out of the year to a nice, uplifting sermon about all the amazing mother figures in the bible?",0.765,positive
+ASUS TUF F15 FX506,"he had to make it about the ""scary gays""?",-0.4939,negative
+ASUS TUF F15 FX506,"(kaptainpeepee) : ""i may be projecting, but it is my assessment over and over that narcissistic abuse and religious trauma go hand in hand.",-0.2263,negative
+ASUS TUF F15 FX506,your mother exhibits a lot of traits of a narcissistic person and your father of an enabler: 1. she has effectively isolated you trough homeschooling.,0.1531,positive
+ASUS TUF F15 FX506,2. she does not consider you as persons with their own thoughts and opinions.,0.0,neutral
+ASUS TUF F15 FX506,it seems that you are just an extension of her.,0.0,neutral
+ASUS TUF F15 FX506,3. she is taking advantage of her position of authority as a schoolmaster to advance her political beliefs.,0.3182,positive
+ASUS TUF F15 FX506,4. the narcissist expects obedience at all times and you must walk on eggshells at all times to please the narcissist.,0.3182,positive
+ASUS TUF F15 FX506,"5. when the narcissist does not get what she wants, she becomes irate: it is called narcissistic rage.",-0.8176,negative
+ASUS TUF F15 FX506,"please note that i am not a professional mental-health worker, but consider informing yourself about the narcissistic personality disorder ( and reposing to r raisedbynarcissists ( (dudleydidwrong) : ""your mom ruined mother's day, not you guys.",-0.7935,negative
+ASUS TUF F15 FX506,the pastor contributed.,0.0,neutral
+ASUS TUF F15 FX506,but your mom probably picked the church.,0.0,neutral
+ASUS TUF F15 FX506,"if she chooses to attend the weekly hate-fest, she should not be surprised when people were offended.",-0.3952,negative
+ASUS TUF F15 FX506,"if the jesus of the gospels had been there, he probably would have done a lot more than hide in the bathroom; he was a known table-flipper in similar circumstances according to the bible.",-0.2449,negative
+ASUS TUF F15 FX506,you and your sister didn't make a fuss.,0.0,neutral
+ASUS TUF F15 FX506,your sister took the diplomatic approach by staying in the bathroom during the hate-fest.,0.0,neutral
+ASUS TUF F15 FX506,it doesn't sound like she made a scene.,-0.2755,negative
+ASUS TUF F15 FX506,neither did you.,0.0,neutral
+ASUS TUF F15 FX506,"your mother is the one that decided to let the event ruin mother's day"" (7thatsanope) : ""don't bother trying to make things right with your mom.",-0.4145,negative
+ASUS TUF F15 FX506,she ruined her own mother s day by being a bigot.,-0.4767,negative
+ASUS TUF F15 FX506,your sister didn't do anything wrong or even remotely rude or disrespectful or disruptive.,-0.411,negative
+ASUS TUF F15 FX506,"she simply quietly, without making a scene, removed herself from a bad situation and waited quietly outside for the bigotry to be over.",-0.5423,negative
+ASUS TUF F15 FX506,she didn't ruin anything.,0.4717,positive
+ASUS TUF F15 FX506,"support your sister, instead.",0.4019,positive
+ASUS TUF F15 FX506,talk to her.,0.0,neutral
+ASUS TUF F15 FX506,let her know she isn't alone and that your parents and the church are wrong.,-0.3313,negative
+ASUS TUF F15 FX506,"if there's a next time, walk out with her.",0.0,neutral
+ASUS TUF F15 FX506,you two have each other - stick together and support each other.,0.4019,positive
+ASUS TUF F15 FX506,"then once you guys are old enough, move out.",0.0,neutral
+ASUS TUF F15 FX506,"also, as teens being homeschooled, do some research and make sure you are on track to get legitimate high school diplomas or at least geds.",0.3182,positive
+ASUS TUF F15 FX506,"homeschooling absolutely can provide a legitimate education that qualifies you for college, trade school, and anything else that requires high school graduation, but not all parents who homeschool (especially the more religious ones) follow the necessary standards and procedures needed to prepare you for the next steps in life.",0.0,neutral
+ASUS TUF F15 FX506,"so, make sure you and your sister are on the right track with that""",0.3774,positive
+ASUS TUF F15 FX506,principal took a picture of it and sent it to all parents.,0.0,neutral
+ASUS TUF F15 FX506,(not that deep bffr),0.0,neutral
+ASUS TUF F15 FX506,hypothetically would an usaf airforce pilot in an f15 with no other options be able to successfully land on an aircraft carrier,0.25,positive
+ASUS TUF F15 FX506,shot on my iphone 13 pro i was walking my dog back to my apartment that i saw this strange blue light.,-0.25,negative
+ASUS TUF F15 FX506,it looked like a string hanging in the sky and moved up and down.,0.3612,positive
+ASUS TUF F15 FX506,"it was higher than the planes flying by, we can an airport nearby so planes are very common.",0.0,neutral
+ASUS TUF F15 FX506,"it hovered up and down for 30 mins then dropped down, i lost sight",-0.3182,negative
+ASUS TUF F15 FX506,all while dozy don sleeps.,0.0,neutral
+ASUS TUF F15 FX506,this is a certified cluster f k!,0.0,neutral
+ASUS TUF F15 FX506,my laptop is officially dead now.,-0.6486,negative
+ASUS TUF F15 FX506,"it's an asus tuf dash f15 (i5 12th gen, rtx 3050 4gb, 8gb ram, 512gb ssd).",0.0,neutral
+ASUS TUF F15 FX506,"the issue is that it's not turning on at all, but the charging indicator light is showing when i plug it in.",0.0,neutral
+ASUS TUF F15 FX506,this actually happened before too.,0.0,neutral
+ASUS TUF F15 FX506,"i took it to a local service centre in ahmedabad, and he repaired it and gave me a 6-month warranty.",0.0,neutral
+ASUS TUF F15 FX506,"after the warranty ended, it slowly started creating problems again (random shutdowns, power issues), and now finally it's completely dead.",-0.7264,negative
+ASUS TUF F15 FX506,"at this point, i don't want to repair it anymore.",-0.0572,negative
+ASUS TUF F15 FX506,i've already spent money once and don't want to keep fixing it again and again.,-0.0572,negative
+ASUS TUF F15 FX506,i'm planning to buy a new laptop instead.,0.0,neutral
+ASUS TUF F15 FX506,does anyone from ahmedabad know how much i can sell this for in its current condition (not turning on but charging light works)?,0.0,neutral
+ASUS TUF F15 FX506,"should i sell it as scrap, for parts, or is there any better option?",0.4404,positive
+ASUS TUF F15 FX506,bought in 2022 and here are the specifications intel core i5 12 gen 450h rtx 3050 4gb ram 16gb ram and 512 ssd with 1tb ssd take a look at this asus tuf dash f15 intel core i5 12th gen 12450h - (8 gb 512 gb ssd windows 11 home 4 gb graphics nvidia geforce rtx 3050 144 hz) fx517zc-hn035ws gaming laptop on flipkart at 50000,0.5574,positive
+ASUS TUF F15 FX506,and i accidentally take of some thermal pads(i think that's thermal pads)do you have any idea how thick they are i want to order 1.0mm thick pads and replace them do you think that's okay and what's about other pads can i leave them or i need to replace them also ?,-0.1027,negative
+ASUS TUF F15 FX506,hola a todos.,0.0,neutral
+ASUS TUF F15 FX506,"necesito saber que otra marca de pasta t rmica puedo usar para mi laptop, anteriormente he usado la mx-04 y va dentro de lo normal pero he le do que hay muchas mejores, como la kryonaut.",0.0,neutral
+ASUS TUF F15 FX506,"adem s, el grosor de los pads t rmicos que us anteriormente fueron de 0.5mm, es correcto.",0.0,neutral
+ASUS TUF F15 FX506,o puedo usar los de 1mm sin problemas.,-0.5574,negative
+ASUS TUF F15 FX506,"especificaciones: procesador: 11th gen intel(r) core(tm) i5-11400h 2.70ghz ram: 16.0 gb tarjeta gr fica: nvidia geforce rtx 3050 de antemano, muchas gracias.",0.0,neutral
+ASUS TUF F15 FX506,-imagen de referencia- (,0.0,neutral
+ASUS TUF F15 FX506,i recently replaced my laptop s cooling fans because one of the original fans was starting to stall.,0.128,positive
+ASUS TUF F15 FX506,the replacement fans work fine but they run at a lower rpm.,-0.34,negative
+ASUS TUF F15 FX506,originally it runs about 4900 now it runs about 4000 rpm.,0.0,neutral
+ASUS TUF F15 FX506,"one of the older fans are still functional i'm considering swapping one of the slower fans with the older faster fan, but i'm not sure what would the side effects would be.",-0.2006,negative
+ASUS TUF F15 FX506,"laptop specs are asus tuf gaming f15 gaming laptop, 15.6"" 144hz fhd ips-type display, intel core i5-11400h processor, geforce rtx 2050, 16gb ddr4 ram, 512gb pcie ssd i do not have much use for my ps5 since moving to pc gaming and as for streaming i use other things (i know this answers it).",0.0,neutral
+ASUS TUF F15 FX506,i am wondering if this on paper if this is worth the trade.,0.2263,positive
+ASUS TUF F15 FX506,or am i losing on this.,-0.3818,negative
+ASUS TUF F15 FX506,thank you and have a wonderful day!,0.7574,positive
+ASUS TUF F15 FX506,i have managed to resolve this issue - check comments below!,0.4389,positive
+ASUS TUF F15 FX506,"hopefully it works for you too :) x200b; x200b; i have an issue with my new laptop 506hc, with rtx 3050 and i7-11800h (win 10 professional x64), does not detect the discrete graphics card.",0.6908,positive
+ASUS TUF F15 FX506,"this issue seems quite common with nvidia, and i saw some people managed to sort it out and some not - i've spent close to 20 hours trying over 10 different solutions over the internet, and none so far worked for me.the card does show in bios, but can't get it to show up under device manager drivers.",0.09,positive
+ASUS TUF F15 FX506,"to give you an idea of what all i've tried: - installed the latest nvidia drivers, asus pci controller, bios update.- ""show hidden devices"" in device manager still doesn't show up the nvidia- tried various ""hacky"" solutions, where when installing nvidia driver fails, i adjust the .inf files with the pci information for my graphics card- tried using ddu and reinstalling, tried installing in safe mode without internet windows updates disabled i'm also in contact with asus support about this, but so far they're just redirecting me to the same links and ""solutions"" i already went over 10 times, and they're not providing me with any new solutions so far.",0.5106,positive
+ASUS TUF F15 FX506,does anyone have any information ideas of what i can still try here?,0.0,neutral
+ASUS TUF F15 FX506,i'm hoping someone can help before i completely lose my mind.,0.3626,positive
+ASUS TUF F15 FX506,"i have an asus tuf f15 gaming laptop, and it suddenly won't connect to the internet.",0.0,neutral
+ASUS TUF F15 FX506,"wi-fi networks show up, but it won't actually connect.",0.0,neutral
+ASUS TUF F15 FX506,"other devices in my house connect just fine, so it's definitely the laptop.",0.5829,positive
+ASUS TUF F15 FX506,here s what i've already tried: full network reset hard reset power cycle uninstalled and reinstalled network drivers restarted router checked for windows updates still nothing.,-0.1027,negative
+ASUS TUF F15 FX506,it either says can't connect to this network or just spins and fails.,-0.4215,negative
+ASUS TUF F15 FX506,"i haven't installed anything sketchy recently, and it was working fine before this.",0.2023,positive
+ASUS TUF F15 FX506,at this point i'm wondering: is this a bad wi-fi card?,-0.628,negative
+ASUS TUF F15 FX506,a corrupted driver issue?,0.0,neutral
+ASUS TUF F15 FX506,some weird windows setting i'm missing?,-0.4404,negative
+ASUS TUF F15 FX506,"if anyone has run into this with an asus tuf f15 specifically, i'd really appreciate the help.",0.7146,positive
+ASUS TUF F15 FX506,"i use this for work and gaming, so i'm low-key stressed.",-0.3947,negative
+ASUS TUF F15 FX506,thanks in advance,0.4404,positive
+ASUS TUF F15 FX506,"was trying to add a 1tb nvme gen 5 to my laptop, but i unfortunately didn't realize i would need the might of god to even loosen this screw.",-0.296,negative
+ASUS TUF F15 FX506,"should i take it to a repair shop or trust myself, and get a better screwdriver?",0.7579,positive
+ASUS TUF F15 FX506,my tuf f15 2023 with i7 13620h and rtx 4060 was put on sleep mode.,0.0,neutral
+ASUS TUF F15 FX506,suddenly i heard fans going on max rpm.,0.0,neutral
+ASUS TUF F15 FX506,"upon going to the task manager, i saw that no app was using cpu or gpu that would make fans go crazy.",-0.5574,negative
+ASUS TUF F15 FX506,"my laptop got crazy hot, real quick.",-0.34,negative
+ASUS TUF F15 FX506,it doesn't even get that warm when i play games.,0.5106,positive
+ASUS TUF F15 FX506,"after restarting, same thing happened.",0.0,neutral
+ASUS TUF F15 FX506,i have put it on shutdown right now.,0.0,neutral
+ASUS TUF F15 FX506,i haven't downloaded anything that can be a virus or a malware.,0.0,neutral
+ASUS TUF F15 FX506,"primary use is to learn ai and run some llms locally, video editing and low end gaming.",-0.2732,negative
+ASUS TUF F15 FX506,any advice on how to set up the new laptop and what built in software to remove and what to install?,0.0,neutral
+ASUS TUF F15 FX506,"hi everyone, i own an asus tuf f15 (fx507vv i7-13620h rtx 4060) that i bought from reliance digital in oct 2024 for around 90k .",0.0,neutral
+ASUS TUF F15 FX506,"i also purchased the 2-year extended warranty , so my coverage runs until sept 2027 .",0.0,neutral
+ASUS TUF F15 FX506,"recently i've noticed a couple of issues: mild trackpad ghosting jitter higher temperatures than before (probably dust buildup since the laptop has never been opened) i'm planning to request asus onsite service , but i'm a bit cautious because service quality can vary a lot here in india.",-0.1531,negative
+ASUS TUF F15 FX506,"before calling them, i'm preparing some documentation: screenshot of system specs (task manager device manager bios) hardware serial numbers (ssd, motherboard etc.)",0.0,neutral
+ASUS TUF F15 FX506,"benchmark scores (cinebench r23, 3dmark, crystaldiskmark) temperature logs using hwinfo video proof of the trackpad ghosting issue photos of the laptop exterior before service the idea is to compare before vs after service and ensure nothing gets swapped or damaged.",-0.0772,negative
+ASUS TUF F15 FX506,my main concerns are: 1. making sure they use proper thermal material and not cheap generic paste.,0.3182,positive
+ASUS TUF F15 FX506,2. ensuring genuine asus parts if the trackpad gets replaced.,0.2732,positive
+ASUS TUF F15 FX506,3. avoiding scratches or damage during the repair.,-0.6808,negative
+ASUS TUF F15 FX506,4. making sure cooling performance actually improves after cleaning.,0.6249,positive
+ASUS TUF F15 FX506,for those who ve dealt with asus warranty service (especially in india) : what precautions should i take before the technician arrives?,0.0,neutral
+ASUS TUF F15 FX506,is it reasonable to ask what thermal compound they are using?,0.0,neutral
+ASUS TUF F15 FX506,anything specific i should check during or after the repair?,0.0,neutral
+ASUS TUF F15 FX506,any common mistakes asus technicians make with tuf laptops?,-0.3612,negative
+ASUS TUF F15 FX506,would appreciate any advice from people who have gone through asus warranty service before.,0.4019,positive
+ASUS TUF F15 FX506,thanks!,0.4926,positive
+ASUS TUF F15 FX506,"z, x, s button sometime doesn't wanna work, even if it work it double type instead like zzz, xx, ssss my question is can it be fixed with reseat keyboard socket, windows reset?",0.0772,positive
+ASUS TUF F15 FX506,"can i add a 500gb drive to my laptop, is it safe and is it recommended",0.5719,positive
+ASUS TUF F15 FX506,my notebook is asus tuf dash f15 fx516pm.,0.0,neutral
+ASUS TUF F15 FX506,"i have been having a slow boot problem and a high fan speed problem for about 3 days, i want to explain it to you specifically, first i press the power button the notebook stays on a black screen for about 1 minute and a second but the indicators and keyboard light are on, and then the fan goes to max speed, and the notebook turns on normally.",0.2617,positive
+ASUS TUF F15 FX506,"also the fan stays the same, the speed is low on battery but it gets stronger when plugged into the adapter.-i have no performance issues, everything works normally.",0.1779,positive
+ASUS TUF F15 FX506,"cpu shows 50 degrees not under load, 30 40 ssd has 85 health ram is normal the fans are healthy, i removed them and checked them.",0.4019,positive
+ASUS TUF F15 FX506,i have updated the bios.,0.0,neutral
+ASUS TUF F15 FX506,"formatted to win 10 i have tried every solution, but the same problem occurs again.",-0.128,negative
+ASUS TUF F15 FX506,artificial intelligence programs have told me that there will be a problem with the ec firmware.,0.1027,positive
+ASUS TUF F15 FX506,please let me know if anyone knows a solution to this problem.,0.2263,positive
+ASUS TUF F15 FX506,"(note: my laptop's motherboard was replaced about 2 weeks ago, the previous motherboard model was fx516pc, and everything was working normally.)",0.0,neutral
+ASUS TUF F15 FX506,"hey guys i need your advice :d i'm buying my first personal laptop and i'm stuck between two options the asus tuf a15 (ryzen 7 7435hs rtx 4060) , or the asus tuf f15 (i7-13620h rtx 4050) .",0.3182,positive
+ASUS TUF F15 FX506,"both have 16gb ram, 512gb ssd, 144hz screen, and i think they're almost the same in everything (cooling, ports, etc) except for the cpu and gpu.",0.0,neutral
+ASUS TUF F15 FX506,they also cost the same.,0.0,neutral
+ASUS TUF F15 FX506,i'm a first-year computer science student so i need something that can last me at least 6 years for coding and studying (the most important point).,0.2716,positive
+ASUS TUF F15 FX506,"i'll also be doing some light video editing for student activities, and in my free time i'd play games like assassin s creed, gta v, ea fc, and hearts of iron.",0.802,positive
+ASUS TUF F15 FX506,i'm not a heavy gamer so i don't need ultra graphics just smooth performance with decent visuals.,0.0,neutral
+ASUS TUF F15 FX506,here s where i'm stuck the f15 has a much stronger cpu (i read it's nearly 40 better) and also comes with an igpu which means i could switch off the rtx and get 10 hours of battery life while coding.,0.1531,positive
+ASUS TUF F15 FX506,"the a15 only last 3 hours of battery life, but it has a stronger gpu with 8gb vram which feels more future-proof since most new stuff rely more on gpu power.",0.5267,positive
+ASUS TUF F15 FX506,i also read the a15 runs cooler but i'm not sure how big the difference really is.,-0.3491,negative
+ASUS TUF F15 FX506,this is a huge investment for me something i won't be able to repeat for many years so i want to make sure i'm putting my money in the right place to get the overall better one :) so if you were in my place which one would you go for?,0.8818,positive
+ASUS TUF F15 FX506,any advice would really help me out.,0.4576,positive
+ASUS TUF F15 FX506,thanks a lot,0.4404,positive
+ASUS TUF F15 FX506,so i was pretty much sure about buying tuf f15 but now i just found out that lenovo has rtx 3060 as compare to asus's 3050. but then asus has better cpu.,0.7743,positive
+ASUS TUF F15 FX506,i'm officially confused.,-0.3182,negative
+ASUS TUF F15 FX506,i will list some specs of both below: asus tuf gaming f15: intel core i5 12th gen 12500h 16gb ddr5 4800mhz ram 512 gb ssd rtx 3050 4gb lenovo ideapad gaming 3: amd ryzen 7 5800h 16gb ddr4 3200mhz ram 512 gb ssd rtx 3060 6gb which one should i buy?,0.0,neutral
+ASUS TUF F15 FX506,as you can probably tell i'm buying mainly for gaming but i'll also do little bit of video and photo editing.,0.0,neutral
+ASUS TUF F15 FX506,"in my country, both have almost the same price.",0.0,neutral
+ASUS TUF F15 FX506,i have a big doubt about which one to buy.,-0.3612,negative
+ASUS TUF F15 FX506,these are the rtx 4060 and 4070.,0.0,neutral
+ASUS TUF F15 FX506,what do you think of this laptop?,0.0,neutral
+ASUS TUF F15 FX506,"asus tuf gaming f15 fx507vv-lp142 processor: intel core i7-13620h, 2.4 ghz (24m cache, up to 4.9 ghz, 10 cores: 6 p-cores and 4 e-cores) ram: 16gb ddr5 4800mhz, expandable up to 32gb storage: 1tb pcie 4.0 nvme m.2 ssd graphics card: nvidia geforce rtx 4060 laptop gpu (233 ai tops), 2420mhz at 140w (2370mhz boost clock 50mhz oc, 115w 25w dynamic boost), 8gb gddr6 display: 15.6-inch fhd (1920 x 1080), ips-level, anti-glare, srgb:100 , adobe:75.35 , 144hz refresh rate, g-sync, mux switch nvidia advanced optimus camera: 720p hd price range: approximately 1,020 to 1,200",0.743,positive
+ASUS TUF F15 FX506,as mentioned in the title.,0.0,neutral
+ASUS TUF F15 FX506,"i changed out both of my ram sticks for a compatible set and after booting up i hear a terrible grinding noise for a second, but nothing happened, only that i noticed this ""lump"" thingy on the lower right part of keyboard.",-0.5927,negative
+ASUS TUF F15 FX506,"i have specified model, with 16gb ram, x1 8gb soldered and x1 8gb so dimm slot not soldered, for a course in my bachelors degree ""infrastructure as code"" i need 32gb ram.",0.0,neutral
+ASUS TUF F15 FX506,can i add an 16gb 24gb ram slot to the 1 upgradable slot without any issues losing performance over 16gb dual channel?,0.2924,positive
+ASUS TUF F15 FX506,thanks in advance,0.4404,positive
+ASUS TUF F15 FX506,"asus tuf gaming f15 (fx506lh): i5-10400h gtx 1650 (4 ) 8 ram ssd micron 512 : , 1 5 , ( windows), .",0.0,neutral
+ASUS TUF F15 FX506,": dpc watchdog violation video tdr failure (nvlddmkm.sys) page fault in nonpaged area , .",-0.8481,negative
+ASUS TUF F15 FX506,"100 nvidia ( , ) ddu.",0.0,neutral
+ASUS TUF F15 FX506,(chkdsk) (sfc scannow) .,0.0,neutral
+ASUS TUF F15 FX506,5. windows .,0.0,neutral
+ASUS TUF F15 FX506,7. game ready studio .,0.3612,positive
+ASUS TUF F15 FX506,"8. bios 310, 309 ( ez flash) , .",0.3612,positive
+ASUS TUF F15 FX506,"9. windows bios , system firmware .",0.0,neutral
+ASUS TUF F15 FX506,": , .",0.0,neutral
+ASUS TUF F15 FX506,", - vram, , .",0.0,neutral
+ASUS TUF F15 FX506,", bios?",0.0,neutral
+ASUS TUF F15 FX506,", - )",0.0,neutral
+ASUS TUF F15 FX506,"hello, is it worth it to build a pc or get a gaming laptop?",0.2263,positive
+ASUS TUF F15 FX506,i have a 1000 budget.,0.0,neutral
+ASUS TUF F15 FX506,i'll be using the laptop pc for occasional gaming and mostly cad and rendering.,0.0,neutral
+ASUS TUF F15 FX506,the laptop im leaning towards is the asus tuf gaming f15 (rtx 3060 gb 15 11th gen).,0.0,neutral
+ASUS TUF F15 FX506,i need a machine that can last me atleast 3 years.,0.0,neutral
+ASUS TUF F15 FX506,i don't know much about pc parts and stuff so decided to come here.,0.0,neutral
+ASUS TUF F15 FX506,"as title, i recently bought a laptop asus tuf dash f15.",0.0,neutral
+ASUS TUF F15 FX506,"i have been playing monster hunter world iceborne pc , it's been a few weeks , temperature in between 65c - 71c, everything was fine.",0.3818,positive
+ASUS TUF F15 FX506,"after i considered to try if dlss works , then i reinstalled geforce experience and reinstall nvidia graphics 3070 in device manager , the temperature went to crazy over 90c (current 92c is the highest )during gaming and i just launch the game without starting playing it.",-0.4574,negative
+ASUS TUF F15 FX506,"i have no idea what caused the issue, now i have completely uninstalled all geforce experience software.the problem still remains , i can't seems to go back the way it were.",-0.5994,negative
+ASUS TUF F15 FX506,"i once had a laptop msi ge62 apache pro, it was also the same issue high temperature causing the game lagging.",-0.2732,negative
+ASUS TUF F15 FX506,i'm afraid this new laptop would end up the same problem.,-0.4019,negative
+ASUS TUF F15 FX506,i need advice and help on this.,0.4019,positive
+ASUS TUF F15 FX506,"mhw setting are medium - high , i never put fully utilize the graphics.",0.0,neutral
+ASUS TUF F15 FX506,"during idle (unplugged) , temperature 45c - 55c during plugged in , temperature automatically increase to 55c - 65c.",0.3182,positive
+ASUS TUF F15 FX506,"(normal work , surfing website.no gaming .can consider idle) please , i'm seriously seeking for help and advice.",0.5106,positive
+ASUS TUF F15 FX506,anyone replaced the front fans?,0.0,neutral
+ASUS TUF F15 FX506,they are 200mm argb.,0.0,neutral
+ASUS TUF F15 FX506,wondering what compatibility would be like if anyone has faced issues here?,0.3612,positive
+ASUS TUF F15 FX506,"recently, the video card in the laptop began to heat up.",0.0,neutral
+ASUS TUF F15 FX506,"when it reaches 86 degrees, strong throttling begins.",0.2263,positive
+ASUS TUF F15 FX506,"when i start the benchmark at the beginning of 66 degrees and the memory frequency is 7151, after a minute 87 degrees and the frequency is 710.",0.0,neutral
+ASUS TUF F15 FX506,"hey guys, don't usually post on reddit but finding myself running out of solutions.",0.2617,positive
+ASUS TUF F15 FX506,heres the deal; i've recently purchased a gamemax f15 case and put my new aorus b450 pro motherboard in it.,0.0,neutral
+ASUS TUF F15 FX506,the board comes with rgb fusion 2.0 which the case says it supports.,0.3612,positive
+ASUS TUF F15 FX506,rgb fusion does a good job of controlling the rgb on my motherboard but no matter what i do i can't for the life of me get it to control the rgb on my case fans.,-0.1779,negative
+ASUS TUF F15 FX506,"the case fan headers and rgb headers are connected to a rgb controller that comes with the case and running from the rgb controller are 3 more headers, an aura 3-pin connector, a 3-pin connector labeled vdg and another fan header.",0.5574,positive
+ASUS TUF F15 FX506,i've connected all of these directly into the board and nothing happens.,0.0,neutral
+ASUS TUF F15 FX506,i've also tried taking the fans rgb headers and plugging them directly into the board (bypassing the controller) and they don't even light up.,0.0,neutral
+ASUS TUF F15 FX506,i've legit ran out of ideas and am hoping theres someone here who can help me out.,0.6705,positive
+ASUS TUF F15 FX506,can provide pictures if needed.,0.0,neutral
+ASUS TUF F15 FX506,thanks.,0.4404,positive
+ASUS TUF F15 FX506,edit: here is an image of the cables that lead from the controller which i plugged into the board: here is an image of the controller:,0.0,neutral
+ASUS TUF F15 FX506,"new to gaming pcs and considering a prebuilt, i found this online but would love any feedback, or any thoughts on what i need to consider.",0.7783,positive
+ASUS TUF F15 FX506,trying to stay under 1800,0.0,neutral
+ASUS TUF F15 FX506,"hey everyone, i am replacing my keybord qfter a few months of it having many issues, im on the ""last"" step and its removing the front panels' aluminum cover.",0.0,neutral
+ASUS TUF F15 FX506,"i don't know how to remove it and it has tiny plastic studs that im grinding with a nail sander, its gonna take me a lot so im asking how do remove them more easier or if do i even have to remove these",0.4754,positive
+ASUS TUF F15 FX506,"hi all, currently looking at this laptop ( i'm an architect, working on software like revit, autocad, enscape, twinmotion, adobe software.",0.3612,positive
+ASUS TUF F15 FX506,is this laptop a good option?,0.4404,positive
+ASUS TUF F15 FX506,i know that asus has armoury crate to do that but is too heavy for so low level task.,-0.5591,negative
+ASUS TUF F15 FX506,i tried hwinfo without luck.,-0.357,negative
+ASUS TUF F15 FX506,what other options are there?,0.0,neutral
+ASUS TUF F15 FX506,laptop was left open and on overnight and came back to this effect on my screen.,0.0,neutral
+ASUS TUF F15 FX506,struggled to find the buttons but managed to restart the laptop as well as update the graphics drivers but with know success.,0.7906,positive
+ASUS TUF F15 FX506,"tried plugging in an external display, it didn't pick up a signal (not sure if i have a setting that disables it on or not).",0.3182,positive
+ASUS TUF F15 FX506,any help opinions appreciated,0.7184,positive
+ASUS TUF F15 FX506,"intel core i7-11370h, 8gb ram, and nvidia geforce rtx 3050 laptop gpu i installed msi afterburner and put the cpu and gpu clock speeds at max and boom!",0.0,neutral
+ASUS TUF F15 FX506,"genshin now in 60fps at 1080p fullscreen this also means an fps boost in virtual reality when using meta quest link now i can finally be a pc gamer coming soon: upgrade with a 16gb card, will have 24gb ram",0.4019,positive
+ASUS TUF F15 FX506,i connected my laptop to qe65s90dauxru.,0.0,neutral
+ASUS TUF F15 FX506,can you say settings for both?,0.0,neutral
+ASUS TUF F15 FX506,"like these on laptop : hz, resolution, display type(duplicate extend etc.",0.4939,positive
+ASUS TUF F15 FX506,"), nvidia color settings bit depth, color format type(rgb etc.",0.0,neutral
+ASUS TUF F15 FX506,"), full or limited, hdr, vrr etc.",-0.2263,negative
+ASUS TUF F15 FX506,"on tv : picture settings, brightness 0-50, color 0-50, sharpness 0-20, contrast 0-50, peak brightness, gamma type and value, game mode, input signal plus, making it as pc or saying it is console or else.",0.765,positive
+ASUS TUF F15 FX506,i want to play forza horizon 4 5. i have hdmi 2.1,0.4019,positive
+ASUS TUF F15 FX506,i have no idea what is happing and is pmo i have repsted the cpu and gpu and used thermal putty on the surrounding things that require them cleaned the vents and also the inside of the laptop please help im freaking out,0.2732,positive
+ASUS TUF F15 FX506,so i installed a 8gb samsung stick of ram on my laptop but not sure if it's working properly.,-0.3491,negative
+ASUS TUF F15 FX506,i thought i'd see 16gb of memory in my task manager but apparently not.,0.0,neutral
+ASUS TUF F15 FX506,i installed cpu z and it does detect it though.,0.0,neutral
+ASUS TUF F15 FX506,not sure if i'm supposed to be doing something else?,-0.2411,negative
+ASUS TUF F15 FX506,"could you provide a review of this machine, including its pros and cons?",0.0,neutral
+ASUS TUF F15 FX506,"hey guys i have an asus fx506 been using it for 3 to four years, and it has this problem where when its turned off i have to hold the power button for like an hour for it to turn on randomly.",-0.1593,negative
+ASUS TUF F15 FX506,"does anyone know if best buy or something could fix it for like a hundred bucks by replacing the battery, and how much a laptop with an i5 10300h gtx 1650 ti, 1tb ssd with a 256gb ssd, and 16gb ram could sell for?",0.7717,positive
+ASUS TUF F15 FX506,i was thinking i could sell it on ebay for like 400-500 so i can buy a pc for 800 thanks guys.,0.6597,positive
+ASUS TUF F15 FX506,i've been having a lot of issues with the current realtek 8822ce in the last year or years.,0.0,neutral
+ASUS TUF F15 FX506,"(mainly ""can't connect to this network"" or wifi completely disappearing, with the solution being rebooting the wifi card or the pc once or multiple times until it works again.)",0.3182,positive
+ASUS TUF F15 FX506,"lately the issue is appearing very often, so i ultimately decided on replacing the card.",0.0,neutral
+ASUS TUF F15 FX506,now searching online many said that some cards are not compatible and the board wasn't detecting them etc.,0.0,neutral
+ASUS TUF F15 FX506,"the only useful info i found is that a qualcomm card works with it, but the post is from years ago and the user didn't provide the exact model he installed.",0.2382,positive
+ASUS TUF F15 FX506,so here i am asking you guys for help.,0.4019,positive
+ASUS TUF F15 FX506,my gpu fan start haveing some noise,0.3182,positive
+ASUS TUF F15 FX506,hello!,0.0,neutral
+ASUS TUF F15 FX506,i would like to know how can i fix a noisy fan from this laptop.,0.4767,positive
+ASUS TUF F15 FX506,it is very dirty and i have never opened a laptop before.,-0.4927,negative
+ASUS TUF F15 FX506,"it makes a sound like it is braking, stops rotating.",0.2263,positive
+ASUS TUF F15 FX506,what can i do?,0.0,neutral
+ASUS TUF F15 FX506,"i'm about to enter a new school year so i'm looking forward to buy a new laptop, and i can't decide which one of these is the perfect choice.",0.5719,positive
+ASUS TUF F15 FX506,i have an opportunity to buy a tuf fx506 for around 600 eur.,0.4215,positive
+ASUS TUF F15 FX506,"the specs: r7 4800h, gtx 1650ti, 8g ram, 512 nvme ssd.",0.0,neutral
+ASUS TUF F15 FX506,is it worth the price?,0.2263,positive
+ASUS TUF F15 FX506,it's even stronger than my desktop by like 25 .,0.6249,positive
+ASUS TUF F15 FX506,would replace a 7yo i5 6200u laptop (and potentially the desktop) thank you in advance!,0.4199,positive
+ASUS TUF F15 FX506,"i'm going to buy such a laptop asus fx506, i5-11400, rtx 3050 4gb, 16gb ram.",0.0,neutral
+ASUS TUF F15 FX506,is this a reliable model and is it worth the money?,0.2263,positive
+ASUS TUF F15 FX506,"at the moment, i have an acer nitro 5 an515-52, it is weak and heats up, i would like to take something more powerful and reliable, so far i have settled on it, because other models are much more expensive, or technically weaker and more unreliable.",-0.0534,negative
+ASUS TUF F15 FX506,"hey, first time poster here.",0.0,neutral
+ASUS TUF F15 FX506,i'm looking to upgrade my computer to something more capable of editing 4k video.,0.4391,positive
+ASUS TUF F15 FX506,"currently i have a asus tuf fx506 (16gb ram, amd ryzen 4000) but it really struggles with 4k video and the preview in editing software is slow and laggy.",-0.5704,negative
+ASUS TUF F15 FX506,i don't really understand anything about computers but what i have assertained from my research is i'll need 64gb of ram.,0.0,neutral
+ASUS TUF F15 FX506,"where i get lost is with all the different cpu, gpu, processor speeds etc.",-0.3182,negative
+ASUS TUF F15 FX506,"i need it to be a laptop, and would prefer windows (negotiable on this though) i've found two on ebay which look suitable but am not really sure what i'm looking at when it comes to spec.",-0.4153,negative
+ASUS TUF F15 FX506,"i was hoping someone might be able to provide some insight as too whether these are good options, which one i should get or alternatively - a different suggestion?",0.6908,positive
+ASUS TUF F15 FX506,i'm looking to get something preowned and have a budget of 1000 - 1500 aud.,0.0,neutral
+ASUS TUF F15 FX506,thanks in advance.,0.4404,positive
+ASUS TUF F15 FX506,hello everyone!,0.0,neutral
+ASUS TUF F15 FX506,"i'm not very tech-savvy and i'm trying to do something fairly simple, but i would love to hear from you!",0.7959,positive
+ASUS TUF F15 FX506,i'm looking to upgrade the ram for my laptop (asus tuf 15 - fx506) from 8gb to 32gb (i don't know if i can go beyond 32gb though).,0.0,neutral
+ASUS TUF F15 FX506,"i have found several good choices on amazon, but i'm not sure if all ram boards are compatible with my laptop?",-0.0369,neutral
+ASUS TUF F15 FX506,can i but whatever ram that looks good?,0.5927,positive
+ASUS TUF F15 FX506,"also, how can i know if the original 8gb of ram is soldered to the board?",0.3182,positive
+ASUS TUF F15 FX506,thanks!,0.4926,positive
+ASUS TUF F15 FX506,i bought tuf f15 fx506 but it won't go anywhere from bios it is said everywhere that it should come with windows but i can't get out of bios screen what should i do?,0.0,neutral
+ASUS TUF F15 FX506,alryt!,0.0,neutral
+ASUS TUF F15 FX506,coming straight to the point.,0.2263,positive
+ASUS TUF F15 FX506,i have been looking for laptops since december now finding the best one to fit my needs and budget.,0.7717,positive
+ASUS TUF F15 FX506,and finally i have narrowed down my top 3.,0.2023,positive
+ASUS TUF F15 FX506,1. lenovo legion y540- i5 9300h 1660ti 144hz screen 8gb ram.,0.0,neutral
+ASUS TUF F15 FX506,(legion is my top pick becausw of its design and the specs it offers.,0.2023,positive
+ASUS TUF F15 FX506,as non gamery as possible and as loaded as it could get in terms of specs.,0.0,neutral
+ASUS TUF F15 FX506,i will be upgrading the ram to 16 dual cahnnel when i get the lapto so that isn't an issue) 2)msi ps63 - i7 8665u 1650 maxq 16gb ram 60hz screen (i love this laptop because it just looks delightful.,0.8402,positive
+ASUS TUF F15 FX506,the 10hr battery backup is just phenomenal.,0.0,neutral
+ASUS TUF F15 FX506,"the only problem is that i feel its a bit outdated comared to other 2). """,-0.4019,negative
+ASUS TUF F15 FX506,"if till april the prestige 15 goes on a discount and comes under 1000 i will buy it no questions asked 3) asus strix g g531- i5 9300h 1660ti 144hz screen 8gb ram (specs wise similar to the y540, but it looks a bit gamery to me but still its preety sleek.",0.1154,positive
+ASUS TUF F15 FX506,it has a bit of rgb going on for itself and i don't mind that much.),0.0,neutral
+ASUS TUF F15 FX506,4) asus tuf fx506- (not released yet but they will be launching it in q1 this year so i was planning on waiting for it to see what it has to offer.),0.0,neutral
+ASUS TUF F15 FX506,i will be buying the laptop in april from usa so hopefully there would be discounts and what not for any of these machines (fingers crossed).,0.541,positive
+ASUS TUF F15 FX506,"my typical usage would be 60 gaming, 20 youtube amazon prime etc and 20 msword photoshop.",0.1779,positive
+ASUS TUF F15 FX506,so if you guys can help me choose and give your honest opnion i would really appreciate it.,0.8399,positive
+ASUS TUF F15 FX506,any suggestions are welcomed.,0.34,positive
+ASUS TUF F15 FX506,thenks 3,0.0,neutral
+ASUS TUF F15 FX506,"so, i've encountered this problem on a laptop from 2021 nb: i've re-calibrated the battery in july and it was capable of 3hr work.",-0.1343,negative
+ASUS TUF F15 FX506,"usually i keep laptop plugged in, set to 60 charge max in myasus.",0.0,neutral
+ASUS TUF F15 FX506,"yet, today i've noticed that it somehow is 99 charged.",-0.2023,negative
+ASUS TUF F15 FX506,i unplugged it and it shut down.,0.0,neutral
+ASUS TUF F15 FX506,"after reboot it started showing 0 , plugged in, not charging .",0.0,neutral
+ASUS TUF F15 FX506,"batteryinfoview shows nothing meaningful, as does not battery report log (note that it shows 99 of capacity at the moment of the report generations hours after problem occurred ).",-0.5664,negative
+ASUS TUF F15 FX506,"uefi shows primary battery at 99 (no idea what it means) x200b; upd : when i push the power button, laptop seems to start, but after a second makes sharp click, stops, and after a couple of seconds starts to boot again.",-0.2263,negative
+ASUS TUF F15 FX506,x200b; myasus and win10 diagnostic tools show no problems.,-0.5994,negative
+ASUS TUF F15 FX506,removing battery and draining motherboard did not help.,-0.3089,negative
+ASUS TUF F15 FX506,"(battery looks healthy btw no bloating, burns, etc.",0.128,positive
+ASUS TUF F15 FX506,power cable appears healthy.,0.4019,positive
+ASUS TUF F15 FX506,deleting battery and ac adapter in device manager did not help.,-0.3089,negative
+ASUS TUF F15 FX506,re-calibrating is probably impossible.,0.0,neutral
+ASUS TUF F15 FX506,"sfc scannow restored smth, yet in seems unrelated to the problem which remained.",-0.0772,negative
+ASUS TUF F15 FX506,x200b; has anyone encountered same problems recently (and what are working solutions)?,-0.4019,negative
+ASUS TUF F15 FX506,can it be related to any recent os update?,0.0,neutral
+ASUS TUF F15 FX506,can a battery die this suddenly?,-0.5994,negative
+ASUS TUF F15 FX506,(in july it was ok),0.0,neutral
+ASUS TUF F15 FX506,"hello the issue is this, yesterday i turn on my asus tuf fx506iv laptop ( two and a half years old ) after some time, the battery was pretty low, i let it charge a little, turn it on, it stays for a few seconds with black screen with rgb keyboard doing rainbow effect but then it starts regularly as usual.",0.1406,positive
+ASUS TUF F15 FX506,"load windows 11, launch updates, including the armor crate update, go to dinner, come back after an hour and find the laptop completely frozen, i am forced to turn it off by holding down the power button for a few seconds.",-0.5046,negative
+ASUS TUF F15 FX506,"i turn it back on and it doesn't start anymore, or rather, the machine seems to work, the power led comes on, the charging led, but it remains black screen and the keyboard does the rainbow effect.",0.0,neutral
+ASUS TUF F15 FX506,"at that point i open it up and start testing to see if maybe it's a fixable problem on my end, and i focus on the ram and find that slot 1 is no longer working, i'm not talking about the ram bank, i'm talking about the slot on the motherboard.",-0.5994,negative
+ASUS TUF F15 FX506,"basically if i put the ram in slot one, alone or with the other one in slot two the laptop won't start, black screen and rainbow keyboard, if i put one of the two ram banks in slot two and leave slot one empty, the laptop runs normally.",-0.4588,negative
+ASUS TUF F15 FX506,how is such a thing possible?,0.0,neutral
+ASUS TUF F15 FX506,"the ram is not because i tried both ram banks in slot two by loading windows and using it and they work properly, the problem just seems to be that the ram on slot one is not recognized.",-0.4019,negative
+ASUS TUF F15 FX506,is there anything that can be done on the software side?,0.0,neutral
+ASUS TUF F15 FX506,"i have read that similar things happened on the rogs and that it might be the uefi bios, i have tried updating to the latest version ( 319 320 ) but nothing has changed.",0.0,neutral
+ASUS TUF F15 FX506,thanks to anyone who can help me out.,0.6808,positive
+ASUS TUF F15 FX506,"i have a bricked asus fx506li, motherboard is dabkxdmb8e0 rev e and found mother board da0njjmbag0 for fx506he that looks the same, are they compatible?",0.0,neutral
+ASUS TUF F15 FX506,can i swap them?,0.0,neutral
+ASUS TUF F15 FX506,side by side photos show they are the same but would like to hear expert opinions.thanks for your help,0.7783,positive
+ASUS TUF F15 FX506,my asus f15 fx506 is not powering on at all.,0.0,neutral
+ASUS TUF F15 FX506,no light no charging nothing.,-0.5267,negative
+ASUS TUF F15 FX506,it suddenly stopped when i was updating the game.,-0.2263,negative
+ASUS TUF F15 FX506,i have also tried 40 second power button thing but it didn't worked.,0.0,neutral
+ASUS TUF F15 FX506,edit: typo in title: model is fa506.,0.0,neutral
+ASUS TUF F15 FX506,the new model with ryzen 5 7 4xxx processor.,0.0,neutral
+ASUS TUF F15 FX506,hey there!,0.0,neutral
+ASUS TUF F15 FX506,"as per title, im looking for some updated information about the release date for the asus tuf a15 (fa506).",0.0,neutral
+ASUS TUF F15 FX506,"everything i've read just says ""first quarter 2020"" but seeing as we're approaching halfway through the first quarter of 2020 and they don't even have an anticipated release date, i'm starting to wonder if i'm going to have to start looking at a different laptop, or even laptop vendor.",0.0,neutral
+ASUS TUF F15 FX506,"i'd prefer not to, i like asus' motherboards for my computer, and would prefer to just stick with a company i know.",-0.2755,negative
+ASUS TUF F15 FX506,"if there isn't a release date, is there a date they are planning to release the release date?",0.0,neutral
+ASUS TUF F15 FX506,ie: when are you going to tell us the release date?,0.0,neutral
+ASUS TUF F15 FX506,"i'm wondering if i can run dual external monitors on this laptop, if it would work with one monitor hooked to the hdmi port and the other on usb c over displayport?",0.0,neutral
+ASUS TUF F15 FX506,and if it could support 144hz refresh rate since that'd be nice any help would be greatly appreciated,0.8955,positive
+ASUS TUF F15 FX506,"this problem started appearing on the 30th april of 2022, before then there wasn't any problem whatsoever.",-0.6597,negative
+ASUS TUF F15 FX506,"i boot up the game i usually play every day which is elden ring and i noticed that the game stutters more than usual, not long after (around 2 minutes) there was suddenly a message saying i have disconnected from the server.",0.1027,positive
+ASUS TUF F15 FX506,"after that i exit out of the game and noticed that my wi-fi isn't connected, what's even weirder is that it doesn't show up any available networks.",-0.128,negative
+ASUS TUF F15 FX506,"after that, i checked device manager and saw that intel(r) wi-fi 6 ax201 160 mhz is having a problem, where it shows either error code 43 or 10. i rebooted my laptop and it was fixed for a while, but then i noticed that the wi-fi always disappeared whenever i launch any games, other games i have tried are payday 2, nioh 2, borderlands, and even castle crashers and it always disappeared.",-0.7506,negative
+ASUS TUF F15 FX506,"i searched this problem up on the internet, and so far nothing has worked for me.",-0.4019,negative
+ASUS TUF F15 FX506,"i have tried: using different driver versions (21.10.2.2, 21.70.0.6, 22.40.0.7, 22.70.0.6, 22.130.0.5) following this person's guide ( changing the value to 2.4 ghz 802.11b g and 5 ghz 802.11a (i did this on all those different driver version too) factory resetting updating the bios resetting the network this problem is really weird since i never had any problem with the wi-fi before.",-0.7044,negative
+ASUS TUF F15 FX506,i am really confused on why this problem suddenly appeared.,-0.6925,negative
+ASUS TUF F15 FX506,what's even more confusing is that this problem only happens when gaming and the wi-fi doesn't disappears randomly (it disappears after about 5 minutes after any game is launched).,-0.3063,negative
+ASUS TUF F15 FX506,"this problem doesn't happen when i browse the web, watch youtube, or when i am downloading a game from steam.",-0.4019,negative
+ASUS TUF F15 FX506,"if anyone has a solution to this problem, please help me.",0.5574,positive
+ASUS TUF F15 FX506,edit: when i checked the back of the laptop it says that i have the ax201ngw series,0.0,neutral
+ASUS TUF F15 FX506,"my mom offered to buy it for me, so i'd like to try to keep it around 600. i don't want it to look super gamery.",0.7548,positive
+ASUS TUF F15 FX506,i have found two laptops that are on sale right now at best buy that look appealing.,0.6369,positive
+ASUS TUF F15 FX506,which one would i be better off with?,0.4404,positive
+ASUS TUF F15 FX506,an explanation would be appreciated as well.,0.6597,positive
+ASUS TUF F15 FX506,lenovo ideapad l340 ( 420): asus tuf fx506 ( 600):,0.0,neutral
+ASUS TUF F15 FX506,alryt!,0.0,neutral
+ASUS TUF F15 FX506,coming straight to the point.,0.2263,positive
+ASUS TUF F15 FX506,i have been looking for laptops since december now finding the best one to fit my needs and budget.,0.7717,positive
+ASUS TUF F15 FX506,and finally i have narrowed down my top 3.,0.2023,positive
+ASUS TUF F15 FX506,1) lenovo legion y540- i5 9300h 1660ti 144hz screen 8gb ram.,0.0,neutral
+ASUS TUF F15 FX506,(legion is my top pick becausw of its design and the specs it offers.,0.2023,positive
+ASUS TUF F15 FX506,as non gamery as possible and as loaded as it could get in terms of specs.,0.0,neutral
+ASUS TUF F15 FX506,i will be upgrading the ram to 16 dual cahnnel when i get the lapto so that isn't an issue) 2)msi ps63 - i7 8665u 1650 maxq 16gb ram 60hz screen (i love this laptop because it just looks delightful.,0.8402,positive
+ASUS TUF F15 FX506,the 10hr battery backup is just phenomenal.,0.0,neutral
+ASUS TUF F15 FX506,"the only problem is that i feel its a bit outdated comared to other 2). """,-0.4019,negative
+ASUS TUF F15 FX506,"if till april the prestige 15 goes on a discount and comes under 1000 i will buy it no questions asked 3) asus strix g g531- i5 9300h 1660ti 144hz screen 8gb ram (specs wise similar to the y540, but it looks a bit gamery to me but still its preety sleek.",0.1154,positive
+ASUS TUF F15 FX506,it has a bit of rgb going on for itself and i don't mind that much.),0.0,neutral
+ASUS TUF F15 FX506,4) asus tuf fx506- (not released yet but they will be launching it in q1 this year so i was planning on waiting for it to see what it has to offer.),0.0,neutral
+ASUS TUF F15 FX506,i will be buying the laptop in april from usa so hopefully there would be discounts and what not for any of these machines (fingers crossed).,0.541,positive
+ASUS TUF F15 FX506,"my typical usage would be 60 gaming, 20 youtube amazon prime etc and 20 msword photoshop.",0.1779,positive
+ASUS TUF F15 FX506,so if you guys can help me choose and give your honest opnion i would really appreciate it.,0.8399,positive
+ASUS TUF F15 FX506,any suggestions are welcomed.,0.34,positive
+ASUS TUF F15 FX506,thenks 3,0.0,neutral
+ASUS TUF F15 FX506,i checked the asus a15 fx506 and there were negative feedback on its cooling due to lack of vents.,-0.7184,negative
+ASUS TUF F15 FX506,haven't checked other brands in depth.,0.0,neutral
+ASUS TUF F15 FX506,"will be used mainly for zoom calls for school, photoshop, and adobe premiere.",0.0,neutral
+ASUS TUF F15 FX506,thanks!,0.4926,positive
+ASUS TUF F15 FX506,laptop questionnaire total budget (in local currency) and country of purchase.,0.0,neutral
+ASUS TUF F15 FX506,"please do not use usd unless purchasing in the us: 2000eur, a bit more wouldn't hurt if the specs are right.",0.6547,positive
+ASUS TUF F15 FX506,"ordering from the netherlands, belgium and germany is also possible if they provide a us intl qwerty keyboardlayout.",0.0,neutral
+ASUS TUF F15 FX506,are you open to refurbs used?,0.0,neutral
+ASUS TUF F15 FX506,"how would you prioritize form factor (ultrabook, 2-in-1, etc.",0.0,neutral
+ASUS TUF F15 FX506,"), build quality, performance, and battery life?",0.0,neutral
+ASUS TUF F15 FX506,essentially a desktop replacement.,0.0,neutral
+ASUS TUF F15 FX506,battery life and mobility?,0.0,neutral
+ASUS TUF F15 FX506,no thanks.,0.1779,positive
+ASUS TUF F15 FX506,give me raw performance instead.,0.0,neutral
+ASUS TUF F15 FX506,how important is weight and thinness to you?,0.2023,positive
+ASUS TUF F15 FX506,none whatsoever.,0.0,neutral
+ASUS TUF F15 FX506,do you have a preferred screen size?,0.0,neutral
+ASUS TUF F15 FX506,"if indifferent, put n a. strong preference to 17"".",0.3612,positive
+ASUS TUF F15 FX506,"nothing smaller than 15"".",0.0,neutral
+ASUS TUF F15 FX506,are you doing any cad video editing photo editing gaming?,0.0,neutral
+ASUS TUF F15 FX506,list which programs games you desire to run.,0.4019,positive
+ASUS TUF F15 FX506,"intellij idea, a boatload of chrome tabs, a couple of minor docker images.",0.0,neutral
+ASUS TUF F15 FX506,it's possible that i'll run some virtual machines at times.,0.0,neutral
+ASUS TUF F15 FX506,"if you're gaming, do you have certain games you want to play?",0.5859,positive
+ASUS TUF F15 FX506,at what settings and fps do you want?,0.0772,positive
+ASUS TUF F15 FX506,no particular games.,-0.296,negative
+ASUS TUF F15 FX506,ranging from gta5 to stardew valley.,0.0,neutral
+ASUS TUF F15 FX506,as long it'll be smooth.,0.0,neutral
+ASUS TUF F15 FX506,"any specific requirements such as good keyboard, reliable build quality, touch-screen, finger-print reader, optical drive or good input devices (keyboard touchpad)?",0.7003,positive
+ASUS TUF F15 FX506,none that come to mind atm.,0.0,neutral
+ASUS TUF F15 FX506,leave any finishing thoughts here that you may feel are necessary and beneficial to the discussion.,0.4019,positive
+ASUS TUF F15 FX506,i probably won't buy a new pc laptop in the coming 5 years.,0.0,neutral
+ASUS TUF F15 FX506,"it's the great timing of my current laptop nearing its end after 8 years of use for my needs, along with a still going strong but aging desktop (4770k, 16gb ddr3, gtx970).",0.5719,positive
+ASUS TUF F15 FX506,i was thinking of getting a pcspecialist nova 15 with this configuration ( or an asus tuf a15 fx506.,0.0,neutral
+ASUS TUF F15 FX506,the constant appearance and dissappearance of a15 listings is driving me nuts.,-0.3182,negative
+ASUS TUF F15 FX506,i can't really decide on which cpu to get too.,0.0,neutral
+ASUS TUF F15 FX506,"3800x or 3900x, not just for today but also the future?",0.0,neutral
+ASUS TUF F15 FX506,3950x doesn't seem to be worth the additional price.,0.2263,positive
+ASUS TUF F15 FX506,total budget (in local currency) and country of purchase.,0.0,neutral
+ASUS TUF F15 FX506,"please do not use usd unless purchasing in the us: 950- 1,000 (p45,000 - p50,000) are you open to refurbs used?",0.3182,positive
+ASUS TUF F15 FX506,"how would you prioritize form factor (ultrabook, 2-in-1, etc.",0.0,neutral
+ASUS TUF F15 FX506,"), build quality, performance, and battery life?",0.0,neutral
+ASUS TUF F15 FX506,performance - form factor - build quality - battery life how important is weight and thinness to you?,0.2023,positive
+ASUS TUF F15 FX506,not important do you have a preferred screen size?,-0.1511,negative
+ASUS TUF F15 FX506,"if indifferent, put n a.",-0.2023,negative
+ASUS TUF F15 FX506,"15"" or larger are you doing any cad video editing photo editing gaming?",0.0,neutral
+ASUS TUF F15 FX506,list which programs games you desire to run.,0.4019,positive
+ASUS TUF F15 FX506,"photoshop, adobe premiere, bluestacks emulator, probably cod warzone if you're gaming, do you have certain games you want to play?",0.5859,positive
+ASUS TUF F15 FX506,at what settings and fps do you want?,0.0772,positive
+ASUS TUF F15 FX506,"cod warzone, but just a ""want"", not a ""need"" any specific requirements such as good keyboard, reliable build quality, touch-screen, finger-print reader, optical drive or good input devices (keyboard touchpad)?",0.8271,positive
+ASUS TUF F15 FX506,"at least 256ssd, 500ssd is better; rgb keyboard; no need for touch screen or finger print reader leave any finishing thoughts here that you may feel are necessary and beneficial to the discussion.",0.5267,positive
+ASUS TUF F15 FX506,i checked the asus a15 fx506 and there were negative feedback on its cooling due to lack of vents.,-0.7184,negative
+ASUS TUF F15 FX506,haven't checked other brands in depth.,0.0,neutral
+ASUS TUF F15 FX506,"will be used mainly for zoom calls for school, photoshop, and adobe premiere.",0.0,neutral
+ASUS TUF F15 FX506,thanks!,0.4926,positive
+ASUS TUF F15 FX506,laptop questionnaire total budget (in local currency) and country of purchase.,0.0,neutral
+ASUS TUF F15 FX506,"please do not use usd unless purchasing in the us: around 1000, max 1100. are you open to refurbs used?",0.3182,positive
+ASUS TUF F15 FX506,preferably not.,0.0,neutral
+ASUS TUF F15 FX506,"how would you prioritize form factor (ultrabook, 2-in-1, etc.",0.0,neutral
+ASUS TUF F15 FX506,"), build quality, performance, and battery life?",0.0,neutral
+ASUS TUF F15 FX506,performance is the most important.,0.2716,positive
+ASUS TUF F15 FX506,how important is weight and thinness to you?,0.2023,positive
+ASUS TUF F15 FX506,not really important.,-0.2044,negative
+ASUS TUF F15 FX506,do you have a preferred screen size?,0.0,neutral
+ASUS TUF F15 FX506,"if indifferent, put n a.",-0.2023,negative
+ASUS TUF F15 FX506,15 inch.,0.0,neutral
+ASUS TUF F15 FX506,are you doing any cad video editing photo editing gaming?,0.0,neutral
+ASUS TUF F15 FX506,list which programs games you desire to run.,0.4019,positive
+ASUS TUF F15 FX506,"mainly doing calculations and simulations (monte carlo sims) in python matlab, working on a data-heavy thesis right now.",0.0,neutral
+ASUS TUF F15 FX506,"also, a bit of gaming, some dota 2, would also like to try some other games like witcher 3 or rdr 2. if you're gaming, do you have certain games you want to play?",0.8316,positive
+ASUS TUF F15 FX506,at what settings and fps do you want?,0.0772,positive
+ASUS TUF F15 FX506,"dota 2, would love to play at high settings hopefully around 100 fps.",0.8519,positive
+ASUS TUF F15 FX506,"also would like to try some single player games like rdr 2, would like to play it at high settings and 60 fps.",0.836,positive
+ASUS TUF F15 FX506,"any specific requirements such as good keyboard, reliable build quality, touch-screen, finger-print reader, optical drive or good input devices (keyboard touchpad)?",0.7003,positive
+ASUS TUF F15 FX506,leave any finishing thoughts here that you may feel are necessary and beneficial to the discussion.,0.4019,positive
+ASUS TUF F15 FX506,most laptops that are recommended in other sections such as the helios 300 or y540 are not in this budget range here in the netherlands.,0.2023,positive
+ASUS TUF F15 FX506,"i came across the new asus tuf gaming - fx506 ii (dutch link: ) for 1099 but there are no reviews to be found, especially with the 1650 ti.",-0.4215,negative
+ASUS TUF F15 FX506,"therefore, what do you guys think, is this a good buy?",0.5228,positive
+ASUS TUF F15 FX506,is it worth waiting for more promising laptops cheaper laptops?,0.5984,positive
+ASUS TUF F15 FX506,"i heard the new series of lenovo are releasing this month (lenovo legion 5), but it is not yet clear which models for what prices will be available in the netherlands.",-0.4168,negative
+ASUS TUF F15 FX506,i can wait for another two weeks or so maximum.,0.0,neutral
+ASUS TUF F15 FX506,thank you for your advice!,0.4199,positive
+ASUS TUF F15 FX506,"these are the most budget gaming laptops , both have problems but which is better if i want to buy one?",0.5346,positive
+ASUS TUF F15 FX506,spec are near.,0.0,neutral
+ASUS TUF F15 FX506,(rtx 2050 11400h vs 12450h) should i go for asus tuf 2022 (fx507) instead?,0.0,neutral
+ASUS TUF F15 FX506,(loq is cheaper than both and tuf 2022 is more expensive than 2021),0.0,neutral
+ASUS TUF F15 FX506,hello!,0.0,neutral
+ASUS TUF F15 FX506,what is your idea about them?,0.0,neutral
+ASUS TUF F15 FX506,"2021 model is great for me in its spec , but im asking about its reliablity.",0.3716,positive
+ASUS TUF F15 FX506,cooling is important too.,0.2023,positive
+ASUS TUF F15 FX506,i heard bad reviews about all of the models.,-0.5423,negative
+ASUS TUF F15 FX506,what should i choose?,0.0,neutral
+ASUS TUF F15 FX506,( 4 years usage),0.0,neutral
+ASUS TUF F15 FX506,would a 32 gb ram stick work with the already shite af 8gb pre-installed ram stick.,0.0,neutral
+ASUS TUF F15 FX506,im no pc newbie but i have no idea if ram sticks have to have a matching gb or not when it comes to laptops.,-0.5267,negative
+ASUS TUF F15 FX506,i already have a compatible ram stick planned.,0.0,neutral
+ASUS TUF F15 FX506,the specs of the asus: 11th gen i5 intel core 11400h rtx 3050 8 gb ram (i can easily get it replaced) dell g15's specs: amd ryzen 7 6800h - 16gb memory - nvidia geforce rtx 3050 ti both laptops have same screen resolution and storage and 15.6 inch screens,0.34,positive
+ASUS TUF F15 FX506,budget: 1400 usd country: poland screen size: 15.6 or sth similiar display: 1920x1080 (full hd) or higher thermals?,0.0,neutral
+ASUS TUF F15 FX506,: doesn't matter fan sound?,-0.2584,negative
+ASUS TUF F15 FX506,": would prefer more silent mid range, can peak in performance mode mux switch optimus advanced optimus?",0.25,positive
+ASUS TUF F15 FX506,: -- (no idea) build quality?,0.0,neutral
+ASUS TUF F15 FX506,: more on sturdy side since i have sometimes slippery hands and i don't want to damage it for the next 5-10 years i hope i could use it audio quality?,0.6492,positive
+ASUS TUF F15 FX506,: a good enough for a normie like me camera?,0.6597,positive
+ASUS TUF F15 FX506,": just to be there since i need it for school weight: so i could carry it in my backpack but doesn't have to be the lightest various purpose purposes besides gaming: digital art, storage for uni notes if you will be gaming, what are the most demanding games you will play and at what settings?",0.0799,positive
+ASUS TUF F15 FX506,"witcher 3, highest settings; ori and the blind forest highest settings battery life: would prefer at least 5-8 hours normal other notes: -i already looked into asus tuf gaming fx506 and it seemed nearly perfect (16 gb ram, good graphic card) but the reviews seem to often say it isn't as good so i am worried i would dump money into something useless - i would prefer it having ethernet outlet due to dorm",-0.6146,negative
+ASUS TUF F15 FX506,"hey guys, so basicly after searching for about a year and looking at gaming laptop prices going up and down, i've finally decided to get myself one because i'll be leaving to study for about 2 years abroad so i thought it's time to get myself one as the last one i bought was in 2016. x200b; i didn't have the biggest budget so i was looking at cheaper options, thought of getting rtx 2070 8gb version laptop, but those are all at least 2k or more, same for 3080 versions or 3070. then again, i thought okay, maybe 3060 6gb isn't that bad if it's a lot cheaper, so i was able to find myself a model which had all what i wanted in it.",0.729,positive
+ASUS TUF F15 FX506,"x200b; asus tuf fx506hm-w18 (90nr0753-m03510) in short, the cpu in it is icore5-11400h (6 cores), gpu is rtx 3060 6gb, 512gb of ssd (i'll add like one more or just 1 tb to it probably if i buy it), the screen is freaking 240hz 3 ms even tho in tests it shows like 4-5 ms, still okay for me cuz i've been on 30 ms 60hz screen probably all my life lol.",0.7096,positive
+ASUS TUF F15 FX506,16 gb ram and other stuff.,0.0,neutral
+ASUS TUF F15 FX506,"x200b; so, the thing is, a friend of mine bought this one for himself and he says that it's an awesome laptop, however, he has the icore5-11300h version which is 4 cores, which does make a big difference imo.",0.8074,positive
+ASUS TUF F15 FX506,"some people might say why'd you even need 240hz if you won't be able to get 240 fps in most games anyway, but i'm a guy who played all the games till this day on minimum specs and trust me i'm used to doing that to maximize fps, besides that, the games i play do get about 200-250 fps on minimum settings and even more if there's a 3060 rtx powering them up.",0.8922,positive
+ASUS TUF F15 FX506,"x200b; my main concerns after watching tons of videos about this laptop on youtube are these: some say it gets very hot, more than all other gaming laptops.",0.0,neutral
+ASUS TUF F15 FX506,"a couple videos i saw on youtube says that the wi-fi module is installed on ssd so when it gets hot, you get wifi related problems.",-0.4019,negative
+ASUS TUF F15 FX506,"they say this is the worst ever gpu even tho it's a rtx 3060 6gb because it has least amount of woltage like 75-80, i'm not even sure how much this one has, should be about 80-85 but i'm not a professional so i don't know if it's that bad for an rtx 3060, what's your opinion?",-0.7924,negative
+ASUS TUF F15 FX506,"they say the screen rgb ratio or whatsoever that is, is very bad and the overall screen performance is bad, is it that bad for real?",-0.9077,negative
+ASUS TUF F15 FX506,"x200b; so, for someone out there who's experienced enough, or for people who already own this laptop, could you please share your experience with me?",0.5423,positive
+ASUS TUF F15 FX506,"because from what i can see in the specs and for the price of 1,580 it's the best laptop i can get so far.",0.6369,positive
+ASUS TUF F15 FX506,anything else has maybe more cpu power but less screen hz or something else is wrong etc.,-0.631,negative
+ASUS TUF F15 FX506,"x200b; do you think this laptop with 6 core 11400h and a rtx3060 6gb is good enough for its price, and would it serve me okay for 3-4 years at least?",0.5859,positive
+ASUS TUF F15 FX506,because my old laptop did serve me 6 years and i'm still playing latest games on it on minimum settings getting 50-55 fps which is not superb but for 6 years it's good.,0.4772,positive
+ASUS TUF F15 FX506,"x200b; i'm thinking this laptop would last me even longer than my old one (it'd last even longer with 8gb vram model but meh, don't have that much money) because the gpu has dlss plus rtx series seem very good, but again i'm very worried about the woltage because as i mentioned before i'm not that experienced so i don't know how much it affects the gpu performance.",0.1531,positive
+ASUS TUF F15 FX506,"i never thought a rtx 3k series could be bad, yes maybe 3050 models because of less vram but even those are ok at some point.",0.34,positive
+ASUS TUF F15 FX506,but seeing people say how bad this rtx 3060 6gb is i'm so confused and stuck lol.,-0.8374,negative
+ASUS TUF F15 FX506,so if you guys could help me out with this i'd be really grateful because i'm even planning on getting this laptop tomorrow if it's worth it because any other deals are just more expensive and not worth it imo.,0.8313,positive
+ASUS TUF F15 FX506,thanks in advance!,0.4926,positive
+ASUS TUF F15 FX506,"hey, i've never built a pc before, and been using premade laptops forever.",0.0,neutral
+ASUS TUF F15 FX506,"my current one is an asus fx506 laptop, with an nvidia 1650ti gpu.",0.0,neutral
+ASUS TUF F15 FX506,"as i live in a high inflation, high exchange rate, i'm pretty much budget limited.",0.3182,positive
+ASUS TUF F15 FX506,"i've decided to go with an rtx 3060, but i'm at a loss with the processor.",-0.4497,negative
+ASUS TUF F15 FX506,"not sure if amd or intel, not sure how many cores -as ml does leverage multiple cores threads-.",-0.4449,negative
+ASUS TUF F15 FX506,"i guess 32-64gb ram would be nice, and 2tb drive (which tech though?",0.4215,positive
+ASUS TUF F15 FX506,sdd?).,0.0,neutral
+ASUS TUF F15 FX506,"what about motherboard, cooler, etc?",0.0,neutral
+ASUS TUF F15 FX506,"any pointers, recommendations, guides, appreciated!",0.5562,positive
+ASUS TUF F15 FX506,"hey guys, so recently i bought myself a gaming laptop 'asus tuf fx506', but since it only has one 16gb stick i am unable to get the full performance of the cpu thus i get lower fps in some cpu demanding games, some low performance in other fields etc.",-0.7783,negative
+ASUS TUF F15 FX506,"x200b; anyway, i just ordered a redline mushkin 2x8gb cl16 ram however after i read that it doesn't go over 2633 mhz and overall it's 'crappy', plus it's probably not cl16, i have no idea what to order.",0.2235,positive
+ASUS TUF F15 FX506,are there any specialists that know?,0.0,neutral
+ASUS TUF F15 FX506,"i saw a ballistix ram 2x8gb, but it's single ranked ram, if i won't be able to find a dual rank 8gb ones i'll probably go for it, however i'm not sure if this ballistix one is even good.",0.3415,positive
+ASUS TUF F15 FX506,"x200b; tbh what i want is two dual rank 2x8gb cl16 rams for my asus tuf laptop, are there any?",0.0772,positive
+ASUS TUF F15 FX506,"if not, then fine, let it be single rank but hopefully it'll be supported by my laptop and get the full 3200 mhz.",0.7355,positive
+ASUS TUF F15 FX506,it could be 3600 mhz as well.,0.2732,positive
+ASUS TUF F15 FX506,the one i've found was like 57 but then i saw the reviews and cancelled it (redline mushkin ram).,-0.1901,negative
+ASUS TUF F15 FX506,x200b; there's also ballistix one which is i think 70 but i'm not sure if it's going to be supported by my laptop or not.,0.1298,positive
+ASUS TUF F15 FX506,"overall, what i'm looking for is 2x8gb dual ranked ram 3200 or 3600mhz, if not dual ranked then it's fine let it be single ranked.",0.2023,positive
+ASUS TUF F15 FX506,"x200b; here's my laptop in case you need it to see if the new ram fits in it: x200b; prosessorintel core i5-11400h processor 2.7 ghz (12m cache, up to 4.5 ghz, 6 cores) ram 16gb ddr4 ssd 512gb m.2 nvme pcie 3.0 ssd videokartnvidia geforce rtx 3060 laptop gpu,up to 1630mhz at 90w (95w with dynamic boost),6gb gddr6 screen15.6-inch,fhd (1920 x 1080) 16:9,anti-glare display,srgb:100.00 ,adobe:75.35 , refresh rate:240hz,ips-levelkamera720p hd camera(lan)1000mbit (wifi)wi-fi 6(802.11ax bluetooth 5.2qo ulma portlar 1x 3.5mm combo audio jack 1x hdmi 2.0b 3x usb 3.2 gen 1 type-a 1x rj45 lan port 1x thunderbolt 4 support displayport 1x usb 3.2 gen 2 type-c support displayport thunderbolt 4 not supported on fx506hcb heb 35.9 x 25.6 x 2.28 2.43 cm (14.13"" x 10.08"" x 0.90"" 0.96"")2.30 kg freedos backlit chiclet keyboard rgb built-in array microphone 2x 2w speaker",0.7217,positive
+ASUS TUF F15 FX506,"the answer might be obvious, but i just wanted to make sure that it is possible to upgrade ram from a different brand.",0.4497,positive
+ASUS TUF F15 FX506,i got an asus f15 fx506 with only 8 gb ram and i'm planning on upgrading the ram from a previous dell laptop that died.,-0.5574,negative
+ASUS TUF F15 FX506,will it work or will it have some oem shit that will prevent it from happening?,-0.5423,negative
+ASUS TUF F15 FX506,"asus tuf gaming 15 fx506 i5 8 512 3050 144hz 15.6"" (",0.0,neutral
+ASUS TUF F15 FX506,"what i mean to say is, does this model support any other color other than teal?",0.4019,positive
+ASUS TUF F15 FX506,it's a genuine question.,0.0,neutral
+ASUS TUF F15 FX506,"the fans on my laptop are so loud it is practically unusable in a classroom, i have tried multiple software but none of them even see the fans (i've tried speedfan, afterburner and notebookfancontrol) i have tried underclocking the gpu and setting everything to max battery.",0.0,neutral
+ASUS TUF F15 FX506,it works really well when it is on battery but when plugged in it will spin the fans at pretty much any performance usage,0.7181,positive
+ASUS TUF F15 FX506,"my pc was making a grinding noise, so i opened it up and found this metal piece in the fan.",0.3182,positive
+ASUS TUF F15 FX506,"but it is supposed to be by the green plate, the glue on it doesn't work and my pc has worked fine for the last month, do i really need to get some sticky stuff and put it on again?",0.296,positive
+ASUS TUF F15 FX506,i have a asus tuf a15 fx506 2020,0.0,neutral
+ASUS TUF F15 FX506,"hi everyone, i have an asus tuf fx506li laptop that suddenly stopped turning on.",-0.2263,negative
+ASUS TUF F15 FX506,"when i press the power button, the keyboard backlight flashes three times, then everything turns off.",0.0,neutral
+ASUS TUF F15 FX506,"no fans spin, no display, and no signs of post.",-0.6808,negative
+ASUS TUF F15 FX506,"here s what i've already tried: removed and tested without ram removed ssd removed battery and tried only on the charger tried only on battery cleaned connectors, checked cables and the power button did ec power reset (holding power button for 30 seconds) reassembled everything multiple times nothing changed it still just flashes 3 times and shuts off immediately.",0.0,neutral
+ASUS TUF F15 FX506,"the interesting part is that a few months ago, the laptop started to turn on only if i pressed the power button multiple times in a row.",0.4019,positive
+ASUS TUF F15 FX506,"it would start very slowly and inconsistently, but eventually it worked.",0.0,neutral
+ASUS TUF F15 FX506,now it does not turn on at all.,0.0,neutral
+ASUS TUF F15 FX506,it seems like the laptop is getting power for 1 second and then shutting down.,0.3612,positive
+ASUS TUF F15 FX506,"the fans never start, and it doesn't reach bios.",-0.0191,neutral
+ASUS TUF F15 FX506,does anyone know what might be causing this?,0.0,neutral
+ASUS TUF F15 FX506,"could it be a mosfet power rail issue, or a faulty ec sio chip?",-0.3182,negative
+ASUS TUF F15 FX506,any ideas or experiences with fx506 models doing this?,0.0,neutral
+ASUS TUF F15 FX506,thanks!,0.4926,positive
+ASUS TUF F15 FX506,so i just bought the asus tuf gaming 15 fx506 .,0.0,neutral
+ASUS TUF F15 FX506,"the following specs: intel core i5-11400h processor nvidia geforce rtx 3050 8 gb ddr4 ram, 512 gb ssd i tried ""can you run it"" etc, everything checks out, my laptop should be able to run 94 out of 100 games at very good fps.",0.4927,positive
+ASUS TUF F15 FX506,"i couldn't even play cs:go properly, it had under 50 fps so i logged out instantly.",-0.2584,negative
+ASUS TUF F15 FX506,"also the laptop is lagging in general, it's literally horrible and very slow, whatever i do i can't seem to get it done.",-0.6808,negative
+ASUS TUF F15 FX506,"can anyone help please, maybe i'm not even using my rtx 3050 for the laptop or something, i need to know how to fix this.",0.6124,positive
+ASUS TUF F15 FX506,will this work i already bought it my computer says it's a fav506iv but i have a 2060 not a 1660,0.0,neutral
+ASUS TUF F15 FX506,"my asus fx506, i5-11400h rtx3050 8gb ram is overall slow whatever i do on it, because of high ram usage.",0.0,neutral
+ASUS TUF F15 FX506,i have google chrome on and the ram jumps up to more than 80 usage?,0.0,neutral
+ASUS TUF F15 FX506,surely a way to fix this is available?,0.4404,positive
+ASUS TUF F15 FX506,"i mean, i bought the laptop yesterday.",0.0,neutral
+ASUS TUF F15 FX506,do they come this shitty or am i missing something?,-0.7543,negative
+ASUS TUF F15 FX506,just bought the asus tuf 15 fx506 rtx 3050 i5-11400h to my surprise it was a piece of shit.,-0.3612,negative
+ASUS TUF F15 FX506,overall laggy (even when not gaming) when charger isn't plugged in.,0.0,neutral
+ASUS TUF F15 FX506,"i know 0 about specs and bought it because it was 3050 but to my surprise, total shit.",-0.5023,negative
+ASUS TUF F15 FX506,please suggest good gaming laptops that run most games without problem and functions properly.,0.7732,positive
+ASUS TUF F15 FX506,"hi, i am looking at asus tuf fx506.",0.0,neutral
+ASUS TUF F15 FX506,it has the following specs: i5-11400h rtx 3050ti with 4gb vram 16gb ddr4 ram ssd how do you guys rate this?,0.0,neutral
+ASUS TUF F15 FX506,"i kept thinking and fantasizing today about building a custom laptop from scratch and i kept googling for half and hour to see final products, and i only stumbled upon one guy that actually pulled it off like 10 years ago, basically a legend.",0.3612,positive
+ASUS TUF F15 FX506,"and anyway, i was wondering why this subject and concept died off in the past couple of years, why no one is talking or tried starting a project like this, because i think it's really cool.",-0.1796,negative
+ASUS TUF F15 FX506,"also i was wondering, what if i were to build a laptop with pc sized components, and shrink the case as much as possible, how big would that turn out lol.",0.4215,positive
+ASUS TUF F15 FX506,"also this whole thought proces started like: ""hmm i don't like my laptop case that much(i have an asus tuf fx506), i wish i could modify its shapes, colors, and material textures"", and then the whole train of thought about making a fully custom one began.",0.7717,positive

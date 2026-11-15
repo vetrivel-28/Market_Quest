@@ -1,130 +1,216 @@
-﻿import { useEffect, useState } from "react";
+import React, { useEffect, useState, useMemo } from "react";
 import { getModels, getModelAspects, getSpecPeers } from "../api";
-import {
-  BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer, Cell
-} from "recharts";
+import { useFilters, BRAND_COLORS, SENTIMENT_COLORS, formatCurrency, formatRating } from "../context/FilterContext";
+import KPICard from "../components/KPICard";
+import VisualContainer from "../components/VisualContainer";
 
-const COLORS = ["#6366f1","#22c55e","#f59e0b","#ef4444","#06b6d4","#a855f7"];
-
-function AspectBar({ label, pos, neg }) {
+function AspectBar({ aspect, pos, neg, demand }) {
   return (
     <div style={{ marginBottom: 8 }}>
-      <div style={{ display: "flex", justifyContent: "space-between", fontSize: "0.78rem", marginBottom: 2 }}>
-        <span style={{ color: "var(--text)" }}>{label}</span>
-        <span style={{ color: "var(--muted)" }}>+{pos}% / -{neg}%</span>
+      <div style={{ display: "flex", justifyContent: "space-between", fontSize: "0.75rem", marginBottom: 3 }}>
+        <span style={{ fontWeight: 600, color: "#334155" }}>{aspect.toUpperCase()}</span>
+        <span style={{ color: "#64748b" }}>
+          <strong style={{ color: "#059669" }}>+{pos}%</strong> / <strong style={{ color: "#dc2626" }}>-{neg}%</strong> ({demand} mentions)
+        </span>
       </div>
-      <div style={{ display: "flex", height: 6, borderRadius: 3, overflow: "hidden", background: "var(--surface2)" }}>
-        <div style={{ width: `${pos}%`, background: "var(--green)" }} />
-        <div style={{ width: `${neg}%`, background: "var(--red)", marginLeft: "auto" }} />
+      <div style={{ display: "flex", height: 7, borderRadius: 4, overflow: "hidden", background: "#f1f5f9" }}>
+        <div style={{ width: `${pos}%`, background: "#059669" }} title={`Positive: ${pos}%`} />
+        <div style={{ width: `${Math.max(0, 100 - pos - neg)}%`, background: "#cbd5e1" }} title="Neutral" />
+        <div style={{ width: `${neg}%`, background: "#dc2626" }} title={`Negative: ${neg}%`} />
       </div>
     </div>
   );
 }
 
-function ModelCard({ model, target }) {
+function ModelRow({ model, target, onSelectForCompare }) {
+  const [expanded, setExpanded] = useState(false);
   const [aspects, setAspects] = useState([]);
   const [peers, setPeers] = useState(null);
-  const [open, setOpen] = useState(false);
-  const [peerOpen, setPeerOpen] = useState(false);
+  const [loadingDetails, setLoadingDetails] = useState(false);
 
   useEffect(() => {
-    if (open) {
-      getModelAspects(target, model.laptop_name)
-        .then(r => setAspects(r.data.model_aspects))
-        .catch(() => {});
+    if (expanded && aspects.length === 0) {
+      setLoadingDetails(true);
+      Promise.all([
+        getModelAspects(target, model.laptop_name),
+        getSpecPeers(model.laptop_name),
+      ])
+        .then(([aspRes, peerRes]) => {
+          setAspects(aspRes.data.model_aspects || []);
+          setPeers(peerRes.data || { peers: [], group: "Ungrouped" });
+          setLoadingDetails(false);
+        })
+        .catch(() => setLoadingDetails(false));
     }
-  }, [open]);
+  }, [expanded, target, model.laptop_name]);
 
-  const loadPeers = () => {
-    if (!peers) {
-      getSpecPeers(model.laptop_name)
-        .then(r => setPeers(r.data))
-        .catch(() => setPeers({ peers: [], group: "Unknown" }));
-    }
-    setPeerOpen(p => !p);
-  };
-
-  const weaknesses = aspects.filter(a => a.neg_ratio >= 20).sort((a, b) => b.neg_ratio - a.neg_ratio);
-  const strengths  = aspects.filter(a => a.pos_ratio >= 50).sort((a, b) => b.pos_ratio - a.pos_ratio);
+  const weaknesses = aspects.filter((a) => a.neg_ratio >= 18).sort((a, b) => b.neg_ratio - a.neg_ratio);
+  const strengths = aspects.filter((a) => a.pos_ratio >= 45).sort((a, b) => b.pos_ratio - a.pos_ratio);
 
   return (
-    <div className="card" style={{ marginBottom: "1rem" }}>
-      <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
-        <div>
-          <span style={{ fontWeight: 600 }}>{model.laptop_name}</span>
-          {model.price && (
-            <span style={{ marginLeft: 12, color: "var(--accent2)", fontSize: "0.85rem" }}>
-              ₹{Number(model.price).toLocaleString("en-IN")}
-            </span>
-          )}
-          {model.rating && (
-            <span style={{ marginLeft: 10, color: "var(--yellow)", fontSize: "0.85rem" }}>
-              {model.rating}
-            </span>
-          )}
-        </div>
-        <button onClick={() => setOpen(o => !o)}
-          style={{ background: "var(--surface2)", border: "1px solid var(--border)",
-                   color: "var(--muted)", borderRadius: 6, padding: "4px 12px", fontSize: "0.8rem" }}>
-          {open ? "▲ Hide" : "▼ Review Analysis"}
-        </button>
-      </div>
-
-      {open && (
-        <div style={{ marginTop: "1rem" }}>
-          <div className="grid-2">
-            <div>
-              <div className="section-title" style={{ fontSize: "0.85rem" }}>Weaknesses</div>
-              {weaknesses.length === 0
-                ? <p className="empty">No significant complaints.</p>
-                : weaknesses.slice(0, 5).map((a, i) => (
-                  <AspectBar key={i} label={a.aspect} pos={a.pos_ratio} neg={a.neg_ratio} />
-                ))
-              }
+    <div
+      style={{
+        border: "1px solid #e2e8f0",
+        borderRadius: 8,
+        marginBottom: 10,
+        background: "#ffffff",
+        overflow: "hidden",
+        transition: "box-shadow 0.15s ease",
+      }}
+    >
+      {/* Model Summary Bar */}
+      <div
+        onClick={() => setExpanded((v) => !v)}
+        style={{
+          display: "flex",
+          justifyContent: "space-between",
+          alignItems: "center",
+          padding: "12px 16px",
+          cursor: "pointer",
+          background: expanded ? "#f8fafc" : "#ffffff",
+        }}
+      >
+        <div style={{ display: "flex", alignItems: "center", gap: 12 }}>
+          <span style={{ fontSize: "1.1rem" }}>{expanded ? "▾" : "▸"}</span>
+          <div>
+            <div style={{ fontWeight: 700, fontSize: "0.92rem", color: "#0f172a" }}>
+              {model.laptop_name}
             </div>
-            <div>
-              <div className="section-title" style={{ fontSize: "0.85rem" }}>Strengths</div>
-              {strengths.length === 0
-                ? <p className="empty">No strong praise signals.</p>
-                : strengths.slice(0, 5).map((a, i) => (
-                  <AspectBar key={i} label={a.aspect} pos={a.pos_ratio} neg={a.neg_ratio} />
-                ))
-              }
+            <div style={{ fontSize: "0.72rem", color: "#64748b" }}>
+              {model.category ? model.category.replace(/^Group_\d+_/, "") : "Catalog Model"} • {model.price_band || "Standard Band"}
+            </div>
+          </div>
+        </div>
+
+        <div style={{ display: "flex", alignItems: "center", gap: 20 }}>
+          <div style={{ textAlign: "right" }}>
+            <div style={{ fontWeight: 700, fontSize: "0.92rem", color: "#0f172a" }}>
+              {formatCurrency(model.price)}
+            </div>
+            <div style={{ fontSize: "0.72rem", color: "#64748b" }}>
+              {formatRating(model.rating)}
             </div>
           </div>
 
-          <button onClick={loadPeers}
-            style={{ marginTop: "1rem", background: "var(--surface2)", border: "1px solid var(--border)",
-                     color: "var(--accent2)", borderRadius: 6, padding: "5px 14px", fontSize: "0.8rem" }}>
-            {peerOpen ? "Hide" : "Show"} Spec-Based Comparison
-          </button>
-
-          {peerOpen && peers && (
-            <div style={{ marginTop: "1rem" }}>
-              <div style={{ fontSize: "0.78rem", color: "var(--muted)", marginBottom: 8 }}>
-                Group: {peers.group}
+          {model.value_score && (
+            <div
+              style={{
+                textAlign: "center",
+                padding: "3px 8px",
+                borderRadius: 4,
+                background: model.value_score >= 100 ? "#ecfdf5" : "#fffbeb",
+                border: `1px solid ${model.value_score >= 100 ? "#a7f3d0" : "#fde68a"}`,
+              }}
+            >
+              <div style={{ fontSize: "0.65rem", fontWeight: 700, color: "#64748b" }}>VAL SCORE</div>
+              <div style={{ fontWeight: 800, fontSize: "0.85rem", color: model.value_score >= 100 ? "#059669" : "#d97706" }}>
+                {model.value_score}
               </div>
-              <table>
-                <thead>
-                  <tr><th>Model</th><th>Brand</th><th>Price</th><th>Rating</th></tr>
-                </thead>
-                <tbody>
-                  <tr style={{ background: "var(--surface2)" }}>
-                    <td>{model.laptop_name}</td>
-                    <td>{target}</td>
-                    <td>{model.price ? `₹${Number(model.price).toLocaleString("en-IN")}` : "—"}</td>
-                    <td>{model.rating ?? "—"}</td>
-                  </tr>
-                  {peers.peers.map((p, i) => (
-                    <tr key={i}>
-                      <td>{p.model}</td>
-                      <td>{p.brand}</td>
-                      <td>{p.price ? `₹${Number(p.price).toLocaleString("en-IN")}` : "—"}</td>
-                      <td>{p.rating ?? "—"}</td>
-                    </tr>
-                  ))}
-                </tbody>
-              </table>
+            </div>
+          )}
+
+          <div style={{ textAlign: "right", minWidth: 90 }}>
+            <div style={{ fontSize: "0.78rem", fontWeight: 600, color: "#334155" }}>
+              {(model.total_sentences || 0).toLocaleString()} reviews
+            </div>
+            <div style={{ fontSize: "0.68rem", color: "#94a3b8" }}>Analyzed</div>
+          </div>
+        </div>
+      </div>
+
+      {/* Expanded Drillthrough Drawer */}
+      {expanded && (
+        <div style={{ padding: "16px", borderTop: "1px solid #e2e8f0", background: "#f8fafc" }}>
+          {loadingDetails ? (
+            <div style={{ fontSize: "0.8rem", color: "#64748b" }}>Loading model aspects and spec peers...</div>
+          ) : (
+            <div className="pbi-grid-2">
+              {/* Aspect Satisfaction Breakdown */}
+              <div style={{ background: "#ffffff", padding: "12px", borderRadius: 6, border: "1px solid #e2e8f0" }}>
+                <div style={{ fontWeight: 700, fontSize: "0.82rem", color: "#0f172a", marginBottom: 10 }}>
+                  HARDWARE ASPECT SENTIMENT MIX
+                </div>
+                {aspects.length === 0 ? (
+                  <div style={{ fontSize: "0.75rem", color: "#94a3b8" }}>No specific aspect mentions detected for this model.</div>
+                ) : (
+                  aspects.slice(0, 6).map((a, i) => (
+                    <AspectBar
+                      key={i}
+                      aspect={a.aspect}
+                      pos={a.pos_ratio}
+                      neg={a.neg_ratio}
+                      demand={a.demand}
+                    />
+                  ))
+                )}
+              </div>
+
+              {/* Spec Peers & Benchmarks */}
+              <div style={{ background: "#ffffff", padding: "12px", borderRadius: 6, border: "1px solid #e2e8f0" }}>
+                <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: 10 }}>
+                  <span style={{ fontWeight: 700, fontSize: "0.82rem", color: "#0f172a" }}>
+                    SPEC-TIER RIVALS ({peers?.group || "Group"})
+                  </span>
+                  <button
+                    className="pbi-action-btn"
+                    onClick={() => onSelectForCompare(model.laptop_name)}
+                    style={{ fontSize: "0.72rem", background: "#4338ca", color: "#fff", borderColor: "#4338ca" }}
+                  >
+                    Compare Rivals ⚖️
+                  </button>
+                </div>
+
+                {!peers?.peers?.length ? (
+                  <div style={{ fontSize: "0.75rem", color: "#94a3b8" }}>No direct spec peers mapped in this tier.</div>
+                ) : (
+                  peers.peers.map((peer, idx) => (
+                    <div
+                      key={idx}
+                      style={{
+                        display: "flex",
+                        justifyContent: "space-between",
+                        alignItems: "center",
+                        padding: "6px 0",
+                        borderBottom: "1px solid #f1f5f9",
+                        fontSize: "0.78rem",
+                      }}
+                    >
+                      <div>
+                        <span
+                          className="pbi-badge"
+                          style={{
+                            marginRight: 6,
+                            backgroundColor: `${BRAND_COLORS[peer.brand] || BRAND_COLORS.Market}15`,
+                            color: BRAND_COLORS[peer.brand] || BRAND_COLORS.Market,
+                          }}
+                        >
+                          {peer.brand}
+                        </span>
+                        <span style={{ fontWeight: 600 }}>{peer.model}</span>
+                      </div>
+                      <div style={{ color: "#475569" }}>
+                        {formatCurrency(peer.price)} • {formatRating(peer.rating)}
+                      </div>
+                    </div>
+                  ))
+                )}
+
+                {/* Strengths & Weaknesses Summary Badges */}
+                <div style={{ marginTop: 12, paddingTop: 8, borderTop: "1px solid #f1f5f9" }}>
+                  {strengths.length > 0 && (
+                    <div style={{ fontSize: "0.74rem", marginBottom: 4 }}>
+                      <strong style={{ color: "#059669" }}>Key Strengths:</strong>{" "}
+                      {strengths.map((s) => `${s.aspect} (+${s.pos_ratio}%)`).join(", ")}
+                    </div>
+                  )}
+                  {weaknesses.length > 0 && (
+                    <div style={{ fontSize: "0.74rem" }}>
+                      <strong style={{ color: "#dc2626" }}>Key Vulnerabilities:</strong>{" "}
+                      {weaknesses.map((w) => `${w.aspect} (-${w.neg_ratio}%)`).join(", ")}
+                    </div>
+                  )}
+                </div>
+              </div>
             </div>
           )}
         </div>
@@ -133,57 +219,147 @@ function ModelCard({ model, target }) {
   );
 }
 
-export default function TargetOverview({ target }) {
+export default function TargetOverview() {
+  const { target, priceBand, category, minRating, searchQuery, setSelectedModel } = useFilters();
   const [models, setModels] = useState([]);
   const [loading, setLoading] = useState(true);
-  const [error, setError] = useState(null);
 
   useEffect(() => {
     setLoading(true);
-    setError(null);
     getModels(target)
-      .then(r => {
+      .then((r) => {
         setModels(r.data.models || []);
         setLoading(false);
       })
-      .catch(err => {
-        setError(`Failed to load data: ${err.message}. Make sure the API server is running on http://localhost:8000`);
-        setLoading(false);
-      });
+      .catch(() => setLoading(false));
   }, [target]);
 
-  if (loading) return <div className="page-title" style={{ color: "var(--muted)" }}>Loading {target} models...</div>;
-  if (error)   return <div className="page-title" style={{ color: "var(--red)", fontSize: "1rem" }}>{error}</div>;
-  if (models.length === 0) return <div className="page-title" style={{ color: "var(--muted)" }}>No models found for {target}. Check that the API is running and data is loaded.</div>;
+  // Slicer filtering
+  const filteredModels = useMemo(() => {
+    return models.filter((m) => {
+      if (priceBand !== "All" && m.price_band !== priceBand) return false;
+      if (category !== "All" && m.category !== category) return false;
+      if (minRating > 0 && m.rating < minRating) return false;
+      if (searchQuery.trim() && !m.laptop_name.toLowerCase().includes(searchQuery.toLowerCase())) return false;
+      return true;
+    });
+  }, [models, priceBand, category, minRating, searchQuery]);
 
-  const prices  = models.filter(m => m.price).map(m => ({ name: m.laptop_name, value: m.price }));
-  const ratings = models.filter(m => m.rating).map(m => ({ name: m.laptop_name, value: m.rating }));
+  // Metric computations
+  const stats = useMemo(() => {
+    const prices = filteredModels.map((m) => m.price).filter(Boolean);
+    const ratings = filteredModels.map((m) => m.rating).filter(Boolean);
+    const totalReviews = filteredModels.reduce((s, m) => s + (m.total_sentences || 0), 0);
+
+    return {
+      count: filteredModels.length,
+      minPrice: prices.length ? Math.min(...prices) : 0,
+      maxPrice: prices.length ? Math.max(...prices) : 0,
+      avgPrice: prices.length ? Math.round(prices.reduce((s, p) => s + p, 0) / prices.length) : 0,
+      avgRating: ratings.length ? Number((ratings.reduce((s, r) => s + r, 0) / ratings.length).toFixed(2)) : 0,
+      totalReviews,
+    };
+  }, [filteredModels]);
+
+  const handleCompareDrill = (modelName) => {
+    setSelectedModel(modelName);
+    window.location.hash = "#/comparison"; // or router push
+    window.location.pathname = "/comparison";
+  };
 
   return (
     <div>
-      <div className="page-title">{target} — Target Overview</div>
-
-      <div className="metric-grid">
-        <div className="metric-card"><div className="label">Models Listed</div>
-          <div className="value">{models.length}</div></div>
-        <div className="metric-card"><div className="label">Price Range</div>
-          <div className="value" style={{ fontSize: "1rem" }}>
-            {models.filter(m=>m.price).length
-              ? `₹${Math.min(...models.filter(m=>m.price).map(m=>m.price)).toLocaleString("en-IN")} – ₹${Math.max(...models.filter(m=>m.price).map(m=>m.price)).toLocaleString("en-IN")}`
-              : "—"}
-          </div>
-        </div>
-        <div className="metric-card"><div className="label">Avg Rating</div>
-          <div className="value">
-            {ratings.length ? (ratings.reduce((s,r)=>s+r.value,0)/ratings.length).toFixed(1) : "—"}
+      {/* Page Header */}
+      <div className="pbi-page-header">
+        <div className="pbi-breadcrumb">MarketQuest Studio / Reports / Target Brand Portfolio</div>
+        <div className="pbi-page-title-row">
+          <div>
+            <h1 className="pbi-page-title">{target} Product Portfolio & Model Catalog</h1>
+            <p className="pbi-page-desc">
+              Detailed SKU-level breakdown of {target} laptops, customer rating benchmarks, hardware aspect satisfaction, and rival spec peers.
+            </p>
           </div>
         </div>
       </div>
 
-      <div className="section-title">Model-Level Review Analysis</div>
-      {models.map((m, i) => (
-        <ModelCard key={i} model={m} target={target} />
-      ))}
+      {/* Target Brand KPI Scorecard */}
+      <div className="pbi-grid-kpis">
+        <KPICard
+          title="Portfolio SKUs"
+          value={stats.count}
+          businessQuestion="How many laptop models exist in target catalog under active slicers?"
+          grain="Brand Catalog"
+          denominator="Active Slicer Context"
+          delta={stats.count}
+          deltaLabel="active models"
+        />
+        <KPICard
+          title="Price Spread"
+          value={`${formatCurrency(stats.minPrice)} – ${formatCurrency(stats.maxPrice)}`}
+          businessQuestion="What is the lowest and highest price point in target catalog?"
+          grain="Catalog"
+          denominator="Amazon Verified Listings"
+          delta={0}
+          deltaLabel="range"
+        />
+        <KPICard
+          title="Catalog Avg Price"
+          value={formatCurrency(stats.avgPrice)}
+          businessQuestion="What is the average catalog price across filtered target models?"
+          grain="Model Price"
+          denominator={`${stats.count} models`}
+          delta={formatCurrency(stats.avgPrice)}
+          deltaLabel="brand mean"
+          isPositiveGood={false}
+        />
+        <KPICard
+          title="Average Star Rating"
+          value={formatRating(stats.avgRating)}
+          businessQuestion="What is the average e-commerce star rating for target models?"
+          grain="Customer Rating"
+          denominator={`${stats.count} models`}
+          delta={stats.avgRating}
+          deltaLabel="stars"
+          isPositiveGood={true}
+        />
+        <KPICard
+          title="Total Reviews Analyzed"
+          value={stats.totalReviews.toLocaleString()}
+          businessQuestion="What is the customer sentiment sample size for target models?"
+          grain="Sentence Grain"
+          denominator="Verified customer discussions"
+          delta={stats.totalReviews}
+          deltaLabel="sentences"
+        />
+      </div>
+
+      {/* Model Catalog Section */}
+      <VisualContainer
+        title={`${target} Verified Models Directory (${filteredModels.length} SKUs)`}
+        businessQuestion="How does each model line perform across pricing, ratings, customer review volume, and Value Score?"
+        data={filteredModels}
+        exportFilename={`${target.toLowerCase()}_catalog_models`}
+        sampleSize={`${filteredModels.length} models, ${stats.totalReviews.toLocaleString()} reviews`}
+      >
+        <div style={{ marginBottom: 12, fontSize: "0.78rem", color: "#64748b" }}>
+          Click on any model row to expand hardware aspect sentiment, weakness alerts, and direct spec rivals.
+        </div>
+
+        {filteredModels.length === 0 ? (
+          <div style={{ padding: "2rem", textAlign: "center", color: "#64748b" }}>
+            No models match the active filter criteria. Try adjusting the Price Band or Category slicer.
+          </div>
+        ) : (
+          filteredModels.map((m, idx) => (
+            <ModelRow
+              key={idx}
+              model={m}
+              target={target}
+              onSelectForCompare={handleCompareDrill}
+            />
+          ))
+        )}
+      </VisualContainer>
     </div>
   );
 }

@@ -1,0 +1,187 @@
+laptop_name,sentence,compound_score,sentiment
+ASUS TUF F15 FX507,"hello everyone, you see, i have an asus tuf f15, i'm in high school and i'm taking an electronics class.",0.0,neutral
+ASUS TUF F15 FX507,we use arduino uno to work and make circuits.,0.0,neutral
+ASUS TUF F15 FX507,"today i was working on a project that wasn't working as it should, so i started moving everything around in the circuit to find the problem.",-0.4019,negative
+ASUS TUF F15 FX507,"in my last attempt to get it to work, i connected a 9-volt battery to the breadboard (which was connected to the arduino uno).",0.0,neutral
+ASUS TUF F15 FX507,then i connected the arduino to the pc via usb to upload the code to the arduino.,0.0,neutral
+ASUS TUF F15 FX507,"as soon as i did that, the laptop suddenly shut down.",0.0,neutral
+ASUS TUF F15 FX507,"i tried to turn it on in various ways, doing a hard reset, but nothing worked.",-0.0516,negative
+ASUS TUF F15 FX507,"i tried using the charger, but that didn't work either.",0.0,neutral
+ASUS TUF F15 FX507,"when i plug it in, it doesn't even heat up.",0.0,neutral
+ASUS TUF F15 FX507,it shows no signs of life.,-0.296,negative
+ASUS TUF F15 FX507,any advice?,0.0,neutral
+ASUS TUF F15 FX507,i want to do everything possible that won't void the warranty before taking it to technical support.,0.4588,positive
+ASUS TUF F15 FX507,translated with,0.0,neutral
+ASUS TUF F15 FX507,"i bought my asus tuf f15 fx507 in 2023. long story short, the laptop is still alive and well over two years later.",0.5719,positive
+ASUS TUF F15 FX507,"performance is great, and i have not noticed any slowdown at all, aside from the occasional annoyance with hybrid or optimus switching in games.",0.4215,positive
+ASUS TUF F15 FX507,there was one small issue though.,0.0,neutral
+ASUS TUF F15 FX507,"shortly after the warranty expired, the w key started randomly missing inputs.",-0.296,negative
+ASUS TUF F15 FX507,"i am not a heavy gamer, i do not hit the keyboard hard, and i do not move the laptop around much.",-0.1027,negative
+ASUS TUF F15 FX507,"i carefully followed a guide on how to clean under the key and put the keycap back, but it still behaved oddly.",0.2732,positive
+ASUS TUF F15 FX507,then i noticed the rubber dome underneath was torn in half.,-0.25,negative
+ASUS TUF F15 FX507,"i removed it, replaced it with a new one, and tried to reinstall the key carefully.",0.128,positive
+ASUS TUF F15 FX507,that is when the internal hinge of the w key broke.,-0.4215,negative
+ASUS TUF F15 FX507,"at that point, it was hard to even tell what the original issue was.",0.2263,positive
+ASUS TUF F15 FX507,"i ended up replacing the entire keyboard myself, which asus did their best to make as difficult and frustrating as possible.",-0.0516,negative
+ASUS TUF F15 FX507,"the replacement worked, but i never found out whether the w key had another input issue or if it was just bad luck with the rubber part.",-0.1901,negative
+ASUS TUF F15 FX507,"if you are reading this and own an asus tuf laptop, regardless of the model or specs, i strongly recommend using an external keyboard if you can.",0.5574,positive
+ASUS TUF F15 FX507,"the laptop itself is great, but a single keyboard issue outside of warranty can easily cost you time, stress, and extra money.",0.2382,positive
+ASUS TUF F15 FX507,so i have asus tuf f15 fx507 and it randomly shuts down while gaming somewhere at around 40 minutes mark.,0.0,neutral
+ASUS TUF F15 FX507,before it shuts off it gives me slide to shutdown promt which i always try to remove but it still shuts down in afew seconds after it.,0.0,neutral
+ASUS TUF F15 FX507,i know for a fact that it should not be overheating because i'm using cooling pad under my laptop and on top of that i had it cleaned 2 months ago.,0.2023,positive
+ASUS TUF F15 FX507,what could be the cause of it?,0.0,neutral
+ASUS TUF F15 FX507,can i fix it in software?,0.0,neutral
+ASUS TUF F15 FX507,it does not shutdown at all when i'm not gaming and doing light tasks such as browsing the web.,0.0,neutral
+ASUS TUF F15 FX507,"post body: hey everyone, i'm stuck with a really confusing display issue on my asus tuf f15 fx507zv4 (2023) and i want a sanity check from people who ve seen this before.",-0.4391,negative
+ASUS TUF F15 FX507,"symptoms on power on, sometimes there is no asus logo at all keyboard lights turn on, fans spin windows login sound plays, but the screen stays black other times, the screen turns uniform white with a solid black horizontal bar at the bottom flashlight test shows no faint image once it does boot normally, the laptop runs perfectly for hours (no crashes, no bsods) what i've already ruled out windows reinstall (clean) nvidia driver downgrade upgrade intel igpu drivers ssd (no boot device errors) ram (system stable once booted) bios rollback (330 329) ec reset power drain happens before windows loads, sometimes even on cold boot important detail when the issue happens: no asus logo sound works absolutely no image, even with flashlight i also opened the laptop and reseated the edp display cable on the motherboard side.",0.34,positive
+ASUS TUF F15 FX507,issue still persists.,0.0,neutral
+ASUS TUF F15 FX507,"current state now i'm seeing the white screen black horizontal band more clearly, which makes me think: failing lcd panel or edp cable (less likely now that reseating didn't help) laptop is out of warranty, so i'm trying to avoid unnecessary motherboard replacement.",-0.3626,negative
+ASUS TUF F15 FX507,question has anyone seen this pattern before on asus tuf laptops?,0.0,neutral
+ASUS TUF F15 FX507,does this sound like a dying panel rather than gpu motherboard?,0.3612,positive
+ASUS TUF F15 FX507,"would you replace the edp cable first, or go straight to panel replacement?",0.2263,positive
+ASUS TUF F15 FX507,any known issues with fx507 series panels?,0.0,neutral
+ASUS TUF F15 FX507,any insight from repair techs or people who ve dealt with similar symptoms would really help.,0.4576,positive
+ASUS TUF F15 FX507,thanks,0.4404,positive
+ASUS TUF F15 FX507,"hey, so i just got this asus tuf gaming f15 as my first computer, and it was a real struggle to find a good one with these specs for my engineering studies in afghanistan: fx507 id color:2a-mecha gray lcd:15.6 fhd wv vram:8gb cpu:intel i7-13620h bga storage.",0.1531,positive
+ASUS TUF F15 FX507,:1tb pcie g4 ssd odd:wo odd ram:ddr5 85x 2 wlan:wifi6 11ax2x2 wn bt usb:usb3.2a2 usb3.2c usb4.0c os type.,-0.3182,negative
+ASUS TUF F15 FX507,:win11 home kb language:us .power cord.,0.0,neutral
+ASUS TUF F15 FX507,:ul accessory:4cell 90wh i just got a new laptop and need some help figuring out how to use and take care of it.,0.7096,positive
+ASUS TUF F15 FX507,"can you give me a quick intro to laptops, plus some tips on how to keep this one in good shape and any other general advice you have?",0.4404,positive
+ASUS TUF F15 FX507,thanks,0.4404,positive
+ASUS TUF F15 FX507,"can i add a 500gb drive to my laptop, is it safe and is it recommended",0.5719,positive
+ASUS TUF F15 FX507,"those models fit my budget quite well; both are 2023 versions with an i7-13, 16gb of ddr5 ram, and a 1tb ssd.",0.5984,positive
+ASUS TUF F15 FX507,the asus tuf has an rtx 4060 with 8gb of ddr6 memory.,0.0,neutral
+ASUS TUF F15 FX507,i've been reading a lot of opinions and i'm confused.,-0.3182,negative
+ASUS TUF F15 FX507,i'd be very grateful if you could help me.,0.7178,positive
+ASUS TUF F15 FX507,": it's for university, guys.",0.0,neutral
+ASUS TUF F15 FX507,"hi, i have an asus tuf f15 fx506he (i7 11th gen, out of warranty).",0.0,neutral
+ASUS TUF F15 FX507,"fans are locked around 5000 rpm even inside bios from cold boot, with normal temps.",0.0,neutral
+ASUS TUF F15 FX507,this starts happens randomly while using laptop it shifts to this wierd state.,0.0,neutral
+ASUS TUF F15 FX507,"along with this, fn keys don't work except volume i can't change performance modes, fan modes, or even put the laptop to sleep using fn keys.",0.3182,positive
+ASUS TUF F15 FX507,"what i've already done: bios reflashed via asus ez flash full ec power drain (battery disconnected, wait, etc.)",0.3612,positive
+ASUS TUF F15 FX507,"armoury crate removed, tried g-helper issue still happens in bios, so os software ruled out this looks like an embedded controller (ec) sensor bus issue, where the ec enters failsafe mode.",0.3612,positive
+ASUS TUF F15 FX507,has anyone faced this on fx506 fx507 series?,0.0,neutral
+ASUS TUF F15 FX507,"did ec reprogramming or chip-level repair help, or is motherboard replacement the only real fix?",0.4019,positive
+ASUS TUF F15 FX507,looking for hardware-level experiences.,0.0,neutral
+ASUS TUF F15 FX507,thanks.,0.4404,positive
+ASUS TUF F15 FX507,"hi, i have an asus tuf f15 fx506he (i7 11th gen, out of warranty).",0.0,neutral
+ASUS TUF F15 FX507,"fans are locked around 5000 rpm even inside bios from cold boot, with normal temps.",0.0,neutral
+ASUS TUF F15 FX507,"along with this, fn keys don't work except volume i can't change performance modes, fan modes, or even put the laptop to sleep using fn keys.",0.3182,positive
+ASUS TUF F15 FX507,"what i've already done: bios reflashed via asus ez flash full ec power drain (battery disconnected, wait, etc.)",0.3612,positive
+ASUS TUF F15 FX507,"armoury crate removed, tried g-helper issue still happens in bios, so os software ruled out this looks like an embedded controller (ec) sensor bus issue, where the ec enters failsafe mode.",0.3612,positive
+ASUS TUF F15 FX507,has anyone faced this on fx506 fx507 series?,0.0,neutral
+ASUS TUF F15 FX507,"did ec reprogramming or chip-level repair help, or is motherboard replacement the only real fix?",0.4019,positive
+ASUS TUF F15 FX507,looking for hardware-level experiences.,0.0,neutral
+ASUS TUF F15 FX507,thanks,0.4404,positive
+ASUS TUF F15 FX507,it's only been a year since i bought my laptop - asus tuf f15 fx507 and it's not opening anymore.,0.0,neutral
+ASUS TUF F15 FX507,the first thing i experienced was the faulty power button.,-0.3182,negative
+ASUS TUF F15 FX507,"it's hard to open and most of the time, it takes me 20 or more presses before it turns on.",-0.1027,negative
+ASUS TUF F15 FX507,second is that it overheats fast.,0.0,neutral
+ASUS TUF F15 FX507,"i don't know if it's a feature but everytime my laptop overheats, it turns off.",0.0,neutral
+ASUS TUF F15 FX507,"last, just now, while i was minding my own business, using my laptop charged, it suddenly turned off.",-0.2023,negative
+ASUS TUF F15 FX507,"now, i can't open it and when i try to charge it, the charging indicator does not light up.",0.0,neutral
+ASUS TUF F15 FX507,"hello: i'm looking to buy a laptop that is within my budget (1 million 200k iraqi dinars - roughly 900 dollars) first i was smitten with the loq, but the widespread motherboard issues made me hesitate and back off.",-0.3919,negative
+ASUS TUF F15 FX507,"the next best option is an asus tuf f15 fx507 for 1 million 275k iqd: (asus tuf gaming f15 fx507vu-lp150, intel core i7-13620h, ram 16gb, ssd 512gb, nvidia rtx 4050 6gb, 15.6 fhd ips 144hz, mecha gray) i'm curious if the asus seems to have any major widespread problems like that.",0.743,positive
+ASUS TUF F15 FX507,i'm really hoping not.,0.4754,positive
+ASUS TUF F15 FX507,"this is an investment i won't be able to make again for a long while,so i'm trying to make a good choice.",0.4404,positive
+ASUS TUF F15 FX507,i'm going to use it for basically everything.,0.0,neutral
+ASUS TUF F15 FX507,"coding, browsing socializing, light gaming (i am willing to play literally everything in minimal low graphic settings so the gpu should be good enough).",0.4939,positive
+ASUS TUF F15 FX507,will this serve me well otherwise?,0.2732,positive
+ASUS TUF F15 FX507,thanks.,0.4404,positive
+ASUS TUF F15 FX507,now i'm using an hdmi to my laptop to my monitor and i'm getting the same fps as when i didn't plug a monitor what's the reason for this and i have an igpu which means i have a mux switch but how can i increase the fps or do the optimus thing everyone says about?,0.4497,positive
+ASUS TUF F15 FX507,"hi gang, i'm in the market for a better gaming laptop.",0.4404,positive
+ASUS TUF F15 FX507,"i'm shopping used very good excellent i found: asus g513rm-ws74 rog strix 15.6"" qhd ryzen 7 6800h 3.2ghz nvidia geforce rtx 3060 669 asus rog zephyrus m16 gu603z 16"" i7-12700h 2.3ghz 16gb ram 512gb ssd rtx 3060 663 asus tuf gaming a15 15.6 inch laptop, ryzen 5 7535hs, rtx 4060 700 with shipping asus tuf f15 fx507 gaming laptop with rtx 4060, i7-13620h, 16gb ram, 1tb ssd 780 just looking for opinions.",0.8004,positive
+ASUS TUF F15 FX507,i mostly just web browse and run some emulators and moderate games.,0.0,neutral
+ASUS TUF F15 FX507,"battery life doesn't matter that much, but i would like the best display of the bunch and 1440 preferred.",0.8754,positive
+ASUS TUF F15 FX507,"asus tuf f15 (fx507) i recently switched to 32gb of ram, the standard pc used a samsung 16gb 4800hmz soddim, i searched a lot to find it but i didn't find many, and i found a samsung 16gb 4800mhz soddim only that it wasn't produced in china but comes from korea, after having mounted it the first time i saw that it was read by the pc, the next day i didn't see anything strange but in the following days i saw that sometimes while i was playing the game it would freeze every now and then and sometimes it would freeze for 1 second and then restart, i don't know if it's the ram's fault or some driver update but i haven't found a solution yet, i'm looking for help, i don't know much about it the first one is the serial one and the second one is the one i bought",0.306,positive
+ASUS TUF F15 FX507,hi all.,0.0,neutral
+ASUS TUF F15 FX507,"as i have spilled some tea over my keyboard a few months ago, i had to replace the laptop keyboard, which unfortunately damaged the electronics of the native screen-motherboard interface.",-0.6486,negative
+ASUS TUF F15 FX507,my guess has been that i have damaged the 40-pin edp cable as i may have not been careful enough during disassembly.,-0.5178,negative
+ASUS TUF F15 FX507,"i have ordered a new one, replaced it and it still shows no image.",-0.296,negative
+ASUS TUF F15 FX507,wanted to know if there are any other diagnostics i could run on the issue.,0.0,neutral
+ASUS TUF F15 FX507,i can connect an external monitor just fine though.,0.2023,positive
+ASUS TUF F15 FX507,thanks.,0.4404,positive
+ASUS TUF F15 FX507,obviously no longer a warranty case.,-0.296,negative
+ASUS TUF F15 FX507,"after three months of use i decided to upgrade the storage, adding an m.2 ssd and applying arctic mx6 thermal paste.",0.0,neutral
+ASUS TUF F15 FX507,"although i am used to working with equipment, since i am a technician i discovered that the hinges were completely destroyed, with the screen barely held in place by a screw at each end.",-0.5984,negative
+ASUS TUF F15 FX507,"when i went to warranty service, they refused to repair the damage, claiming ""mishandling"".",-0.6597,negative
+ASUS TUF F15 FX507,"upon investigation, i realized that this problem could be a design defect.",-0.6731,negative
+ASUS TUF F15 FX507,"with no other options, i decided to repair it myself.",-0.296,negative
+ASUS TUF F15 FX507,things you need -cyanoacrylate glue and activator -epoxy resin to reinforce the supports -5 mm allen wrench socket (for hinge nuts) -10 mm wrench (for the nuts of the screws) -a lot of patience repair steps 1. work area preparation make sure to work in a clean and organized environment.,0.6369,positive
+ASUS TUF F15 FX507,2. disassembling the device -carefully remove the screws from the laptop s back cover using an appropriate screwdriver.,-0.0516,negative
+ASUS TUF F15 FX507,-lift the cover to access the internal components.,0.0,neutral
+ASUS TUF F15 FX507,-locate the mounting brackets.,0.0,neutral
+ASUS TUF F15 FX507,"in my case, they were completely destroyed and or disintegrated (mainly on the upper sections).",-0.5413,negative
+ASUS TUF F15 FX507,-remove the hinges from the affected area by loosening the screws with a 5 mm allen wrench.,-0.3818,negative
+ASUS TUF F15 FX507,"3. repairing the brackets -repair the brackets step by step, treating the process like a puzzle to fit as many broken pieces together as possible.",0.2263,positive
+ASUS TUF F15 FX507,-apply cyanoacrylate glue to the fractured areas of the brackets and use an activator to speed up the curing process.,0.0,neutral
+ASUS TUF F15 FX507,"-once the glue has dried, reinforce the brackets with epoxy resin to ensure greater strength and durability.",0.8074,positive
+ASUS TUF F15 FX507,-allow the resin to cure completely.,0.2263,positive
+ASUS TUF F15 FX507,"4. reinstalling the hinges -once the brackets are repaired, remove the screen connector and work only with the screen.",0.0,neutral
+ASUS TUF F15 FX507,-use a 5 mm allen wrench and a 10 mm wrench for the nuts.,-0.3182,negative
+ASUS TUF F15 FX507,gently loosen each hinge nut to reduce resistance when moving the screen.,0.4588,positive
+ASUS TUF F15 FX507,-ensure each hinge is adjusted evenly (do not fully rotate; adjust millimeter by millimeter).,0.3818,positive
+ASUS TUF F15 FX507,"-after loosening the hinges, reassemble the laptop carefully to avoid causing any further damage.",-0.5994,negative
+ASUS TUF F15 FX507,"5. final steps -reassemble all components, ensuring everything is securely in place.",0.5423,positive
+ASUS TUF F15 FX507,-enjoy your repaired laptop.,0.4939,positive
+ASUS TUF F15 FX507,so yall got a fix for screen flickering?,0.0,neutral
+ASUS TUF F15 FX507,"(pretty sure its the graphics driver, when i reinstalled it everthing worked fine the first time but when i opened my laptop the day after, it was back to it, i reinstalled graphics driver again but no fix this time) i have used a second monitor connected to my laptop but it shows over there too (which usually means its the drivers) but i entered bios and it was flickering over there aswell.",-0.1901,negative
+ASUS TUF F15 FX507,any fix?,0.0,neutral
+ASUS TUF F15 FX507,its supposed to be one or the other but i havent seen a case which has both (flickering on second screen and flickering in bios),0.0,neutral
+ASUS TUF F15 FX507,"hello, could you please tell me if there is keyboard compatibility: i have an asus tuf f15 fx507zc-es53 with an english keyboard but i would like to make the change to a keyboard in latin spanish, however i can't find one that is consistent with the aforementioned model.",0.5994,positive
+ASUS TUF F15 FX507,"they only sell some similar models: fa507, fa507r, fx507, fx507ze, fx507zm.",0.0,neutral
+ASUS TUF F15 FX507,so yall got a fix for screen flickering?,0.0,neutral
+ASUS TUF F15 FX507,"(pretty sure its the graphics driver, when i reinstalled it everything worked fine the first time but when i opened my laptop the day after, it was back to it, i reinstalled graphics driver again but no fix this time) i have used a second monitor connected to my laptop but it shows over there too (which usually means its the drivers) but i entered bios and it was flickering over there as well.",0.2263,positive
+ASUS TUF F15 FX507,any fix?,0.0,neutral
+ASUS TUF F15 FX507,its supposed to be one or the other but i havent seen a case which has both (flickering on second screen and flickering in bios).,0.0,neutral
+ASUS TUF F15 FX507,it comes and goes aswell.,0.0,neutral
+ASUS TUF F15 FX507,i thought it was due to the hz but its the same for both hz (60 and 144),0.0,neutral
+ASUS TUF F15 FX507,"asus tuf f15 (fx507) i recently switched to 32gb of ram and i noticed that it gave me some problems, like sometimes the game froze and sometimes the game crashed, seriously this gaming notebook comes out with a 16gb ddr5 4800mhz ram satisfied with the samsung produced in china, i had a lot of trouble finding an identical 16gb and in the end i found a very similar one with the same characteristics but it was produced in korea.",-0.1027,negative
+ASUS TUF F15 FX507,"after doing the memtest i found many errors that i as a non-expert do not know well understand what the problem is even if i think that either it is incompatible with the motherboard or the ram is defective, also because on a certain game when it crashes an error appears with the writing: fatal error i tried to look for this error and everyone says that it is the defective ram, these problems that i told you happen very rarely i hope that someone helps me with this problem",-0.9769,negative
+ASUS TUF F15 FX507,"my brother bought me an asus tuf f15 fx507 a year ago and so far it has had to be brought in for two separate trackpad replacements in april and october last year, and now, after my warranty has passed, the battery suddenly stopped going above 22 along with not being able to play any video games without the charger connecting and disconnecting every 5 seconds, causing the frame rate to drop horrendously.",-0.5423,negative
+ASUS TUF F15 FX507,"guess what, i brought it in to repair, and they said it would take 1000 for a motherboard replacement, which is what they've determined to the problem all along, but that's how much the laptop costed by itself.",-0.0387,neutral
+ASUS TUF F15 FX507,is there anyway i should go about this or just take this loss and buy from another brand?,-0.3869,negative
+ASUS TUF F15 FX507,frankly this is unacceptable to me and i don't think i'll be buying anything from them again regardless of the outcome.,-0.4588,negative
+ASUS TUF F15 FX507,"i recently did an update on my asus tuf f15 fx507, and when i hit the power button the keyboard lights up and the fans spin really fast, and the laptop heats up quickly but the screen does not have any display, and the display appears to not turn on at all.",0.0,neutral
+ASUS TUF F15 FX507,i have tried entering the bios and cannot even get the screen on for that.,0.0,neutral
+ASUS TUF F15 FX507,it worked perfectly fine this morning before the update.,0.7184,positive
+ASUS TUF F15 FX507,"i've had this laptop for less than 2 months, and need it for college.",0.0,neutral
+ASUS TUF F15 FX507,please help.,0.6124,positive
+ASUS TUF F15 FX507,"hi, i've been looking for a gaming laptop these last few days and now i have or 3 options with almost the same price : option 1 : acer predator helios 300 ph317-55 i7 11800h rtx 3070 16go ram with a 17"" screen and 1t ssd option 2 : asus tuf f15 fx507 i7 12700h rtx 4060 16go ram with a 15.6"" screen and 1t ssd bonus option 3 : gigabyte aorus 15 2023 i5 - 12500h rtx 4060 16go ram with a 15.6"" screen and 512 go ssd first 2 have the same price and the last one is a bit cheaper.",0.5423,positive
+ASUS TUF F15 FX507,help me please !,0.6476,positive
+ASUS TUF F15 FX507,"asus tuf f15 (fx507) i recently switched to 32gb of ram, the standard pc used samsung 16gb 4800hmz soddim, i searched a lot to find it but i didn't find an identical one with the same number, so i looked for the ram most similar to the one i had and i found a samsung 16gb 4800mhz soddim ram only that it wasn't produced in china but comes from korea, after having mounted it the first time i saw that it was read by the pc, the next day i didn't see anything strange but in the following days i saw that sometimes while i was playing the game would crash every now and then and sometimes it would freeze for 1 second and then start again, i don't know if it's the ram's fault or some driver update but i haven't found a solution yet, i'm looking for help, i don't know much about it after memtest",-0.2858,negative
+ASUS TUF F15 FX507,i'm looking forward to buy an asus tuf laptop.,0.0,neutral
+ASUS TUF F15 FX507,"looking at the options, i am not sure why laptops with 13700h are so much more expensive than ones with 12700h even though the performance difference is only about 7 percent according to userbenchmark.",-0.2411,negative
+ASUS TUF F15 FX507,"i've seen people complaining about the intense power inefficiency of 12700h and the way it affects battery life and causes heating issues, but i couldn't find a clear reference about it on internet.",-0.4635,negative
+ASUS TUF F15 FX507,now here is the deal; i have two options with exact same prices: 1.,0.0,neutral
+ASUS TUF F15 FX507,12700h 4070 8gb 1tb ssd 2.,0.0,neutral
+ASUS TUF F15 FX507,13700h 4050 6gb 512gb ssd everything else is the same.,0.0,neutral
+ASUS TUF F15 FX507,which one should i go for?,0.0,neutral
+ASUS TUF F15 FX507,"hi, i want to change my thermal paste in my asus tuf f15 (fx507), because i get 97 degrees on cpu even when it's lightly loaded.",0.0772,positive
+ASUS TUF F15 FX507,should i buy honeywell ptm 7950 or thermal paste?,0.0,neutral
+ASUS TUF F15 FX507,if thermal paste - then what model?,0.0,neutral
+ASUS TUF F15 FX507,"i ordered the msi katana 17 b13vfk and even though i know about the long list of issues with it, i got it on amazon for a very good price that basically made every issue insignificant.",0.3597,positive
+ASUS TUF F15 FX507,i was very excited to use it until i booted it up and.,0.4005,positive
+ASUS TUF F15 FX507,voila!,0.0,neutral
+ASUS TUF F15 FX507,a hot pixel right in the middle of the screen.,0.0,neutral
+ASUS TUF F15 FX507,"tried fixing it but it didn't work, so i immediately returned it and ordered an asus tuf f15 fx507 instead, as i really didn't want to ""live with"" a hot pixel as some suggest.",-0.1902,negative
+ASUS TUF F15 FX507,"it's a shame, because i actually wanted to give it a fair shot.",-0.2023,negative
+ASUS TUF F15 FX507,hello!,0.0,neutral
+ASUS TUF F15 FX507,"i am going to ""repaste"" my laptop's thermal paste with ptm7950, but the problem is the vrms.",-0.5499,negative
+ASUS TUF F15 FX507,"my laptop is an asus tuf f15 fx507-zm (2022) and i wanted, initially, to use thermal pads, but i do not know the thickness i need (i searched on google, no idea, everyone uses thermal putty).",-0.4215,negative
+ASUS TUF F15 FX507,"i searched for upsiren u6 pro, but in my country the only one available is the one made in greece so no thank you.",-0.034,neutral
+ASUS TUF F15 FX507,"but there is also the upsiren ux pro, still, the one made in greece and i'm not sure if it's ok or not.",0.0918,positive
+ASUS TUF F15 FX507,"is upsiren ux pro the chinese version the good one, like u6 pro, or is the one from greece good as well?",0.8555,positive
+ASUS TUF F15 FX507,i couldn't find anywhere anything about it.,0.0,neutral
+ASUS TUF F15 FX507,also if you have any other ideas on what to use on vrms please let me know.,0.3182,positive
+ASUS TUF F15 FX507,or if you know the thickness needed for thermal pads it would be awesome because i will use them instead.,0.6249,positive
+ASUS TUF F15 FX507,(i was looking at arctic tp-3 as thermal pad),0.0,neutral
+ASUS TUF F15 FX507,hey i got a new asus tuf f15 fx507 (4 days ago)i tried to restore my asus tuf f15 with rtx 4060 and i7 12700h and 512 gb ssd to a restore point because i updated nividia drivers and noticed that fps was worse afterand when the laptop restarted after it completed restoring it was stuck on asus logo for long time and i tried to forcefully turn it off pressing power button for long time and tried to turn it on again it tried to fix start up but it failed and said that it failed to start i even couldn't reset laptop and i managed resetting it using my asus and now it is working normally should i just return my laptop and upgrade to lenovo low as i heard a lot of problems concerning asus laptop motherboards on so many thread on reddit?,-0.9418,negative
+ASUS TUF F15 FX507,thank you in advance,0.3612,positive
+ASUS TUF F15 FX507,"i recently did an update on my asus tuf f15 fx507, and when i hit the power button the keyboard lights up and the fans spin really fast, and the laptop heats up quickly but the screen does not have any display, and the display appears to not turn on at all.",0.0,neutral
+ASUS TUF F15 FX507,i have tried entering the bios and cannot even get the screen on for that.,0.0,neutral
+ASUS TUF F15 FX507,it worked perfectly fine this morning before the update.,0.7184,positive
+ASUS TUF F15 FX507,"i've had this laptop for less than 2 months, and need it for college.",0.0,neutral
+ASUS TUF F15 FX507,anything helps.,0.3818,positive
+ASUS TUF F15 FX507,"hi, i've been looking for a gaming laptop these last few days and now i have or 3 options with almost the same price : option 1 : acer predator helios 300 ph317-55 i7 11800h rtx 3070 16go ram with a 17"" screen and 1t ssd option 2 : asus tuf f15 fx507 (f15 instead of a15) couldn't edit the title i7 12700h rtx 4060 16go ram with a 15.6"" screen and 1t ssd bonus option 3 : gigabyte aorus 15 2023 i5 - 12500h rtx 4060 16go ram with a 15.6"" screen and 512 go ssd first 2 have the same price and the last one is a bit cheaper.",0.5423,positive
+ASUS TUF F15 FX507,help me please !,0.6476,positive

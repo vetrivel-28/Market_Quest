@@ -1,52 +1,65 @@
-﻿import { NavLink } from "react-router-dom";
+import React from "react";
+import { NavLink } from "react-router-dom";
+import { useFilters, BRAND_COLORS } from "../context/FilterContext";
 
 const NAV = [
-  { to: "/",              label: "Home" },
-  { to: "/target",        label: "Target Overview" },
-  { to: "/market",        label: "Market Overview" },
-  { to: "/comparison",    label: "Competitor Comparison" },
-  { to: "/advantages",    label: "Competitor Advantages" },
-  { to: "/strengths",     label: "Strengths & Weaknesses" },
-  { to: "/strategy",      label: "Strategy" },
-  { to: "/opportunities", label: "Market Opportunities" },
-  { to: "/insights",      label: "Insights" },
+  { to: "/",              label: "Executive Overview",     icon: "📊" },
+  { to: "/target",        label: "Target Brand Portfolio", icon: "🎯" },
+  { to: "/market",        label: "Market Overview",        icon: "🌐" },
+  { to: "/comparison",    label: "Spec Peer Comparison",   icon: "⚖️" },
+  { to: "/advantages",    label: "Competitor Advantages",  icon: "🛡️" },
+  { to: "/strengths",     label: "Strengths & Weaknesses", icon: "📈" },
+  { to: "/strategy",      label: "Strategy Action Plan",   icon: "💡" },
+  { to: "/opportunities", label: "Market Opportunities",   icon: "🚀" },
+  { to: "/insights",      label: "Intelligence Center",    icon: "🔍" },
 ];
 
-export default function Sidebar({ target, setTarget, brands }) {
+export default function Sidebar() {
+  const { target } = useFilters();
+
   return (
-    <aside style={{
-      width: 230, minHeight: "100vh", background: "var(--surface)",
-      borderRight: "1px solid var(--border)", display: "flex",
-      flexDirection: "column", padding: "1.25rem 0",
-    }}>
-      <div style={{ padding: "0 1.25rem 1.25rem", borderBottom: "1px solid var(--border)" }}>
-        <div style={{ fontSize: "1rem", fontWeight: 700, color: "var(--accent2)", marginBottom: 10 }}>
-          Laptop Intel
+    <aside className="pbi-sidebar">
+      {/* Brand & Studio Logo Header */}
+      <div className="pbi-sidebar-header">
+        <div style={{ display: "flex", alignItems: "center", gap: 10 }}>
+          <div className="pbi-logo-icon">MQ</div>
+          <div>
+            <div className="pbi-app-title">MarketQuest</div>
+            <div className="pbi-app-subtitle">Market Intelligence Studio</div>
+          </div>
         </div>
-        <label style={{ fontSize: "0.72rem", color: "var(--muted)", display: "block", marginBottom: 4 }}>
-          Target Company
-        </label>
-        <select value={target} onChange={e => setTarget(e.target.value)}
-          style={{ width: "100%" }}>
-          {brands.map(b => <option key={b}>{b}</option>)}
-        </select>
+        <div className="pbi-target-badge" style={{ backgroundColor: BRAND_COLORS[target] || BRAND_COLORS.ASUS }}>
+          Focus: {target}
+        </div>
       </div>
 
-      <nav style={{ flex: 1, padding: "0.75rem 0" }}>
-        {NAV.map(({ to, label }) => (
-          <NavLink key={to} to={to} end={to === "/"}
-            style={({ isActive }) => ({
-              display: "flex", alignItems: "center", gap: 10,
-              padding: "0.55rem 1.25rem", fontSize: "0.88rem",
-              color: isActive ? "var(--accent2)" : "var(--muted)",
-              background: isActive ? "var(--surface2)" : "transparent",
-              borderLeft: isActive ? "3px solid var(--accent)" : "3px solid transparent",
-              transition: "all 0.15s",
-            })}>
-            <span>{label}</span>
+      {/* Navigation Links */}
+      <nav className="pbi-nav">
+        <div className="pbi-nav-section-title">REPORTS & ANALYTICS</div>
+        {NAV.map(({ to, label, icon }) => (
+          <NavLink
+            key={to}
+            to={to}
+            end={to === "/"}
+            className={({ isActive }) => `pbi-nav-item ${isActive ? "active" : ""}`}
+          >
+            <span className="pbi-nav-icon">{icon}</span>
+            <span className="pbi-nav-label">{label}</span>
           </NavLink>
         ))}
       </nav>
+
+      {/* Semantic Metadata & Architecture Footer */}
+      <div className="pbi-sidebar-footer">
+        <div style={{ fontSize: "0.72rem", color: "#64748b", lineHeight: 1.5 }}>
+          <div style={{ fontWeight: 600, color: "#334155" }}>Semantic Layer v2.0</div>
+          <div>Star Schema • 31.6k Reviews</div>
+          <div style={{ marginTop: 4, display: "flex", alignItems: "center", gap: 6 }}>
+            <span style={{ display: "inline-block", width: 6, height: 6, borderRadius: "50%", background: "#10b981" }} />
+            <span>Power BI Engine Active</span>
+          </div>
+        </div>
+      </div>
     </aside>
   );
 }

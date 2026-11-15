@@ -1,0 +1,594 @@
+laptop_name,sentence,compound_score,sentiment
+HP Victus 16,i was thinking of buying the hp 2025 victus 16 corei5 14th gen rtx 4060 512gb 16gb model: 16-r1711tx i'm thinking of getting it for school but also to play games(mostly valorant).,0.4767,positive
+HP Victus 16,i know its a gaming laptop but will it be okay for school work?,0.3291,positive
+HP Victus 16,"and hows the battery life, heat, and noise?",0.0,neutral
+HP Victus 16,"i've been looking for a not-bulky, good performance laptop that is good for light-moderate editing and rendering.",0.7003,positive
+HP Victus 16,im not really good with specs in terms of performance and longevity.,-0.3865,negative
+HP Victus 16,this one is about 900. this one caught my eye since i prefer portability in case i need to go to a cafe when the wifi s out.,0.0,neutral
+HP Victus 16,i already have a hard time carrying my 3d models so i need something that doesn't feel like carrying another brick going to class.,-0.3632,negative
+HP Victus 16,anyone with this brand: how is it so far since u bought it?,0.0,neutral
+HP Victus 16,are the slots for ssd s or ram upgradable?,0.0,neutral
+HP Victus 16,how long until it completely overheats with without proper cooling (like lets say 6-8hrs of heavy software use like adobe etc).,0.3612,positive
+HP Victus 16,any notes abt it is appreciated!,0.5562,positive
+HP Victus 16,what is your experience with hp victus 16?,0.0,neutral
+HP Victus 16,are there any problems with it?,-0.4019,negative
+HP Victus 16,3 years of use .,0.0,neutral
+HP Victus 16,"hinge screw came off, another screw came off, screen is falling off (i've never dropped it or broken it before).",-0.6705,negative
+HP Victus 16,other than that it's a great laptop for the price i got it at.,0.6249,positive
+HP Victus 16,good temps and performance!,0.4926,positive
+HP Victus 16,"hey everyone, i wanted to create a megathread to document the hall effect sensor issue on the 16-s0 and 16-r0 laptops.",0.2732,positive
+HP Victus 16,i have done some deep investigation here and wanted to put together a compilation of info for anyone running into this problem.,-0.481,negative
+HP Victus 16,"there are a bunch of posts scattered around, a few videos, and wayyy too many posts to hp's support with the hp canned response of ""do these irrelevant steps and then send me a dm with your info and i will escalate your issue.""",0.4019,positive
+HP Victus 16,these are usually dead end posts with no usable information.,-0.7579,negative
+HP Victus 16,"so, please add all of your links, information, videos, etc, to this post to keep it all together.",0.3804,positive
+HP Victus 16,i intend to put multiple solutions below and add more info as i test.,0.1779,positive
+HP Victus 16,i encourage anyone that has any correction to any of the information here to please post it.,0.6808,positive
+HP Victus 16,any shared info can help the community.,0.6249,positive
+HP Victus 16,"as always, a disclaimer: i am not responsible for any damage that you do to your laptop or yourself while using this information.",-0.6324,negative
+HP Victus 16,use at your own risk!,-0.3382,negative
+HP Victus 16,"edit: there may be an easier fix that allows you to continue using the original hall sensor, if you choose to.",0.6249,positive
+HP Victus 16,it also avoids all of the cutting traces and jumper wires show in the pictures.,-0.296,negative
+HP Victus 16,"the info is below in the ""the real cause?""",0.0,neutral
+HP Victus 16,section.,0.0,neutral
+HP Victus 16,the issue you have a victus with either an amd or intel chipset.,0.0,neutral
+HP Victus 16,"one day, the screen starts flashing and then the power turns off.",0.0,neutral
+HP Victus 16,pushing the power button probably doesn't do anything.,0.0,neutral
+HP Victus 16,"you find the ""hard reset"" procedure and attempt it by pulling the charging cable, and then holding the power button for 10 seconds.",-0.1027,negative
+HP Victus 16,it may come back on.,0.0,neutral
+HP Victus 16,it may not.,0.0,neutral
+HP Victus 16,"for this example, lets say it does.",0.0,neutral
+HP Victus 16,cool!,0.3802,positive
+HP Victus 16,it boots up.,0.0,neutral
+HP Victus 16,then the screen starts flashing again and it turns off.,0.0,neutral
+HP Victus 16,welcome to hall effect sensor hell!,-0.4389,negative
+HP Victus 16,"you will read plenty of info about it, but no proper solutions.",-0.1901,negative
+HP Victus 16,ok then!,0.3595,positive
+HP Victus 16,what's a hall effect sensor?,0.0,neutral
+HP Victus 16,glad you asked.,0.4588,positive
+HP Victus 16,a hall effect sensor is a very common electronic part that is sensitive to magnetic fields.,0.0,neutral
+HP Victus 16,think of it as a proximity sensor for magnets.,0.0,neutral
+HP Victus 16,"most current laptops have one, your phone has one or more, your fancy joysticks, racing wheels, and other gaming controllers use them, even your car has at least two in the engine and one on each wheel for abs and traction control wheel speed sensing!",0.1915,positive
+HP Victus 16,those are just a few examples of the millions of devices that rely on magnetic field detection to do a task.,0.0,neutral
+HP Victus 16,so why is there a hall effect sensor in my laptop?,0.0,neutral
+HP Victus 16,dead simple.,-0.6486,negative
+HP Victus 16,"mechanical switches break, wear out, and also need direct contact with an object to trigger.",0.0,neutral
+HP Victus 16,your laptop base is a great spot for a non-mechanical non-contact sensor that can detect when the lid is opened and closed.,0.6249,positive
+HP Victus 16,the lid has a small magnet that lines up with the position of the hall effect sensor near the keyboard.,0.0,neutral
+HP Victus 16,"when you close the lid, the hall effect sensor sends a voltage to the motherboard, via a ribbon cable, to tell it shut off the screen and go to sleep.ah ha, now we are getting somewhere!",0.4003,positive
+HP Victus 16,"when you open the lid, the magnet is moved away from the sensor, the voltage disappears and the motherboard knows to wake up.",-0.34,negative
+HP Victus 16,so why does it keep me from gaming?,0.0,neutral
+HP Victus 16,"unfortunately, this particular hall effect sensor seems susceptible to heat once it starts to fail.",-0.7096,negative
+HP Victus 16,"once the laptop heats up a minor amount, the hall effect sensor freaks out and registers the lid closed, which blinks the screen a few times and then tells windows to activate sleep (or what ever you have your lid close action set to do).",-0.1027,negative
+HP Victus 16,"once ""closed"" the power button is not supposed to be able to be pressed since the lid would be in the way, so it seemingly doesn't work (i found this to be the case and it is the only explanation i have).",0.0,neutral
+HP Victus 16,"allowing the system to cool, or forcing a reset and somehow clearing the current status of the sensor allows you to turn it on for a brief period again.",0.3182,positive
+HP Victus 16,cool.,0.3182,positive
+HP Victus 16,so how do we fix it the really simple way: send it to hp so they can take out the failing bad parts and put brand new bad parts back in.,-0.8834,negative
+HP Victus 16,this option should only be taken if you are still under warranty and even care that you are still under warranty.,0.4939,positive
+HP Victus 16,"this option will deprive you of your laptop for weeks, and since the part is the same brand and part number that was taken out, it will happen again.",-0.4215,negative
+HP Victus 16,"the less simple way: search on google for ""hp victus 16 service manual"" and download the pdf from hp.",0.0,neutral
+HP Victus 16,you will be taking the screws out of the back cover and gently prying it off with a plastic tool (use a spudger or a guitar pick).,0.25,positive
+HP Victus 16,"once inside, find the ir board ribbon cable located on the front edge of the laptop.",0.0,neutral
+HP Victus 16,"take the tape off of the top, carefully flip the retaining clip up, and pull the ribbon cable out.",0.3182,positive
+HP Victus 16,put the case back together and kinda sorta get your game on.,0.0,neutral
+HP Victus 16,"(see ""why so slow now?""",0.0,neutral
+HP Victus 16,"below) the advanced way: you will need a decent soldering iron for this one that is capable of working with surface mount components, preferably a very fine conical tip.",0.6901,positive
+HP Victus 16,you may want some solder braid to clean up the pads and some alcohol to get the flux residue off.,0.4588,positive
+HP Victus 16,you may also want a magnifying glass.,0.0772,positive
+HP Victus 16,grab the service manual and take the back case apart using the instructions.,0.0,neutral
+HP Victus 16,you will need to access the ir board.,0.0,neutral
+HP Victus 16,"work through the ""removing the motherboard"" instructions and remove everything that is required.",0.0,neutral
+HP Victus 16,"once you have the ir board in your hands, you will need to remove replace the little 3 pin hall effect sensor with your soldering iron.",0.0,neutral
+HP Victus 16,it looks like a little black grain of rice.,0.3612,positive
+HP Victus 16,"go around with solder and ""wet"" each solder leg and then heat the single leg while applying a gentle upward pressure on the part or use gentle pressure from a screw driver.",0.25,positive
+HP Victus 16,do not push too hard.,0.0762,positive
+HP Victus 16,we don't want to rip the pads up.,-0.0572,negative
+HP Victus 16,the goal is to get that leg free and bend the part up a little so that the joint is separated.,0.5106,positive
+HP Victus 16,"once that leg is disconnected, go to the two legs and heat them up by alternating back and forth quickly.",0.0,neutral
+HP Victus 16,watch out for the very very tiny capacitors below the one leg!,0.0,neutral
+HP Victus 16,"they are only filtering caps on the incoming power, but will be near impossible to get soldered back in place!",0.0,neutral
+HP Victus 16,"at some point while alternating, the solder on both legs will liquefy at the same time and you can just move the part off of the pads.",0.0,neutral
+HP Victus 16,you now have a choice: you can reassemble without the hall effect sensor on there and enjoy your not-permanently-throttled laptop without lid detection or you can buy an improved hall effect sensor and solder it in the same spot to return the laptop to normal functionality.,0.743,positive
+HP Victus 16,the information about an improved compatible sensor is below.,0.4767,positive
+HP Victus 16,why so slow now?,0.0,neutral
+HP Victus 16,so you went with the middle of the road option.,0.0,neutral
+HP Victus 16,"you didn't want to get stuck without a laptop while hp does nonsense to it, but you also didn't want to tear the laptop fully apart.",-0.4203,negative
+HP Victus 16,i understand.,0.0,neutral
+HP Victus 16,"but, like everything in life, there's always a trade-off.",0.5023,positive
+HP Victus 16,a hall effect sensor is usually a three or four pin device.,0.0,neutral
+HP Victus 16,but that ribbon cable you disconnected has a few more connections than that.,0.0,neutral
+HP Victus 16,what else is going on there?,0.0,neutral
+HP Victus 16,well it's listed in the manual as an ir board.,0.2732,positive
+HP Victus 16,there is a shiny metal part on the opposite side of the board.,0.0,neutral
+HP Victus 16,it's an ir sensor.,0.0,neutral
+HP Victus 16,"since the laptop doesn't have any sort of hole to shine a tv remote through, and it certainly isn't a motion detector light, that infrared sensor must be used for something else.",0.34,positive
+HP Victus 16,"from the hall effect sensor's perspective, mounting that board right under the heatpipe was really a bad move, but not for the ir sensor part of the board.",-0.3392,negative
+HP Victus 16,the ir sensor is being used to detect the temperature on the heatpipe and allow thermal throttling when things get too hot.,0.2263,positive
+HP Victus 16,this is the reason why fully disconnecting the ribbon cable causes the processor to throttle back.,0.0,neutral
+HP Victus 16,"when the motherboard can't get a reading from the ir sensor, it plays it safe and throttles back.",0.5994,positive
+HP Victus 16,it is better to throttle from the unknown reading rather than cause a fire.,0.128,positive
+HP Victus 16,"so, if you can live with your gaming laptop functioning as a youtube and e-mail machine, you can stay with this option.",0.0,neutral
+HP Victus 16,"troubleshooting is never wasted time, and you know for a fact that the hall effect sensor is causing the issue now, should you decide to go for the advanced option in the future.",0.6517,positive
+HP Victus 16,original sensor info the original hall effect sensor is a toshiba tcs40dlr.,0.5574,positive
+HP Victus 16,"looking at the datasheet, the operating temperature is -40c to 85c.",0.0,neutral
+HP Victus 16,what the heck hp!,0.0,neutral
+HP Victus 16,"while that is a standard low end range for semiconductor electronics, it does not give much headroom when mounted under a hot heatpipe that is funneling heat away from a gpu and cpu.",-0.296,negative
+HP Victus 16,"the datasheet clearly states that continuous use under heavy loads (such as high temperature or significant temperature changes, high current, or high voltage) will cause a decrease in reliability significantly, even if the operating conditions are within maximums and recommended operating ranges!",0.68,positive
+HP Victus 16,well there you have it.,0.2732,positive
+HP Victus 16,no fault to toshiba.,-0.5994,negative
+HP Victus 16,they knew that this environment was not suitable and clearly noted it.,-0.3089,negative
+HP Victus 16,"this part is fine as a low cost sensor for a safe and consistent environment, which a laptop is not.",0.3818,positive
+HP Victus 16,"this datasheet was dated for 2015, well before these laptops were produced, and it was still chosen to be a critical part in this application.",-0.0516,negative
+HP Victus 16,"it is currently around 17 cents, in case you wanted to know the value of what rendered your laptop useless.",-0.1027,negative
+HP Victus 16,new sensor info i found a few that will work better in this application.,0.4404,positive
+HP Victus 16,"the one that i finally decided was perfect is the allegro a1126llhlt-t. this is an automotive grade, temperature compensated hall effect sensor with the same pinout and package size.",0.5719,positive
+HP Victus 16,"the voltage range is geared towards automotive, accepting 3-24v, which is beyond suitable here.",0.3818,positive
+HP Victus 16,"the magnetic trip point is a little higher, meaning more magnetism needs to enter or leave the range before any switching happens.",-0.0516,negative
+HP Victus 16,"we have a magnet that will be very close to the sensor, and we only care about two positions, so as long as the rating is less than the magnetic strength of the magnet, we will be good.",0.8519,positive
+HP Victus 16,what makes this one great is that it is rated for full operation up to 150c!,0.6588,positive
+HP Victus 16,almost double the rating of the original.,0.3182,positive
+HP Victus 16,"if things are hitting 150c, you have bigger problems to worry about.",-0.6808,negative
+HP Victus 16,this one fits the bill and costs right around 1. i'll gladly spend that for the quality and performance.,0.34,positive
+HP Victus 16,whe that was a lot you're telling me!,0.0,neutral
+HP Victus 16,"unfortunately, from what i can see, this problem has been ongoing for years.",-0.6731,negative
+HP Victus 16,i can't imagine how many thousands of these laptops were thrown out because of a failure in a part that costs less than a dollar.,-0.5106,negative
+HP Victus 16,"worse yet, the ir board is not available to the consumer from hp.",-0.4767,negative
+HP Victus 16,"there are some on e-bay from china, and i have ordered one to see if it is the same hall effect sensor or an upgraded one (will post an update when it gets here).",0.0,neutral
+HP Victus 16,i hope this long post helps someone diagnose and repair their problem and provides some insight into the theory of the electronics behind it.,0.4215,positive
+HP Victus 16,edit: the replacement board from china uses a sensor with the la8 marking.,0.0,neutral
+HP Victus 16,"it may be a different sensor with markings to look like the original, but it is probably the same toshiba sensor.",0.34,positive
+HP Victus 16,"the most interesting part is that the original board and replacement board had two spots to install the sensor, one on either side of the board.",0.6478,positive
+HP Victus 16,"on the hp original, the sensor is installed on the opposite side of the ir sensor, where my guide shows to reinstall it.",0.3182,positive
+HP Victus 16,"on the china replacement, the sensor is placed on the same side as the ir sensor.",0.0,neutral
+HP Victus 16,this puts the fiberglass circuit board between the sensor and the heatpipe.,0.0,neutral
+HP Victus 16,"fiberglass being a great insulator, this could reduce the occurrence or severity of this issue.",0.6249,positive
+HP Victus 16,"i have not tested it to see if it makes a difference, but the results wouldn't be immediate anyway.",0.0,neutral
+HP Victus 16,my initial concern with that while i was doing my repair was that the sensor would be too far away to accurately pick up the lid magnet.,0.0,neutral
+HP Victus 16,maybe not.,0.0,neutral
+HP Victus 16,"ok. i followed your guide, replaced the sensor, but it still isn't working right!",0.2244,positive
+HP Victus 16,yeah.,0.296,positive
+HP Victus 16,i found this on mine too.,0.0,neutral
+HP Victus 16,"after i put it back together the first time, the lid no longer detected.",-0.296,negative
+HP Victus 16,"the original sensor, most likely driven way outside of its operating range, damaged the motherboard's power supply circuit for the hall effect sensor.",-0.1531,negative
+HP Victus 16,but fear not!,-0.68,negative
+HP Victus 16,"(see ""the real cause"" below) we have another source near by.",0.0,neutral
+HP Victus 16,"the ir sensor uses the same voltage as the hall effect sensor, so the ir sensor's vcc trace can be jumped over to the hall effect sensor's vcc.",0.0,neutral
+HP Victus 16,i also cut the trace on the ir board for the power coming from the motherboard that feeds the hall effect sensor.,-0.2732,negative
+HP Victus 16,"the incoming power to the hall effect sensor was measuring around 1.8vdc instead of 3.3vdc (edit: i originally stated it was 5vdc, which is incorrect).",0.0,neutral
+HP Victus 16,i didn't want the supply for the ir sensor to get damaged by joining whatever was causing the severe voltage drop in the hall effect sensor circuit.,-0.7797,negative
+HP Victus 16,be careful when cutting traces and exposing copper.,-0.25,negative
+HP Victus 16,you can easily short out neighboring traces.,0.34,positive
+HP Victus 16,always check your work through a magnifier of some kind (even your phone camera).,0.5267,positive
+HP Victus 16,note: the low voltage on the power supply circuit is most likely a damaged partially open resistor on the motherboard.,-0.6461,negative
+HP Victus 16,"if i am able to determine that, and the resistor isn't smaller than dust, this section may change from cutting and jumping traces to replacing the bad component on the motherboard.",-0.6124,negative
+HP Victus 16,the real cause?,0.0,neutral
+HP Victus 16,(2 20 26 edit): it has been determined that the source of the missing power is fuse fu6.,0.0516,positive
+HP Victus 16,it is located right above the ir board ribbon connector on the motherboard.,0.0,neutral
+HP Victus 16,"rather than cutting and jumping traces (my apologies to everyone who did that fun little task), fu6 can be replaced or bypassed.",0.4215,positive
+HP Victus 16,"the actual part has no distinct markings on it, so an exact replacement has not been determined yet.",-0.5,negative
+HP Victus 16,credit goes to mitchw on badcaps.net ( for his excellent find.,0.743,positive
+HP Victus 16,you can read more about it in this post: i have not performed the task myself yet.,0.0,neutral
+HP Victus 16,mitchw has stated that the problem is most likely caused by heat damage to the fu6 fuse and not the hall effect sensor at all.,-0.7096,negative
+HP Victus 16,it is a plausible scenario.,0.0,neutral
+HP Victus 16,"but, after knowing what i know about the toshiba part, i would not feel comfortable leaving it in place, even if it isn't the root cause.",-0.5504,negative
+HP Victus 16,electronic components pushed to their absolute maximum rating never sits well with me.,-0.2057,negative
+HP Victus 16,even more so when the manufacturer has a specific warning to not even approach the maximums.,-0.34,negative
+HP Victus 16,the choice is yours ultimately.,0.0,neutral
+HP Victus 16,"info ir board part number: n42551-001 or ls-m78ip (search on ebay, but know that the replacements use the same original toshiba sensor part that should be replaced before using.",0.4767,positive
+HP Victus 16,"also note that if your motherboard took damage, just replacing this board alone will not fix the issue).",-0.6369,negative
+HP Victus 16,original hall effect sensor part number: toshiba tcs40dlr (package marking on part is la8) better hall effect sensor part number: allegro a1126llhlt-t (5.5mt and 150c) or diodes inc ah3563q-sa-7 (3mt and 150c) or ti tmag5131c7dqdbzrq1 (4mt and .5mt 125c) link to service manual:,0.7003,positive
+HP Victus 16,don't buy hp victus no matter what.,-0.2732,negative
+HP Victus 16,"boycott hp i bought my hp victus (rtx4050, ryzen 5 8645hs) a little over a year ago, and right after the warranty expired, the laptop started having serious issues.",-0.3818,negative
+HP Victus 16,"random blinking lights and bios errors laptop won't boot properly tried windows reinstall, bios reset, reseating ram nothing helps laptop was lightly used and worked perfectly until this started happening.",0.1571,positive
+HP Victus 16,"it feels like a serious hardware bios defect that appeared right after the warranty period, which is extremely frustrating.",-0.5256,negative
+HP Victus 16,"i trusted hp for reliability, and this makes me question their quality.",0.4767,positive
+HP Victus 16,"it's been 3 months since i initially added a post similar to this, since then i've been going to different repair shops with some hope, but nobody was able to fix it.",0.2382,positive
+HP Victus 16,"no response from hp either, no cooperation and no support whatsoever.",-0.4404,negative
+HP Victus 16,"this was my first ever gaming laptop, something i always wanted for years and finally i got it and this is what i get.",0.0,neutral
+HP Victus 16,i trusted hp to be the brand for my first ever gaming laptop but here i'm very upset about this.,-0.4194,negative
+HP Victus 16,considering i'm a student who doesn't have the facility of earning just adds up.,0.0,neutral
+HP Victus 16,i used it for graphics designing and light gaming.,0.0,neutral
+HP Victus 16,i also have a spectre i7 13700h and that is having battery problems after just 1.5 years of use.,-0.4019,negative
+HP Victus 16,sometimes it works fine but not how long it should and sometimes it just lasts 10mins.,0.1027,positive
+HP Victus 16,please boycott hps low quality products save your money save your time.,0.6486,positive
+HP Victus 16,has anyone else faced similar issues?,0.0,neutral
+HP Victus 16,is there any way hp can step up here?,0.0,neutral
+HP Victus 16,when i first got this laptop i was suprissed how much ram windows 11 uses while being idle (nearly 5gb ) which is completely stupid.,-0.5709,negative
+HP Victus 16,so i decided to run linux on it and let me tell you its 10 times better than windows.,0.4404,positive
+HP Victus 16,"first i noticed the screen flickering whenever it was under load or playing games so i tried to research a bit through event log and found - power manager input supression, kernel power transition and modern standby due to lid which wasn't even moved a bit.",0.2023,positive
+HP Victus 16,"so once i started looking online i came across multiple posts and all had almost same answers like update windows, drivers , bios, power settings , fast startup, hardware test etc on forums which i did but it didn't solve it.",-0.0695,negative
+HP Victus 16,"(i didn't try fast startup or complete reset as others who did said it didn't work) so i looked here and i found about the hall sensor so i simply tried to change the behaviour of lid in windows - what lid closing does to - do nothing and for a day it worked somewhat - it occured once or twice when i tried doing hardware tests but nothing came up in log as i changed the lid behaviour so i was certain it was the hall sensor, the power button functioned but whenever in windows it won't put laptop to sleep - just turn on - another hall sensor issue making it think lid is closed so no working of power button.",-0.1857,negative
+HP Victus 16,"at least power button was working till last night but today - even that stopped, i tried reading some threads here - some suggested try tilting it to see if it works but it doesn't.",-0.3291,negative
+HP Victus 16,what i want to know is - is it 100 hall sensor issue as i don't think it's motherboard as i have run multiple bios hardware tests - cpu gpu memory and all seems to be fine.,0.2732,positive
+HP Victus 16,"it's out of warranty as it's almost 2 years old now - i don't want to spend much money on it, just get it back to working, i'm fine with cpu limited to 45 watts and some thermal performance degrade.",-0.4976,negative
+HP Victus 16,others who faced similar issue did service center completely replace the motherboard and what did they charge or just the sensor - i don't want to do it myself.,-0.0572,negative
+HP Victus 16,"update while writing this post it just flickered twice but it managed to boot into windows as i heard the login screen sound but no screen or power button light, i tried connecting external mouse keyboard they powered on just for a bit - even tried to connect it to tv to see any output but it's probably in sleep.",-0.4215,negative
+HP Victus 16,it probably is in this state cause of lid settings as it does nothing otherwise it would be stuck in sleep completely but maybe that's limited to windows - screen and other input device power is still within control of hall sensor i think.,-0.431,negative
+HP Victus 16,tldr: screen was flickering so i changed settings of lid to do nothing - it worked for a day but next day power button doesn't work (laptop charges).,0.0,neutral
+HP Victus 16,nothing else worked and now it's stuck in sleep maybe.,-0.25,negative
+HP Victus 16,what should i do ?,0.0,neutral
+HP Victus 16,"how to approach the service center, let them diagnos it or just tell them it's hall sensor and try to disconnect to see if it works or try third party to just remove it.",0.4019,positive
+HP Victus 16,i want it quickly done as i'm middle of exams so its urgent.,0.3353,positive
+HP Victus 16,any suggestions?,0.0,neutral
+HP Victus 16,"hello everyone, need some help here with this recurring issue with my hp victus which i got back in 2023, the screen randomly starts flickering as shown and i have to move the lid to a right angle where it will display properly but sometimes it doesn't flicker and will display normally.",0.2144,positive
+HP Victus 16,"it's pretty random and once you find the right angle, and leave it on for a while, it stops flickering when you move it.",0.34,positive
+HP Victus 16,you can see that it either dims the screen or completely blacks out as seen in the video.,0.0,neutral
+HP Victus 16,guys i brought this hp victus 4gb rtx 3050 16 512 i5 13th gen suggest me some tips or settings that needed to be done on this laptop,0.0,neutral
+HP Victus 16,"on occasion on diwali , i purchased new hp victus 16 512 with rtx 3050a after using my old hp laptop for 7 years.",0.0,neutral
+HP Victus 16,"i got it for 60k and with my own money , my dad went with me to the store and after spending 2 hours , we finalized it.",0.0,neutral
+HP Victus 16,i am feeling proud on myself that i am slowly getting able to fulfill my needs and don't have to burden my family now for me.,0.8362,positive
+HP Victus 16,"work is your only responsibility and money is the price for it , that's it",0.0,neutral
+HP Victus 16,i found this laptop on amazon and i am in urgent need of one!,0.4199,positive
+HP Victus 16,specs:- 16 512gb ryzen 5 8645hs (no idea about core threads) 6gb rtx 3050 what is this ai tops?,0.5106,positive
+HP Victus 16,and ai gaming?,0.0,neutral
+HP Victus 16,should i go for it?,0.0,neutral
+HP Victus 16,i recently replaced my screen on the hp victous 2024 ryzen 8845 with geforce 4070 and just wanted to share some information.,0.296,positive
+HP Victus 16,"i swapped it with a 1440p display used in hp omen, model ne161qhm-nz1 sourced from ebay.",0.0,neutral
+HP Victus 16,"(the hinge on the 2024 model is beefier than past, i don't have issues opening or closing ) it's a night and day difference going from stock to upgraded with the resolution boost and color quality immediately stands out.",0.4019,positive
+HP Victus 16,the process is straight forward though you will need a spudger and to buy new tape for holding the screen and the bezel.,0.2263,positive
+HP Victus 16,"outside of the bezel snapping in, it's all double sided tape holding this thing in.",0.0,neutral
+HP Victus 16,opening the bezel is easy using a spudger.,0.4404,positive
+HP Victus 16,apply some force in a downward motion pulling out in the crease.,0.0,neutral
+HP Victus 16,using a card or tool too separate the glue from the screen helps.,0.3818,positive
+HP Victus 16,mildly warming up the bezel with a blow dryer or heat gun lightly will make pulling it easier.,0.25,positive
+HP Victus 16,there's two tabs underneath the screen at the bottom that pulling down will release the screen.,0.0,neutral
+HP Victus 16,definitely a worthy upgrade that cost me less than 100. i'm hoping the new 2025 16.1 models with oled coming uses the same pin arraignment as i will swap again to that if possible.,0.8126,positive
+HP Victus 16,i researched compatible screens from panelook.com.,0.0,neutral
+HP Victus 16,"hey everyone, i'm trying to figure out what's wrong with my laptop display and would really appreciate any help.",0.4323,positive
+HP Victus 16,"laptop: hp victus 16 background: earlier, my laptop display would only work at a particular angle and then eventually went completely black.",0.0,neutral
+HP Victus 16,i got the screen replaced after that.,0.0,neutral
+HP Victus 16,current issue: now the screen shows multiple vertical glitchy lines across the entire display (see attached image).,0.0,neutral
+HP Victus 16,the issue comes and goes throughout the day and usually lasts for 2 3 seconds at a time.,0.0,neutral
+HP Victus 16,"not sure if this is a gpu problem, display panel failure, or cable issue .",-0.7883,negative
+HP Victus 16,"things i've tried: replaced the display screen disabled amd radeon graphics when disabled, the display works perfectly with no flickering re-enabled amd graphics the issue starts again completely removed amd drivers and reinstalled them.",0.4588,positive
+HP Victus 16,is there anyone here who experiences the same issue as me?,0.0,neutral
+HP Victus 16,"my hp victus 16 experiences frequent freezes only with browsers, of any kind.",0.5106,positive
+HP Victus 16,it just freezes and turns transparent while not responding.,-0.0258,neutral
+HP Victus 16,"before, it was more frequent like as in 3 mins after boot and when i open browser, it does that already.",0.4173,positive
+HP Victus 16,"after turning off network booster, it lessened, also i tried reinstalling drivers, it didnt help.",-0.3089,negative
+HP Victus 16,what should i do?,0.0,neutral
+HP Victus 16,"this has been happening in my laptop since i downloaded half sword, i have now deletee it but this flickering or i don't know how to describe this is happening.",0.0,neutral
+HP Victus 16,please tell how to fix this issue and if i would have to take this to a computer specialist.,0.3182,positive
+HP Victus 16,"so, basically, about two years ago i bought an hp victus laptop.",0.0,neutral
+HP Victus 16,"it was always very good in every way and i had no problems whatsoever; i could play all kinds of games without issues, and it was even better for university.",0.5563,positive
+HP Victus 16,"then, about a month ago, i started having some problems with the screen and keyboard.",-0.4019,negative
+HP Victus 16,"suddenly, the laptop screen starts flickering until eventually i lose all screen and keyboard functionality.",-0.4019,negative
+HP Victus 16,"the strangest thing is that if i connect an external monitor and keyboard, everything works perfectly.",0.6369,positive
+HP Victus 16,"i think it's a bios problem because when i remove the battery and put it back in, resetting the bios, the laptop works normally.",-0.4019,negative
+HP Victus 16,the laptop still has a one-year warranty.,0.0,neutral
+HP Victus 16,"if it's the bios, i'll probably send it in since it's expensive to replace.",0.0,neutral
+HP Victus 16,"if it's a simple problem, i'll try to fix it myself.",-0.4019,negative
+HP Victus 16,"i need opinions, please.",0.3182,positive
+HP Victus 16,"i don't have any videos of the problem myself, but here's a youtube video of the exact same issue:",-0.2144,negative
+HP Victus 16,i'm planning to buy the hp victus 16-s0089ax and wanted feedback from people who own it or know about this model.,0.0,neutral
+HP Victus 16,"specs: series: victus model: victus 16-s0089ax utility: gaming general use os: windows 11 home (64-bit) weight: 2.48 kg dimensions: 370 262 24 mm warranty: 1 year display: 16.1"" ips (non-touch) 1920 1080 (137 ppi) 144hz 250 nits brightness 45 ntsc color gamut anti-glare, low blue light connectivity: wifi 6 bluetooth 5.3 1 usb-c 3 usb 3.0 hdmi 2.1 sd card reader ethernet (1 gbps) headphone mic jack input audio: backlit full-size keyboard with numpad precision touchpad 720p camera dual speakers hp audio boost processor: amd ryzen 7 7840hs 8 cores 16 threads base 3.8 ghz, boost up to 5.1 ghz 16mb cache tsmc 4nm node graphics: nvidia rtx 3050 (6gb gddr6) memory storage: 16gb ddr5 5600mhz up to 32gb supported 1tb nvme ssd battery: 70wh, 4-cell use case (what i want it for): gaming (1080p) blender light 3d work video editing programming and daily use questions for owners experts: 1. how are the thermals and fan noise on this model?",0.8689,positive
+HP Victus 16,2. is the rtx 3050 (6gb) still good enough for 2025 gaming?,0.4404,positive
+HP Victus 16,"3. does the 250-nit, 45 ntsc display feel too dull for content work?",-0.4019,negative
+HP Victus 16,4. how is the battery life in real usage?,0.0,neutral
+HP Victus 16,5. any heating issues or throttling?,0.0,neutral
+HP Victus 16,6. are there better alternatives in this price range in india ?,0.4404,positive
+HP Victus 16,would appreciate any real-world opinions.,0.4019,positive
+HP Victus 16,thanks!,0.4926,positive
+HP Victus 16,hello everyone.,0.0,neutral
+HP Victus 16,i am going to university in a couple months and need a gaming laptop to play as well as work on.,0.5423,positive
+HP Victus 16,"this will be a secondhand victus 16. within my budget ( 1000 aud), i have found this to be a good contender but have heard some bad things about it.",-0.5499,negative
+HP Victus 16,"please let me know if this the right choice to go, or if there are better options.",0.6369,positive
+HP Victus 16,"specs: graphics: rtx 3050ti ram: 16gb storage:512gb gpu: intel i7 games: gta 5, fortnite, need for speed, beamng drive, assetto corsa, roblox full graphics",0.0,neutral
+HP Victus 16,my local electronics store has the victus 16 on sale for 900 and i came to ask if it's a good choice.,0.4404,positive
+HP Victus 16,previous laptop was a asus rog with a 1050 ti and a 7th gen i7,0.0,neutral
+HP Victus 16,"hallo, im just one step away from buying and need your advice!",0.0,neutral
+HP Victus 16,what should i buy asus tuf a17 fa707nu or hp victus 16-s1150ng?,0.0,neutral
+HP Victus 16,"which is better lenovo loq 15arp9 gaming laptop, ryzen 7-7435hs, 24gb, 512gb ssd, nvidia geforce rtx 4050 6gb, 15.6"" or hp victus 16-r0000ns, i7-13700h, 16gb, 512gb ssd, nvidia geforce rtx 4050 6gb, 16,1"" the both 750euro",0.4404,positive
+HP Victus 16,i'm an upcoming college student and i need a laptop that can run heavy software like autocad pretty well (that's why i'm looking at gaming laptops) my budget is around 500 and i found this absolute gold deals online from a trusted seller any recommendations guys?,0.872,positive
+HP Victus 16,contemplating the purchase of either one of these: or what do you guys suggest?,0.0,neutral
+HP Victus 16,"which is better lenovo loq 15arp9 gaming laptop, ryzen 7-7435hs, 24gb, 512gb ssd, nvidia geforce rtx 4050 6gb, 15.6"" or hp victus 16-r0000ns, i7, 16gb, 512gb ssd, nvidia geforce rtx 4050 6gb, 16,1"" the both 750euro total budget (in local currency) and country of purchase.",0.4404,positive
+HP Victus 16,"please do not use usd unless purchasing in the us: -fill here, remove dashes- are you open to refurbs used?",0.3182,positive
+HP Victus 16,"no how would you prioritize form factor (ultrabook, 2-in-1, etc.",-0.296,negative
+HP Victus 16,"), build quality, performance, and battery life?",0.0,neutral
+HP Victus 16,eveything how important is weight and thinness to you?,0.2023,positive
+HP Victus 16,slightly do you have a preferred screen size?,0.0,neutral
+HP Victus 16,"if indifferent, put n a. n a are you doing any cad video editing photo editing gaming?",-0.2023,negative
+HP Victus 16,list which programs games you desire to run.,0.4019,positive
+HP Victus 16,"games idk which tho if you're gaming, do you have certain games you want to play?",0.5267,positive
+HP Victus 16,at what settings and fps do you want?,0.0772,positive
+HP Victus 16,"elden ring medium 60fps any specific requirements such as good keyboard, reliable build quality, touch-screen, finger-print reader, optical drive or good input devices (keyboard touchpad)?",0.7003,positive
+HP Victus 16,"reliable build quality, leave any finishing thoughts here that you may feel are necessary and beneficial to the discussion.",0.4019,positive
+HP Victus 16,"lenovo loq 15arp9 gaming laptop, ryzen 7-7435hs, 24gb, 512gb ssd, nvidia geforce rtx 4050 6gb, 15.6"" or hp victus 16-r0000ns, i7, 16gb, 512gb ssd, nvidia geforce rtx 4050 6gb, 16,1"" both 750euro",0.0,neutral
+HP Victus 16,"hi everyone, i'm looking for advice on choosing between specific laptops.",0.0,neutral
+HP Victus 16,"i'm buying with a voucher, so i can't change any components i can only choose between these configurations: 1. asus tuf gaming a15 fa507nv-tt903w amd ryzen 7-7735hs nvidia rtx 4060 15.6"", 144hz 16gb ram (ddr5, 4800 mhz) 1tb ssd 90wh battery windows 11 home 2. hp omen 16-wd0004nw intel core i7-13620h nvidia rtx 4060 16.1"", fhd, 144hz 16gb ram (ddr5, 5200 mhz) 512gb ssd 70wh battery windows 11 home 3. hp victus 16-s1722nw amd ryzen 7-8845hs nvidia rtx 4070 16.1"", 165hz 16gb ram (ddr5, 5600 mhz) 512gb ssd 70wh battery windows 11 home hp omen is the cheapest, asus about 5 more expensive, and hp victus 8 , so price isn't a major factor.",0.0,neutral
+HP Victus 16,here's where i'm torn: i'm worried about the hp omen's or victus 70wh battery i plan to use the laptop mostly plugged in.,-0.4939,negative
+HP Victus 16,could this cause overheating or thermal issues long-term?,0.0,neutral
+HP Victus 16,"on the other hand, i really like the 16 screen on the hp's , and i'd miss the larger display if i went with the asus.",0.659,positive
+HP Victus 16,"in addition, asus has a 1tb drive compared to hp's 512gb , this is very important to me i care about overall usability , not just gaming.",0.6478,positive
+HP Victus 16,"i'll use the laptop at home most of the time, for both work and gaming.",0.0,neutral
+HP Victus 16,"i'm looking for a good balance of performance, thermals, build quality, and battery longevity.",0.4404,positive
+HP Victus 16,which one would you pick and why?,0.0,neutral
+HP Victus 16,thanks in advance for your help!,0.7088,positive
+HP Victus 16,"hi guys, i'd like to know which one you think is best.",0.7717,positive
+HP Victus 16,"it would be for general use, office work, games, and multimedia (movies series), personally, i'm more attracted to the lenovo's oled screen, but it's 250 more, what do you say.",0.2609,positive
+HP Victus 16,"lenovo legion slim 5 14aph8 amd ryzen 7 7840hs 32gb 1tb ssd rtx4060 14.5"" (1249 ) hp victus 16-s0011ns amd ryzen 7 7840hs 32gb 1tb ssd rtx 4060 16.1"" (999 )",0.0,neutral
+HP Victus 16,hey guys.,0.0,neutral
+HP Victus 16,i'm in a bit of a complicated situation.,0.0,neutral
+HP Victus 16,i'm in a support process with an hp that has been going on for 7 months.,0.4019,positive
+HP Victus 16,i am unsure whether i should proceed with requesting a new hp victus 16 16-s0009np unit or whether i should give up and request a refund of 1550 euros.,-0.25,negative
+HP Victus 16,"to try my luck with asus with the new tuf a14 (fa401), since some friends recommended it to me.",0.7845,positive
+HP Victus 16,after these long 7 months i am very frustrated with hp.,-0.5709,negative
+HP Victus 16,"i know that the 2 laptops have very different proposals, but there are some features of the tuf that caught my attention, such as the 32 gb ram and the second free m.2 slot, in addition to finding a unit for 1499 euros.",0.6652,positive
+HP Victus 16,"asus tuf gaming a14 (fa401) cpu: amd ryze ai 9 hx 370 gpu: rtx 4060 ram: 32 gb ecr : 14"" 165hz 2560 x 1600 16 10 ips 100 srgb victus gaming laptop 16-s0009np cpu: amd ryze 7 7840hs gpu: rtx 4070 ram: 16 gb ecr : 16.1"" 165hz fhd ips 100 srgb what do you guys think?",0.0,neutral
+HP Victus 16,do you think there is anything better?,0.4404,positive
+HP Victus 16,"the only features i want it to have would be rtx 4060 or better, 100 srgb and a more discreet design.",0.4939,positive
+HP Victus 16,"hello, i am searching for a new laptop (can also be used).",0.0,neutral
+HP Victus 16,total budget (in local currency) and country of purchase.,0.0,neutral
+HP Victus 16,600-850 are you open to refurbs used?,0.0,neutral
+HP Victus 16,"yes how would you prioritize form factor (ultrabook, 2-in-1, etc.",0.4019,positive
+HP Victus 16,"), build quality, performance, and battery life?",0.0,neutral
+HP Victus 16,"performance- build quality- battery life, just normal laptop how important is weight and thinness to you?",0.2023,positive
+HP Victus 16,"medium, will be used on couch or at docking station on desk do you have a preferred screen size?",0.0,neutral
+HP Victus 16,"if indifferent, put n a. between 15-16"" are you doing any cad video editing photo editing gaming?",-0.2023,negative
+HP Victus 16,list which programs games you desire to run.,0.4019,positive
+HP Victus 16,"non specific, i want to run some games, no hardcore gaming, no ultra settings.",-0.4767,negative
+HP Victus 16,"if you're gaming, do you have certain games you want to play?",0.5859,positive
+HP Victus 16,at what settings and fps do you want?,0.0772,positive
+HP Victus 16,"should run most games of the past years at 60 fps, not latest titles any specific requirements such as good keyboard, reliable build quality, touch-screen, finger-print reader, optical drive or good input devices (keyboard touchpad)?",0.7003,positive
+HP Victus 16,"ethernet connection, could run at a usb-c docking station incl.",0.0,neutral
+HP Victus 16,powering.,0.0,neutral
+HP Victus 16,"wifi 6 or above, bluetooth 5.x i already did some research: after some research i decided to have a laptop with an rtx 4050 as it seams to have good price power ratio.",0.4404,positive
+HP Victus 16,"i want to operate the laptop also on an usb-c docking station, that's why i dismissed a lot of beginner gaming laptops already (not pd or dp on usb-c) i came to two offers: 1. victus gaming laptop 16-r1753ngvictus gaming laptop 16-r1753ng.",0.0772,positive
+HP Victus 16,"i can get it for 850 new with 3 years warranty specification ( 2. acer aspire nitro 5 an515-58-79lv for 745 2years limited warranty and as demonstration model datasheet ( what i currently see: 1. newer laptop (newer intel processor), 100 srgb of the screen, less weight 2. thunderbolt 4, was more expensive in the beginning(benefit?)",-0.128,negative
+HP Victus 16,what i cannot decide?,0.0,neutral
+HP Victus 16,is thunderbolt 4 worth it compared to the usb-c with power delivery and display port?,0.2263,positive
+HP Victus 16,is it beneficial that the hp is the newer model?,0.4404,positive
+HP Victus 16,which laptop has the better screen?,0.4404,positive
+HP Victus 16,"(the 2023 models of the hp seem to have bad screens, but there was an update) thanks for your help.",0.7311,positive
+HP Victus 16,"hello, i am searching for a new laptop (can also be used).",0.0,neutral
+HP Victus 16,total budget (in local currency) and country of purchase.,0.0,neutral
+HP Victus 16,600-850 are you open to refurbs used?,0.0,neutral
+HP Victus 16,"yes how would you prioritize form factor (ultrabook, 2-in-1, etc.",0.4019,positive
+HP Victus 16,"), build quality, performance, and battery life?",0.0,neutral
+HP Victus 16,"performance- build quality- battery life, just normal laptop how important is weight and thinness to you?",0.2023,positive
+HP Victus 16,"medium, will be used on couch or at docking station on desk do you have a preferred screen size?",0.0,neutral
+HP Victus 16,"if indifferent, put n a. between 15-16"" are you doing any cad video editing photo editing gaming?",-0.2023,negative
+HP Victus 16,list which programs games you desire to run.,0.4019,positive
+HP Victus 16,"non specific, i want to run some games, no hardcore gaming, no ultra settings.",-0.4767,negative
+HP Victus 16,"if you're gaming, do you have certain games you want to play?",0.5859,positive
+HP Victus 16,at what settings and fps do you want?,0.0772,positive
+HP Victus 16,"should run most games of the past years at 60 fps, not latest titles any specific requirements such as good keyboard, reliable build quality, touch-screen, finger-print reader, optical drive or good input devices (keyboard touchpad)?",0.7003,positive
+HP Victus 16,"ethernet connection, could run at a usb-c docking station incl.",0.0,neutral
+HP Victus 16,powering.,0.0,neutral
+HP Victus 16,"wifi 6 or above, bluetooth 5.x i already did some research: after some research i decided to have a laptop with an rtx 4050 as it seams to have good price power ratio.",0.4404,positive
+HP Victus 16,"i want to operate the laptop also on an usb-c docking station, that's why i dismissed a lot of beginner gaming laptops already (not pd or dp on usb-c) i cam to two offers: 1. victus gaming laptop 16-r1753ngvictus gaming laptop 16-r1753ng.",0.0772,positive
+HP Victus 16,"i can get it for 850 new with 3 years warranty link ( and specification ( 2. acer aspire nitro 5 an515-58-79lv for 745 2years limited warranty and as demonstration model link ( and datasheet ( what i currently see: 1. newer laptop (newer intel processor), 100 srgb of the screen, less weight 2. thunderbolt 4, was more expensive in the beginning(benefit?)",-0.128,negative
+HP Victus 16,what i cannot decide?,0.0,neutral
+HP Victus 16,is thunderbolt 4 worth it compared to the usb-c with power delivery and display port?,0.2263,positive
+HP Victus 16,is it beneficial that the hp is the newer model?,0.4404,positive
+HP Victus 16,which laptop has the better screen?,0.4404,positive
+HP Victus 16,"(the 2023 models of the hp seem to have bad screens, but there was an update) thanks for your help.",0.7311,positive
+HP Victus 16,"my lenovo l340 17irh died im looking for a new one, both for a similar price available.",-0.5574,negative
+HP Victus 16,"the msi one for 1000 , hp victus for 1200 .",0.0,neutral
+HP Victus 16,which one would you choose?,0.0,neutral
+HP Victus 16,i think its safe to say that either one of them are an upgrade coming from lenovo l340.,0.4404,positive
+HP Victus 16,"ive already ordered the msi one since it was almost sold but i need your help to either keep it or choose the victus one ive linked both laptops down here hp victus: msi: (the website ive ordered it was for 1000 , but its not available anymore so i used another link) only thing i have to say that my previous laptop was a 17"", so im not sure if going down on 16"" might bother me i would use the laptop for schooling and after effects usage.",-0.3375,negative
+HP Victus 16,"not mainly gaming, but i wouldnt mind gaming on it time to time but its not a must.",0.0,neutral
+HP Victus 16,i hope you can help me making a decision is hard,0.6369,positive
+HP Victus 16,"hi all, i am looking to buy my sister a gaming laptop around the 1k price point.",0.0,neutral
+HP Victus 16,"from the research i have done, the acer predator helios neo 16 is one of the best choices, however i found this hp victus laptop with a 4070 that's on sale so it's in the same price range.",0.6369,positive
+HP Victus 16,are there any huge downsides of going with the victus over the neo?,0.3182,positive
+HP Victus 16,i don't see why i shouldn't get the victus but i just really want to make sure there isn't something bad about it.,0.8232,positive
+HP Victus 16,neo 16 (4060): victus 16 (4070):,0.0,neutral
+HP Victus 16,"dell: i7 12700h , rtx 3060, 16 gb 4800mhz hp: i5 12500h, rtx 3060, 16 gb 4800mhz both 1tb ssd i would use it for 3d and video editing more than gaming and for the look tbh i like the hp more",0.3612,positive
+HP Victus 16,"hello everyone, i'm laptop shopping and i've narrowed my list down to these two laptops but i'm dealing with full analysis paralysis.",0.0,neutral
+HP Victus 16,does anyone have any recommendations or anything to look out for with either of these?,0.0,neutral
+HP Victus 16,"i'll list out specs and provide link below: option 1: hp victus 16 price - 1286 gpu - rtx 4070 cpu - ryzen 7 8845hs ram - 64 gb ssd - 2 tb link - option 2: asus tuf 15 price - 1252 gpu - rtx 4070 cpu - i7-13620h ram - 32 gb ssd - 2 tb link - which should i go with, all things considered?",0.0,neutral
+HP Victus 16,"the price is basically a wash, they have the same gpu.",0.0,neutral
+HP Victus 16,"the hp has a faster processor and more ram but i'm not sure how the build quality compares between the two, if i should be concerned with this gen of intel processors, reputation of asus vs. hp, or anything else i may not be considering.",-0.3491,negative
+HP Victus 16,i'm also not sure how well the ports compare or the screens and audio other than a handful of reviews that were scant on detail.,-0.4168,negative
+HP Victus 16,thanks in advance for any input.,0.4404,positive
+HP Victus 16,hey guys i need a laptop and this seems to be the best i found (i live in hungary): model: hp victus 16-r0000nh processor: intel core i5 13500h ram: 32 gb ddr5-5200 mhz ram (2 x 16 gb) gpu: nvidia geforce rtx 4050 ssd: 1 tb pcie gen4 nvme m.2 ssd my main use is some light gaming and some light coding the price is 369 900 huf 940 usd 900 eur my question is wether i should search for a better deal or i won't be able to find a lot better,0.875,positive
+HP Victus 16,i'm in dire need of a gaming laptop and boiled it down to two computers.,-0.4588,negative
+HP Victus 16,victus and cyborg.,0.0,neutral
+HP Victus 16,"cyborg has 5060 with 45w, which is nothing compared to 120w 4070 of victus.",0.0,neutral
+HP Victus 16,"yet, the newer gpu would get more updates, meaning it would last longer.",0.0,neutral
+HP Victus 16,"so, what should i do?",0.0,neutral
+HP Victus 16,"so about victus 16 battery, people complain it sucks.",-0.6124,negative
+HP Victus 16,as we all know victus battery is 70wh so that can't be true if its drain too fast.,-0.3252,negative
+HP Victus 16,for me it drained 2 every minute.,-0.3612,negative
+HP Victus 16,i found a solution for this.,0.3182,positive
+HP Victus 16,it is called calibrating your battery.,0.0,neutral
+HP Victus 16,i did some research and battery calibrating is actually shows the accurate reading for your battery on windows.,0.0,neutral
+HP Victus 16,without further ado lets head into it.,0.0,neutral
+HP Victus 16,"for results, my battery drains 10 every 1 hour on battery saver.",0.0,neutral
+HP Victus 16,isn't that amazing?,-0.4717,negative
+HP Victus 16,thats what a 70wh battery should do.,0.0,neutral
+HP Victus 16,this method take a plenty of time so i hope you have the patience for this.,0.5777,positive
+HP Victus 16,sauce : tutorial from hp support (video) ( 1. charge your laptop until it full or white led shows on the charger indicator.,0.4019,positive
+HP Victus 16,"2. unplug the charger and shut down your laptop 3. turn back on your laptop and immediately press f2 repeatedly to launch diagnostics uefi 4. press english, component tests, memory, extensive test, loop until error 5. let it run until the battery is discharged (i know you think this will reduce the battery health but doing it once will not) 6. after your laptop shut down completely (it will automatically after the test ends) plug in your charger (do not turn on your laptop) and wait until it full or white led shows on the indicator.",-0.2144,negative
+HP Victus 16,7. turn on your laptop normally and you are good.,0.4404,positive
+HP Victus 16,tips : wait for an hour or so to cool down the battery after running the test.,0.3774,positive
+HP Victus 16,this can avoid risking overheat your battery which can damage it.,-0.7717,negative
+HP Victus 16,i hope this helps.,0.6705,positive
+HP Victus 16,good luck trying.,0.7096,positive
+HP Victus 16,if this doesn't work simply try make a report to hp customer service to replace the battery.,0.0,neutral
+HP Victus 16,i can't guarantee it will work but if it works for me then it works for you xd,0.7032,positive
+HP Victus 16,"hi everyone, i'm trying to decide between two gaming laptops and i'd like to hear your opinions, especially from people who have used either hp victus or lenovo loq.",0.3612,positive
+HP Victus 16,"i mostly play strategy management games like crusader kings, rimworld, and cities: skylines, but i'd also like the option to play heavier games such as cyberpunk, rdr2, and maybe gta 6 in the future.",0.8316,positive
+HP Victus 16,"here are the two options i'm considering: hp victus 16 ryzen 7 8845hs rtx 4070 32 gb ram 1 tb ssd 16.1"" fhd 144hz display 83 wh battery lenovo loq 15 intel i7-13700hx rtx 5060 (100w) 16 gb ram (single stick, upgradeable to 32) 1 tb ssd 15.6"" fhd 144hz display ( 100 srgb) from what i understand: the victus has a stronger gpu (rtx 4070) and already comes with 32gb ram.",0.3818,positive
+HP Victus 16,the loq has a stronger cpu (13700hx) and lenovo laptops seem to have better build quality and thermals.,0.6705,positive
+HP Victus 16,"my main concerns: long-term reliability (i plan to use it for 4 5 years) thermals and cooling real-world gaming performance difference between rtx 4070 vs rtx 5060 laptop gpus overall build quality (victus vs loq) if you had to choose between these two, which one would you pick and why?",0.0,neutral
+HP Victus 16,thanks.,0.4404,positive
+HP Victus 16,hey everyone!,0.0,neutral
+HP Victus 16,"i'm a uni student living in athens, greece looking to get a powerbank to squeeze some extra hours out of my laptop during long days on campus.",0.0,neutral
+HP Victus 16,"here are the relevant specs: laptop: hp victus gaming 16-s0009nv (9a141ea) battery capacity: 70 75wh charging port: usb 3.2 gen 1 type-c with usb power delivery (pd) support what i'm looking for: - a powerbank capable of charging or at least slowing down battery drain on the laptop via usb-c pd - decent capacity ideally 20,000mah to make a meaningful difference - reasonably portable, since i'll be carrying it in a backpack daily - something that won't break the bank things i already know: - the laptop charges via usb-c pd, so the powerbank must support usb-c power delivery - higher wattage output (65w ) would be ideal to actually charge under load rather than just slow the drain any brands or specific models you'd recommend?",0.9423,positive
+HP Victus 16,budget is flexible but i'd love to hear options across different price ranges.,0.8047,positive
+HP Victus 16,thanks in advance!,0.4926,positive
+HP Victus 16,"so, i had a broken gpu fan that needed replacing.",-0.2682,negative
+HP Victus 16,i found out too late that you have to remove the heatsink before removing the fan.,0.3182,positive
+HP Victus 16,"long story short, decided to repaste the whole thing.",0.0,neutral
+HP Victus 16,temps before this were 59 c for the gpu and 85 c for the cpu.,0.0,neutral
+HP Victus 16,"strange thing is that when i removed the heatsink, the thermal paste on the gpu was dried, but the cpu's paste was fine.",0.2023,positive
+HP Victus 16,this is after installing the replacement fan.,0.3182,positive
+HP Victus 16,"after repasting, the cpu cooled down significantly, to 70 c, the gpu with the dried thermal paste, however, only dropped to 53 c.",0.0,neutral
+HP Victus 16,"i want to buy a laptop in februari 2026. wich out of the 3 would you recommend for games like league of legends,bf6 and marvel rivals and overwatch 2?",0.7964,positive
+HP Victus 16,"i also like writing ebooks,producing beats music and watching youtube.",0.3612,positive
+HP Victus 16,i will go for a rtx4050 4060 but for the comparison they all have the same videocard.,0.0,neutral
+HP Victus 16,"i saw some differences in brightness and contrast ratio for the screen, and multitasking.i love ai,and surfing the web while using the laptop for simulations and chatgpt.",0.7783,positive
+HP Victus 16,"what laptop would you pick, or is there another laptop that fits my need better that will be priced around 750 euros around februari 2026?",0.4404,positive
+HP Victus 16,right now i am leaning towards the acer nitro v16,0.0,neutral
+HP Victus 16,"hi everyone, i'm planning to buy the hp victus 16-s0089ax and wanted feedback from people who own it or know about this model.",0.0,neutral
+HP Victus 16,"specs: series: victus model: victus 16-s0089ax utility: gaming general use os: windows 11 home (64-bit) weight: 2.48 kg dimensions: 370 262 24 mm warranty: 1 year display: 16.1"" ips (non-touch) 1920 1080 (137 ppi) 144hz 250 nits brightness 45 ntsc color gamut anti-glare, low blue light connectivity: wifi 6 bluetooth 5.3 1 usb-c 3 usb 3.0 hdmi 2.1 sd card reader ethernet (1 gbps) headphone mic jack input audio: backlit full-size keyboard with numpad precision touchpad 720p camera dual speakers hp audio boost processor: amd ryzen 7 7840hs 8 cores 16 threads base 3.8 ghz, boost up to 5.1 ghz 16mb cache tsmc 4nm node graphics: nvidia rtx 3050 (6gb gddr6) memory storage: 16gb ddr5 5600mhz up to 32gb supported 1tb nvme ssd battery: 70wh, 4-cell i want it for: gaming (1080p) blender light 3d work video editing programming and daily use questions for owners experts: 1. how are the thermals and fan noise on this model?",0.8689,positive
+HP Victus 16,2. is the rtx 3050 (6gb) still good enough for 2025 gaming?,0.4404,positive
+HP Victus 16,"3. does the 250-nit, 45 ntsc display feel too dull for content work?",-0.4019,negative
+HP Victus 16,4. how is the battery life in real usage?,0.0,neutral
+HP Victus 16,5. any heating issues or throttling?,0.0,neutral
+HP Victus 16,6. are there better alternatives in this price range in india ?,0.4404,positive
+HP Victus 16,would appreciate any real-world opinions.,0.4019,positive
+HP Victus 16,thanks!,0.4926,positive
+HP Victus 16,today i applied new thermal paste to my gpu and cpu.,0.0,neutral
+HP Victus 16,"while the gpu temperatures are normal, the cpu is running between 90 c and 100 c, causing significant lag while gaming.",-0.1531,negative
+HP Victus 16,i am unsure if i applied it correctly; i only applied the paste to the chip surface and not the surrounding area.,-0.25,negative
+HP Victus 16,all my drivers are up to date.,0.0,neutral
+HP Victus 16,"also, the strange thing is, i can't feel any high heat when i touch my laptop.",-0.2023,negative
+HP Victus 16,do you have any suggestions on how to fix this?,0.0,neutral
+HP Victus 16,"ive seen the temps on my victus reach 97 98 c under load or playing games, i have repasted with noctua thermal paste and have seen a bit of a temparature reduction but what else can i do to decrease the temps.",0.1154,positive
+HP Victus 16,i am worried about the long term effects of it getting up to 95c every time i game.,-0.296,negative
+HP Victus 16,any suggestions on what i can do?,0.0,neutral
+HP Victus 16,"i recently bought a hp victus 16-s0003nf 16, i want to add a 2to ssd, is it supported ?",0.3818,positive
+HP Victus 16,"can you tell me which one are compatible, please ?",0.3182,positive
+HP Victus 16,"i found this one : wd blue sn570 2 to high-performance m.2 pcie nvme ssd but i don't know if it's supported, compatible nor of it's a good ssd this pc is mostly for gaming or photoshop",0.2939,positive
+HP Victus 16,i'm thinking of getting a laptop for gaming but know next to nothing about gaming computers.,0.0,neutral
+HP Victus 16,"hi folks, i am between these three monitors: hp x24i (ips - fhd - 24'') hp x27i (ips - fhd - 27'') hp x27iq (ips - qhd - 27'') i'll hook the monitor up to my hp victus 16 (16 gb ram - rtx 3060 - ryzen 7 5800h).",0.0,neutral
+HP Victus 16,i would of course love the 27'' at 109 ppi but i am not sure my laptop can handle that for current games.,0.0405,neutral
+HP Victus 16,"if not, i should probably go with the 24'' at 91 ppi.",0.0,neutral
+HP Victus 16,any advice?,0.0,neutral
+HP Victus 16,i already have a hp victus 16-e0122ax.,0.0,neutral
+HP Victus 16,"my specs are as below: ryzen 5 5600h 16gb ddr4-3200 mhz nvidia geforce rtx 3050 4gb gddr6 i've noticed i game more when my laptop s plugged in, so i'm thinking of building a pc as an upgrade something that can handle most modern games on medium to high settings (1080p).",0.0,neutral
+HP Victus 16,"i was able to get gtx1070 for 80, i wanna start with that cuz later on i still can upgrade little by little.",0.0,neutral
+HP Victus 16,is it consider as an upgrade or should i get something else?,0.0,neutral
+HP Victus 16,p s i already have a steam deck lcd modded nintendo switch oled.,0.0,neutral
+HP Victus 16,i might want to sell my victus.,0.0772,positive
+HP Victus 16,update on what i've bought:- used asus turbo gtx1080 8gb for 80 combo set ryzen 5 5600 msi b550m pro-vdh wifi for 178 corsair vengeance lpx ddr4 32gb (2 16gb) 3200mhz for 26 kingston 1tb m.2 nv3 pcie 4.0 nvme ssd for 46,0.0,neutral
+HP Victus 16,"hi all, so i have the laptop hp victus 16 ro326tx(with nvidia geforce rtx 4060) and for my monitor i have the acer nitro xv273x which is g-sync compatible only on displayport.",0.0,neutral
+HP Victus 16,"my laptop only has an hdmi port, 1 usb-c port, and 3 like normal usb ports.",0.3612,positive
+HP Victus 16,no displayport so i cannot utilise g-sync at all.,-0.296,negative
+HP Victus 16,is there any way around this?,0.0,neutral
+HP Victus 16,are there like hdmi to display port adapters that will work?,0.3612,positive
+HP Victus 16,i tried finding some cables at stores but they were always only display port in and hdmi out.,0.0,neutral
+HP Victus 16,any alternatives at all please?,0.3182,positive
+HP Victus 16,thank you.,0.3612,positive
+HP Victus 16,edit: also any way i can stay at 240 hz with the display port?,0.0,neutral
+HP Victus 16,at stores the max output i could find was 165 hz cables.,0.0,neutral
+HP Victus 16,hi everyone.,0.0,neutral
+HP Victus 16,i'm considering buying an external monitor for my laptop (hp victus 16 r5 5600h rtx 3050 ti).,0.0,neutral
+HP Victus 16,can my laptop handle the monitor?,0.0,neutral
+HP Victus 16,"i just want to use it for work, no gaming.",-0.2263,negative
+HP Victus 16,thanks!,0.4926,positive
+HP Victus 16,"this probably isn't the right reddit, but im planning on getting a laptop and i found two that have caught my eye so far.",0.0,neutral
+HP Victus 16,here are the specs: hp omen 15 6 -16 gigs of ram -768gb ssd -rtx 3060 -ryzen 7 5800h hp victus -16 gigs of ram -512gb ssd -rtx 4050 -i5 13420h they both have 144hz displays.,0.0,neutral
+HP Victus 16,"so i was wondering if it was worth it, or if i should stay with hdmi and 85 hz.",0.2263,positive
+HP Victus 16,"for who does not wanna read the last post to know what my pc and monitor are, here are the models.",0.0,neutral
+HP Victus 16,"pc: notebook hp victus 16-e0007sl monitor: lg 34wp75c ps: thanks to every one who commented my last post, and who will respond to this.",0.4404,positive
+HP Victus 16,"hi, i currently have the hp victus 16-0024nf laptop, but now i need more battery for my laptop, but i know that more battery and better gpu or cpu are very expensive.",0.6423,positive
+HP Victus 16,i would like to sell my laptop so i can buy a good pc for running some games like gta v or minecraft with a lot of mods with good fps.,0.8841,positive
+HP Victus 16,"i also need a laptop that has a good battery life, i don't very care the power of the laptop, i just need to run chrome, spotify, discord, etc.",-0.3909,negative
+HP Victus 16,what do you suggest me for the pc and for the laptop ?,0.0,neutral
+HP Victus 16,my budget would be the money i get to sell my hp victus 16-0024nf maybe 200 .,0.0,neutral
+HP Victus 16,i recently lost my hp victus 16.1 to a battery issue and im wondering if i can salvage some of the parts in order to build a pc.,-0.3182,negative
+HP Victus 16,i really don't understand what parts are needed for a pc cos i'm kinda new to this but i do know the graphics card was a 3050ti,0.0,neutral
+HP Victus 16,i use a hp victus 16-e0514na and want to upgrade the storage.,0.0772,positive
+HP Victus 16,is storage important in the sense of compatibility?,0.2023,positive
+HP Victus 16,or can i find a reliable company and just get a 1tb ssd from there for example,0.0,neutral
+HP Victus 16,"i have a hp victus 16-d1xxx with rtx 3060 mobile, the micron mtfdkba512tfh1bc1aab disc ssd 3400 m.2 512gb pcie 4.0 x4 nvme and 2th gen intel(r) core(tm) i5-12500h 2.50 ghz.",0.0,neutral
+HP Victus 16,"i would like to upgrade or, as i just learned that my laptop has 2 ssd slots, ad an new ssd.",0.3612,positive
+HP Victus 16,preferably 1-2 tb with heatsink for gaming.,0.0,neutral
+HP Victus 16,can anyone reccomend me one?,0.0,neutral
+HP Victus 16,"need recommendations, please post a link to the monitor.",0.3182,positive
+HP Victus 16,if you have experienced any issues please note those as well.,0.5267,positive
+HP Victus 16,"i need the monitor to be capable of handling the listed specs below: hp victus 16.1"" fhd ips gaming laptop 11th generation intel core i5-11400h 32gb ram 1tb ssd nvidia geforce rtx 3050 windows 11",0.3818,positive
+HP Victus 16,i have an hp victus 16 laptop with a ryzen 7 5800h process and an rtx 3060 (6gb) video card.,0.0,neutral
+HP Victus 16,does it make sense to buy a special box where you insert the video card (i would like a 4070)?,0.6369,positive
+HP Victus 16,will my fps increase exponentially?,0.3182,positive
+HP Victus 16,"i have a hp victus 16 laptop and from what i've read, it has 2 m.2 slots, a 3.0 and a 4.0. there's currently a 512gb m.2 drive installed, i assume in the 4.0 drive.",0.0,neutral
+HP Victus 16,"i'm looking to buy a 1tb 3.0 drive to install in the other slot, would that be fine?",0.2023,positive
+HP Victus 16,i'd prefer to do this as it's far easier than replacing my current drive and all the data on it.,0.4215,positive
+HP Victus 16,"hey guys, so i have my laptop for around a year and a half and just a month ago the screen started flickering randomly even though i've been taking the best care of it and hasn't stopped since.",0.8429,positive
+HP Victus 16,i looked it up and found out that countless other people have the exact same issue as well.,0.2732,positive
+HP Victus 16,the possible cause of the issue that most people thought of is a faulty effect hall but no one has given a definitive answer.,-0.5346,negative
+HP Victus 16,i'm wondering if anyone knows anything about it.,0.0,neutral
+HP Victus 16,is hp selling problematic products?,-0.4404,negative
+HP Victus 16,"hi guys i need to change thermal paste and putty of my laptop, i was wondering if anyone knoe how thick should i but the thermal pads or how thick to shape the termal putty logs.",0.0,neutral
+HP Victus 16,thanks for your time,0.4404,positive
+HP Victus 16,help an inferior brother here who is having a dilemma in choosing a poor excuse of a gaming laptop when he can have a pc which is the superior choice!,0.0,neutral
+HP Victus 16,"i've been eyeing the acer nitro 5 since last year, but i wasn't able to buy it back then.",0.0,neutral
+HP Victus 16,"now that i finally have the money, i plan to purchase it this year.",0.0,neutral
+HP Victus 16,i'm just waiting for a better deal.,0.4404,positive
+HP Victus 16,"last year, they offered a 7,000 worth of under armour freebies, and i'm hoping they'll bring back the same promo or maybe even something better.",0.8555,positive
+HP Victus 16,"but now, i'm in a bit of a dilemma.",-0.2617,negative
+HP Victus 16,i recently discovered the hp victus 16 gaming laptop.,0.0,neutral
+HP Victus 16,"its specs look great, and the price is really good especially considering the freebies that come with it.",0.8849,positive
+HP Victus 16,"i've done some research on both the nitro 5 and the victus 16 , and i even asked chatgpt to compare the two laptops and its specs.",0.0,neutral
+HP Victus 16,below is the full specs of the two laptops.,0.0,neutral
+HP Victus 16,i'd really appreciate it if you guys especially those who own either of these models could share some insights to help me decide which one is better for gaming and overall use.,0.8687,positive
+HP Victus 16,but mostly gaming.,0.0,neutral
+HP Victus 16,is the rtx 3070 good enough for future proofing and gta vi?,0.4404,positive
+HP Victus 16,i really don't mind not playing future aaa games except if it's a story-rich game.,0.1124,positive
+HP Victus 16,i'm not into online fps games or anything online unless i am playing with my brothers and nephew.,0.2023,positive
+HP Victus 16,will the qhd also help enhance my gaming experience playing story-rich games with great visuals?,0.8225,positive
+HP Victus 16,thank you in advance!,0.4199,positive
+HP Victus 16,"hp victus 16-r0286tx (php 55k) (already discounted) processor : intel core i5-13500hx (14 cores, 20 threads, up to 4.7ghz) gpu : nvidia geforce rtx 4060 8gb gddr6 (120w tgp) display : 16.1"" fhd (1920x1080), 165hz, ips, 100 srgb, 300 nits ram : 16gb ddr5 4800mhz (2x8gb) storage : 512gb pcie nvme ssd keyboard : 1-zone rgb backlit, full-size with numpad battery : 6-cell, 83 wh li-ion polymer; up to 6 hr general use 7 hr 30 freebies : ms office home student 2021, 5,000 gcash cashback, hp sling bag, gaming mouse keyboard acer nitro 5 an515-46-r8h3 (php 63k) (waiting for the discount promo) processor : amd ryzen 7 6800h (8 cores, 16 threads, up to 4.7ghz) gpu : nvidia geforce rtx 3070 8gb gddr6 (150w tgp) display : 15.6"" qhd (2560x1440), 165hz, ips, comfyview ram : 16gb ddr5 free extra 16gb 32gb total storage : 512gb pcie nvme ssd ( hdd upgrade kit) keyboard : rgb backlit, multi-touch gesture support battery : 4-cell 57.5wh, up to 6 hrs use freebies : 16gb ram upgrade, gaming mouse keyboard, laptop bag",0.9349,positive
+HP Victus 16,"hi everyone, i have an hp victus 16 laptop and for the past 4 or 5 days it has stopped detecting anything i plug into the audio jack (headphones, microphones, etc.).",-0.2263,negative
+HP Victus 16,i've tried different devices and nothing works no connected device is shown at all.,0.2235,positive
+HP Victus 16,"the issue started right when i reconnected the laptop at home with an external monitor, mouse, keyboard, and power.",0.0,neutral
+HP Victus 16,"i've been carrying it to school every day this year, so i thought maybe a bump could have caused this, but that doesn't seem to be the case.",0.0,neutral
+HP Victus 16,"so far, i've done the following: updated the bios updated all drivers (chipset, audio, etc.)",0.0,neutral
+HP Victus 16,"enabled and disabled devices via device manager checked that it's not set to speakers only or similar settings tried several pairs of headphones (they all work on other devices) for a moment i thought the jack might be broken, but the strange part is that when i plug in my headphones, i hear a slight interference, as if something is trying to make contact.",-0.5023,negative
+HP Victus 16,"so i decided to open the laptop, measured the voltage at the jack and everything seemed fine nothing was loose.",0.4141,positive
+HP Victus 16,"i took the opportunity to clean everything with isopropyl alcohol, reassembled it, and the problem is still exactly the same.",0.4215,positive
+HP Victus 16,important detail: the audio jack on this model is part of the sd card reader board.,0.2023,positive
+HP Victus 16,here s a link to the exact part: has anyone experienced something similar or has any idea what else i can try before declaring it dead or taking it to a technician?,-0.6486,negative
+HP Victus 16,thanks in advance!,0.4926,positive
+HP Victus 16,"i've been eyeing the acer nitro 5 since last year, but i wasn't able to buy it back then.",0.0,neutral
+HP Victus 16,"now that i finally have the money, i plan to purchase it this year.",0.0,neutral
+HP Victus 16,i'm just waiting for a better deal.,0.4404,positive
+HP Victus 16,"last year, they offered a 6,000 worth of under armour freebies, and i'm hoping they'll bring back the same promo or maybe even something better.",0.8555,positive
+HP Victus 16,"but now, i'm in a bit of a dilemma.",-0.2617,negative
+HP Victus 16,i recently discovered the hp victus 16 gaming laptop.,0.0,neutral
+HP Victus 16,"its specs look great, and the price is really good especially considering the freebies that come with it.",0.8849,positive
+HP Victus 16,"i've done some research on both the nitro 5 and the victus 16 , and i even asked chatgpt to compare the two laptops.",0.0,neutral
+HP Victus 16,below is the full specs of the two laptops.,0.0,neutral
+HP Victus 16,i'd really appreciate it if you guys especially those who own either of these models could share some insights to help me decide which one is better for gaming and overall use.,0.8687,positive
+HP Victus 16,but mostly gaming.,0.0,neutral
+HP Victus 16,thank you in advance!,0.4199,positive
+HP Victus 16,"hp victus 16-r0286tx (55k) (already discounted) processor : intel core i5-13500hx (14 cores, 20 threads, up to 4.7ghz) gpu : nvidia geforce rtx 4060 8gb gddr6 (120w tgp) display : 16.1"" fhd (1920x1080), 165hz, ips, 100 srgb, 300 nits ram : 16gb ddr5 4800mhz (2x8gb) storage : 512gb pcie nvme ssd keyboard : 1-zone rgb backlit, full-size with numpad battery : 6-cell, 83 wh li-ion polymer; up to 6 hr general use 7 hr 30 freebies : ms office home student 2021, 5,000 gcash cashback, hp sling bag, gaming mouse keyboard acer nitro 5 an515-46-r8h3 (63k) (waiting for the discount promo) processor : amd ryzen 7 6800h (8 cores, 16 threads, up to 4.7ghz) gpu : nvidia geforce rtx 3070 8gb gddr6 (150w tgp) display : 15.6"" qhd (2560x1440), 165hz, ips, comfyview ram : 16gb ddr5 free extra 16gb 32gb total storage : 512gb pcie nvme ssd ( hdd upgrade kit) keyboard : rgb backlit, multi-touch gesture support battery : 4-cell 57.5wh, up to 6 hrs use freebies : 16gb ram upgrade, gaming mouse keyboard, laptop bag",0.9349,positive
+HP Victus 16,hello!,0.0,neutral
+HP Victus 16,"i'm looking for a reliable, long-lasting gaming laptop that won't have major issues down the line.",0.0,neutral
+HP Victus 16,"after some research, i've narrowed it down to these two options: 1 hp victus 16 ryzen 7 8845hs rtx 4070 16gb ram 512gb ssd 165hz display 2 lenovo legion slim 5 16 ryzen 7 8845hs rtx 4060 16gb ram 512gb ssd 240hz display would love to hear your thoughts!",0.6696,positive
+HP Victus 16,thanks in advance!,0.4926,positive
+HP Victus 16,what's better for pure raw performance and fps in games?,0.4404,positive
+HP Victus 16,"laptop: asus tuf f15 fx507vi gpu: rtx 4070 cpu: intel i7-13620h ram: 16gb ddr5 storage: 1tb ssd screen: 144hz, 15 6 laptop: hp victus 16 gpu: rtx 4070 cpu :amd ryzen 7 8845hs ram: 16gb ddr5 storage: 1tb ssd screen: 144hz, 16 1",0.0,neutral
+HP Victus 16,the laptop screen used to turn on back to normal but now it is not working.,0.0,neutral
+HP Victus 16,after the light on the power button blinked continuously the screen is not working.,0.0,neutral
+HP Victus 16,"but i know that the laptop is on because i can hear the notification sound from it.and also i have connected a external keyboard to it and the caps lock light is turn on, so it mean that the laptop is turned on",0.0,neutral
+HP Victus 16,hey everyone!,0.0,neutral
+HP Victus 16,"i recently bought the hp victus 16-s0004nv (ryzen 7-7840hs 16gb 512gb ssd geforce rtx 4050 win11home) and while i'm mostly satisfied with the hardware, i'm quite frustrated with how bloated the pre-installed w11 is and how it performs because of it.",-0.2247,negative
+HP Victus 16,"ram usage is at 30-35 without any apps running (apart from the background ofc), and the fans are working more than they need to.",0.0,neutral
+HP Victus 16,and don't get me started on the omen gaming hub.,0.0,neutral
+HP Victus 16,"i tried disabling it, but while gaming the fans went crazy.",-0.631,negative
+HP Victus 16,enabling it again fixed the issue.,0.0,neutral
+HP Victus 16,"i also tried linux mint 22 (i've been a happy lm user for 2 years) using a live usb, and everything worked like a dream!",0.8172,positive
+HP Victus 16,"my plan is to install lm on a separate drive and use it as my daily driver, but as i still need windows for gaming and work, has anyone tried clean installing windows 10 on it?",0.5499,positive
+HP Victus 16,"is installing any drivers from hp's website ( enough, or missing any hp software might cause any issues?",-0.296,negative
+HP Victus 16,"if not, which of the drivers provided are essential, as i don't want to install anything that's unnecessary?",-0.0572,negative
+HP Victus 16,any other issues?,0.0,neutral
+HP Victus 16,thank you!,0.4199,positive
+HP Victus 16,soon i'll need to start a course on 3d assets and it requires a windows computer with a minimum 3ghz 6-core cpu with 16gb of ram and an nvidia gpu with 8gb of ram rtx series.,0.1779,positive
+HP Victus 16,"i've seen though that the base clock speed is 2.6 ghz , but it can turbo boost up to 4.7 ghz for short bursts of high performance.",0.5499,positive
+HP Victus 16,do you think it's still a good choice?,0.4404,positive
+HP Victus 16,"if not, are there any not too expensive options out there?",0.0,neutral
+HP Victus 16,link to the computer:,0.0,neutral
+HP Victus 16,i need to replace my old desktop pc (1060 and old ryzen 5) and i'm going to need my computer to be portable.,0.0,neutral
+HP Victus 16,i find both really excellent but i don't know which one to choose.,0.3604,positive
+HP Victus 16,can you help guys ?,0.4019,positive
+HP Victus 16,i have a friend that has a laptop in this series.,0.4939,positive
+HP Victus 16,their charger started to break so i was going to get them a new one.,0.0,neutral
+HP Victus 16,specifically the 230w charger.,0.0,neutral
+HP Victus 16,is there any 3rd party chargers that will match up well with it?,0.5859,positive
+HP Victus 16,i was reading that the hp chargers are kinda bad so i want to get something that will last them a good while until they can afford a desktop like they want to get.,0.4618,positive
+HP Victus 16,thank you for any help.,0.6369,positive

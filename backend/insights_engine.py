@@ -97,7 +97,7 @@ def _spec_similarity(s1: dict, s2: dict) -> float:
 
 def competitor_analysis(asus_model_name: str) -> dict:
     """
-    Return AI-powered competitor intelligence for a given ASUS model.
+    Return AI-powered competitor intelligence for a target model.
     """
     asus_specs = _get_specs(asus_model_name)
     asus_pr    = get_price_rating(asus_model_name)
@@ -156,6 +156,7 @@ def generate_insights(asus_model_name: str, model_aspects: list | None = None) -
     analysis = competitor_analysis(asus_model_name)
     insights = []
 
+    target_brand = get_brand(asus_model_name)
     asus_specs = analysis["asus_specs"] or {}
     asus_price = analysis["asus_price"]
 
@@ -210,16 +211,16 @@ def generate_insights(asus_model_name: str, model_aspects: list | None = None) -
                     "brand":    brand,
                 })
 
-        # Hardware advantage for ASUS
+        # Hardware advantage for the target brand
         if "gpu" in diff:
             av, pv = diff["gpu"]["asus"], diff["gpu"]["competitor"]
             if GPU_TIER.get(av, 0) > GPU_TIER.get(pv, 0):
                 insights.append({
                     "type":     "advantage",
-                    "title":    f"ASUS Hardware Advantage — GPU vs {name}",
+                    "title":    f"{target_brand} Hardware Advantage — GPU vs {name}",
                     "body":     f"{asus_model_name} has a stronger GPU ({av}) compared to {name} ({pv}).",
                     "severity": "Low",
-                    "brand":    brand,
+                    "brand":    target_brand,
                 })
 
     # Sentiment-based weakness insights
@@ -233,7 +234,7 @@ def generate_insights(asus_model_name: str, model_aspects: list | None = None) -
                     "title":    f"Weakness — {asp.capitalize()} ({asus_model_name})",
                     "body":     f"{asus_model_name} has {asp_row['neg_ratio']:.0f}% negative {asp} reviews. Consider investigating competitor offerings in this area.",
                     "severity": "High" if asp_row["neg_ratio"] >= 35 else "Medium",
-                    "brand":    "ASUS",
+                    "brand":    target_brand,
                 })
 
     # Deduplicate by title

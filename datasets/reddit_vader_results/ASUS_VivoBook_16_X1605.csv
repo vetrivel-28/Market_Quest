@@ -1,0 +1,604 @@
+laptop_name,sentence,compound_score,sentiment
+ASUS VivoBook 16 X1605,"hi everyone, i'm about to start learning data analysis (excel, sql, power bi), and i'm planning to buy the asus vivobook 16 oled (x1605, 16gb ram).",0.0,neutral
+ASUS VivoBook 16 X1605,i'm a complete beginner and haven't started yet i'll begin after getting the laptop.,0.0,neutral
+ASUS VivoBook 16 X1605,"i also likely won't be able to upgrade for a couple of years, so i need something reliable that can grow with me as i improve.",0.4404,positive
+ASUS VivoBook 16 X1605,"my intended use: excel (eventually large datasets, power query, etc.)",0.4588,positive
+ASUS VivoBook 16 X1605,"power bi sql heavy multitasking (multiple files browser tabs tools open together) some light design work i'm not interested in gaming, 3d work, or video rendering.",-0.3089,negative
+ASUS VivoBook 16 X1605,i'd appreciate feedback on: is 16gb ram enough for this path over the next few years?,0.4019,positive
+ASUS VivoBook 16 X1605,does this model handle multitasking smoothly?,0.0,neutral
+ASUS VivoBook 16 X1605,any issues with heat or fan noise under workload?,0.3182,positive
+ASUS VivoBook 16 X1605,is the oled screen comfortable for long hours of work?,0.5106,positive
+ASUS VivoBook 16 X1605,are there better alternatives in a similar price range for someone entering data analysis?,0.4404,positive
+ASUS VivoBook 16 X1605,"hey everyone, i need your opinion on the asus vivobook 16 oled, model x1605 with 16gb ram i'm thinking of buying it soon and want to know your experience.",0.0772,positive
+ASUS VivoBook 16 X1605,"i'll be using it mainly for data analysis heavy excel, power bi, sql and also some light design work.",0.4588,positive
+ASUS VivoBook 16 X1605,so i want to know: will the performance be smooth with multitasking?,0.1513,positive
+ASUS VivoBook 16 X1605,"for example, opening multiple heavy files and apps at the same time does it lag or freeze?",-0.296,negative
+ASUS VivoBook 16 X1605,is the oled screen really good in terms of colors and comfort for design work?,0.6901,positive
+ASUS VivoBook 16 X1605,any issues with long-term use?,0.0,neutral
+ASUS VivoBook 16 X1605,what about heat and fan noise?,0.3182,positive
+ASUS VivoBook 16 X1605,"does it get loud or very hot when running several things together, or is it quiet?",0.0,neutral
+ASUS VivoBook 16 X1605,"i'm not interested in gaming, rendering, or 3d work at all.",-0.3089,negative
+ASUS VivoBook 16 X1605,"so is this model a good choice for me, or are there better alternatives in the same price range?",0.7003,positive
+ASUS VivoBook 16 X1605,recently got this laptop for college and it would be handy if someone could figure out if i can.,0.0,neutral
+ASUS VivoBook 16 X1605,i tried googling it but im getting mixed signals,0.0,neutral
+ASUS VivoBook 16 X1605,"hi everyone, i just came across this asus vivobook 16 x1605va-bb52-cb at bestbuy in canada for 649.99. the laptop has a 13th gen i5 processor with 16gb of ram and 1tb ssd.",0.0,neutral
+ASUS VivoBook 16 X1605,it also has a usb-c 3.2 gen 1 port and an ips display.,0.0,neutral
+ASUS VivoBook 16 X1605,looking to go back and buy the laptop in the next day or so but was wondering if this laptop is any good for a college student as my current lenovo ideapad is pretty much finished.,0.8462,positive
+ASUS VivoBook 16 X1605,"at college i will mainly be coding on rstudio and python mainly alongside some usual college tasks like microsoft word, netflix, light gaming etc.",0.3612,positive
+ASUS VivoBook 16 X1605,"this laptop is really near the top of my price point (around 400gbp) so let me know what you guys think, if it is a good laptop for college use (and hopefully after) or not.",0.7693,positive
+ASUS VivoBook 16 X1605,it's also not really smooth to move my fingers along and they'll jump along with only slight pressure.,-0.296,negative
+ASUS VivoBook 16 X1605,is this normal?,0.0,neutral
+ASUS VivoBook 16 X1605,"asus vivobook 16 (x1605) for sale 475 (rrp 599.99) (light scratches on back, extremely minimal use) windows 11 intel core i3 8gb ram 160gb ssd 1920 1200 hdr includes charging cable dm for more info (in person pick up highly prefered)",0.0,neutral
+ASUS VivoBook 16 X1605,"minha irm comprou um asus vivobook 16 (x1605) pro meu irm o (que ele ainda n o abriu justamente por causa dessa d vida que ficamos) usar na faculdade (e aquele uso geral que todo mundo acaba fazendo), mas fiquei sabendo tamb m do samsung galaxy book2 (np550xed) e achei ele bastante interessante.",0.0,neutral
+ASUS VivoBook 16 X1605,"os dois notebooks t m especifica es quase id nticas, ent o o que estou levando em considera o pra decidir por um ou por outro basicamente a qualidade de cada produto (tarefa para a qual vou precisar da ajuda de voc s) e dois pequenos detalhes: - o samsung tem carregamento por usb-c, o que acho que j quebra um galh o por n o precisar ficar carregando um carregador trambolhudo (e que se voc esquecer voc se fode porque os carregadores tradicionais nunca se conversam entre si acumulamos notebooks de pelo menos umas 5 marcas diferentes em casa e o carregador de nenhum funciona nos demais ).",0.0,neutral
+ASUS VivoBook 16 X1605,"no asus eu sei que a princ pio o carregamento feito por aqueles cabos cil ndricos que a gente j t acostumado pra notebook, mas como ele tem porta usb-c eu me questiono se ele tamb m n o teria essa fun o (nada fala a respeito, mas outro modelo da asus, o 16x, que extremamente parecido com esse 16, fala que sua porta usb-c ""com suporte para fornecimento de energia"").",0.2732,positive
+ASUS VivoBook 16 X1605,"- meu irm o tem um tablet samsung e seu celular tamb m samsung, e vi que o notebook da samsung tem uma funcionalidade de se conectar a eles, permitindo controlar ambos por um s teclado e mouse e at ""estender"" a tela.",0.0,neutral
+ASUS VivoBook 16 X1605,n o sei at que ponto essa funcionalidade til ou aquele neg cio que voc usa uma vez pra testar e depois nunca mais.,0.0,neutral
+ASUS VivoBook 16 X1605,"com base nisso faria bem mais sentido ir com o samsung, mas no site deles eu achei a nota do notebook bem ruinzinha (3,5 5) e tem bastante reclama o. no site da asus o notebook deles tem menos avalia es mas as notas est o muito melhores (em um dos modelos est com 5 5, em outro com 4,8 5 tem essa diferen a porque cada vers o desse mesmo modelo varia es na ram ou no armazenamento tem suas notas ).",-0.6808,negative
+ASUS VivoBook 16 X1605,"olhando por cima (na internet) o asus parece ter uma qualidade superior, mas dif cil falar s por fotos e v deos; reviews n o ajudaram - tudo review de youtuber que testa o neg cio por dois dias, e do asus inclusive encontrei s um review e ainda assim parece que o cara tava analisando as especifica es cruas.",0.5423,positive
+ASUS VivoBook 16 X1605,o que voc s acham?,0.0,neutral
+ASUS VivoBook 16 X1605,voc s t m familiaridade com notebooks de alguma dessas marcas ou mesmo com esses modelos?,0.0,neutral
+ASUS VivoBook 16 X1605,acham que aqueles dois b nus do samsung s o suficientes pra arriscar na troca?,0.0,neutral
+ASUS VivoBook 16 X1605,"desde j , obrigado.",0.0,neutral
+ASUS VivoBook 16 X1605,edit.,0.0,neutral
+ASUS VivoBook 16 X1605,": hoje meu irm o foi na loja, testou os dois e acabou trocando pelo samsung.",0.0,neutral
+ASUS VivoBook 16 X1605,agora torcer pro neg cio ser bom.,0.0,neutral
+ASUS VivoBook 16 X1605,obrigado a todos que ajudaram!,0.0,neutral
+ASUS VivoBook 16 X1605,"hi, i am a moderate user.",0.0,neutral
+ASUS VivoBook 16 X1605,"i used to develop automation through uipath, except that i use photoshop, not into gaming.",0.0,neutral
+ASUS VivoBook 16 X1605,my preference is a sleek and lightweight laptop with a touchscreen.,0.0,neutral
+ASUS VivoBook 16 X1605,my current deals are- surface go 3(intel i5-1235u 256gb ssd 8gb ram) - 850 cad taxes asus vivobook 16(i7-1255u processor 512gb ssd 16gb ram) - 700 cad taxes which one should i go for?,0.0,neutral
+ASUS VivoBook 16 X1605,thanks again.,0.4404,positive
+ASUS VivoBook 16 X1605,essentially my laptop turns off immediately after i unplug it from the charger.,0.0,neutral
+ASUS VivoBook 16 X1605,i have checked my battery life reports which suggest nothing abnormal - not surprising since it is a new laptop.,0.1537,positive
+ASUS VivoBook 16 X1605,"what i have noticed was a failed battery dynapack firmware update, yet when i check on myasus it says it has been completed.",-0.5106,negative
+ASUS VivoBook 16 X1605,feeling as though the two are related so any solutions on how to fix or if it is perhaps a hardware issue would be much appreciated.,0.6983,positive
+ASUS VivoBook 16 X1605,hello.,0.0,neutral
+ASUS VivoBook 16 X1605,"i am looking at getting a laptop and the vivobook 16 x1605 caught my attention, but before buying i wanted to hear if somebody who has had this device wanted to share their view on it or suggest a better laptop.",0.7684,positive
+ASUS VivoBook 16 X1605,"also on the asus webshop it says it supports up to a 13th gen i9, but i can only choose a 11th gen i7 for it, does somebody know why?",0.1901,positive
+ASUS VivoBook 16 X1605,"the title might me a little misleading but yes i'm looking for a laptop as an engineering student, mainly for school work and a little gaming?",0.3508,positive
+ASUS VivoBook 16 X1605,"(just valorant or something, nothing graphic intensive) i want a laptop that have minimum specs of these and can do work like programming, editing (media tasks both photo and video), and working well with a daw ( for music).",0.5232,positive
+ASUS VivoBook 16 X1605,"not sure if its weird to ask for these requirements (im a muggle : ) and i have a budget of 1.2k usd, using usd to standardize as im not sure but the picture below is listed in sgd.",-0.3208,negative
+ASUS VivoBook 16 X1605,and i kinda narrow it done to asus.,0.0,neutral
+ASUS VivoBook 16 X1605,-processor: 8th gen intel core i5-8265u processor amd ryzen 5 5600x -memory: 8gb -hard drive: 512gb -graphic: integrated graphics nvidia geforce mx110 gddr5 2gb,-0.1027,negative
+ASUS VivoBook 16 X1605,"hello, just asking if anyone has experienced this.",0.0,neutral
+ASUS VivoBook 16 X1605,asus vivobook 16 (x1605) suddenly won't boot.,0.0,neutral
+ASUS VivoBook 16 X1605,"when powered on, it only reaches the asus logo with the spinning circle, then stops.",-0.1027,negative
+ASUS VivoBook 16 X1605,it just stays stuck there.,-0.25,negative
+ASUS VivoBook 16 X1605,"i already tried creating a windows installation media on usb to reinstall, but it also doesn't proceed because it still gets stuck at the asus logo.",-0.2263,negative
+ASUS VivoBook 16 X1605,so i tried a bios update.,0.0,neutral
+ASUS VivoBook 16 X1605,"i downloaded the official file (x1605zaas.316) from the asus website, placed it on a usb (fat32), then used asus firmware update in bios.",0.0,neutral
+ASUS VivoBook 16 X1605,"it started installing, but got stuck again at the asus logo and didn't finish.",-0.3612,negative
+ASUS VivoBook 16 X1605,"i can still access bios (f2), but whenever i boot, it only reaches the asus logo.",0.0772,positive
+ASUS VivoBook 16 X1605,"i also tried a power drain reset (holding the power button for 40 seconds), but nothing changed.",0.0,neutral
+ASUS VivoBook 16 X1605,maybe someone here knows about this issue with the laptop.,0.0,neutral
+ASUS VivoBook 16 X1605,thank you.,0.3612,positive
+ASUS VivoBook 16 X1605,i'm a university student living in belgium (europe).,0.0,neutral
+ASUS VivoBook 16 X1605,i study psychology.,0.0,neutral
+ASUS VivoBook 16 X1605,this means a laptop should have certain requirements.,0.2732,positive
+ASUS VivoBook 16 X1605,numerical keyboard big enough to fit multiple tabs on screen long battery life as i have no sockets in class at least 16 gb ram - being able to run complex excel sheets i also like a keyboard with backlights budget: under 800 does anyone have the golden tip?,0.7003,positive
+ASUS VivoBook 16 X1605,i found these to be interesting.,0.4019,positive
+ASUS VivoBook 16 X1605,which one looks best iyo?,0.6369,positive
+ASUS VivoBook 16 X1605,asus vivobook 16x m1603 ( lenovo ideapad slim 3 ( hp pavilion x360 ( asus vivobook 16 x1605 ( msi modern 15 ( vikera,0.0,neutral
+ASUS VivoBook 16 X1605,asus vivobook 16 x1605 vs matebook d16 2024 (i don't want pwm or temporal dithering.,-0.1833,negative
+ASUS VivoBook 16 X1605,i can't find if they have it) buy huawei matebook d16 (2024) laptop 13th gen intel core i5 13420h 16inch 1tb ssd 16gb ram windows 11 home english arabic keyboard mystic silver middle east version mitchellg-w5611d online in uae sharaf dg ( buy asus vivobook 16 (2024) laptop intel core i7-150u 16inch wuxga 1tb ssd 16gb ram shared intel graphics windows 11 home english arabic keyboard cool silver middle east version x1605vap-mb048w online in uae sharaf dg (,0.5719,positive
+ASUS VivoBook 16 X1605,"hi, thank you for existing.",0.3612,positive
+ASUS VivoBook 16 X1605,here's the form: total budget (in local currency) and country of purchase.,0.0,neutral
+ASUS VivoBook 16 X1605,"please do not use usd unless purchasing in the us: 500.000 clp, chile are you open to refurbs used?",0.3182,positive
+ASUS VivoBook 16 X1605,"only refurbs how would you prioritize form factor (ultrabook, 2-in-1, etc.",0.0,neutral
+ASUS VivoBook 16 X1605,"), build quality, performance, and battery life?",0.0,neutral
+ASUS VivoBook 16 X1605,battery life and build quality are very important.,0.2716,positive
+ASUS VivoBook 16 X1605,"the form factor isn't important at all performance is, but for the things i need it to do (i don't need a super machine, but it must be able to handle my fiance's multitasking).",-0.6721,negative
+ASUS VivoBook 16 X1605,how important is weight and thinness to you?,0.2023,positive
+ASUS VivoBook 16 X1605,"pretty important, no more than 2 kg, so it can be moved and handled easily do you have a preferred screen size?",0.6369,positive
+ASUS VivoBook 16 X1605,"if indifferent, put n a. more than 13 inches, fhd are you doing any cad video editing photo editing gaming?",-0.2023,negative
+ASUS VivoBook 16 X1605,list which programs games you desire to run.,0.4019,positive
+ASUS VivoBook 16 X1605,no photo video editing nor heavy gaming ( maybe i'll use to play stardew valley).,0.0516,positive
+ASUS VivoBook 16 X1605,"i just need it to run smooth when working with multiple tabs and gigantic pdf, drive and office files (about 1000 pages average).",0.0,neutral
+ASUS VivoBook 16 X1605,it will also be used for watching videos (mostly streaming).,0.0,neutral
+ASUS VivoBook 16 X1605,"any specific requirements such as good keyboard, reliable build quality, touch-screen, finger-print reader, optical drive or good input devices (keyboard touchpad)?",0.7003,positive
+ASUS VivoBook 16 X1605,reliability and build quality are really important a finger-print reader and blacklit keyboard would be nice.,0.5984,positive
+ASUS VivoBook 16 X1605,i don't need a touch-screen or specific ports readers.,0.0,neutral
+ASUS VivoBook 16 X1605,i do need a good screen though leave any finishing thoughts here that you may feel are necessary and beneficial to the discussion.,0.6808,positive
+ASUS VivoBook 16 X1605,"it's a gift for someone who already has a desktop gaming machine, so it will not be used for gaming.",0.4404,positive
+ASUS VivoBook 16 X1605,"it will be mostly used in bed for watching movies and web surfing with multiple open tabs, and at work, where he deals with tons of pictures and really big documents.",0.0,neutral
+ASUS VivoBook 16 X1605,i was looking at gpus and i think and i3 n-305 could be enough.,0.0,neutral
+ASUS VivoBook 16 X1605,i've been also looking at the i5 1235u and ryzen 5 5500u.,0.0,neutral
+ASUS VivoBook 16 X1605,"here are some laptops i've seen in my country that i think would fit my needs, but i can't decide between them and would like to know if you have another suggestions.",0.6124,positive
+ASUS VivoBook 16 X1605,"acer aspire 3 a314-36p-30c0-1 ( lenovo ideapad v15 g2 ( dell inspiron 14 2-in-1 7415 ( acer aspire vero av14-51-54b9-1 ( asus vivobook 16 x1605za-mb133w ( hp 15-ef2528la ( thank you again, i'll try to answer any question as soon as i can",0.3612,positive
+ASUS VivoBook 16 X1605,"been looking at getting a laptop, i'm not too great with all the specifics but i've been doing some research.",-0.284,negative
+ASUS VivoBook 16 X1605,would anyone recommend this laptop?,0.3612,positive
+ASUS VivoBook 16 X1605,"its got an intel i5 h processor, 16gb ram, 1tb ssd storage, full hd oled screen, windows 11, 20hr battery life.",0.0,neutral
+ASUS VivoBook 16 X1605,"i've looked at probably 100 laptops now and this seems like one of the best options to me, especially for around 500. if you have any other recommendations feel free to send them over - 550ish budget, 16gb ram, 512gb ssd storage minimum, oled screen preferred, windows 11. black silver grey, light slim preferred.",0.8807,positive
+ASUS VivoBook 16 X1605,don't mind going refurbished but i find they're more difficult to find.,-0.5704,negative
+ASUS VivoBook 16 X1605,"looking to do video photo editing, music production, and some light gaming (eg.",0.0,neutral
+ASUS VivoBook 16 X1605,minecraft).,0.0,neutral
+ASUS VivoBook 16 X1605,i recently got to test the asus vivobook 16 ( the new amd ryzen ai 7 chip.,0.0,neutral
+ASUS VivoBook 16 X1605,"honestly, i wasn't expecting much since it doesn't have an oled like some of the other vivobooks, but after using it for a while, i think this is a really solid productivity laptop for the price.",0.6236,positive
+ASUS VivoBook 16 X1605,"if you're looking for a copilot ready device with strong everyday performance, here s my full take.",0.7003,positive
+ASUS VivoBook 16 X1605,"although i don't really care much about the ai stuff keep in mind, pricing floats around 849 899 , so it's worth keeping an eye out for sales.",-0.1696,negative
+ASUS VivoBook 16 X1605,"tl;dr strong performance thanks to ryzen ai 7 350 xdna npu (50 tops) great for business, students, and productivity work large 1tb ssd and 16gb ram out of the box display is fine but not oled or high refresh don't buy this if you want a gaming or creative powerhouse quick specs cpu: amd ryzen ai 7 350 (8 cores, zen 5 zen 5c, up to 5.0ghz) npu: xdna 2 ai engine (50 tops, copilot pc ready) gpu: amd radeon 860m (integrated) display: 16 wuxga (1920 1200) ips, 60hz, 16:10 aspect ratio ram: 16gb ddr5 (soldered expandable so-dimm slot) storage: 1tb pcie 4.0 ssd battery: 50wh (mixed-use 6 8 hours) weight: 4.2 lbs os: windows 11 copilot performance everyday use: browsing, docs, video calls, and multitasking are smooth.",0.967,positive
+ASUS VivoBook 16 X1605,"i had no issues running 30 tabs, office apps, and spotify in the background.",-0.296,negative
+ASUS VivoBook 16 X1605,copilot features like summarizing and searching within documents actually feel snappy thanks to the npu.,0.6597,positive
+ASUS VivoBook 16 X1605,"creative work: fine for photo editing and some light video editing, but the integrated radeon graphics aren't meant for heavy workloads.",0.3291,positive
+ASUS VivoBook 16 X1605,"if your work is mostly text, spreadsheets, and light creative tasks, you'll be good.",0.7003,positive
+ASUS VivoBook 16 X1605,gaming: not a gaming laptop.,0.0,neutral
+ASUS VivoBook 16 X1605,"you can run lighter titles at low medium settings, but don't expect much beyond that.",-0.1406,negative
+ASUS VivoBook 16 X1605,"display build the 16 wuxga screen is good for productivity: sharp enough, bright enough ( 300 nits), but limited to 60hz and not oled.",0.1406,positive
+ASUS VivoBook 16 X1605,"build feels sturdy, hinge is reliable, but it's a standard clamshell no 2-in-1 flexibility like the flip models.",0.5499,positive
+ASUS VivoBook 16 X1605,quiet blue finish looks nice and professional.,0.4215,positive
+ASUS VivoBook 16 X1605,"battery life mixed use (docs, browsing, streaming): 7 hours heavy use (editing, multitasking at high brightness): 4 5 hours not the best in class, but decent for a 16 machine with this much power.",-0.2924,negative
+ASUS VivoBook 16 X1605,thermals noise fans stay quiet on light tasks.,0.0,neutral
+ASUS VivoBook 16 X1605,"under load, they get audible but not distracting.",0.3252,positive
+ASUS VivoBook 16 X1605,temps stay safe ( 80 85 c max sustained load).,0.4404,positive
+ASUS VivoBook 16 X1605,"comparison vs other options vivobook 16 flip (oled) ( flip has a better oled 120hz screen and 2-in-1 design, but costs more.",0.2382,positive
+ASUS VivoBook 16 X1605,regular vivobook 16 is cheaper and lighter if you don't need tablet mode.,0.0,neutral
+ASUS VivoBook 16 X1605,", which makes them stronger for creators and light gaming.",0.3818,positive
+ASUS VivoBook 16 X1605,"lenovo ideapad pro 5 ( competes well with display options and battery, though asus gives you more storage for the money.",0.2732,positive
+ASUS VivoBook 16 X1605,"pros cons pros: strong ryzen ai 7 performance ai npu support copilot pc ready out of the box 1tb ssd and 16gb ram standard solid build, professional look good value under 900 cons: 60hz ips screen, no oled integrated gpu weak gaming creative performance battery life is good, not amazing a bit bulky for carrying around daily tips for buyers expand ram via the so-dimm if you need more multitasking power keep drivers updated for stability and performance pair with an external monitor if you care about color accuracy or refresh rate use ctt debloat and get rid of bloatware final verdict the asus vivobook 16 ( is a great value laptop for productivity, school, or work.",0.9739,positive
+ASUS VivoBook 16 X1605,"the laptop is not designed for heavy-duty software, but with the ryzen ai 7, ample storage, and copilot features, it's fast, smooth, and reliable for everyday use.",0.0,neutral
+ASUS VivoBook 16 X1605,"if you want a no-nonsense laptop under 900 that can handle multitasking and ai tasks with ease, this is a solid choice.",0.5267,positive
+ASUS VivoBook 16 X1605,buy the vivobook 16 here on amazon.,0.1779,positive
+ASUS VivoBook 16 X1605,"( heads up: i use affiliate links in my reviews, which means i may earn a small commission if you buy through them (at no extra cost to you).",-0.296,negative
+ASUS VivoBook 16 X1605,"it helps me keep making reviews like this also, if you have any questions lmk below, and please upvote this if you think it was informational!",0.7712,positive
+ASUS VivoBook 16 X1605,"hey everyone, i've been looking into getting an asus vivobook 15, but i've noticed there are so many different versions of this laptop, different cpus, ram setups, oled vs non-oled screens, etc.",0.0,neutral
+ASUS VivoBook 16 X1605,"one thing i really want is a backlit keyboard, but it seems like even when the amazon listing says it has one, some people report that theirs didn't.",0.6805,positive
+ASUS VivoBook 16 X1605,"so i'm a bit confused about which exact models actually include it (if anyone knows how to confirm before buying, i'd appreciate it!).",0.1099,positive
+ASUS VivoBook 16 X1605,"price-wise, i've seen the vivobook 15 range from around 700 to 1,000 usd, depending on the configuration.",0.0,neutral
+ASUS VivoBook 16 X1605,what would you say is a fair price for a good mid-range setup (something like an i5 i7 and 16-24gb ram)?,0.7717,positive
+ASUS VivoBook 16 X1605,"also, if anyone has owned one for a while, how s the battery life, thermals, and build quality?",0.0,neutral
+ASUS VivoBook 16 X1605,i've heard mixed things about the battery in particular.,0.0,neutral
+ASUS VivoBook 16 X1605,any advice or personal experiences would really help before i drop the money on it.,0.1604,positive
+ASUS VivoBook 16 X1605,thanks!,0.4926,positive
+ASUS VivoBook 16 X1605,hey everyone i am looking for a new laptop since i need to do some work for my architecture study during the classes and my old laptop would explode (i used to do all the work at home on my pc but now it's not an option).,0.0,neutral
+ASUS VivoBook 16 X1605,"i need to do some 3d modeling, some rendering, autocad, photoshop and stuff like that so i need a decent gpu and a bunch of ram and the specs looked really good on this laptop.",0.6901,positive
+ASUS VivoBook 16 X1605,"i've had a good experience with amazon ""used"" (just opened) stuff so i was planning on getting that option for 650 instead of 730 .",0.5574,positive
+ASUS VivoBook 16 X1605,the only thing worrying me is the many comments about the build quality of this product that for many people is crumbling apart after a couple weeks of use.,-0.34,negative
+ASUS VivoBook 16 X1605,what do you think about it?,0.0,neutral
+ASUS VivoBook 16 X1605,do you have any recommendations for something about the same price range (max 700 ) with decent specs for what i need to do?,0.0,neutral
+ASUS VivoBook 16 X1605,i have a vivobookbook 16 asus laptop x1605za with 12th generation intel core i5-12500h 2.5ghz and 16gb ram and 65-bit operating system for 9 month.,0.0,neutral
+ASUS VivoBook 16 X1605,2 major issues to consider: -first the laptop battery is so annoying it doesn't last more than 2-3 hours after full charge -secondly the laptop material is a plastic that always keep your fingerprint on it so you have to clean it everyday overall its works very well and good for daily use.,0.5811,positive
+ASUS VivoBook 16 X1605,my question is can i use it always while the cherger is plugged in ?,0.0,neutral
+ASUS VivoBook 16 X1605,does it effect the battery life in the future ?,0.0,neutral
+ASUS VivoBook 16 X1605,if yes so how should i use it ?,0.4019,positive
+ASUS VivoBook 16 X1605,i'm selling my asus vivobook s 16 (model s5606ma).,0.0,neutral
+ASUS VivoBook 16 X1605,"this is a premium ultrabook that's only a few months old ( 7 months old), in near-mint condition with no scratches, dents, or signs of wear.",-0.296,negative
+ASUS VivoBook 16 X1605,"it was primarily used for light productivity and media consumption, and it's been well-maintained.",0.0,neutral
+ASUS VivoBook 16 X1605,includes charger.,0.0,neutral
+ASUS VivoBook 16 X1605,reason for sale: shifting to mac ecosystem due to my work requirements.,0.0,neutral
+ASUS VivoBook 16 X1605,"it is currently priced at rs 92,000 - (flipkart) (true mrp - 1,12,000 -).",0.0,neutral
+ASUS VivoBook 16 X1605,"considering the perfect condition of the laptop, my asking price is rs 50,000 -.",0.5719,positive
+ASUS VivoBook 16 X1605,"edit: specifications - - intel core ultra 5 processor 125h 1.2 ghz (18mb cache, up to 4.5 ghz, 14 cores, 18 threads); intel ai boost npu - ram - 16gb lpddr5x on board - storage - 1tb m.2 nvme pcie 4.0 ssd - display - 16 inches, 3.2k resolution (40.64 cms (16), 3.2k (3200 x 2000) oled 16:10 aspect ratio, 120hz refresh rate, peak brightness 600nits, vesa certified display hdr true black 600)",0.7964,positive
+ASUS VivoBook 16 X1605,"asus vivobook 16x, creator laptop, intel core i5-13420h (16gb 512gb rtx 3050 16.0"" wuxga windows 11 home office home 2024 m365 basic (1 year validity) ) k3605vc-rp413ws 63.5k with bag",0.0,neutral
+ASUS VivoBook 16 X1605,bought an asus vivobook less than a year ago.,0.0,neutral
+ASUS VivoBook 16 X1605,a month ago it suddenly died.,-0.5574,negative
+ASUS VivoBook 16 X1605,"wouldn't boot, wouldn't charge, nothing.",0.0,neutral
+ASUS VivoBook 16 X1605,"went to two separate technicians who found no physical damage, no power supply issues, motherboard maybe dead(?).",-0.765,negative
+ASUS VivoBook 16 X1605,"oh well, it's less than a year old, it still falls under warranty!",0.3382,positive
+ASUS VivoBook 16 X1605,little did i know that dealing with asus customer service is a nightmare.,0.0,neutral
+ASUS VivoBook 16 X1605,"we persevered though, and sent the laptop in to their technicians.",0.0,neutral
+ASUS VivoBook 16 X1605,this morning i get an email saying there's water damage that costs more than the laptop is worth to fix (there's not).,-0.3182,negative
+ASUS VivoBook 16 X1605,"not asking for advice, just wanted to rant.",-0.34,negative
+ASUS VivoBook 16 X1605,thanks for reading!,0.4926,positive
+ASUS VivoBook 16 X1605,this is my first laptop.,0.0,neutral
+ASUS VivoBook 16 X1605,any cons on this.,0.0,neutral
+ASUS VivoBook 16 X1605,so that i can take care.,0.4939,positive
+ASUS VivoBook 16 X1605,what should i do in my new laptop,0.0,neutral
+ASUS VivoBook 16 X1605,"selling : asus vivobook 14 amd ryzen 5 quad core 2nd gen amd r5-3500u - (8 gb 512 gb ssd windows 10 home) x412da-ek503t thin and light laptop (14 inch, peacock blue, 1.5 kg) because clearing up, and already own a newer device.",0.5574,positive
+ASUS VivoBook 16 X1605,"everything works great, good as new.",0.7906,positive
+ASUS VivoBook 16 X1605,minor scratches on the body or issues at all.,0.0,neutral
+ASUS VivoBook 16 X1605,"asking price: 16,000 inr i am moving, that's why selling.",0.0,neutral
+ASUS VivoBook 16 X1605,"looking to sell to someone who can use it, especially students.",0.0,neutral
+ASUS VivoBook 16 X1605,this is the model ( specifications: processor and memory features processor brand amd :- :- processor name ryzen 5 quad core processor generation 2nd gen ssd yes ssd capacity 512 gb ram 8 gb ram type ddr4 processor variant amd r5-3500u clock speed 2.1 ghz with turbo boost upto 3.7 ghz memory slots 2 slots expandable memory upto 12 gb ram frequency 2400 mhz cache 6 mb graphic processor amd radeon vega 8 number of cores 4 storage type ssd operating system windows 10,0.6908,positive
+ASUS VivoBook 16 X1605,"its a month old , very fast processor 13 gen h series , lemme know if u wanna buy , kinda urgent",0.1298,positive
+ASUS VivoBook 16 X1605,"hi everyone, can i play red dead redemption 2 at 1080p resolution with high texture quality on an asus vivobook 16 laptop?",-0.4404,negative
+ASUS VivoBook 16 X1605,my specs: intel core i5-12500h intel iris xe graphics (integrated gpu) 16gb ram 512gb ssd is 1080p with others low settings but only texture quality with high.,-0.1406,negative
+ASUS VivoBook 16 X1605,"is that playable smoothly (around 30 fps), or should i lower the settings?",-0.296,negative
+ASUS VivoBook 16 X1605,"one of my familly members wanted a laptop ,mainly for medical study browsing ,watching some movies ,queit ,light and battery can last for about 5-6 hours so upon searching i found the asus vivobook 16 core ultra 5 225h which seemed to be the highest generation of core 5 and the power usage of this cpu seems ideal ,but on the real life daily usage i found no reviews of this specific model when searching so should i get it ?",-0.1531,negative
+ASUS VivoBook 16 X1605,or its battery is bad ?,-0.5423,negative
+ASUS VivoBook 16 X1605,also i stumbled upon the hp victus 15 core i5-13420h with rtx 3050 6gb vram and 8gb ram which seems ro be gaming laptop but its battery got more whr (52.5 vs 42) the asus vivobook model : asus vivobook 16-x1607ca-ul005w - intel core ultra 5-225h - intel graphics - 16gb ddr5 512 ssd,0.0,neutral
+ASUS VivoBook 16 X1605,i need to buy a laptop and i was looking into asus vivobook 16 and there is the vivobook 16 core i7-13 gen h and the ultra 5-225h model for the same price so is the ultra one better and which battery lasts better ?,0.7003,positive
+ASUS VivoBook 16 X1605,here is the specs on the one i want to buy asus vivobook 16-x1607ca- ul005w - intel core ultra 5- 225h - intel graphics - 16gb ddr5 on board - 512gb m.2 nvme - 16.0-inch wuxga (1920 x 1200) ips-level 45 ntsc 300nits 60hz - windows 11,0.0772,positive
+ASUS VivoBook 16 X1605,what is the maximum ram can be installed on this laptop (x1605va-bs52-cb) it currently has 16gb.,0.0,neutral
+ASUS VivoBook 16 X1605,if i add a 16gb (ddr4 3200mhz?),0.0,neutral
+ASUS VivoBook 16 X1605,"module, will i get a total of 24gb or 32gb?",0.0,neutral
+ASUS VivoBook 16 X1605,is 8gb or 16gb soldered to the mb?,0.0,neutral
+ASUS VivoBook 16 X1605,and is 24 or 32gb the maximum amount of ram?,0.0,neutral
+ASUS VivoBook 16 X1605,i'm looking for a laptop to use for light gaming and watching shows while travelling.,0.0,neutral
+ASUS VivoBook 16 X1605,budget ideally 350 though can stretch if i've missed something significantly better.,0.5423,positive
+ASUS VivoBook 16 X1605,"light gaming things like terraria, factorio, openttd, command and conquer (at a push maybe tempest rising) - no expectations to run anything new or graphically intensive.",0.0772,positive
+ASUS VivoBook 16 X1605,my wife's got a dell latitude 5420 (i think) from an old job which we've been using for the same tasks games as i'd likely be running so anything that performs similarly to that would fit the bill.,0.3612,positive
+ASUS VivoBook 16 X1605,we've seen the following options but i'm very out of the loop with current tech specs and no idea how the integrated graphics on either really compare.,-0.4215,negative
+ASUS VivoBook 16 X1605,i think either will meet my needs but is there something i'm missing?,-0.4215,negative
+ASUS VivoBook 16 X1605,is one or the other a real standout winner?,0.5859,positive
+ASUS VivoBook 16 X1605,are there any other options anyone would suggest?,0.0,neutral
+ASUS VivoBook 16 X1605,"asus vivobook 16 m1607ka ( amd ryzen ai 5 330 16gb ddr5 320 with all available discounts hp 15"" laptop - 15-fd0072na ( intel i5 1334u 16gb ddr4 3200mt s 350",0.0,neutral
+ASUS VivoBook 16 X1605,"between the asus vivobook 16 x1607ca-mb110w (core 5 ultra 225h) and the lenovo ideapad slim 3 83k60063lm (ryzen 7 7735hs oled), which do you recommend and why?",0.3612,positive
+ASUS VivoBook 16 X1605,"i'm interested in hearing about real-world experiences, reviews, and common problems.",0.0,neutral
+ASUS VivoBook 16 X1605,(they're both the same price.),0.0,neutral
+ASUS VivoBook 16 X1605,"asus vivobook 16 x1607ca-mb110w processor: intel core ultra 5 225h (14 cores, up to 4.9 ghz) graphics: integrated intel graphics ram: 16 gb ddr5 storage: 512 gb nvme ssd display: 16 ips wuxga 1920 1200, anti-glare operating system: windows 11 home connectivity: wi-fi 6, bluetooth 5.2 ports: usb-a, usb-c displayport and charging, hdmi lenovo ideapad slim 3 83k60063lm processor: amd ryzen 7 7735hs (8 cores 16 threads, up to 4.75 ghz) graphics: integrated radeon 680m ram: 24 gb ddr5-4800 (8 gb soldered 16 gb sodimm) storage: 1 tb ssd m.2 2242 pcie 4.0x4 display: 14 oled wuxga 1920 1200, 400 nits, 100 dci-p3 battery: 60 wh camera: hd 720p with shutter weight: from 1.33 kg materials: aluminum top, pc-abs bottom wi-fi 6 bluetooth 5.3 ports: 2 usb-a, 1 usb-c (dp 1.2 pd), hdmi 1.4, 3.5 mm headphone jack, sd card reader",0.8402,positive
+ASUS VivoBook 16 X1605,"this would be my first laptop, so i'm ignorant to these things.",-0.3353,negative
+ASUS VivoBook 16 X1605,it cost 720 usd.,0.0,neutral
+ASUS VivoBook 16 X1605,is that a good price for this laptop?,0.4404,positive
+ASUS VivoBook 16 X1605,hello im from a non tech background i brought my asus vivobook 16 i5 15th gen 6 months ago recently i have seen a small(0.5cm) gap in the bezel of my laptop on the right hand side some said it's the reflection but if its the reflection it should be on the opposite side aswell can you please tell me is it something i should be concerned of?,0.6187,positive
+ASUS VivoBook 16 X1605,"i got this asus vivo book 16 i5 15th gen ,6 months ago, but now i am able to see this gap only on one side not the other is it something i need to be concerned of?",0.0,neutral
+ASUS VivoBook 16 X1605,please help,0.6124,positive
+ASUS VivoBook 16 X1605,"hello everyone, i found an asus vivobook 16 with the following specs: intel core 7 240h processor, 16 gb ram, 1 tb ssd and a nvidia rtx 5050 graphic card for 999 euros.",0.0,neutral
+ASUS VivoBook 16 X1605,is this a good deal for a laptop for intensive work usage during the day and casual gaming?,0.5719,positive
+ASUS VivoBook 16 X1605,or should i pay 200 300 euros more and get a lenovo legion?,-0.1027,negative
+ASUS VivoBook 16 X1605,what worries me about legion laptops is their durability and motherboard issues,-0.4215,negative
+ASUS VivoBook 16 X1605,"i was given a laptop, but i don't understand it.",0.0,neutral
+ASUS VivoBook 16 X1605,"help, what works, what doesn't, and what it's good for, basically.",0.6808,positive
+ASUS VivoBook 16 X1605,"hey guys, my asus vivobook keyboard has been acting up lately and it's honestly so annoying some keys work, some don't .",-0.1258,negative
+ASUS VivoBook 16 X1605,and it kinda depends on the day.,0.0,neutral
+ASUS VivoBook 16 X1605,"sometimes i press a key and nothing happens, then later it suddenly works again.",0.0,neutral
+ASUS VivoBook 16 X1605,i have to press certain keys multiple times before they respond.,0.2732,positive
+ASUS VivoBook 16 X1605,there was no liquid spill or physical damage.,-0.6597,negative
+ASUS VivoBook 16 X1605,i already tried restarting and the issue is still there.,0.0,neutral
+ASUS VivoBook 16 X1605,"when i use an external keyboard, everything works fine.",0.2023,positive
+ASUS VivoBook 16 X1605,i don't know if this is a driver problem or if my keyboard is slowly dying has anyone experienced this?,-0.4019,negative
+ASUS VivoBook 16 X1605,what did you do to fix it?,0.0,neutral
+ASUS VivoBook 16 X1605,"hey guys, i have connnected my vivobook 16 via usb-c to the dell dock station.",0.0,neutral
+ASUS VivoBook 16 X1605,"the mouse and keyboard works fine, but the monitor (which connected with dp to the station) is not detected.",0.1027,positive
+ASUS VivoBook 16 X1605,any idea how to fix it?,0.0,neutral
+ASUS VivoBook 16 X1605,i just bought an asus vivobook 16 (model f1605va-es56) and i'm having a weird display issue.,-0.1779,negative
+ASUS VivoBook 16 X1605,the screen flickers and shows interference-like horizontal lines.,0.0,neutral
+ASUS VivoBook 16 X1605,some details: i can't apply the warranty because i shipped it to panama and the warranty only applies in the us and canada.,0.0,neutral
+ASUS VivoBook 16 X1605,"when i connect the laptop to a tv or a portable monitor, everything looks perfect.",0.5719,positive
+ASUS VivoBook 16 X1605,"in the bios and windows safe mode, the laptop screen also looks fine.",0.5719,positive
+ASUS VivoBook 16 X1605,the problem starts only when windows boots normally.,-0.4019,negative
+ASUS VivoBook 16 X1605,"i uninstalled and reinstalled the graphics drivers from the asus support page as soon as the driver installs, the problem comes back.",0.0,neutral
+ASUS VivoBook 16 X1605,"if i use windows basic display adapter, the screen is fine, but: i can't adjust brightness brightness keys on the keyboard don't work does this sound like a hardware issue, or could it still be software driver related?",-0.2268,negative
+ASUS VivoBook 16 X1605,any help is appreciated,0.7184,positive
+ASUS VivoBook 16 X1605,"i am planning to buy this model at 50k from offline asus near by store usecase : office work only and little bit media consumption and for long use not heavy gaming use asus vivobook 16 x1605va-mb1627ws processor 13th gen, intel core i5-13420h processor 2.1 ghz (12mb cache, up to 4.6 ghz, 8 cores, 12 threads) graphics intel uhd graphics display 40.64 cms (16) wuxga (1920 x 1200) display having 16:10 aspect ratio 60hz refresh rate 300nits brightness memory 16gb ddr4 ram (8gb ddr4 on board 8gb ddr4 so-dimm) expandable upto 24gb using 1x ddr4 so-dimm slot storage 512gb m.2 nvme pcie 4.0 ssd ms office microsoft 365 basic with 100gb cloud storage for 1 year office home 2024 with lifetime validity please give me your positive and negative opinion thanks",0.7351,positive
+ASUS VivoBook 16 X1605,"hi everyone, i am using an asus vivobook 16 and i'm facing a strange issue.",-0.2023,negative
+ASUS VivoBook 16 X1605,"when i use the laptop on battery power, the ethernet connection works perfectly fine with good speeds.",0.836,positive
+ASUS VivoBook 16 X1605,"however, the moment i plug in the charger (ac power), the ethernet connection basically stops working and the speed drops to 0 mbps.",-0.1531,negative
+ASUS VivoBook 16 X1605,is this a hardware grounding issue?,0.0,neutral
+ASUS VivoBook 16 X1605,has anyone else experienced this or knows a solution?,0.3182,positive
+ASUS VivoBook 16 X1605,thanks in advance for any help.,0.6808,positive
+ASUS VivoBook 16 X1605,"i had the keep in mind, its going for 949 with 21 off , so the price may change.",0.0,neutral
+ASUS VivoBook 16 X1605,"tl:dr: beautiful oled screen, pretty good battery life and a fast cpu with a very responsive screen.",0.9152,positive
+ASUS VivoBook 16 X1605,"the build quality is okay, but for the price and specs i really can't complain.",0.5473,positive
+ASUS VivoBook 16 X1605,"this is perfect for general use like media consumption, business, it work and even some light gaming like fortnite, valorant, csgo.",0.8271,positive
+ASUS VivoBook 16 X1605,"quick specs cpu: intel core ultra 7 256v (8cores, meteor lake, 28w) gpu: intel arc integrated graphics display: 16 oled, 3k (2880x1800), 120hz, touchscreen, pen support ram: 16gb lpddr5x storage: 512ssd (pcie gen 4) battery: 70wh weight: 4.1 lbs os: windows 11 copilot ready performance productivity multitasking: everyday stuff (40 chrome tabs, streaming, ms office, slack, etc.)",0.6369,positive
+ASUS VivoBook 16 X1605,was completely smooth.,0.0,neutral
+ASUS VivoBook 16 X1605,copilot ai features also make quick work of summarizing docs and handling context searches.,0.0,neutral
+ASUS VivoBook 16 X1605,"creative work: in davinci resolve, basic editing with luts was fine, though export times were longer than something with a discrete gpu.",0.743,positive
+ASUS VivoBook 16 X1605,photoshop and lightroom both benefited from the oled panel colors pop and editing feels more precise.,0.0,neutral
+ASUS VivoBook 16 X1605,"gaming: this is not a dedicated gaming laptop, but arc graphics are surprisingly capable for casual titles.",0.7691,positive
+ASUS VivoBook 16 X1605,"valorant (1080p high): 90 110 fps genshin impact (1080p medium): 60 fps cyberpunk 2077 (1080p low): 35 fps stick to esports or lighter games, and you'll be fine.",0.2023,positive
+ASUS VivoBook 16 X1605,"fortnite ( performance mode): 70-90 fps display build the 16 oled 3k panel is the star here: deep blacks, 100 dci-p3 coverage, hdr support, and buttery 120hz scrolling.",0.4019,positive
+ASUS VivoBook 16 X1605,"touchscreen responsiveness is excellent, with minimal input lag.",0.3182,positive
+ASUS VivoBook 16 X1605,works well with both finger and stylus.,0.2732,positive
+ASUS VivoBook 16 X1605,"the hinge feels sturdy , though flipping a 16 laptop into tablet mode is bulky compared to 13 14 options.",0.0,neutral
+ASUS VivoBook 16 X1605,"great for tent and stand mode, less so for handheld tablet use.",0.6249,positive
+ASUS VivoBook 16 X1605,"build is mostly aluminum, solid, though not ultra-premium like a yoga 9i.",-0.1306,negative
+ASUS VivoBook 16 X1605,"battery life mixed use (web, docs, streaming, light multitasking): 8 10 hours heavy use (editing, multiple apps, brightness at 80 ): 5 hours gaming: 2 3 hours max not class-leading, but respectable for a 16 oled 2-in-1.",-0.4954,negative
+ASUS VivoBook 16 X1605,"thermals fan noise idle light use: fans often silent or very quiet under heavy load: fans are noticeable but not intrusive ( 42 45 db i think) temps: cpu 85 c under sustained load, chassis warm but never uncomfortable.",0.6981,positive
+ASUS VivoBook 16 X1605,arc graphics also stay in check.,0.0,neutral
+ASUS VivoBook 16 X1605,"comparison vs other touchscreen options hp spectre x360 16 ( spectre wins on premium build and performance, but costs more.",0.3291,positive
+ASUS VivoBook 16 X1605,"lenovo yoga 9i 16 ( yoga has better speakers and bit better performance, but again, higher priced.",0.4404,positive
+ASUS VivoBook 16 X1605,"dell inspiron 16 2-in-1 ( dell competes on value, but its display isn't as good as asus s oled.",-0.3419,negative
+ASUS VivoBook 16 X1605,"for the money, the vivobook 16 flip beats most alternatives if you care most about display quality and overall value.",0.6808,positive
+ASUS VivoBook 16 X1605,"pros cons pros: gorgeous 16 oled 3k 120hz display (very responsive as well) strong productivity performance with intel ultra 7 256v good value for a large 2-in-1 solid hinge and build quality cons: arc graphics limited for heavy gaming (but can handle basic ones) battery life is decent, not outstanding a bit bulky in tablet mode speakers are just okay tips for buyers use ctt debloat ( get rid of bloatware and boosts performance update intel arc drivers often , performance gains with each release thermal respaste every 2 years use tent stand mode for streaming or stylus work, more comfortable than full tablet mode final verdict th e asus vivobook 16 flip oled ( is a strong buy if you want a large, premium-feeling 2-in-1 without paying 1,400 .",0.9749,positive
+ASUS VivoBook 16 X1605,"the oled display alone makes it worth it, and combined with solid multitasking performance, it's one of the better values in the convertible category right now.",0.7269,positive
+ASUS VivoBook 16 X1605,"if you need serious gpu power or the absolute thinnest lightest design, look elsewhere.",-0.0772,negative
+ASUS VivoBook 16 X1605,"but if your priorities are screen quality, versatility, and price and basic use performance , this one s hard to beat.",-0.1531,negative
+ASUS VivoBook 16 X1605,"heads up: i do have affiliate links in this review, means if you buy from it i will get a of it as commissions.",0.0,neutral
+ASUS VivoBook 16 X1605,"it ofc does not cost you extra, and helps me keep making reviews like this) if you have any questions or concerns lmk!",0.6588,positive
+ASUS VivoBook 16 X1605,"also if you think this was informational, please upvote it :)",0.6486,positive
+ASUS VivoBook 16 X1605,hello all!,0.0,neutral
+ASUS VivoBook 16 X1605,i just purchased a new 2025 model of this asus vivobook 16 flip and have run into a problem almost right away.,-0.4019,negative
+ASUS VivoBook 16 X1605,the screen (which is admittely very gorgeous thanks to the oled panel) is rapidly flickering these horizontal bands of colorful static noise.,0.8162,positive
+ASUS VivoBook 16 X1605,"here's a short vid to demonstrate: definitely plan on returning it, but now a little worried about exchanging for a replacement.",-0.1307,negative
+ASUS VivoBook 16 X1605,does anyone has long term experience with this laptop?,0.0,neutral
+ASUS VivoBook 16 X1605,"i.e, did i just get a rare unlucky lemon, or is this the sort of problem that can creep up over time (especially once the warranty is up ).",-0.4576,negative
+ASUS VivoBook 16 X1605,is this par for the course with 2-1 laptops because of the hinge?,0.0,neutral
+ASUS VivoBook 16 X1605,or with the oled screen?,0.0,neutral
+ASUS VivoBook 16 X1605,hello everyone i have a question can i increase ram on my asus vivobook 16 m1605 it has 2 ram slots and it currently it has 16gb of ram on official site it says that you can't increase ram above 16 but as i check on internet the cpu(ryzen 5 7530u) can support 32gb of ram so is it worth to upgrade?,0.8223,positive
+ASUS VivoBook 16 X1605,"so i got this laptop literally today, it's an asus vivobook 16 flip and for some reason the screen just artifacts and tears whenever something is moving on the screen.",-0.2263,negative
+ASUS VivoBook 16 X1605,sometimes even static images sometimes do this.,0.0,neutral
+ASUS VivoBook 16 X1605,i tried installing the drivers but it's very finicky.,0.0,neutral
+ASUS VivoBook 16 X1605,please help :(,0.2732,positive
+ASUS VivoBook 16 X1605,"hey everyone, i'm looking to buy a new laptop and have been setting my sights on this particular asus model.",0.0,neutral
+ASUS VivoBook 16 X1605,but i can't tell if its 16gb ram is upgradeable.,0.0,neutral
+ASUS VivoBook 16 X1605,the asus webpage for that specific model is somewhat confusing in its description on whether that could be done.,-0.1548,negative
+ASUS VivoBook 16 X1605,does anyone have any knowledge or experience with that model and can shed some light on it?,0.0,neutral
+ASUS VivoBook 16 X1605,"i would also appreciate any other feedback on the model overall (build quality, touch screen quality, etc.)",0.4019,positive
+ASUS VivoBook 16 X1605,thanks!,0.4926,positive
+ASUS VivoBook 16 X1605,total budget (in local currency) and country of purchase.,0.0,neutral
+ASUS VivoBook 16 X1605,please do not use usd unless purchasing in the us: canada - cad are you open to refurbs used?,0.3182,positive
+ASUS VivoBook 16 X1605,"yes - if from trusted sources how would you prioritize form factor (ultrabook, 2-in-1, etc.",0.7003,positive
+ASUS VivoBook 16 X1605,"), build quality, performance, and battery life?",0.0,neutral
+ASUS VivoBook 16 X1605,prioritizing nothing less than intel core i5 or amd ryzen 5. minimum 16 gb ram and 512 gb ssd.,0.0,neutral
+ASUS VivoBook 16 X1605,would like battery life to be around 5-6 hours how important is weight and thinness to you?,0.5106,positive
+ASUS VivoBook 16 X1605,not important do you have a preferred screen size?,-0.1511,negative
+ASUS VivoBook 16 X1605,"if indifferent, put n a. ideally 14'' - 16'' are you doing any cad video editing photo editing gaming?",0.25,positive
+ASUS VivoBook 16 X1605,list which programs games you desire to run.,0.4019,positive
+ASUS VivoBook 16 X1605,"no cad or heavy software usage if you're gaming, do you have certain games you want to play?",0.3818,positive
+ASUS VivoBook 16 X1605,at what settings and fps do you want?,0.0772,positive
+ASUS VivoBook 16 X1605,"no gaming any specific requirements such as good keyboard, reliable build quality, touch-screen, finger-print reader, optical drive or good input devices (keyboard touchpad)?",0.5574,positive
+ASUS VivoBook 16 X1605,"nothing in particular, just good reliability leave any finishing thoughts here that you may feel are necessary and beneficial to the discussion.",0.6808,positive
+ASUS VivoBook 16 X1605,"i'm a 2nd-year mechanical engineering student and am looking for a laptop with good specs that can perform basic tasks, work, and daily usage and last a relatively long time.",0.4404,positive
+ASUS VivoBook 16 X1605,"i found this asus vivobook 16 on bestbuy for 700 with the following specs: cpu: intel core i7 ram: 16 gb storage: 1tb ssd integrated gpu it looks like a good deal, and the specs seem to be really worth it for the price.",0.7645,positive
+ASUS VivoBook 16 X1605,i was hoping someone more knowledgeable on laptops or who has experienced this laptop before might shed some insight as to whether the deal is worth it.,0.5719,positive
+ASUS VivoBook 16 X1605,"all advice, alternatives, and suggestions are greatly appreciated.",0.5563,positive
+ASUS VivoBook 16 X1605,"hey everyone, i'm planning to buy a laptop in the 50 55k range in india, mainly for: college work (coding, browsing, ms office, online classes) occasional ml ai experiments (mostly on google colab, so i don't need a heavy gpu) long battery life is important (i'll carry it to campus daily).",0.2023,positive
+ASUS VivoBook 16 X1605,i shortlisted these: 1. lenovo ideapad i5-13420h (83k100cgin) 2. asus vivobook 16 i5-13420h (x1605va-mb1627ws) can anyone who owns these laptops share their real battery backup experience?,0.296,positive
+ASUS VivoBook 16 X1605,"also, between these two, which one has better thermals, display, and long-term reliability?",0.4404,positive
+ASUS VivoBook 16 X1605,i've narrowed my search down to six laptops and i'm aiming to buy it on-sale - probably during black friday.,0.0,neutral
+ASUS VivoBook 16 X1605,"i'm looking for an all-arounder for weekday use - something that can get me out of the house and working at a cafe (word and light image processing) that can also handle some mid-weight gaming for the next few years (think vermintide 2, world of warcraft, factorio, slay the spire, etc.)",0.0,neutral
+ASUS VivoBook 16 X1605,"it seems like the biggest jump in price is due to a dedicated graphics card, but i'm getting stuck in the weeds in the higher priced models because the variables start to change.",0.0644,positive
+ASUS VivoBook 16 X1605,"(the legion 5 is smaller and heavier, which is wild) can anyone help me narrow down the list a bit?",0.4019,positive
+ASUS VivoBook 16 X1605,or point out any differences i may not have thought about from these six?,0.0,neutral
+ASUS VivoBook 16 X1605,"model price size and weight storage memory gpu cpu :- :- :- :- :- :- :- asus vivobook 16 699.99 16"" 4.14lbs.",0.0,neutral
+ASUS VivoBook 16 X1605,"512gb ssd 16gb ddr5 ""amd radeon graphics"" amd ryzen ai 350 asus vivobook 16 899.99 16"" 4.14lbs.",0.0,neutral
+ASUS VivoBook 16 X1605,"1tb ssd 16gb ddr5 ""amd radeon graphics"" amd ryzen ai 340 asus v16 949.99 16"" 4.3 lbs.",0.0,neutral
+ASUS VivoBook 16 X1605,"512gb ssd 16gb ddr5 rtx 3050 intel core 7 2.5 ghz lenovo p1 1189.00 16"" 3.92 lbs 512gb ssd 16gb ddr5 rtx a1000 intel i7 4.0 ghz lenovo legion 5 1314.99 15"" 4.1 lbs 512gb ssd 16gb ddr5 rtx 5050 amd ryzen 7 260 3.8 ghz lenovo ideapad pro 5 1349.99 16"" 3.83 lbs 512gb ssd 16gb ddr5 rtx 5050 amd ryzen ai 340 2.0 ghz total budget (in local currency) and country of purchase.",0.0,neutral
+ASUS VivoBook 16 X1605,"please do not use usd unless purchasing in the us: usd 1300, but performance-per-dollar is most important are you open to refurbs used?",0.5089,positive
+ASUS VivoBook 16 X1605,"no how would you prioritize form factor (ultrabook, 2-in-1, etc.",-0.296,negative
+ASUS VivoBook 16 X1605,"), build quality, performance, and battery life?",0.0,neutral
+ASUS VivoBook 16 X1605,performance build quality battery life form factor how important is weight and thinness to you?,0.2023,positive
+ASUS VivoBook 16 X1605,moderately.,0.0,neutral
+ASUS VivoBook 16 X1605,it shouldn't be a hulking massive thing - but i'm not going to flinch at a few tenths of a pound.,0.0,neutral
+ASUS VivoBook 16 X1605,do you have a preferred screen size?,0.0,neutral
+ASUS VivoBook 16 X1605,"if indifferent, put n a.",-0.2023,negative
+ASUS VivoBook 16 X1605,"15"" are you doing any cad video editing photo editing gaming?",0.0,neutral
+ASUS VivoBook 16 X1605,list which programs games you desire to run.,0.4019,positive
+ASUS VivoBook 16 X1605,"gaming, and maybe light image processing - think vermintide 2, world of warcrarft, factorio, etc.",0.0,neutral
+ASUS VivoBook 16 X1605,"i'm not hunting for the best specs, but i'd like to be able to play games on it over the next few years if i bring it over to a friend's house.",0.8381,positive
+ASUS VivoBook 16 X1605,"if you're gaming, do you have certain games you want to play?",0.5859,positive
+ASUS VivoBook 16 X1605,at what settings and fps do you want?,0.0772,positive
+ASUS VivoBook 16 X1605,"fps doesn't matter, but performance does.",-0.0096,neutral
+ASUS VivoBook 16 X1605,"games should be buttery smooth, and i'm ok plugging in power to make sure that's possible (i know the legion series has long required that) any specific requirements such as good keyboard, reliable build quality, touch-screen, finger-print reader, optical drive or good input devices (keyboard touchpad)?",0.8519,positive
+ASUS VivoBook 16 X1605,"all of these were picked from the same criteria: backlit keyboard, 15"" , relatively reliable builds, and ssds with 512gb leave any finishing thoughts here that you may feel are necessary and beneficial to the discussion.",0.4019,positive
+ASUS VivoBook 16 X1605,"i'm not familiar with the rtx a series, so comparing the jumps in price in the more expensive models is throwing me through a loop.",0.0,neutral
+ASUS VivoBook 16 X1605,"i'd love some guidance, ideas, and things to consider.",0.6369,positive
+ASUS VivoBook 16 X1605,thanks!,0.4926,positive
+ASUS VivoBook 16 X1605,laptop questionnaire total budget (in local currency) and country of purchase.,0.0,neutral
+ASUS VivoBook 16 X1605,"please do not use usd unless purchasing in the us: under 2,500 (aud) are you open to refurbs used?",0.3182,positive
+ASUS VivoBook 16 X1605,"how would you prioritize form factor (ultrabook, 2-in-1, etc.",0.0,neutral
+ASUS VivoBook 16 X1605,"), build quality, performance, and battery life?",0.0,neutral
+ASUS VivoBook 16 X1605,"2-in-1, reasonable quality and battery life how important is weight and thinness to you?",0.2023,positive
+ASUS VivoBook 16 X1605,2.5 kg do you have a preferred screen size?,0.0,neutral
+ASUS VivoBook 16 X1605,"16"" are you doing any cad video editing photo editing gaming?",0.0,neutral
+ASUS VivoBook 16 X1605,list which programs games you desire to run.,0.4019,positive
+ASUS VivoBook 16 X1605,"- some photo editing, but not intendive, some 2d design work.",0.0,neutral
+ASUS VivoBook 16 X1605,not being used for intensive gaming.,0.0,neutral
+ASUS VivoBook 16 X1605,"if you're gaming, do you have certain games you want to play?",0.5859,positive
+ASUS VivoBook 16 X1605,"at what settings and fps do you want n a any specific requirements such as good keyboard, reliable build quality, touch-screen, finger-print reader, optical drive or good input devices (keyboard touchpad)?",0.7269,positive
+ASUS VivoBook 16 X1605,"intel ultra 7, 32gb ram, 1 tb sdd.",0.0,neutral
+ASUS VivoBook 16 X1605,i've identified 2 that look like they met what i want: asus vivobook 16 flip oled tp3607sa and msi summit 16 ai evo a2hmtg-034a.,0.4215,positive
+ASUS VivoBook 16 X1605,prices and most specs are similar.,0.0,neutral
+ASUS VivoBook 16 X1605,key differences are: asus vivobook is ultra 7 258v while msi summit isltra 7 255h.,0.0,neutral
+ASUS VivoBook 16 X1605,"asus monitor is 3k 120hz oled display, while msi summit is qhd (2560x1600), 165hz does anyone have any experience with either both of these, any thoughts on which is better or suggestions for another brand model?",0.4404,positive
+ASUS VivoBook 16 X1605,"hey i just bought asus vivo 16 x for 60,000 mostly for college, but the problem is that its battery is draining like crazy for better understanding (95 to 45 in one hour 20 minute).",0.1154,positive
+ASUS VivoBook 16 X1605,is it normal ?,0.0,neutral
+ASUS VivoBook 16 X1605,what should i do guy please help!,0.6476,positive
+ASUS VivoBook 16 X1605,i'm torn between the two as they have very similar specs however the lenovo costs a bit more and i've heard good reviews about the yoga 7. please let me know your thoughts.,0.4939,positive
+ASUS VivoBook 16 X1605,"the lenovo yoga has the 8000 series ryzen professor, while the asus has a ryzen 7 7000 series.",0.0,neutral
+ASUS VivoBook 16 X1605,"both have 16gb ram, similar storage.",0.0,neutral
+ASUS VivoBook 16 X1605,asus: lenovo: thanks!,0.4926,positive
+ASUS VivoBook 16 X1605,"hello everyone, i'm thinking of gifting my dad a budget laptop.",0.0,neutral
+ASUS VivoBook 16 X1605,my budget range is 500-600 euros.,0.0,neutral
+ASUS VivoBook 16 X1605,"he needs the laptop mostly for trading, stock markets and sometimes for streaming youtube videos.",0.0,neutral
+ASUS VivoBook 16 X1605,i encountered with this asus vb 16. it's 499 in mediamarkt.,0.0,neutral
+ASUS VivoBook 16 X1605,what do you guys think?,0.0,neutral
+ASUS VivoBook 16 X1605,is it worth it?,0.2263,positive
+ASUS VivoBook 16 X1605,or should i explore another options too?,0.0,neutral
+ASUS VivoBook 16 X1605,can you recommend me the best budget laptop within 500-600 euros?,0.7717,positive
+ASUS VivoBook 16 X1605,i would like to have a good screen like hp is having so called old display and i'm worried about the long lasting performance for asus coz some reviews are bad also?,0.296,positive
+ASUS VivoBook 16 X1605,so i dropped my work laptop and the screen is half broken.,-0.4767,negative
+ASUS VivoBook 16 X1605,"looking for a cheap replacement, preferably under 350 but open to anything under 500. the two i have narrowed down to are: lenovo ideapad 1 ( asus vivobook 16 ( or anything you think is sustainably better.",0.5927,positive
+ASUS VivoBook 16 X1605,the only requirement is that it has an hdmi port.,0.0,neutral
+ASUS VivoBook 16 X1605,"otherwise, this is a google docs machine and occasionally can handle a youtube video zoom (i'm a teacher).",0.0,neutral
+ASUS VivoBook 16 X1605,i'm leaning the ideapad because the specs seem similar enough and cheaper.,0.0,neutral
+ASUS VivoBook 16 X1605,is there anything that i am missing?,-0.296,negative
+ASUS VivoBook 16 X1605,is there a reason why i shouldn't go with any of these or is there a much better option in the same price range?,0.4404,positive
+ASUS VivoBook 16 X1605,to keep with the best practices of the sub total budget (in local currency) and country of purchase.,0.6369,positive
+ASUS VivoBook 16 X1605,"please do not use usd unless purchasing in the us: prefer under 350, must be under 500 are you open to refurbs used?",0.3182,positive
+ASUS VivoBook 16 X1605,"not really but kinda open how would you prioritize form factor (ultrabook, 2-in-1, etc.",0.0,neutral
+ASUS VivoBook 16 X1605,"), build quality, performance, and battery life?",0.0,neutral
+ASUS VivoBook 16 X1605,"hdmi, price, battery life.",0.0,neutral
+ASUS VivoBook 16 X1605,in that order how important is weight and thinness to you?,0.2023,positive
+ASUS VivoBook 16 X1605,somewhat but not a deal breaker.,0.0,neutral
+ASUS VivoBook 16 X1605,do you have a preferred screen size?,0.0,neutral
+ASUS VivoBook 16 X1605,"if indifferent, put n a. no are you doing any cad video editing photo editing gaming?",-0.4588,negative
+ASUS VivoBook 16 X1605,list which programs games you desire to run.,0.4019,positive
+ASUS VivoBook 16 X1605,"no if you're gaming, do you have certain games you want to play?",0.3818,positive
+ASUS VivoBook 16 X1605,at what settings and fps do you want?,0.0772,positive
+ASUS VivoBook 16 X1605,"no any specific requirements such as good keyboard, reliable build quality, touch-screen, finger-print reader, optical drive or good input devices (keyboard touchpad)?",0.5574,positive
+ASUS VivoBook 16 X1605,hdmi leave any finishing thoughts here that you may feel are necessary and beneficial to the discussion.,0.4019,positive
+ASUS VivoBook 16 X1605,"hello guys, i want to get a computer that can have good battery life and also to work with some applications like autocad, pycharm etc.",0.6908,positive
+ASUS VivoBook 16 X1605,but i will not regularly use these apps.,0.0,neutral
+ASUS VivoBook 16 X1605,"i just saw the laptop that is in my budget: asus vivobook 16 x1605za-mb003w, notebook, mit 16 zoll display, intel core i5,i5-1235u prozessor, 8 gb ram, 512 gb ssd, intel iris xe, silber, windows 11 home (64 bit) prozessor intel core i5-1235u prozessor 12 mb cache, bis zu 4,40 ghz, mit ipu battery type li-polymer battery capacity 42 wh battery number 1 number of battery cells 3 power adapter 45 watts could you please tell me if it is suitable or recommended because i don't have ideas about laptop s features.",0.5719,positive
+ASUS VivoBook 16 X1605,"hi, looking to pull the trigger on this today.",0.0,neutral
+ASUS VivoBook 16 X1605,is this a good deal?,0.4404,positive
+ASUS VivoBook 16 X1605,"asus vivobook 16 16"" laptop - indie black (intel core i5-1335u 16gb ram 1tb ssd windows 11) 649 cad can anyone suggest something better?",0.4404,positive
+ASUS VivoBook 16 X1605,in the market for a 750 or less laptop.,0.0,neutral
+ASUS VivoBook 16 X1605,"primary use is to support some classwork at a remote site that my aging chromebook just isn't going to work for, but also to replace an old all-in-one desktop of mine that recently gave up the ghost.",-0.2732,negative
+ASUS VivoBook 16 X1605,"primary use long term will be document work, video music consumption, probably some light gaming though it's a laptop so it would be older titles i have kicking about in my steam library (older total war titles if i'm lucky at best i'd imagine).",0.4767,positive
+ASUS VivoBook 16 X1605,i'm thinking something that will be still serviceable 2-3 years from now before replacement.,0.0,neutral
+ASUS VivoBook 16 X1605,i've been out of the pc-judging market for ages though and my skills have atrophied to near uselessness here.,-0.3818,negative
+ASUS VivoBook 16 X1605,prodding about i seem to have come up with two probable candidates: dell inspiron 16 asus vivobook 16 from what i can tell they're quite similar with probably a slight advantage to the asus because it has 50 more memory.,0.25,positive
+ASUS VivoBook 16 X1605,i'm out of my league these days however (for now).,0.0,neutral
+ASUS VivoBook 16 X1605,are these two basically interchangeable?,0.0,neutral
+ASUS VivoBook 16 X1605,is there something in the same general neighborhood that is better?,0.4404,positive
+ASUS VivoBook 16 X1605,is there much noteworthy in the space above these at 650 to the 750 price point i originally figured on?,0.0,neutral
+ASUS VivoBook 16 X1605,"if i pushed the ceiling up to 1,000 what do i stand to gain?",0.5267,positive
+ASUS VivoBook 16 X1605,"that seems to be where whole-hog gaming laptops start to show up, but at this point capabilities like that aren't really a priority.",0.5023,positive
+ASUS VivoBook 16 X1605,que laptop me recomiendan para m carera de ingenier a civil.,0.0,neutral
+ASUS VivoBook 16 X1605,"programas como autocad, sketchup, excel, etc.",0.4588,positive
+ASUS VivoBook 16 X1605,"acer aspiron 3 rizen 7 7730u 16gb ram: 10,900 mx 635 usd asus vivobook 16 ryzen 7 7730u 16gb ram: 13,600 mx 792 usd",0.0,neutral
+ASUS VivoBook 16 X1605,"hello, what's the maximum wattage an asus vivobook 16 pro uses?",0.0,neutral
+ASUS VivoBook 16 X1605,mine has an i9-13900h (80 w max before boost) and an rtx 4060 (65 w max).,0.0,neutral
+ASUS VivoBook 16 X1605,"what i feel is that the wattage is limited due to cooling and chassis size; in reality, these specs would need 180 w .",-0.2263,negative
+ASUS VivoBook 16 X1605,i tried bios flashing and managed to raise my rtx 4060 to a 105 w limit.,0.0,neutral
+ASUS VivoBook 16 X1605,"during heavy gaming, i now see around 85 w max sustained.",0.0,neutral
+ASUS VivoBook 16 X1605,"i use an external cooler, so temperatures stay under control.",0.0,neutral
+ASUS VivoBook 16 X1605,"so my question is: is it worth getting a 180 w charger or even a 230 w one, or is the system hard-coded to not exceed 150 w anyway?",0.2263,positive
+ASUS VivoBook 16 X1605,"i'm planning to get a charger regardless, so should i stick with 150 w or try 180 w ?",0.0,neutral
+ASUS VivoBook 16 X1605,the asus has rtx 5060 with a i5 210 and the lenovo has a rtx 4060 with a ryxen 7 7435 lenovo price 900 euro asus price 970 euro,0.0,neutral
+ASUS VivoBook 16 X1605,"hi guys, i know it's not the perfect place to ask but i have asus vivobook 16 and i have installed a linux distribution , for some reason the wifi is not even showing or working and no solution really worked, but i arrived in a conclusion that the asus laptops have mediatek chipset for wifi and for some reason it's not in my system and i need to install it , it's mt7902 or mt7921 firmware (.bin) file or files ( i don't fully understand firmwares tbh) and i can't find it any where online , so any help thanks",0.8108,positive
+ASUS VivoBook 16 X1605,so for background - i'm an older guy who's been gaming forever.,0.0,neutral
+ASUS VivoBook 16 X1605,"some of the games i play are quite old, but i would like to play some of the newer games occasionally.",0.7935,positive
+ASUS VivoBook 16 X1605,i will not be playing games 24 7 on this thing - a good portion of the time will be on netflix paramount etc.,0.32,positive
+ASUS VivoBook 16 X1605,"pricetag difference is within 100 asus vivobook pro, 16 oled display, intel core i9-13900h cpu, 16gb ram (8gb on-board ddr5 ram, 8gb so-dimm (i assume)), 1tb pcie m.2 ssd, geforce rtx 4060 gpu 8gb vs asus tuf dash 15.6"" 144hz fhd ips gaming laptop, intel 10-core i7-12650h, 64gb ddr5 ram, 2tb m.2 pcie ssd, geforce rtx 3070 8gb ------ vivobook has 4 more threads cores than the tuf on the cpu - decent bump in benchmark testing (23 ) vivobook has 17 increase in benchmark on the gpu tuf has double the system ram tuf has double the ssd storage (considering the lack of details on the m.2 and ssd, i can't really compare these other than size) x200b; what would you go with, knowing that i'll also be writing code, watching streams, occasionally sitting on discord while using foundry.",-0.3477,negative
+ASUS VivoBook 16 X1605,and then sometimes wanting that hardcore gaming availability?,0.0,neutral
+ASUS VivoBook 16 X1605,"go with the tuf and have a good machine ready, just a year older?",0.6597,positive
+ASUS VivoBook 16 X1605,or go with the new rig and maybe upgrade the ssd and ram?,-0.128,negative
+ASUS VivoBook 16 X1605,"i'm quite capable of doing the upgrades myself, as i used to do laptop repairs 12 years ago.",0.4391,positive
+ASUS VivoBook 16 X1605,what are the major differences design wise between these rigs?,0.4767,positive
+ASUS VivoBook 16 X1605,i assume the tuf is going to have a better cooling system?,0.4404,positive
+ASUS VivoBook 16 X1605,any thoughts about the asus vivobook pro 16 i9-13900h rtx 4060 16 gb ram?,0.0,neutral
+ASUS VivoBook 16 X1605,"the specs look great and the screen isn't oled but it has good colors, if i would use it for casual gaming and heavy graphics work would it be a good choice or i would regret it later?",0.8294,positive
+ASUS VivoBook 16 X1605,hello!,0.0,neutral
+ASUS VivoBook 16 X1605,"i am a student, and i am trying to aim for a laptop in the 800 and below region, i know -- a little hard to find but i'm not really aiming for much?",-0.0138,neutral
+ASUS VivoBook 16 X1605,"i just want to be able to run the games i like, such as baldurs gate, the sims 4, etc.",0.4215,positive
+ASUS VivoBook 16 X1605,i doubt i'd play many if any triple a games but i guess i wouldn't want the laptop to explode when playing lol.,0.6723,positive
+ASUS VivoBook 16 X1605,"i do know that at minimum i'd like 16 ram, and hopefully 1 tb, but that can be easily come about with a hard drive, so i'm not too fussed on that.",0.6249,positive
+ASUS VivoBook 16 X1605,"my school offer these: microsoft 13 surface laptop snapdragon x plus 16gb 256gb (ocrm ep2-37003) cpu: snapdragon x plus processor - 8-core 3.4 ghz 30 mb 45 mpu tops gpu: adreno integrated graphics memory storage: 16gb ram 256gb ssd display: 13 inch pixelsense lcd display (1920x1280p pixels), full hd, touchscreen misc: weight - 1.25 kg colour - platinum hp omnibook x flip 14"" x360 laptop convertible 2 in 1, 14 touchscreen with pen (ocrm bh3e9ea) cpu: amd ryzentm ai 7 350 - 8-core 5.0 ghz gpu: amd radeontm 860m graphics (integrated) memory storage: 16gb ram 512gb ssd display: 14 inch 2k (1920x1200), touchscreen misc: weight 1.39 kg colour - meteor silver aluminum , includes pen lenovo yoga slim 7 14 ultra 7 16gb ram (ocrm 83cv0030uk) cpu: intel coretm ultra 7 155h processor- 16-core 4.8ghz gpu: integrated intel arctm graphics memory storage: 16gb ram 1tb ssd display: 14 inch full hd (1920x1200 pixels) oled misc: weight - 1.39 kg colour - luna grey asus vivobook 16 x1605va 16 - ryzen 7 16gb ram (ocrm x1605va-sh2007w) cpu: intel coretm i7-13620h processor - 10-core 2.4ghz 4.9ghz gpu: intel uhd graphics memory storage: 16gb ram 1tb ssd display: 16 inch oled (1920x1200 pixels) 16:10 aspect ratio, 300 nits misc: weight - 1.88 kg colour - indie black and then these are the accepted retailers if we choose to go outside of these choices ""box"", ""hp"", ""currys"", ""ebuyer"", ""laptopsdirect"", ""scan"", ""apple"", ""microsoft"" and ""pcspecialist"" if anyone can help me that would be greatly appreciated!",0.9039,positive
+ASUS VivoBook 16 X1605,found this good deal on amazon for an asus vivobook 16 with rtx 5060. anyone know if it's good for gaming?,0.7579,positive
+ASUS VivoBook 16 X1605,"the only catch i see might be the display, it says it's a 144 hz led panel.",0.0,neutral
+ASUS VivoBook 16 X1605,it's considerably cheaper than a legion 5 pro with the same specs.,0.0,neutral
+ASUS VivoBook 16 X1605,been rocking hp omens since 2017 (15-ax246tx gtx1050 intel i7-7700hq 16gb 256gb ssd 1tb hdd 4gb graphics).,0.0,neutral
+ASUS VivoBook 16 X1605,"it's finally time to upgrade (for windows 11, increasingly poor battery life and they're getting noisy).",-0.4767,negative
+ASUS VivoBook 16 X1605,"it seems that in the last 8 years hps rep quality has gone down hill, so i don't want to just blindly upgrade to the 2025 model of what we have now.",-0.1281,negative
+ASUS VivoBook 16 X1605,"we play a lot of low needs games (think modded minecraft raft stardew), but do sometimes have a run of ark or 7dtd which our current devices struggle with.",-0.4215,negative
+ASUS VivoBook 16 X1605,"i wanna future proof if i can since i'm a ""get at least 5 years out of the device person, as evidenced by the 8yo laptops) pb tech has 7 options in our budget (that aren't gigabyte or msi, which i've been warned against), and we're looking to buy during the big sale on november 14. i'm so out of the loop on hardware i can't really compare, and i've never used amd (the last time i had to think about it, amd wasn't considered great for gaming laptops - seems things are improved since then).",-0.3169,negative
+ASUS VivoBook 16 X1605,can anyone advise any pros and cons that should sway us to a particular one of the options below?,0.0,neutral
+ASUS VivoBook 16 X1605,"lenovo loq 15ahp10 nvidia rtx 5050 gaming laptop 15.6"" fhd 144hz amd ryzen 7 250 - 32gb ram - 1tb ssd (512g x2) - win 11 home.",0.5859,positive
+ASUS VivoBook 16 X1605,"hp victus 15-fb3106ax nvidia rtx 5050 gaming laptop 15.6"" fhd 144hz amd ryzen ai 7 350 - 32gb ram - 1tb ssd (512g x2) - win 11 home, backlit keyboard hp victus 15-fb3093dx 15.6"" fhd 144hz nvidia rtx 4050 gaming laptop amd ryzen 7 7445hs - 32gb ram - 1tb ssd - win 11 home asus vivobook 16 v3607vu nvidia rtx 4050 gaming laptop 16"" wuxga 144hz intel core 7 240h - 32gb ram - 1tb ssd - win 11 home limited stock of this one asus vivobook 16 v3607vh nvidia rtx 5050 gaming laptop 16"" wuxga 144hz intel core 7 240h - 32gb ram - 1tb ssd - win 11 home asus tuf gaming a16 fa608uh nvidia rtx 5050 gaming laptop 16"" fhd 165hz amd ryzen 7 260 - 32gb ram - 1tb ssd - win 11 home id prefer a bigger screen but can deal with 14"" if it's the best option asus tuf gaming a14 fa401kh nvidia rtx 5050 copilot pc gaming 14"" 2.5k 165hz amd ryzen ai 7 350 - 32gb ram - 1tb ssd - win 11 home",0.9704,positive
+ASUS VivoBook 16 X1605,"me gustar a ir viendo posibles laptops, me ha llamado la atenci n la lenovo loq ( 83jc00gkus ) la vi en aproximadamente 14970 mnx, unos 817 dolares, pero, veo que algunos dicen que es mejor la tuf a16, me gusta que la lenovo tenga rtx 4050, tambi n vi una asus vivobook 16 pero esta no tiene gr ficos integrados, soy nuevo en ver caracter sticas y como elegir laptops, y a lo primero que vi, es que es mejor una gr fica dedicada, pero, no se si una integrada es suficiente para lo que quiero, y de ser posible me gustar a mantenerme ppr debajo de los 20000mnx y cerca de los 15k mnx .",-0.25,negative
+ASUS VivoBook 16 X1605,"deber a ver mejor la opci n de una pc de escritorio, hab a escuchado que era el peor momento para armar una pc gamer porque han subido precios de modulos ram y las unidades de almacenamiento.",0.0,neutral
+ASUS VivoBook 16 X1605,"o a n que es lo, y ahora me surgi otra duda, vale la pena una laptop de 10000 m nimo para no lo se, a lo mejor roblox estudio y que no vaya como una patata, porque estoy viendo m s y dicen que con cualquier cosa, y que tal vez un ryzen 5 de generaci n reciente como un 7000 o un i5 11, no lo se , tambi n vi una framework 13, pero no supe ni que ni como, ayuda ppr favor",-0.6249,negative
+ASUS VivoBook 16 X1605,so i need a good advice on which laptop is better for gaming mainly.,0.7251,positive
+ASUS VivoBook 16 X1605,"asus tuf gaming a16 r5-7535hs 32gb 1tb rtx4050 144hz or asus vivobook 16 v3607vu-rp148 16"" 144hz core 5 210h 16gb ram 512gb ssd geforce rtx4050 dlss 3 ofc the first one is better parametrically but i've heard that amd are overheating quite easily.",0.6694,positive
+ASUS VivoBook 16 X1605,on a budget btw im in new zealand,0.0,neutral
+ASUS VivoBook 16 X1605,"hey reddit, i'm having a hard time deciding between a few laptops for work and personal use, and i could really use some help!",0.4321,positive
+ASUS VivoBook 16 X1605,"here are the contenders: 1. asus vivobook 16"" i7-1355u 16gb ram 1tb ssd intel iris xe graphics price: 650 taxes 2. hp pavilion 16"" core ultra 7 155u 16gb ram 512gb ssd intel iris xe graphics price: 710 taxes 3. asus vivobook 15.6"" ryzen 7 7730u 16gb ram 512gb ssd intel iris xe graphics price: 550 taxes 4. asus tuf 15.6"" i7-13620h 16gb ram 1tb ssd nvidia geforce rtx 4070 price: 1,300 taxes 5. msi cyborg 14"" i7-13620h 16gb ram 512gb ssd nvidia geforce rtx 4060 price: 1,100 taxes 6. msi sword 16 hx i7-13700hx 32gb ram 512gb ssd nvidia geforce rtx 4060 price: 1,400 taxes the deal is that my company will cover the taxes and also give me a 200 bonus on the cheaper options (under 1,000) or a 100 bonus on the more expensive ones (over 1,000).",0.7906,positive
+ASUS VivoBook 16 X1605,"i'll mostly be using the laptop for work-related tasks (i'm a software developer so i'll be coding in visual studio, android studio and vscode, etc.)",0.0,neutral
+ASUS VivoBook 16 X1605,"and some gaming on the side (although as it'll be a work laptop i'm not that sure, besides i already have a desktop pc with a 3060 and lenovo l340 which is getting old but still supports most of the light games ).",0.4155,positive
+ASUS VivoBook 16 X1605,which one would you go for and why?,0.0,neutral
+ASUS VivoBook 16 X1605,any insights are much appreciated!,0.5562,positive
+ASUS VivoBook 16 X1605,my vivibook has been making this noise every now and then (not everytime i use it) and i dunno why.,0.0,neutral
+ASUS VivoBook 16 X1605,sounds like coming from bottom of laptop.,0.3612,positive
+ASUS VivoBook 16 X1605,possible motherboard (which is worrying).,0.0,neutral
+ASUS VivoBook 16 X1605,"tho it does normally make this sound when i have an audio device swap, like changing my beats from the laptop to my phone.",0.3612,positive
+ASUS VivoBook 16 X1605,is this just an audio glitch or is my motherboard tweaking?,0.0,neutral
+ASUS VivoBook 16 X1605,"just looking at the stats and from your experience, which one is better?",0.4404,positive
+ASUS VivoBook 16 X1605,"looking for the most reliable laptop for the modest price, and these refurbished laptops are the ones that are left on the site i'm looking at (curry's uk).",0.0,neutral
+ASUS VivoBook 16 X1605,are any of these outdated or too good to be true?,0.6908,positive
+ASUS VivoBook 16 X1605,which ones would you recommend?,0.3612,positive
+ASUS VivoBook 16 X1605,"i really don't need anything special from the laptop at all, i'll only be doing light work and very light gaming on it.",-0.3089,negative
+ASUS VivoBook 16 X1605,"at the moment, i'm not going anything higher than 550. asus vivobook 16 x1605va 16"" refurbished laptop - intel core i5, 512 gb ssd, silver (very good condition) 399.00 acer aspire 14 14"" refurbished laptop - intel core 5, 512 gb ssd, grey (excellent condition) 429.00 samsung galaxy book4 edge 15.6"" refurbished laptop, copilot pc - snapdragon x plus, 256 gb ssd, sapphire blue (very good condition) 499.00 - 3.5 samsung galaxy book4 (2024) 15.6"" refurbished laptop - intel core 5, 256 gb ssd, grey (very good condition) 499.00 acer swift go 14 ai 14.5"" refurbished laptop, copilot pc - snapdragon x plus, 1 tb ssd, grey (very good condition) 519.00 asus vivobook 15 oled x1505va 15.6"" refurbished laptop - intel core i5, 512 gb ssd, silver (excellent condition) 529.00 acer swift go 14"" refurbished laptop - intel core i5, 512 gb ssd, silver (very good condition) 549.00 acer aspire vero av16-51p 16"" refurbished laptop - intel core ultra 5, 512 gb ssd, grey (very good condition) 549.00 asus vivobook s 15 s5504vn 15.6"" refurbished laptop - intel core i5, 512 gb ssd, silver (very good condition) 549.00 acer aspire vero av16-51p 16"" refurbished laptop - intel core ultra 7, 1 tb ssd, grey (very good condition) 549.00 thank you in advance!",0.981,positive
+ASUS VivoBook 16 X1605,"hey, i'm in the market for a new laptop and, not being the most well-informed, want some second opinions.",0.1477,positive
+ASUS VivoBook 16 X1605,"i got a desktop computer for my work and gaming, but i definitely want a new laptop for when i'm on the road.",0.6124,positive
+ASUS VivoBook 16 X1605,"this would definitely be used almost exclusively for work, i'm not looking to play games on it (if it can handle it, i'll take it as a bonus).",0.169,positive
+ASUS VivoBook 16 X1605,"for context, i do a lot of editing and music work with software like adobe, fl studio, and da vinci resolve, so i want my specs to be able to handle all these without much issue.",0.7042,positive
+ASUS VivoBook 16 X1605,"i'm also not looking to break the bank, something that'll get the job done, doesn't have to have the most top of the line specs.",0.2716,positive
+ASUS VivoBook 16 X1605,"i found some laptops in a good price range that i feel might fit my goals, i'll link them below, but if anyone has any opinions on them or another computer that might be better suited, i'd love to hear from you.",0.9239,positive
+ASUS VivoBook 16 X1605,thanks!,0.4926,positive
+ASUS VivoBook 16 X1605,"has a much better gpu, but slightly worse cpu.",-0.4138,negative
+ASUS VivoBook 16 X1605,id assume worse battery life and a less colour accurate display.,-0.4767,negative
+ASUS VivoBook 16 X1605,( only has an igpu but a better cpu.,0.5927,positive
+ASUS VivoBook 16 X1605,id assume better battery life and a more colour accurate display.,0.4404,positive
+ASUS VivoBook 16 X1605,"hi guys, i recently bought a laptop with ryzen 7 and i wondered about the vram because it has integrated graphics.",0.0,neutral
+ASUS VivoBook 16 X1605,i checked and it only has 512 vram.,0.0,neutral
+ASUS VivoBook 16 X1605,"my question is, can i increase the vram?",0.3182,positive
+ASUS VivoBook 16 X1605,"i've been watching videos but none of them really worked for me, thanks.",0.5927,positive
+ASUS VivoBook 16 X1605,ps: my laptop is an asus vivobook 16.,0.0,neutral
+ASUS VivoBook 16 X1605,"so, i'm currently doing something i wished i would never have to do again, i'm getting myself a laptop.",0.0,neutral
+ASUS VivoBook 16 X1605,"as much as love my desktop, i can't take it with me to college or work when i leave the house, so i need something portable.",0.6124,positive
+ASUS VivoBook 16 X1605,"i luckily don't need nothing too powerful, because anything more demanding will still be done at home.",-0.058,negative
+ASUS VivoBook 16 X1605,"all i need is a good laptop where i can code and run some of the ee software i use, like ltspice, which tends to favor just cpu usage.",0.7964,positive
+ASUS VivoBook 16 X1605,"no gaming, rendering or anything fancy.",-0.296,negative
+ASUS VivoBook 16 X1605,"as much as i would like to say otherwise, money is an issue, so i landed on a more affordable option, an asus vivobook.",0.3612,positive
+ASUS VivoBook 16 X1605,"the thing is, i found two option of the same line that are pretty similar, and don't know which one is best.",0.8126,positive
+ASUS VivoBook 16 X1605,"my options are: asus vivobook 15 ryzen 7 4800h 8 8gb ddr4 3200mhz 15.6' ips screen r 2614 - usd 524 asus vivobook 16 core i7 1255u 8 gb ddr4 3200mhz 16' ips screen r 2910 - usd 583 extra 8gb usd 30 total r 3060 - usd 613 both have 256gb ssd, which is small but i think will be enough for what i'll need and it's easy to upgrade latter.",0.5927,positive
+ASUS VivoBook 16 X1605,i might also try using it as a linux machine to see if i can make the switch for good.,0.4404,positive
+ASUS VivoBook 16 X1605,what you guys think?,0.0,neutral
+ASUS VivoBook 16 X1605,all help is apreciated.,0.4019,positive
+ASUS VivoBook 16 X1605,"hey guys, so today i got delivered my new ram stick and went into my laptop to upgrade it when opend the back and replaced the ram (i have a asus vivobook 16 pro) and it has a small metal lid that you have to put it over the ram stick and when doing just that the laptop (i forgot to disconnect the battery) fans start full blast, i quickly disconnect the battery and went to turn it on and all that it happend was the keybord lighted up and thats it nothing on the screen no fans started and i could start to feel the copper pipes on the cpu and gpu heating up so i shut it all down.",-0.296,negative
+ASUS VivoBook 16 X1605,i really need some help because the only service in my town is known for damaging and scraching peoples laptops and phones and when i asked asus for help they told me if i opend the laptop i damaged the warranty and if not i should go to the same repaire shop becasue they are asus certified.,-0.0702,negative
+ASUS VivoBook 16 X1605,thanks for reading this long problem of mine and hope someone can help me fix it and don't worry that i won't understand because i know a lot about computers and pc in general.,0.8023,positive
+ASUS VivoBook 16 X1605,"hi, i can't decide which version i should pick, does someone have experience with this cpu or vivobook?",0.0,neutral
+ASUS VivoBook 16 X1605,is there a difference at all?,0.0,neutral
+ASUS VivoBook 16 X1605,"for some context, i'm going to be using it for university, studying computer science.",0.0,neutral
+ASUS VivoBook 16 X1605,"have a pc which is powerful enough for more intensive tasks (rendering, editing ect) with a r5 3600, 2060, 16gb ram.",0.4215,positive
+ASUS VivoBook 16 X1605,so this is purely for use outside of my bedroom.,0.0,neutral
+ASUS VivoBook 16 X1605,laptops linked at the end.,0.0,neutral
+ASUS VivoBook 16 X1605,i'm in the samsung ecosystem (phone watch buds) already.,0.0,neutral
+ASUS VivoBook 16 X1605,vivobook has the weaker processor but more ram.,-0.2382,negative
+ASUS VivoBook 16 X1605,book2 has expandable storage so the difference out of the box doesn't bother me.,0.2584,positive
+ASUS VivoBook 16 X1605,"i believe the screen on the vivobook is slightly worse, but the galaxy book has usb c charging which is huge imo.",0.2609,positive
+ASUS VivoBook 16 X1605,so i'm not really sure which is the better option.,0.1831,positive
+ASUS VivoBook 16 X1605,need opinions.,0.0,neutral
+ASUS VivoBook 16 X1605,thank you guys.,0.3612,positive
+ASUS VivoBook 16 X1605,"samsung galaxy book2 laptop, intel core i5 processor, 8gb ram, 256gb ssd, 15.6"" full hd (johnlewis.com) ( asus vivobook 16 m1603qa 16.0 wuxga 16:10 300nits laptop (amd ryzen 5-5600h, 16gb ram, 512gb pcie ssd, windows 11), silver : amazon.co.uk: computers accessories (",0.0,neutral
+ASUS VivoBook 16 X1605,confused between cpu's which laptop should i buy asus vivobook 16 pro intel i9 11th gen or asus vivobook 16x i5 13th gen both this are h varient and both laptop has rtx 3050 i play games and do some video editing in adobe ae and premiere pro,0.0258,neutral
+ASUS VivoBook 16 X1605,tldr: are the values of trading my laptop with this thinkpad comparable?,0.4019,positive
+ASUS VivoBook 16 X1605,"context: see photo for specs ( in march 2024 i finally bought a laptop, after 12 years of using my dell inspiron 3521 that had a slow i5-3317u processor.",0.0,neutral
+ASUS VivoBook 16 X1605,"when i bought my new laptop i was only focused on getting a great cpu, and so, i got this device with the intel i9-13900h.",0.7717,positive
+ASUS VivoBook 16 X1605,"but, i did not focus on battery life and it shocked me how bad it is!",-0.8398,negative
+ASUS VivoBook 16 X1605,"my new laptop only lasts 2 hours on average with very minor tasks like watching youtube or online meetings , so i am not getting the benefit of it being a mobile device, and of course, since the form factor of laptop is limited and not upgradable, i am not benefiting from using it stationary -as a desktop pc-.",-0.1572,negative
+ASUS VivoBook 16 X1605,"the resell value of my laptop is bad because it does not have an external gpu, if i sold it, i would lose 30-40 of its price, even though it is in great condition, so i decided to see if i can trade it with another laptop or a pc.",0.0772,positive
+ASUS VivoBook 16 X1605,"in the photo ( you see a response from someone, do you think it is a fair trade?",0.3182,positive
+ASUS VivoBook 16 X1605,"edit: i know i'd be giving up a great processor, but in return, i believe i'd be gaining an actual laptop meaning a device i can really use as a laptop, portable , currently, due to the processor and small battery, i have to connect my laptop to a power source after around 1-1.5 hours of use which defeats the purpose of it being mobile.",0.6124,positive
+ASUS VivoBook 16 X1605,and my usage scenario doesn't even utilize the processor the seller wants me to put in around 60 usd but i guess i can chalk that up as me paying for transport and the service he's providing me.,0.0,neutral
+ASUS VivoBook 16 X1605,"still, i think it's fair, no?",0.0258,neutral
+ASUS VivoBook 16 X1605,hey everyone i live in mexico and i'm looking for a new laptop.,0.0,neutral
+ASUS VivoBook 16 X1605,"amazon offers the vivobook 16 inch in two options f1605 and x1605 they are almost the same price, only 10 difference.",0.1779,positive
+ASUS VivoBook 16 X1605,"they both have exactly the same specs, i7-1355u, 16 ram, 512 ssd.",0.0,neutral
+ASUS VivoBook 16 X1605,i tried looking on the web for differences but i could find anything.,0.0,neutral
+ASUS VivoBook 16 X1605,do you know what's the difference between the two?,0.0,neutral
+ASUS VivoBook 16 X1605,so i wanted to buy the vivobook x1605 but there's so many versions of it and i don't know which one is better and i've tried looking up for any meaning regarding these serial numbers but i've come up empty handed x1605va-sk325 x1605va-fpsk60 x1605va-mb1251 x1605va-mb1254 x1605va-mb1252 please help me if you got a clue what it means,0.8462,positive
+ASUS VivoBook 16 X1605,"hi there, i need you to help me decide since i cannot decide for myself.",0.4019,positive
+ASUS VivoBook 16 X1605,"i bought a laptop this march 2024, it is an asus vivobook x1605 laptop model: x1605va-mb195 processor: intel core i9-13900h ram: 16gb ddr4 storage: 1tb m.2 nvme gpu: intel iris x graphics display: 16.0-inch wuxga (1920 x 1200) 16:10 aspect ratio ips-level panel 60hz refresh rate 300nits 45 ntsc colour gamut anti-glare display t v rheinland-certified non-touch screen battery life: 42whrs, 3s1p, 3-cell li-ion operating system: windows 11 the laptop i had before was a dell inspiron 3521, it had an i5 third-gen u processor that sucked, but i made it work with an ssd upgrade and had it for 12 years, that's why when i got my new laptop this year, i was only focused on it having a great processor, but i ran into a new problem which is: battery life sucks!",0.3699,positive
+ASUS VivoBook 16 X1605,this new laptop at best gives me 2 to 2.5 hours of battery life on regular use.,0.6369,positive
+ASUS VivoBook 16 X1605,"here is where i need your help: if you were me, how would you rectify your bad decision?",-0.2023,negative
+ASUS VivoBook 16 X1605,"keep the new laptop and operate it as a mobile workstation, knowing that i won't be enjoying its full performance compared to a pc nor would i enjoy the mobility factor due to its battery life being so low.",-0.799,negative
+ASUS VivoBook 16 X1605,"or would you resell it and take the 30-40 loss in its price, get a balanced laptop and or a mid-pc and forget about it through time.",-0.4939,negative
+ASUS VivoBook 16 X1605,"things i like about the laptop i have: great performance, really nice display, relatively high specs things i hate about it: battery life things that are somewhat annoying but not a deal-breaker: it not having an external gpu (i don't game that much) so, what would you do?",0.3167,positive
+ASUS VivoBook 16 X1605,"in order to keep my new laptop (asus vivobook x1605 i5-1335u windows11h) battery as long as possible, i bought a kasa smart plug hs103p2 and installed the app.",0.4019,positive
+ASUS VivoBook 16 X1605,i set the battery range charging from 30 to 70 .,0.0,neutral
+ASUS VivoBook 16 X1605,all seemed fine.,0.2023,positive
+ASUS VivoBook 16 X1605,i used the cmd to check the battery cycle count on 9 16 with 50 and today 9 20 with 56. why?,0.0,neutral
+ASUS VivoBook 16 X1605,i'm sure i didn't run any full cycle.,0.3182,positive
+ASUS VivoBook 16 X1605,does the battery cycle keep ticking up no matter what?,-0.2732,negative
+ASUS VivoBook 16 X1605,"if so, does the kasa app even help anything with the battery?",0.4019,positive
+ASUS VivoBook 16 X1605,"besides, i couldn't find the maximum battery cycle count number.",0.0772,positive
+ASUS VivoBook 16 X1605,thanks in advance.,0.4404,positive
+ASUS VivoBook 16 X1605,"hi there, i bought an asus laptop, model x1605va url for tech specs - look for x1605va ( because i got a really good price deal on it since it came without an operating system and i had to set it up on my own.",0.4927,positive
+ASUS VivoBook 16 X1605,"i got the model because it was maxed out i9-13900h, 1tb, 16gb ram my problem is that i overlooked asking about the battery although i'm happy with how snappy this laptop is and the good price i got it for, i am really disappointed with how poorly the battery lasts.",0.1045,positive
+ASUS VivoBook 16 X1605,can you please share solutions i can adopt to have the maximum possible battery life?,0.7096,positive
+ASUS VivoBook 16 X1605,feel free to even suggest i move to a certain linux distribution instead of windows 11. many thanks,0.8074,positive
+ASUS VivoBook 16 X1605,hello.,0.0,neutral
+ASUS VivoBook 16 X1605,im going to get a laptop for when i begin as a programming and datatechnician student for the next 6 years.,0.0,neutral
+ASUS VivoBook 16 X1605,"and i am currently leaning towards the vivobooks, but which to choose is very difficult, for me at least.",-0.5704,negative
+ASUS VivoBook 16 X1605,also because nothing is in stock on the asus webstore.,0.0,neutral
+ASUS VivoBook 16 X1605,i just need one with at least 6 cores and 16 gb ram.,0.0,neutral
+ASUS VivoBook 16 X1605,my budget if you have a suggestion is 8000 dkk (1100 usd).,0.0,neutral
+ASUS VivoBook 16 X1605,"my current pick would be the vivobook 16 x1605 with an i9, but since it isn't in stock i can't see the price.",0.0,neutral
+ASUS VivoBook 16 X1605,"what's the ram limit on the asus vivobook 16 x1605va and does it support ddr4, thank you",0.6369,positive
+ASUS VivoBook 16 X1605,"hi there, i bought an asus laptop, model x1605va url for tech specs - look for x1605va ( because i got a really good price deal on it since it came without an operating system and i had to set it up on my own.",0.4927,positive
+ASUS VivoBook 16 X1605,"i got the model because it was maxxed out i9-13900h , 1tb, 16gb ram my problem is that i overlooked asking about the battery although i'm happy with how snappy this laptop is and the good price i got it for, i am really disappointed with how poorly the battery lasts.",0.1045,positive
+ASUS VivoBook 16 X1605,can you please share solutions i can adopt to have the maximum possible battery life?,0.7096,positive
+ASUS VivoBook 16 X1605,feel free to even suggest i move to a certain linux distribution instead of windows 11. many thanks,0.8074,positive
+ASUS VivoBook 16 X1605,"hello everyone, i'm going to buy mi first own laptop and for my budget (around 800usd in my country) i have this two options: notebook gamer victus intel core i5-12500h notebook vivobook 16 x1605 cpu: intel core i9-13900h gpu: intel iris xe ram: 16gb ddr4-3200 mhz storage: 512gb ssd display: 16.0"" wuxga 60hz i'm mainly a casual gamer and have to multitask on work with different programs like adobe illustrator, power bi, chrome, etc.",0.5106,positive
+ASUS VivoBook 16 X1605,(i currently single task since my laptop can't handle it).,0.0,neutral
+ASUS VivoBook 16 X1605,i would love to have more storage in them but im more keen in cpu gpu performance.,0.7422,positive
+ASUS VivoBook 16 X1605,thanks for the help,0.6808,positive
+ASUS VivoBook 16 X1605,i am in scotland and use .,0.0,neutral
+ASUS VivoBook 16 X1605,so i'm currently looking for a laptop under 600 as my current one works very poorly and struggles with even browsers.,-0.4144,negative
+ASUS VivoBook 16 X1605,i mainly use my laptop for studying less-powerful games like rpgs.,0.3612,positive
+ASUS VivoBook 16 X1605,any help will be greatly appreciated!,0.7639,positive
+ASUS VivoBook 16 X1605,"i'm wary of refurbs used laptops, i wouldn't immediately go for it but i think i could probably be convinced performance over everything, quality as a second priority, don't care all that much about form factor or battery life.",0.0279,neutral
+ASUS VivoBook 16 X1605,"i would prefer it to be light-ish, but i'm not particularly bothered one way or the other.",0.4153,positive
+ASUS VivoBook 16 X1605,"i do enjoy mainly low-pressure games like rpgs and older titles, so something at like a minimum of 8gb ram would work for me.",0.802,positive
+ASUS VivoBook 16 X1605,"i don't think i'd need over 60fps a good keyboard is essential to me, but other features are less important.",0.404,positive
+ASUS VivoBook 16 X1605,thank you so much for any help!,0.6696,positive
+ASUS VivoBook 16 X1605,"hello folks, im trying to start in this world, and since im a university student i need something cheap and portable (notebook) and that can run some low tier games like minecraft or lol.",0.4939,positive
+ASUS VivoBook 16 X1605,is this any good?,0.4404,positive
+ASUS VivoBook 16 X1605,"notebook vivobook 16 x1605 intel core i5-1235u 16"" wuxga 60hz 12gb ram 512gb ssd windows 11 black - x1605za-mb254w could get it for 500 bucks estimately would love any help :)",0.872,positive

@@ -1,0 +1,660 @@
+laptop_name,sentence,compound_score,sentiment
+HP Omen Transcend 14,i would love to own one but the price scares me,-0.128,negative
+HP Omen Transcend 14,"first time getting a transcend laptop at my workplace, so i had to do a review on it.",0.0,neutral
+HP Omen Transcend 14,this is specifically the .,0.0,neutral
+HP Omen Transcend 14,"keep in mind i put in whatever info i thought necessary but not all, so feel free to ask any questions below!",0.7319,positive
+HP Omen Transcend 14,"tl:dr a strong compact gaming laptop with excellent oled display, solid performance, and creator friendly specs .",0.8957,positive
+HP Omen Transcend 14,the rtx 5060 and intel ultra 7 combo handles modern games and heavy apps surprisingly well for a 14 inch chassis.,0.5106,positive
+HP Omen Transcend 14,"battery life is decent for mixed work, fans get noticeable under load, and thermals are good for the size but you feel it if you push it hard.",0.09,positive
+HP Omen Transcend 14,"quick specs (what i had for testing) model: hp omen transcend 14 (2025) cpu: intel 16-core core ultra 7 255h gpu: nvidia geforce rtx 5060 laptop gpu ram: 32 gb lpddr5 storage: 1 tb pcie nvme ssd display: 14"" 3k oled, 120hz, 100 dci p3, hdr 500 nits wireless: wi-fi 6e (assumed) os: windows 11 pro extras: rgb hyperx backlit keyboard, icp hub support what i tested (method) i ran: cinebench r23 multi and single geekbench 5 multi and single 3dmark time spy graphics battery mix test ( 200 nits, browsing, streaming, docs) gaming sessions across aaa and esports titles a short 4k davinci resolve export test everyday use with chrome (20 tabs), slack, and video calls benchmarks scores estimated from public benchmark averages.",0.6486,positive
+HP Omen Transcend 14,these track with laptops using similar cpus and rtx 5060 class gpus.,0.0,neutral
+HP Omen Transcend 14,"synthetic results: cinebench r23 multi: 21,000 to 23,000 pts cinebench r23 single: 1,850 to 1,950 pts geekbench 5 multi: 12,500 to 13,500 pts geekbench 5 single: 2,900 to 3,100 pts 3dmark time spy graphics: 12,500 to 14,000 pts interpretation: the cpu handles heavy multi-threaded tasks like a champ for a compact laptop, and single core responsiveness is strong.",0.836,positive
+HP Omen Transcend 14,rtx 5060 puts it in the solid 1440p gaming range for most titles.,0.1531,positive
+HP Omen Transcend 14,"gaming i tested (all at native 3k oled) these are rough hands-on observed averages: cyberpunk 2077 (ultra, dlss performance): 70 to 85 fps horizon zero dawn (high): 90 to 110 fps valorant (comp settings): 350 fps fortnite (performance mode): 210 to 290 fps call of duty modern warfare ii: 100 to 120 fps this panel and gpu combo means yes , you can use the 120hz refresh and enjoy high fps in esports titles, and still get good visuals in aaa games without dropping to low settings.",0.8133,positive
+HP Omen Transcend 14,performance daily use was smooth and snappy.,0.0,neutral
+HP Omen Transcend 14,"chrome with loads of tabs, streaming and background apps never stuttered.",0.1695,positive
+HP Omen Transcend 14,"once i opened davinci resolve for a quick 4k export, the cpu and gpu handled and rendered tasks very fast.",0.3818,positive
+HP Omen Transcend 14,"under sustained load (loops of cinebench or long gaming sessions), performance stayed mostly stable with only mild throttling as the thermals tried to keep up with the compact chassis.",0.296,positive
+HP Omen Transcend 14,this felt like a a ctual 14 inch gaming creator machine rather than a downgraded ultrabook with discrete gpu bolted on.,0.3612,positive
+HP Omen Transcend 14,"cough cough lg gram rtx thermals fan noise thermals were good considering the 14 inch form factor: cpu temps: high 80s c under long heavy load gpu temps: mid 70s c during gaming surface temps: warm around vents and palm rest under load, but not uncomfortable fan noise: noticeable when gaming or rendering.",0.8306,positive
+HP Omen Transcend 14,it does ramp up and you will hear it.,0.0,neutral
+HP Omen Transcend 14,"not obnoxious, but you will know when the machine is working.",0.1877,positive
+HP Omen Transcend 14,for everyday browsing or office tasks fans are quiet and unobtrusive.,0.0,neutral
+HP Omen Transcend 14,"battery life this is better than many gaming laptops thanks to the efficient oled and cpu: mixed use (web, video, office): 6 to 8hours video playback (120hz lowered to 60): 7 to 8hours gaming: 1.5 to 2 hours this is very respectable for a gaming-capable laptop and shows hp tuned this well for mobile work as well as play.",0.9472,positive
+HP Omen Transcend 14,"display build display: the 14"" 3k oled at 120hz is gorgeous.",0.6124,positive
+HP Omen Transcend 14,deep blacks and amazing contrast excellent color accuracy (100 dci-p3) bright hdr highlights up to 500 nits movies and games look fantastic.,0.9325,positive
+HP Omen Transcend 14,creators will appreciate the accurate colors out of the box.,0.4019,positive
+HP Omen Transcend 14,build: solid aluminum chassis with a premium feel.,0.1531,positive
+HP Omen Transcend 14,rgb hyperx keyboard is responsive.,0.3612,positive
+HP Omen Transcend 14,trackpad is smooth and accurate.,0.0,neutral
+HP Omen Transcend 14,i didn't notice any flimsy or cheap bits.,0.0,neutral
+HP Omen Transcend 14,it feels like a laptop that should cost more.,0.3612,positive
+HP Omen Transcend 14,compact and lightweight for a gaming-class machine.,0.0,neutral
+HP Omen Transcend 14,the 120hz panel feels like a sweet spot for responsiveness and battery efficiency.,0.7906,positive
+HP Omen Transcend 14,"comparisons here are laptops you might compare this to: asus zephyrus g14 ( basically its competitor, depending on the price this will be a better choice.",0.4404,positive
+HP Omen Transcend 14,"better battery life alongside thermals due to amd efficiency, similar performance.",0.6597,positive
+HP Omen Transcend 14,"lenovo legion: ( better thermals and performance due to bigger chassis, but worser battery life and portability pros and cons pros excellent 3k oled display with great colors and brightness strong cpu and gpu combo for the size good battery life for productivity compact and well built handles gaming and creator tasks well cons fans get noticeable under load thermals are good but you can feel heat on the chassis if pushed hard (expected) no wi-fi 7, which is fine but could be newer rtx 5060 is great for this size, but not the fastest gpu available tips for buyers use ctt debloat, get rid of useless bloatware clean vents every 6 months and do a thermal repaste if you see the thermal performance has degraded a ton for no reason if you care about color accuracy for photo video, profile the oled (it is great, but calibration helps).",0.9907,positive
+HP Omen Transcend 14,lower refresh to 60hz when on battery if you want maximum runtime.,-0.2263,negative
+HP Omen Transcend 14,test your unit right away for display uniformity and keyboard feel so you can return if there are defects.,-0.4019,negative
+HP Omen Transcend 14,"a potentially better choice aero x16 ( if you still want a versatile non flashy gaming laptop, the aero x16 is a great alternative is a bigger screen is what you want.",0.8225,positive
+HP Omen Transcend 14,"this has a rtx 5070 but a weaker ryzen 7, still has a battery life of around 10 hours and some of the best thermals quiet fans i have seen.",0.4497,positive
+HP Omen Transcend 14,overall i liked the hp omen transcend 14 ( a lot.,0.4215,positive
+HP Omen Transcend 14,"it delivers strong performance in a compact, well built package with a gorgeous oled display, impressive battery life for its class, and excellent productivity and gaming chops.",0.9468,positive
+HP Omen Transcend 14,"yes, fans get noticeable and it gets warm under sustained heavy load, but that is the tradeoff for having this much performance in a 14 inch laptop.",0.3182,positive
+HP Omen Transcend 14,"if you want a portable gaming machine that can also handle creative work, this is one of the strongest 14 inch options right now.",0.7269,positive
+HP Omen Transcend 14,(heads up: this post has amazon affiliate links.,0.1779,positive
+HP Omen Transcend 14,"if you buy through them, i will get a small commission , doesn't cost you extra.",0.0,neutral
+HP Omen Transcend 14,"helps support the time i put into testing and writing these reviews, so i appreciate it) and again, feel free to ask any questions below!",0.9078,positive
+HP Omen Transcend 14,"i bought hp omen 14 transcend, ultra 7 155h , rtx 4060 in less than 10 months, the touchpad connector solder came off (motherboard replaced for it) , after 2-3 months of purchase overheating issue ( heatsink replaced) - 5-6 month touchpad again not working ( the support guy replaced with new touchpad and the new one also aint working lol , he ordered another one (3 hours wasted ) this has been one of the most frustuating laptops to deal with constant repairs and no reliability , even for atleast a year .",-0.8398,negative
+HP Omen Transcend 14,hp making this real hard for me to purchase more laptops from them and recommend to my ppl.,0.2732,positive
+HP Omen Transcend 14,( second hp laptop with this problem),0.0,neutral
+HP Omen Transcend 14,"hey everyone, i'm at my wit's end with my omen transcend 14 and hp support and really need some advice.",0.4019,positive
+HP Omen Transcend 14,here's the full timeline: 1. i bought this laptop several months ago for university.,0.0,neutral
+HP Omen Transcend 14,"about a month into owning it, it started heavily artifacting, overheating, and getting random black screens.",0.0,neutral
+HP Omen Transcend 14,2. i spent almost two months going back and forth with hp support.,0.4019,positive
+HP Omen Transcend 14,they kept insisting it was a software issue and had me run through every troubleshooting step imaginable.,0.1779,positive
+HP Omen Transcend 14,3. they finally agreed to a hardware repair.,0.2732,positive
+HP Omen Transcend 14,they kept it for two weeks and replaced the motherboard.,0.0,neutral
+HP Omen Transcend 14,"4. when i got it back from the repair, the chassis was damaged and the back plate was popping out.",-0.4404,negative
+HP Omen Transcend 14,"5. now, after all that hassle, the original artifacting problem is back , even with the new motherboard.",-0.1027,negative
+HP Omen Transcend 14,"i'm a student and i can't afford to be without my main laptop for another 2-3 weeks for a new repair, especially when the last one failed to fix the core issue and actually created new physical damage.",-0.6705,negative
+HP Omen Transcend 14,i feel like i'm just stuck in a loop with a lemon laptop.,0.128,positive
+HP Omen Transcend 14,has anyone else dealt with hp when a major repair (like a motherboard replacement) fails?,-0.4215,negative
+HP Omen Transcend 14,what did you do?,0.0,neutral
+HP Omen Transcend 14,i'm not sure what my options are at this point.,-0.2411,negative
+HP Omen Transcend 14,any advice or shared experiences would be super appreciated.,0.8625,positive
+HP Omen Transcend 14,tl;dr: my omen 14 had bad artifacting.,-0.5423,negative
+HP Omen Transcend 14,fought with hp support for 2 months.,0.1027,positive
+HP Omen Transcend 14,they replaced the motherboard.,0.0,neutral
+HP Omen Transcend 14,i got it back damaged.,-0.4404,negative
+HP Omen Transcend 14,"now, the original artifacting is happening again .",0.3182,positive
+HP Omen Transcend 14,what can i do?,0.0,neutral
+HP Omen Transcend 14,(this was happening before the replacement as well and now its happening again),0.2732,positive
+HP Omen Transcend 14,"hi, i'm new in this community, unfortunately, the reason i joined is because of a problem with my omen laptop.",-0.6249,negative
+HP Omen Transcend 14,"to give you some context, for the past 3 or 4 days, my laptop has been freezing while i'm using it.",-0.1027,negative
+HP Omen Transcend 14,"this freezing lasts for about 2 or 3 seconds, accompanied by a ""trrrrt"" sound (this noise comes from my headphones, not from inside the laptop), and then it continues as if nothing happened.",-0.1027,negative
+HP Omen Transcend 14,"at first, it was happening once an hour, but now it's happening every 5 minutes.",0.0,neutral
+HP Omen Transcend 14,"i've been monitoring the laptop during these freezes, and the cpu and gpu temperatures, ram usage, and fps remain normal and stable (from my perspective).",0.2732,positive
+HP Omen Transcend 14,it's as if the laptop pauses for those 3 seconds.,0.0,neutral
+HP Omen Transcend 14,"i've already been on a call with hp support, and we've uninstalled and reinstalled the drivers using ddu, updated the bios, and even formatted the laptop, but the problem persists.",-0.4019,negative
+HP Omen Transcend 14,"i honestly don't know what else to do before sending it to a service center (which, from what i've heard, takes forever and is usually a bad experience).",-0.128,negative
+HP Omen Transcend 14,i'm really sad because i've only had the laptop for two months and was very happy with its performance.,0.1531,positive
+HP Omen Transcend 14,:( has anyone else here had this problem?,-0.7206,negative
+HP Omen Transcend 14,just asking!,0.0,neutral
+HP Omen Transcend 14,the new zephreus g14 seems like its going to be even more expensive than the current one.,0.3612,positive
+HP Omen Transcend 14,i am considering the omen 14 as an alternative.,0.0,neutral
+HP Omen Transcend 14,any tips on what i should do to max out gaming performance and also things i should avoid doing?,-0.296,negative
+HP Omen Transcend 14,this is my first gaming laptop so i'm not sure on the basics for setting everything up and making sure everything runs smooth.,-0.5348,negative
+HP Omen Transcend 14,i got a 14 because this will be my new daily laptop for everything i do and will be traveling with it as well.,0.2732,positive
+HP Omen Transcend 14,here are the specs.,0.0,neutral
+HP Omen Transcend 14,120hz 3k oled gaming laptop - intel core ultra 9-285h - 32gb ram - nvidia geforce rtx 5070 - 1tb ssd - shadow black - 1575,0.0,neutral
+HP Omen Transcend 14,i have a macbook pro 14 and it's my first macos computer.,0.0,neutral
+HP Omen Transcend 14,"while the quality is incredible, i just do not like macos.",-0.2755,negative
+HP Omen Transcend 14,"so i want to sell it and replace it with a more premium 14"" gaming laptop.",0.1513,positive
+HP Omen Transcend 14,"everything i have seen and read says the g14 is better overall, all of the reviews had the 5070 unit.",0.4404,positive
+HP Omen Transcend 14,"the one i am looking at getting has 16gb ram and the 5060. since they both are the same price, which would you get?",0.0,neutral
+HP Omen Transcend 14,or is there another that you'd recommend.,0.3612,positive
+HP Omen Transcend 14,i love the msi stealth 14 but it has a 4060 and is only barely cheaper than the other two listed.,0.3506,positive
+HP Omen Transcend 14,"hp - intel core ultra 7-255h, 32gb, 5060 asus - amd ryzen 9 270, 16gb, 5060",0.0,neutral
+HP Omen Transcend 14,"after being scared shitless because of listening to negative reddit reviews, being regretful of getting such a small screen, and reading horror stories of the rtx 5050, i am pleased beyond belief.",-0.8834,negative
+HP Omen Transcend 14,this bad boy runs battlefield 6 at high settings,-0.7269,negative
+HP Omen Transcend 14,"i thought this wouldn't be coming out till mid february, but lo and behold one was available to ship on bestbuy s website a couple days ago.",0.0,neutral
+HP Omen Transcend 14,just received it today.,0.0,neutral
+HP Omen Transcend 14,this is the 4060 model.,0.0,neutral
+HP Omen Transcend 14,i noticed there still aren't any unsponsored reviews so let me know if there's anything y all want know.,0.0772,positive
+HP Omen Transcend 14,"i have class today, but i'll be running it through its paces over the weekend to see how it performs.",0.0,neutral
+HP Omen Transcend 14,"if i like it, i'll probably return it for the 4070 model when it's available.",0.3612,positive
+HP Omen Transcend 14,"if not, i'll probably wait for the 2024 g14 to release.",0.0,neutral
+HP Omen Transcend 14,"so far, it looks and feels good.",0.4404,positive
+HP Omen Transcend 14,solid build.,0.1531,positive
+HP Omen Transcend 14,"i like it better than the 2023 g14, but it's not as quality as a razer blade.",0.4019,positive
+HP Omen Transcend 14,"i can tell it will be a bit of a fingerprint magnet, but we ll see in a couple days.",0.0,neutral
+HP Omen Transcend 14,edit: there was a post in the thread that gave an answer.,0.0,neutral
+HP Omen Transcend 14,"there is a default profile on the hp app (not the omen app, or the hp smart app, or the hp assistant app, just ""hp"" app.",0.4019,positive
+HP Omen Transcend 14,"i couldn't search for it, i had to select it from my program list.",0.0,neutral
+HP Omen Transcend 14,"under audio, it had 3 presets.",0.0,neutral
+HP Omen Transcend 14,"the default was ""music"".",0.0,neutral
+HP Omen Transcend 14,i changed it to voice and that got my audio back to normal levels.,0.0,neutral
+HP Omen Transcend 14,"still not as loud as the surface 4, but loud enough that i can hear it in a room with other sounds.",0.0,neutral
+HP Omen Transcend 14,useless hp support couldn't even recommend it.,-0.2982,negative
+HP Omen Transcend 14,":( i can take the tape off and go back to my normal laptop (but i might just keep it, the usb powered speakers sound really good) i picked up the hp omen transcend 14 on sale for black friday for 1099. i love it.",0.3182,positive
+HP Omen Transcend 14,the battery life is amazing.,0.5859,positive
+HP Omen Transcend 14,the screen is wonderful.,0.5719,positive
+HP Omen Transcend 14,"the build quality is fantastic, and the price was right where i wanted a 5060 to be.",0.5574,positive
+HP Omen Transcend 14,( and i doubt i'm getting 32 gigs of ddr5 for that price anymore.),-0.3612,negative
+HP Omen Transcend 14,the speakers are absolute trash.,0.0,neutral
+HP Omen Transcend 14,take your speakers and put them to about 75 and that's where the sound is at maximum.,0.0,neutral
+HP Omen Transcend 14,"if there's literally any other sound in the room, i can't hear anything.",0.0,neutral
+HP Omen Transcend 14,"i called hp support, they said that's as loud as they go, and they're designed to be on a desk because they're downward facing and they reflect the sound up, so i won't hear it as well with it on my left as a traditional laptop.",0.5859,positive
+HP Omen Transcend 14,"so i got a pair of wireless headphones during black friday, and i 3d printed a custom case for them that i attached to the back of the monitor so i wouldn't lose them.",0.3687,positive
+HP Omen Transcend 14,"(i lose every pair of wireless earbuds i own) they work perfectly, but thinking uncomfortable after a couple of hours and i can't hear people talking to me because they don't have transparency.",-0.3919,negative
+HP Omen Transcend 14,so i bought the flattest pair of usb powered 3.5 mm beakers i could find.,0.0,neutral
+HP Omen Transcend 14,"i wanted to attach them to the bottom of the laptop, but they were still too thick, so i 3d printed a custom bracket for them and attach them to the back of my monitor they work perfectly, but all this is completely unnecessary for a 1,000 plus laptop.",0.7783,positive
+HP Omen Transcend 14,"i can't believe hp fumble this design so hard, probably to save a dollar or two on speakers.",0.3256,positive
+HP Omen Transcend 14,i know a lot of people have debated between these two laptops as a thin and light 14 option.,0.0,neutral
+HP Omen Transcend 14,so i figured i'd make a comparison between them!,0.0,neutral
+HP Omen Transcend 14,"i think the hp omen transcend 14 is nice and all, but unless i found it significantly cheaper, it would be hard to recommend over the g14, especially considering that you could get an rtx 5060 g14 that performs the same as the 5070 omen 14 due to the omen s low 75w limit on its gpu (despite it obviously being capable of much more power given the thermals).",0.6486,positive
+HP Omen Transcend 14,"i also could not get a vbios flash to behave on the omen 14 this year, so that gpu is unfortunately stuck.",-0.5267,negative
+HP Omen Transcend 14,"that plus the extra nice to have features on the g14 like anti-reflective coating, selectable color profiles, nvidia advanced optimus mux switch, glass trackpad, eco mode without reboot, those all make the g14 much more compelling for me personally!",0.831,positive
+HP Omen Transcend 14,"anyways, let me know what you all think!",0.0,neutral
+HP Omen Transcend 14,i want to buy a good gaming laptop for under 1700 .,0.4939,positive
+HP Omen Transcend 14,i found that both the max 16 and the transcend 14 are within my budget.,0.0,neutral
+HP Omen Transcend 14,what my needs are in a laptop is performance and battery life.,0.0,neutral
+HP Omen Transcend 14,"however, i have seen that the hp omen transcend 14 has a very limited gpu wattage, which is a big deal, but it seems (as per the reviews online) that is has great battery life.",0.723,positive
+HP Omen Transcend 14,"(btw i am interested in the rtx 5070 ultra core 9 285h for the transcend 14, and the rtx 5070 amd ryzen 7 350 for the max 16), and the max 16 is vice versa as it seems online as well( great performance, but bad battery life).",-0.3291,negative
+HP Omen Transcend 14,"i wanted to ask if the max 16 actually has way worse battery life than the transcend 14, or if it is minor, as i can only find battery life tests only for the intel versions, and i've heard that the amd version is more battery efficient.",-0.0056,neutral
+HP Omen Transcend 14,total budget (in local currency) and country of purchase.,0.0,neutral
+HP Omen Transcend 14,"please do not use usd unless purchasing in the us: united states, 1,500, could push to 1,600 if its really good are you open to refurbs used?",0.807,positive
+HP Omen Transcend 14,"no how would you prioritize form factor (ultrabook, 2-in-1, etc.",-0.296,negative
+HP Omen Transcend 14,"), build quality, performance, and battery life?",0.0,neutral
+HP Omen Transcend 14,"looking for a thin gaming laptop that won't overheat with good build quality, performance, and 6 hours of battery life at least how important is weight and thinness to you?",-0.1546,negative
+HP Omen Transcend 14,as similar as possible to a macbook pro do you have a preferred screen size?,0.0,neutral
+HP Omen Transcend 14,"if indifferent, put n a.",-0.2023,negative
+HP Omen Transcend 14,14 inches are you doing any cad video editing photo editing gaming?,0.0,neutral
+HP Omen Transcend 14,list which programs games you desire to run.,0.4019,positive
+HP Omen Transcend 14,"canva video editing graphic design, occasional modded minecraft, teardown, and sometimes beamng if you're gaming, do you have certain games you want to play?",0.5859,positive
+HP Omen Transcend 14,at what settings and fps do you want?,0.0772,positive
+HP Omen Transcend 14,"modded minecraft (30 mods single player, mostly vehicle mods, no shaders) at 60fps, multiplayer minecraft (minimap mod, complimentary shaders) at 120fps, beamng with a few mods at 40-60fps, and teardown around 40-60fps.",0.1779,positive
+HP Omen Transcend 14,"any specific requirements such as good keyboard, reliable build quality, touch-screen, finger-print reader, optical drive or good input devices (keyboard touchpad)?",0.7003,positive
+HP Omen Transcend 14,i would for it not to flex too much and have a solid build.,0.1531,positive
+HP Omen Transcend 14,"preferably not a touchscreen, fingerprint scanner not needed, and i don't really care about ports as i just use a bluetooth mouse.",-0.43,negative
+HP Omen Transcend 14,leave any finishing thoughts here that you may feel are necessary and beneficial to the discussion.,0.4019,positive
+HP Omen Transcend 14,"coming from a m5 macbook pro (16gb 512gb), and i'm worried 16gb is not enough.",-0.296,negative
+HP Omen Transcend 14,return window closes january 31 and it must be from best buy.,0.6369,positive
+HP Omen Transcend 14,i'm looking at the hp omen transcend 14 (best buy sku 6618922) and the zephyrus g14 (best buy sku 6613954) but they are out of my price range unless the prices drop to my price range.,-0.3919,negative
+HP Omen Transcend 14,"also, i would like to avoid lenovo legion laptops as i have had two, and they both melted themselves.",0.0772,positive
+HP Omen Transcend 14,thank you!,0.4199,positive
+HP Omen Transcend 14,"hi all, i'm looking for a 14-inch laptop with a budget of around 1,200 (uk) for a mix of work and gaming: general work (office, web browsing, some data analytics) gaming, including aaa titles (not super heavy all the time, but i will be playing modern games) i want to stay at 14 for portability.",0.6249,positive
+HP Omen Transcend 14,"right now i'm deciding between: 1. asus tuf a14 2. hp omen transcend 14 the most important things for me are: battery life (for work and light use away from the charger) heat thermals (i do not want it to run roasting hot all the time) fan noise (i really prefer it not to sound like a jet engine, especially during normal work) also open to other 14 recommendations around 1,200 that are good for both work and aaa gaming, especially if they have good battery life, reasonable temps, and quiet fans.",0.7821,positive
+HP Omen Transcend 14,my plane boards in under an hour.,0.0,neutral
+HP Omen Transcend 14,it fell on the top left half of the keyboard or so.,0.2023,positive
+HP Omen Transcend 14,"visually, the screen stayed on when it happened.",0.0,neutral
+HP Omen Transcend 14,"i shut it off immediately, went to the bathroom to dry it with paper towel, and i have it tented right now.",0.0,neutral
+HP Omen Transcend 14,i'm gonna have to put it in my bag and i'll be gone for like 3 weeks traveling in a different country.,0.3612,positive
+HP Omen Transcend 14,"odds that this will have caused serious damage, and is there anything i can do?",-0.5423,negative
+HP Omen Transcend 14,"hey guys i need to get a 14 inch gaming laptop for gaming on the go, my biggest need is portability followed by performance.",0.0,neutral
+HP Omen Transcend 14,"right now the zephyrus is on sale at best buy for 2,050. and i can buy the hp omen for 1650 (hp employee discount).",0.6369,positive
+HP Omen Transcend 14,which would you guys go with and why?,0.0,neutral
+HP Omen Transcend 14,"looking to buy a laptop as a student to use softwares like solidworks, rhino, keyshot, adobe suite, and fusion 360. would buy the intel ultra 9, 32 gb, 1 tb option with rtx 5070. has anyone had any experience with using this laptop for the above softwares and purposes?",0.3612,positive
+HP Omen Transcend 14,how good is the build and performance?,0.4404,positive
+HP Omen Transcend 14,any better alternatives around the same price range?,0.4404,positive
+HP Omen Transcend 14,"ideally from hp, dell, or lenovo.",0.4215,positive
+HP Omen Transcend 14,thanks.,0.4404,positive
+HP Omen Transcend 14,"i was looking for a new laptop, which i need for university (computer science major) as well as gaming and some 3d modeling.",0.2732,positive
+HP Omen Transcend 14,"i saw a sale for students for the hp omen transcend 14, so i took a closer look at it.",0.0,neutral
+HP Omen Transcend 14,"the specs seem perfect with 32gb ram, 2tb storage, an intel core ultra 9 and a 4070. also a oled screen is quite nice.",0.7778,positive
+HP Omen Transcend 14,"also the size of the laptop (14 ) is perfect, as it is not too bulky for carrying it around all day and when i'm at home, the small screen is not a problem, as i have a 32 inch monitor.",0.7147,positive
+HP Omen Transcend 14,so im pretty much sold on that laptop.,0.539,positive
+HP Omen Transcend 14,"but before buying it, i wanted to hear, what people who own one themselves think about it, as i think that while reviews on youtube can be helpful to make a buying decision, people that use the devices for longer than two weeks are more qualified to give a recommendation.",0.5719,positive
+HP Omen Transcend 14,"so i would really appreciate it, if you can share you're opinions on this laptops.",0.6659,positive
+HP Omen Transcend 14,"hi, i'm looking to get a new laptop, one that can handle adobe softwares such as photoshop, illustrator and after effects as well as some 3d renderings in blender and revit.",0.2732,positive
+HP Omen Transcend 14,i would like it to last a couple years and hold up with the ever improving technology.,0.6486,positive
+HP Omen Transcend 14,anyone have an experiences (pros and or cons) about the hp omen 14 and asus proart?,0.0,neutral
+HP Omen Transcend 14,i'm still early in my search but those two have seemed to be my ideal choices .or if anyone has any similar recommendations please let me know,0.8201,positive
+HP Omen Transcend 14,"currently in the market for a 14"" gaming laptop.",0.0,neutral
+HP Omen Transcend 14,i'm specifically looking at hp's omen trancend 14 and also the newly released asus tuf 14a.,0.0,neutral
+HP Omen Transcend 14,hp runs with intel 9 ultra 185h vs asus running the ryzen 9 ai 370hx.,0.0,neutral
+HP Omen Transcend 14,keen to hear a) people's experience first with hp vs asus gaming laptops in general and b) which is the more reliable processor out of the two?,0.3612,positive
+HP Omen Transcend 14,"i recently read that intel's 13th and 14th raptor lake chips are experiencing some issues, so concerned if the new ultra 9 185h may suffer too.",-0.5423,negative
+HP Omen Transcend 14,i'm aware that they're an entirely different chipset but should i be concerned given intel's issue with the raptor lake ones?,0.0,neutral
+HP Omen Transcend 14,so i have the hp omen transcend 14 with the 4070 and it's a fingerprint magnet.,0.0,neutral
+HP Omen Transcend 14,i'm trying to find a skin for it but can't find one for this laptop.,0.0,neutral
+HP Omen Transcend 14,"i saw so sell skins approximately the size of laptops and just tell you to cut it yourself, but it sounds not very good and not very trustworthy.",-0.8479,negative
+HP Omen Transcend 14,so i'm wandering if you have recommendations?,0.0,neutral
+HP Omen Transcend 14,i don't want any fancy design just something to cover the back of the screen (hiding the omen logo would be great too) and if it's really good quality then sometimes with a texture.,0.7947,positive
+HP Omen Transcend 14,"for 6 months, i've been looking for a sub-2kg laptop with a dedicated gpu , because my old laptop is 7 years old (msi gf63 8rc) with a broken hinge.",-0.0258,neutral
+HP Omen Transcend 14,"and i don't have a lot of time left to wait (for rtx 60 series or intel panther lake or cheaper strix halo laptops), because i want to get ready to start video content creation for arknights endfield ( before that game releases in q1 2026. recently, i just found the two best sub-2kg options thats within my budget (under 25 million rupiah): brand new lenovo legion 5 (ryzen 7 350 rtx 5060) with 16 1tb memory, but i need more ram so i'll have to buy more ram later open box hp omen transcend 14 (intel 185h rtx 4070) with 32 1tb, warranty lasts until may 2026 which one do you guys think is the better choice?",0.836,positive
+HP Omen Transcend 14,or are there any other suggestions you guys have?,0.0,neutral
+HP Omen Transcend 14,"but also, i'm hoping the new acer swift x 14 to release with rtx 5070 ( before 2025 ends, i wanna try out a haptic touchpad on a windows laptop.",0.7096,positive
+HP Omen Transcend 14,came across this deal while looking for a new laptop that's mostly for work school light data science ml.,0.0,neutral
+HP Omen Transcend 14,so feel and portability are important.,0.2023,positive
+HP Omen Transcend 14,"if possible though, i'd like something that can also game a bit even if not near the top levels available.",0.2283,positive
+HP Omen Transcend 14,was looking at the razer 14 but then i found the below deal on hp omen 14. with 300 off it seems like a no-brainer - what am i missing (if anything)?,0.1154,positive
+HP Omen Transcend 14,getting 4070 on the razer 14 jacks it to nearly 3k i think.,0.0,neutral
+HP Omen Transcend 14,under 2k for the hp with similar specs seems like a steal?,-0.1779,negative
+HP Omen Transcend 14,total budget (in local currency) and country of purchase.,0.0,neutral
+HP Omen Transcend 14,please do not use usd unless purchasing in the us: -1.5 - 2.2k usd are you open to refurbs used?,0.3182,positive
+HP Omen Transcend 14,"no how would you prioritize form factor (ultrabook, 2-in-1, etc.",-0.296,negative
+HP Omen Transcend 14,"), build quality, performance, and battery life?",0.0,neutral
+HP Omen Transcend 14,-not interested in 2 in 1 or touchscreen.,-0.3089,negative
+HP Omen Transcend 14,battery life is not a huge issue either.,-0.2411,negative
+HP Omen Transcend 14,as slim as possible without sacrificing too much power would be great.,0.6249,positive
+HP Omen Transcend 14,razer 14 seemed to be the standard im comparing others to.,0.0,neutral
+HP Omen Transcend 14,how important is weight and thinness to you?,0.2023,positive
+HP Omen Transcend 14,around 4 - 4.5 lbs would be excellent do you have a preferred screen size?,0.5719,positive
+HP Omen Transcend 14,"if indifferent, put n a.",-0.2023,negative
+HP Omen Transcend 14,"14"" seems to be fine, higher would be nice but doesn't work with price or weight are you doing any cad video editing photo editing gaming?",0.3182,positive
+HP Omen Transcend 14,list which programs games you desire to run.,0.4019,positive
+HP Omen Transcend 14,"-not presently if you're gaming, do you have certain games you want to play?",0.5859,positive
+HP Omen Transcend 14,at what settings and fps do you want?,0.0772,positive
+HP Omen Transcend 14,"-not presently - 60fps is always nice any specific requirements such as good keyboard, reliable build quality, touch-screen, finger-print reader, optical drive or good input devices (keyboard touchpad)?",0.8225,positive
+HP Omen Transcend 14,-no specifics besides good keyboard and around 4lbs leave any finishing thoughts here that you may feel are necessary and beneficial to the discussion.,0.5267,positive
+HP Omen Transcend 14,-n a x200b;,0.0,neutral
+HP Omen Transcend 14,i sent this message out to a person i was watching reviews from called just josh but i also want to get the opinions of people who may own it or have had alot of computers.,0.1154,positive
+HP Omen Transcend 14,"message below: hey, i have a question.",0.0,neutral
+HP Omen Transcend 14,"i'm interested in buying a laptop for gaming, programming, and editing with a budget of 1,000 1,400. after spending a few hours reading through your reviews, i found the hp omen transcend 14 (2025) 14"", 1 tb, 16 gb, core ultra 7 255h, rtx 5060. i was wondering if there are any better options i should consider in this price range.",0.6808,positive
+HP Omen Transcend 14,i don't plan to play games on max settings or run high-end games at max graphics.,-0.2584,negative
+HP Omen Transcend 14,"also, if i were to do serious coding, do you think this laptop would handle it well, and how long do you think it would last on average?",0.2023,positive
+HP Omen Transcend 14,"also how do you think it compares to acer nitro v 16.0"" 180hz gaming laptop, intel core 7 processor, 32gb memory, 512gb ssd, nvidia rtx 5060(price 1099).",0.0,neutral
+HP Omen Transcend 14,"sorry for all the questions, but i'd really appreciate your insight from someone with a lot of experience.",0.5913,positive
+HP Omen Transcend 14,im open to suggestions and if you have the time can you explain your reasoning so that i can follow.,0.0,neutral
+HP Omen Transcend 14,"hi, i'm an mechanical engineering student who's looking to buy a laptop, currently i'm considering these options: 1. acer predator helios neo 16s 2. lenovo legion 5 3. gigabyte g6x 4. hp omen transcend 14 if you have recommendations on other laptops or if you think one of the four i'm thinking of is the best, please lmk .",0.7579,positive
+HP Omen Transcend 14,i appreciate it deeply.,0.4019,positive
+HP Omen Transcend 14,laptop questionnaire total budget (in local currency) and country of purchase.,0.0,neutral
+HP Omen Transcend 14,"please do not use usd unless purchasing in the us: phillippines, 100k php or more are you open to refurbs used?",0.3182,positive
+HP Omen Transcend 14,"no how would you prioritize form factor (ultrabook, 2-in-1, etc.",-0.296,negative
+HP Omen Transcend 14,"), build quality, performance, and battery life?",0.0,neutral
+HP Omen Transcend 14,"performance, battery life how important is weight and thinness to you?",0.2023,positive
+HP Omen Transcend 14,very important because i'll be out of the house at most around 9-11hrs around 3x a week do you have a preferred screen size?,0.2716,positive
+HP Omen Transcend 14,"if indifferent, put n a. n a are you doing any cad video editing photo editing gaming?",-0.2023,negative
+HP Omen Transcend 14,list which programs games you desire to run.,0.4019,positive
+HP Omen Transcend 14,yes i'm eventually going to run cad and other adjecent engineering software.,0.4019,positive
+HP Omen Transcend 14,i may also use blender in the case of 3d printing.,0.0,neutral
+HP Omen Transcend 14,in the case of games i'd like to run minecraft and genshin at least.,0.3612,positive
+HP Omen Transcend 14,"if you're gaming, do you have certain games you want to play?",0.5859,positive
+HP Omen Transcend 14,at what settings and fps do you want?,0.0772,positive
+HP Omen Transcend 14,"besides minecraft i also have always been interested in playing alice: madness returns, but that's about it.",0.0772,positive
+HP Omen Transcend 14,60fps!,0.0,neutral
+HP Omen Transcend 14,"any specific requirements such as good keyboard, reliable build quality, touch-screen, finger-print reader, optical drive or good input devices (keyboard touchpad)?",0.7003,positive
+HP Omen Transcend 14,n a leave any finishing thoughts here that you may feel are necessary and beneficial to the discussion.,0.4019,positive
+HP Omen Transcend 14,"i have an ipad i already use for bussiness purposes, and my uni has computers to run their software.",0.0,neutral
+HP Omen Transcend 14,so more than likely i'll just be using the laptop soley for gaming engineering software.,0.0,neutral
+HP Omen Transcend 14,"which makes it very likely the laptop will be a home only laptop, but i'd still like the convenience of a lighter laptop with good battery life just in case.",0.7964,positive
+HP Omen Transcend 14,thank you again for anyone who responds!,0.4199,positive
+HP Omen Transcend 14,"basically looking for something portable, i have these 4 in mind : computador port til lenovo yoga pro 7 14imh9 14,5'' intel core ultra 9 185h 32gb 1tb ssd geforce rtx 4060 - online only 2.2k port til asus rog flow z13 gz302ea 13.4"" ryzen ai max 395 32gb ddr5 1tb radeon graphics 2.5k 180hz w11 - immediate pick up 2.5k port til gaming hp omen transcend 14-fb1002np (intel core ultra 7 255h - nvidia geforce rtx 5060 - ram: 32 gb - 1 tb ssd - 14'') - immediate pick up 2k port til gaming hp omen transcend 14-fb0008np (intel core ultra 9 185h - nvidia geforce rtx 4060 - ram: 32 gb - 1 tb ssd - 14"") - online only 2k mostly gaming on the go with some coding added to it.",0.0,neutral
+HP Omen Transcend 14,"looking for a laptop for university where i will be doing a lot of cad, rendering, and design work using softwares like solidworks, rhino, keyshot, adobe suite, and fusion 360. the two i've come down to are the hp omen transcend 14 (intel ultra 9, rtx 5070, 32 gb ram, 1 tb ssd), and the lenovo legion pro 5i (intel ultra 9, rtx 5070 ti, 32 gb ram, 1 tb ssd).",0.3612,positive
+HP Omen Transcend 14,"the lenovo is a ti which i've read is better because it has more vram, but this is also my first time buying a gaming laptop, so need some help making a decision.",0.7092,positive
+HP Omen Transcend 14,which one would be better for my use case?,0.4404,positive
+HP Omen Transcend 14,has anyone had food bad experiences with the build and daily usage of either of these?,-0.5423,negative
+HP Omen Transcend 14,thanks!,0.4926,positive
+HP Omen Transcend 14,"looking to get a laptop to use for video editing, modelling, some gaming and day to day tasks.",0.0,neutral
+HP Omen Transcend 14,looking for something fairly lightweight as i want to carry it around so also need a decent battery.,0.0772,positive
+HP Omen Transcend 14,really wanting a 4050 dgpu minimum to have it last a few years.,0.0,neutral
+HP Omen Transcend 14,"i don't intend to game anything major on battery, maybe some indie or emulation.",0.0,neutral
+HP Omen Transcend 14,also the asus duo line i realise don't fully align with all this but i love the look and idea of them for getting stuff done.,0.7783,positive
+HP Omen Transcend 14,as i find touchscreens on these devices quite useful.,0.4927,positive
+HP Omen Transcend 14,"found some of the following, all are used devices.",0.0,neutral
+HP Omen Transcend 14,i'm in the uk so prices are higher unfortunately.,-0.34,negative
+HP Omen Transcend 14,"hp omen transcend 14 inch intel core ultra 9 185h 512gb ssd 32 gb ram 8gb nvidia rtx 4070 warranty for a year 800 lenovo ideapad gaming 3 15.6"" rtx 4050, ryzen 5 7535hs, 24gb ram, 512gb ssd 550 lenovo legion slim i7-13700h rtx 4060 16gb ram 1 tb ssd 720 rog zephyrus g16 rtx 4060 intel i7 13th gen (13620h) 16gb ram 1tb storage 600 asus rog zephyrus duo 15 se 15.6"" 1tb ssd, amd ryzen 9 5900hx rtx 3080 32gb ram main screen has black lines on bottom at 120hz but fine at 60hz 550 zenbook duo pro ux582zw 15.6"" i7-12700h 1tb ssd 32 gb ram rtx 3070 ti 700 any of these good for the price?",0.7227,positive
+HP Omen Transcend 14,or hang fire for something better?,0.128,positive
+HP Omen Transcend 14,got a budget of around 800. thanks all.,0.4404,positive
+HP Omen Transcend 14,"-trying to decide between laptops, i'm pretty broke so all of these are second hand, but generally still very new, so i don't mind it that much.",0.3182,positive
+HP Omen Transcend 14,"-in yall opinion, which laptop would be the best option?",0.6369,positive
+HP Omen Transcend 14,-thanks!,0.0,neutral
+HP Omen Transcend 14,"- option 1 - asus tianxuan air (rebranded tuf a14) - no warrenty - sgd 1550 amd ryzen 7 8845hs rtx 4060 16gb ram 14"" 25600 x 1600 165hz ips 1tb ssd - option 2 - msi stealth 14 ai studio - 1 year warrenty - sgd 1625 intel core ultra 7 155h 4060 32gb ram 14"" 2880 x 1800 120hz oled 1tb ssd - option 3 - lenovo legion slim 5 - no warrenty - sgd 1650 amd ryzen 7 7840hs rtx 4060 32gb ram 14.5"" 2880 x 1800 120hz oled 1tb ssd - option 4 - hp omen transcend 14 - sgd 1750 - 1 year warrenty intel core ultra 7 155h rtx 4060 16gb ram 14"" 2880 x 1800 120hz oled 1tb ssd",-0.5719,negative
+HP Omen Transcend 14,laptop questionnaire total budget (in local currency) and country of purchase.,0.0,neutral
+HP Omen Transcend 14,please do not use usd unless purchasing in the us: 8500 zloty 2000 euro are you open to refurbs used?,0.3182,positive
+HP Omen Transcend 14,"no how would you prioritize form factor (ultrabook, 2-in-1, etc.",-0.296,negative
+HP Omen Transcend 14,"), build quality, performance, and battery life?",0.0,neutral
+HP Omen Transcend 14,1) performance 2) build quality 3) battery life how important is weight and thinness to you?,0.2023,positive
+HP Omen Transcend 14,it's moderately important - i would like to go as light as possible but within my preferred category (gaming performance) - up to 2.4 kgs.,0.2846,positive
+HP Omen Transcend 14,"however more important for my is its loudness - during high intensity tasks thats okay, but when streaming or browsing it should be quiet do you have a preferred screen size?",0.2492,positive
+HP Omen Transcend 14,"if indifferent, put n a. not bigger than 16 inches.",-0.2023,negative
+HP Omen Transcend 14,the smaller the better are you doing any cad video editing photo editing gaming?,0.4404,positive
+HP Omen Transcend 14,list which programs games you desire to run.,0.4019,positive
+HP Omen Transcend 14,"im primarily a data scientist, so i do a lot of data processing and model development i also develop using cuda, so compute- and memory- heavy workloads.",0.0,neutral
+HP Omen Transcend 14,"on top of that, i'm a bit of a gamer, i like to play mostly rpgs (bg3, kingdom come, cyberpunk77, hogwarts legacy).",0.6908,positive
+HP Omen Transcend 14,"i want the computer to be able to run the newest games smoothly (but i don't care about highest framerate or texture quality) if you're gaming, do you have certain games you want to play?",0.3553,positive
+HP Omen Transcend 14,at what settings and fps do you want?,0.0772,positive
+HP Omen Transcend 14,"i'm a gamer although not by any means hardcore, i want to play mostly rpgs (baldurs gate 3, dragon age, hogwarts legacy, cyberpunk).",0.4019,positive
+HP Omen Transcend 14,"i don't need highest settings, but i want the computer to be able to run newest games for some years to come.",0.1154,positive
+HP Omen Transcend 14,"any specific requirements such as good keyboard, reliable build quality, touch-screen, finger-print reader, optical drive or good input devices (keyboard touchpad)?",0.7003,positive
+HP Omen Transcend 14,i would like the computer to be as future-proof as possible.,0.3612,positive
+HP Omen Transcend 14,"im not planning to buy another for some years, so i want to be sure that in 5 years' time it will still be a capable machine - so good enough quality to last me those years leave any finishing thoughts here that you may feel are necessary and beneficial to the discussion.",0.8894,positive
+HP Omen Transcend 14,my general feeling about features i need are (maybe these are unrealistic idk): cpu - ryzen 9 375hx or thereabouts?,0.128,positive
+HP Omen Transcend 14,i9 14900hx or i7?,0.0,neutral
+HP Omen Transcend 14,"or overkill, gpu - 4060 vs 4070 - is 4070 worth it over 4060 for me, ram - at least 32gb with possibility of expansion, 1tb ssd, loudness - as quiet as possible (at least during everyday tasks, webbrowsing, streaming, light gaming etc.",0.2263,positive
+HP Omen Transcend 14,"), screen - higher res than 1080p definitely, size - 14 or 16 inch, weight - up to 2.4kg but the lighter the better.",0.6908,positive
+HP Omen Transcend 14,here are some laptops i found interesting - what do you think?,0.4019,positive
+HP Omen Transcend 14,": hp omen transcend 14 - i have doubts about gpu power cap at 65w, msi stealth a16, asus tuf gaming a14 a16, gigabyte aorus 16x",-0.3612,negative
+HP Omen Transcend 14,"i'm a first-year it student looking for a laptop around 1300 1600. i mostly do coding, light ai inference (tensorflow pytorch coreml), and some photo video editing (non-professional).",0.0,neutral
+HP Omen Transcend 14,i don't play games at all.,-0.2584,negative
+HP Omen Transcend 14,"i love the design and battery life of the macbook pro m4 (base 14 ), but i'm also considering high-end windows laptops like: asus zenbook pro 14 oled (i9 rtx 4060) hp omen transcend 14 (core ultra 9 rtx 4060) lenovo yoga pro 7i (ultra 7 arc 4050) priorities: great battery life strong performance for dev and ai inference quiet, stable, reliable sleek design (i care about aesthetics) is the m4 macbook worth it long term?",0.9786,positive
+HP Omen Transcend 14,or are there better alternatives in the windows world for this use case?,0.4404,positive
+HP Omen Transcend 14,my legion 5 s motherboard died they're asking 71k to change it.,-0.5574,negative
+HP Omen Transcend 14,my extended warranty ended in jan. im heart broken and confused.,-0.6597,negative
+HP Omen Transcend 14,so suggest a good reliable laptop.,0.4902,positive
+HP Omen Transcend 14,i do android dev and also game mostly fc25 and marvel rivals and thats it.,0.4215,positive
+HP Omen Transcend 14,just them 2. so suggest the best one in this price please.,0.7759,positive
+HP Omen Transcend 14,currently looking at hp omen transcend 14 asus tuf a14 any screen size is ok but has to be a good display,0.6652,positive
+HP Omen Transcend 14,what are you going to use your laptop for?,0.0,neutral
+HP Omen Transcend 14,the laptop will be used for: regular office tasks 3d design with solidworks vj work with resolume arena various network tools and audio tools for both hobby and work-related tasks.,0.0,neutral
+HP Omen Transcend 14,what is your budget?,0.0,neutral
+HP Omen Transcend 14,"around 2000 would be ideal, but finding a suitable laptop is more important than saving the last few hundred euros.",0.5913,positive
+HP Omen Transcend 14,will you be taking your laptop with you often?,0.0,neutral
+HP Omen Transcend 14,"yes, the laptop will be heavily used on the go.",0.4019,positive
+HP Omen Transcend 14,"currently, i use a dell latitude 5480 14"" , which i really like in terms of size.",0.4201,positive
+HP Omen Transcend 14,"however, the battery life of my current laptop leaves much to be desired.",0.2732,positive
+HP Omen Transcend 14,"at the moment, i avoid using this laptop for more demanding tasks because it simply isn't suited for them.",-0.5256,negative
+HP Omen Transcend 14,"for these tasks, i rely on a separate desktop.",0.0,neutral
+HP Omen Transcend 14,the new laptop will gradually replace that desktop.,0.0,neutral
+HP Omen Transcend 14,do you have specific (brand) preferences?,0.0,neutral
+HP Omen Transcend 14,"ideally, i'm looking at the more reliable brands in my opinion, such as dell, lenovo, or hp.",0.4215,positive
+HP Omen Transcend 14,specifications i would like to see: must-haves: resolution higher than fhd (so qhd or above).,0.3612,positive
+HP Omen Transcend 14,high-quality display .,0.0,neutral
+HP Omen Transcend 14,acceptable battery life .,0.3182,positive
+HP Omen Transcend 14,32gb ram or more .,0.0,neutral
+HP Omen Transcend 14,preferably rtx 4070 or similar quality in the rtx ada series.,0.0,neutral
+HP Omen Transcend 14,(higher-end gpus like the rtx 4080 4090 are also welcome).,0.3612,positive
+HP Omen Transcend 14,cpu performance comparable to i7 i9 .,0.0,neutral
+HP Omen Transcend 14,i'm not fully familiar with amd equivalents here.,0.0,neutral
+HP Omen Transcend 14,"1tb ssd (or larger) , but the storage must be replaceable (i.e, not soldered).",0.0,neutral
+HP Omen Transcend 14,form factor similar to my current dell latitude 5480 ( 334x230mm) .,0.0,neutral
+HP Omen Transcend 14,"keyboard backlight , as i often work in dark environments.",0.0,neutral
+HP Omen Transcend 14,"a robust chassis , as the laptop will be used in various workspaces (front of house, workshops, etc.",0.34,positive
+HP Omen Transcend 14,"), not just clean desks.",-0.3089,negative
+HP Omen Transcend 14,thunderbolt 4 support (for capture cards like the blackmagic ultrastudio recorder 3g).,0.6369,positive
+HP Omen Transcend 14,nice-to-haves: matte display.,0.0,neutral
+HP Omen Transcend 14,dedicated rj45 (ethernet) port.,0.4588,positive
+HP Omen Transcend 14,video output via usb-c .,0.0,neutral
+HP Omen Transcend 14,dedicated 3.5mm audio jack .,0.4588,positive
+HP Omen Transcend 14,touchscreen would be a nice bonus.,0.743,positive
+HP Omen Transcend 14,"the laptop should also have a professional, understated appearance suitable for business settings.",0.0,neutral
+HP Omen Transcend 14,"it should not look flashy (e.g, colored keyboard backlight should be optional).",0.0,neutral
+HP Omen Transcend 14,laptop under consideration i currently have my eye on the hp omen transcend 14-fb0090nd .,0.0,neutral
+HP Omen Transcend 14,"however, i haven't been able to find many reviews or discussions about it on forums like tweakers.",0.3612,positive
+HP Omen Transcend 14,questions i have: 1. could this laptop be a good fit for my needs?,0.6597,positive
+HP Omen Transcend 14,2. what suggestions do you have based on my requirements?,0.0,neutral
+HP Omen Transcend 14,"i'm specifically looking for confirmation or user experiences with the omen transcend , or alternative suggestions.",0.0,neutral
+HP Omen Transcend 14,"for example, are there dell or lenovo models i should consider?",0.0,neutral
+HP Omen Transcend 14,i'm open to other brands or models i might not have thought of.,0.0,neutral
+HP Omen Transcend 14,"additionally, i'm less experienced in assessing whether a laptop with specific specs will actually meet expectations e.g, understanding factors like tgp (total graphics power) .",0.3612,positive
+HP Omen Transcend 14,your expertise here would be greatly appreciated!,0.5974,positive
+HP Omen Transcend 14,thank you so much for your help!,0.6696,positive
+HP Omen Transcend 14,note: most of this infromation is summerized so check the comments for others input.,0.0,neutral
+HP Omen Transcend 14,with the current best buy sale happening i thought id drop some on sale recommendations and general advice.,0.4767,positive
+HP Omen Transcend 14,size and weight: look for a 14 inch model if your carrying it around and make sure it is under 3.5-4 pounds.,0.3182,positive
+HP Omen Transcend 14,16 inch models are fine but heavier and harder to carry.,0.1027,positive
+HP Omen Transcend 14,"13 inch models can be to small for some, so think carefully about that.",0.197,positive
+HP Omen Transcend 14,"heat and fan noise: most laptops will be fine under light loads but do your research to find out if the laptop your buying with heat up to unbearable levels or make loud sounds when your using it for gaming, editing, or rendering.",0.2617,positive
+HP Omen Transcend 14,"performance and longevity: make sure your laptop has decent specs because even though 8gb of ram might be fine now, in 3 years it might not last.",0.4767,positive
+HP Omen Transcend 14,"same applies to most last gen compontends like 12th gen intel cpus, and 6th gen amd cpus, along with low end 30 series graphic cards.",0.1027,positive
+HP Omen Transcend 14,"build quailty: cheap laptops are cheap not just because of there components but also because they can have crappy keyboards, trackpads, and thin plastic housing.",-0.7096,negative
+HP Omen Transcend 14,watch out for these issues.,0.0,neutral
+HP Omen Transcend 14,screens: 2560 by 1440 minimum for anything over 1000 usd.,0.0,neutral
+HP Omen Transcend 14,"1080p won't cut it, it will hurt your eyes, and also oled is a nice bonus.",0.5739,positive
+HP Omen Transcend 14,"battery: advertisments are lies, find a source from someone who has one, it is not just about size but efficiency.",0.3291,positive
+HP Omen Transcend 14,also you can always consider an extra portable power bank.,0.0,neutral
+HP Omen Transcend 14,open box refurbished: this is basically free money saved as long as it is trusted company.,0.8481,positive
+HP Omen Transcend 14,open box is just used slightly with no damage and refurbished is just swaping used components for new ones.,-0.5938,negative
+HP Omen Transcend 14,best buy has a great selection of these and will instantly save you money on almost any product.,0.91,positive
+HP Omen Transcend 14,reccomenditions on best buy on sale (both are a steal at current price point and would be pretty good even without the sale.,0.7964,positive
+HP Omen Transcend 14,hi all!,0.0,neutral
+HP Omen Transcend 14,"after a couple of years, i've decided that even my hp omen transcend 14 is too big and bulky for what i am looking for, which is essentially a midrange spec 12"" laptop, windows 11 modernish amd intel, one dimm slot for adding ram (not a dealbreaker but i do want 24 gb of ram).",0.1154,positive
+HP Omen Transcend 14,"a single usb - c is plenty as well, i intend on this going from bag thunderbolt dock work bag thunderbolt dock home with little use of internal keyboard or screen trackpad.",0.2732,positive
+HP Omen Transcend 14,"if there's not such a thing out there (besides the 12"" macbook which i had but have no desire to run macos anymore) i'll be getting a closeout framework 13"".",0.1901,positive
+HP Omen Transcend 14,thanks!,0.4926,positive
+HP Omen Transcend 14,i'm choosing between buying either of these two laptops: hp omen transcend 14 cpu - intel core ultra 7 255h gpu - rtx 5060 (75w) ram - 32gb lenovo legion 5i cpu - intel core ultra 7 255hx gpu - rtx 5060 (115w) ram - 32gb the price is basically the same.,0.0,neutral
+HP Omen Transcend 14,"but i'd be getting a good pair of headphones and also a mouse from hyperx, as an addon if i take the omen.",0.5927,positive
+HP Omen Transcend 14,"the omen is weaker all around and has a slightly worse screen, but it also has better speakers and a better all-aluminum compact build.",0.7047,positive
+HP Omen Transcend 14,so i'm thinking if the thin and light higher quality build the extra goodies is worth the sacrifice in performance.,0.2263,positive
+HP Omen Transcend 14,"right now i have a hp omen 15 (2021) cpu - amd ryzen 5 5600h gpu - rtx 3060 (100w) ram - 16gb i was planning to actually buy a laptop next year, to have at least 5 years in between the old and the new.",0.0,neutral
+HP Omen Transcend 14,"but with all the existing and expected price hikes, it seems that if i don't buy one now, i won't get a better deal for a couple of years.",-0.4782,negative
+HP Omen Transcend 14,i'm not gonna lie.,0.0,neutral
+HP Omen Transcend 14,"i'm in love with the omen's keyboard, but i've been doing some research before i settle.",0.3818,positive
+HP Omen Transcend 14,i was looking at competition and it seems like the asus g14 is better.,0.6597,positive
+HP Omen Transcend 14,"i've found one for the same price on newegg ( 1,299).",0.0,neutral
+HP Omen Transcend 14,"however, i'm afraid if they are safe to buy.",0.4404,positive
+HP Omen Transcend 14,the omen is sold from the official hp store on newegg.,0.0,neutral
+HP Omen Transcend 14,"the same device on hp's website goes for 2,000. why are they selling it for a discount on newegg?",0.0,neutral
+HP Omen Transcend 14,"the g14 is sold from a 3rd party seller, electronicexpertsna, on newegg.",0.4019,positive
+HP Omen Transcend 14,they only have 1 review which is 5 stars.,0.0,neutral
+HP Omen Transcend 14,it has considerably higher specs than the omen.,0.0,neutral
+HP Omen Transcend 14,"there is a note stating: ""please note that this product is non-returnable and non-refundable.""",0.3182,positive
+HP Omen Transcend 14,makes me think they might be selling a faulty laptop with that statement.,-0.3182,negative
+HP Omen Transcend 14,sounds really risky.,-0.2716,negative
+HP Omen Transcend 14,"it also has this weird note in the overview: ""we sell computers with upgraded configurations, so the original factory box will be opened and resealed to install the upgrades to achieve the specifications as advertised.",0.1787,positive
+HP Omen Transcend 14,"defects blemishes are significantly reduced by our professional inspection testing.""",-0.4019,negative
+HP Omen Transcend 14,i'm just looking to play a bit of sims 4 and loan it to my boyfriend to play apex on work trips.,0.5859,positive
+HP Omen Transcend 14,nothing crazy.,0.2584,positive
+HP Omen Transcend 14,looking for something that will do the job in ny budget.,0.0,neutral
+HP Omen Transcend 14,i don't need full specs.,0.0,neutral
+HP Omen Transcend 14,"i was into the transcend because of the better battery life, temperature, and noise level.",0.4404,positive
+HP Omen Transcend 14,"i heard the g14 is noisy, gets hot, and doesn't have as good of a battery.",-0.4777,negative
+HP Omen Transcend 14,help!,0.4574,positive
+HP Omen Transcend 14,i just wanna make sure i am making the safest decison.,0.6124,positive
+HP Omen Transcend 14,this is a big investment for me so i can't afford to end up with a lemon.,0.0,neutral
+HP Omen Transcend 14,i have included the links at the end to newegg where you can check them out to see if they seem legit.,0.0,neutral
+HP Omen Transcend 14,"thanks so much specs: omen transcend gaming laptop 14"" 3k intel core ultra 7 16 gb memory;1 tb ssd processor: intel core ultra 7 255h (up to 5.1 ghz with intel turbo boost technology, 24 mb l3 cache, 16 cores, 16 threads) storage: 1 tb pcie gen4 nvme tlc m.2 ssd memory: 16 gb lpddr5x-7467 mt s (onboard) graphics: integrated: intel arc 140t gpudiscrete: nvidia geforce rtx 5060 generation laptop gpu (8 gb gddr6 dedicated) display: 14"" diagonal, 3k (2880 x 1800), oled, 48-120 hz, 0.2 ms response time, uwva, edge-to-edge glass, micro-edge, low blue light, sdr 400 nits, hdr 500 nits, 100 dci-p3 asus rog zephyrus g14 gaming laptop, 14"" oled 3k 120hz display, amd ryzen 9 270 (beat core i9-13900h), rtx 5060 8gb gddr7, 16gb lpddr5x ram 2tb ssd, wi-fi 7, rgb backlit keyboard, win11 home memory: 16gb lpddr5x 7500mhz ram storage: 2tb nvme gen 4x4 ssd processor: amd ryzen 9 270, 8 cores, 16 threads, 16 mb l3 cache, up to 5.2 ghz.",0.7964,positive
+HP Omen Transcend 14,"display: 14"" 120ghz 3k oled anti-glare display, micro-edge, 500 nits brightness.",0.3818,positive
+HP Omen Transcend 14,screen resolution: 3k (2880x1800) graphics: nvidia geforce rtx 5060 with 8gb gddr7 dedicated graphics operating system: windows 11 home ethernet: wifi 7,0.4588,positive
+HP Omen Transcend 14,just bought an acer nitro v 16 ai as my first gaming laptop for 680 but i think i've decided to return it because it's just too big for me.,0.0,neutral
+HP Omen Transcend 14,i'm thinking of just paying double what i paid and get a better laptop that's more portable and has oled.,0.4404,positive
+HP Omen Transcend 14,what should i get under 1200 ?,0.0,neutral
+HP Omen Transcend 14,"6 months ago, u modrnjosh managed to and since the new 2025 hp omen transcend 14's gpu is yet again capped at 75w, does anyone here got any rtx 5060 5070 vbioses from another hp laptop that it can use?",0.0,neutral
+HP Omen Transcend 14,i am planning to change laptops and found that 14 inch gaming laptops are something that i might need in terms of portability yet good performance.,0.4404,positive
+HP Omen Transcend 14,"so then i encountered these two potential gaming laptops : 1. hp omen transcend 14, ultra 9 285h, 32gb ram, 1 tb ssd, rtx 5070 8gb at around 1600 2. asus rog zephyrus g14, ruzen 9 270, 32gm ram, 2tb ssd, rtx 5050 8gb at 1900 to be honest, i'm more sold on the g14, but how much is the difference with rtx 5070?",0.2846,positive
+HP Omen Transcend 14,"also i've heard that even though the hp one is equipped with a 5070 and the latest intel processor, the tdp-tgp is so bad that the gpu just underperforms.",-0.6696,negative
+HP Omen Transcend 14,what do you guys think?,0.0,neutral
+HP Omen Transcend 14,or is there any other 14 inch gaming laptops laptops with similar dgpu in that price range that i missed?,-0.296,negative
+HP Omen Transcend 14,any advice is appreciated!,0.5562,positive
+HP Omen Transcend 14,"hey y all, bluf: i'm coming from an old msi stealth pro i bought about 10 years ago as i didn't use laptops much past college.",-0.0772,negative
+HP Omen Transcend 14,"i recently purchased an hp omen transcend 14 (intel ultra 9 285hz 16c 16th, rtx 5070 32gb vram, 2tb ssd) and was wondering what i should do first as soon as i receive it to optimize it for whatever.",0.4939,positive
+HP Omen Transcend 14,"background, not the most tech savvy, didn't do anything to the msi when i bought it, ran okay mostly (i had slow wifi), but i've been reading about deleting stuff known as bloat as soon as you get it.",0.1154,positive
+HP Omen Transcend 14,"i'm not interested in making it the quickest, most streamlined laptop in the world, just using it to stream movies youtube and gaming occasionally (world of tanks, star citizen, cod, destiny, etc) while deployed.",-0.3089,negative
+HP Omen Transcend 14,"i also made the dumb mistake of purchasing a 3 year mcafee license before i read it's basically a virus itself with the pop ups, so wondering how i can just uninstall it immediately upon arrival.",-0.6908,negative
+HP Omen Transcend 14,any help is appreciated for what to do to optimize the system when i receive it!,0.8588,positive
+HP Omen Transcend 14,thanks yall.,0.4404,positive
+HP Omen Transcend 14,i got some offers on both but not sure what people think.,-0.3491,negative
+HP Omen Transcend 14,the hp omen will have the 50 series rtx and the msi stealth 14 is 40 series.,-0.0772,negative
+HP Omen Transcend 14,the hp omen looks like a snack but i hear people say hp omen is bad tho so i am kinda conflicted.,-0.6124,negative
+HP Omen Transcend 14,what do you guys think?,0.0,neutral
+HP Omen Transcend 14,"also the only thing i hate about the omen is the screen, i think its overkill and could be annoying on the battery if i want to use it for just non gaming sometimes",-0.7269,negative
+HP Omen Transcend 14,context i bought an omen transcend 14 fb 0000 (the base model) back during 2024 black friday for around 940 dollars.,0.0,neutral
+HP Omen Transcend 14,"i've been using it for a year until randomly one day when i plugged it in to charge my laptop screen went black and the power button started flashing irregularly, turning on and off (and not charging), until i unplugged it and it would turn back on and work fine.",0.2023,positive
+HP Omen Transcend 14,"however, my laptops battery obviously got depleted and i haven't been able to use it since.",0.0,neutral
+HP Omen Transcend 14,"i live in a country that isn't supported by hp (they do not have stores here, i got mine shipped from abroad) however they do have service centers, so i took mine to one.",-0.2411,negative
+HP Omen Transcend 14,"they got back to us, claiming that the motherboard was completely fried and we would need to replace it.",0.0,neutral
+HP Omen Transcend 14,"we then took it to another guy that isn't official, and he made the not confident diagnosis that the bios and some transistor chips were fried, however even after replacing them, the laptop would work only for like an hour, before he claimed it overheated, shut down and fell into the flashing power button trance again.",-0.033,neutral
+HP Omen Transcend 14,"he told us that whenever he fixes something, something else goes wrong however he did seem a little uhh sketchy so can't be sure if he was right.",-0.6515,negative
+HP Omen Transcend 14,he ultimately told us too that the motherboard was fried and there was no point trying to fix it; it had to be replaced.,-0.296,negative
+HP Omen Transcend 14,"this is obviously hella expensive considering i got my cpu (ultra 7 155h), gpu (rtx 4050), and even ram soldered onto the motherboard which have no issues.",-0.296,negative
+HP Omen Transcend 14,(i'm definitely not the richest person ) after asking for the price of the replacement they gave us a price equivalent to 2200 dollars (more than double the price of the laptop itself).,-0.0196,neutral
+HP Omen Transcend 14,"the motherboard model is hp n84269-601, but this is pretty much useless as i am unable to find any place selling that motherboard, not even with different specs.",0.1531,positive
+HP Omen Transcend 14,"after contacting several hp centres i found that only austrian hp sells the motherboard, for a (not at all) low price of 1500 euros.",-0.2732,negative
+HP Omen Transcend 14,i also found an open box seller on ebay but multiple redditors claimed it was a scam in another post (not by me).,-0.7227,negative
+HP Omen Transcend 14,even when using hp partsurfer ( i can not find a buy link.,0.0,neutral
+HP Omen Transcend 14,anyways enough context.,0.0,neutral
+HP Omen Transcend 14,what should i do?,0.0,neutral
+HP Omen Transcend 14,"if there's any hope in fixing it (which i'm already past believing), how could this be done?",0.4404,positive
+HP Omen Transcend 14,"if not, is it possible to find a compatible motherboard with the same or better specs for sale at a reasonable price?",0.4404,positive
+HP Omen Transcend 14,"any info on where i can find a motherboard would be much appreciated, and thank you for taking the time too read this terribly long post.",0.1406,positive
+HP Omen Transcend 14,"if there is no solution for either of the above questions, i don't think buying a new laptop is in the picture, however i do need something for school work.",0.0258,neutral
+HP Omen Transcend 14,my laptop recently has started doing that weird thing i have in the attached video when watching a video or gaming while gaming it w will happen and the frames will look choppy but not drop at all the freezing also happens on my second monitor and without the monitor disconnected on both hdmi and type c to display port.,0.0698,positive
+HP Omen Transcend 14,i have checked drivers maybe i'm missing something there change my graphics to run only on the intel card instead of the nvidia 4070. processor intel(r) core(tm) ultra 9 185h (2.50 ghz) installed ram 32.0 gb (31.4 gb usable),-0.296,negative
+HP Omen Transcend 14,i am looking into buying this laptop for a do everything laptop: collage web browsing gaming etc.,0.0,neutral
+HP Omen Transcend 14,i am just skeptical of a couple of things.,-0.3182,negative
+HP Omen Transcend 14,"1. the fan noise when performing normal tasks like web browsing, in collage we do some exams with our computers and to have a fan noice that bother everybody around me is not optimal.",0.3798,positive
+HP Omen Transcend 14,"2. the ruggedness of the device, can it be but in a bag with a case and be slightly pumped?",0.0,neutral
+HP Omen Transcend 14,or is it more fragile than other laptops?,0.0,neutral
+HP Omen Transcend 14,3. the gaming performance.,0.0,neutral
+HP Omen Transcend 14,i have seen in a couple of benchmarks that the laptop struggles to run games at 60 fps with some drops.,-0.3612,negative
+HP Omen Transcend 14,"i would imagine this is due to the resolution of 2.8k, how is the performance in 1080p?",0.0,neutral
+HP Omen Transcend 14,does it go over 60fps?,0.0,neutral
+HP Omen Transcend 14,"also i like for gaming to plug in an external monitor, could it run games at 1080p at 120hz high settings?",0.3612,positive
+HP Omen Transcend 14,got thanksgiving deal at bb 1100.,0.0,neutral
+HP Omen Transcend 14,"32gb ram, 1 tb , rtx 5060 , intel core ultra 7-255h.",0.0,neutral
+HP Omen Transcend 14,runs great and cool.,0.7506,positive
+HP Omen Transcend 14,"was hesitant as i read gpu is throttled but warzone runs at 120 fos, arc raiders at 120-130 fps, bf6 at 100 fps.",-0.128,negative
+HP Omen Transcend 14,no tweaking of settings just using ootb.,-0.296,negative
+HP Omen Transcend 14,first time it installed lot of bios updates.,0.0,neutral
+HP Omen Transcend 14,not sure if hp tweaked anything with this laptop.,-0.2411,negative
+HP Omen Transcend 14,extremely portable and light.,0.0,neutral
+HP Omen Transcend 14,"compared with g14, went with this as it was on sale.",0.0,neutral
+HP Omen Transcend 14,i do parttime free lance projects which involves lot of coding and this is a perfect laptop to work and game on the go!,0.807,positive
+HP Omen Transcend 14,"anyone on fence , this is a better deal than asus g14.",0.4404,positive
+HP Omen Transcend 14,"walked into best buy to look at iphones and left with an ultra 9 185h, rtx 4070 beast for less than a chromebook.",0.6369,positive
+HP Omen Transcend 14,only thing wrong was the power cord was missing.,-0.6486,negative
+HP Omen Transcend 14,"this september i will be starting a computer science degree, so i have been saving to buy a new laptop.",0.0,neutral
+HP Omen Transcend 14,"i have narrowed it down to the hp omen transcend 14. i will be programming relatively intensively on it, and i would want it to run aaa games comfortably without dropping frames.",0.4767,positive
+HP Omen Transcend 14,"resolution matters less for me personally, much more of a frame rate guy.",0.0258,neutral
+HP Omen Transcend 14,"you can either have an intel ultra 7, or ultra 9 for the processor, 16 or 32 for the ram, and 4050, 4060 or 4070 for the gpu.",0.0,neutral
+HP Omen Transcend 14,"i'd need to save a little longer if i wanted to max out all the specs, so i'm wondering realistically what i'd get the best value for money from.",0.8689,positive
+HP Omen Transcend 14,help would be appreciated :),0.8402,positive
+HP Omen Transcend 14,"hi ive recently got an issue thats not fatal but very annoying, the issue is that my laptop keeps freezing at random points in time for 1-3s or maybe longer not sure but i know its in seconds.",-0.7276,negative
+HP Omen Transcend 14,"this issue started happening a 2 weeks ago, didn't think much about it and left it thinking it would resolve itself but it didn't thats why i need your help.",0.6542,positive
+HP Omen Transcend 14,my laptop is hp omen transcend 14 (2024) fb0xxx and it only supports integrated and hybrid modes.,0.3612,positive
+HP Omen Transcend 14,specs: intel core ultra 7 155h has integrated graphics (intel arc graphics) rtx 4060 16gb ddr5 ram (7500mhz) 1tb nvme,0.0,neutral
+HP Omen Transcend 14,my computer recently started freezing up randomly.,-0.1027,negative
+HP Omen Transcend 14,"it would last for a split second, example is if im listening to music and typing everything would just freeze up.",0.0516,positive
+HP Omen Transcend 14,i have an hp omen transcend 14 and it did go under a motherboard and heat sink replacement.,0.0,neutral
+HP Omen Transcend 14,im worried that leaving my laptop on performance mode for like 9 hours straight for like 4 days in a row may have caused this?,0.5719,positive
+HP Omen Transcend 14,any fixes?,0.0,neutral
+HP Omen Transcend 14,so i went to best buy yesterday to get some extra ram before they get unbearably expensive and i saw this 4060 laptop that was on sale for 347. baffled by the price i asked one of the sales associates if that laptop was actually selling for that price and to my disappointment while yes it was being sold at that price.,0.5945,positive
+HP Omen Transcend 14,it was completely out of stock.,0.0,neutral
+HP Omen Transcend 14,i was so bummed out when i heard that because that would ve been the deal of a lifetime.,0.0,neutral
+HP Omen Transcend 14,i never have i ever been blue balled by a display unit.,0.0,neutral
+HP Omen Transcend 14,"hello, i want to study at university next year and i want to buy a good laptop.",0.5423,positive
+HP Omen Transcend 14,"i want one that's easy to transport, lightweight, and powerful enough to run programs like unity or unreal engine (i'm more interested in development than gaming).",0.8883,positive
+HP Omen Transcend 14,which laptop do you recommend?,0.3612,positive
+HP Omen Transcend 14,i have two options: 1: 2: which of the two do you recommend?,0.3612,positive
+HP Omen Transcend 14,thank you.,0.3612,positive
+HP Omen Transcend 14,"hello, i am having an issue with my download speed on my pc.",0.0,neutral
+HP Omen Transcend 14,this pc is the only device in the home having this issue.,0.0,neutral
+HP Omen Transcend 14,all devices are connected via wifi.,0.0,neutral
+HP Omen Transcend 14,"this pc will download around 85mbs max, but most of the time it downloads at about 10mbs.",0.0,neutral
+HP Omen Transcend 14,i have tested the same downloads on another pc and the issue did not repeat.,0.0,neutral
+HP Omen Transcend 14,i have tried to mostly download games.,0.0,neutral
+HP Omen Transcend 14,"the pc was purchased today, when i got it home i swapped out the ssd from the 1tb drive that came with the pc to a 2tb.",0.0,neutral
+HP Omen Transcend 14,i did not try to download anything before doing this.,0.0,neutral
+HP Omen Transcend 14,i installed windows off of usb and then went to hp s website to download the drivers after connecting the pc through a usb ethernet dongle.,0.0,neutral
+HP Omen Transcend 14,the slow download speeds are consistently slow even with a usb ethernet dongle.,0.0,neutral
+HP Omen Transcend 14,i have tried both of the two network drivers on hp site and one on intel s site.,0.0,neutral
+HP Omen Transcend 14,"this is the laptop hp omen transcend 14"" 120hz 3k oled gaming laptop intel core ultra 9-185h 32gb memory nvidia geforce rtx 4070 1tb ssd shadow black 14-fb0023dx 9q5l1ua aba - best buy ( this is the ssd.",0.6369,positive
+HP Omen Transcend 14,i did not have slow downloads on this drive as of this week.,0.0,neutral
+HP Omen Transcend 14,i have owned the drive since oct 2023. really only used to hold games.,0.0,neutral
+HP Omen Transcend 14,crucial p3 plus 2tb internal ssd pcie gen 4 x4 nvme ct2000p3pssd8 - best buy ( i have included images of two speed tests.,0.6369,positive
+HP Omen Transcend 14,from google and speedtest.com.,0.0,neutral
+HP Omen Transcend 14,the speed showing on speedtest.com does not happen for any real applications.,0.0,neutral
+HP Omen Transcend 14,the google speed test is closer to actual results when downloading.,0.0,neutral
+HP Omen Transcend 14,all other devices in the home perform around 400mbs during actual use.,0.0,neutral
+HP Omen Transcend 14,also included images of the drivers i have tried.,0.0,neutral
+HP Omen Transcend 14,"any advice is appreciated, thanks!",0.7574,positive
+HP Omen Transcend 14,the image of the drivers from hp's site will not load.,0.0,neutral
+HP Omen Transcend 14,"text from hp's site: intel wlan driver 23.60.1.2 ( rev.a 12.8 mb jul 19, 2024 intel wlan driver 23.10.0.8 ( rev.b 12.4 mb dec 18, 2023",0.0,neutral
+HP Omen Transcend 14,so i'm shopping for a laptop mainly a desktop user her but will need to be mobile in the near future.,0.0,neutral
+HP Omen Transcend 14,i'm fighting between the legion 7i 2024 and the hp omen transcend 14. the legion can be upgraded and the omen cannot.,-0.3612,negative
+HP Omen Transcend 14,a 500 difference between the two (have a 1034 open box omen sitting at the local best buy).,0.6369,positive
+HP Omen Transcend 14,"i game, do photography and a video edit once in a blue moon.",0.0,neutral
+HP Omen Transcend 14,thanks in advance!,0.4926,positive
+HP Omen Transcend 14,edit: noticed i forgot to mention that i was inquiring about ram lol,0.4215,positive
+HP Omen Transcend 14,"hello, i suddenly have to work away from my studio and strong dedicated work station that i've built.",0.743,positive
+HP Omen Transcend 14,i am looking for laptop recommendations that could work.,0.0,neutral
+HP Omen Transcend 14,"budget not really a concern, i've been looking at the hp omen transcend 14 16 but wondering if anybody has one that they love would recommend.",0.8765,positive
+HP Omen Transcend 14,"as title says i'm working with 3d software, mostly cinema 4d, zbrush and adobe suite.",0.0,neutral
+HP Omen Transcend 14,capability to run vr would be amazing.,0.5859,positive
+HP Omen Transcend 14,thanks in advance !,0.4926,positive
+HP Omen Transcend 14,i want a laptop which has a high performance when i need it but is thin low profile enough to carry it around and actually usable on laps with a good battery life.,0.3291,positive
+HP Omen Transcend 14,"i've shortlisted the following hp omen transcend 14 gaming laptop, it has a core ultra 9 185h, rtx 4070 and 32gb of ddr5 7467mhz ram and 1tb storage.",0.0,neutral
+HP Omen Transcend 14,"i couldn't find the tgp anywhere, some users say its at least 100w for 4070 but no official source and the included power adapter is just 140w.",-0.4215,negative
+HP Omen Transcend 14,"the qna section does say it ""nvidia rtx 4070 can be configured between 35w and 115w"" but i have no clue whether they mean their 4070 or in general allowed by nvidia.",-0.4215,negative
+HP Omen Transcend 14,"i'm leaning towards it for the 2.8k 120hz oled it has and the extra ram (obviously all of this packed into a 14 inch chassis weighing 1.7kg) alienware m16 r2, it also has a core ultra 9 185h, rtx 4070 but 16gb of ddr5 5600mhz ram and also 1tb storage.",0.0,neutral
+HP Omen Transcend 14,"172 watt tdp with everything cpu gpu screen etc included, but as far as i've found tgp is higher than hp.",0.0,neutral
+HP Omen Transcend 14,"i really am not leaning towards it after seeing the hp, and hp does translate to best specs on paper, but i don't want such compromised version of the 4070 which won't even do 100w.",0.3109,positive
+HP Omen Transcend 14,"if you have any other suggestions within the price range of both of those laptops and similar specs, and most of all good battery life.",0.4877,positive
+HP Omen Transcend 14,hp gives around 10 hours of battery backup and alienware gives over 7.5!,0.0,neutral
+HP Omen Transcend 14,"battery endurance tests conducted by ltt i'd get the hp if its between those two laptops, and i did take a look at the latest sephyrus g14, but i couldn't find one which compares to them (with zephyrus i would prefer 14 inch but 16 inches would work too)",0.0,neutral
+HP Omen Transcend 14,"i have an hp omen transcend 14 laptop, and i have a usb-c dock in the home office so i can use the monitor and keyboard with another laptop.",0.0,neutral
+HP Omen Transcend 14,"however, when trying to play some games in the office today (namely xdefiant and rainbow six siege), the game would sometimes begin lagging out for no reason.",-0.2263,negative
+HP Omen Transcend 14,"i was wondering if anyone else with a gaming laptop (that is, a laptop with a discrete gpu) was having the same issue with usb-c docks.",0.0,neutral
+HP Omen Transcend 14,i'm trying to decide between these two laptops.,0.0,neutral
+HP Omen Transcend 14,i am not a gamer but i use heavily computational engineering software.,0.0,neutral
+HP Omen Transcend 14,the xps 16 has yet not been released.,0.0,neutral
+HP Omen Transcend 14,"do you think it is worth the wait, than getting the hp now?",0.2263,positive
+HP Omen Transcend 14,thanks!,0.4926,positive
+HP Omen Transcend 14,"hp omen - transcend 14"" 120hz 3k oled gaming laptop - intel core ultra 7-255h - 32gb memory - nvidia geforce rtx 5060 - 1tb ssd - shadow black - open box - excellent - 1000 i don't really need all the perfomance but i'm not agaisnt it, and i hear it has some good battery life too, so any reason not to buy it as a student.",0.7351,positive
+HP Omen Transcend 14,just started happening to me.,0.0,neutral
+HP Omen Transcend 14,its the 2023 model and i have had it for like 8 months.,0.3612,positive
+HP Omen Transcend 14,sometimes randomly when plugging in the charger the screen goes black and i need to reboot the laptop.,0.0,neutral
+HP Omen Transcend 14,it has happened like once or twice a week now for few weeks.,0.3612,positive
+HP Omen Transcend 14,is this more likely to be hardware or software issue?,0.0,neutral
+HP Omen Transcend 14,"i don't really use reddit much, so i'm unsure if this feed will help, but i thought i'd give it a shot as i'm looking for some advice.",0.0544,positive
+HP Omen Transcend 14,i do the occasional travel and do need a laptop too for work purposes.,0.0,neutral
+HP Omen Transcend 14,"however, when it comes to using it for work, i'd say only about an hour of use daily.",0.0,neutral
+HP Omen Transcend 14,"my main want for it is to watch anime and movies, and my reason for an oled is that i had one for about a month, and it looked incredible to watch my shows on.",0.0772,positive
+HP Omen Transcend 14,"now, at the moment, i don't need it for gaming as i have a pc for that, and when i travel, i only go away for about 2 weeks tops every two months or so, which doesn't bother me as much.",0.6808,positive
+HP Omen Transcend 14,"i currently own a normal bog standard laptop, which i use only for work as it really can't do much else, and my ipad pro 12.9-inch (4th gen) 2020, which i currently use for watching on the go and around the house when i don't fancy sitting at the tv.",0.0,neutral
+HP Omen Transcend 14,"the reason i mention this is that, regardless of what i'm running now, i do want to upgrade, as i really like how my shows look on an oled screen, my ipad's battery health is low, and i might give it to my nephew as a gift.",0.5984,positive
+HP Omen Transcend 14,"i've got two options: - i can either keep my current laptop and buy a brand new ipad pro, which also comes with oled screens; however are quite spenny.",0.0,neutral
+HP Omen Transcend 14,"- i can buy the oled laptop, which i can use around the house to watch my shows, and when i'm travelling, similarly to my ipad, and double up use by using it as a work laptop too when i need it.",0.0,neutral
+HP Omen Transcend 14,"the reason i started this thread is purely to compare how an oled laptop would be used in my situation, whether i should just buy an ipad instead, and the downsides to both, such as burn-in in ext.",0.0,neutral
+HP Omen Transcend 14,"(also, any recommendations if i do decide to go for a laptop, in which case my budget is max: 1200) i just realised i did forget to mention a good point, which i'll throw down here.",0.25,positive
+HP Omen Transcend 14,i did actually have an oled laptop as i mentioned before.,0.0,neutral
+HP Omen Transcend 14,"however, i bought a gaming one, which was the hp-omen transcend 16-u1506na.",0.0,neutral
+HP Omen Transcend 14,"i did initially use it similarly to before, and i did buy it to play the occasional game when i wasn't home, yet i didn't really play a single game on it, even when i was away, and only really used it for work and watching stuff.",0.5859,positive
+HP Omen Transcend 14,"i brought this up as i only used it similarly to how i described above, and had to return it to repairs, as the laptop crashed whilst i was watching a show, and when i went to boot it up, it blackscreened permanently.",0.0,neutral
+HP Omen Transcend 14,"i sent it back, hoping for repairs as it was still under warranty; however, they couldn't fix it and didn't have any others in stock, and i ended up receiving a refund.",0.4215,positive
+HP Omen Transcend 14,"i only paid 1079, which i got on offer at the time, and i'm looking for a response preferably before black friday sales jump in, so i can catch on for cheaper.",0.0,neutral
+HP Omen Transcend 14,i have been recently looking for an appropriate laptop for engineering at university and casual gaming.,0.2023,positive
+HP Omen Transcend 14,i have narrowed down my options between a lenovo slim 5 gen 9 for 2229 aud and hp omen transcend 16 for 2334 aud.,0.0,neutral
+HP Omen Transcend 14,both laptops have 3 year warranty.,0.0,neutral
+HP Omen Transcend 14,"specs for lenovo slim 5 gen 9 processor: amd ryzen 7 8845hs processor (3.80 ghz up to 5.10 ghz) memory : 32 gb ddr5-5600mt s (sodimm) - (2 x 16 gb) solid state drive: 1 tb ssd m.2 2280 pcie gen4 tlc display: 16"" wqxga (2560 x 1600), ips, anti-glare, non-touch, hdr 400, 100 srgb, 500 nits, 240hz, narrow bezel, low blue light graphic card: nvidia geforce rtx 4060 laptop gpu 8gb gddr6 aluminum lid, plastic keyboard and body specs for hp omen transcend 16-u1003tx i7-14700hx processor 16"" diagonal, wqxga (2560 x 1600), oled, 48-240 hz, 0.2 ms response time nvidia geforce rtx 4060 16 gb ddr5-5600 ram (upgradeable to 32gb) 1 tb ssd hard drive full-size, 4-zone rgb backlit keyboard aluminum case, plastic keyboard im mainly concerned about any prevalent issues specific for these models, as well if there are any major disparities between battery life as i see inconsistent battery results from reviewers of both models.",0.0516,positive
+HP Omen Transcend 14,"furthermore if anyone has used an oled laptop before, was it worth the switch from ips",0.2263,positive
+HP Omen Transcend 14,i am looking to replace my current gaming laptop with something a bit more portable.,0.0,neutral
+HP Omen Transcend 14,"i am therefore looking for a 14"" model.",0.0,neutral
+HP Omen Transcend 14,"i do not tend to play the most graphically intensive games, with many being cpu-dependent.",-0.2584,negative
+HP Omen Transcend 14,my budget is roughly 1200-1400 and the following are available where i am: which of these - or any recommended alternatives - would be best for me?,0.7184,positive
+HP Omen Transcend 14,thanks!,0.4926,positive
+HP Omen Transcend 14,i been in the market for a laptop for work and moderate gaming.,0.0,neutral
+HP Omen Transcend 14,i saw this open box fair hp omen transcend only 30 minutes away for pick up.,0.3182,positive
+HP Omen Transcend 14,anyone have it and can give a review or their experiences?,0.0,neutral
+HP Omen Transcend 14,"so ive had this laptop almost two years now, it very randomly makes a buzzing noise when im watching shows, listening to music, or playing games.",0.2023,positive
+HP Omen Transcend 14,when this happens it freezes for anywhere from 1-2 seconds and goes back to normal.,-0.0258,neutral
+HP Omen Transcend 14,any ideas what could be causing it?,0.0,neutral
+HP Omen Transcend 14,drivers are up to date.,0.0,neutral
+HP Omen Transcend 14,"if anyone else has this monitor yet, does anyone else have any screen flickering issues?",0.0,neutral
+HP Omen Transcend 14,i'm running x470 mobo with a 5700x3d cpu and a 3080 ti.,0.0,neutral
+HP Omen Transcend 14,maybe it's something to do with my specs?,0.0,neutral
+HP Omen Transcend 14,"i know x470 isn't necessarily a great mobo atm, so i might upgrade soon.",-0.5096,negative
+HP Omen Transcend 14,could that be a cause?,0.0,neutral
+HP Omen Transcend 14,i just got the 5700x3d cpu as well.,0.2732,positive
+HP Omen Transcend 14,any thoughts or ideas as to how to fix?,0.0,neutral
+HP Omen Transcend 14,it's not terrible flickering.,0.3724,positive
+HP Omen Transcend 14,it's only really noticeable on darks blacks when it's like an idle menu.,0.3612,positive
+HP Omen Transcend 14,i don't see it notice it much at all when i'm playing.,0.2023,positive
+HP Omen Transcend 14,i wasn't sure if this was common with oleds due to the lighting?,-0.2411,negative
+HP Omen Transcend 14,i'm not familiar with it all.,0.0,neutral
+HP Omen Transcend 14,"i posted this also in r hpomen, but i thought it might be appropriate here because of the component questions.",0.0,neutral
+HP Omen Transcend 14,update: it seems to have been caused by adaptive sync in the omen gaming hub software.,0.0,neutral
+HP Omen Transcend 14,"so, if anyone else encounters this issue, please check that.",0.3182,positive
+HP Omen Transcend 14,"i'm frustrated, and i need an adult.",-0.5267,negative
+HP Omen Transcend 14,"i've just finished my new build, and i'm experiencing issues with windows (surprise).",0.0,neutral
+HP Omen Transcend 14,"it's fresh windows 11 (education version, similar to pro but different, and free through school), fresh drivers, and fresh hardware - fast boot is disabled in power settings.",0.9001,positive
+HP Omen Transcend 14,"when i boot the pc with my monitor connected to my gpu, the pc powers up, and i see the motherboard splash screen and the windows boot wheel.",0.0,neutral
+HP Omen Transcend 14,"as soon as it reaches the windows login page, the screen goes dark and the input is cut off.",-0.2263,negative
+HP Omen Transcend 14,"here s where it gets weird: if i switch to the igpu, i get output, and then if i switch it right back to the gpu, it becomes alive and i'm golden.",0.2263,positive
+HP Omen Transcend 14,"it's almost like windows is prioritizing the igpu for some reason, and the switch between the two triggers some sort of handshake like ""oh, this other gpu exists.""",0.529,positive
+HP Omen Transcend 14,"i've tried disabling the igpu in the bios, but that doesn't do anything for me except prevent me from getting a working signal at all.",-0.2263,negative
+HP Omen Transcend 14,do i need to disable the igpu in the device manager of windows?,0.0,neutral
+HP Omen Transcend 14,what the heck is going on?,0.0,neutral
+HP Omen Transcend 14,"ryzen 5 9600x asus tuf 5070 ti oc (fed by a 750w asus strix gold psu, so power shouldn't be an issue) monitor (if it matters) hp omen transcend 32 4k (using display port 2.1)",0.0,neutral
+HP Omen Transcend 14,hey all - new to pc gaming - i purchased a hp omen transcend 16 from microcenter a few weeks back and i have a dell 34 curved gaming monitor s3422dwg (put links below).,0.0,neutral
+HP Omen Transcend 14,the issue i have is that the hp laptop only has a hdmi out (no displayport) and the dell can only produce 144 hz via displayport (not capable through it's hdmi per the user manual).,0.3818,positive
+HP Omen Transcend 14,what type of cable do i need in order to achieve 144 hz?,0.0,neutral
+HP Omen Transcend 14,dell and hp have legit told me the wrong cable and adapters to buy.,-0.4767,negative
+HP Omen Transcend 14,what's the best way to handle this?,0.6369,positive
+HP Omen Transcend 14,is there a simple way to make it work?,0.0,neutral
+HP Omen Transcend 14,dell: hp omen:,0.0,neutral
+HP Omen Transcend 14,"hey guys, i just bought an hp omen transcend gaming monitor 4k oled.",0.0,neutral
+HP Omen Transcend 14,"it didn't come with a power cable, i'm finding out this is a bit of an issue as i can't find them anywhere.",0.0,neutral
+HP Omen Transcend 14,here is the power adaptor i'm looking for: sps-eps 480w ac adptr pfc 4p rc 12mm or if there are any other options that would make this run.,0.0,neutral
+HP Omen Transcend 14,any advice would be very welcomed as i can't even find it in hp part pickers.,0.4005,positive
+HP Omen Transcend 14,po the dragon warrior nearly all msi parts for the dragon warrior build that is going in my home office gaming station.,-0.5574,negative
+HP Omen Transcend 14,i figured working from home i9-14900kf msi meg coreliquid s360 64gb dominator titanium 7200 (quad 5600mhz) msi rtx 5090 suprim soc msi mpg z790 edge ti max 6tb total storage (4 2tb - 990 pros) msi ez120 argb fans msi mpg a1250gs power supply geometric future m5 case display: hp omen transcend 32 4k 240hz will post the full battle station when i'm done putting the desk and stuff together.,-0.3818,negative
+HP Omen Transcend 14,good luck have fun!,0.8588,positive
+HP Omen Transcend 14,"so i've got a bit of an odd one here, i previously had a samsung g7 as my primary monitor and upgraded to a hp omen transcend.",-0.3182,negative
+HP Omen Transcend 14,"though i'm still having this issue where when loud noises occur next to the computer, it will disconnect only the display monitor for about 3-5 seconds, while my 2 hdmi secondary monitors stay connected.",0.0,neutral
+HP Omen Transcend 14,"specifically, i'm having trouble using the computer when attempting to play trombone or guitar at louder volumes, as it constantly cuts out on screen.",-0.3612,negative
+HP Omen Transcend 14,though it will only disconnect my display port monitor and not my 2nd monitor or tc on hdmi.,0.0,neutral
+HP Omen Transcend 14,"i've also replaced the display port cable, so the only thing i think it could be is my gpu but this happened with a previous 1080ti so i'm pretty confused on what the problem could be.",-0.291,negative
+HP Omen Transcend 14,the last thing i could think is my motherboard but that seems pretty crazy to me.,0.296,positive
+HP Omen Transcend 14,"any advice for this would be appreciated, as right now i'm just living with the 3-5 disconnection occasionally every time things get loud.",0.5106,positive
+HP Omen Transcend 14,"also apologies if this is posted in the wrong area, if so please provide the page where it should be and i'll gladly put it there 3.",0.3163,positive
+HP Omen Transcend 14,"i've got a 6 year old lg gk850g (i think that's the model), which is a 32 gsync-equipped 1440p va panel that can go up to 144hz.",0.0,neutral
+HP Omen Transcend 14,"it's been great, but i'm wondering if now is the time to upgrade, especially with the new qd-oled 32 240hz panels on the market (the hp omen transcend 32 looks great).",0.3716,positive
+HP Omen Transcend 14,"but my only concern is a) longevity of oled monitors and b) dealing with the negatives of 4k, which includes possible scaling weirdness in windows 10 (i'll upgrade to 11 eventually ) and the added gpu overhead for gaming.",-0.3291,negative
+HP Omen Transcend 14,my pc has a 5950x and a 4090 fe.,0.0,neutral
+HP Omen Transcend 14,i like to aim for around 120fps ideally in most games on ultra settings.,0.6486,positive
+HP Omen Transcend 14,what do you think?,0.0,neutral
+HP Omen Transcend 14,could use advice from others who have taken the 4k plunge or have experience using oled as a monitor.,0.0,neutral
+HP Omen Transcend 14,thanks.,0.4404,positive

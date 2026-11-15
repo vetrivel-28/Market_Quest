@@ -1,88 +1,257 @@
-﻿import { useEffect, useState } from "react";
-import { getOpportunities } from "../api";
-import { BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer, Cell } from "recharts";
-
-const COLORS = ["#6366f1","#22c55e","#f59e0b","#ef4444","#06b6d4","#a855f7","#ec4899","#14b8a6","#f97316","#84cc16","#8b5cf6","#0ea5e9"];
-
-const TIPS = {
-  performance: "Highlight benchmark scores and CPU/GPU performance in marketing.",
-  battery:     "Develop ultra-slim models with 15+ hour battery life.",
-  display:     "Promote high-refresh OLED displays for creators and gamers.",
-  gaming:      "Launch dedicated gaming lines with RGB branding and high FPS.",
-  price:       "Release budget-friendly variants targeting first-time buyers.",
-  design:      "Showcase premium build quality and slim form factor.",
-  thermal:     "Invest in better cooling systems to reduce heat complaints.",
-  ram:         "Offer higher RAM configurations as standard.",
-  graphics:    "Partner with NVIDIA/AMD for exclusive GPU bundles.",
-  storage:     "Include faster NVMe SSDs as default storage.",
-  keyboard:    "Improve keyboard travel and backlight quality.",
-  audio:       "Upgrade speaker quality for content creators.",
-};
+import React, { useEffect, useState, useMemo } from "react";
+import { getOpportunities, getPriceModels } from "../api";
+import { useFilters } from "../context/FilterContext";
+import VisualContainer from "../components/VisualContainer";
+import KPICard from "../components/KPICard";
+import {
+  BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer,
+  Legend, Cell,
+} from "recharts";
 
 export default function Opportunities() {
-  const [opps, setOpps] = useState([]);
+  const { target } = useFilters();
+
+  const [opportunities, setOpportunities] = useState([]);
+  const [models, setModels] = useState([]);
+  const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    getOpportunities().then(r => setOpps(r.data.opportunities)).catch(() => {});
-  }, []);
+    let active = true;
+    setLoading(true);
+    setOpportunities([]);
+    setModels([]);
+    Promise.all([getOpportunities(target), getPriceModels(target)])
+      .then(([oppRes, modelRes]) => {
+        if (!active) return;
+        setOpportunities(oppRes.data.opportunities || []);
+        setModels(modelRes.data.models || []);
+        setLoading(false);
+      })
+      .catch(() => {
+        if (active) setLoading(false);
+      });
+
+    return () => {
+      active = false;
+    };
+  }, [target]);
+
+  const totalMentions = useMemo(() => {
+    return opportunities.reduce((s, o) => s + o.mentions, 0);
+  }, [opportunities]);
+
+  const ratedModels = models.filter((model) => Number.isFinite(Number(model.rating)) && Number(model.rating) > 0);
+  const averageRating = ratedModels.length
+    ? ratedModels.reduce((total, model) => total + Number(model.rating), 0) / ratedModels.length
+    : null;
+
+  const opportunityMatrix = useMemo(() => {
+    return opportunities.map((opp, idx) => {
+      const priority = opp.percentage >= 12 ? "P0 High Impact" : opp.percentage >= 8 ? "P1 Expansion" : "P2 Niche";
+
+      return {
+        id: idx + 1,
+        opportunity: opp.opportunity,
+        mentions: opp.mentions,
+        percentage: opp.percentage,
+        positive_pct: opp.positive_pct,
+        negative_pct: opp.negative_pct,
+        priority,
+      };
+    });
+  }, [opportunities]);
+
+  const p0Count = opportunityMatrix.filter((o) => o.priority.startsWith("P0")).length;
 
   return (
     <div>
-      <div className="page-title">Market Opportunity Insights</div>
-
-      <div className="metric-grid">
-        <div className="metric-card"><div className="label">Opportunities</div>
-          <div className="value">{opps.length}</div></div>
-        <div className="metric-card"><div className="label">Total Mentions</div>
-          <div className="value">{opps.reduce((s, o) => s + o.mentions, 0).toLocaleString()}</div></div>
-        <div className="metric-card"><div className="label">Top Opportunity</div>
-          <div className="value" style={{ fontSize: "1rem" }}>{opps[0]?.opportunity || "—"}</div></div>
-      </div>
-
-      <div className="card" style={{ marginBottom: "1.5rem" }}>
-        <div className="section-title">Trending Aspects by Mention Count</div>
-        <ResponsiveContainer width="100%" height={300}>
-          <BarChart data={opps} layout="vertical" margin={{ left: 20 }}>
-            <XAxis type="number" tick={{ fill: "#94a3b8", fontSize: 11 }} />
-            <YAxis type="category" dataKey="opportunity" tick={{ fill: "#94a3b8", fontSize: 12 }} width={100} />
-            <Tooltip contentStyle={{ background: "#ffffff", border: "1px solid #e2e8f0" }} />
-            <Bar dataKey="mentions" radius={[0,4,4,0]}>
-              {opps.map((_, i) => <Cell key={i} fill={COLORS[i % COLORS.length]} />)}
-            </Bar>
-          </BarChart>
-        </ResponsiveContainer>
-      </div>
-
-      <div className="section-title">Opportunity Breakdown</div>
-      <div className="grid-3" style={{ marginBottom: "1.5rem" }}>
-        {opps.map((o, i) => (
-          <div key={i} className="opp-card">
-            <div style={{ fontWeight: 600 }}>{o.opportunity}</div>
-            <div style={{ fontSize: "0.78rem", color: "var(--muted)", margin: "4px 0" }}>
-              {o.mentions.toLocaleString()} mentions — {o.percentage}%
-            </div>
-            <div className="opp-bar" style={{ width: `${Math.min(o.percentage * 3, 100)}%`,
-              background: COLORS[i % COLORS.length] }} />
+      {/* Page Header */}
+      <div className="pbi-page-header">
+        <div className="pbi-breadcrumb">MarketQuest Studio / Reports / Market Opportunities</div>
+        <div className="pbi-page-title-row">
+          <div>
+            <h1 className="pbi-page-title">Brand Demand & Sentiment Analysis</h1>
+            <p className="pbi-page-desc">
+              {target} demand and sentiment, aggregated from the available review-derived model-aspect records.
+            </p>
           </div>
-        ))}
+        </div>
       </div>
 
-      <div className="section-title">Strategic Recommendations</div>
-      <div style={{ display: "flex", flexDirection: "column", gap: "0.75rem" }}>
-        {opps.slice(0, 5).map((o, i) => {
-          const key = o.opportunity.toLowerCase();
-          const tip = Object.entries(TIPS).find(([k]) => key.includes(k))?.[1]
-            || `Invest in R&D and marketing for the ${o.opportunity} segment.`;
-          return (
-            <div key={i} className="strat-card">
-              <div style={{ fontWeight: 600, marginBottom: 4, fontSize: "0.9rem" }}>
-                {o.opportunity} <span style={{ color: "var(--muted)", fontWeight: 400 }}>({o.mentions} mentions)</span>
-              </div>
-              <div style={{ fontSize: "0.85rem", color: "#374151" }}>{tip}</div>
-            </div>
-          );
-        })}
+      {/* KPI Ribbon */}
+      <div className="pbi-grid-kpis">
+        <KPICard
+          title="Identified Opportunities"
+          value={loading ? "…" : opportunities.length}
+          businessQuestion="How many high-volume market demand avenues are tracked?"
+          grain="Demand Category"
+          denominator="Aspect Lexicon Analysis"
+          delta={loading ? null : opportunities.length}
+          deltaLabel="categories"
+        />
+        <KPICard
+          title="Total Demand Mentions"
+          value={loading ? "…" : totalMentions.toLocaleString()}
+          businessQuestion={`What is the conversation volume across the tracked ${target} aspect categories?`}
+          grain="Review Sentences"
+          denominator={`${target} review-derived aspect mentions`}
+          delta={loading ? null : totalMentions}
+          deltaLabel="sentences"
+        />
+        <KPICard
+          title="P0 High-Impact Vectors"
+          value={loading ? "…" : p0Count}
+          businessQuestion={`How many ${target} aspects represent ≥12% of tracked demand mentions?`}
+          grain="Priority P0"
+          denominator={`${target} aspect share ≥ 12%`}
+          delta={loading ? null : p0Count}
+          deltaLabel="vectors"
+          isPositiveGood={true}
+        />
+        <KPICard
+          title="Top Customer Desire"
+          value={loading ? "…" : opportunities[0]?.opportunity || "—"}
+          businessQuestion={`Which hardware aspect has the most mentions for ${target}?`}
+          grain="Top Aspect"
+          denominator={opportunities[0] ? `${opportunities[0].percentage}% share` : "No aspect data"}
+        />
+        <KPICard
+          title={`${target} Average Star Rating`}
+          value={loading ? "…" : averageRating == null ? "—" : `${averageRating.toFixed(2)} ★`}
+          businessQuestion={`What is the mean catalog star rating across available ${target} models?`}
+          grain="Catalog Model Rating"
+          denominator={`${ratedModels.length} rated models`}
+        />
       </div>
+
+      {/* Visuals Row 1: Horizontal Demand Bar Chart + Priority Distribution */}
+      <div className="pbi-grid-2">
+        <VisualContainer
+          title="Trending Customer Demand Volume (Mention Count)"
+          businessQuestion={`Which hardware categories have the most mentions in ${target} reviews?`}
+          data={opportunities}
+          exportFilename={`${target.toLowerCase()}_market_demand_volume`}
+          sampleSize={`${totalMentions.toLocaleString()} mentions`}
+        >
+          {loading ? (
+            <div style={{ padding: "2rem", textAlign: "center", color: "#64748b" }}>Loading {target} demand data...</div>
+          ) : opportunities.length === 0 ? (
+            <div style={{ padding: "2rem", textAlign: "center", color: "#64748b" }}>No aspect data available for {target}.</div>
+          ) : (
+            <ResponsiveContainer width="100%" height={280}>
+              <BarChart
+                data={opportunities.slice(0, 8)}
+                layout="vertical"
+                margin={{ top: 10, right: 30, left: 30, bottom: 10 }}
+              >
+                <XAxis type="number" tick={{ fill: "#64748b", fontSize: 11 }} />
+                <YAxis
+                  type="category"
+                  dataKey="opportunity"
+                  tick={{ fill: "#334155", fontSize: 11, fontWeight: 600 }}
+                  width={90}
+                />
+                <Tooltip
+                  contentStyle={{ background: "#ffffff", border: "1px solid #e2e8f0", borderRadius: 6, fontSize: "0.8rem" }}
+                  formatter={(val, name, item) => [
+                    `${val.toLocaleString()} mentions (${item.payload.percentage}% share)`,
+                    "Discussion Volume",
+                  ]}
+                />
+                <Bar dataKey="mentions" fill="#4338ca" radius={[0, 4, 4, 0]}>
+                  {opportunities.slice(0, 8).map((entry, idx) => (
+                    <Cell
+                      key={idx}
+                      fill={idx === 0 ? "#4338ca" : idx < 3 ? "#0891b2" : "#64748b"}
+                    />
+                  ))}
+                </Bar>
+              </BarChart>
+            </ResponsiveContainer>
+          )}
+        </VisualContainer>
+
+        <VisualContainer
+          title={`Consumer Conversation Share Distribution (${target})`}
+          businessQuestion={`What percentage of tracked ${target} aspect mentions belong to each feature?`}
+          data={opportunities}
+          exportFilename={`${target.toLowerCase()}_conversation_share_percentage`}
+          sampleSize={`${opportunities.length} aspects`}
+        >
+          {loading ? (
+            <div style={{ padding: "2rem", textAlign: "center", color: "#64748b" }}>Loading {target} demand data...</div>
+          ) : opportunities.length === 0 ? (
+            <div style={{ padding: "2rem", textAlign: "center", color: "#64748b" }}>No aspect data available for {target}.</div>
+          ) : (
+            <ResponsiveContainer width="100%" height={280}>
+              <BarChart
+                data={opportunities.slice(0, 8)}
+                margin={{ top: 10, right: 20, left: 0, bottom: 20 }}
+              >
+                <XAxis dataKey="opportunity" tick={{ fill: "#64748b", fontSize: 11 }} />
+                <YAxis unit="%" tick={{ fill: "#64748b", fontSize: 11 }} />
+                <Tooltip
+                  contentStyle={{ background: "#ffffff", border: "1px solid #e2e8f0", borderRadius: 6, fontSize: "0.8rem" }}
+                  formatter={(val) => [`${val}%`, "Share of Target Discourse"]}
+                />
+                <Bar dataKey="percentage" fill="#059669" radius={[4, 4, 0, 0]} />
+              </BarChart>
+            </ResponsiveContainer>
+          )}
+        </VisualContainer>
+      </div>
+
+      {/* Structured Opportunity Matrix Table */}
+      <VisualContainer
+        title={`${target} Demand & Sentiment Evidence`}
+        businessQuestion="What do the available brand-specific review-aspect counts show?"
+        data={opportunityMatrix}
+        exportFilename={`${target.toLowerCase()}_demand_sentiment_evidence`}
+        sampleSize={`${opportunityMatrix.length} categories`}
+      >
+        {loading ? (
+          <div style={{ padding: "2rem", textAlign: "center", color: "#64748b" }}>Loading {target} aspect data...</div>
+        ) : opportunityMatrix.length === 0 ? (
+          <div style={{ padding: "2rem", textAlign: "center", color: "#64748b" }}>No aspect data available for {target}.</div>
+        ) : (
+        <div style={{ overflowX: "auto" }}>
+          <table className="pbi-table">
+            <thead>
+              <tr>
+                <th>ASPECT</th>
+                <th>{target.toUpperCase()} MENTIONS</th>
+                <th>SHARE OF {target.toUpperCase()} ASPECT MENTIONS</th>
+                <th>POSITIVE MENTIONS</th>
+                <th>NEGATIVE MENTIONS</th>
+                <th>PRIORITY</th>
+              </tr>
+            </thead>
+            <tbody>
+              {opportunityMatrix.map((opp) => (
+                <tr key={opp.id}>
+                  <td style={{ fontWeight: 700, color: "#0f172a" }}>{opp.opportunity.toUpperCase()}</td>
+                  <td>{opp.mentions.toLocaleString()}</td>
+                  <td>{opp.percentage}%</td>
+                  <td>{opp.positive_pct}%</td>
+                  <td>{opp.negative_pct}%</td>
+                  <td>
+                    <span
+                      className="pbi-badge"
+                      style={{
+                        backgroundColor: opp.priority.startsWith("P0") ? "#fee2e2" : opp.priority.startsWith("P1") ? "#e0f2fe" : "#f1f5f9",
+                        color: opp.priority.startsWith("P0") ? "#991b1b" : opp.priority.startsWith("P1") ? "#0369a1" : "#475569",
+                      }}
+                    >
+                      {opp.priority}
+                    </span>
+                  </td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+        )}
+      </VisualContainer>
     </div>
   );
 }

@@ -1,0 +1,764 @@
+laptop_name,sentence,compound_score,sentiment
+Dell G16,bought this thing brand new a year ago and have barely used it since.,0.0,neutral
+Dell G16,bios updates fail constantly since i got it the model i got was over 2000 cad and came with 16gb ram.,-0.5423,negative
+Dell G16,the computer runs at around 80 percent memory at startup.,0.0,neutral
+Dell G16,"and get this, it crashes from what i assume is too high of memory usage from paypal.",0.0,neutral
+Dell G16,"whether edge or chrome, 1 tab, the computer can't handle paypals ui where you are sorting through your payments and paypal uses jquery, ajax to load payment history.",0.0,neutral
+Dell G16,i would bet my laptop from 2005 could handle paypal in browser.,0.0,neutral
+Dell G16,"and this is despite disabling a bunch of startup apps, windows services, and having practically nothing installed.",0.3724,positive
+Dell G16,"i did not reformat the laptop when i got it, but did uninstall many of the dell programs.",0.0,neutral
+Dell G16,how is this such a piece of shit for over 2000 ?,-0.5574,negative
+Dell G16,how can it not even handle a browser tab properly for this price?,0.0,neutral
+Dell G16,it's so annoying to use that i never want to use it.,-0.4965,negative
+Dell G16,"issue: i've had this laptop for around a year and a half, and this laptop seems to have a reputation for bad thermals, despite pretty good hardware.",-0.8193,negative
+Dell G16,"i would constantly observe high cpu temps and power draw when basically nothing was running, nearly hitting the tcc limit (which i had set to 85 (o)c for the sake of longevity) with just google open and like 10 cpu usage at most.",0.3612,positive
+Dell G16,"i've been experiencing this issue for a while, and i've read many threads looking for solutions such as: i've opened up the whole thing, repasted with liquid metal, messed around in the alienware command settings bios (set custom preset to 4.9g hz, 1.275v), but nothing seemed to stick.",-0.09,negative
+Dell G16,"the repasting did decrease temps by 5 (o)c, but the laptop was still idling at upwards of 75-80 (o)c. eventually, i came up with a stopgap solution where i would manually disable turbo in throttlestop (which caps the cpu clock speed at 2.2ghz), and enable it again once i was running anything intensive, but this got pretty annoying.",0.5719,positive
+Dell G16,"today, while messing around in throttlestop to try and get a permanent fix, i finally found the solution, and thought i'd share in case anyone else has this issue.",0.5423,positive
+Dell G16,"solution: basically, it seems like the default power plan on this laptop (control center - hardware and sound - power options - edit plan settings - changed advanced power settings - processor power management) has set the minimum processor state at 100 when plugged in.",0.7003,positive
+Dell G16,the minimum.,0.0,neutral
+Dell G16,i have no idea why this is the case.,-0.296,negative
+Dell G16,i'm questioning my sanity here because of the possibility that i (for some unknown reason) changed this value to 100 at some unknown point in the past.,0.3291,positive
+Dell G16,"regardless, the problem seems to be completely fixed.",-0.4019,negative
+Dell G16,cpu is now idling at 50-65 (o)c and actually adjusts its clock speed and power consumption instead of running as fast as temps would allow.,0.2263,positive
+Dell G16,hope this can help someone.,0.6808,positive
+Dell G16,"note: only for gaming :) i've had this laptop around 1-2 weeks persistently having the issue of my fps on game (fortnite) going pretty well at first 350-450 fps, around nowhere and for no reason at all, after 5-15 min playing the game the fps drops to 120.",0.8746,positive
+Dell G16,"(no matter how much i played, never went back to 350-450) cpu, gpu, memory, and disk, none of them were running above 20 and no big temperatures on the gpu nor the cpu (40-50).",0.0772,positive
+Dell G16,"laptop specs: chip type: nvidia geforce rtx 4070 laptop gpu operating system: windows 11 pro 64-bit bios: 1.29.1 processor: 13th gen intel(r) core(tm) i9-13900hx (32 cpus), 2.2ghz memory: 32768mb ram chip type: intel(r) raptorlake-s mobile graphics controller dac type: internal device type: full display device approx.",0.0,neutral
+Dell G16,total memory: 16354 mb display memory (vram): 128 mb shared memory: 16226 mb current display mode: 2560 x 1600 (32 bit) (240hz) i tried every possible setting for the laptop to get fixed.,0.34,positive
+Dell G16,"here is the main thing that you should change: go to bios (restart, press f2 continuously), go to power and change the setting that comes by default saying ""adaptive"", an change it to ""primarily ac use"" this setting only changes the behavior of the laptop to stop ""protecting"" and limiting the power of the battery (laptop itself), this setting is mainly for people who uses the laptop for gaming.",-0.296,negative
+Dell G16,"here's couple things to keep in mind: after this is placed, your laptop may get some lag spikes, its normal, give it couple minutes - hours.",-0.34,negative
+Dell G16,"couple more things, not necessary, but mainly for your laptop to get more fps without sacrificing the longevity of it.",0.0,neutral
+Dell G16,"nvidia drivers: 591.74 (always use the last ones) bios: 1.29.1 (same, use the last one) nvidia control panel: just use the default settings, and 3d settings on perfomance, if you want to get more juice out of the laptop but ruinning the battery, you can use prefer maximum perfomance on ""power management mode"" last thing is, i am no expert, just showing what it worked for me, if it works for you just reshare and let other people know.",-0.3919,negative
+Dell G16,"thanks, any questions, i can answer :)",0.7096,positive
+Dell G16,"bought a dell g16 and just received it today for 1170 16"" qhd (2560 x 1600) 240hz, rtx 4070, i9-13900hx , 32 gb ram, 1 tb ssd for like 25 extra, this is a better buy, right?",0.6597,positive
+Dell G16,"today dell tech replaced the motherboard in my g16 laptop, he put thermal paste like this.",0.3612,positive
+Dell G16,is it fine or should i redo it?,0.2023,positive
+Dell G16,i (23f) have a 14-year-old younger brother.,0.0,neutral
+Dell G16,"for context, i got my first laptop when i started college to study civil engineering.",0.0,neutral
+Dell G16,it was a 2-in-1 office laptop that also worked as a tablet.,0.0,neutral
+Dell G16,"i only had it for less than a semester before the pandemic hit, and my parents decided to give it to my younger brother for online classes.",0.0,neutral
+Dell G16,"after that, they got me a dell g3.",0.0,neutral
+Dell G16,"about a year later, he broke the first laptop, so they gave him my dell.",-0.4215,negative
+Dell G16,then they bought me the one i currently have an asus rog strix g16.,0.0,neutral
+Dell G16,"now, he's also managed to ruin the dell.",-0.5859,negative
+Dell G16,my parents are asking me to lend him my asus for just two weeks while they buy him a new one.,0.0,neutral
+Dell G16,"i said no, and now everyone s upset with me.",-0.5859,negative
+Dell G16,"the thing is, my current laptop has all of my thesis work (graduation project) and personal files.",0.0,neutral
+Dell G16,i really can't afford to lose or damage anything.,-0.2363,negative
+Dell G16,"my brother has a track record he's destroyed two laptops in under five years, lost two original chargers, and we're not even sure how careful he is with his stuff at school.",-0.5517,negative
+Dell G16,"for all i know, he's throwing it around or letting classmates mess with it.",-0.3612,negative
+Dell G16,"my laptop cost over 1,000, and the one they're planning to buy him is around 800. my parents told me if he ruins mine, they ll just give me the new one.",-0.4404,negative
+Dell G16,"but specs-wise, mine is clearly better, and that trade doesn't feel fair.",0.7147,positive
+Dell G16,i don't want to risk losing my work or ending up with a downgrade.,-0.2519,negative
+Dell G16,now my family is acting like i'm being selfish and not helping out when it's just for two weeks.,-0.3586,negative
+Dell G16,but i feel like i'm just protecting something important to me.,0.6652,positive
+Dell G16,"so, aita for saying no?",-0.296,negative
+Dell G16,"closing the lid, won't help it will run even through that.",-0.3089,negative
+Dell G16,"unplug dosent help, will still run.",0.4019,positive
+Dell G16,control panel power button option are set to shutdown even within the window settings.,0.0,neutral
+Dell G16,and gets supper hot even not being used.,0.0,neutral
+Dell G16,which laptop do you think is better and why?,0.4404,positive
+Dell G16,"went to the local pawn shop and saw they had this laptop for only 10 and used for parts cause the screen is messed up badly and the previous owner didn't know the pin to it, let s say some magic about to happen when my toolkit comes, i have a 165 hertz monitor for this, just using this lil tv being lazy specs: intel i7 2tb storage rtx 3060 165hz qhd display",-0.7906,negative
+Dell G16,"hi, i'm not actively trying to sell the laptop, but i haven't used it much, and i'm curious what it may bring on the used market.",0.3546,positive
+Dell G16,"dell g16 7630 -i9-13900hx -rtx 4070 -32gb ram -2tb storage (2x 1tb ssds) -240hz refresh rate it is in near mint condition with only a couple of very minor signs of use, and the palm area, and touch pad have no noticeable wear.",-0.296,negative
+Dell G16,"it's always been on a good, clean surface when used, and never has been dirty, dropped, or otherwise abused.",0.5727,positive
+Dell G16,"it has not been used much, and it's been kept very clean, and docked much of the time (with the lid open for ventilation).",0.4576,positive
+Dell G16,what do you think it's worth?,0.2263,positive
+Dell G16,i've recently purchased a dell g16 7630 laptop and it came with some sort of fault where it didn't detect the battery and severely power throttled while running on it.,-0.7178,negative
+Dell G16,"i sent it to get serviced and got it back with any visible errors gone (ran full diagnostics in bios no errors found), but the power throtlling issues when running even light programs games are severe and cause lag.",-0.8591,negative
+Dell G16,"at this point i'm not sure if i'm missing something or downloaded something wrong since it was a clean windows install, i downloaded drivers for the rtx4070 and the alienware command centre.",-0.5517,negative
+Dell G16,the laptop runs fine while plugged in but instantly starts lagging on battery.,-0.3071,negative
+Dell G16,anyone got a clue or should i just send it back into service again?,0.0,neutral
+Dell G16,"my dell g16 randomly shut down while i was using it, and it won't power on through the standard hold power button for 30 seconds.",0.0,neutral
+Dell G16,how can i diagnose what the issue is and how would i fix it?,0.0,neutral
+Dell G16,"the cable is working fine so it's likely something in the laptop itself, and i've already opened the laptop but i don't have anything other than the kit to open the laptop",0.1027,positive
+Dell G16,posted my hp omen on facebook marketplace for some cash guy wants to trade his dell because he wants something more sleek supposedly the dell has better specs which i would like but i don't have much knowledge of these things,0.4019,positive
+Dell G16,"i would like to upgrade ram in my dell g16 7630. i checked my bios and i have a single 16gb, 1x16gb, ddr5, 4800mt s from when i purchased the laptop.",0.3612,positive
+Dell G16,"crucial 16gb ddr5 ram, 5600mhz is the same price right now as crucial 16gb ddr5 ram, 4800mhz ( 37.80).",0.0,neutral
+Dell G16,is there any reason not to just get the 5600?,0.0,neutral
+Dell G16,i know the g16 is supposedly locked at 4800 but would it end up messing with my stability?,0.0,neutral
+Dell G16,"please lmk if these prices are too much for the product i'm trying to buy, never gotten laptop ram before.",0.3182,positive
+Dell G16,"i'm planning to buy the laptop with i9-13900hx rtx4070, from second hand at 1000 .",0.4939,positive
+Dell G16,"but i'm hearing a lot of bad reviews about overheating; the laptop not closing; the line discontinued because the components were sustainable; etc is it a good idea to go ahead and buy it, or is there a better choice to make?",0.4497,positive
+Dell G16,"as the title suggests, i spilled around 3-4 ounces of water on top of my laptop, notably a gaming laptop.",0.2023,positive
+Dell G16,"i did the usual precautions, unplugging everything completely, shutting it down as soon as i could.",0.0,neutral
+Dell G16,"the first actions i took was turning it over, towards the sides the water entered, but in the process of doing so, the fans started spinning fast or at least much louder due to the water.",0.0,neutral
+Dell G16,"during this time, the white light next to the battery remained orange and the screen obviously didn't turn on.",0.0,neutral
+Dell G16,"eventually, the fans stopped and the orange light persisted, i figured i should just keep it out to dry unplugged.",-0.2263,negative
+Dell G16,"fast foward around 16 hours later, the orange light is still persisting and i don't want to cause damage by turning it on plugging it in, i eventually went as far as to open the bottom panel to air-out the inside components, something i should have done immediately but was too panicked to think of it.",-0.736,negative
+Dell G16,"tl;dr: water spill on laptop caused intense spinning on the fans even after shutting it down, and now the battery light is constantly orange, what should be my next course of action outside of getting professional assistance",0.0772,positive
+Dell G16,"hello, which would you choose between these two computers?",0.0,neutral
+Dell G16,my budget is 1500 2000 euros and for the moment it is these two that attract me the most.,0.3612,positive
+Dell G16,"i'm looking for something reliable and robust, allowing me to play any games.",0.5859,positive
+Dell G16,"don't hesitate if you have other pc advice, an 18 inch doesn't bother me either.",0.431,positive
+Dell G16,i gain 32 gb of ram by buying it from walmart but loose hrtz.,-0.1901,negative
+Dell G16,what would you do?,0.0,neutral
+Dell G16,keeping it simple.,0.0,neutral
+Dell G16,yes or no.,0.128,positive
+Dell G16,im going back to school for business and taking some networking cisco classes.,0.0,neutral
+Dell G16,id also like to play the new tokyo extreme racing lol.,0.7717,positive
+Dell G16,should i grab the dell g16 i9 4070?,0.0,neutral
+Dell G16,ill upgrade the ram and ssds at some point.,-0.4215,negative
+Dell G16,hi reddit!,0.0,neutral
+Dell G16,"i'm based in eu and looking for a gaming laptop for 16yo around 1500-1600 (primary use: gaming, multimedia; secondary: programming, 3d design).",0.0,neutral
+Dell G16,"1. his selection so far is the asus rog strix g16 (g614jir): i9-14900hx 16"" 2560x1600,240hz,500nits 32gb 1tb ssd rtx 4070 - 1760 is the cheapest i can find this config.",0.0,neutral
+Dell G16,is this a good investment for the next 4-5 years?,0.4404,positive
+Dell G16,"2. i found a black friday deal on dell g16 - i9-13900hx 16"" 2560x1600,240hz 32gb 1tb ssd rtx 4070 - for 1480 .",0.0,neutral
+Dell G16,"how does the dell compare against rog in real-world scenario, since the performance on paper seems on par.",0.0,neutral
+Dell G16,"i'm aware of the added gamer aesthetic of the rog series, which might play a big role for him :-) 3. i also came across some demo pieces online for hp omen 17 - core i7 13700hx 1.50 ghz, 32 gb, 1024 gb ssd, nvidia geforce rtx 4080 12gb, 17.3 "" 2560 x 1440 px 240hz, also the same specifications for another omen 16 model.",0.5719,positive
+Dell G16,the price for each of these demo pieces is between 1550-1600 .,0.0,neutral
+Dell G16,i can choose one with i9-13900hx for 1900 (is i9 such a significant improvement for laptops btw?).,0.5859,positive
+Dell G16,the store seems established and offers normal warranty.,0.0,neutral
+Dell G16,"i believe 4080 is a big improvement over 4070, according to the forums at least.",0.4588,positive
+Dell G16,"however, i have never bought a demo piece, so i do not know if the trade-off (?)",0.0,neutral
+Dell G16,is worth the benefits.,0.5423,positive
+Dell G16,"i'm not a gamer myself, and have primarily used thinkpads so far.",0.0,neutral
+Dell G16,"between option 1 and 2 above, asus vs dell, what do you guys recommend?",0.3612,positive
+Dell G16,how does option 3 stack up against the rest?,0.0,neutral
+Dell G16,thoughts?,0.0,neutral
+Dell G16,recommendations?,0.0,neutral
+Dell G16,any other good laptop deals in this price range?,0.4404,positive
+Dell G16,thank you all very much!,0.4199,positive
+Dell G16,"i'm looking for a video editing laptop and this seems like an incredible deal, am i missing something?",0.0772,positive
+Dell G16,hi y'all!,0.0,neutral
+Dell G16,i have the dilemma of choosing between legion slim 7i 13th gen and dell g16 for my next machine.,-0.1779,negative
+Dell G16,"both are somewhat similar in price (lenovo a little bit cheaper), both have very similar parameters.",0.0,neutral
+Dell G16,i know the word on the street is that dell is shortlived compared to lenovos or macs and that they overheat easily.,0.34,positive
+Dell G16,"but the new g16 models seem to have the cooling system adapted from alienware, i was wondering if it is a major gamechanger and if it really improves cooling, performance and longevity.",0.6297,positive
+Dell G16,"i'm sort of fixated on cooling, because i've landed in a rather hot country for the time being and my present thinkpad (which i love dearly) is just disintegrating due to heat.",0.6369,positive
+Dell G16,"both machines are really gaming laptops, but i plan to use them for dev work and data science.",0.0,neutral
+Dell G16,"i'd really love to run some training pipelines locally on gpu, something that i wasn't able to do with my present model.",0.6697,positive
+Dell G16,"anyway, i just wanted to scope out if any of you have some experience between these.",0.0,neutral
+Dell G16,"i know that the general consensus nowadays is to go for a mac, but i'm really a linux person and the price of half-decent mac models is just a bit out of my reach.",0.0387,neutral
+Dell G16,thanks!,0.4926,positive
+Dell G16,"which would you choose, these or others?",0.0,neutral
+Dell G16,"1500 max budget, high quality panel required, along with good build quality.",0.4404,positive
+Dell G16,4070 ish performance preferred.,0.0,neutral
+Dell G16,"processor 13 gen intel core i7-13700hx os windows 11 home graphics nvidia geforce rtx 4070 memory 16gb, 2x8gb, ddr5, 5200 mt s storage 1 tb ssd display 16.0-in.",0.0,neutral
+Dell G16,display quad hd (2560x1600) 165hz processor 12 gen intel core i9-12900h os windows 11 home graphics nvidia geforce rtx 3070 ti memory 32 gb ddr5 storage 1 tb ssd display 16.0-in.,0.0,neutral
+Dell G16,display quad hd (2560x1600) 165hz,0.0,neutral
+Dell G16,hey all!,0.0,neutral
+Dell G16,considering a new (scratch dent) dell g16.,0.0,neutral
+Dell G16,i can get it with the following specs for about 1k tax (with some discounts from a friend).,0.0,neutral
+Dell G16,"intel core 12th generation i7-12700h processor (14 core, up to 4.70ghz, 24mb cache, 45w) windows 11 home 1tb pcie m.2 nvme gen 4 class 40 solid state drive 16gb (2x8gb) up to 4800mhz ddr5 sodimm non-ecc 16 inch qhd (2560 x 1600) wide view angle anti-glare 165hz non-touch display, nvidia advanced optimus g-sync nvidia geforce rtx 3060 6gb gddr6 i have a current hp envy that runs casual games great (it has 16g ram and an i7) but it falters with more advanced games (plus the 256g storage is full), so i'm looking to upgrade!",0.7177,positive
+Dell G16,"i don't know if these are good specs or if i need a 3060 from nvidia or if the 3050 (which is quite a bit less) if sufficient, and if 512gb would be enough for storage instead.",0.4404,positive
+Dell G16,"appreciate any help, opinions on this purchase, or other laptop suggestions!",0.69,positive
+Dell G16,i also have access to a small discount through lenovo too.,0.0,neutral
+Dell G16,laptop questionnaire total budget (in local currency) and country of purchase.,0.0,neutral
+Dell G16,"please do not use usd unless purchasing in the us: about 1,000 usd are you open to refurbs used?",0.3182,positive
+Dell G16,"refurb or scratch dent is fine or new, but probably not under a generic used category if that makes sense how would you prioritize form factor (ultrabook, 2-in-1, etc.",0.1027,positive
+Dell G16,"), build quality, performance, and battery life?",0.0,neutral
+Dell G16,in order from most to least important to me: performance build quality battery life form factor how important is weight and thinness to you?,-0.3766,negative
+Dell G16,"eh, not really important!",-0.2734,negative
+Dell G16,i know with a gaming laptop it's bound to be larger.,0.0,neutral
+Dell G16,less heavy would be great but it's fine.,0.5789,positive
+Dell G16,do you have a preferred screen size?,0.0,neutral
+Dell G16,"if indifferent, put n a. i prefer 16 or 17 inch screens but i can make do with a 15 are you doing any cad video editing photo editing gaming?",-0.1027,negative
+Dell G16,list which programs games you desire to run.,0.4019,positive
+Dell G16,light photo video editing i have an older edition of pinnacle studio on my computer that i use occasionally.,0.0,neutral
+Dell G16,but mainly gaming plus some work (microsoft office) and web videos.,0.0,neutral
+Dell G16,"numerous steam games - mostly casual, like stardew and the sims (with many expansions).",0.5106,positive
+Dell G16,i go back to minecraft occasionally and i do think my computer lags slightly with it the render distance can't be set too high.,-0.3612,negative
+Dell G16,plus a couple i've tried to play recently (hogwarts legacy and an open world one called empyrion) have been too laggy to play.,0.5859,positive
+Dell G16,"if you're gaming, do you have certain games you want to play?",0.5859,positive
+Dell G16,at what settings and fps do you want?,0.0772,positive
+Dell G16,"see above question, and i'd love to play at 60fps possible with at least medium average level graphic settings!",0.784,positive
+Dell G16,"any specific requirements such as good keyboard, reliable build quality, touch-screen, finger-print reader, optical drive or good input devices (keyboard touchpad)?",0.7003,positive
+Dell G16,i do use my camera frequently for virtual gaming with friends so a good camera would be nice.,0.8638,positive
+Dell G16,i prefer the number pad keys on the side (not sure what it's called but when they have the 3x3 grid on the right side of the keyboard) but not strictly necessary.,0.2023,positive
+Dell G16,"i prefer 16g ram, 6 vram, and 1tb for storage, but i'm open to other configurations if people think that's unreasonable!",0.0,neutral
+Dell G16,thank you everyone!,0.4199,positive
+Dell G16,"today is the start of amazon's prime deals, in order to take advantage of any of the deals you have join prime with amazon ( good news it is avail for free trial for a month if you were never a member before, or free 6 month trail if you are between 18-24 years old ( as usual i will try to list all decent laptop deals below so you can take your pick and i will mark what i think a good laptop good deal in case you don't keep up with specs or prices.",0.9595,positive
+Dell G16,"this time around i am thinking about adding ""accessories deals"" let me know if you are interested in that.",0.4019,positive
+Dell G16,this post took at least several hours to get together so i would appreciate upvotes so other redditors could see it or sharing it with your friends who might be interested in laptop deals.,0.8905,positive
+Dell G16,(side note i decided to not add deals i know are for sure that they are bad laptops with very weak specs).,-0.659,negative
+Dell G16,best deals asus vivobook go ( 299.99 for this low of a budget that is the best you will find.,0.792,positive
+Dell G16,"msi katana 15 ( 4070 for this price is going to be hard to beat, likely will end fast (make sure it is already started before purchase).",0.2263,positive
+Dell G16,"laptop deals 200 400 asus vivobook go ( 219.99 specs: 15.6 fhd laptop amd ryzen 3 7320u 8gb, 128gb, windows 11 acer aspire go ( 239.99 specs: 15.6"" full hd ips intel core i3-n305, intel uhd graphics 8gb lpddr5, 128gb hd, windows 11 home in s mode acer aspire vero av15 ( 299 specs: 15.6"" fhd ips 100 srgb display 11th gen intel core i5-1155g7 intel iris xe graphics 8gb ddr4 256gb ssd asus vivobook go ( 299.99 specs: 15.6 laptop amd ryzen 5 7520u 8gb, 512gb, windows 11 home acer aspire 3 a315 ( 349.99 specs: intel core i7-1165g7 processor intel iris xe graphics 8gb ddr4 512gb pcie gen4 ssd acer aspire 5 14 slim ( 359.99 specs: 14"" wuxga (1920 x 1200) ips intel core i5-1335u intel iris xe graphics 8gb lpddr5 512gb gen 4 ssd hp essential 255 g9 ( 390 specs: 15.6"" fhd display, amd ryzen 5 5625u 8gb ram, 512gb pcie ssd slightly better for slightly more ( more ram, more storage ( hp pavilion x360 ( 379.99 specs: 14 inch fhd touchscreen intel core i3-1315u, intel uhd graphics 8 gb ram, 256 gb ssd, windows 11 home hp 17.3 inch laptop ( 389.99 specs: 17.3 inch fhd display amd ryzen 5 7520u, amd radeon graphics 16 gb ram, 512 gb ssd, windows 11 hp essential 255 g9 ( 390 specs: 15.6"" fhd display, amd ryzen 5 5625u 8gb ram, 512gb pcie ssd asus vivobook 16 ( 399.99 specs: 16 wuxga laptop intel core i5-1235u, intel iris xe graphics 16gb memory, 512gb ssd good choice for bigger screen laptop for a small budget.",0.6712,positive
+Dell G16,"asus 2023 vivobook 14 ( 399.99 specs: 14 fhd (1920 x 1080) display intel core i5-1235u cpu, intel iris x graphics 8gb ram, 256gb ssd, windows 11 good option for a general usage small budget laptop.",0.4404,positive
+Dell G16,"lenovo v15 gen 3 ( 399.99 specs: 15.6"" fhd display intel core i5-1235u, intel iris x graphics 16gb ram, 512gb ssd, windows 11 400 500 acer aspire 3 ( 429.99 specs: 15.6"" full hd ips touch display amd ryzen 5 7520u quad-core processor, amd radeon graphics 16gb lpddr5, 512gb nvme ssd, windows 11 home intel config of same laptop for similar price ( hp 255 g9 ( 455 specs: 15.6"" fhd display amd ryzen 5 5625u 16gb ram, 512gb pcie ssd, dell inspiron 5440 ( 459.99 specs: 14.0-inch 16:10 fhd (1920 x 1200) display intel core i5-1334u processor, intel uhd graphics 8gb ddr5 ram, 512gb ssd, windows 11 home hp 2024 newest laptop ( 479.99 specs: 15.6"" fhd (1920x1080) display core i3-1215u 6-core processor 32gb ram, 1.5tb ssd(1tb pcie p500 500gb external ssd) acer aspire premium ( 492.15 specs: 15.6"" fhd display amd ryzen 5 5500u (beats i7-1250u) 16gb ram, 1tb ssd different listing similar specs price ( good all around laptop for general college usage for a mid range budget.",0.4404,positive
+Dell G16,"lenovo v15 ( 499 specs: 15.6"" fhd amd ryzen 3 7320u (beats i7-1065g7) 16gb memory - 1tb pcie ssd military-grade durability - long battery life - win 11 pro hp 14 inch laptop ( 499.99 specs: 14"" fhd display 13th generation intel core i7-1355u, intel iris xe graphics 16 gb ram, 512 gb ssd, windows 11 dell inspiron 3530 ( 499.99 specs: 15.6-inch fhd 120hz display intel core i5-1334u processor, intel iris xe graphics 16gb ddr4 ram, 512gb ssd, windows 11 home good choice if you want high refresh rate for a small budget.",0.7906,positive
+Dell G16,"500 600 acer aspire premium laptop ( 509 specs: 15.6"""" fhd display amd ryzen 5 5500u (beats i7-1250u) 32gb ram, 1tb ssd, long battery life different listing, similar specs price ( good choice.",0.4404,positive
+Dell G16,"lenovo v15 gen 3 ( 509 specs: 15.6"" fhd display, intel core i5-1235u, 16gb ram, 2tb ssd, good choice if you want a lot of storage.",0.4939,positive
+Dell G16,remember to use the coupon if it's still avail.,0.0,neutral
+Dell G16,"hp newest pavilion ( 499.99 specs: 15.6"" touchscreen laptop with microsoft office annual license intel 6-core i3 processor 32gb ram, 1.1tb storage(1tb ssd and p-100 128gb external drive) hp 2024 newest laptop ( 509.99 specs: 15.6"" touch-screen core i3-1215u 6-core processor 32gb ram, 1.5tb ssd(1tb pcie ssd 500gb external ssd) lenovo v15 business ( 519.99 specs: 15.6"" fhd (1920 x 1080) intel 4-core processor 32gb ram, 2tb ssd, military durability same laptop different config ( same laptop different config ( same laptop different config ( lenovo ideapad slim 3i ( 519.99 specs: 15.6 fhd display, intel core i5-1335u, 16gb ram, 512gb ssd, hp 255 g9 ( 534 specs: 15.6"" fhd display, amd ryzen 5 5625u, 16gb ram, 2tb pcie ssd, acer aspire 5 ( 550 specs: 15.6"" full hd ips intel core i7-1260p nvidia geforce rtx 2050 16gb ddr4 512gb ssd, thunderbolt 4 great for general usage and gaming on the side with the dedicated gpu.",0.7964,positive
+Dell G16,"lenovo ideapad slim 3i ( 549.99 specs: 14"" fhd ips display intel core i7-13620h 16gb memory - 512gb ssd storage lightweight laptop - rapid charge boost good choice.",0.6808,positive
+Dell G16,"asus vivobook s 16 flip ( 579.99 specs: 16 wuxga touch laptop, with 2 in features and supports pen.",0.3612,positive
+Dell G16,"amd ryzen 7 7730u, amd radeon vega 7 graphics, 16gb memory, 512gb ssd, good choice if you want touchscreen or 2 in 1 laptop.",0.4939,positive
+Dell G16,"600 1000 asus 2024 vivobook ( 639.99 specs: 17.3 laptop fhd display, intel core 7 150u, 16gb ram, 512gb ssd, good bigger screen laptop.",0.4404,positive
+Dell G16,"asus tuf gaming a15 ( 617.49 specs: 15.6 fhd 144hz display, amd ryzen 5 7535hs, nvidia geforce rtx 3050, 8gb ddr5, 512gb pcie gen4 nvme ssd good entry lvl gaming laptop price if the following acer nitro is out of stock.",0.4404,positive
+Dell G16,"acer nitro v gaming laptop ( 649.99 specs: 15.6"" fhd ips 144hz display intel core i5-13420h processor nvidia geforce rtx 4050 laptop gpu 8gb ddr5 512gb gen 4 ssd great entry lvl gaming laptop price.",0.6249,positive
+Dell G16,"similar specs price, but different listing ( msi thin 15 ( 719.99 specs: 15.6 144hz fhd gaming laptop: intel core i7-12650h, nvidia geforce rtx 4050, 16gb ddr5, 512gb nvme ssd decent choice for gaming.",0.0,neutral
+Dell G16,"apple 2022 macbook air ( 749 specs: laptop with m2 chip: built for apple intelligence, 13.6-inch liquid retina display, 8gb ram, 256gb ssd storage, backlit keyboard, 1080p facetime hd camera if you can push your budget and get the m3 one ( asus tuf gaming a15 ( 849.99 specs: 15.6 fhd 144hz, 100 srgb display, amd ryzen 7 7435hs, geforce rtx 4050, 16gb ddr5, 512gb pcie ssd lenovo loq ( 849.99 specs: 15.6 fhd display, amd ryzen 7 8845hs, nvidia geforce rtx 4050 6gb gddr6 16gb ram, 512gb ssd acer nitro v gaming laptop ( 879 specs: 16"" wuxga ips 165hz display amd ryzen 7 8845hs octa-core ai capable processor nvidia geforce rtx 4060 laptop gpu 16gb ddr5 1tb gen 4 ssd apple 2024 macbook air ( 849 specs : 1 3-inch laptop with m3 chip: built for apple intelligence, 13.6-inch liquid retina display, 8gb unified memory, 256gb ssd storage, backlit keyboard, touch id asus rog strix g17 ( 949.99 specs: 17.3 144hz ips fhd display, nvidia geforce rtx 3050 gpu, amd ryzen 7 6800h processor, 16gb ddr5 ram, 512gb ssd good laptop if you want need 17 inch gaming laptop and you don't like the next laptop.",0.9098,positive
+Dell G16,"gigabyte aorus 7 ( 979.99 specs: 17.3"" fhd 1920x1080 360hz, intel core i5-12500h, nvidia geforce rtx 4060 laptop gpu 8gb gddr6, 16gb ddr4 ram, 512gb ssd great choice if you need want a 17 inch gaming laptop.",0.6597,positive
+Dell G16,"asus tuf gaming a15 ( 999.99 specs: 15.6 fhd 144hz, 100 srgb display, geforce rtx 4060, amd ryzen 7 7735hs, 16gb ddr5, 1tb pcie ssd asus 2024 zenbook s 13 ( 999 specs: 13.3 oled 3k 60hz display, intel evo certified, intel core ultra 7 155u cpu, intel graphics, 16gb ram, 512gb ssd, windows 11 home 1000 1200 msi creator m14 ( 1016 specs: 14 2.8k display creator laptop: intel core i7-13620h, nvidia geforce rtx 4050, 16gb ddr5, 1tb nvme ssd msi katana a15 ai ( 1039 specs: 15.6 144hz fhd gaming laptop: ryzen 7-8845hs, nvidia geforce rtx 4060, 32gb ddr5, 1tb nvme ssd apple 2024 macbook air ( 1044 specs: 15-inch laptop with m3 chip: built for apple intelligence, 15.3-inch liquid retina display, 8gb unified memory, 256gb ssd storage, backlit keyboard, touch id asus rog strix g16 ( 1099.99 specs: 16 16:10 fhd 165hz display, intel core i7-13650hx, nvidia geforce rtx 4060, 16gb ddr5, 1tb pcie gen4 ssd asus tuf gaming a16 ( 1099.99 specs: 16 fhd 16:10 165hz display, amd ryzen 9 7940hx, nvidia geforce rtx 4060, 16gb ddr5, 512gb pcie gen4 ssd lg gram pro 2 in1 ( 1099.99 specs: 16-inch ips touchscreen intel core ultra 7 16gb ram 1tb ssd 2 in 1 features.",0.6908,positive
+Dell G16,"samsung 14"" galaxy book4 ( 1099 specs: intel core 5 ultra processor 3k amoled (2880 x 1800) touchscreen, there are several deals on the same laptops that i won't link but just know all of its configs have a deal on it.",0.0,neutral
+Dell G16,"( asus tuf gaming a17 ( 1099.99 specs: 17.3 fhd 144hz display, amd ryzen 9 7940hs, geforce rtx 4050, 16gb ddr5, 1tb pcie 4.0 ssd msi katana 15 ( 1129.99 specs: 15.6 165hz qhd gaming laptop: intel core i7-13620h, nvidia geforce rtx 4070, 16gb ddr5, 1tb nvme ssd, cooler boost 5 great deal and good laptop, will be hard to find 4070 for this price.",0.8519,positive
+Dell G16,"full hd config ( same laptop different config ( 1200 1650 asus tuf gaming a15 ( 1235 specs: 15.6 fhd 144hz display, geforce rtx 4070, amd ryzen 7 7940hs, 16gb ddr5, 1tb pcie ssd asus zenbook duo ( 1275 specs: dual 14 oled wuxga touch display, intel evo certified, intel core ultra 7 cpu, intel arc graphics, 16gb ram, 1tb ssd extra fancy laptop lol dell g16 7630 ( 1299.99 specs: 16-inch qhd 240hz 3ms display, intel core i9-13900hx, nvidia geforce rtx 4070 8gb gddr6, 16gb ddr5 ram, 1tb ssd, windows 11 lenovo legion 5i ( 1325 specs: 16 wqxga display 2560x1600 px nvidia geforce rtx 4070 8g, intel core i7-14650hx, 32gb ram, 512gb ssd, gigabyte - aorus 16x ( 1329 specs: 165hz 2560x1600 wqxga intel i7-14650hx nvidia geforce rtx 4060 1tb ssd with 32gb ddr5 ram asus rog strix g16 ( 1615 specs: 16 rog nebula display 16:10 qhd 240hz, nvidia geforce rtx 4070, intel core i9-14900hx, 16gb ddr5-5600, 1tb pcie gen4 ssd 1650 2500 alienware x16 r2 ( 1999.99 specs: 16-inch qhd 240hz 3ms display, intel core ultra 7-155h, 16gb lpddr5x ram, 1tb ssd, nvidia geforce rtx 4070 8gb gddr6 alienware m18 r2 ( 2299 specs: 18 qhd 165hz 3ms display, intel core i9-14900hx, nvidia geforce rtx 4080 12 gb gddr6 32gb ddr5 ram, 1tb ssd, lenovo legion pro 7 ( 2349 specs: nvidia geforce rtx 4080 12gb gddr6, 16 wqxga display 2560x1600 px, amd ryzen 9 7945hx, 32gb ram, 1tb ssd, windows 11 please note i'm using affiliate links which means i'll receive a small percent of the purchase if you use this link at no extra cost to you let me know if you think an extra sections with other accessories deals would be interesting to you guys like fans, extra sticks of ram, ssd, bluetooth speakers etc.",0.7964,positive
+Dell G16,top-tier power: rtx 50 series gaming laptops why choose rtx 50 series?,0.0,neutral
+Dell G16,"powered by nvidia s blackwell architecture with dlss 4, these laptops deliver top-tier performance for gaming, ray tracing, and creative workloads recommended rtx 50 series laptops: model highlights amazon link :- :- :- lenovo legion pro 7i gen 10 (rtx 5080) 16 oled 240 hz, core ultra 9, 64 gb ram, 1 tb gen 5 ssd, per-key rgb affiliate link ( asus rog strix scar 16 (rtx 5080) 16 rog nebula hdr 240 hz, ultra 9 cpu, 32 gb ddr5, 2 tb ssd affiliate link ( msi vector 16 (rtx 5080) oled display, strong thermals, mid range rtx 50 pricing affiliate link ( value versatility: rtx 40 series gaming laptops why go rtx 40 series?",0.8779,positive
+Dell G16,"exceptional performance for 1080p 1440p gaming, with dlss 3 support, at much lower prices ( 700 1,500 ) .",0.128,positive
+Dell G16,"recommended rtx 40 series laptops: model highlights amazon link :- :- :- asus rog strix g16 (rtx 4060) 16 qhd 240 hz, core i7 13650hx, 16 gb ddr5, 1 tb ssd affiliate link ( msi katana 15 (rtx 4070) 15.6 qhd 165 hz, core i7 13620h, 16 gb ddr5, 1 tb ssd affiliate link ( dell g16 7630 (rtx 4070) 16 qhd 240 hz, core i9 13900hx, 32 gb ddr5 affiliate link ( summary comparison feature rtx 50 series laptops rtx 40 series laptops :- :- :- performance flagship (best dlss 4) excellent (dlss 3) price ( 2,500 ) ( 700 1,500 ) display build oled, hdr, premium chassis high-refresh lcd oled, solid build future-proofing strongest mobile gpu available great now, but may age sooner final recommendation choose rtx 50 series if you want cutting-edge ai and ray tracing , oled displays, and desktop-class performance.",0.8201,positive
+Dell G16,choose rtx 40 series if you're looking for excellent gaming performance at much lower prices and still enjoy high-end specs.,0.6908,positive
+Dell G16,rtx 50 series laptops lenovo legion pro 7i gen 10 (rtx 5080) asus rog strix scar 16 (rtx 5090) msi vector 16 (rtx 5080) rtx 40 series laptops asus rog strix g16 (rtx 4060) msi katana 15 (rtx 4070) dell g16 7630 (rtx 4070),0.0,neutral
+Dell G16,looking to upgrade from a 1050ti hp pavillion from black friday 2019 ( i'm mainly looking to get the most performance bang for my buck.,0.0,neutral
+Dell G16,my beater work laptop is a lenovo t490 and i love their quality.,0.6369,positive
+Dell G16,"i've been looking at the lenovo outlet, but a comparable machine seems to be several hundred dollars more even though it's a refurb.",0.0,neutral
+Dell G16,"i know i would get better build quality, but this gaming laptop will not be moved hardly ever, and just stay docked into a monitor in my rv.",0.2382,positive
+Dell G16,"i found this particular laptop on the gaminglaptop.deals page, and using the dell newsletter sign up code for an additional 10 off, this seems like a good deal spec wise for the money.",0.8176,positive
+Dell G16,"i'm not in a particular rush, does it make sense for me to wait for better sales to come along, or does this seem like the best bang 1200 is gunna get delivered to my door?",0.8625,positive
+Dell G16,"hey folks i'm an industrial designer and currently using a dell g16 (intel core i9, rtx 4060).",0.0,neutral
+Dell G16,"it's powerful but very heavy to carry around, and the charger is bulky.",0.2263,positive
+Dell G16,"i have a great desktop pc setup at home for heavy rendering, so what i really want is a lighter laptop that can handle on-the-go , heavy cad sessions (solidworks rhino fusion 360).",0.7146,positive
+Dell G16,occasional gpu renders without being a brick in my backpack.,0.0,neutral
+Dell G16,i'm eyeing the hp omen transcend 14 because it's light and compact (around 1.6 kg) and comes with intel ultra cpus nvidia rtx mobile gpus seems like a good balance of portability and power.,0.6597,positive
+Dell G16,what i care about most (in order): 1. real-world cad performance and stable thermal behaviour under long sessions (not just short benchmarks).,0.6597,positive
+Dell G16,"2. good gpu for viewport occasional gpu renders (speed matters, but i can do heavy renders on my desktop).",0.25,positive
+Dell G16,"3. portability weight, charger size weight, battery life for remote work.",0.0,neutral
+Dell G16,4. build quality keyboard for long modelling sessions.,0.0,neutral
+Dell G16,questions: has anyone used the transcend 14 for solidworks rhino large assemblies?,0.0,neutral
+Dell G16,does it throttle during long cad sessions or thermal-throttle only in gaming tests?,0.0,neutral
+Dell G16,is the 14 form-factor too small for serious modelling on the go (i usually plug into an external monitor at the studio)?,-0.0772,negative
+Dell G16,"if not the transcend, what lightweight laptops have you used that handled cad occasional gpu rendering well?",0.2732,positive
+Dell G16,"i'm considering options like the razer blade 14 , asus rog zephyrus g14 g16 , lenovo legion slim , or the msi stealth line curious about real-world thermals, charger size and how workstation-like they feel.",0.5423,positive
+Dell G16,"extra context: i don't need the absolute top gpu (i have a desktop for that), but want a smooth viewport, quick look-dev renders, and reliability under long sessions.",0.2144,positive
+Dell G16,budget: flexible prefer a long-term daily driver rather than a cheap stopgap.,0.2263,positive
+Dell G16,"if anyone has hands-on comparisons between these compact 14 16 laptops for cad workflows, please share.",0.5423,positive
+Dell G16,it was a too good to be true deal.,0.6908,positive
+Dell G16,save around 600cad so i thought why not.,0.4939,positive
+Dell G16,performance is awesome no regrets.,0.1027,positive
+Dell G16,although sounds like a rocket launching sometimes.,0.3612,positive
+Dell G16,looking for a good 1. laptop bag (big enough to carry the charging brick) 2. a sleeve to be extra safe 3. a cooling pad shoot me some suggestions guys.,0.5267,positive
+Dell G16,i have 60 cad left in dell rewards.,0.4767,positive
+Dell G16,would be good if i can use them along,0.4404,positive
+Dell G16,the backlight just blinks once and stays on forever,0.0,neutral
+Dell G16,i took this key off to clean off some juice that my roommate spilled on it but i can't figure out how to put it back on and every source i check is for a different kind of key,0.2144,positive
+Dell G16,"wanting to replacing my current rtx2060 laptop, as that is starting to become a little outdated.",0.0,neutral
+Dell G16,"this dell g16 seems to be the best laptop i can find at this price, but that has got me suspicious.",-0.1655,negative
+Dell G16,"can anyone recommend, or not recommend this laptop?",0.6124,positive
+Dell G16,"hey all, i've had a dell g16 7630 for just over a year now and it's experiencing persistent issues with the wifi adapter for the last two or three months.",0.0,neutral
+Dell G16,"i've managed to get it working again on and off during this time, however more often than not it fails again (code 10 and 43).",0.3252,positive
+Dell G16,"i am quite perplexed on what the issue is, the wifi functions perfectly fine when it's running but will miraculously drop functionality out of the blue.",-0.1145,negative
+Dell G16,i thought initially it may have something to do with power but i'm not 100 sure.,-0.3491,negative
+Dell G16,are there any suggestions on what the issue could be?,0.0,neutral
+Dell G16,"i'm not apposed to buying a new adapter if it's strictly a hardware issue, i'm just concerned that there may be a deeper routed issue.",0.0,neutral
+Dell G16,"if a new adapter seems like the best solution, please recommend some better alternatives!",0.9432,positive
+Dell G16,all help and suggestions are greatly appreciated!,0.7639,positive
+Dell G16,through my company i am able to get a a dell g16 7630 2024 - 32gb ram i7 13650hx nv gef 4060. it was used for like 6 months max light use.,0.3612,positive
+Dell G16,worth it for 400?,0.2263,positive
+Dell G16,"i may game on things like cyberpunk, call of duty etc, setup vm's for security testing and use for studies in cyb security?",0.743,positive
+Dell G16,this is a continuation of my last post: dell g16 7630 stuck in memory training when upgrading to 64gb.,-0.25,negative
+Dell G16,"(non-standard) to recap (tl;dr): i decided to upgrade the ram on my dell g16 7630, going from the factory 16gb (2x8gb) samsung ddr5 5600 to 64gb (2x32gb) crucial ddr5 4800. after seeing so many success stories online people upgrading this same model to 64gb or even 96gb i thought it would be a straightforward process.",0.6096,positive
+Dell G16,"crucial even confirmed compatibility, so i was confident it would work.",0.539,positive
+Dell G16,"but when i installed the new ram, i was hit with an unexpected surprise.",0.3919,positive
+Dell G16,"instead of booting into windows after memory training like it should, the laptop got stuck in an endless loop.",0.128,positive
+Dell G16,"i tried waiting hours, swapping out sticks, using just one 32gb stick, but nothing worked.",0.0,neutral
+Dell G16,"the system recognized all 64gb in the bios, but it refused to finish memory training and post.",-0.4215,negative
+Dell G16,"after digging deeper, i found out that bios version 1.14.0 was the last version where upgrading beyond 32gb ram on the dell g16 7630 was possible without running into issues like memory training failures.",-0.128,negative
+Dell G16,"it seems dell enforced a cap on ram capacity in later versions, possibly as a safeguard, though many users have reported stable operation with 64gb or even 96gb on earlier bios versions.",0.5859,positive
+Dell G16,"unfortunately, i'm currently on bios version 1.21.1, and dell has blocked downgrades to earlier versions like 1.14.0. this leaves me wondering if anyone here has found a workaround for this perhaps through modding the current bios or flashing an older version using tools like a bios programmer.",0.128,positive
+Dell G16,"i've just ordered a bios programmer from amazon as a potential last-resort option, but before diving into that, i wanted to see if any experienced bios modders or those who ve dealt with similar dell limitations might have advice.",0.2023,positive
+Dell G16,specifically: is there a way to modify the current bios (1.21.1) to remove or bypass the ram capacity restriction?,-0.2732,negative
+Dell G16,has anyone successfully flashed version 1.14.0 or earlier on this model despite the downgrade protections?,0.4939,positive
+Dell G16,are there hidden settings or a whitelist in the current bios that could be edited to allow the laptop to boot with 64gb ram?,0.2263,positive
+Dell G16,"i'm open to any guidance or resources, whether it's bios modding tips, software tools, or steps for safely using the programmer.",0.4939,positive
+Dell G16,"if there's no software-based solution, i'll likely go ahead with the programmer to reflash the older bios.",0.0258,neutral
+Dell G16,any advice is greatly appreciated!,0.5974,positive
+Dell G16,"on my dell g16 every time i try to load up higher demanding games such as cyberpunk 2077, this happens",-0.2263,negative
+Dell G16,"hey all, my dell g16 7620 won't boot.",0.0,neutral
+Dell G16,it just gives 2 amber 4 white led.,0.0,neutral
+Dell G16,"i've already: tried both original ram sticks individually tried both ram slots bought a brand new ddr5 4800 stick and tested that with no ram installed, the code changes 2a 3w (no ram detected) with any ram installed, it goes back to 2a 4w (memory ram failure) fan spins, screen stays black at this point i'm just trying to figure out the cheapest realistic option.",0.34,positive
+Dell G16,is this usually motherboard cpu level?,0.0,neutral
+Dell G16,is it worth taking to a board repair shop?,0.2263,positive
+Dell G16,laptop is about 2 years old.,0.0,neutral
+Dell G16,appreciate any advice,0.4019,positive
+Dell G16,"this is not a drill for those who've been rocking out the g16 7630 g15 5530, if you've had be operating it with higher ram than 32gb, then this is shameful news to hear about.",-0.4939,negative
+Dell G16,"this a returned sequel of a post i made back in january: ( well well well, it appears that yet again i have to write another post discussing about dell's enforcement on getting higher ram capacities to work than 32gb ram.",0.6486,positive
+Dell G16,"i genuinely didn't believe that i'd come back and vent about how dell is trying to gatekeep on getting higher ram amounts to work on this specific system, and it's nothing but time-costing, and frankly frustrating that they can't just allow an official use of higher ram amounts.",-0.7049,negative
+Dell G16,"so just today (at the time i'm writing this down 11 23 2025), i was editing a video on a software, and i decided to take a break and closed the laptop to eat a snack, and later after eating, when i opened it and press the power button, instead of posting, i got a blink code showing: 2 ambers, 5 whites.",0.0,neutral
+Dell G16,"(also seen in video above) which indicates that the installed memory is invalid, which was strange as i never got this error before, and all 64gb ram was working flawlessly.",-0.481,negative
+Dell G16,"it turns out that now dell has responded by establishing a bios update (either 1.28.0 or 1.27.0) that enforces ram limitations even more stricter, so even when upgrading the ram higher than an ""unsupported"" amount, instead of posting to bypass it easily, it instead gives out a blink code to message you and consumers by saying ""sorry your ram amount is invalid"", thus making bypassing the amount more harder to get it to post, and finding newer ways to bypass without making any sacrifices risks (such as using an bios programmer).",-0.0,neutral
+Dell G16,"if you remember my last post going on tangents about dell's ram limitation bs back in january: some users actually managed to bypass the ram capacity for the g16 7630 g15 5530 by powering off the laptop, opening the back of the laptop, switching out the ram (without unplugging the battery), putting the back cover on, and powering it through, which actually post and the bypass was successful.",0.3818,positive
+Dell G16,and i even attempted this and it also worked for mine.,0.0,neutral
+Dell G16,"i only received this error as i updated w11 yesterday and it turns out that the windows update also came with a firmware update for this model without me realizing, which led to the situation i have today with dell's bs, and i'd rather not use only the factory 16gb ram as 16gb ram isn't that optimal nor recommended that much in current standards, i need 64gb ram to edit videos, all paired with the 4070 and i9 hx.",-0.7029,negative
+Dell G16,"i'm only down to 2 choices in the meantime: 1. i can wait patiently for a newer safe bypass to be discovered by the community, which it'll mostly take a long time before something like this can be shared out.",0.7783,positive
+Dell G16,"2. i can take the risky path by using a bios programmer on the laptop, and using another laptop to write the old version bios straight to the problematic laptop.",-0.4215,negative
+Dell G16,please lemme know if you have the same issues as me and or that you have a bypass that you discovered.,0.3182,positive
+Dell G16,i'd rather not sell this gaming beast unless if it suffers significant problems overtime universally by others.,-0.6124,negative
+Dell G16,"until then, i'll won't be returning to this gaming laptop and will be using a backup until this gets resolved.",0.1779,positive
+Dell G16,thanks!,0.4926,positive
+Dell G16,hey i'm looking to buy a dell g16 alienware m16 gaming laptopps: i need to buy one of both because my company is making a huge dell computers cart.both options have i9-13900hx 24 cores 4070 8gb 32gb ddr5 4800mhz 1tb ssd and 240 hz 2k screens for 2250 canadian dollars.,0.3182,positive
+Dell G16,what can you tell me about your experience with one them?,0.0,neutral
+Dell G16,do you recommend one of them?,0.3612,positive
+Dell G16,is it worth it for the money?,0.2263,positive
+Dell G16,should i be scared about thermal throttle?,-0.4404,negative
+Dell G16,also do you recommend that i turn of some e-cores in the bios to have better thermals?,0.6597,positive
+Dell G16,i am thinking about buying alienware aurora 16x .,0.0,neutral
+Dell G16,don't know much about gaming laptops.,0.0,neutral
+Dell G16,i love playing open world games that's why i am considering this model.,0.7184,positive
+Dell G16,i have seen some posts here saying that they have issues with this particular model.,0.0,neutral
+Dell G16,is this model that bad?,-0.5423,negative
+Dell G16,is there anything that i need to keep in mind.,0.0,neutral
+Dell G16,any advice would be helpful.,0.4215,positive
+Dell G16,"a brand new spec for replacing dell g16, hopefully it should much lighter than g16.",0.4019,positive
+Dell G16,"i bought the alienware m16 a couple of months ago with an i7 13700hx, rtx 4070, 16gb ram, and qhd 240hz display for 1220 before taxes.",0.0,neutral
+Dell G16,"today, i saw this deal of the g16, and i could've gotten it for 1020. so should've i waited or the m16 worth the extra 200?",0.2263,positive
+Dell G16,i feel like i missed out.,0.0772,positive
+Dell G16,i have alienfx but even with the instructions it's a bit murky how to use it.,0.0,neutral
+Dell G16,this is a dell g16 laptop.,0.0,neutral
+Dell G16,"mostly it's just used for office apps or internet browsing, and i want it to run as cool as possible.",0.3818,positive
+Dell G16,gaming is less frequent.,0.0,neutral
+Dell G16,"anyhow, i've uninstalled awcc and alienfx.",0.0,neutral
+Dell G16,so what controls the fans at this point.,0.0,neutral
+Dell G16,bios?,0.0,neutral
+Dell G16,hey r alienware!,0.0,neutral
+Dell G16,"as some of you may have heard my tease on the transmission last week, we have a lot of announcements coming out today!",-0.3802,negative
+Dell G16,there's a ton to cover so here's a short summary: the ultimate amd advantage laptop is here!,0.3164,positive
+Dell G16,the alienware m17 r5 with the new amd radeon rx 6850m xt 12gb gddr6 gpu is now here!,0.0,neutral
+Dell G16,alienware m17 r5 x17 r2 now available with 480hz displays!,0.0,neutral
+Dell G16,"introducing the new dell g16 - our first-ever 16-inch 16:10 gaming laptop for more information about all of these announcements, head over to alienware arena and read our post with all the details: (and there are really a lot of details but wait - there's more!",0.0,neutral
+Dell G16,"later today, the aurora r13 will now have an option to be purchased with kingston fury xmp 4800mhz memory !",-0.6114,negative
+Dell G16,i'll edit this with the link once it's available.,0.0,neutral
+Dell G16,that's all for now!,0.0,neutral
+Dell G16,"thanks again everyone for making this such an awesome place and if you have any questions feel free to comment below and if i don't know the answers, i'll hunt them down!",0.8908,positive
+Dell G16,"hi guys, i always use my laptop with high performance so that my fans stay at 100 , otherwise with 50 it's on fire.",-0.34,negative
+Dell G16,"despite trying every settings in awcc, it keeps turning off high performance when i launch a game.",0.0,neutral
+Dell G16,"i tryed per game system performance preset switch, from the settings in the library nothing change.",0.0,neutral
+Dell G16,"(also tryed to launch game with high performance off, doesn't turn it on) my laptop is a dell g16, and funny thing is that fans are uncontrollable without awcc.",0.1027,positive
+Dell G16,"it's not the end of the world as i just have to press a key, but it's getting on my nerves and driving me crazy that the software doesn't work as it is setup to.",-0.5719,negative
+Dell G16,thx for reading.,0.3612,positive
+Dell G16,"hey all, i have the dell g16 with the cherry mx mechanical keyboard, i believe the same keyboard is in some of the alienware laptops.",0.0,neutral
+Dell G16,"for anyone who has felt both, would you say the 510k is as good as the laptop keyboard?",0.4404,positive
+Dell G16,i absolutely love the mechanical keyboard in the g16 and i want something similar to use as a peripheral.,0.6997,positive
+Dell G16,thanks,0.4404,positive
+Dell G16,"hello everyone, i've tried out a bunch of laptops, the m16r1 (4080), the lenovo legion 5i pro (3070ti), acer predator 300 (3070ti), dell g16 with the 3070ti, asus m16 with the i9 3070ti.",0.0,neutral
+Dell G16,i ended up settling on and loving the m17r5 with the 6850m xt.,0.5994,positive
+Dell G16,"everything i played on it, it plays at the highest settings, even now i am loving the laptop for its performance and awesome desktop replacement capacity.",0.9081,positive
+Dell G16,yet 2-3 weeks ago it's screen had a pixel die.,-0.5994,negative
+Dell G16,"dell sent people to replace it, they were very professional.",0.0,neutral
+Dell G16,it was an awesome experience.,0.6249,positive
+Dell G16,"really good technician, on time, dell support (premium, i opted for 2 years all encompassing dell premium support with accidental, it is worth every dollar btw).",0.8479,positive
+Dell G16,then last week i started to have the laptop blue-screening constantly and restarting after i updated the amd software to 23.7.2. this week my laptop's keyboard has started to shut down colors on different keys while others are fine.,0.2023,positive
+Dell G16,dell customer support re-installed the keyboard drivers with remote screen sharing.,0.6705,positive
+Dell G16,i reverted to 23.5.2 and for a time this fixed the issue.,0.0,neutral
+Dell G16,now just today i've had my laptop blue-screen in the worst way after i had stepped away from the computer.,-0.6249,negative
+Dell G16,i came back to my screen looking like an absolute pixel fest with a bunch of qr codes and failure icons all across the screen.,-0.2023,negative
+Dell G16,what are my options at this point?,0.0,neutral
+Dell G16,"i've sent an email to dell customer support and informed my customer care agent of the situation, i just wrote the email.",0.7096,positive
+Dell G16,can i request another laptop that is brand new?,0.0,neutral
+Dell G16,i do not wish to get a refurbished unit.,-0.3089,negative
+Dell G16,i do not want parts that are used or blah blah blah.,-0.3447,negative
+Dell G16,what can be done?,0.0,neutral
+Dell G16,i am having a different part fail every week almost now.,-0.5423,negative
+Dell G16,i purchased the laptop 2-3 months ago.,0.0,neutral
+Dell G16,"it's literally brand new, the keyboard has a keyboard case etc.",0.0,neutral
+Dell G16,it is not moving from the work desk.,0.0,neutral
+Dell G16,i am babying this laptop in the most literal way.,0.0,neutral
+Dell G16,laptop history: i still have my acer nitro v from 2014 that still works in the other room.,0.0,neutral
+Dell G16,i take pride in using my equipment to the absolute fullest.,0.34,positive
+Dell G16,my current laptop is having some hardware issues.,0.0,neutral
+Dell G16,"it's still usable for daily purposes, but not working for anything invovling graphic processing (eg.",0.0,neutral
+Dell G16,"playing hollow knight: silksong lol) so i'm consideirng getting an asus zephyrus g16 5070ti 32 gb ram as a replacement, mainly because of its overall spec and portability.",0.2023,positive
+Dell G16,"the only thing is that, the price like 2600 at present, tax excluded, which is a bit over my expected budget (but still affordable).",0.0258,neutral
+Dell G16,"so i'm wondering if i should wait and expect a discount for 2025 model after 2026 release, or should i just get it now -- if the new version is not gonna come out soon, or if 2025 model would just go out of stock after that?",0.0,neutral
+Dell G16,i'd appreciate any insights.,0.4019,positive
+Dell G16,thanks a lot!,0.4926,positive
+Dell G16,"it's such an impressive machine when it's well built, there is no touchpad rattle and the hinge doesn't creak.",0.4939,positive
+Dell G16,i finally understand what y'all are talking about.,0.0,neutral
+Dell G16,it's also a nightmare to use when it has both of these issues (like my unit does).,0.0,neutral
+Dell G16,it's been months and i still can't get used to it.,0.0,neutral
+Dell G16,"i sort of thought both issues are ""normal"" judging by how many people reported them on this sub.",0.0,neutral
+Dell G16,but now i'm beating myself up for not returning it and i am a few months past the return window!,-0.6476,negative
+Dell G16,honestly i am convinced asus has released a large faulty batch of g16s and decided to cover it up instead of recalling it.,0.5267,positive
+Dell G16,fuck asus,-0.5423,negative
+Dell G16,"i'll keep it short: i was one of those people who mass-ignored all the recurring reddit threads about zephyrus g14 g16 hardware issues, software issues, terrible qc across basically every model, liquid metal problems, etc.",-0.7003,negative
+Dell G16,i thought: people exaggerate.,-0.1531,negative
+Dell G16,it won't be that bad.,0.431,positive
+Dell G16,yeah no.,0.0,neutral
+Dell G16,"i returned the laptop immediately because it turned out to be complete garbage , even in terms of gaming performance (rtx 5070 ti, lol).",0.0,neutral
+Dell G16,what i got was honestly embarrassing for a so-called premium device.,0.1027,positive
+Dell G16,"in my unit, the screen lid wasn't even aligned properly it was visibly shifted relative to the bottom chassis.",0.0,neutral
+Dell G16,absolute circus.,0.0,neutral
+Dell G16,"that's not even mentioning the touchpad issues , and the funniest part: people on reddit and youtube seriously suggest opening the laptop and fixing it yourself using a piece of paper or tape to make it work properly.",0.4404,positive
+Dell G16,let that sink in.,0.0,neutral
+Dell G16,"this is a laptop that costs 15,000 pln , which is roughly 3,700 3,900 usd , and the community solution is diy cardboard engineering .",0.3182,positive
+Dell G16,"guys, do not buy this junk .",0.0,neutral
+Dell G16,"when you pay for a product like this and keep it despite all these flaws, you're basically giving the manufacturer consent to make future models even worse.",0.3182,positive
+Dell G16,"why spend money on proper qc, better assembly, or decent components if they can keep selling half-baked trash anyway?",0.4404,positive
+Dell G16,stop rewarding this behavior.,0.296,positive
+Dell G16,vote with your wallet.,0.0,neutral
+Dell G16,hello everyone!,0.0,neutral
+Dell G16,"i wanted to share my thoughts on this machine of mine, because i feel cheated.",-0.2732,negative
+Dell G16,"first of all, let me explain why i bought this laptop, and only this one.",0.0,neutral
+Dell G16,"i will start my first year of university now, in september.",0.0,neutral
+Dell G16,"i am an it technician, and i'll continue my studies in this field.",0.0,neutral
+Dell G16,"i plan to learn ai development later on, so i invested into a: 1. compact 2. low weight 3. great battery life 4. powerful - laptop.",0.7003,positive
+Dell G16,these were my main takeaways.,0.0,neutral
+Dell G16,i had three options.,0.0,neutral
+Dell G16,"zephyrus, razer blade, macbook pro.",0.0,neutral
+Dell G16,"i am an apple user, and i love apple quality.",0.6369,positive
+Dell G16,"but because i want to learn and develop ais locally, i had to choose windows and rtx videocards.",0.1154,positive
+Dell G16,i have trust issues with razer and all of it products.,0.5106,positive
+Dell G16,"with asus, i had very good standing.",0.4927,positive
+Dell G16,"using rog strix monitor, gpu, motherboard and all keep up very well.",0.3384,positive
+Dell G16,so my only option was the zephyrus.,0.0,neutral
+Dell G16,i dug deep.,0.0,neutral
+Dell G16,"there are other options too, yes.",0.4019,positive
+Dell G16,like lenovo and acer.,0.3612,positive
+Dell G16,they make simmilarly built and designed machines that meet the desired points somewhat.,0.2732,positive
+Dell G16,but the best overal on paper was the zephyrus lineup.,0.7783,positive
+Dell G16,"so i pulled the trigger, and spent 4550 euros (i live in hungary, 27 hell yeah) and bought the zephyrus g16, 5070ti, core ultra 9 285h, 64gb ram variant.",-0.6808,negative
+Dell G16,"at first, i loved it.",0.5994,positive
+Dell G16,"sleek box, premium build quality.",0.0,neutral
+Dell G16,insane oled screen!,-0.4574,negative
+Dell G16,let me talk about the good now.,0.4404,positive
+Dell G16,speakers the speakers are really good.,0.4927,positive
+Dell G16,like really good.,0.6901,positive
+Dell G16,"not apple level, but real close.",0.0,neutral
+Dell G16,speakers are very loud too.,0.0,neutral
+Dell G16,you can tweak the speakers via dolby access app.,0.0,neutral
+Dell G16,i really like it!,0.474,positive
+Dell G16,8 10 for me.,0.0,neutral
+Dell G16,screen this is the best part of the whole laptop.,0.6369,positive
+Dell G16,insane oled screen.,-0.4019,negative
+Dell G16,"high resolution, 240 hz, insane low latency.",-0.5859,negative
+Dell G16,no words describe how good this looks.,0.1779,positive
+Dell G16,10 10 for me.,0.0,neutral
+Dell G16,keyboard feels real nice to type on.,0.4215,positive
+Dell G16,i am able to type fast and accurate.,0.0,neutral
+Dell G16,its good.,0.4404,positive
+Dell G16,"had touched better laptop keyboards in my lifetime, but it's on par with the expectations.",0.2382,positive
+Dell G16,the rgb is bright enough and has good colors too.,0.7003,positive
+Dell G16,"sadly, single zone rgb, which is a shame for this price point but it's not a main takeaway or anything.",-0.4497,negative
+Dell G16,asus wanted to keep the weight low i think.,-0.2732,negative
+Dell G16,that's why it's not per key rgb.,0.0,neutral
+Dell G16,8 10 for me.,0.0,neutral
+Dell G16,trackpad miles behind macbooks.,0.0,neutral
+Dell G16,miles infront of other windows machines.,0.0,neutral
+Dell G16,the absolute best feeling trackpad for a windows laptop.,0.6908,positive
+Dell G16,"good to touch, huge size.",0.6369,positive
+Dell G16,9 10 for me.,0.0,neutral
+Dell G16,performance and thermals the performance is on the level with my expectations.,0.0,neutral
+Dell G16,the machine is undercut.,0.0,neutral
+Dell G16,underpowered due to thinness.,0.0,neutral
+Dell G16,i get enough fps and performance in balanced and turbo mode.,0.0,neutral
+Dell G16,"it's a cutting edge, high-end spec model afterall.",-0.128,negative
+Dell G16,the thermals are.,0.0,neutral
+Dell G16,okay?,0.2263,positive
+Dell G16,well in balanced and silent it's very good.,0.6478,positive
+Dell G16,but with turbo?,0.0,neutral
+Dell G16,say a warm warm hello to 105c on the cpu side!,0.4753,positive
+Dell G16,"yes, that's right.",0.4019,positive
+Dell G16,"it maxes out, even burns the heatsink if you use the laptop with those temps for longer (multiple minutes).",0.0,neutral
+Dell G16,"but in general, the upmost is about 97c for the cpu under heavy gaming.",0.0,neutral
+Dell G16,it's fine.,0.2023,positive
+Dell G16,this part is 9 10 for me.,0.0,neutral
+Dell G16,noise levels in silent and balanced mode it's perfect.,0.5719,positive
+Dell G16,in turbo?,0.0,neutral
+Dell G16,"turn the speakers up or use some kind of earphones, headphone because it's loud as hell.",-0.6808,negative
+Dell G16,high pitched and loud.,0.0,neutral
+Dell G16,"expected from such a small formfactor, but still.",0.0,neutral
+Dell G16,not good enough for me in this regard.,-0.3412,negative
+Dell G16,"on par with the expectations, but i think it has plenty of room for improvement.",0.6124,positive
+Dell G16,"not in lab, but regarding space useage or metarials.",0.0,neutral
+Dell G16,9 10 for me.,0.0,neutral
+Dell G16,factory software (armoury crate) this software is like it's made by middle schoolers.,0.3612,positive
+Dell G16,"freezing, slowness, unresponsive, a lot of times tabs and pages dissapear.",-0.1027,negative
+Dell G16,"settings dissapear like gpu mode, gpu mode select, slash light settings, and so on.",0.1027,positive
+Dell G16,it's a mess.,-0.3612,negative
+Dell G16,reinstalled like 8 times in a lot of ways.,0.3612,positive
+Dell G16,"revo uninstaller, official uninstaller, manually deleting files.",0.0,neutral
+Dell G16,even reinstalled windows.,0.0,neutral
+Dell G16,it's hell's child.,0.0,neutral
+Dell G16,"i wanted to use it, but it's like vomit.",0.5023,positive
+Dell G16,"deleted it, and stuck with ghelper.",-0.25,negative
+Dell G16,now more batterylife due to lower cpu and ram useage.,-0.296,negative
+Dell G16,"fast like a snap, does what it needs to do.",0.3612,positive
+Dell G16,perfect now.,0.5719,positive
+Dell G16,"i rate factory sofware 3 10. battery life 8-9 hours of batterylife with light use like webbrowsing, 40 brightness, eco mode, cpu graphics only, 60hz.",0.6249,positive
+Dell G16,really good.,0.4927,positive
+Dell G16,like really good.,0.6901,positive
+Dell G16,among the best.,0.6369,positive
+Dell G16,"miles behind macbooks, at the edge of perfect in windows terms.",0.5719,positive
+Dell G16,i rate battery 9 10 now.,0.0,neutral
+Dell G16,the part that everyone needs to read before buying any 2024-2025 zephyrus.,0.0,neutral
+Dell G16,the build quality.,0.0,neutral
+Dell G16,"due to shitty build quality, thightly packed internals when the machine heats up the chassis crackles and pops when you lift it up.",-0.5574,negative
+Dell G16,it feels like a 600 basic laptop.,0.3612,positive
+Dell G16,"makes me so sad, that i spent 4550 for this absolute mess of a quality.",-0.7573,negative
+Dell G16,"for this price, i expect perfect materials, ins and outs.",0.5719,positive
+Dell G16,the chassis quality is nice.,0.4215,positive
+Dell G16,aluminium.,0.0,neutral
+Dell G16,feels sturdy and nice.,0.4215,positive
+Dell G16,but the hinge?,0.0,neutral
+Dell G16,it's plastic.,0.0,neutral
+Dell G16,"who the fuck said: oh hell yeah, put think plastic where 80c flaming hot air comes out!",-0.8016,negative
+Dell G16,yeah boi!,0.3595,positive
+Dell G16,i'm joking.,0.2263,positive
+Dell G16,asus isn't dumb.,0.4023,positive
+Dell G16,"they don't care, plus they know it will be a failing factor.",-0.7121,negative
+Dell G16,but with this move they lost me as a costumer.,-0.4497,negative
+Dell G16,"and many of others too, i'm sure.",0.3182,positive
+Dell G16,is it worth it?,0.2263,positive
+Dell G16,i'm surely won't pay for repairs.,0.4932,positive
+Dell G16,"i would just rma - get my money back, or rma - get the fixed laptop - sell it.",0.0,neutral
+Dell G16,"or if i'm out the rma window, just sell it as is for a lower price.",-0.296,negative
+Dell G16,"is it really worth it, asus?",0.2944,positive
+Dell G16,the vrms (the part that handles electricity) vibrates.,0.0,neutral
+Dell G16,making br-br-br noise at middle loads (50 ).,0.0,neutral
+Dell G16,this means the vrms are poorly designed and or poorly made.,0.0,neutral
+Dell G16,bad materials.,-0.5423,negative
+Dell G16,"the whole machine, but more like the gpu has coil whine (zzzzzz noise, high pitched) when it eats a lot of wattage.",0.1128,positive
+Dell G16,"i expected this, since my rog strix 2060, 4070ti have coil whine too.",-0.3612,negative
+Dell G16,"but yeah, again for this insane amount of money i expected no noise.",-0.6355,negative
+Dell G16,"again, this coil whine sound indicates that it's shitty quality or poorly made.",-0.7269,negative
+Dell G16,the whole nice and smooth package of a dream-built laptop is destroyed due to vomit-inducing build quality.,-0.1027,negative
+Dell G16,"because of the build quality, i rate the whole laptop 6 10. if atleast the crackling due to heat wouldn't be there, it would be a solid 8-8,5. or even 9. i had no option.",-0.1531,negative
+Dell G16,i still don't have option to return it and switch to macbook.,0.0,neutral
+Dell G16,i don't know any alternatives that are on the level of zephyrus but has good build quality.,0.5927,positive
+Dell G16,"i could return this, i still have time.",0.0,neutral
+Dell G16,i am doomed.,-0.6369,negative
+Dell G16,many of us are doomed.,-0.6369,negative
+Dell G16,"we've been cheated, left behind.",-0.5106,negative
+Dell G16,they don't hear us.,0.0,neutral
+Dell G16,but they hear the coins dropping.,0.0,neutral
+Dell G16,and that's why i will never buy any asus laptop ever anymore.,0.0,neutral
+Dell G16,"and i'm considering to switch from asus altogether in the future, when i will build my next beast desktop pc.",0.0,neutral
+Dell G16,is it really really worth it asus?,0.3551,positive
+Dell G16,"you have lost a lot with me, with all of us.",-0.3182,negative
+Dell G16,i was looking for a laptop that can carry me through high school and college but i was looking online and saw that there are some issues with the liquid metal in asus laptops.,0.0,neutral
+Dell G16,so i was wondering if it affects these models too.,0.0,neutral
+Dell G16,"bought a new rog strix g16 with amd ryzen 9 8940hx and rtx 5060, with 16 gigs ram and 1 tb pcie 4 ssd.",0.0,neutral
+Dell G16,"got a gaming laptop for the first time, pls all advice me on how to take proper care of it.",0.5423,positive
+Dell G16,"was really hesitant to throw the new joycult indy s on my deck since i wanted more time with my brt s. however, this deck truck setup feels like a cheat code.",-0.4201,negative
+Dell G16,been using higher kick decks to get better at nollies switch the jindys add more height weight.,0.4404,positive
+Dell G16,feels real solid now.,0.1531,positive
+Dell G16,can't wait to get more dialed in with this setup.,0.0,neutral
+Dell G16,been at it for about three months now and i'm completely hooked.,0.0,neutral
+Dell G16,started on a 3d printed deck with sandpaper ordered a cowply c1 (never came.,0.0,neutral
+Dell G16,you guys warned me but the graphic was too sick) gave up waiting on the cowply and ordered a blackriver cowart arms deck.,-0.1406,negative
+Dell G16,that's been my main for like two months.,0.3612,positive
+Dell G16,love it but was curious if steeper kicks would help out.,0.8442,positive
+Dell G16,the blank white g16 came in yesterday and omg.,0.0,neutral
+Dell G16,can confirm.,0.0,neutral
+Dell G16,ollies are like two and three times higher.,0.3612,positive
+Dell G16,locking into grinds got easier.,0.4215,positive
+Dell G16,getting into bluntslides and smiths feels awesome.,0.6249,positive
+Dell G16,kickflips got way easier.,0.4215,positive
+Dell G16,360 shuvs are maybe the only thing that don't feel as natural on the g16 but i started landing tres almost immediately.,-0.1419,negative
+Dell G16,kinda glad i got the muscle memory on a more mellow board to start out.,0.4033,positive
+Dell G16,now everything feels like half the effort with some adjustments.,0.3612,positive
+Dell G16,just want to say it's been awesome crawling this sub and learning from you guys and all the helpful posts on here.,0.802,positive
+Dell G16,pumped to keep learning and getting better,0.4404,positive
+Dell G16,i bought this zephyrus g16 (core ultra 9 285h 5070ti) back in august.,0.0,neutral
+Dell G16,"for a ""premium"" laptop, the experience recently has been a nightmare.",0.0,neutral
+Dell G16,"at first, the laptop ran great.",0.6249,positive
+Dell G16,i ran benchmarks and everything worked as it did in reviews.,0.0,neutral
+Dell G16,"but only after a few weeks, the symptoms of overheating started to show up.",0.0,neutral
+Dell G16,the symptoms: instant thermal throttling under any load.,0.0,neutral
+Dell G16,cpu temps hitting 110 c (verified in hwinfo) almost immediately.,0.0,neutral
+Dell G16,"cinebench r23 scores had tanked to the 12,000 15,000 range.",0.0,neutral
+Dell G16,"fans screaming, but the air coming out wasn't even that hot (classic sign of bad contact).",-0.7615,negative
+Dell G16,"the discovery: i didn't want to wait weeks for an rma service loop, so i decided to open it up myself.",-0.0572,negative
+Dell G16,the factory liquid metal application was absolutely unacceptable.,-0.5095,negative
+Dell G16,"as you can see in the photos, there was a massive, dry, oxidized bare spot right in the center of the cpu die.",-0.5994,negative
+Dell G16,the liquid metal had completely pooled off to the sides bottom.,0.0,neutral
+Dell G16,my cpu was basically running naked in the center.,0.0,neutral
+Dell G16,the fix: i didn't even buy new liquid metal.,0.0,neutral
+Dell G16,i just carefully used a credit card to respread the existing pool back over the die (and the heatsink) to eliminate the oxidation layer and get proper contact.,-0.2023,negative
+Dell G16,"the result: before: 12k points, 110 c, heavy throttling.",0.0,neutral
+Dell G16,"after: 21,221 points, stable temps.",0.296,positive
+Dell G16,to asus: this is unacceptable for a machine at this price point.,-0.4588,negative
+Dell G16,i shouldn't have to perform open-heart surgery on a laptop i bought 3 months ago just to get the performance on the box.,0.0,neutral
+Dell G16,"if i hadn't fixed this, the chip likely would have cooked itself long-term.",0.0,neutral
+Dell G16,"if you own a g16 and your performance is tanking, check your temps.",0.0,neutral
+Dell G16,"you might have a factory ""bad spread"" like i did.",-0.25,negative
+Dell G16,i am going to college for mechanical engineering this fall and wanted to get the zephyrus g16 as it's slim and very powerful.,0.4754,positive
+Dell G16,would it be worth it to wait for the 2026 to drop or get this one at excellent condition for 2250?,0.5423,positive
+Dell G16,"i think the 2026 version would be out of my budget, but i'm sure it would bring the price of the 2025 down.",0.4497,positive
+Dell G16,i'm really at a loss and could use some advice.,-0.3774,negative
+Dell G16,"so i bought a zephyrus g16 about a year and a couple months ago from best buy and paid around 3,500 for it because i needed something reliable for engineering school (i'm a student at texas a m university).",0.6369,positive
+Dell G16,"i use it daily for cad, star-ccm , and other heavy programs for my classes.",0.0,neutral
+Dell G16,"out of nowhere, the laptop completely stopped working.",-0.2944,negative
+Dell G16,"i take really good care of my tech, no drops, spills, or signs of damage.",0.3119,positive
+Dell G16,"when i contacted asus support and sent in my unit for diagnosis, they told me it was a main board failure, not user damage .",0.2565,positive
+Dell G16,"what's bizarre is that i can't find anyone else online with this exact issue, so it seems like a rare or isolated hardware defect.",-0.5,negative
+Dell G16,(the laptop works fine but will shut off completely whenever picked up of a surface).,0.1027,positive
+Dell G16,"i have plenty of videos and documentation of the condition and issue of the laptop, comment below if you would like to see.",0.3612,positive
+Dell G16,"the repair quote came back at 2,800, which is basically two-thirds of the price of the whole laptop.",0.0,neutral
+Dell G16,"i escalated it all the way by contacting the asus s ceo office, and the best they could offer was a 35 discount which still leaves it way outside what i can afford.",0.6369,positive
+Dell G16,i'm honestly shocked that a premium laptop failed just after the one-year mark (their warranty only lasts one year).,-0.3818,negative
+Dell G16,"yes i know many of you will say i should have gotten the extended warranty especially for a product this expensive, and technically asus isn't required to fix this, but i really hoped for more goodwill or courtesy on something this expensive that failed so soon.",0.5974,positive
+Dell G16,"at this point, i don't know what to do.",0.0,neutral
+Dell G16,"i can't afford to pay 1,800, and without this laptop i'm basically stuck for my engineering work the next few months.",-0.1788,negative
+Dell G16,has anyone dealt with something like this before?,0.3612,positive
+Dell G16,"is there anyone specific at asus i should try to contact, or should i just cut my losses and try to find a used machine to get by?",-0.5859,negative
+Dell G16,any advice or similar experiences would really help.,0.4576,positive
+Dell G16,thanks.,0.4404,positive
+Dell G16,i know macbook are good for battery life and productivity so i'm wondering if that plus a cheaper gaming laptop is worth it over a g16?,0.5859,positive
+Dell G16,major will be software engineering,0.0,neutral
+Dell G16,"i'm thinking about buying the asus rog strix g16 g614fr-es96 (ryzen 9 9955hx, rtx 5070 ti, 32gb ddr5 5600mhz), but after reading mixed reviews online, i'm honestly a bit confused.",0.2617,positive
+Dell G16,"on paper, the specs look great for the price: ryzen 9 9955hx rtx 5070 ti 12gb 32gb ddr5 5600mhz 1tb ssd i'm a student and i plan to use this laptop mainly for university work (matlab, solidworks, simulations, programming) and only light gaming occasionally.",0.6249,positive
+Dell G16,i want something powerful but also reliable long-term.,0.2617,positive
+Dell G16,"i'm planning to use the same laptop for at least 6 7 years, so this is a serious investment for me.",-0.144,negative
+Dell G16,for those who actually own this model (or similar strix g16 configurations): -how is the cooling in real-world use?,0.0,neutral
+Dell G16,-does the ryzen 9 9955hx run very hot under sustained load?,0.0,neutral
+Dell G16,"-any issues with build quality, screen, keyboard, or long-term reliability?",0.0,neutral
+Dell G16,"overall, are you happy with it?",0.5719,positive
+Dell G16,"is it worth buying, or should i consider other options in this price range?",0.2263,positive
+Dell G16,i would really appreciate honest feedback.,0.763,positive
+Dell G16,i don't want to make a mistake with such an important purchase.,-0.2076,negative
+Dell G16,best regards.,0.6369,positive
+Dell G16,looking for an all around-er.,0.0,neutral
+Dell G16,"bit of gaming, light work use, starting to code, movies.",0.0,neutral
+Dell G16,want something that will last a bit and keep up for some time.,0.0772,positive
+Dell G16,"i have an iphone, is why i thought mac, but someone pointed this asus out to me.",0.0,neutral
+Dell G16,"lemme know what ya think, please.",0.3182,positive
+Dell G16,i've had the rog zephyrus g16 for over almost 2 months now and i am impressed.,0.4767,positive
+Dell G16,"it runs great, feels and runs like a premium device.",0.765,positive
+Dell G16,this is a laptop that will run amazing for years to come.,0.5859,positive
+Dell G16,"performance - the g16 comes with an rtx4090 which kicks in when i game, but till it is needed the cpu graphics ultra 9 185h does the work.",0.0,neutral
+Dell G16,"so when i'm browsing reddit or playing low graphics intensive games like league of legends, valorant etc the 4090 is on standby while the ultra 9 185h does all the work.",0.296,positive
+Dell G16,"g16 uses way less battery life when using the cpu graphics, so its perfect when unplugged.",0.6096,positive
+Dell G16,"when i boot up a high intensive game such as the black myth wukong, tfd, the finals, or fortnite on the highest settings, the rtx4090 kicks in.",0.0,neutral
+Dell G16,looks and graphics - the 2.5k hdr display is beautiful and the image quality amazes me.,0.7964,positive
+Dell G16,i can run the games on the highest settings and the display really makes it worth it.,0.2878,positive
+Dell G16,black myth wukong was another level of experience.,0.0,neutral
+Dell G16,what really caught my attention was the speakers.,0.0,neutral
+Dell G16,"there are a total of 2 speakers, each built it to the sides of the keyboard.",0.0,neutral
+Dell G16,i was surprised at how good the sound is.,0.5859,positive
+Dell G16,it feels like what i'm watching is in the room with me.,0.3612,positive
+Dell G16,battery and cooling - the g16 gets hot.,0.0,neutral
+Dell G16,"while gaming laptops are built for intense heat, i'd prefer it be a bit cooler.",0.0772,positive
+Dell G16,i would 100 recommend a laptop cooler fan.,0.5859,positive
+Dell G16,"i tend to limit my battery so it lives for as long as possible, so i never ran the laptop from 100 to 0. it has a decent life if you run it on silent or performance.",0.0,neutral
+Dell G16,"you can watch 4k movies for a few hours but gaming really makes the battery lose charge quickly, to be expected of course.",-0.5499,negative
+Dell G16,gaming and the display are fantastic on this laptop.,0.5574,positive
+Dell G16,"i've never had a laptop that would boot up this fast, that would have 0 issues in every possible way when it came to gaming and the quality.",0.0,neutral
+Dell G16,"badly optimized games run smooth, the experience is just on another level, and it is a future proofed laptop.",-0.0258,neutral
+Dell G16,everything is so beautiful and on another level.,0.7177,positive
+Dell G16,"the g16 came with 3 months of game pass ultimate that is not trial bound, so anyone can use it.",0.0,neutral
+Dell G16,the back of the laptop and keyboard have lighting effects that can be customized through the armoury crate.,0.0,neutral
+Dell G16,you can customize the flash patterns and color.,0.0,neutral
+Dell G16,tldr - new owner of the rog zephyrus g16 and had to share how amazing it and is and how much i have enjoyed it so far.,0.8519,positive
+Dell G16,the model - gu605my-g16.u94090,0.0,neutral
+Dell G16,"exact model is asus - rog zephyrus g16 16 - gu605cp-g16.u95070 display: 16.0"" 2560 x 1600 oled gpu: geforce rtx 5070 cpu: core ultra 9 memory size: 16 gb ddr5 storage: 1tb new- 1800 (sale price) used- 1200 just found someone selling it for 1200, and i was curious if this is a good deal.",0.6369,positive
+Dell G16,it's less than a year old.,0.0,neutral
+Dell G16,i've been looking to get a decent gaming laptop for a while and i can finally splurge a bit on one.,0.0,neutral
+Dell G16,"i was looking for any between 1300-1800. i have been seeing some people say there are issues with the g16 model, but also a lot of people saying theirs work completely fine.",0.3898,positive
+Dell G16,i'm just curious if 600 off is worth going for or not.,0.4939,positive
+Dell G16,i'm really tempted to snag it.,0.0,neutral
+Dell G16,"the only thing i'm a bit worried about is the soldered 16gb of ram (not upgradable), but this is not something i plan on using for the next 5 years.",-0.1531,negative
+Dell G16,wanted a decent laptop for the next year or so before i get into an apartment i can fit a desk and have a bit more money to spend on a desktop setup.,0.3612,positive
+Dell G16,any advice would be great.,0.6249,positive
+Dell G16,and any suggestions for other laptops i can get besides this that may be better than this if it's not a good deal!,0.1989,positive
+Dell G16,i'm currently a bit unsure about a laptop decision and would like to hear some opinions.,0.128,positive
+Dell G16,i originally bought an asus rog g16 (rtx 4060 intel-i9) because i was gaming a lot and needed the performance for my architecture studies.,0.0,neutral
+Dell G16,by now i don't really game anymore and mainly use the laptop for architecture-related applications.,0.0,neutral
+Dell G16,"on top of that, i'm a photographer and have been thinking for a while about switching to a macbook, mainly because of the display quality and how comfortable macos is for photo editing.",0.6249,positive
+Dell G16,"i know that the asus has significantly more raw performance, but i feel like reselling it might be quite difficult.",-0.1128,negative
+Dell G16,i now have the option to trade it for a 2019 macbook pro (still intel-based).,0.0,neutral
+Dell G16,"do you think this trade would make sense, or would it be a mistake?",-0.34,negative
+Dell G16,"is a 2019 intel macbook pro still a reasonable choice today, or should i avoid it?",-0.296,negative
+Dell G16,"hi all, i am trying to decide between these 2 after so many hours of researching.",0.0,neutral
+Dell G16,omen max: 1840 usd asus strix g16: 1740 usd paying 100 more for 5070 but i get the omen max chasis and software.,0.0,neutral
+Dell G16,is it that bad that it it's not worth picking the omen deal?,-0.6329,negative
+Dell G16,is it a worthy deal?,0.4404,positive
+Dell G16,thermals are super important for me because i travel and don't always have access to the best ambient cool temp for performance.,0.9042,positive
+Dell G16,"would love to hear your experience, knowledge about my conern takung the omen and advice a",0.6369,positive
+Dell G16,"hey everyone, i'm trying to decide between two laptops that cost exactly the same (3000 ), and i'd really appreciate some opinions based on real-world experience.",0.4576,positive
+Dell G16,my background: i'm a professional videographer and multimedia creator.,0.0,neutral
+Dell G16,"my daily workflow is heavily focused on: adobe premiere pro after effects (motion graphics) occasional blender and ai tools some light gaming (tft, tcg simulators, maybe league of legends occasional) i also work with 4k footage quite often and care a lot about screen quality and portability.",0.7239,positive
+Dell G16,"the two options: 1. asus rog zephyrus g16 (2025) intel core ultra 9 (16-core) rtx 5070 8gb 32gb lpddr5x (non-upgradable) 2tb ssd 16 2.5k oled, 240hz 1. macbook pro 16 (2024) m4 pro (14-core cpu, 20-core gpu) 48gb unified memory 512gb ssd key things that matter to me: smooth premiere after effects performance color-accurate display for video work fan noise thermals during heavy renders portability my doubts: the zephyrus has the rtx 5070 and 2tb ssd, which seems amazing for gpu tasks and storage but i think the fans are a bit noisy.",0.3071,positive
+Dell G16,"the macbook has 48gb unified memory and is known to be extremely optimized for video workflows i'm also unsure how much after effects benefits from nvidia vs apple silicon in 2024 2025 gaming is a plus but not the main priority, this is primarily a work machine for video and motion graphics.",0.5017,positive
+Dell G16,"for someone in heavy adobe creative workflows (not just casual editing), which one would you pick and why?",0.5719,positive
+Dell G16,"hi everyone, i'm deciding between two laptops that are the same price in my country, and my main use case is heavy work multitasking, photoshop, large files, and daily use with an external oled monitor such as the samsung g9 oled (or similar ultrawide oleds).",0.0,neutral
+Dell G16,"i'll be using the external monitor most of the time, not gaming-focused.",0.0,neutral
+Dell G16,"specs: lenovo legion pro 7 - intel core ultra 9 275hx - nvidia rtx 5070 ti (12gb) - 32gb ram - wqxga oled 240hz internal display asus rog strix g16 - intel core ultra 9 275hx or ryzen 9 9955hx3d - nvidia rtx 5070 ti (12gb) - 32gb ram - 2.5k ips 240hz internal display what i care about most: - stable performance when driving an external oled monitor (5120x1440, 240hz) - heavy multitasking photoshop - sustained performance and thermals when docked - reliable external display output (refresh rate, color, no throttling) questions: 1. will both laptops reliably run an ultrawide oled like the samsung g9 at full refresh rate?",0.7178,positive
+Dell G16,2. which one handles sustained workloads better when connected to an external monitor?,0.4404,positive
+Dell G16,3. any known differences in hdmi usb-c display routing or stability between these two?,0.0,neutral
+Dell G16,"4. if price is identical, which would you choose for productivity and creative work?",0.4404,positive
+Dell G16,appreciate any real-world experience or advice.,0.4019,positive
+Dell G16,"i have a laptop with gtx 1650, intel i5 9th gen, 16gb ram and 1tb storage with a 1080p 120 hertz screen.",0.0,neutral
+Dell G16,i want to upgrade to the rog zephyrus g16 with a rtx 4060 and it's ryzen ai chip.,0.0772,positive
+Dell G16,it costs like 1.5 lakhs so should i do it?,0.3612,positive
+Dell G16,and any more suggestions?,0.0,neutral
+Dell G16,both laptops have same gpu ie rtx5060 and available at similar price point but zephrus has oled which i love very much but strix has ram upgradation option upto 32gb .,0.7783,positive
+Dell G16,"is 16gb enough for aaa games in medium to high settings ,no frame generation.",-0.296,negative
+Dell G16,i want to play games with good visuals.,0.6808,positive
+Dell G16,they both fits in my budget.,0.0,neutral
+Dell G16,"looking for a portable but powerful laptop for engineering (32gb ram, 1tb, dedicated gpu).",0.8271,positive
+Dell G16,leaning between the lenovo yoga pro 9i aura edition and asus zephyrus g16.,0.0,neutral
+Dell G16,which one would you recommend for performance and reliability?,0.3612,positive
+Dell G16,i want something that won't break on me and can last a few years.,0.0772,positive
+Dell G16,thanks.,0.4404,positive
+Dell G16,she was mad and jealous for no reason and she was screaming.,-0.875,negative
+Dell G16,"and all i see her pick up the laptop over her head and rams into the floor the floor was carpet so i didn't get too much damage, but the screen is slightly bent.",-0.2732,negative
+Dell G16,i wanna fix it without breaking it.,0.0,neutral
+Dell G16,i'm so scary and it offends me the most.,-0.7574,negative
+Dell G16,i would rather not have this laptop than have the bent screen.,0.0,neutral
+Dell G16,"it hurts me , to see my laptop with a bent screen.",-0.4767,negative
+Dell G16,this women is consuming me destroying my life.,-0.5574,negative
+Dell G16,"hi there, it's just a personal review of my zephyrus g16 2024 i've had for 8 months so far.",0.0,neutral
+Dell G16,"model - ga605wv-xb96 ryzen ai9 hx370, 4060, 32gb it's a great laptop, just perfect.",0.8316,positive
+Dell G16,"at first i kinda questioned why would asus do this sort of studio laptop and put 4060 with hx370 (the sticker 4060 says ""studio"") it turns out it's not only good enough for creators but also for gamers (e.g.",-0.1917,negative
+Dell G16,"me) with time i understood that it's a perfect balance choice between 4070 version or 5070ti of 2025. you know, these chassis may get pretty damn hot, and combining both powerful and energy efficient hx370 with 4060 is a great choice of a good longevity, temperatures, and just enough of 4060's performance.",0.9578,positive
+Dell G16,because i'm the kind of dudes that expects their stuff to last at least 5 years flawlessly and in this case the temperatures is the top priority.,0.3818,positive
+Dell G16,"as said this laptop's comps are so efficient, i finally can play.",0.7198,positive
+Dell G16,"stalker2 on high settings with 70-80fps and both cpu, gpu don't get over 80-85 degrees (cpu 15degrees undervolted) while my 2022 zephyrus with 3060 or 3080 or 6800s that i had all used to go above 90!",0.0,neutral
+Dell G16,in any condition and not even playing stalker 2 on them.,-0.1511,negative
+Dell G16,also forgot to mention how silent fans are finally after 2021-22-23 versions.,0.0,neutral
+Dell G16,turbo mode is definitely quieter than previous versions by at least 5db.,0.4019,positive
+Dell G16,"balanced mode is barely heard (i use it for cs-go2) so to sum it up, it's light, battery efficient as g14 (lasts exactly 8 hours if battery cap is at 80 can do even 10 hours (battery health is at 95 currently) ) all components are power efficient, it's not too hot.",0.6808,positive
+Dell G16,"and the cherry on top is that i got it for 1000 canadian dollars, so you see i'm not glazing it just to make myself feel like i didn't just waste 2300 usd.",0.684,positive
+Dell G16,"anyways, i would definitely choose 4070 version but 4060 is just enough for those like me and 4070 would just make me not tracking fps when i'm curious how 4060 performs, but it does quiet good even at 80tgp.",0.8979,positive
+Dell G16,great day everyone!,0.6588,positive
+Dell G16,i'm so incredibly stoked.,0.0,neutral
+Dell G16,as a dad doing fifo i don't have the space at home for a tower and i like the idea of portable gaming.,0.3612,positive
+Dell G16,it was either this or a rog ally x and i'm glad i went with the g16.,0.4588,positive
+Dell G16,as a console fanatic for the last 10 years it has taken a bit to get back into working out where everything is especially with new windows 11 but now i'm just up to downloading games.,0.0,neutral
+Dell G16,can't wait to start playing world of warcraft again rtx 4070 32gb ram 2t ssd,0.2023,positive
+Dell G16,"after lurking (and saving) since selling my last machine, i finally pulled the trigger and joined the modern gaming laptop club - say hello to my new rog strix g16 (2025 g615) with an rtx 5080!",-0.2003,negative
+Dell G16,i couldn't resist tweaking it right away: ram: upgraded to 64gb kingston fury 5600mt s - smooth multitasking so far.,-0.5719,negative
+Dell G16,storage: slot 1 (swapped): 2tb wd black sn7100 (gen5) for os storage slot 2 (added): 4tb wd black sn850x (gen4) for games and everything else performance has been excellent.,0.9022,positive
+Dell G16,"native 1600p with settings cranked, stable temps even under heavy load - honestly better than i expected.",0.7964,positive
+Dell G16,"the display is very good, but not oled level good - easily overlooked as i use an external oled display anyway.",0.8532,positive
+Dell G16,clean install of windows and g-helper instead of all the asus bloat and this thing rips!,0.4574,positive
+Dell G16,now the only painful part is waiting for gta 6 on pc.,-0.4404,negative
+Dell G16,hoping this thing still chews through it when the time comes.,0.4215,positive
+Dell G16,my only issue - my particular model (in the uk) did not come with a touchpad numpad combo - just a plain old touchpad.,0.0,neutral
+Dell G16,that is a tad frustrating considering all the marketing pictures showed one.,-0.4404,negative
+Dell G16,"i will survive if anyone has any questions, just let me know!",0.0,neutral
+Dell G16,so after my asus vivobook of 7 years finally broke down my mom gave me this laptop as an advance birthday present.,-0.4215,negative
+Dell G16,asus rog strix g16 (2025) g615.,0.0,neutral
+Dell G16,rtx 5050 intel i7-14650hx (2.20ghz) 32gb ram 2x1tb ssd.,0.0,neutral
+Dell G16,this is my first ever gaming laptop and i'm so happy.,0.6948,positive
+Dell G16,any tips on how to better take care of this?,0.7269,positive
+Dell G16,this costed her around 1650 usd-ish?,0.0,neutral
+Dell G16,(taxes included).,0.0,neutral
+Dell G16,there are lots of users who encountered this problem.,-0.481,negative
+Dell G16,the laptop's all softwares (especially awcc) have really big problems.,-0.4549,negative
+Dell G16,most of them don't work properly.,0.0,neutral
+Dell G16,we can use the laptop without these awful softwares but we can't use it while gpu locked 30w.,0.1877,positive
+Dell G16,"so while gaming, gpu wattage suddenly drops to 25-30w and we can't increase it.",-0.2411,negative
+Dell G16,is there a 100 working method to prevent this problem cause none of the suggested methods (disabling intel integrated sensor solution and switching quiet mode) worked and what is the real reason of this problem?,-0.5927,negative
+Dell G16,i'm gonna buy nitro 5 instead of g16 7630 if there is no fix for this problem.,-0.6514,negative
+Dell G16,btw most users are returning the laptop cause of this problem and they are totally right.,-0.481,negative
+Dell G16,returned the 5090 g16 because that thing is pure junk with massive throttling and bsod when using davinci resolve and the dell is is light years better.,0.3182,positive
+Dell G16,glad that it can also charge with my 100w usb-c gan charger and wondering if anyone used an even higher wattage usb charger?,0.4588,positive
+Dell G16,my god everything is so neat and well laid out.,0.809,positive
+Dell G16,the hefty ssd heat sink is great quality and the base is full metal.,0.6249,positive
+Dell G16,compared to the g16 this is night and day difference.,0.0,neutral
+Dell G16,awcc has been a mess since the last update and i tanked it on my g16 laptop.,-0.3612,negative
+Dell G16,"after installing alienfx, i've found the 5 thermal modes listed like this (in order of appearance): 160, 161, 165, 163, g-mode.",0.3612,positive
+Dell G16,"has anyone mapped these to the awcc modes: fullspeed, performance, balanced, cool, quiet?",0.3182,positive
+Dell G16,"found a new in box m16 r2 on facebook for 1300 , box store has a sale on asus rog zeph g16 for 1000 open box.",0.0,neutral
+Dell G16,which would be the better buy ?,0.4404,positive
+Dell G16,is it worth the 300 to go to 4070 and 1 tb ?,0.2263,positive
+Dell G16,both will need upgrades to 32gb so extra 100 on top of price.,0.2023,positive
+Dell G16,am i better off saving the 300 and investing in ram and ssd ?,0.4404,positive
+Dell G16,"there is a deal with an intel 13th generation with a 4050, 16gb ddr5 with 1tb, and 240hz and i want to know if this is a good deal for this price.",0.4939,positive
+Dell G16,i dropped almost a hundo on this off amazon due to hot cpu gpu temps when gaming for longer sessions on my aurora 16x 5060 ultra 9 that i recently got over the holidays.,0.5106,positive
+Dell G16,my question so with the design of the 16x and just having a 5060 will this fan make a noticeable difference in performance cooling?,0.3869,positive
+Dell G16,"i saw multiple reviews about it helping the 16x in particular but idk if i believe them (still have fomo wishing i got a 5070 or 5070ti laptop so i'm tryna get the best, long-term performance outta my gpu as possible loll)",0.8462,positive

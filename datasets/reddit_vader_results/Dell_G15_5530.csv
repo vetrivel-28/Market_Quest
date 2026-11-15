@@ -1,0 +1,445 @@
+laptop_name,sentence,compound_score,sentiment
+Dell G15 5530,"if i don't bother you, can you please leave a summary of your experience and a little advice if i should buy it or not?",0.4829,positive
+Dell G15 5530,i'm planning to buy the dell g15 5530 and i'd love to hear your opinions.,0.6369,positive
+Dell G15 5530,how s the build quality and thermals?,0.0,neutral
+Dell G15 5530,any issues i should be aware of before buying?,0.0,neutral
+Dell G15 5530,"hey everyone, i recently picked up a dell g15 5530 (i5 13th gen hx, rtx 3050 95w, 16 gb ram, 1 tb ssd) and i'm super excited to finally upgrade after a long time.",0.743,positive
+Dell G15 5530,i'd love to hear from experienced g15 users about: best performance thermal settings any must-do optimizations after first setup bios or alienware command center tips battery health long-term care advice things you wish you knew when you first bought it and i bought this laptop for 60k was it good deal !,0.9606,positive
+Dell G15 5530,"hey everyone, i recently bought a dell g15 5530 with i5 13th gen hx, 16gb ram, and rtx 3050 6gb for 70,500. lately, i've been seeing a lot of people say that the lenovo loq might have been a better option, especially when it comes to thermals and display quality with similar configurations.",0.4404,positive
+Dell G15 5530,now i'm feeling a bit unsure did i make the wrong choice?,-0.5574,negative
+Dell G15 5530,"i mainly use my laptop for gaming, programming, and general work .",0.0,neutral
+Dell G15 5530,i'd love to hear from people who ve used either laptop: how are the thermals and performance during real-world gaming?,0.6369,positive
+Dell G15 5530,"how s the display quality for gaming, coding, and media?",0.0,neutral
+Dell G15 5530,any tips to optimize the dell g15 5530 if i stick with it?,0.4939,positive
+Dell G15 5530,really appreciate any honest opinions or comparisons.,0.762,positive
+Dell G15 5530,thanks in advance!,0.4926,positive
+Dell G15 5530,"hi everyone, i picked up a dell g15 5530 on clearance back in april when dell discontinued the line.",0.0,neutral
+Dell G15 5530,i got it to replace my old precision desktop (i7-8700 rtx 2060).,0.0,neutral
+Dell G15 5530,"the price was hard to beat at 1,740 cad ( 1,240 usd, tax in).",-0.1027,negative
+Dell G15 5530,"the problem is, it runs hot and throttles pretty hard.",0.0258,neutral
+Dell G15 5530,"when i first got it, i was able to undervolt and tweak cores using intel xtu, which helped a lot.",0.0,neutral
+Dell G15 5530,"but after updating to bios 1.22.0, dell seems to have completely locked down undervolting.",0.0,neutral
+Dell G15 5530,i haven't found any tool that still works with the latest bios update.,0.0,neutral
+Dell G15 5530,"last month i repasted with ptm7950, but it didn't really change much.",0.0,neutral
+Dell G15 5530,"on cinebench r23 multicore, i only hit 1150, which feels low for this hardware.",-0.2732,negative
+Dell G15 5530,"temps shoot straight up to 100 c (the dell thermal limit), and during video work the fans ramp to max after a minute or so and just stay there.",-0.128,negative
+Dell G15 5530,"i'm using the g15 as a desktop replacement: connected to a 1440p monitor, stored under my desk, on a 3-fan cooling pad plus an extra small fan for airflow (pic attached).",0.3182,positive
+Dell G15 5530,"i don't game on it, my main workloads are davinci resolve and topaz video ai.",0.3818,positive
+Dell G15 5530,"--------- specs: board: dell 0796rn cpu: intel i9-13900hx gpu: nvidia rtx 4060 mobile (140w) ram: 2 16gb samsung ddr5-4800 ssd1: wd black sn850x 1tb (gen 4) ssd2: crucial p3 plus 2tb (gen 3) psu: dell 300w has anyone with this model (or similar dell laptops) found a good workaround for the locked bios undervolting, or other effective ways to tame the thermals and throttling?",0.8658,positive
+Dell G15 5530,any tips suggestions advice before i start using the laptop.,0.0,neutral
+Dell G15 5530,i have seen posts asking to remove bloatware (please guide).,0.0,neutral
+Dell G15 5530,feel free to comment.,0.5106,positive
+Dell G15 5530,"please help me, these weird patterns and white dots are appearing all over my screen and then disappearing once i move my mouse cursor, the display is completely fine, no cracks nothing at all, the laptop is dell g15 5530",0.4432,positive
+Dell G15 5530,"hi, could you please suggest if it is ok to buy dell g15 5530 i5 13450hx with 3050 graphic card and 16 gb ddr5 laptop for be ?",0.5423,positive
+Dell G15 5530,i mean is sufficient for my classworks and other projects till last year.,0.0,neutral
+Dell G15 5530,i am in first year mech now.,0.0,neutral
+Dell G15 5530,"hi guys, i have owned this laptop for around a year now and the charger just gave itself up on me today, it works but only in a certain angle and sparks everytime it hits that angle to actually charge, which is super inconvenient.",0.7096,positive
+Dell G15 5530,"hence i went to check to buy a new charger but they're flipping expensive, the ""dell original"" ones that is, 23k(inr) cmon man, there are some alts available on amazon but idk, kinda scared of them burning out on me within a couple months because they're also around 5-6k (inr) please suggest what to do, or if i can get this charger fixed, not able to figure out if the issue is the cord or the brick.",0.4478,positive
+Dell G15 5530,i would like to buy laptop for studies these two are the best in my budget both with rtx 3050 6 gb .,0.7717,positive
+Dell G15 5530,lenovo from what i heard have better screen and weights less but comes with i5 12450 hx which is worse compared to i5 13450 hx by like 30 .,0.0129,neutral
+Dell G15 5530,which one would you choose also lenovo comes with 24 gb of ddr5 4800 ram and dell have 16 gb.,0.0,neutral
+Dell G15 5530,i live in poland so there are not too many options and laptop gpus are for some reason very pricey here at least for me .,0.0,neutral
+Dell G15 5530,or maybe you have your own laptop that is better than these and would like to share,0.765,positive
+Dell G15 5530,"hi everyone, i'm facing an issue with the alienware command center (awcc) on my dell g15 5530 laptop (intel i7 13th gen hx series, rtx 4050 6gb vram).",0.0,neutral
+Dell G15 5530,"whenever i try to launch the application, it sometimes fails to open and displays this message: however, when i restart my system , the application works fine temporarily but after some time, the same error reappears again.",-0.6187,negative
+Dell G15 5530,here s what i've already tried: restarted my system multiple times (works only briefly).,0.0,neutral
+Dell G15 5530,uninstalled and reinstalled alienware command center via microsoft store and dell supportassist.,0.0,neutral
+Dell G15 5530,"updated all drivers, including bios, chipset, gpu, and system updates.",0.0,neutral
+Dell G15 5530,performed a full system scan using dell supportassist (no hardware errors found).,-0.34,negative
+Dell G15 5530,checked windows services to ensure alienware-related components are set to automatic.,0.3818,positive
+Dell G15 5530,"even after these steps, the issue returns after some use.",0.0,neutral
+Dell G15 5530,"i'd like to know if this is happening to other dell g15 alienware users , or if it's specific to my system.",0.3612,positive
+Dell G15 5530,"should i raise a warranty claim or contact dell support, or is this just a temporary alienware service issue ?",0.4019,positive
+Dell G15 5530,i've attached a screenshot of the error for reference.,-0.4019,negative
+Dell G15 5530,any suggestions or insights would be appreciated!,0.5562,positive
+Dell G15 5530,hey y'all.,0.0,neutral
+Dell G15 5530,"as stated in the title, i've been dealing with a loose zif connector in my laptop that's driving my crazy.",-0.5719,negative
+Dell G15 5530,"it's for the laptop keyboard's ribbon cable, and it will get loose about every week (been happening for almost a month now) and i'll have to open the laptop and reseat it.",-0.3182,negative
+Dell G15 5530,"from what i can tell, it seems to be an issue with the zif connecter not holding the ribbon cable tight enough, and slowly letting go of it as i move my laptop around (ex: i place my laptop down somewhere else, and the force of that moves the cable slightly).",0.0,neutral
+Dell G15 5530,"what happens is that my space bar, arrow keys, and a few letter random keys in the bottom row will work inconsistently.",0.0,neutral
+Dell G15 5530,"i've tested to make sure that this isn't some bizzare software bug, so it's definitely a hardware issue.",0.6461,positive
+Dell G15 5530,"the cable is also visually off, and the left side is loose.",-0.3182,negative
+Dell G15 5530,"so, what should i do?",0.0,neutral
+Dell G15 5530,is there some way i can secure it without getting a whole new board?,0.34,positive
+Dell G15 5530,could i remove the zif and then solder on a new one?,0.0,neutral
+Dell G15 5530,any help is appreciated!,0.7424,positive
+Dell G15 5530,edit: here's a video for anyone wanting to see it in action,0.0,neutral
+Dell G15 5530,"i really wanna buy it but i haven't seen an in depth review and its quite expensive so, anyone?",0.0,neutral
+Dell G15 5530,"hey, i bought dell g15 year and a half ago.",0.0,neutral
+Dell G15 5530,"since beginning, i had problems with it, specifically with error kernel-power 41 (i checked in the event viewer).",-0.6597,negative
+Dell G15 5530,"it occured for example when i put dell into ""sleep"" mode and unplugged my laptop from charger, but not always.",0.0,neutral
+Dell G15 5530,"it didnt bothered me, because all i had to do was restart my laptop after a some kind of bluescreen and everything was ok. so why i am writing this post?",0.4874,positive
+Dell G15 5530,"yesterday, when i turned on my dell a black screen appeared, and a non-stop buzzing.",0.0,neutral
+Dell G15 5530,(i think that was from buzzer.),0.0,neutral
+Dell G15 5530,i closed the lid and it still buzzed.,0.0,neutral
+Dell G15 5530,i holded the power button for like a minute and it powered itself down and the buzzing stopped.,0.1531,positive
+Dell G15 5530,"i turned my laptop again and bluescreen pop out and after a restart everything was okay, in the event viewer kernel-power 41 has occured.",0.2263,positive
+Dell G15 5530,"i also did a full scan in bios, everything was ok and i checked the logs.",0.296,positive
+Dell G15 5530,nothing was written about this incident.,0.0,neutral
+Dell G15 5530,any idea what was that?,0.0,neutral
+Dell G15 5530,it really worried me.,-0.3597,negative
+Dell G15 5530,"one has a better processor, the other has a better graphics card.",0.7003,positive
+Dell G15 5530,i need help from someone knowledgable,0.4019,positive
+Dell G15 5530,"i'm looking to purchase a new laptop in a specific budget, and i cannot go beyond this budget, so please no suggestions to increase it.",0.4239,positive
+Dell G15 5530,"however, if there are any other good options within this budget, please feel free to recommend them!",0.8832,positive
+Dell G15 5530,"i'm currently deciding between two options: 1. dell g15 5530 13th gen intel i5 13450hx 16gb ddr5 ram (4800 mhz) 512gb ssd nvidia rtx 3050 (6gb) fhd 120hz, 250 nits display 2. lenovo loq 12th gen intel i5 12450hx 16gb ddr5 ram (4800 mhz) 512gb ssd nvidia rtx 3050 (6gb) fhd 144hz, 300 nits display my use case: graphic design animation (adobe suite) video editing (filmora) music production (ableton live) i live in india, so i'm considering overall build quality, component longevity, and customer support.",0.4019,positive
+Dell G15 5530,i plan to use this laptop for at least 4-5 years or more.,0.0,neutral
+Dell G15 5530,"which of these two brands laptops offers better component quality, after-sales support, and long-term durability?",0.6808,positive
+Dell G15 5530,"would appreciate any experiences, suggestions, or recommendations!",0.4574,positive
+Dell G15 5530,thanks!,0.4926,positive
+Dell G15 5530,"so i'm struggling to know which one i should buy, obv the dell is much more powerful with an i7-13650hx and an rtx 3050 6gb while the lenovo has an i7-12650h and a measley 3050ti 4gb, both have 32gb of ram 120hz of refresh rate, the dell one reaches more brightness nits but the lenovo has better color accuracy, i'm leaning more towards the dell simply cuz of better specs but the problem is the dell looks a bit chunky and it is chunky, while the lenovo looks much lighter and i'm trying to use the laptop for both studying and gaming",0.7355,positive
+Dell G15 5530,"need help to choose a laptop hello guys, i will buy one of these laptops but i need help to choose which one plz help me to pick between these, and im gonna use it for gaming mostly 1- acer nitro v 15 anv15-41-r26a, amd ryzen 7-7735hs, 16gb ddr5 ram, 512gb ssd m.2, nvidia geforce rtx 3050 6gb,512gb ssd m.2, ips 165hz 2- acer nitro v 15 anv15-51-59u0, intel core i5-13420h (13th gen), 16gb ddr5, 512gb ssd m.2, nvidia geforce rtx 3050 6gb, ips 144hz 3- dell g15 5530, intel i5- 13450hx, 16gb ddr5 ram, 512gb ssd m.2, nvidia geforce rtx 3050 6gb, fhd 120hz",0.8555,positive
+Dell G15 5530,"hi everyone i'm planning to buy a laptop soon and have shortlisted a few dell g15 models: dell g15-5530 (i5-13450hx) dell g15-5520 (i7-12700h) dell g15-5530 (i9-13900hx) my main usage will be: coding (including html, css, js, full-stack projects) ai ml workloads, including computer vision, data analytics, and visualization managing files, notes, pictures occasional multimedia no gaming at all (not interested in it).",0.3612,positive
+Dell G15 5530,i want something reliable that can last 4 years without needing an upgrade frequently has anyone here used these dell models for similar tasks?,0.0772,positive
+Dell G15 5530,"how s the performance, thermals, and battery life in real life ?",0.0,neutral
+Dell G15 5530,would you recommend one of these three or should i also consider other brands ?,0.3612,positive
+Dell G15 5530,any personal experiences or reviews would be super helpful i hope for answers this time please guys thanks in advance,0.93,positive
+Dell G15 5530,total budget: 2500 aud are you open to refurbs used?,0.0,neutral
+Dell G15 5530,maybe.,0.0,neutral
+Dell G15 5530,"depends though how would you prioritize form factor (ultrabook, 2-in-1, etc.",0.0,neutral
+Dell G15 5530,"), build quality, performance, and battery life?",0.0,neutral
+Dell G15 5530,"-fill here, remove dashes- how important is weight and thinness to you?",0.2023,positive
+Dell G15 5530,"i mean i don't want to be carrying around what is essentially a desktop, i've got a dell g15 5530 atm, which isn't too thick, but i wouldn't go much thicker do you have a preferred screen size?",-0.0286,neutral
+Dell G15 5530,"if indifferent, put n a. well for producivity and cad work, something not too small, probably nothing below 14"" are you doing any cad video editing photo editing gaming?",0.0772,positive
+Dell G15 5530,list which programs games you desire to run.,0.4019,positive
+Dell G15 5530,"yes i do cad work, i mainly use blender and fusion360 if you're gaming, do you have certain games you want to play?",0.7579,positive
+Dell G15 5530,at what settings and fps do you want?,0.0772,positive
+Dell G15 5530,"eh i sometimes play light indie games any specific requirements such as good keyboard, reliable build quality, touch-screen, finger-print reader, optical drive or good input devices (keyboard touchpad)?",0.802,positive
+Dell G15 5530,i don't want it to fall apart so a good build quality would be nice leave any finishing thoughts here that you may feel are necessary and beneficial to the discussion.,0.841,positive
+Dell G15 5530,"the need for a gpu is something im not sure about, because idk how good igpus have gotten in the new core ultra and amd ai cpus",0.1376,positive
+Dell G15 5530,"hi everyone, i'm trying to choose between three laptops for ai programming and gaming.",0.0,neutral
+Dell G15 5530,"i'd appreciate your feedback, experiences, and which is the best value.",0.8519,positive
+Dell G15 5530,"here are the options: dell g15 5530 -57,000 egp cpu: intel core i7 13650hx gpu: nvidia rtx 4050 (6 gb) ram: 16 gb ddr5 storage: 512 gb ssd display: 15.6"", fhd, 120hz, anti-glare keyboard: rgb os: windows 11 asus tuf f15 (fx507vv-lp156w)- 54,400 egp cpu: intel core i7 13620h gpu: nvidia rtx 4060 (8gb) ram: 16 gb ddr5 4800 storage: 1 tb ssd display: 15.6"", fhd, 144hz, 300 nits, 100 srgb ips keyboard: full rgb os: windows 11 lenovo loq 15irx9 (83dv00vmed) - 57,000 egp cpu: intel core i7 14700hx (5.5ghz, 33mb cache) gpu: nvidia rtx 4060 (8gb) ram: 16 gb ddr5 4800 storage: 1 tb ssd display: 15.6"", fhd, 144hz, 300 nits, 100 srgb ips keyboard: backlit os: windows 11 use cases: ai ml programming running jupyter notebooks, training models gaming occasional video editing and multitasking my questions: 1. which one offers the best balance of performance, thermals, manufacturing quality ,and reliability for both ai and gaming?",0.6369,positive
+Dell G15 5530,2. has anyone used any of these laptops for ai programming or gaming?,0.0,neutral
+Dell G15 5530,how s your experience?,0.0,neutral
+Dell G15 5530,"3. is the lenovo loq a better investment due to the newer cpu, or should i stick with asus tuf for its proven thermals?",0.4404,positive
+Dell G15 5530,any advice or first-hand experience would be awesome!,0.6588,positive
+Dell G15 5530,total budget (in local currency) and country of purchase.,0.0,neutral
+Dell G15 5530,please do not use usd unless purchasing in the us: india rs.,0.3182,positive
+Dell G15 5530,80000 and rs.,0.0,neutral
+Dell G15 5530,50000 (2 laptops to be bought: 80k for the requirements mentioned and 50k for the closest and or best in the budget) are you open to refurbs used?,0.6369,positive
+Dell G15 5530,"no how would you prioritize form factor (ultrabook, 2-in-1, etc.",-0.296,negative
+Dell G15 5530,"), build quality, performance, and battery life?",0.0,neutral
+Dell G15 5530,"optimised performance, form factor, build quality, battery life how important is weight and thinness to you?",0.5423,positive
+Dell G15 5530,not important do you have a preferred screen size?,-0.1511,negative
+Dell G15 5530,"if indifferent, put n a. n a are you doing any cad video editing photo editing gaming?",-0.2023,negative
+Dell G15 5530,list which programs games you desire to run.,0.4019,positive
+Dell G15 5530,i'll start coding and ai generated video editing and light gaming.,0.0,neutral
+Dell G15 5530,"if you're gaming, do you have certain games you want to play?",0.5859,positive
+Dell G15 5530,at what settings and fps do you want?,0.0772,positive
+Dell G15 5530,"light gaming (not a priority) any specific requirements such as good keyboard, reliable build quality, touch-screen, finger-print reader, optical drive or good input devices (keyboard touchpad)?",0.7003,positive
+Dell G15 5530,reliable build quality as i'm looking use the device for long term.,0.0,neutral
+Dell G15 5530,leave any finishing thoughts here that you may feel are necessary and beneficial to the discussion.,0.4019,positive
+Dell G15 5530,looking for these qualities: minimum 16gb ram and 512gb ssd with an additional expandable slot for both.,0.0,neutral
+Dell G15 5530,dedicated gpu with mux switch (mux not a priority) latest ports and suitable battery life with good thermals.,0.7096,positive
+Dell G15 5530,please also guide on npus as ai use is a priority.,0.3182,positive
+Dell G15 5530,i've been researching a lot as this is gonna be a very important investment but still very confused.,-0.4297,negative
+Dell G15 5530,"only looking for brands like dell, hp, lenovo and asus.",0.3612,positive
+Dell G15 5530,(avoiding acer and msi as my friends have got bad experiences) also avoiding lenovo loq (intel versions) for obvious motherboard issues and asus tuf for wifi chip issues (open to suggestions) i have shortlisted the following (please help choose and suggest additionals and more specific models): for rs.,-0.0258,neutral
+Dell G15 5530,80k budget 1. dell g15 5530 i5-13450 hx rtx 3050 6gb 2. hp victus i5 13500hx rtx 4050 6gb 3. hp victus ryzen 7 7840 hs rtx 3050 6gb 4. hp omen i5 13420h rtx 4050 6gb 5. lenovo loq ryzen 7 7435hs rtx 4050 6. lenovo loq ryzen 7 7840hs rtx 3050 6gb 7. asus tuf ryzen 7 7435hs rtx 4050 8. asus rog strix g16 i5 13450hx rtx 3050 for rs.,0.0,neutral
+Dell G15 5530,50k budget 1. lenovo thinkbook 16 g6 ryzen 5 7 2. asus vivobook 15 i5 13420h i7 13620h 3. lenovo ideapad 3 4. lenovo yoga slim 6 looking forward to your valuable suggestions.,0.4767,positive
+Dell G15 5530,total budget (in local currency) and country of purchase.,0.0,neutral
+Dell G15 5530,"please do not use usd unless purchasing in the us: 1,200 usd are you open to refurbs used?",0.3182,positive
+Dell G15 5530,"yes, open to refurbs how would you prioritize form factor (ultrabook, 2-in-1, etc.",0.4019,positive
+Dell G15 5530,"), build quality, performance, and battery life?",0.0,neutral
+Dell G15 5530,performance battery build quality form factor how important is weight and thinness to you?,0.2023,positive
+Dell G15 5530,not massively important.,-0.1511,negative
+Dell G15 5530,don't mind some weight and it doesn't have to be thin do you have a preferred screen size?,0.0,neutral
+Dell G15 5530,"if indifferent, put n a.",-0.2023,negative
+Dell G15 5530,15.6 or larger are you doing any cad video editing photo editing gaming?,0.0,neutral
+Dell G15 5530,list which programs games you desire to run.,0.4019,positive
+Dell G15 5530,"no editing but some sketchup and light gaming if you're gaming, do you have certain games you want to play?",0.6808,positive
+Dell G15 5530,at what settings and fps do you want?,0.0772,positive
+Dell G15 5530,my gaming is so light and i'm so out of touch that i don't know enough about settings and fps to have an opinion.,0.0,neutral
+Dell G15 5530,i mostly game to hang out with friends.,0.4767,positive
+Dell G15 5530,"it will most be cod and if gta 6 ever comes to pc any specific requirements such as good keyboard, reliable build quality, touch-screen, finger-print reader, optical drive or good input devices (keyboard touchpad)?",0.7003,positive
+Dell G15 5530,must have numeric keypad leave any finishing thoughts here that you may feel are necessary and beneficial to the discussion.,0.4019,positive
+Dell G15 5530,will primarily be used for office suite and some light gaming (i don't game enough to justify a dedicated rig).,0.4588,positive
+Dell G15 5530,will also be used for sketchup.,0.0,neutral
+Dell G15 5530,"was looking at the dell g15 5530 refurb with i7-13650hx and rtx4060 for 1,150",0.0,neutral
+Dell G15 5530,still got only around 20 minutes.,0.0,neutral
+Dell G15 5530,should i switch to linux?,0.0,neutral
+Dell G15 5530,i can't afford anything better and i only need help in deciding which one of these 2 is the better choice for me in the long run i do intend to use it for gaming but i don't care if it can't run the best graphics,-0.8608,negative
+Dell G15 5530,please help me to decide my new laptop.,0.6124,positive
+Dell G15 5530,i have dell precision 6800 and will sell it to buy a new used gaming laptop,0.0,neutral
+Dell G15 5530,"the title explains a lot , so while playing rdr 2 or 1 doesn't matter , if i am playing a game that does push its limits , after an hour or two , the fps drops , and the charge drops ( even while being plugged in ).",0.4736,positive
+Dell G15 5530,and i am not talking about 3-4 it's drops from 95 to a bullshit 34 i am sick of this crap my guess is my charging brick is just not enough for the way i play games.,-0.8074,negative
+Dell G15 5530,it's a 180 watt one.,0.0,neutral
+Dell G15 5530,just so you know my specs are rtx 3050 6gb vram 95 w tgp i5 13450 hx 24 gigs of ram please correct me if i am wrong but i have seen many reviews of this laptop and they get charging bricks of 240w i am quite sure it's because of this.,0.4569,positive
+Dell G15 5530,"laptop: dell g15 5530 (2023) intel i5 13450hx rtx 3050 6gb 16gb ram, windows 11 bios version: 1.28 problem: a few months ago the laptop was running games fine.",-0.2263,negative
+Dell G15 5530,recently i'm getting random fps drops and stutters in many games.,-0.25,negative
+Dell G15 5530,"fps goes from smooth (100 fps) down to 30 fps for a few seconds, then back up, and this keeps repeating.",0.0,neutral
+Dell G15 5530,"what i'm seeing: in throttlestop, bd prochot is greyed out locked , i cannot disable it.",0.0,neutral
+Dell G15 5530,"using hwmonitor msi afterburner during games, the gpu power sometimes suddenly drops to 30w even though temperatures are still reasonable and then goes back up.",0.0,neutral
+Dell G15 5530,cpu clocks also occasionally drop even when temps are not crazy high.,0.059,positive
+Dell G15 5530,things i already tried (no permanent fix): clean reinstall of nvidia drivers with ddu.,0.4019,positive
+Dell G15 5530,windows power mode best performance.,0.6369,positive
+Dell G15 5530,"nvidia control panel: prefer maximum performance, games forced to use rtx 3050. alienware command center on performance high fan profiles.",-0.1779,negative
+Dell G15 5530,disabled windows power throttling (powerthrottlingoff registry tweak).,0.0,neutral
+Dell G15 5530,"cleaned vents, use cooling pad, temps are usually in the 70 80 c range while gaming.",0.0,neutral
+Dell G15 5530,"uninstalled dell bloat (supportassist, my dell, etc.)",0.0,neutral
+Dell G15 5530,and only kept what awcc needs.,0.0,neutral
+Dell G15 5530,"warranty situation: my hardware warranty expired about 10 days ago , so official repair might be expensive.",0.0,neutral
+Dell G15 5530,questions: 1. has anyone with g15 5530 i5 13450hx rtx 3050 actually managed to stop the 30w gpu throttling or bd prochot lock without dangerous bios mods?,0.091,positive
+Dell G15 5530,"2. is there any specific bios version, vbios, driver combo, or awcc setting that made your system stable again?",0.296,positive
+Dell G15 5530,"3. for people who went through dell support out of warranty for this exact issue, what did dell do (bios patch, motherboard replacement, etc.)",0.4019,positive
+Dell G15 5530,and roughly how much did it cost?,0.0,neutral
+Dell G15 5530,4. any logs or screenshots that dell support specifically asked for that i should prepare before contacting them?,0.4019,positive
+Dell G15 5530,i'm not looking for risky spi programmer hacked bios methods.,-0.2751,negative
+Dell G15 5530,"just want to know what realistic, safe options other g15 5530 owners used to reduce or fix these throttling issues.",0.4939,positive
+Dell G15 5530,"any help, experience, or working configs would be really appreciated.",0.7425,positive
+Dell G15 5530,looking to buy any one of these pc's.lenovo one has better specs and more expensive but i have heard a lot of complaints regarding motherboard issues and all the lenovo one is rtx 4080 i9 variant whereas the dell one is rtx 4060 i7 13th gen variant,-0.3818,negative
+Dell G15 5530,"i have a dell g15 5530 and i've been using it for about 2 years now and it faces problems now where i'm not able to play games like minecraft, roblox, valorant as for games like valorant it would crash halfway and games like minecraft(with shaders on) right away.",0.0165,neutral
+Dell G15 5530,this shouldn't be problem since its an rtx 4050 and 16 gigs ram.,0.3089,positive
+Dell G15 5530,does anyone know the solution because im so close to just getting dell support but it's so expensive like 200. also the crashing is it would show a black screen and sometimes flash white and then turn application off and it doesn't allow me to reboot it.,0.6332,positive
+Dell G15 5530,"the newest bios update (version 1.28.1 - dell g15 5530 g16 7630 1.28.1.exe) for the dell g15 5530 released on the 3rd of october is actually a downgrade in my system, i updated my bios through an offical updated provided by dell on their website and it no longer exists, do y'all think it was a mistake on their part and i should go ahead and do the newest update or not?",-0.5574,negative
+Dell G15 5530,bios update 1.28.1 (,0.0,neutral
+Dell G15 5530,"i recently bought a dell g15 5530 i5 13450hx 3050 6gb whenever i play games even while plugged in , the battery seems to drop -i have a custom charge setting (55-80 percent) -power plan - high performance -fan curve- performance (inbuilt ) or custom (the speed percent is almost equivalent to the temps) -it drops down 5-10 percent per hour while playing now i know its a dell design feature named ""hybrid battery drain"" but every time i have monitored the power usage , it doesn't seem to go anywhere near the 180w rating of my charger's capacity , i have tried everything to prevent it but it never seems to reduce , even when the total power draw of my charger is not being exceeded , -i have undervolted my cpu with these particular tweaks (throttlestop) -pl1 power 45 watt -pl2 power 50 watt -fivr cpu core -140.6 -fivr cpu cache -140.6 the drain is same even after these tweaks , my question is - is it something that cannot be controlled and will go on as designed no matter what you do to control it ?",-0.0772,negative
+Dell G15 5530,",or there is something wrong , also please let me know if anybody with the same configurations have faced this issue",-0.2023,negative
+Dell G15 5530,this has been happening a lot lately when i'm into 2-4 battlefield 6 matches.,-0.3818,negative
+Dell G15 5530,"everytime this happens i have to hard reset my laptop, no bsod, no dump files left.",-0.8625,negative
+Dell G15 5530,"also that sound comes off from the audio device im using, when i use headphones that exact sound comes off my headphones.",0.0,neutral
+Dell G15 5530,"i have tried: setting nvidia maximum performance power management mode setting link state power management off and moderate maximum power settings using ddu to clean nvidia drivers and reinstalled drivers updated windows updated bios changed thermal paste reseated ram thermals seems fine when gaming and fans keep running after freezing, caps lock light in keyboard is unresponsive.",0.4767,positive
+Dell G15 5530,"hi everyone, i'm using a dell g15 5530 laptop with the following specs: processor: 13th gen intel(r) core i5-13450hx (10 cores, 16 threads) graphics: nvidia geforce rtx 3050 6gb intel uhd graphics the main issue: my laptop lags heavily when running on battery the mouse cursor barely moves, scrolling is slow, and even basic tasks become almost impossible.",-0.3612,negative
+Dell G15 5530,"but when i plug in the charger, everything works fine.",0.296,positive
+Dell G15 5530,"also, the battery drains extremely fast , from 100 to 5 in under 2 hours with normal use.",0.0,neutral
+Dell G15 5530,sometimes it even shuts down suddenly at around 12 .,0.0,neutral
+Dell G15 5530,"i checked the battery health (via dell diagnostics), and it shows no problem.",-0.5994,negative
+Dell G15 5530,"i've already tried many solutions, including: changing power plan settings (minimum processor state to 100 ) updating all drivers (intel and nvidia) reinstalling gpu drivers completing 3 full charge-discharge cycles as advised by dell assistant bios and windows updates battery report checked (shows no warning) despite all this, the issue is still there.",-0.128,negative
+Dell G15 5530,"i feel like my nvidia gpu isn't working properly on battery (code 43 error appears sometimes), and performance drops badly when unplugged.",-0.5106,negative
+Dell G15 5530,has anyone faced a similar issue with this model or setup?,0.0,neutral
+Dell G15 5530,any working solution would be really appreciated!,0.7339,positive
+Dell G15 5530,thank you.,0.3612,positive
+Dell G15 5530,"i recently purchased a dell g15 5530 laptop, and upon launching awcc, i discovered that alienfx would not launch at all.",0.0,neutral
+Dell G15 5530,"i've been attempting to adjust the lighting, but nothing happens when i click connect now.",0.0,neutral
+Dell G15 5530,"i tried uninstalling and reinstalling, but it had no effect.",-0.4215,negative
+Dell G15 5530,i am unsure if i should go for newer specs or aw build?,-0.25,negative
+Dell G15 5530,does anyone know why the alienware command center does not open?,0.0,neutral
+Dell G15 5530,"the same thing had happened to me before and i factory reset my laptop, it is a dell g15 5530, and now again, please help.",0.6124,positive
+Dell G15 5530,"i have a dell g15 5530 and some days ago i tried updatin awcc, and i can't open it anymore, it always says this message (it's in portuguese because i'm brazillian).",0.0,neutral
+Dell G15 5530,it says: something went wrong.,-0.4767,negative
+Dell G15 5530,"the system keep initializing, don't worry!",0.4015,positive
+Dell G15 5530,wait a few minutes and try again.,0.0,neutral
+Dell G15 5530,i've tried reinstalling and nothing works.,0.0,neutral
+Dell G15 5530,can someone help me?,0.4019,positive
+Dell G15 5530,just got a new laptop (dell g15 5530) and when opening awcc i've noticed it won't launch alienfx at all.,0.0,neutral
+Dell G15 5530,"i've been trying to change my lighting settings, but clicking connect now does absolutely nothing.",0.0,neutral
+Dell G15 5530,i tried uninstalling and reinstalling and that had zero impact.,0.0,neutral
+Dell G15 5530,here s how my screen looks: has anyone had this issue or does anyone know of a fix for this?,0.0,neutral
+Dell G15 5530,"device: dell g15 5530 (rtx 3050 6gb, i5 13450hx, 16gb ram) earlier before the 6.x version that i had for the awcc, my games used to run fine on the settings on which they usually run (80-90 fps on bfv on ultra, 110-120 fps on warzone recommended) but after this, the wmi provider host suddenly started to take up more of my cpu even ranking 1 st in the task manager, and then my game fps started to drop too much.",-0.3071,negative
+Dell G15 5530,"(50-55 fps on bfv ultra, 80-90fps on warzone with frequent drops) as soon as i end the awcc components (fxsubagent and perf.",0.0,neutral
+Dell G15 5530,"agent) they are back to their normal smoothness, dell should get their shit fixed with that garbage app.",-0.5574,negative
+Dell G15 5530,also is their any way that i can uninstall this and still have access to my high performance mode using the f9 key?,0.0,neutral
+Dell G15 5530,please let me know,0.3182,positive
+Dell G15 5530,went to plug in my xp pen 22e pro and got the error that my device is incompatible with awcc 6. the only time the fans change on my laptop is when i launch microsoft solitaire (really?),-0.0258,neutral
+Dell G15 5530,so i'm not sure how much i need this and want to uninstall it so i can use my tablet again.,-0.2325,negative
+Dell G15 5530,i am running a dell g15 5530 and use my tablet for photoshop and clipstudio paint.,0.0,neutral
+Dell G15 5530,searches for my particular situation regarding awcc didn't address my problem.,0.3089,positive
+Dell G15 5530,apologies if this has already been asked - please point me in the correct direction if needed.,0.3182,positive
+Dell G15 5530,i recently bought my dell g15 5530. my awcc was working file at first but after i updated awcc it stoped working.,0.0,neutral
+Dell G15 5530,i tried to follow the dell support vidoes to uninstall and reinstall the awcc but it gave me error 1316 fxcoreinstaller.,-0.4019,negative
+Dell G15 5530,"i tried several things after that even gave remote access to my laptop to the alienware support but the problem still stands, they were unable to help and told me to reset it, but i don't want to reset it.",0.1323,positive
+Dell G15 5530,my total storage data is 169gb ( including os) i don't have an usb for that much storage.,0.0,neutral
+Dell G15 5530,please if anyone can help me!,0.6476,positive
+Dell G15 5530,"i have a laptop dell g15 5530 with pretty high specs (got it the beginning of september 2023), which apparently still uses the alienware command center for fan controls.",0.6705,positive
+Dell G15 5530,"at first, when i got the laptop everything was working amazingly and as expected, including the alienware command center.",0.0,neutral
+Dell G15 5530,"on the app, i could control my fan speed profile and even set a custom one if i desire to.",0.6124,positive
+Dell G15 5530,"since i'm doing video rendering, c compiling, game building, and other similar kind of heavy-load (performance-heavy) tasks, i really enjoyed the option to crank-up the fan speed to 100 whenever i'm doing those things for a few minutes, sometimes up to 20-30 minutes at a time.",0.7089,positive
+Dell G15 5530,"even got myself an ""iets gt500"" laptop cooler so i am ensuring that the heavy tasks are performed as quickly as possible with my laptop running as cold as possible.",0.3353,positive
+Dell G15 5530,"however, that lasted only a few months and in mid january 2024 the option to control the fans using ""alienware command center"" just disappeared.",-0.2263,negative
+Dell G15 5530,"(you can check the dell forum post here: ) after trying out some things, but also leaving it alone for a few weeks i am not sure if i, myself managed to fix it or if it got fixed by itself due to the latest released version.",-0.605,negative
+Dell G15 5530,"however, i still posted about it on the forum (check the link above), since those were the exact actions i took with the outcome of it being fixed (the performance tab is showing on the alienware command center and i was able to choose a fan speed via the gui or by pressing the shortcut ""f9"") but at the end of the day around 1 month after i encountered this issue, it got resolved.",0.4019,positive
+Dell G15 5530,since february 16th everything has been working flawlessly again.,0.2023,positive
+Dell G15 5530,that is until now.,0.0,neutral
+Dell G15 5530,"today i was rendering a video and as i usually do i pressed ""f9"" while rendering it, but nothing happened.",0.0,neutral
+Dell G15 5530,i opened up the alienware command center to see if i could turn up the fan speed and long and behold the performance tab has vanished again!,0.3802,positive
+Dell G15 5530,i cannot control the speed of my laptop fans.,0.0,neutral
+Dell G15 5530,"if anyone has any clue or suggestions or anything, please let me know how to put an end to this.",0.3182,positive
+Dell G15 5530,perhaps a 3rd party software?,0.4019,positive
+Dell G15 5530,or a funky windows bios setting or software version?,-0.1027,negative
+Dell G15 5530,screenshot of when it doesn't work and you can't see the performance tab ( screenshot of when it works and you can see thermals and change fan speeds (,0.3182,positive
+Dell G15 5530,"question, hopefully someone can help me with, looks like a new update came out for alienware command center and allows overclocking.",0.7845,positive
+Dell G15 5530,x200b; does someone know how to undervolt?,0.0,neutral
+Dell G15 5530,because i can't seem to do it still.,0.0,neutral
+Dell G15 5530,fixes enhancements - supports alienware m16 and m18 amd systems.,0.3612,positive
+Dell G15 5530,"- supports cpu overclocking for alienware m16 and m18, and dell g15 5530 and g16 7630 systems.",0.3612,positive
+Dell G15 5530,- supports alienware wired gaming headset aw520h.,0.3612,positive
+Dell G15 5530,- supports alienware tri-mode wireless gaming keyboard aw920k.,0.3612,positive
+Dell G15 5530,- supports alienware aw2724dm and aw2724hf monitors.,0.3612,positive
+Dell G15 5530,version 6.0.225.0,0.0,neutral
+Dell G15 5530,buying this laptop has been the most annoying irritating decision i made.,-0.7408,negative
+Dell G15 5530,this gaming laptop and its software is just not stable.,-0.2235,negative
+Dell G15 5530,"i have spent over half the laptops cost on just getting it fixed over and over for the same repetitive problems , replacing authentic parts and the problem still exists.",-0.7506,negative
+Dell G15 5530,"the problem is graphics driver issue which causes screen flickering and tearing, apart from that i also have occasional keypad keys not working.",-0.4019,negative
+Dell G15 5530,"all of these are a 100 software problem, when i reinstall windows again they work just fine until some time later prolly because of windows updates, which no matter how much i remove get forced upon eventually, i can't play any games in peace without installing these graphics driver updates, and when i do, the flickering starts.",-0.5478,negative
+Dell G15 5530,"this is the 2nd time, it has happened, the last time it happened, they literally replaced my screen despite the fact it was always a software problem, the screen only behaves that way when i do certain actions, like opening device managers, etc.",0.2263,positive
+Dell G15 5530,also the hdmi tv monitor isn't getting detected anymore.,0.0,neutral
+Dell G15 5530,"also i have noticed these problems always come together , keypads not working and screen flickering and when play games which i played earlier in the same laptop, now stutter a lot and make a tearing sound.",0.0258,neutral
+Dell G15 5530,"wasted a month in all useless discussion forums in dell, youtube videos, etc no matter what they still exist, some how i have found a somewhat stable version in which i can watch video, occasional screen fluctuations happen when its idle, and games that used to work fine are just nigthmarish stuttering.",-0.7713,negative
+Dell G15 5530,i've been using the moto g15 for a month now.,0.0,neutral
+Dell G15 5530,"i bought this inexpensive phone because i use it a lot while doing sports, and i wanted something inexpensive that i wouldn't regret spending money on if it got bumped or broken.",-0.1945,negative
+Dell G15 5530,i paid less than 90 shipped for it.,0.0,neutral
+Dell G15 5530,i own the version with 8 gb of ram and 128 gb of storage.,0.0,neutral
+Dell G15 5530,"although i've read reviews online, including on this group, that mention issues (apps closing, bluetooth devices not pairing or disconnecting), i've been using this phone for a month now and am very happy with my purchase.",0.6115,positive
+Dell G15 5530,"i mainly use it for browsing, online banking, and listening to podcasts on youtube using brave whikle i'm working out.",0.5267,positive
+Dell G15 5530,"although it's not super snappy, it's completely usable.",-0.4847,negative
+Dell G15 5530,"i have no trouble loading any website, and apps don't crash, even if i'm using two or three at the same time while my headphones are connected via bluetooth, including messaging simultaneously with whatsapp.",-0.3903,negative
+Dell G15 5530,the screen is sharp and beautiful.,0.5994,positive
+Dell G15 5530,"i use the phone a lot for reading, and i enjoy doing it with this phone.",0.4939,positive
+Dell G15 5530,the battery lasts really a long time (i can get more than a day of it with fairly constant use).,0.0,neutral
+Dell G15 5530,"the photos are somewhat decent (i use macro photos a lot for my work, and with good lighting they are usable), while the videos leave something to be desired (they are very shaky and lack detail).",0.0112,neutral
+Dell G15 5530,"so, after a month of use, i don't regret buying it.",0.3252,positive
+Dell G15 5530,"it's a purchase i would make again, and i would recommend it to anyone who wants an affordable phone for this kind of tasks.",0.3612,positive
+Dell G15 5530,"model - dell g15 ryzen edition cpu - amd ryzen 5 5600h with radeon igpu gpu - nvidia rtx 3050 4gb (95w tgp) ram - 16 gb dual channel ddr4 problem - significant drop in gaming performance and as seen on the 3dmark stress test, performing extremely bad for a laptop with dedicated rtx 3050 gpu.",-0.7645,negative
+Dell G15 5530,what do you guys think is the laptop on life support or can i fix it and how?,0.4019,positive
+Dell G15 5530,just bought a dell g15 with i5-13450hx rtx 3050 (6gb) 1tb.,0.0,neutral
+Dell G15 5530,"for 64 k. first gaming laptop, feels solid but a bit heavy mainly planning to use it for gaming, learning, and daily work.",0.0772,positive
+Dell G15 5530,any tips for:- thermals battery health best settings for long-term use would love to hear from other g15 users,0.8555,positive
+Dell G15 5530,is this laptop good?,0.4404,positive
+Dell G15 5530,"i want to move into cybersec, maybe 2vms simultaneously occasional gaming, gta, far cry, uncharted series etc max budget is 80k",-0.4215,negative
+Dell G15 5530,let s chat why you are happy dell stopped making this hunk of junk laptop and people had problems with this laptop,0.0258,neutral
+Dell G15 5530,now the screen looks like this.,0.3612,positive
+Dell G15 5530,is the screen gone?,0.0,neutral
+Dell G15 5530,do i really have to replace it or may be something that is fixable?,0.0,neutral
+Dell G15 5530,i'm completely desperate since the official price of repair can get close to my monthly wage in my country,-0.3804,negative
+Dell G15 5530,dell g15 for 650 cad or gigabyte g5 for 700 cad i've had many pcs but i'm new to laptops and wondering which ones better for the price?,0.5927,positive
+Dell G15 5530,"should i buy aenovo loq or asus a15 or dell g15 i am planning to buy a gaming study i don't care about weight and battery but i heard bad about asus service but it's cheaper asus a15 spec cpu - amd ryzen 7 hexa core 7445hs gpu - nvidia rtx 3050 4gb ram - 16 gb ddr5 5600hz display - 15 inch full hd 144hz price - 56,000 lenovo loq cpu - intel core i5 12th gen 12450hx gpu - nvidia geforce rtx 4050 6gb ram - 16 gb ddr5 4800hz display - 15 inch full hd 144hz price - 68,000 dell g15 cpu - i5 13th gen 13450hx gpu - nvidia geforce rtx 3050 6 gb ram - 16 gb ddr5 display - 15 inch full hd 120hz price - 62,500 i don't have a big budget and the offer ends at 15 march soo i am thinking should i pay more for the service or just stick to the asus",-0.8,negative
+Dell G15 5530,"i was looking to get the g15, but i've heard many bad reviews, in addition to that, why are people looking down on the intel core, is it really that bad?",-0.8885,negative
+Dell G15 5530,broke the nvme connector but can't find this piece anywhere on the internet.,-0.2263,negative
+Dell G15 5530,i had gotten back my laptop from the repair fellow and since then my power button isn't working my pc works fine and turns on via the lid open power on mechanism just the powr button how much ever i press it just does not work!,0.2714,positive
+Dell G15 5530,is it a cable issue?,0.0,neutral
+Dell G15 5530,can i fix it myself?,0.0,neutral
+Dell G15 5530,i have lost my asus strix g15 g513rc-hn083w 200w charger currently using a 45w nothing charger to work on my laptop.but i due to lower wattage power i have to shut down my dgpu and work on my igpu otherwise the the power drops using dgpu on 45w charger.,-0.5423,negative
+Dell G15 5530,was thinking of getting the cmf 140w gan charger for charging my laptop as well as mobile and tablet.,0.2732,positive
+Dell G15 5530,just worried if i will be able to use my laptop normally and play games using dgpu on the 140w cmf charger as the standard in box charger is 200w should i get a 200w gan charger or 140w will suffice?,0.0516,positive
+Dell G15 5530,also please suggest if any other brand charger is better than getting the cmf charger.,0.6369,positive
+Dell G15 5530,this laptop is brand new and i got it from a friend of my mother for 300 euro.,0.4939,positive
+Dell G15 5530,"i know it isn't a real gaming laptop, but what games would run good on here?",0.5927,positive
+Dell G15 5530,"should i buy aenovo loq or asus a15 or dell g15 i am planning to buy a gaming study i don't care about weight and battery but i heard bad about asus service but it's cheaper asus a15 spec cpu - amd ryzen 7 hexa core 7445hs gpu - nvidia rtx 3050 4gb ram - 16 gb ddr5 5600hz display - 15 inch full hd 144hz price - 56,000 lenovo loq cpu - intel core i5 12th gen 12450hx gpu - nvidia geforce rtx 4050 6gb ram - 16 gb ddr5 4800hz display - 15 inch full hd 144hz price - 68,000 dell g15 cpu - i5 13th gen 13450hx gpu - nvidia geforce rtx 3050 6 gb ram - 16 gb ddr5 display - 15 inch full hd 120hz price - 62,500 i don't have a big budget and the offer ends at 15 march soo i am thinking should i pay more for the service or just stick to the asus should i buy aenovo loq or asus a15 or dell g15 i am planning to buy a gaming study i don't care about weight and battery but i heard bad about asus service but it's cheaper asus a15 spec cpu - amd ryzen 7 hexa core 7445hs gpu - nvidia rtx 3050 4gb ram - 16 gb ddr5 5600hz display - 15 inch full hd 144hz price - 56,000 lenovo loq cpu - intel core i5 12th gen 12450hx gpu - nvidia geforce rtx 4050 6gb ram - 16 gb ddr5 4800hz display - 15 inch full hd 144hz price - 68,000 dell g15 cpu - i5 13th gen 13450hx gpu - nvidia geforce rtx 3050 6 gb ram - 16 gb ddr5 display - 15 inch full hd 120hz price - 62,500 i don't have a big budget and the offer ends at 15 march soo i am thinking should i pay more for the service or just stick to the asus",-0.9513,negative
+Dell G15 5530,i recently bought a used asus rog zephyrus g15 ga503rs with ryzen 9 6900hs and rtx 3080 with 8gb vram.,0.0,neutral
+Dell G15 5530,the laptop is around 3 years old and wasn't used much (usually light work or was just sitting in shelves) when i run the cinebench r23 the multi and single core were below expected ranges and did a blender benchmark where it scored around 2918. not sure if this is happening due to heat or thermal paste wearing off over time.,-0.2411,negative
+Dell G15 5530,if i fix it with new thermal paste and pads will it be as good as new.,0.4404,positive
+Dell G15 5530,need suggestions please help.,0.6124,positive
+Dell G15 5530,i just graduated from engineering and at work i design simple surgical parts and they are printed in 3d (pla) so i also need it for cam.,0.0,neutral
+Dell G15 5530,also i will use for programing and ide.,0.0,neutral
+Dell G15 5530,"my rog zephyrus has a gtx 1660 ti 16 ram but it started to get slow and freeze, so i see this msi katana: total budget (in local currency) and country of purchase.",0.0772,positive
+Dell G15 5530,"please do not use usd unless purchasing in the us: 1,700 usd (max) are you open to refurbs used?",0.3182,positive
+Dell G15 5530,"no, just in case it is so significantly better how would you prioritize form factor (ultrabook, 2-in-1, etc.",0.2449,positive
+Dell G15 5530,"), build quality, performance, and battery life?",0.0,neutral
+Dell G15 5530,"1- performance, 2- build quality .",0.0,neutral
+Dell G15 5530,how important is weight and thinness to you?,0.2023,positive
+Dell G15 5530,7 10 do you have a preferred screen size?,0.0,neutral
+Dell G15 5530,"if indifferent, put n a. n a are you doing any cad video editing photo editing gaming?",-0.2023,negative
+Dell G15 5530,list which programs games you desire to run.,0.4019,positive
+Dell G15 5530,"cad, the company has license of solid edge nx if you're gaming, do you have certain games you want to play?",0.6597,positive
+Dell G15 5530,at what settings and fps do you want?,0.0772,positive
+Dell G15 5530,"n a any specific requirements such as good keyboard, reliable build quality, touch-screen, finger-print reader, optical drive or good input devices (keyboard touchpad)?",0.7003,positive
+Dell G15 5530,i would like to invest in something that will last me several years.,0.3612,positive
+Dell G15 5530,"hi everyone, i'm considering buying the dell g15 (intel i5-13450hx, 16gb ram, 1tb ssd, rtx 3050 6gb, 120hz display, model ogn55301106g201rino).",0.0,neutral
+Dell G15 5530,"my usage will mostly be light video editing, coding, some productivity tasks, and occasional light gaming.",0.0,neutral
+Dell G15 5530,"i'm getting it for around 65,000 in india.",0.0,neutral
+Dell G15 5530,is this a good deal?,0.4404,positive
+Dell G15 5530,"how is the performance, thermals, display quality, and overall build in real-world usage?",0.0,neutral
+Dell G15 5530,would you recommend it over alternatives in this price range?,0.3612,positive
+Dell G15 5530,thanks for any input!,0.4926,positive
+Dell G15 5530,"hi guys, m new here.",0.0,neutral
+Dell G15 5530,i play games casually so i like laptops that has nvidia gtx but i don't really know much about laptop specs and all.,0.4889,positive
+Dell G15 5530,i don't change laptop unless really really necessary.,0.0,neutral
+Dell G15 5530,"and since the windows end soon, i guess i had to change one.",0.0,neutral
+Dell G15 5530,im looking at the new aw 16 aurora.,0.0,neutral
+Dell G15 5530,the shop guy is pushing for g15 i9 which has similar price with aw aurora rtx 5050. but its over than my budget.,0.0,neutral
+Dell G15 5530,"he recommended predator helios new 16, im open to it but i prefer to stay with dell.",0.1027,positive
+Dell G15 5530,im leaning towards the aw aurora 16 but not sure to go for the baseline that is within my budget that come with rtx 3050 or maybe go over a bit with rtx 5050 but good for long term.,0.3415,positive
+Dell G15 5530,what you guys think?,0.0,neutral
+Dell G15 5530,please share tips suggestions advice on using the device.,0.5423,positive
+Dell G15 5530,feel free to comment.,0.5106,positive
+Dell G15 5530,"hi, please help me decide between these two laptops.",0.6124,positive
+Dell G15 5530,"the dell is a bit more expensive, but i would buy both used from a reliable source.",0.0,neutral
+Dell G15 5530,i would use it for gaming and programming.,0.0,neutral
+Dell G15 5530,"asus: cpu: amd ryzen 7 7735hs 3.20 4.75 ghz (8 cores - 16 threads) gpu: nvidia geforce rtx 4050 6gb ram: 16gb ddr5 4800mhz ssd: 512gb pci-e gen4 nvme display: 144hz full hd matte ips 15.6"" srgb 100 g-sync dell: cpu: i7-12700h memory: 16gb ddr5 (4800) (upgradeable) storage: 512gb nvme ssd (upgradeable) graphics: intel iris xe graphics nvidia geforce rtx 3060 6gb gddr6 display: 15.6"" 144hz matte full hd (1920x1080) ips",0.5574,positive
+Dell G15 5530,i just got this new laptop a week ago.now i noticed this thing with the charger.shall i ask them to replace it or its not a big deal?,0.0,neutral
+Dell G15 5530,as the title says.,0.0,neutral
+Dell G15 5530,this has been happening for about a month?,0.0,neutral
+Dell G15 5530,i don't entirely remember.,0.0,neutral
+Dell G15 5530,"it sometimes shows the ""computer failed to shut down properly"" screen or does a disk check afterwards, but it's not consistent.",-0.2846,negative
+Dell G15 5530,i'm fairly sure it's a power supply issue but i'm not confident.,-0.4199,negative
+Dell G15 5530,"when unplugging my drawing tablet (xp pen artist 12, if it helps) it seemed to take longer to do so, but as of this morning i cannot even use the computer for more than two minutes without it rebooting, and it's locked me out for two hours that i cannot finish normally due to the random restarts.",0.0,neutral
+Dell G15 5530,"i found that booting into safe mode fixed the issue, though, and that (as of now) is the only way to get that 2 hours to finish.",0.4404,positive
+Dell G15 5530,booting the computer normally afterward caused it to work for about 10 minutes before being horrible again.,-0.5423,negative
+Dell G15 5530,"i have tried: 1. replacing the battery with a replacement one 2. removing all cables (usb, charger, etc.)",0.0,neutral
+Dell G15 5530,"3. doing a hardware check on the dell website (all tests passed successfully) 4. detecting driver updates (computer died before scan could complete) any ideas would be greatly appreciated :) edit: forgot to mention, the only parts i added (aside from the new battery) are a secondary hard drive (set as d: ) that's been there for over a year",0.6214,positive
+Dell G15 5530,just throwing another complaint onto the massive pile.,-0.296,negative
+Dell G15 5530,my dad got me a g15 the christmas before last and the motherboard needs replacing 2 weeks after the warranty expired.,0.0,neutral
+Dell G15 5530,i am not paying 3 4 of the original price only a year in.,0.3182,positive
+Dell G15 5530,this is completely unacceptable.,-0.5095,negative
+Dell G15 5530,i am in the middle of college with no functioning computer.,-0.296,negative
+Dell G15 5530,there is no way i'm giving this brand more money after this.,0.0516,positive
+Dell G15 5530,"the repair man said it broke due to poor quality control so even if he replaced it, there would be no knowing that it won't kill itself again in a few months from a similar problem.",-0.7237,negative
+Dell G15 5530,i'm just gonna by a cheap lenovo or something to make it the rest of the way through the year.,0.0,neutral
+Dell G15 5530,well anyway do not buy the g15!,0.3382,positive
+Dell G15 5530,hope this prevents someone from going through my problems,0.128,positive
+Dell G15 5530,"hi guys, i have a dell g15 5515 , ryzen edition, of 2021. since january 2025 it's giving me an issue: every time i have to unplug it from the adapter and move it there's an allert saying the adapter ac wattage cannot be determined and my laptop doesn't charge.",0.0936,positive
+Dell G15 5530,"usually i solved this problem by unplugging the battery cable, power resetting for 3 minutes and plugging it in, waiting for the bitlocker screen (which means it detected an hardware change) and it solved the problem, however today tries for 6 hours to do so and i still can't solve it.",-0.5635,negative
+Dell G15 5530,on the internet i found that the adapter can be the issue and i noti ed that the rubber around the adapter pin is a little pushed back.,0.0,neutral
+Dell G15 5530,can this be the problem and if so how can i solve this?,-0.1621,negative
+Dell G15 5530,i am new to this stuff should i open the back is it safe please tell,0.6369,positive
+Dell G15 5530,i used to have alienware since i starting using my laptop.,0.0,neutral
+Dell G15 5530,"my laptop doesn't have a rgb keyboard, only lights red and i can only control 3 bright options.",0.4404,positive
+Dell G15 5530,"although, this model comes with a led bar on the bottom of the keyboard (you can see it here on fx menu inside alienware control center i was able to control the led bar.",0.0,neutral
+Dell G15 5530,it had separated leds that i could choose the color so i could do a rainbow or gradient color.,0.0,neutral
+Dell G15 5530,"unfortunately after reinstalling the os, as dell requested to verify a battery issue, i'm not able to find the controls for the led bar on acc anymore.",-0.34,negative
+Dell G15 5530,"unfortunately, until now, dell support was not able to give me a answer on this issue.",0.0772,positive
+Dell G15 5530,i've been searching a lot for any information about the lightbar but was not able to find anything.,0.0,neutral
+Dell G15 5530,if i didn't knew it was there or didn't have those pictures ti could be only in my imagination because even the manual doesn't quote this.,0.0,neutral
+Dell G15 5530,are you able to help me with any information?,0.4019,positive
+Dell G15 5530,already tried different versions of acc but the symptom remains.,0.0,neutral
+Dell G15 5530,it tried to reinstall awcc a couple of times but it didn't fix.i'm curious how bad is this and also what potentially caused it as well?,-0.675,negative
+Dell G15 5530,i have a choice to make between a alienware or dell g15.,0.0,neutral
+Dell G15 5530,i've had an alienware r4 laptop for the past five years.,0.0,neutral
+Dell G15 5530,nows time to upgrade.,0.0,neutral
+Dell G15 5530,both machines are made by dell.,0.0,neutral
+Dell G15 5530,the prices are exactly the same.,0.0,neutral
+Dell G15 5530,the dell has better specs.,0.4404,positive
+Dell G15 5530,am i just buying the brand if i take the lower specced machine?,-0.296,negative
+Dell G15 5530,all thoughts appreciated.,0.5106,positive
+Dell G15 5530,alienware x14 - intel i7 chip with a 3060 6gb graphics card.,0.0,neutral
+Dell G15 5530,dell g15 - intel i9 chip with a 3070 ti with 8gb graphics card.,0.0,neutral
+Dell G15 5530,x200b; choice made - thanks everyone for the input.,0.4404,positive
+Dell G15 5530,i chose the m15 r7.,0.0,neutral
+Dell G15 5530,"with core i9, 3080 8gb graphics card.",0.0,neutral
+Dell G15 5530,it's just over budget but think with those specs its got at least four years of solid work.,0.2263,positive
+Dell G15 5530,any final comments please chip in.,0.3182,positive
+Dell G15 5530,thanks for the input.,0.4404,positive
+Dell G15 5530,x200b; x200b;,0.0,neutral
+Dell G15 5530,for some reason there is no overclock settings,-0.296,negative
+Dell G15 5530,"yesterday, my alienware command center wasn't working because it wanted to download other components from the microsoft store, but the downloads failed every time i tried.",-0.6652,negative
+Dell G15 5530,"so, i uninstalled it (it was version 5.5.48-49, if i'm not mistaken).",0.0,neutral
+Dell G15 5530,"after performing a ""clean install"" and cleaning the appdata , programdata , and regedit folders, i tried to install it again.",0.4019,positive
+Dell G15 5530,"however, i encountered multiple errors from the install wizard and the ""alienware package manager 5.5.49"" that i couldn't uninstall until i downloaded a software to remove it.",-0.34,negative
+Dell G15 5530,"then, i attempted to install the full installer of awcc from the dell website, but none of the three options (modify, repair, remove) were functioning.",0.0,neutral
+Dell G15 5530,"after multiple attempts, the app finally reappeared.",0.0,neutral
+Dell G15 5530,"however, i now have a new problem.",-0.4019,negative
+Dell G15 5530,"the ""fusion service"" keeps loading but never works.",0.0,neutral
+Dell G15 5530,"i have already reinstalled it, and it's on the most recent version (5.5.49).",0.0,neutral
+Dell G15 5530,"today, i spent four hours with dell tech support because i had uninstalled it yesterday due to the same bug, and i couldn't reinstall it again.",0.4019,positive
+Dell G15 5530,"after multiple attempts, the app finally reappeared, but it's not working properly.",0.0,neutral
+Dell G15 5530,"there is a green box at the top of the screen next to the g button that says it ""needs to update.""",0.2023,positive
+Dell G15 5530,"when i click to update, a screen with the alienware logo pops up, indicating it's a firmware update and advising me not to interrupt the process.",0.2584,positive
+Dell G15 5530,"however, when i click, nothing happens.",0.0,neutral
+Dell G15 5530,"additionally, my fusion service still won't load, even though all the components are present.",0.0,neutral
+Dell G15 5530,what should i do?,0.0,neutral
+Dell G15 5530,"so, to switch to an older version, do i need to uninstall everything again and install the older version?",0.0,neutral
+Dell G15 5530,"i'm not even sure if this will work because when i tried it, a message appeared on the screen stating that ""a recent version is already installed,"" even though i don't have it.",-0.2411,negative
+Dell G15 5530,should i wait for a new update or call tech support again?,0.4019,positive
+Dell G15 5530,they don't seem to know how to solve it anyway.,0.2023,positive
+Dell G15 5530,i really need the awcc because i frequently use the fan control and the g mode.,0.3182,positive
+Dell G15 5530,"tech support suggested formatting my laptop, but i can't do this because the bios firmware updates get stuck at 0 .",-0.1655,negative
+Dell G15 5530,i don't think formatting my laptop will solve this issue.,0.2023,positive
+Dell G15 5530,"somebody, please help me!",0.6476,positive
+Dell G15 5530,i really don't know how to solve this.,0.2023,positive
+Dell G15 5530,i just want to make my fusion service work again and get rid of that green box asking me to update.,0.0772,positive
+Dell G15 5530,"ugh, i've been having problems with this software since i got my laptop last year.",-0.6705,negative
+Dell G15 5530,it's so frustrating!,-0.54,negative
+Dell G15 5530,"(i'm sorry if i made any grammatical mistakes, english is not my native language)",-0.4215,negative
+Dell G15 5530,worth the upgrade?,0.2263,positive
+Dell G15 5530,"x200b; im using dual monitor and thought that i9 can help me more with 2 27"" screens, i9 x i7 seems a david x goliath comparison x200b; 32gb ddr5 from m16 x 16gb ddr4 from g15 also seems very good x200b; 3060 x 4070 seems very meh since even jarrod tested and said that 4070m is basically a 4060m with average 10 more performance than 4060 who also isn't a incredible upgrade from 3060",0.6486,positive

@@ -1,0 +1,803 @@
+laptop_name,sentence,compound_score,sentiment
+Dell Alienware m16,"(disclaimer: i'm not liable for any damages that might occur to your device or hardware, overclock at your own risk.",-0.6124,negative
+Dell Alienware m16,i encourage you to do your own research before attempting any overclocking.),0.5106,positive
+Dell Alienware m16,i know its very difficult and pretty much impossible to find any information on how to overclock this device so here's how i went about overclocking my alienware m16 r1 amd sense the bios is locked.,0.1706,positive
+Dell Alienware m16,i did a complete fresh uninstall reinstall of my nvidia driver using ddu and nvslimmer.,0.3182,positive
+Dell Alienware m16,i used msi afterburner for the gpu and universal x86 for the cpu.,0.0,neutral
+Dell Alienware m16,"i deleted all alienware apps and dell apps using revo uninstaller, replaced awcc with the ttroll version of fx alien to customize my rbg, it also has fan control along with xmp, tcc and power settings.",0.3182,positive
+Dell Alienware m16,went into the bios and enabled overclocking lvl 2 leaving pbo on auto.,0.0,neutral
+Dell Alienware m16,found for myself (and this will very on your personal silicon) in msi afterburner an overclock flattened out in the curve editor of 5700hz at 0.975v was stable.,0.296,positive
+Dell Alienware m16,in universal x86 an undervolt of -35 was stable.,0.296,positive
+Dell Alienware m16,"to get lower temps i adjusted the slow power limit to 85w and the fast power limit to 95w, everything else in universal x86 left untouched.",-0.296,negative
+Dell Alienware m16,if anyone has any advice or questions on how i went about this please share :),0.7798,positive
+Dell Alienware m16,"ever since getting the laptop, it's been having constant random black screen flicker, unable to sleep, crashing in sleep, crashing when screen goes black after inactivity, screen wakes up with artifact, basically a whole slew of issues.",0.0,neutral
+Dell Alienware m16,i thought hmm maybe dell will fix this in the next bios or the next driver update but dell never did so i reached out to support.,0.7049,positive
+Dell Alienware m16,the first round of support ended up replacing the motherboard with in-home service which was fast and professional.,0.4019,positive
+Dell Alienware m16,at first these issues seem to be gone but after a week they came back.,0.0,neutral
+Dell Alienware m16,"i have tried everything i could: different bios settings, clean wiped installed all drivers, clean installed windows a few times with and without dell software, etc.",0.6597,positive
+Dell Alienware m16,nothing helped.,0.0,neutral
+Dell Alienware m16,"i started contacting support for the second time, and for about a week, the support had me do different bios settings and windows troubleshoots despite me telling him i have tried all of the steps.",0.7096,positive
+Dell Alienware m16,"eventually after spending hours, if not days, on remote diagnosis, support told me to send it for depot service.",0.4019,positive
+Dell Alienware m16,today i just got it back from depot after the motherboard being replaced again.,0.0,neutral
+Dell Alienware m16,"however, the first time i set the system to sleep, it crashed immediately so nothing was fixed.",0.0,neutral
+Dell Alienware m16,"to make matters worse, i sent dell a laptop with no scratches or damages, but when i received it back from the depot, the tech who worked on my laptop was so forceful with repair that he broke a lot of the internal components as well as denting the outer shell.",-0.6808,negative
+Dell Alienware m16,"i asked support to see what are the further steps i can take to get a working laptop and the reply i got was ""i would request you to please run the support assist program on the system to fix these issues.""",0.7717,positive
+Dell Alienware m16,i am completely loss at words and have no option but to summon sorry to bother you guys but would you please step in to help?,0.1415,positive
+Dell Alienware m16,feel free to ask any questions!,0.5562,positive
+Dell Alienware m16,"plenty more alienware, and some dell, gear in here lol",0.4215,positive
+Dell Alienware m16,hello!,0.0,neutral
+Dell Alienware m16,looking to get rid of a couple of laptops.,0.0,neutral
+Dell Alienware m16,one is an alienware x15 r2 and the other is an alienware m16 r2.,0.0,neutral
+Dell Alienware m16,they're both in really good condition with minimal use and they've just been sitting around.,0.4927,positive
+Dell Alienware m16,"the dell alienware x15 r2 gaming laptop: bought this second-hand and overall, it's still in really good condition.",0.4927,positive
+Dell Alienware m16,"there are a couple of scratches on the exterior, but nothing wrong internally.",0.5157,positive
+Dell Alienware m16,another thing to note is that this thing gets hot!,0.0,neutral
+Dell Alienware m16,i highly recommend using this with a cooling pad.,0.4201,positive
+Dell Alienware m16,"with that note, i never had performance issues with it as i was able to play any game with it!",0.4003,positive
+Dell Alienware m16,price: m16 r2 i would like to let it go for 900 shipped.,0.3612,positive
+Dell Alienware m16,time stamp - m16 r2 ( specifications: cpu: intel ultra 7 155h gpu: 4070 ram: 16gb ddr5 5600 mt s screen: 1440p 240hz ---------------------------------------------- x15 r2: i would like to let it go for 1000 shipped.,0.3612,positive
+Dell Alienware m16,timestamp: x15 r2 ( specs: cpu: i9-12900h gpu: 3080ti ram: 32 gb 5200 mt s storage: 2tb m.2 ssd screen resolution: 1920x1080 - 165 hz alienware warranty is still active (expires: august 2026) please let me know if you have additional questions!,0.6476,positive
+Dell Alienware m16,hello!,0.0,neutral
+Dell Alienware m16,looking to get rid of a couple of laptops.,0.0,neutral
+Dell Alienware m16,one is an alienware x15 r2 and the other is an alienware m16 r2.,0.0,neutral
+Dell Alienware m16,they're both in really good condition with minimal use and they've just been sitting around.,0.4927,positive
+Dell Alienware m16,"the dell alienware x15 r2 gaming laptop: bought this second-hand and overall, it's still in really good condition.",0.4927,positive
+Dell Alienware m16,"there are a couple of scratches on the exterior, but nothing wrong internally.",0.5157,positive
+Dell Alienware m16,another thing to note is that this thing gets hot!,0.0,neutral
+Dell Alienware m16,i highly recommend using this with a cooling pad.,0.4201,positive
+Dell Alienware m16,"with that note, i never had performance issues with it as i was able to play any game with it!",0.4003,positive
+Dell Alienware m16,price: m16 r2 i would like to let it go for 900 shipped.,0.3612,positive
+Dell Alienware m16,"time stamp - m16 r2 ( specifications: cpu: intel ultra 7 155h gpu: 4070 ram: 16gb ddr5 5600 mt s screen: 1440p 240hz ---------------------------------------------- x15 r2: i would ideally like to let it go for 950 local (40511) or 1000 shipped, but i'm open to offers.",0.3919,positive
+Dell Alienware m16,timestamp: x15 r2 ( specs: cpu: i9-12900h gpu: 3080ti ram: 32 gb 5200 mt s storage: 2tb m.2 ssd screen resolution: 1920x1080 - 165 hz alienware warranty is still active (expires: august 2026) please let me know if you have additional questions!,0.6476,positive
+Dell Alienware m16,"the fans on my alienware m16 r2 have been making high pitched whinning noises after cleaning (most likely due to my own negligence), and i was looking to replace them, but i can't find a dell-sold fan replacement.",-0.3491,negative
+Dell Alienware m16,best i could find were ebay listings.,0.6369,positive
+Dell Alienware m16,is this the best place to get a replacement part without sending the laptop in?,0.6369,positive
+Dell Alienware m16,"also, does anyone if you can replace just the fans, is the entire fan io a single unit?",0.3182,positive
+Dell Alienware m16,thanks!,0.4926,positive
+Dell Alienware m16,i'm looking for guidance from anyone who has dealt with dell alienware escalation or a similar issue.,0.0,neutral
+Dell Alienware m16,"i own an alienware m16 r1 (intel, rtx 4080) with premium support.",0.4019,positive
+Dell Alienware m16,"after a power adapter replacement, my system started showing abnormal behavior: - severe performance throttling under load - very low gpu utilization during rendering and heavy tasks - internal fans not ramping up properly even in performance mode - apps becoming slow or unresponsive these issues were not present before the adapter replacement.",-0.6115,negative
+Dell Alienware m16,"dell advance resolution support has escalated my case to the product design team, but it has been nearly two weeks with no clear timeline.",0.3506,positive
+Dell Alienware m16,they say they expect a revert by tomorrow but with no commitment.,0.1531,positive
+Dell Alienware m16,"this delay is impacting my professional work, which is why i opted for premium support.",0.1027,positive
+Dell Alienware m16,my questions: 1. has anyone faced similar power-delivery or throttling issues after an adapter replacement on alienware laptops?,0.0,neutral
+Dell Alienware m16,2. is there a proven way to escalate beyond the product design team (dell india global)?,0.0,neutral
+Dell Alienware m16,"3. at this stage, should i push for an adapter replacement, system replacement, or another remedy under warranty?",0.0,neutral
+Dell Alienware m16,4. are there any specific diagnostics or logs i should ask dell to review to speed this up?,0.0,neutral
+Dell Alienware m16,any advice from alienware users or people who ve successfully escalated dell cases would be appreciated.,0.7579,positive
+Dell Alienware m16,hello!,0.0,neutral
+Dell Alienware m16,looking to sell my alienware x15 r2 and alienware m16 r2.,0.0,neutral
+Dell Alienware m16,they're both in really good condition with minimal use and they've just been sitting around.,0.4927,positive
+Dell Alienware m16,price: m16 r2 i would like to let it go for 1000 shipped.,0.3612,positive
+Dell Alienware m16,"timestamp: specifications: cpu: intel ultra 7 155h gpu: 4070 ram: 16gb ddr5 5600 mt s screen: 1440p 240hz dell alienware x15 r2 gaming laptop: bought this second-hand and overall, it's still in really good condition.",0.4927,positive
+Dell Alienware m16,"there are a couple of scratches on the exterior, but nothing wrong internally.",0.5157,positive
+Dell Alienware m16,another thing to note is that this thing gets hot!,0.0,neutral
+Dell Alienware m16,i highly recommend using this with a cooling pad.,0.4201,positive
+Dell Alienware m16,"with that note, i never had performance issues with it as i was able to play any game with it!",0.4003,positive
+Dell Alienware m16,"price: x15 r2: i would ideally like to let it go for 950 local (40511) or 1000 shipped, but i'm open to offers.",0.3919,positive
+Dell Alienware m16,x15 r2 timestamp: specs: cpu: i9-12900h gpu: 3080ti ram: 32 gb 5200 mt s storage: 2tb m.2 ssd screen resolution: 1920x1080 - 165 hz alienware warranty is still active (expires: august 2026) please let me know if you have additional questions!,0.6476,positive
+Dell Alienware m16,"hello guys, i just wanted to share with you the problem and fix that i have encountered and have been dealing with for months especially for those who have the m16 m18 r1 amd edition.",-0.128,negative
+Dell Alienware m16,here goes.,0.0,neutral
+Dell Alienware m16,disclaimer: i am not a professional.,0.0,neutral
+Dell Alienware m16,use it at your own risk.,-0.2732,negative
+Dell Alienware m16,i have spent many hours and days trying to fix this on my own and also thanks to ralienware for helping us understand and fix different issues that may come across our devices by sharing our experiences with our system.,0.7845,positive
+Dell Alienware m16,my english is not good.,-0.3412,negative
+Dell Alienware m16,"issue: bios v1.13.0,v1.14.0 and v1.15.0 where the bios update wouldn't go through stuck and would roll back to the current version.",0.1877,positive
+Dell Alienware m16,"no recovery mode tool, it will give you code 3,4 which means recovery file found but was invalid.",-0.1531,negative
+Dell Alienware m16,1. first time i had this issue was when i got updated to v1.15.0 bios update via windows update where it automatically downloaded and installed it in my system.,0.0,neutral
+Dell Alienware m16,it was a success and there wasn't any major problems until i noticed the stapm issue where my system is also affected.,0.6551,positive
+Dell Alienware m16,"so, i waited for the next bios update where it was promised to have the fix in it.",0.3612,positive
+Dell Alienware m16,2. bios update v1.16.0 came and was published on the dell's website.,0.0,neutral
+Dell Alienware m16,i have downloaded and tried to install it.,0.0,neutral
+Dell Alienware m16,"however, this is where i noticed that the update was not going through and was still on v1.15.0 and could no longer could go to bios recovery tool.",-0.296,negative
+Dell Alienware m16,i just thought of waiting for the next bios update where im hoping it will fix it.,0.4215,positive
+Dell Alienware m16,3.bios update v1.17.0 same issue happened when i was trying to update to v1.16.0 before.,0.0,neutral
+Dell Alienware m16,waited for the next bios update again.,0.0,neutral
+Dell Alienware m16,4.bios v1.18.0 this is where i started to worry since the issue was persistent.,-0.4404,negative
+Dell Alienware m16,what i've tried: 1.re-installed windows.,0.0,neutral
+Dell Alienware m16,2.tried to update via .exe file bios update on dells website.,0.0,neutral
+Dell Alienware m16,3. tried to install via flash drive through f12 or one time boot manager.,0.0,neutral
+Dell Alienware m16,4.tried to flash bios image.rcv from a flash drive through bios recovery tool.,0.0,neutral
+Dell Alienware m16,no help.,0.128,positive
+Dell Alienware m16,5. removed and drained battery.,-0.3612,negative
+Dell Alienware m16,6. did full diagnostics and everything was fine.,0.2023,positive
+Dell Alienware m16,7. tried to change the saved bios image.rcv that was saved in the hidden partition using cmd.,0.6808,positive
+Dell Alienware m16,no help.,0.128,positive
+Dell Alienware m16,all of these didn't help me fix the problem.,-0.607,negative
+Dell Alienware m16,"fix: 1.using cmd and having it run as admin, i used diskpart to assign a drive letter for the hidden efi system partition.",0.0,neutral
+Dell Alienware m16,"(main drive where the os is installed) 2.i located the dell folder where it stores the bios recovery named ""bios cur.rcv"" and made a back up of it just in case i would need it again and deleted it.",0.0,neutral
+Dell Alienware m16,"3. download the latest bios image.rcv from dell's website and rename it to ""bios cur.rcv"" and paste it in the efi partition.",0.0,neutral
+Dell Alienware m16,eg: e: efi dell bios recovery 4. have a flash drive with the latest bios update and bios image.rcv copy inside and plug it in.,0.0,neutral
+Dell Alienware m16,5.turn off pc and remove power cable.,0.0,neutral
+Dell Alienware m16,6. wait for atleast 10 seconds.,0.0,neutral
+Dell Alienware m16,after 10 seconds press and hold ctrl esc while reconnecting the power cable and the laptop should turn on by itself.,0.0,neutral
+Dell Alienware m16,7. once the laptop turns on or when the lighting comes on from the keyboard release the ctrl esc.,0.0,neutral
+Dell Alienware m16,"8. from now, your bios recovery should be working.",0.0,neutral
+Dell Alienware m16,since it was the bios cur.rcv that i suspected to be the cuplrit.,-0.2263,negative
+Dell Alienware m16,to which we have already replaced.,0.0,neutral
+Dell Alienware m16,9. select recover bios and press yes.,0.4019,positive
+Dell Alienware m16,10. bios update would automatically start and would flash the latest bios update thats on the flash drive.,0.0,neutral
+Dell Alienware m16,wait for everything to finish and let it boot for a while.,0.0,neutral
+Dell Alienware m16,enjoy your updated bios laptop.,0.4939,positive
+Dell Alienware m16,i hope it works for you.,0.4404,positive
+Dell Alienware m16,"selling my dell alienware m16 r2 gaming laptop, sealed pack brand new.",0.0,neutral
+Dell Alienware m16,"mrp on amazon flipkart: 1,60,000 my price: 1,20,000 (fixed) unbeatable deal!",0.2481,positive
+Dell Alienware m16,"processor: intel core ultra 7 155h (latest gen) graphics: nvidia geforce rtx 4050 6gb smooth aaa gaming display: 16 qhd 240hz (g-sync) ultra-smooth visuals memory storage: 16gb ddr5 ram 1tb ssd software: windows 11 ms office 2024 office 365 condition: brand new, unopened box, bill warranty included if anyone want then you can dm me",0.0772,positive
+Dell Alienware m16,asus tuf gaming a17 ryzen 9 7940hs rtx 4050 at 77000 rupees dell alienware m16 r2 intel 7 ultra 155h rtx 4050 at 76000 is it okay to buy one of these laptops and if yes which one and if no why.,0.34,positive
+Dell Alienware m16,"so i have 4 laptops in my mind but i am so confused rn 1. dell alienware m16 r2 intel core ultra 9 gaming laptop (16gb, 1tb ssd, windows 11 home, 8gb graphics, 16 inch 240 hz qhd plus display, nvidia geforce rtx 4060, ms office home student 2021, dark metallic moon, 2.61 kg) 2. pulse 17 ai c1vgkg-030in intel ( ) core ( ) ultra 9 185h processor with intel ( ) ai boost (npu) windows 11 home nvidia ( ) geforce rtx ( ) 4070 laptop gpu 8gb gddr6 17"" 16:10 qhd (2560 x 1600), 240hz, 100 dci-p3, ips-level panel ddr5 16gb 2; 1tb nvme pcie gen4x4 ssd 24-zone rgb keyboard 3. rog zephyrus g16, gaming laptop, intel core ultra 9 185h, rtx 4070 grph (16gb 1tb 40.64 cms (16) 2.5k win 11 home) gu605mi-qp245ws 4. acer predator helios 16 14th gen intel core i7 processor laptop (windows 11 home 16 gb 1 tb ssd nvidia geforce rtx 4070) ph16-72, wqxga led backlit ips display with 240 hz, 500 nits high-brightness, abyssal black, 2.65 kg ( so like help me which one is better in terms of gaming,coding,hacking,and running vm's",0.958,positive
+Dell Alienware m16,i had an acer predator from 2022 and it's dead now .,-0.6486,negative
+Dell Alienware m16,the technicians said i've fried my gpu.,0.0,neutral
+Dell Alienware m16,so after looking in for a while i found this dell alienware m16 r2 laptop which is around 2500 in my country.,0.0,neutral
+Dell Alienware m16,so i'm planning to buy it internationally but i won't be getting warranty if i get it overseas.,0.0,neutral
+Dell Alienware m16,is it worth a shot to risking the warranty?,-0.1027,negative
+Dell Alienware m16,and the specs it's having core ultra 7. i've attached the specs too.,0.0,neutral
+Dell Alienware m16,what are the reviews on that laptop,0.0,neutral
+Dell Alienware m16,"i'm going into architecture abroad, and i'm gonna be switching from an entire setup to a laptop (actually really sad about it ), and i was wondering what would be appropriate to have for the next 4 years of my life.",-0.5256,negative
+Dell Alienware m16,"now i would preferably get the msi stealth 15, but idk if i should settle for that or get something else a bit more or less expensive.",-0.1901,negative
+Dell Alienware m16,"i want something powerful enough to handle all of my school work, designs, rendering, etc.",0.4767,positive
+Dell Alienware m16,"i'm not a hardcore gamer anymore, just league, and tft like once a month or the once a year minecraft with friends.",0.6808,positive
+Dell Alienware m16,but i would like the option to play stuff and do some content editing work whenever i want to.,0.7783,positive
+Dell Alienware m16,"i also prefer the msi stealth 15, because it's doesn't look like the stereotypical chunky gaming laptop.",-0.3421,negative
+Dell Alienware m16,"below are the current in-store options i can get rn, and idk what to consider getting .",-0.1027,negative
+Dell Alienware m16,(aed is the currency) msi stealth 15 (2023) - 5510 aed 13th gen intel core i7-13620h 15.6inch fhd 16gb ram 1tb ssd 8gb nvidia geforce rtx 4060 graphics windows 11 home english arabic keyboard black middle east version asus rog zephyrus g16 (2023) - 9025 aed 13th gen intel core i9-13900h 16inch wuxga 1tb ssd 32gb ram 8gb nvidia geforce rtx 4070 graphics windows 11 home english arabic keyboard white middle east version asus rog strix g18 (2024) - 9500 aed 14th gen intel core i9-14900hx 18inch wqxga 2tb ssd 32gb ram 8gb nvidia geforce rtx 4070 graphics windows 11 home english arabic keyboard volt green middle east version msi katana 15 (2023) - 4799 aed 13th gen intel core i7-13620h 15.6inch fhd 16gb ram 1tb ssd 8gb nvidia geforce rtx 4060 graphics windows 11 home english arabic keyboard black middle east version asus rog strix gaming (2023) - 6999 13th gen intel core i9-13980hx 16inch fhd 1tb ssd 16gb ram 8gb nvidia geforce rtx 4070 graphics windows 11 home english keyboard grey international version hp victus gaming (2023) - 4299 13th gen intel core i7-13700h 15.6inch fhd 512gb ssd 16gb ram 6gb nvidia geforce rtx 3050 graphics windows 11 home english arabic keyboard black middle east version dell alienware m16 (2023) - 7499 13th gen core i7-13700hx 16inch qhd 1tb ssd 16gb ram 8gb nvidia geforce rtx 4070 graphics win11 pro english keyboard dark metallic moon international version lenovo legion pro 5i 16irx8 (2023) - 7499 13th gen intel core i7-13700hx 16inch 1tb ssd 32gb ram 8gb nvidia geforce rtx 4060 graphics windows 11 home english keyboard onyx grey international version,0.0258,neutral
+Dell Alienware m16,"so, there's an absurd trend that i'm observing is nowadays there almost non-existent creator laptops with latest discrete gpus and intel cpus with a reasonable price tag.",0.0,neutral
+Dell Alienware m16,is this something to do with the new trend to efficient integrated soc thing?,0.4215,positive
+Dell Alienware m16,like i own dell inspiron 15 plus 7510 (apart from battery being shit and not completely value for money i got reasonably specked laptop) but now i see that dell has stopped manufacturing this and there are no proper alternatives to it.,-0.7451,negative
+Dell Alienware m16,update: after searching for days.,0.0,neutral
+Dell Alienware m16,i think dell alienware m16 r2 is in that good mid to high end performance creator laptop from dell,0.4404,positive
+Dell Alienware m16,"hello, im looking to buy a gaming laptop my main prioritiea are a good qhd screen, and decent specs.",0.4404,positive
+Dell Alienware m16,i will be using it for gaming and coding.,0.0,neutral
+Dell Alienware m16,"my budget is about 1400 the best i could find in my country is these two, which one would you pick and why?",0.6369,positive
+Dell Alienware m16,"this looks interesting to me as ive never owned a laptop larger than 15 inches: asus rog strix g17: amd ryzen 9 6900hx processor (16m cache, up to 4.9 ghz) 240hz 3ms 17.3 wqhd 2560 x 1440 ips-type display 2k 32gb ddr5 4800mhz ram 1tb pcie nvme m.2 ssd nvidia geforce rtx 3070 ti 8gb gddr6 with rog boost alienware m16: intel core i7-13700hx cpu 16 cores upto 5.0g 16gb ram ddr5 1tb ssd nvme 16 2k comfortview screen res.",0.6597,positive
+Dell Alienware m16,2560 1600 165hz refresh rate nvidia rtx 4060 8gb,0.0,neutral
+Dell Alienware m16,"i'm looking for a laptop that can handle excessive usage of sketchup, autocad basically every architectural softwares applications.",0.0,neutral
+Dell Alienware m16,i will set up a pc once i move to our new house which will take a year at least.,0.0,neutral
+Dell Alienware m16,me and my friends have done quite a bit of our research and have come to the conclusion of these two laptops.,0.4767,positive
+Dell Alienware m16,dell alienware m16 r2- asus proart studiobook- more laptops we looked through but didn't make it to the list- -dell alienware x16 -razer blade 16 -rog zephyrus g16,0.0,neutral
+Dell Alienware m16,"hey everyone, so it seems the dell alienware m16 m18's are on sale and i want to get one.",0.0772,positive
+Dell Alienware m16,"the standard is 512mb, however it seems the 800 discount only kicks in at the 1tb level.",0.0,neutral
+Dell Alienware m16,"in either case, i do video editing and also a little gaming.",0.0,neutral
+Dell Alienware m16,"i'm wanting to buy it as is with the 1tb and upgrade the ssd, however i've heard that pcie gen4 and above get hot.",0.0,neutral
+Dell Alienware m16,"there's a crucial t500 ssd on amazon for 2 tb that's like 140 i was looking at, but it doesn't have a heatsink.",0.2732,positive
+Dell Alienware m16,on the other hand i've also heard that sometimes an ssd might touch the panel and risk a short circuit.,0.2732,positive
+Dell Alienware m16,"so, this all is relatively new to me.",0.0,neutral
+Dell Alienware m16,what do you recommend?,0.3612,positive
+Dell Alienware m16,any good brands?,0.4404,positive
+Dell Alienware m16,do you need a heatsink on these?,0.0,neutral
+Dell Alienware m16,should i look for one sided ssds?,0.0,neutral
+Dell Alienware m16,"budget: 1.0l - 1.6l country: india priorities: 1. battery life: must hit 10 hours of productivity (coding browsing) in ""eco silent"" mode.",0.0,neutral
+Dell Alienware m16,2. build quality: all-aluminum preferred.,0.0,neutral
+Dell Alienware m16,"no plastic-heavy ""budget"" gaming builds.",-0.296,negative
+Dell Alienware m16,3. ram: must have 2x sodimm slots for a 64gb upgrade.,0.0,neutral
+Dell Alienware m16,(no soldered ram).,0.0,neutral
+Dell Alienware m16,"4. storage (ssd) :- 2 slots of m.2 ssd upgradable 4. data science workload: local cuda tasks (rtx 4050 5050 is enough), heavy wsl2 docker use, and pandas processing of large datasets.",0.0,neutral
+Dell Alienware m16,current contender: i'm looking at the lenovo legion 7i (gen 10 2025) with the intel core ultra 7 275hx and the 99.9wh battery .,0.128,positive
+Dell Alienware m16,"my concerns questions: 1. is there any other ""stealth"" professional laptop with a 99.9wh battery that i'm missing?",-0.296,negative
+Dell Alienware m16,"(e.g, msi venturepro 16 or hp omen max 16?)",0.0,neutral
+Dell Alienware m16,2. does the legion 7i (gen 10) actually hit 10 hours of real-world use with the core ultra series?,0.0,neutral
+Dell Alienware m16,"3. should i consider the dell alienware m16 r2 for the ""stealth mode"" button, or is the battery life significantly worse than the legion?",-0.5267,negative
+Dell Alienware m16,4. i'm avoiding macbooks because of the cuda requirement and the 64gb ram price hike.,-0.34,negative
+Dell Alienware m16,am i making the right call for data science in 2025?,0.0,neutral
+Dell Alienware m16,any help from someone who uses these for ml dl or dev work would be huge.,0.6124,positive
+Dell Alienware m16,thanks!,0.4926,positive
+Dell Alienware m16,"basically i want a laptop that can handle tasks efficiently in this tech era and future proof, it should be value to money.",0.6597,positive
+Dell Alienware m16,if u have best suggestions kindly share will help a lot :),0.936,positive
+Dell Alienware m16,"hey guys, i have put together these listings with inspiration from the r laptopdeals community with the intention of assisting those who may be looking for a solid deal on this black friday 2024. if you find deals you think should be added, feel free to share with us as well.",0.891,positive
+Dell Alienware m16,"if you have any questions, feel free to ask and i will assist in the comment section.",0.5106,positive
+Dell Alienware m16,enjoy!,0.5411,positive
+Dell Alienware m16,"deals on general purpose laptops laptop name main specs off bf deal price store status :- :- :- :- :- :- acer aspire go ( full hd ips , intel core i3-n305, 8gb lpddr5 128gb ssd, wi-fi 6, win11 28 199.99 amazon asus vivobook go ( fhd ips, amd ryzen 3 7320u, 8gb ddr5 ram, 128gb ssd 33 199.99 amazon acer aspire 3 slim ( full hd ips touch , amd ryzen 5 7520u,16gb ram, 512gb nvme ssd 23 399.99 amazon lenovo ideapad slim 3 ( fhd ips touchscreenamd ryzen 7-7730u, , 16gb ram, 512gb ssd 371 429 walmart asus zenbook 15 ( fhd ips, amd ryzen 5 7535u cpu, , 16gb ram, 512gb ssd, windows 11 38 499.99 amazon asus vivobook s 16 flip 16 ( wuxga touch, amd ryzen 7 7730u, 16gb ram, 512gb ssd 20 499.99 amazon touch, ryzen 7 8840hs, 16gb ddr5, 1tb ssd 39 550 ebay lenovo ideapad 5x 2-in-1 ( wuxga oled touchscreen copilot pc qualcomm snapdragon x plus 16gb ram 1tb ssd 300 599.99 walmart hp envy x360 2 in 1 ( fhd touch, intel ultra 7 150u, 16gb ram, 512gb ssd 39 580 ebay bestbuy ( asus vivobook s14 ( core ultra 5 cpu, 14"" fhd 60hz 600 nits oled,16gb ram, 512gb ssd 300 650 ebay asus zenbook 14 ( fhd 400-nits, 100 dci-p3 touch oled , intel ultra 7 155h, 16gb ram, 1tb ssd 33 699.99 ebay ips touchscreen 99 dci-p3, intel core ultra 5 , 16gb ram, 512gb ssd 38 799.99 amazon lg gram 15 ( fhd ips touchscreen intel core ultra 7 cpu, windows 11 , 16gb ram, 512gb ssd 44 847 amazon asus 2024 zenbook s 13 oled ( oled 3k 60hz ,intel core ultra 7 155u cpu, 16gb ram, 512gb ssd, win 11 17 999.99 amazon apple 2024 macbook air ( 2560-by-1664 liquid retina, apple m3 chip: 16gb ram 512 gb ssd, 18 hrs.",0.8834,positive
+Dell Alienware m16,"battery 20 1198 amazon gaming productivity high performance laptop deal laptop name main specs off bf deal price store status :- :- :- :- :- :- hp victus ( full hd amd ryzen 5-7535hs - 8gb ddr5 - amd radeon rx 6550m - 512gb ssd 370 430 bestbuy ebay ( lenovo loq ( 15.6"" fhd 144hz display, i5-12450hx cpu, rtx 3050 6gb graphics card, 8gb ddr5 ram, 512gb ssd 37 using code benkaiser6 470 lenovo lenovo ideapad slim 5 ( wuxga ips, ryzen 7 8845hs, 16gb lpddr5x, 512gb ssd 31 520 ebay msi - thin 15 ( fhd 144hz ips , intel i5-13420h, rtx 4050, 16gb ram, 512gb ssd 33 599.99 ebay bestbuy ( lenovo loq ( fhd 144hz 100 srgb ips, ryzen 7 7435hs, rtx 4060, 16gb ddr5 ram, 512gb ssd 30 699.99 ebay asus tuf a16 gaming ( fhd 165hz , ryzen 7 7735hs, amd radeon rx 7700s gpu, 16gb ddr5 ram, 512gb ssd 36 699.99 ebay msi thin gaming ( fhd 144 hz , amd ryzen 9 8945hs cpu, rtx 4060, 16gb ddr5, 1tb ssd 200 rebate 739 newegg apple 2022 macbook air ( chip with 8 core cpu 8 core gpu, 13.6"" 2560-by-1664 liquid retina , 16 gb ram, 256gb ssd 25 749 amazon lenovo loq ( fhd 144hz ips, ryzen 7 7435hs 16gb ram 512gb ssd nvidia geforce rtx 4070 320 879.99 walmart members lenovo legion slim 5 ( qhd 165hz ips, amd ryzen 7 7435hs cpu, nvidia rtx 4070 ,16gb ram, 1tb ssd 500 899.99 microcenter in-store pickup acer predator helios neo ( fhd 165hz 400 nits ips , i9-14900hx cpu, rtx 4060 140w gpu, 16gb ddr5 ram, 1tb ssd 33 999.99 ebay , 16gb ddr5 ram, 1tb ssd 29 999.99 ebay bestbuy ( hp omen 16-ae0001nr ( fhd 165hz display, i7-14700hx cpu, rtx 4070 140w gpu , 32gb ddr5 ram, 1tb ssd 42 999.99 microcenter - instore pickup lenovo legion 5i ( qhd 240hz ips display, i9-14900hx cpu, rtx 4060 graphics card, 32gb ddr5 ram, 1tb ssd 500 1099 b h 165hz 100 srgb ips display , ryzen 7 7735hs, rtx 4070 (140w), 16gb ddr5 ram, 1tb ssd 37 off with code benkaiser6 1109.19 lenovo hp omen config with ( qhd 240hz display, i7-14700hx cpu, rtx 4070 graphics card , 16gb ddr5 ram, 512gb ssd 34 off 1150 hp.",0.34,positive
+Dell Alienware m16,"com apple 2024 macbook air ( 2560-by-1664 liquid retina, apple m3 chip: 16gb ram 512 gb ssd, 18 hrs.",0.0,neutral
+Dell Alienware m16,"battery 20 1198 amazon asus rog strix g17 ( fhd 144hz , amd ryzen 9 7945hx cpu, rtx 4070,16gb ddr5 ram, 1tb ssd 400 1199 walmart asus tuf a15 ( fhd 144hz display, geforce rtx 4070, amd ryzen 7 7940hs, 16gb ddr5 ram, 1tb pcie ssd 29 1200 amazon asus tuf gaming a16 ( qhd 165hz , amd ryzen 9 7940hx, nvidia geforce rtx 4070,16gb ddr5, 1tb ssd, win11 28 1299.99 amazon msi katana a15 ai ( 165hz qhd, ryzen 9-8945hs, nvidia geforce rtx 4070, 32gb ddr5, 1tb ssd 24 1299.99 amazon dell alienware m16 r2 gaming ( qhd (2560 x 1600, wqxga 240hz 3ms, intel ultra 7 155h, rtx 4070, 16gb ddr5 ram, 1tb ssd 32 1299.99 ebay liquid retina xdr screen, 10-core gpu , wi-fi 6e 13 1399 amazon asus tuf a14 ( qhd 165hz ips , ryzen ai 9 hx 370 cpu, rtx 4060 gpu, card , 32gb ram, 2tb ssd 400 1399.99 walmart samsung 16"" galaxy book4 pr ( core 7 ultra 155h 32gb ram 1tb ssd, 3k amoled touchscreen, windows 11 pro 24 1550 amazon 16:10, 240hz, 500-nits, 100 srgb, displayhdr 400, ips display, intel i9-13900hx, rtx 4080, 32gb ddr5 ram, 1tb ssd 33 9 in cart 1,683.49 ebay msi stealth 18 ai studio 18 ( 240hz qhd intel ultra 9-185h, nvidia geforce rtx 4080, 32gb ddr5, 1tb nvme ssd 15 2298 amazon lenovo legion pro 7i ( qhd 240hz 500 nits display, i9-14900hx, rtx 4090, 32gb ddr5, 1tb ssd 27 2399 b h (please note that i may earn a commission from purchases made through links in the table.",0.765,positive
+Dell Alienware m16,this is at no extra cost to you.),-0.296,negative
+Dell Alienware m16,"dell alienware m16 16"" gaming laptop (intel core i7-13700hx 1tb ssd 16gb ram geforce rtx 4070) or dell g16 16"" gaming laptop (intel core i9-13900hx 1tb 16gb ram geforce rtx 4070)",0.0,neutral
+Dell Alienware m16,dell alienware m16 or asus tuf 15?,0.0,neutral
+Dell Alienware m16,"hey guys, i am able to get both of these laptops for the same price (6000 myr, or 1480 usd).",0.0,neutral
+Dell Alienware m16,"the specs of each are as follows: laptop dell alienware m16 r2 hp omen transcend 16 :-- :-- :-- display qhd (2560 x 1600) ips, 240 hz, 300 nits, 100 srgb wqxga (2560 x 1600) ips, 240 hz, 400 nits, 100 srgb battery 90 wh 97 wh cpu intel core ultra 7 155h intel core i7 14700hx gpu nvidia geforce rtx 4060 nvidia geforce rtx 4070 ram 16 gb ddr5 (upgradeable to 32 gb for an additional 120 usd) 32 gb ddr5 is this a decent price for either laptop?",0.0,neutral
+Dell Alienware m16,how is the build quality of each one?,0.0,neutral
+Dell Alienware m16,"all things considered, which one would you get?",0.0,neutral
+Dell Alienware m16,how is alienware compare to legion ?,0.0,neutral
+Dell Alienware m16,can someone review alienware m16 r2 for me,0.0,neutral
+Dell Alienware m16,which laptop should i go for?,0.0,neutral
+Dell Alienware m16,dell g15 falls in my budget but is alienware worth paying 44k more?,0.3291,positive
+Dell Alienware m16,"i need it for my ai ml projects and as far as gaming is concerned, i'll only play fifa on it.",0.34,positive
+Dell Alienware m16,"i have an alienware m16 r1 laptop (i9-13, 4080), and it's only about 14 months old.",0.0,neutral
+Dell Alienware m16,"over these 14 months, its wear has been significant.",0.2023,positive
+Dell Alienware m16,"90 of the time, it was plugged into the power supply.",0.0,neutral
+Dell Alienware m16,"i usually didn't check the battery wear, but a month ago we replaced the liquid metal in the laptop, and now i decided to check it.",0.0,neutral
+Dell Alienware m16,i was honestly shocked to see that the battery wear is at 44.2 .,0.1779,positive
+Dell Alienware m16,what do you think about this?,0.0,neutral
+Dell Alienware m16,could it be a calibration issue after replacing the liquid metal?,0.0,neutral
+Dell Alienware m16,i find it hard to believe that a battery could degrade this much in just 14 months.,-0.5106,negative
+Dell Alienware m16,i bought an alienware laptop 2 months ago.,0.0,neutral
+Dell Alienware m16,maintain it like a baby.,0.3612,positive
+Dell Alienware m16,not even the slightest of scratches are allowed near it.,0.0,neutral
+Dell Alienware m16,run it in moderation.,0.0,neutral
+Dell Alienware m16,it is an i9 ultra 4060. i noticed the base is flappy (making a clicking sound while touching the internal motherboard or heat sink) on the slightest of touch.,0.0,neutral
+Dell Alienware m16,disturbing considering the expectations from alienware.,-0.5106,negative
+Dell Alienware m16,should i raise it with dell warranty as a poor build quality defect?,-0.6705,negative
+Dell Alienware m16,"to be clear, the laptop runs flawless.",0.7096,positive
+Dell Alienware m16,just that a flappy base is disturbing and gives out shady built quality vibes!,-0.5562,negative
+Dell Alienware m16,"just bought this laptop (new,open box) and would like to hear your opinion about it?",0.3612,positive
+Dell Alienware m16,"i know that in the u.s you can find cheaper 4070 laptops, but considering that i am from europe and that it comes with a 13th gen cpu (although not the best in its class) i think that the deal is very good.",-0.0676,negative
+Dell Alienware m16,"that is why i bought it without putting too much time into researching build quality, thermals etc.",0.0,neutral
+Dell Alienware m16,any feedback is appreciated.,0.5106,positive
+Dell Alienware m16,i'm a first year cs student.,0.0,neutral
+Dell Alienware m16,need a laptop that should almost last a decade.,0.0,neutral
+Dell Alienware m16,i'm not a pure gamer but i do play once or twice a week.,0.4767,positive
+Dell Alienware m16,hp omen ryzen 7 rtx 4060 80k(902usd) hp omen core 7 rtx 4050 1l(1130) lenovo legion ryzen 7 rtx 5050 1.05l(1200usd) dell alienware m16 r2 core 7 rtx 4050 90k(1050usd),0.0,neutral
+Dell Alienware m16,this is just a general post on commonly asked questions on this subreddit that i and other longer term members have noticed.,0.0,neutral
+Dell Alienware m16,gaming laptop cpu and gpu performance firstly a general overview of where more recent gaming laptop hardware stands relative to one another in gaming performance.,0.0,neutral
+Dell Alienware m16,"note that some of these benchmarks are older, performance can change slightly over time due to driver optimisations, game optimisations etc.",0.6808,positive
+Dell Alienware m16,"this is a excellent guide for rough gaming laptop desktop gpu performance ( note that for the following game benchmarks these are best case scenario performing gpus, individual laptop manufacturers can configure the maximum gpu wattage within specified wattage ranges.",0.836,positive
+Dell Alienware m16,"for nvidia rtx 40 series mobile gpus comparisons rtx 4050 6 gb vram 100w vs 4060 8 gb vram 100w ( - 4060 21 faster at 1080p, 24 at 1440p.",0.0,neutral
+Dell Alienware m16,"rtx 4060 100w vs 4070 8 gb vram 100w ( - 4070 20 faster at 1080p, 22 faster at 1440p.",0.0,neutral
+Dell Alienware m16,faster at 4k.,0.0,neutral
+Dell Alienware m16,"rtx 4080 175w vs 4090 16 gb vram 175w ( - 4090 9 faster at 1080p, 11 faster at 1440p and 15 faster at 4k.",0.0,neutral
+Dell Alienware m16,"for the rtx 30 series mobile gpus relative to their rtx 40 series mobile gpu counterparts: rtx 3060 6 gb vram 140w vs 4050 6 gb vram 100w ( - 4060 5 faster at 1080p, 10 faster at 1440p.",0.0,neutral
+Dell Alienware m16,"the rtx 3050 3050 ti are much worse in games than a best case scenario rtx 4050, a 3060 130 140w is about 50 faster than a rtx 3050 ti 95w.",0.2732,positive
+Dell Alienware m16,"rtx 3070 ti 8 gb vram 150w vs 4070 100w ( - 4070 7 faster at 1080p, 2 faster at 1440p.",0.0,neutral
+Dell Alienware m16,"rtx 3080 ti 16 gb vram 175w vs 4080 175w ( - 4080 29 faster at 1080p, 31 faster at 1440p, 27 faster at 4k.",0.0,neutral
+Dell Alienware m16,"rtx 3080 ti 175w vs 4090 175w ( - 4090 44 faster at 1080p, 53 faster at 1440p and 53 faster at 4k.",0.0,neutral
+Dell Alienware m16,for the rtx 30 series mobile gpus relative to one another rtx 3050 95w 4 gb vram vs 3050 ti 95w 4 gb vram ( - 3050 ti 9 faster at 1080p.,0.0,neutral
+Dell Alienware m16,rtx 3050 ti 4 gb vram vs 3060 130w 6 gb vram ( - 3060 53 better at 1080p.,0.4404,positive
+Dell Alienware m16,"rtx 3060 130w vs 3070 140w 8 gb vram ( - 3070 17 better at 1080p, 21 better at 1440p.",0.7003,positive
+Dell Alienware m16,"rtx 3070 140w vs 3080 165w 16 gb vram ( - 3080 16 gb vram 9 faster at 1080p, 13 faster at 1440p.",0.0,neutral
+Dell Alienware m16,"rtx 3070 ti 150w 8 gb vram vs 3080 ti 175w ( - 3080 ti 5 better at 1080p, 8 better at 1440p.",0.7003,positive
+Dell Alienware m16,amd rx6000m mobile gpus relative to one another note: the 6700m has a maximum wattage of 135w but not in the case for the msi delta 15 tested here.,0.0,neutral
+Dell Alienware m16,"6600m 100w 8 gb vram vs 6700m 100w 10 gb vram ( - 6700m 9 faster at 1080p, 16 faster at 1440p.",0.0,neutral
+Dell Alienware m16,"6700m 100w 10 gb vram vs 6800m 145w 12 gb vram ( - 6800m 18 faster at 1080p, 22 faster at 1440p.",0.0,neutral
+Dell Alienware m16,there is also the 6600s 6700s 6800s but direct comparisons might be easier found through notebookcheckreviews database of cpus and gpus.,0.5719,positive
+Dell Alienware m16,"rx6000m gpus vs rtx 30 series mobile gpus 6600m 100w vs 3060 130w ( - 6600m 2 slower at 1080p, 7 slower at 1440p.",0.0,neutral
+Dell Alienware m16,"6700m 100w vs 3070 140w ( - 3070 10 faster at 1080p, 14 faster at 1440p.",0.0,neutral
+Dell Alienware m16,"rtx 3080 165w vs 6800m 145w ( - very similar at 1080p, 3080 5 faster at 1440p.",0.0,neutral
+Dell Alienware m16,a 6800m revisit in 2023 ( put it closer to rtx 4060 100w gpus 3070 140 150w gpus in games.,0.0,neutral
+Dell Alienware m16,legion 7 6850m xt 140w 12 gb vram vs legion 7i 3080 ti 175w ( radeon 7000 mobile gpus .,0.0,neutral
+Dell Alienware m16,"amd officially has launched the 7600s, 7700s, 7600m xt, 7600m and 7900m gpus.",0.128,positive
+Dell Alienware m16,"the main 7600s laptops available include the tuf gaming a16 ( 7700s laptops the a16 again and the framework 16 ( 7600m xt laptops such as the amd alienware m16r1 ( and a singular 7900m laptop, the alienware m18r1 ( note that the rtx 4050 4060 4070 can theoretically run at a maximum of 140w if allowed by the laptop manufacturer but in games these gpus max out at 100w due to voltage limits being reached in games ( the rtx 4070 i believe got a raise in its maximum gpu voltage it can reach in mid late 2023 but small gains to gaming performance, this didn't fix the aforementioned issue and the rtx 4070 still maxed out at around 100w gpu power draw in games.",0.5927,positive
+Dell Alienware m16,"gaming laptops vs their desktop ""counterparts"" rtx 3050 4 gb vram vs 3050 8 gb vram desktop card ( - desktop 23 faster at 1080p.",0.0,neutral
+Dell Alienware m16,"rtx 3060 6 gb vram laptop vs desktop - 12 gb vram gpu ( - desktop card 8 faster at 1080p, 9 faster at 1440p.",0.0,neutral
+Dell Alienware m16,"note that the rtx 3060 8 gb vram desktop card exists, the rtx 3060 12 gb vram is 17 faster at 1080p and 18 faster at 1440p ( rtx 3070 laptop vs desktop ( - 3070 desktop 28 faster at 1080p and 1440p.",0.0,neutral
+Dell Alienware m16,3080 10 gb vram desktop vs 3080 16 gb vram laptop ( - desktop 45 faster at 1080p and 47 faster at 1440p.,0.0,neutral
+Dell Alienware m16,"3070 ti laptop vs desktop ( - 15 faster at 1080p, 18 faster at 1440p.",0.0,neutral
+Dell Alienware m16,"3080 ti laptop vs 3090 ti desktop - best of 2022 ( - desktop 45 faster at 1080p, 53 faster at 1440p and 66 faster at 4k.",0.6369,positive
+Dell Alienware m16,"4060 laptop vs desktop ( - desktop 9 faster at 1080p, 6 faster at 1440p.",0.0,neutral
+Dell Alienware m16,"4070 laptop vs desktop ( - desktop 43 faster at 1080p, 47 faster at 1440p and 55 faster at 4k.",0.0,neutral
+Dell Alienware m16,"4080 laptop vs desktop ( - desktop 30 better at 1080p, 39 better at 1440p and 45 better at 4k.",0.8271,positive
+Dell Alienware m16,"4090 laptop vs 4080 desktop ( - 4080 desktop 24 faster at 1080p, 1440p and 4k.",0.0,neutral
+Dell Alienware m16,"4090 laptop vs 4090 desktop ( - 4090 desktop 37 faster at 1080p, 49 faster at 1440p and 67 faster at 4k.",0.0,neutral
+Dell Alienware m16,"gaming laptop cpu performance cinebench r23 ( and cinebench r24 ( benchmarks, further benchmarks and comparisons can be found on jarrods tech youtube channels and website as well as the likes of notebookcheckreviews website online.",0.5994,positive
+Dell Alienware m16,"no laptops with snapdragon cpus have currently been announced for gaming laptops as of yet, hence primarily amd intel cpu data here.",-0.296,negative
+Dell Alienware m16,cpu and gpu temperatures - what is too high?,0.0,neutral
+Dell Alienware m16,"nvidia gpus typically start thermal throttling at 86c 87c, expect similar for the likes of amd's radeon gpus.",0.4215,positive
+Dell Alienware m16,"for cpus, both intel and amd have specifications for their cpus listed on their websites including maximum operating temperature.",0.0,neutral
+Dell Alienware m16,a search online for your cpu's specs should get the desired information for you.,0.2732,positive
+Dell Alienware m16,"generally speaking, intel 11th gen cpus have maximum operating temperatures of 100c, with the majority of intel 12th gen h hx, 13th gen h hx and 14th gen hx cpus sticking to these maximum temperatures.",0.0,neutral
+Dell Alienware m16,"various core ultra cpus actually have maximum operating temperatures of up to 110c, such as the ultra 7 155h ( for amd, the majority of ryzen 5000 series cpus should have maximum operating temperatures of 105c, ryzen 6000 series cpus at around 95c, with the ryzen 7000 series cpus again at 95c, with a notable exception being the ryzen 9 7945hx3d ( at 89c.",0.0,neutral
+Dell Alienware m16,"my personal recommended maximum cpu temperatures under load would be ideally 90c or lower, 85c or lower for the gpu.",0.0516,positive
+Dell Alienware m16,"i don't recommend disabling cpu turbo boost to lower temperatures under load, this may have a negative impact on performance.",-0.4129,negative
+Dell Alienware m16,i'd personally prefer setting something like custom maximum cpu pl1 pl2 limits instead.,0.3612,positive
+Dell Alienware m16,cpu naming schemes - what do the letters mean?,0.0,neutral
+Dell Alienware m16,"for intel cpus, it is common to see suffixes such as h, hx, hk for gaming laptops.",0.0,neutral
+Dell Alienware m16,"h series cpus are designed as high performance cpus, usually with a rated tdp of around 45w but can run at higher tdps.",0.0,neutral
+Dell Alienware m16,some older h series cpus (some 11th gen intel cpus for example) have the possibility of undervolting control but intel 12 13 th gen h series cpus and the core ultra cpus (successors to intel 13th gen h series cpus) should be completely locked down and are unable to be undervolted for example.,0.0,neutral
+Dell Alienware m16,hk and hx cpus are typically 'unlocked' cpus which should allow for further control such as undervolting provided the laptop manufacturer allows this (dell and acer on some of their laptops with hx or hk cpus might actually prevent features like undervolting) and usually this comes with higher rated tdps and higher maximum tdps than h series cpus.,0.5423,positive
+Dell Alienware m16,"for amd cpus, it's common to see suffixes such as h, hs and hx in gaming laptops.",0.0,neutral
+Dell Alienware m16,h and hs cpus are designed for efficiency and a priority towards battery life.,0.3612,positive
+Dell Alienware m16,"hx cpus again like intel's hx cpus are designed for maximum cpu performance and can also offer features like undervolting and overclocking, again with higher peak sustained wattages over h hs cpus.",0.6124,positive
+Dell Alienware m16,"gaming laptops upgradability and maintenance for general wifi card, ram, storage upgradability, it is best to look at individual reviews or the manufacturer spec sheets for the laptops you're interested in, such as sites like jarrods tech ( ultrabookreviews ( and notebookcheckreviews ( for a video on upgradability tips guide, this is a excellent resource ( for cpu and gpu upgradability, the vast majority of gaming laptops cpus and gpus are soldered to the motherboard and cannot be upgraded, with a notable exception being the framework 16. for maintenance tips, i'd personally recommend cleaning your laptop fans and vents out every few months, if you are going to clean your laptop's screen, something like a microfibre cloth, lightly damped (the cloth not the laptop screen) if desired.",0.9678,positive
+Dell Alienware m16,"setting up a gaming laptop, software again another excellent video from jarrod's tech ( personally if you don't want to do a fresh windows install, definitely uninstall any preinstalled antivirus software like mcafee or norton (windows defender should be sufficient for the majority of people's antivirus software needs), update your gpu and cpu drivers from the official manufacturers websites and update windows updates.",0.8854,positive
+Dell Alienware m16,obviously customise your rgb for maximum performance!,0.0,neutral
+Dell Alienware m16,"for software, if your laptop has features to limit the maximum battery when plugged in, i would definitely enable this to prolong the health and lifespan of the laptop battery.",0.4019,positive
+Dell Alienware m16,"asus has 60 80 limits through their myasus software, lenovo has a 75-80 limit on newer legions through 'conservation mode' in lenovo vantage for example.",0.0,neutral
+Dell Alienware m16,notable exceptions include hp who i'm currently not aware currently of any battery life limit e.g.,0.0,neutral
+Dell Alienware m16,60 70 80 maximum when the laptop is plugged in though.,0.0,neutral
+Dell Alienware m16,"benchmarking your laptop for general use of your gaming laptop, obviously for best performance use it plugged in, your laptop battery cannot supply sufficient wattage to run the cpu and gpu as well as when it is plugged in.",0.743,positive
+Dell Alienware m16,"software recommendations would be cinebench r23 and cinebench r24 for cpu testing, a idea of r23 results here ( and r24 results here ( for combined cpu and gpu testing, download 3d mark ( from steam, note there is a paid and demo version.",0.0,neutral
+Dell Alienware m16,"there's a range of benchmarks available to run, timespy being the most popular, takes 7 8 minutes to run.",0.4754,positive
+Dell Alienware m16,"once ran, a overall score (with individual cpu and gpu scores) is shown, with this overall score being compared to a average score for your hardware.",0.0,neutral
+Dell Alienware m16,ideally you want to be around the average score or slightly above it with stock cpu gpu settings.,0.4767,positive
+Dell Alienware m16,"also worth looking at running your laptop in a dedicated graphics card only performance mode, using either a mux switch ( which may require a reboot or advanced optimus ( which should switch between the igpu and dgpu on the fly, to see if that can yield higher benchmark results.",0.7096,positive
+Dell Alienware m16,battery life - intel or amd?,0.0,neutral
+Dell Alienware m16,i see on this subreddit the general trend of intel bad and amd good regarding battery life.,-0.1531,negative
+Dell Alienware m16,however these generalised statements aren't completely correct.,0.0,neutral
+Dell Alienware m16,"ryzen 7000hs 8000hs cpus typically have good battery life, the 7435hs lacks a igpu though ( so again a exception to this statement.",0.4404,positive
+Dell Alienware m16,"ryzen 7000hx cpus however generally do not have good battery life, partially due to their chiplet design with higher idle power draw, such as the 7945hx in the strix scar 17 ( or 7945hx3d scar 17x3d ( intel's recent hx cpus usually aren't great regarding battery life but some of their recent h series cpus with input from laptop manufacturers such as this 13700h in this 7840hs vs 13700h comparison ( can actually be pretty good in this regard.",-0.1677,negative
+Dell Alienware m16,"intel's core ultra chips again depending on the laptop manufacturer can get solid battery life like this transcend 14 with the ultra 9 185h ( or relatively decent battery life such as this ultra 7 155h alienware m16r2 ( which has a larger 90wh battery vs 71 wh battery of the transcend 14. a idea of newer gaming laptops battery life can be found here ( or through the likes of reviews by jarrods tech, notebookcheckreviews and ultrabookreviews for example.",0.7096,positive
+Dell Alienware m16,what if i want a alternative to the laptop manufacturer's default control centre software?,0.0772,positive
+Dell Alienware m16,"unfortunately some gaming laptops don't have any real alternative to their control centre software, such as gigabyte laptops.",-0.34,negative
+Dell Alienware m16,however there are a few better known third party alternatives for some laptops.,0.6808,positive
+Dell Alienware m16,for example: dell alienware laptops can have alienfx ( as a alternative to awcc.,0.0,neutral
+Dell Alienware m16,asus laptops can have g-helper ( as a alternative to armoury crate software.,0.0,neutral
+Dell Alienware m16,"lenovo laptops (legions, loqs, ideapad gaming etc) can have lenovo legion toolkit ( as a alternative to lenovo vantage.",0.0,neutral
+Dell Alienware m16,how much ram and storage should you have with a gaming laptop?,0.0,neutral
+Dell Alienware m16,"personally i'd recommend 16 gb ram minimum, 512 gb ssd (hdds i definitely don't recommend) for storage minimum.",0.6369,positive
+Dell Alienware m16,"for upgrading ram, you want laptop ram specifically.",0.0772,positive
+Dell Alienware m16,"you cannot put ddr5 ram into a ddr4 ram slot and vice versa, whatever ram type your laptop came with you are stuck with.",-0.25,negative
+Dell Alienware m16,"likewise, if your cpu supports a maximum of e.g.",0.3612,positive
+Dell Alienware m16,4800 mhz ddr5 ram e.g.,0.0,neutral
+Dell Alienware m16,"my 12900hx ( legion 7i, higher mhz ram kits e.g.",0.0,neutral
+Dell Alienware m16,5200 mhz 5600 mhz kits would be downclocked to 4800 mhz due to cpu limitations.,0.0,neutral
+Dell Alienware m16,the higher mhz ram will still run but not at its maximum mhz due to chipset limits.,0.0,neutral
+Dell Alienware m16,"what colour of rgb is needed for the best balance between performance, temperatures and fan noise under load?",0.7579,positive
+Dell Alienware m16,this deep insightful question might be better suited to experts like u jarrodstech to answer.,0.6597,positive
+Dell Alienware m16,"i personally believe that since rgb rainbow spew offers a wide range of colours, you get a bit of the benefits each colour of the rgb cycle offers, such as 0.69c lower temperatures under load, 4.20 better fps in games and 6.9 lower fan noise.",0.5267,positive
+Dell Alienware m16,"undervolting software for intel cpus, throttlestop or utxu are good options.",0.4404,positive
+Dell Alienware m16,"for amd, the amd adrenaline software is a good option, again as is uxtu.",0.4404,positive
+Dell Alienware m16,"that's all i can think of, thanks for reading my essay.",0.4404,positive
+Dell Alienware m16,sub-5lb 2.3kg: 1.,0.0,neutral
+Dell Alienware m16,8. dell precision 9.,0.0,neutral
+Dell Alienware m16,17. lenovo thinkpad p16v 18.,0.0,neutral
+Dell Alienware m16,21. sub-4lb 1.8kg: 1.,0.0,neutral
+Dell Alienware m16,10. samsung galaxy sub-3.6lb 1.6kg: 1.,0.0,neutral
+Dell Alienware m16,"5. strix halo placeholder note: rtx 4050, 4060, and 4070 performance all level off after 105 watts -- zeyphrus g16 is the way to go for rtx 4080 4090 and razer blade 16 2025 for rtx 5080 5090 options.",0.0,neutral
+Dell Alienware m16,imo the rog strix g16 g614 is with the rtx 4050-4060-4070 140w or rtx 4080 175w is technically the better deal than the zeyphrus g16 since it costs similar while trading macbook-class speakers for being 1.25lb 0.565kg heavier and upgradable ram.,0.4404,positive
+Dell Alienware m16,i just didn't list it above because the weight cutoff was 5 pounds.,0.0,neutral
+Dell Alienware m16,got a high budget of 1600 1800 or more?,0.0,neutral
+Dell Alienware m16,"i would seriously consider the slimbook executive 16 ( ( review here ( before looking at dell or samsung offerings since it allows 95w for the nvidia gpu and costs less than 1900 2000 before ram, storage, and os upgrades -- an honorable mention here goes to the xmg core 15 m24 ( (ryzen 7 8845hs 115w rtx 4070, also called slimbook creative ( at 1938 2082 or it's intel brother the xmg fusion 15 e24 ( (also called skik midgard 15 ( or infinity a5-14r7a-899 ( as it offers a core i9-14900hx and 115w rtx 4070 at a similar 2200 2350. the models from dell and samsung on the other hand cost upwards of 2500- 3000 and cap the dedicated graphics wattage at 60w nearly all their models.",0.8979,positive
+Dell Alienware m16,-- at 1500 1300 to 1600 1400 it's a tougher recommendation considering all competing 4-pound 1.8-kilo options with higher gpu power limits of 80w-120w and if you're looking for a 17-incher with more recent hardware than the max-17 there's the that weighs a little heavier than the rest at 5.5-5.7 pounds.,0.1779,positive
+Dell Alienware m16,"just be sure to get a sku with a 2560 x 1440 display ( so that you're not stuck with a screen that's too dim ( honorable mentions - these sport dedicated graphics with less than 6gb of vram, have a battery life that lasts less than 7 hours, weigh slightly over 5 pounds, or are 15 17-inch models: acer nitro 16 an16-41 aorus master 16 am6h asus proart studiobook 16 asus rog zeyphrus g15 2021 (ga503q) asus rog zeyphrus g15 2022 (ga503r) asus rog zeyphrus m16 2023 (gu604) asus rog strix g16 2024 (g614) asus rog strix g16 2025 (g615) asus rog strix scar 16 (g635) asus rog strix scar 15 (g533) asus tuf a15 (fa506qr qm) asus tuf a17 (fa707) asus tud dash f15 2021 (fx516) asus vivobook pro 16x (k6604) asus zenbook pro 16x (ux7602) dell alienware m16 r2 dell xps 17 9720 dell xps 17 9730 eluktronics prometheus xvi g2 (ddr5-6000 6400 supported) eluktronics hydroc 16 (ddr5-6000 6400 supported) eluktronics mag-15 gigabyte aero 15 oled xd (11800h 3070) lg gram 16 pro 16z90sp lg gram 17 pro 17z90sp lenovo legion 5 15ahp10 lenovo legion pro 5 5i 16irx8 lenovo legion pro 5 5i 16irx9 lenovo legion 5 5i 16irx9 lenovo legion slim 5 16aph8 lenovo legion slim 7 16iah lenovo legion slim 7 16ahra7 lenovo legion pro 7 7i 16iax10h (ddr5-6000 6400 supported) lenovo legion 9 16irx8 (ddr5-6000 6400 supported) lenovo legion 9 16irx9 (ddr5-5600 only) lenovo loq 15aph8 15aph9 lenovo thinkpad t15g gen 2 hp omen 15 (ryzen 5000) hp omen 16 hp transcend 16 hp victus 16 2023 2024 hp zbook 16 g11 msi creator z16 hx studio a13v msi creator z17 hx studio a13v xmg core 16 xmg evo 15 e25 (first hx 370 strix point laptop with sodimm ram slots - arriving summer 2025) xmg focus 16 xmg fusion 15 2022 xmg fusion 15 e24 xmg neo 15 (6900hx 3070ti) xmg neo 16 e25 (rtx 5000. ddr5-6000 6400 supported) xmg pro 16 studio 2024 xpg xenia 15 2021 xpg xenia 15 kc xpg xenia 15g to my knowledge there are currently no 18 18.5-inchers with a ""beefy"" graphics card that weigh lighter than 6 pounds.",0.903,positive
+Dell Alienware m16,"if any more pop-up as the year goes by, just let me know and i'll add it!",0.0,neutral
+Dell Alienware m16,hey reddit!,0.0,neutral
+Dell Alienware m16,i'm selling a 100 brand new sealed dell alienware m16 r2 laptop.,0.0,neutral
+Dell Alienware m16,"this is a factory-sealed unit , never opened, never used comes with full 1-year onsite warranty from dell!",0.0,neutral
+Dell Alienware m16,"this is a premium, high-performance gaming and creator laptop ideal for aaa gaming, editing, streaming, or multitasking.",0.5267,positive
+Dell Alienware m16,"specifications: model : dell alienware m16 r2 (u7m 16 1 6-4050 bt gr) cpu : intel core ultra 7 155h (16 cores, up to 4.8ghz, 24mb cache) gpu : nvidia geforce rtx 4050 6gb gddr6 (dedicated) ram : 16gb ddr5 5600mt s storage : 1tb pcie gen4 nvme m.2 ssd display : 16 qhd (2560x1600), 240hz, 3ms, 100 srgb, nvidia g-sync, anti-glare keyboard : alienfx rgb per-key backlit keyboard camera : 1080p fhd rgb ir with dual-array mics audio : stereo speakers, ai noise-cancelling battery : 90wh connectivity ports: 2x usb 3.2 gen 1 type-a (1 with powershare) 1x usb 3.2 gen 2 type-c 1x thunderbolt 4 1x hdmi 2.1 1x rj45 ethernet 1x microsd reader 1x headphone mic combo wi-fi 7 (intel be202) bluetooth 5.4 what's included: brand new sealed box full 1-year dell onsite warranty microsoft office home student 2021 charger all original accessories color: dark metallic moon asking price : 1,35,000 negotiable location : jalandhar, india shipping: available (buyer pays) local pickup welcome note : this is a genuine, sealed piece with bill and warranty .",0.6486,positive
+Dell Alienware m16,buy with confidence.,0.5106,positive
+Dell Alienware m16,"perfect for gamers, students, or professionals wanting top-tier performance and premium build.",0.5719,positive
+Dell Alienware m16,"dm me for pics, serial no.",-0.296,negative
+Dell Alienware m16,"for warranty check, or any queries.",0.0,neutral
+Dell Alienware m16,"idk why it is stuck on 62 , idk what to do and i can't cancel the update either.",-0.264,negative
+Dell Alienware m16,the only thing i can think of is shutting down support assistant by the task manager but idk if that is gonna ruin something,-0.714,negative
+Dell Alienware m16,i am currently studying bsc.,0.0,neutral
+Dell Alienware m16,computing.,0.0,neutral
+Dell Alienware m16,"which laptop should i buy among these 3 laptops: 1. dell xps 15 specs: dell xps 15 9530 (2023) 13th generation intel core i7-13620h processor (24mb cache, up to 4.9ghz) 32gb, 2x16gb, ddr5, 4800mt s 1 tb, m.2, pcie nvme, ssd intel arc graphics a370m, 4 gb gddr6 display: 15.6"", fhd 1920x1200, 60hz, non-touch, anti-glare, 500 nit, infinityedge 2. dell alienware m16 r2 specs: dell alienware m16 r2 ( 2024 ) intel core ultra 9 185h (24 mb cache, 16 cores, 2.30 ghz to 5.10 ghz p-core turbo) 32gb, 2x16gb, ddr5, 5600 mt s 1 tb, m.2, pcie nvme, ssd nvidia geforce rtx 4060, 8 gb gddr6 display: 16"", qhd 2560x1600, 240hz, non-touch, 100 srgb, 3ms, advanced optimus, cv plus, nvidia g-sync 3. lenovo legion 5i pro specs: lenovo legion 5i pro 14th generation intel core i9-14900hx processor (e-core max 4.10 ghz, p-core max 5.80 ghz with turbo boost, 24 cores, 32 threads, 36 mb cache) 32gb (2 x 16gb) 5600mhz ddr5 1 tb pcie ssd gen 4 nvidia geforce rtx 4070 laptop gpu 8gb gddr6 (140w) 2175mhz boost clock display: 16 wqxga (2560 x 1600) ips, 16:10 aspect ratio, 240hz 3ms response time w overdrive, 100 dci-p3, 500 nits, up to vesa displayhdr 400 certified, dolby vision support, nvidia g-sync support, tuv rheinland certified, x-rite pantone certified",0.9153,positive
+Dell Alienware m16,"i've been dealing with a complete nightmare with dell support and their premium warranty on my alienware m16 r1 amd, and i need to share my experience so others don't go through this.",0.5994,positive
+Dell Alienware m16,"it started with ssd and battery issues, plus some cpu temperature concerns, which is why dell decided to send a heatsink fan replacement.",0.3182,positive
+Dell Alienware m16,"i ended up fixing the ssd and battery myself using refurbished parts they had already sent because they were taking too long, and my laptop was running fine.",0.2023,positive
+Dell Alienware m16,"then their engineer came in to replace the heatsink fans, and the laptop failed completely the very next day (less than 24h the gpu fan failed rendering the laptop useless.",-0.7964,negative
+Dell Alienware m16,here s the full circus since then: dell initially wanted to backtrack on sending the engineer or the refurbished parts and suggested shipping my laptop to their depot to fix it after i mentioned a refund or replacement.,0.0,neutral
+Dell Alienware m16,"they told me to wait 1-2 business days for oem parts approval, which ended up taking much longer than promised.",0.6808,positive
+Dell Alienware m16,"after the delay, they backtracked again, insisting on refurbished parts instead of oem parts, just to fix the laptop.",-0.3182,negative
+Dell Alienware m16,"supervisors pop into chat, give scripted apologies, then vanish, leaving me shuffled between operators, emails, and calls (i am currently here and i called them out and said keep it in the chat).",0.0,neutral
+Dell Alienware m16,"they refuse to provide new oem parts for critical components like the motherboard, despite the fact that the refurbished parts previously installed broke the system within a day.",-0.5859,negative
+Dell Alienware m16,"my laptop has been useless, and they didn't offer a temporary replacement while i wait.",-0.4215,negative
+Dell Alienware m16,this is my primary device for work.,0.0,neutral
+Dell Alienware m16,"dell repeatedly claims this is a one-off and that refurbished parts are equivalent to new, which is clearly false.",0.4019,positive
+Dell Alienware m16,there are countless posts online reporting the same failures.,-0.4588,negative
+Dell Alienware m16,"i've repeatedly demanded: new oem parts a replacement system a refund instead, dell keeps dragging this out, refusing accountability, and offering minimal solutions to fix their own mistakes.",-0.6597,negative
+Dell Alienware m16,"weeks of wasted time orginally with the ssd that failed and now more wasted time, stress, and broken promises later, and dell has shown zero integrity or customer care.",-0.8158,negative
+Dell Alienware m16,tldr: i fixed my ssd and battery myself with dell refurbished parts.,0.0,neutral
+Dell Alienware m16,"their engineer came, replaced the heatsink fans, and broke my laptop.",-0.4215,negative
+Dell Alienware m16,"dell refuses oem parts, shuffles me around, and leaves me without a working laptop.",0.0,neutral
+Dell Alienware m16,premium warranty is meaningless if you rely on it.,-0.4404,negative
+Dell Alienware m16,and dell customer service is shit.,-0.5574,negative
+Dell Alienware m16,i am in contact with them using imessage.,0.0,neutral
+Dell Alienware m16,edit: thank you mods for approving my post.,0.3612,positive
+Dell Alienware m16,"hi, i am using a dell alienware m16 r1 for office use.",0.0,neutral
+Dell Alienware m16,"today, out of nowhere, when i started my laptop, its battery percentage suddenly dropped to 0 , and it shut down.",0.0,neutral
+Dell Alienware m16,it won't power on again unless i plug in the charger.,0.0,neutral
+Dell Alienware m16,"to investigate this, i charged my battery to 100 and let it drain to 86 .",-0.5574,negative
+Dell Alienware m16,"then, i shut down my laptop.",0.0,neutral
+Dell Alienware m16,"after 2 hours, when i powered it on, the same thing happened: it suddenly dropped to 0 and shut down.",0.0,neutral
+Dell Alienware m16,can someone please help me identify the issue here?,0.6124,positive
+Dell Alienware m16,thank you in advance.,0.3612,positive
+Dell Alienware m16,i am hoping to buy a new alienware m16 r2 or m18 r2 gaming laptop.,0.4215,positive
+Dell Alienware m16,have you added non-dell-supplied ram or storage to an m16 r2 or m18 r2?,0.0,neutral
+Dell Alienware m16,"dell sales agents are telling me that this ""might"" invalidate my one-year alienware warranty, and i'd be interested to know whether or not you'd encountered such a problem.",0.0,neutral
+Dell Alienware m16,"hello all, i bought my alienware laptop in august 2023 but have this problem every time that laptop wakes up from sleep or screen saver.",-0.6355,negative
+Dell Alienware m16,"my only solution for now is to unable screen sleep mode on energy settings, but this is unacceptable.",-0.4215,negative
+Dell Alienware m16,anyone has an actual solution for this?,0.3182,positive
+Dell Alienware m16,thanks.,0.4404,positive
+Dell Alienware m16,i am leaning towards the m16 r2,0.0,neutral
+Dell Alienware m16,"never had a problem getting into the bios of a pc, until this dell alienware m16 r2.",0.3089,positive
+Dell Alienware m16,hitting f2 or f12 while booting always boots up windows.,0.0,neutral
+Dell Alienware m16,have had this problem since new.,-0.481,negative
+Dell Alienware m16,dell support was able to get me in using some bizarre process i don't remember.,0.1027,positive
+Dell Alienware m16,"need to get in again, and can not figure out how to do it.",0.0,neutral
+Dell Alienware m16,what am i dong wrong?,-0.4767,negative
+Dell Alienware m16,note: bios is 1.16.0 dated 9-22-2025.,0.0,neutral
+Dell Alienware m16,"i purchased a dell alienware m16 r1 laptop in june 2023, and in just one year, its external condition is the worst i've ever seen or could imagine.",-0.6249,negative
+Dell Alienware m16,"first, the keyboard has imprinted so deeply onto the screen that even when cleaning it with specialized products, i can still see the full silhouette of the keyboard on the screen, which is impossible to wipe or remove.",0.0,neutral
+Dell Alienware m16,"there are also lots of tiny white spots, likely from dust that has taken its toll.",0.0,neutral
+Dell Alienware m16,"the second major issue is that the laptop came with a very cheap protective film, which has worn down so badly over the year that it now looks really terrible.",-0.8396,negative
+Dell Alienware m16,"i decided to replace the liquid metal, and fortunately, the internal build was high-quality until i got to the liquid metal replacement.",0.0,neutral
+Dell Alienware m16,"in stock condition, my processor runs at 60-70 degrees during normal use but always hits 99-100 degrees in games (i9-13).",0.0,neutral
+Dell Alienware m16,i noticed they used some sort of mixture resembling liquid metal combined with thermal paste.,0.0,neutral
+Dell Alienware m16,"i also noticed a stain on the processor, possibly from the heat and the liquid metal, or something else i'm not sure.",-0.2411,negative
+Dell Alienware m16,"now, i realize that dell alienware is probably one of the worst laptops i've used.",-0.6249,negative
+Dell Alienware m16,"i've previously used asus rog, lenovo legion, and razer blade, and none of those had as many problems as this dell alienware has shown.",-0.4019,negative
+Dell Alienware m16,"first off i apologize if the post format is irregular, i don't normally post in reddit.",0.1027,positive
+Dell Alienware m16,"it's been a dream to own an aw ever since i saw and fell in love with the chunky, clunky yet flashy design along with the aw logo as a kid a decade ago.",0.7351,positive
+Dell Alienware m16,"so fast forward that said decade, my amazing wonderful beautiful wife decided to get me a best buy open box alienware m16 r1 laptop (i7-13700hx 1tb 16gb ram rtx4070) i wanted to know what would be the best way to start off and also hope there's a dummy friendly guide out there since i'm not super techy.",0.9743,positive
+Dell Alienware m16,"i would highly appreciate guides that includes details and suggestions ranging from laptop stands cooling pads to upgradeablility and software tweaking (hopefully also dummy friendly for the latter) sides note: - although she got it for me because it was on a nice sale, i actually have no way of using it until few months after new year because we live thousands of miles apart.",0.7778,positive
+Dell Alienware m16,- never also had experience with software tweaking and upgrading pc or laptops - been a laptop gamer for almost 12 or so years yet recently learned the importance of drivers (in particular something called game ready drivers?,0.6124,positive
+Dell Alienware m16,for real this is unknown territory for me lol) - i've also been browsing around in r alienware but most of the guides are almost a year old and i'm also worried if they may be slightly outdated in one way or another.,-0.4215,negative
+Dell Alienware m16,link for reference: i apologize for going into this post while lacking knowledge in the most basic of these things but thank you in advance to anyone who takes their time to answer my concerns!,0.5778,positive
+Dell Alienware m16,"i just noticed that intel launched a new wifi adapter in the killer series: intel killer wi-fi 7 be1750 ( i'd very much like to use this adapter on my dell alienware m16 r1, that uses an intel core i9-13900hx processor.",-0.7447,negative
+Dell Alienware m16,my current adapter is the intel killer wi-fi 6e ax1690 ( my question is: my current adapter uses cnvio2 interface and the be adapter is pcie.,-0.6486,negative
+Dell Alienware m16,should i wait for a cnvio2 adapter to be launched?,0.128,positive
+Dell Alienware m16,"instead of adopting the m4a1 and m27 iar they continued to modify, modernize and repurpose their beloved creation, the m16a2.",0.6597,positive
+Dell Alienware m16,"the main goal, of course, was to instill a sense of pride and heritage in the testing, development and use of their own usmc rifle.",0.34,positive
+Dell Alienware m16,a few caveats for this mental exercise; we're assuming these rifles were developed after the m16a2 to present.,0.0,neutral
+Dell Alienware m16,we ll be comparing them to the known rifles the marines implemented during this timeframe while assessing the likelihood of each new feature added to the base battle rifle.,-0.3818,negative
+Dell Alienware m16,"i appreciate all additions to the conversation, please forgive my spelling and grammar.",0.7269,positive
+Dell Alienware m16,"1983, the m16a2 was adopted buy the usmc.",0.0,neutral
+Dell Alienware m16,"1994, the m16a3: the 3 round burst was removed and replaced with full auto.",0.0,neutral
+Dell Alienware m16,went back to a1 length stock for shorter lop with body armor but kept the trap door for storage.,-0.4497,negative
+Dell Alienware m16,ambi controls.,0.0,neutral
+Dell Alienware m16,reduced barrel length to 18 and changed barrel profile to a continuous taper with a heavier chamber aera for balance and heat tolerance.,0.296,positive
+Dell Alienware m16,"obviously these m16a3s would be upgraded with kac two piece quad rails, laser aiming devices and optics attached to the carry handle similarly to what was seen.",0.0,neutral
+Dell Alienware m16,the early days of gwot would eventually introduce flat top m16a4 uppers still issued with the uncompromising a2 carry handle attached to the bottom of the kac rail.,0.2023,positive
+Dell Alienware m16,but this m16a4 isn't the one you know.,0.0,neutral
+Dell Alienware m16,"it still boast the continuous taper barrel, ambi controls and shorter overall length of the reimagined m16a3.",0.0,neutral
+Dell Alienware m16,"2011, m16a5: the marine corps shifted dramatically with the age of optics, free float quad rails and new sops that integrated heavier firing schedules.",0.2263,positive
+Dell Alienware m16,this created the need for heavy profile machine gun barrels and flip down sights.,-0.1027,negative
+Dell Alienware m16,"the marine corps began its path to create a multi purpose squad rifle to replace their machine guns with an over built heavy duty version of their beloved m16 (m27iar) this ultimately led to squad designated marksmen versions of the standard infantry rifle as seen in real life (usmc samr, usmc m38) because many of the features added created a more accurate rifle.",0.7506,positive
+Dell Alienware m16,as any service rifle there would come variations combining a lot of the features making very rare and obscure individual clone builds.,0.0,neutral
+Dell Alienware m16,some a3s fitted with a free float rail or some a5s with the lighter a3 profile barrels.,0.5106,positive
+Dell Alienware m16,"2018, m16 block iii (pdw): with the infantry moving towards the heavy expensive m16a5, the corps started experimenting with the lightest shortest version of the m16 yet.",-0.4404,negative
+Dell Alienware m16,"a m16 personnel defense weapon for rear echelons, administrative, mechanized units and training schools.",-0.1779,negative
+Dell Alienware m16,"without the need for heavy sustained fire, the continuous taper barrel was reduced in weight and moved to a shorter 16 mid length gas.",-0.34,negative
+Dell Alienware m16,"following suite with socom, the mk16 rail was utilized.",0.0,neutral
+Dell Alienware m16,"lights laser and other rail mounted devices weren't priority for these roles, but still able to be used.",0.0,neutral
+Dell Alienware m16,"another savings in cost, weight and ease of manufacturing was the monolithic polymer lowers.",0.25,positive
+Dell Alienware m16,"the lower kept a1 length fixed butt stocks, and ambi controls.",-0.296,negative
+Dell Alienware m16,"lastly, as a homage to the m16a2 and a cost cutting measure by not using optics unless in a combat infantry squad, the rear fixed a2 sights became synonymous with the united states marine corps.",-0.0258,neutral
+Dell Alienware m16,"during boot camp and mct training, all marines were trained in the a2 irons in the new shorter pdw m16a2 block iiis from 2018 to present day.",-0.4404,negative
+Dell Alienware m16,"recon units and some special infantry units would have an inventory of these pdws for special purpose teams (light mechanized reconnaissance, cqb, vbss) fitted with all sorts of optics, and mission dependent multipliers.",0.6597,positive
+Dell Alienware m16,i'm not sorry for the long post.,0.0572,positive
+Dell Alienware m16,fuel my obsession.,-0.34,negative
+Dell Alienware m16,or if you're a marine and can't read enjoy the pictures.,-0.3875,negative
+Dell Alienware m16,"i've been seeing the old incorrect guide posted everywhere, so i wish to fix all the errors i made and add some more info i've learned.",0.2712,positive
+Dell Alienware m16,hopefully this guide will get passed around even more and undo any damage the old post did to cloning collecting.,-0.128,negative
+Dell Alienware m16,"as always, please let me know of any inaccuracies and don't be afraid to provide additional info.",0.3182,positive
+Dell Alienware m16,"sources: - colt usgi m16 series variation guide, edition v - retro black rifle, military components guide - variations in early ar-15 m16 rifle buttstocks, by chuck madurski of armament research services - the complete guide to colt m16 models, by dan shea of small arms review",0.0,neutral
+Dell Alienware m16,throw in a milsurp bayonet sling and it's perfect for all your vietnam war larping desires super safety from fudd arms btw,0.7579,positive
+Dell Alienware m16,glad to see our big boss getting some much deserved love.,0.802,positive
+Dell Alienware m16,keep rocking in the free world,0.5106,positive
+Dell Alienware m16,m16a1 w97b-0233-3dbq-qohg-o594-wh5z-d1ce-5f82 ( m16a2 705w-0233-f69g-m63z-317g-dwzf-00ob-beca ( m16a3 (irons ) dqq2-0233-2df3-3zh3-507f-13f0-c625-mz99; m16a3 (acog ) odb9-0233-c4za-06d1-cm6g-4174-em6h-009q ( m16a4 (irons ) emcq-0233-wf31-o8q5-b62q-80nz-3bfq-96qq; m16a4 (acog ) 5a02-0233-7881-873w-4c7c-9cee-11n2-waq0 (,0.0,neutral
+Dell Alienware m16,i am not the oop.,0.0,neutral
+Dell Alienware m16,"that would be u throwraaverage trigger warning : !homophobia, politics, child endangerment, racism!",-0.7955,negative
+Dell Alienware m16,mood spoiler : !frustrating!,0.0,neutral
+Dell Alienware m16,"being completely honest, my mom and i don't agree on much, and today was another example.",0.3576,positive
+Dell Alienware m16,"we went to church this morning with plans for a restaurant afterwards, but mom said my sister ruined the mood and we didn't end up going.",-0.631,negative
+Dell Alienware m16,mom stayed in her room with the door closed when we returned and after yelling at my sister in her room.,0.0,neutral
+Dell Alienware m16,"there was no sunday school today because they wanted families to sit together to honor mom, but my sister excused herself to the restroom when the pastor got on her nerves our pastor often talks about things going on, and he made jabs in his sermon that felt unnecessary.",-0.0258,neutral
+Dell Alienware m16,"he said that the world was ""disrespecting moms"" by ""forcing gay marriage down everyone's throats"" because we ""wouldn't be here if we had gay parents"".",0.0,neutral
+Dell Alienware m16,"he also joked about how some people ""needed the stupid slapped out of them from mom"" in regards to people coming out, and the jabs felt unnecessary for a mother's day sermon (or at all during church).",-0.2732,negative
+Dell Alienware m16,"my sister went to the bathroom during the sermon, but stayed in there until service was done which ticked her off.",-0.5719,negative
+Dell Alienware m16,mom and dad both yelled at her on the car ride home and continued in her room when we returned from church.,0.0,neutral
+Dell Alienware m16,"this is just one of many times she's been yelled at, but i wanna keep this post to mother's day.",0.0,neutral
+Dell Alienware m16,"i just need advice because i tried to cheer her up, but she wanted to be left alone edit: for those who keep asking messaging me about talking to a teacher at school, we are both homeschooled, so that would be useless.",-0.6187,negative
+Dell Alienware m16,"our mom is our teacher, and i don't trust anyone at our church my sister mostly stayed in her room on mother's day, and my parents were in a mood for most of the day too.",-0.4023,negative
+Dell Alienware m16,"mom also carried her mood through monday, and she gets a certain way when she does.",0.2732,positive
+Dell Alienware m16,she has a habit of zoning out on her headphones while listening to a podcast music when she's upset.,-0.3818,negative
+Dell Alienware m16,"but if she's feeling obnoxious, she'll stream christian music really loudly from the tv while working around the home, and it's annoying because you can hear it from any room.",-0.7783,negative
+Dell Alienware m16,but that's not the weirdest part of it.,0.2498,positive
+Dell Alienware m16,"you know how people sometimes yell out tongues in church, and everyone perceives it to be normal?",0.0,neutral
+Dell Alienware m16,"mom has never done that in church, but there are times when she'll yell something prophetically in our home when she's in a mood.",0.0,neutral
+Dell Alienware m16,"she'll sing, dance or clap along to music or a youtube sermon, and it's as if she's possessed.",0.0,neutral
+Dell Alienware m16,"it's not unusual in church when surrounded by others, but it's weird when you're at home she also did the same after the 2020 election.",-0.2617,negative
+Dell Alienware m16,she went to bed thinking that he had won.,0.5719,positive
+Dell Alienware m16,"but when she learned that he lost, she began doing her music thing again as if it were some sort of thearpy.",-0.4497,negative
+Dell Alienware m16,"i'm trying to explain how weird it is, but she'll randomly yell stuff like ""you have no authority here, satan"" whenever she's upset.",-0.431,negative
+Dell Alienware m16,"literal outbursts when she starts yelling ""amen"" or some random chants she makes up on the spot.",0.0,neutral
+Dell Alienware m16,"i've told this to a relative (who's also a christian), and she didn't think it was weird.",-0.1779,negative
+Dell Alienware m16,"but if my mom were on drugs and yelling non-religious stuff, i feel as if it'd be taken more seriously.",-0.359,negative
+Dell Alienware m16,"mom also purchased maga t-shirts and hats for us to wear ahead of the 2020 election, and it wasn't enough for her to buy them for herself.",0.0,neutral
+Dell Alienware m16,"i guess it makes sense in the context of church and how we're forced to go and can't stay home the worst thing she did was force my sister to wear the t-shirt and hat for a ""homeschool assignment"" (during school hours) that she didn't put on the homeschool report she sent to the district (where she writes what we did for each class that semester).",-0.7964,negative
+Dell Alienware m16,"she had her stand in the front yard of my neighbor's home with my neighbor who has a lot of maga signs, and the two of them gave thumbs up to passing cars while mom cowardly recorded bits through our living room window.",-0.3818,negative
+Dell Alienware m16,"she wasn't brave enough to even record from our front porch, and she subjected my sister to profanity and someone who spat in their direction (which thankfully missed).",0.0062,neutral
+Dell Alienware m16,"i could go on and on about my mom, but i'm just glad she's seemingly over the mother's day thing there were a lot of messages since the last time i used this account, so i'm gonna write this here instead of replying to too many people.",0.6124,positive
+Dell Alienware m16,"i don't know why my sister was forced to wear the t-shirt and hat when i wasn't, and it feels like mom had it out for her more than me.",-0.128,negative
+Dell Alienware m16,"i'm 19 now, but have been struggling to make ends meet.",-0.5719,negative
+Dell Alienware m16,i live by myself and work two jobs because my parents wanted me to move out for many reasons.,0.0,neutral
+Dell Alienware m16,i didn't get a graduation party or offer to split tuition like my sister did.,0.0624,positive
+Dell Alienware m16,"over the years, i tried to support her when mom was rough on her-even arguing on her behalf many times.",-0.0772,negative
+Dell Alienware m16,"dad never cared to defend either of us, and i felt like my sister and i were getting closer because she would vent to me many times.",0.0433,neutral
+Dell Alienware m16,"however, she changed since my last update and has become their favorite in many ways my sister (now 18) has become a clone of my mom.",0.4588,positive
+Dell Alienware m16,"one of my friends said it might've been a coping mechanism, but i'm not sure if i buy that.",-0.101,negative
+Dell Alienware m16,"unlike when he ran in 2020, she became pro-maga in the leadup to the 2024 election.",0.0,neutral
+Dell Alienware m16,she and mom also began to talk politics together and are often on the same wavelength.,0.0,neutral
+Dell Alienware m16,"aside from politics, she's become more active in the church.",0.4576,positive
+Dell Alienware m16,"she currently attends a young adults class after many years of youth group, and she's also dating someone she met in youth group.",0.0,neutral
+Dell Alienware m16,"she even attended a maga rally with my parents in the leadup to the 2024 election, and this is someone who used to despise maga before 2024 and would leave the room when they'd stream his rallies.",-0.3818,negative
+Dell Alienware m16,"maybe it was a coping mechanism or similar to someone falling in love with their captor, but i personally think that your environment has an impact on who you become as mentioned in my first post, our pastor had a habit of talking politics and current world events.",0.3182,positive
+Dell Alienware m16,"and when you're in church numerous times a week like her, maybe she began to adapt to her surroundings.",0.3612,positive
+Dell Alienware m16,"in hindsight, our church felt like attending a political rally instead of what church should be.",0.3612,positive
+Dell Alienware m16,"whenever our pastor would make a right-leaning conservative point during his sermon, he'd often be met with enthusiastic applause and hollers compared to uninspired applause (if any at all) when raising his voice about a biblical point he was trying to make.",0.8316,positive
+Dell Alienware m16,"compared to his political moments, the congregation's reaction to the biblical parts felt like a dead bedroom.",-0.4215,negative
+Dell Alienware m16,but they eat it up and get excited when he gets political.,0.4767,positive
+Dell Alienware m16,almost as if they're waiting to see when he does.,0.0,neutral
+Dell Alienware m16,i remember when he spoke about how roe vs wade was overturned and the enthusiastic response to it.,0.4939,positive
+Dell Alienware m16,"how he praised god when the ""conservative party"" won in 2024. he opened the service with reflections on kirk after he passed, and he voiced disgust about blm rallies and anti-police sentiment after george floyd years ago too i could name so many more instances from growing up in this church.",0.83,positive
+Dell Alienware m16,"for those who asked if we're in the deep south, the most i'll say is that we weren't.",0.0,neutral
+Dell Alienware m16,"that church was on long island, new york (pentecostal).",0.0,neutral
+Dell Alienware m16,"my sister was given a graduation party and assistance with splitting tuition, and she's going to an online college while staying at home.",0.4019,positive
+Dell Alienware m16,"she also began criticizing me like my mom for not wanting to talk politics or go to their church anymore, and it hurts when my sister used to be brave enough to walk out of a sermon when she heard homophobia.",0.0772,positive
+Dell Alienware m16,it hurts to realize that that part of her is gone and was consumed by her new maga personality (and her boyfriend who is also pro-maga which perhaps had a lot to do with her change).,-0.4767,negative
+Dell Alienware m16,"but more than that, it hurts to not be close to her anymore, and i'm just hoping to make some friends to fill that void (comments) (hoaxshmoax) : ""the pastor exploited the mother child bond to trojan horse his bigotry into his sermon.",-0.0772,negative
+Dell Alienware m16,"it's not your sisters fault that she saw through it and left"" (realitymatter) : ""as a christian, that pastor sounds absolutely insane.",-0.1864,negative
+Dell Alienware m16,"he couldn't even take one day out of the year to a nice, uplifting sermon about all the amazing mother figures in the bible?",0.765,positive
+Dell Alienware m16,"he had to make it about the ""scary gays""?",-0.4939,negative
+Dell Alienware m16,"(kaptainpeepee) : ""i may be projecting, but it is my assessment over and over that narcissistic abuse and religious trauma go hand in hand.",-0.2263,negative
+Dell Alienware m16,your mother exhibits a lot of traits of a narcissistic person and your father of an enabler: 1. she has effectively isolated you trough homeschooling.,0.1531,positive
+Dell Alienware m16,2. she does not consider you as persons with their own thoughts and opinions.,0.0,neutral
+Dell Alienware m16,it seems that you are just an extension of her.,0.0,neutral
+Dell Alienware m16,3. she is taking advantage of her position of authority as a schoolmaster to advance her political beliefs.,0.3182,positive
+Dell Alienware m16,4. the narcissist expects obedience at all times and you must walk on eggshells at all times to please the narcissist.,0.3182,positive
+Dell Alienware m16,"5. when the narcissist does not get what she wants, she becomes irate: it is called narcissistic rage.",-0.8176,negative
+Dell Alienware m16,"please note that i am not a professional mental-health worker, but consider informing yourself about the narcissistic personality disorder ( and reposing to r raisedbynarcissists ( (dudleydidwrong) : ""your mom ruined mother's day, not you guys.",-0.7935,negative
+Dell Alienware m16,the pastor contributed.,0.0,neutral
+Dell Alienware m16,but your mom probably picked the church.,0.0,neutral
+Dell Alienware m16,"if she chooses to attend the weekly hate-fest, she should not be surprised when people were offended.",-0.3952,negative
+Dell Alienware m16,"if the jesus of the gospels had been there, he probably would have done a lot more than hide in the bathroom; he was a known table-flipper in similar circumstances according to the bible.",-0.2449,negative
+Dell Alienware m16,you and your sister didn't make a fuss.,0.0,neutral
+Dell Alienware m16,your sister took the diplomatic approach by staying in the bathroom during the hate-fest.,0.0,neutral
+Dell Alienware m16,it doesn't sound like she made a scene.,-0.2755,negative
+Dell Alienware m16,neither did you.,0.0,neutral
+Dell Alienware m16,"your mother is the one that decided to let the event ruin mother's day"" (7thatsanope) : ""don't bother trying to make things right with your mom.",-0.4145,negative
+Dell Alienware m16,she ruined her own mother s day by being a bigot.,-0.4767,negative
+Dell Alienware m16,your sister didn't do anything wrong or even remotely rude or disrespectful or disruptive.,-0.411,negative
+Dell Alienware m16,"she simply quietly, without making a scene, removed herself from a bad situation and waited quietly outside for the bigotry to be over.",-0.5423,negative
+Dell Alienware m16,she didn't ruin anything.,0.4717,positive
+Dell Alienware m16,"support your sister, instead.",0.4019,positive
+Dell Alienware m16,talk to her.,0.0,neutral
+Dell Alienware m16,let her know she isn't alone and that your parents and the church are wrong.,-0.3313,negative
+Dell Alienware m16,"if there's a next time, walk out with her.",0.0,neutral
+Dell Alienware m16,you two have each other - stick together and support each other.,0.4019,positive
+Dell Alienware m16,"then once you guys are old enough, move out.",0.0,neutral
+Dell Alienware m16,"also, as teens being homeschooled, do some research and make sure you are on track to get legitimate high school diplomas or at least geds.",0.3182,positive
+Dell Alienware m16,"homeschooling absolutely can provide a legitimate education that qualifies you for college, trade school, and anything else that requires high school graduation, but not all parents who homeschool (especially the more religious ones) follow the necessary standards and procedures needed to prepare you for the next steps in life.",0.0,neutral
+Dell Alienware m16,"so, make sure you and your sister are on the right track with that""",0.3774,positive
+Dell Alienware m16,i am not the original poster.,-0.2411,negative
+Dell Alienware m16,that is u constantspace3136 ( he posted in r aitah trigger warnings: !infidelity; parental death!,-0.7707,negative
+Dell Alienware m16,mood spoiler: !oof!,0.0,neutral
+Dell Alienware m16,"original post ( march 4, 2024 the wound's still a bit fresh.",0.5574,positive
+Dell Alienware m16,"a month ago, my wife of 22 years tragically died in a car crash.",-0.875,negative
+Dell Alienware m16,cynthia was one of those drivers that loved to stare into her phone and unfortunately this bad habit caught up with her in the last week of january.,-0.3869,negative
+Dell Alienware m16,"i was pretty devastated when the police showed up at my door and told me she had a fatal accident, and i wanted to honor her somehow.",-0.6369,negative
+Dell Alienware m16,"at the time of the accident, i had no idea she was having an affair.",-0.6486,negative
+Dell Alienware m16,"the last four or five months i did notice she was pulling away and our intimacy decreased, but i thought this was just something that happened to couples after 20 years, so i didn't pay much mind to it.",0.2171,positive
+Dell Alienware m16,"but, at least from what she told me, cynthia started to get into writing.",0.0,neutral
+Dell Alienware m16,"she was constantly on her laptop, typing away at all hours.",0.0,neutral
+Dell Alienware m16,"she told me she was working on a fantasy book, hopefully the first of a series.",0.4019,positive
+Dell Alienware m16,"when i asked more, she said it was about a fantasy world where a super advanced human race appears and interacts with orcs and elves and magic with laser guns and high tech.",0.7096,positive
+Dell Alienware m16,"it sounded very cool, and cynthia promised as soon as she had a first draft she liked, she would let me read it.",0.7841,positive
+Dell Alienware m16,i decided to honor her by getting the draft of her book and hiring a writer to clean it up and publish it with a novelty press.,0.7096,positive
+Dell Alienware m16,i got on her laptop and.,0.0,neutral
+Dell Alienware m16,no book.,-0.296,negative
+Dell Alienware m16,no sign at all.,-0.296,negative
+Dell Alienware m16,"i opened her chrome, thinking she might have written it in google drive and saw a bunch of pinned tab.",0.0,neutral
+Dell Alienware m16,"one was a facebook messenger tab, with a ton of her messages with a man, 'john'.",0.0,neutral
+Dell Alienware m16,"i have no idea who john is, never met him, but they talked about meeting up, exchanged photos, everything.",-0.1531,negative
+Dell Alienware m16,"the last message john sent her was two days before cynthia's accident, the two saying they loved eachother, and him saying he was going on a business trip to germany.",0.2023,positive
+Dell Alienware m16,"the messages between cynthia and john has shown they had met up at the house more than once, so i already had the locks changed.",0.0,neutral
+Dell Alienware m16,"not sure if john is back yet, and frankly don't care if he is.",-0.5559,negative
+Dell Alienware m16,i was thoroughly devastated.,-0.6478,negative
+Dell Alienware m16,"she did have a google drive tab, but in her drive wasn't a book about elves vs vulcans, but a shared document with 'john'.",0.4767,positive
+Dell Alienware m16,"the document was a plan her and john drafted on how to divorce me, turn the kids against me, and take our home and as much money as possible.",0.0,neutral
+Dell Alienware m16,"one thing she noted was she has been taking money, a few hundred a month, and putting it in a separate account.",0.0,neutral
+Dell Alienware m16,"i got the bank thing sorted out, and the money in the kids' college account.",0.0,neutral
+Dell Alienware m16,i've also been going to therapy twice a week now.,0.0,neutral
+Dell Alienware m16,"it is hard to be mad at someone dead, especially someone everyone else in your life is grieving and praising as a wonderful wife and mother.",-0.6124,negative
+Dell Alienware m16,i have asked my therapist if i should tell my kids about what cynthia has done and what she was planning to do.,0.0,neutral
+Dell Alienware m16,my therapist cautioned me about this.,0.0,neutral
+Dell Alienware m16,"he said that they just lost their mother, and being told this would be condemning her memory; damnatio memoriae.",-0.3182,negative
+Dell Alienware m16,"maybe now is not the time, but i think eventually would be a time for my kids to know.",0.0,neutral
+Dell Alienware m16,there is no consensus bot on aitah.,-0.296,negative
+Dell Alienware m16,most people advised against telling the kids right now.,0.0,neutral
+Dell Alienware m16,update some things have happened since last time.,0.0,neutral
+Dell Alienware m16,"to answer some questions, i have gone to the bank and got control of cynthia's account, and transferred the money into a savings account for the kids.",0.0,neutral
+Dell Alienware m16,"also, my kids already suspected.",-0.2263,negative
+Dell Alienware m16,"tuesday night, my eldest michelle said her and my son jason had something to say to me.",0.0,neutral
+Dell Alienware m16,"they sat me down in the living room and michelle said ""we think mom was cheating on you"".",-0.5574,negative
+Dell Alienware m16,"they both said they weren't sure, but it was eating them up seeing me in extreme grief the past month, and they thought i should hear what they suspect.",-0.8216,negative
+Dell Alienware m16,"they brought up how cynthia was always away, and when she was at home, she would say strange 'observations' about me.",-0.2023,negative
+Dell Alienware m16,"stuff like ""isn't it weird your dad's working late this week?""",0.4621,positive
+Dell Alienware m16,this is one of those 'seeds' cynthia mentioned in her document that she wanted to plant in the kids.,0.0,neutral
+Dell Alienware m16,"michelle said her suspicions went high the week before the accident, when she got home from school and saw a strange jacket on the coat hook by the front door.",-0.7506,negative
+Dell Alienware m16,"it wasn't any jacket jason or i had, so she was very suspicious about it.",-0.4201,negative
+Dell Alienware m16,"i told both my kids that i didn't tell them, but i found evidence on their mom's computer, when i was looking for the book she said she was writing.",0.0,neutral
+Dell Alienware m16,"michelle wanted to see the evidence, but jason said he doesn't want to think or talk about mom for a while.",-0.0857,negative
+Dell Alienware m16,"i shared the info with michelle, after she insisted she already suspected her mom and was ready for it.",0.4588,positive
+Dell Alienware m16,it feels good to now have someone close that can talk to me about this beyond my therapist.,0.4404,positive
+Dell Alienware m16,"yesterday afternoon, i was home alone when i heard someone jiggling the back door's knob.",-0.25,negative
+Dell Alienware m16,i went to the door and saw a man i never saw before trying to use a key on the lock.,0.0,neutral
+Dell Alienware m16,i told him to step back from the door and he almost jumped.,0.0,neutral
+Dell Alienware m16,i opened the door a crack and asked him who he was and what he was doing in my backyard.,0.0,neutral
+Dell Alienware m16,"it was john, cynthia's affair partner.",0.0,neutral
+Dell Alienware m16,"he told me that he worked with my wife, and he just got back from a trip and saw cynthia died on social media, and him and cynthia were starting a business.",-0.5574,negative
+Dell Alienware m16,"they had a business bank account with his investment money in the business, and he was wondering if i could help him get the 'business funds' transferred over.",0.4019,positive
+Dell Alienware m16,"i looked him straight in the eye and said i was at the bank and cynthia didn't have an extra business account, and i had no idea what he was talking about.",-0.0772,negative
+Dell Alienware m16,john also said that he wanted to check my wife's things for any sensitive business documents.,0.0,neutral
+Dell Alienware m16,"i said he was a stranger and wasn't welcome in my home, especially since he tried to enter without permission.",-0.357,negative
+Dell Alienware m16,john looked defeated but did suggest he would consult with a lawyer about his 'sensitive business documents' and 'business funds'.,-0.2617,negative
+Dell Alienware m16,when playing games with my laptop plugged in it gets super hot i have a cooling pad and clean it regularly is there anything else i can do it is an alienware m16 r2,0.8126,positive
+Dell Alienware m16,i'm so happy to have bought my first laptop in 20 years.,0.6115,positive
+Dell Alienware m16,"initially, my dream was to get a thinkpad, but unfortunately, i didn't have enough money for one, among other reasons that forced me to give up.",-0.765,negative
+Dell Alienware m16,"anyway, i'm very happy because it's my first laptop, and i bought it with my own money.",0.6115,positive
+Dell Alienware m16,"its specs are an asus rog zephyrus m16 gu604 with a 16"" 240hz qhd 2.6ghz i9-13900h processor, 16gb of ram, a 1tb ssd, and an rtx 4070 graphics card.",0.0,neutral
+Dell Alienware m16,could you give me some tips on how to take better care of it?,0.7269,positive
+Dell Alienware m16,"hello hello, i had this wierd thing happen to my laptop screen and i'm not entierly sure whats the cause.",-0.2411,negative
+Dell Alienware m16,hopefully you guys can help out or maybe someone had a similar situation?,0.6597,positive
+Dell Alienware m16,at first only one line appeared across the whole screen.,0.0,neutral
+Dell Alienware m16,"it was dark grayish and when i would hover over the cursor above it, it would become a different color, usually white.",0.0,neutral
+Dell Alienware m16,"the same day two more lines appeared, same as the first one.",0.0,neutral
+Dell Alienware m16,at first i thought maybe it's driver related.,0.0,neutral
+Dell Alienware m16,"soon after that, the screen wouldn't show anything at all, it was completely dark.",0.0,neutral
+Dell Alienware m16,"as mentioned above since i thought it's driver related, upon turning on the laptop i fired up the bios screen because i know the bios runs before the os drivers, unfortunately dark again.",-0.7184,negative
+Dell Alienware m16,"this is not always the case, sometimes the screen does work normally (lines are still there though).",0.0,neutral
+Dell Alienware m16,"if i include a second screen, the lines are not visible on that screen.",0.0,neutral
+Dell Alienware m16,does this mean that the screen is most probably in a need of a replacement?,0.0,neutral
+Dell Alienware m16,laptop is a asus rog zephyrus m16 many thanks!,0.4926,positive
+Dell Alienware m16,it shows 8 blinks and one yellow blink.,0.0,neutral
+Dell Alienware m16,the fans spin up but it dosent post then just shuts off and does the same again.,0.0,neutral
+Dell Alienware m16,ive tried using an hdmi and such but nothing works.,0.0,neutral
+Dell Alienware m16,my laptop is maybe 2 months old and it worked just fine yesterday only when i wanted to use it today it didnt work.,0.2023,positive
+Dell Alienware m16,my laptop suddenly makes noises when i open minecraft(no mods just the new release).,0.0,neutral
+Dell Alienware m16,i've had this laptop a little over a year and its the first time this happened.,0.0,neutral
+Dell Alienware m16,"the more my gpu gets utilized, the louder it gets, starting at around 40 usage.",0.0,neutral
+Dell Alienware m16,sadly discovered a screen damage in the lower part of my screen that wasn't there yesterday.,-0.802,negative
+Dell Alienware m16,not sure how it happened but i got those lines now under the search bar.,-0.1232,negative
+Dell Alienware m16,is there any way to fix it and what's the best approach to find the source of issue?,0.6369,positive
+Dell Alienware m16,i'm looking for: 1. cpu: fastest within the price range.,0.0,neutral
+Dell Alienware m16,integrated graphics is preferred.,0.0,neutral
+Dell Alienware m16,12 core minimum.,0.0,neutral
+Dell Alienware m16,"2. ram: 64gb ddr4 or ddr5, with hopefully an extra slot.",0.4019,positive
+Dell Alienware m16,3. ssd: 1tb m.2 nvme pcie fastest high-end 4. gpu: i don't game or do graphics work.,0.0,neutral
+Dell Alienware m16,so i don't think i need discrete graphics?,0.0,neutral
+Dell Alienware m16,5. display: 16-18 inch.,0.0,neutral
+Dell Alienware m16,bigger the better.,0.4404,positive
+Dell Alienware m16,qhd or uhd.,0.0,neutral
+Dell Alienware m16,bonus points for more than 60hz refresh rate.,0.5423,positive
+Dell Alienware m16,6. keyboard: must be backlit 7. build: standard build.,0.0,neutral
+Dell Alienware m16,no 2-in-1 or gimmicks.,-0.296,negative
+Dell Alienware m16,idc about weight.,0.0,neutral
+Dell Alienware m16,8. battery: don't care.,-0.3875,negative
+Dell Alienware m16,i'm thinking of buying this: it's 1900 with my student discount.,0.0,neutral
+Dell Alienware m16,"but it comes with a nvidia geforce rtx 4070, which is overkill.",0.0,neutral
+Dell Alienware m16,it also comes with 2tb ssd when i only need 1tb.,0.0,neutral
+Dell Alienware m16,i also don't need a 240hz screen.,0.0,neutral
+Dell Alienware m16,hi i am thinking about getting this laptop.,0.0,neutral
+Dell Alienware m16,is there anything better out there?,0.4404,positive
+Dell Alienware m16,"main use - video editing, content creation and the odd gaming.",-0.0516,negative
+Dell Alienware m16,"all the best,",0.6369,positive
+Dell Alienware m16,i just bought the alienware m16 r2 at a really good discount but i just found a zephyrus g16 for around the same price.,0.2724,positive
+Dell Alienware m16,"i'm only keeping one and i need a good laptop for a little of everything (business productivity work, school work, some gaming).",0.4404,positive
+Dell Alienware m16,i can't decide which would be better aw m16 r2 specs: intel core ultra 9 32gb ram 1tb ssd rtx 4070 zephyrus g16 specs: intel core ultra 9 16gb ram 1tb ssd rtx 4070 i was thinking the asus because it is much lighter and slimmer (and i know that can cause heating issues for intense gaming) but the aw is just such a powerhouse.,0.2732,positive
+Dell Alienware m16,but the soldered ram on the asus is really annoying if i wanted 32gb or more whereas i can just add memory to the aw thoughts or preferences?,-0.611,negative
+Dell Alienware m16,"hello, i'm considering buying this laptop ( brand msi series creator m16 hx model c14vfg-468us i will mostly be using it for productivity and occasional light to medium gaming.",0.0,neutral
+Dell Alienware m16,"the price and specs seem good and i'm happy about the display also, i'm wondering what the catch is?",0.765,positive
+Dell Alienware m16,"i wasn't able to find much info about it online, is anyone able to provide a more educated opinion about this?",0.0,neutral
+Dell Alienware m16,thanks,0.4404,positive
+Dell Alienware m16,"hello all, i have an alienware m16 r1 with a 13700hx and 4070, 32gb 2tb, 240hz 1600p 300 nits and i was looking at the lenovo legion 7 gen 7 laptop.",0.0,neutral
+Dell Alienware m16,"it has ryzen 9 6900hx, 32gb ram, 2tb ssd, 6950m xt, 165hz 500 nits.",0.0,neutral
+Dell Alienware m16,"i was wondering if i should downgrade to the lenovo as it has better battery life, a more powerful gpu, but has a worst screen response and color accuracy and cpu performance.",-0.5652,negative
+Dell Alienware m16,it is also more portable and has a smaller power brick.,0.0,neutral
+Dell Alienware m16,thoughts?,0.0,neutral
+Dell Alienware m16,dear wise reddit: i'm currently working on a 2011 macbook pro which got a new life after upgrading ram to 16gb and ssd.,0.6908,positive
+Dell Alienware m16,"it was acting up and i felt i need to have a new laptop and got a zephyrus m16 which i think in terms of hardware is the best non-mac i would get, but working in windows (11) is kinda lame and i wanted to disable right-click zone in the trackpad and couldn't even with software (without losing double finger click to right-click as well) and the trackpad wasn't as good as people claimed.",-0.8003,negative
+Dell Alienware m16,my visual novel is almost finished but i will be focusing on making an action rgp using a free engine like solarus (or gamemakerstudio2 if there is no problem with sanction embargo countries like unity engine has).,0.7391,positive
+Dell Alienware m16,i read online that gaming world is pc-centric and i see myself sharing the game on other platforms like sony xbox etc so the idea of a powerful gaming laptop makes sense.,0.7964,positive
+Dell Alienware m16,"should i send back this pc laptop for a macbook pro 14 and kinda enjoy the workflow like i have in the past 20 years or should i stick to this pc and learn to work around touchpad by using different workflow and tolerate windows (windows manager, package manager, console emulator.",0.6605,positive
+Dell Alienware m16,i can dual boot with adding a second ssd and share a partition between the two os and learn more linux).,0.296,positive
+Dell Alienware m16,please give me advice.,0.3182,positive
+Dell Alienware m16,thank you.,0.3612,positive
+Dell Alienware m16,"i need help, i'm in doubt which laptop shoud i buy, i want for gaming and working.",0.128,positive
+Dell Alienware m16,"the configuration for alienware is: intel core i7-13700hx 16gb ram 1tb ssd rtx4070 8gb the configuration for asus rog strix g16 is: intel core i9-13980hx 512gb ssd rtx 4070 8gb if i remember correctly, i read somewhere that alienware has better screen and asus has better performance.",0.7003,positive
+Dell Alienware m16,"asus is a little expensive than alienware, the difference is 110. and i want to put another ssd, do i have to use heatsink or not?",0.0772,positive
+Dell Alienware m16,"hello, i am looking to buy a laptop for work, design and architecture, especially for remote work.",0.0,neutral
+Dell Alienware m16,"i am between two models, but for the proart i will need to wait a bit longer, it's out of stock everywhere in my region for some reason.",0.0,neutral
+Dell Alienware m16,it's worth waiting for it or the zephyrus is a better choice?,0.5859,positive
+Dell Alienware m16,thanks in advance!,0.4926,positive
+Dell Alienware m16,"proart studiobook pro 16 oled (w7600,11th gen intel) vs rog zephyrus m16 (2023)",0.0,neutral
+Dell Alienware m16,hi guys!,0.0,neutral
+Dell Alienware m16,i'm hoping people see this and help me out!,0.6996,positive
+Dell Alienware m16,i'm getting a laptop to use in university.,0.0,neutral
+Dell Alienware m16,"i'm an engineering student who needs some solid specs on a laptop anyway and want a gaming laptop to occasionally play games on in my free time (minecraft, fortnite, r6) so i don't necessarily need an i9 or 4000 series rtx.",0.7436,positive
+Dell Alienware m16,"i'm new to pc gaming, i normally use xbox, but don't want a tv in my dorm anymore.",-0.0857,negative
+Dell Alienware m16,im looking at a razer blade 15 that has a good discount off right now.,0.4404,positive
+Dell Alienware m16,12th gen i7 3070ti 16gb ram (unsoldered) here is the link.,0.0,neutral
+Dell Alienware m16,hoping to snatch before the sale ends.,0.4215,positive
+Dell Alienware m16,i also like the minimalist design and like that it's 15 inches.,0.6124,positive
+Dell Alienware m16,"i am hesitant because i've heard that razer has some qc issues, and i've seen both really good, and really bad reactions to the blade 15 series.",-0.3818,negative
+Dell Alienware m16,is this a good pick for the price?,0.4404,positive
+Dell Alienware m16,i'm also considering this asus rog zephyrus m16 man that price is great for what i would get.,0.6249,positive
+Dell Alienware m16,but at the same time i am not as much as a fan of the look and key board.,0.4497,positive
+Dell Alienware m16,"i've felt both keyboards in person, and i like the blades keyboard a lot better.",0.6597,positive
+Dell Alienware m16,i also don't like the plastic shell (they had to cut costs somehow) i am a fan of the trackpad and both have stellar displays.,-0.2287,negative
+Dell Alienware m16,"i have a few friends with rog laptops and they have zero complaints about how they run, so that draws me in.",0.1027,positive
+Dell Alienware m16,"again i don't need the i9, so i'd probably undervolt anyway.",0.0,neutral
+Dell Alienware m16,thank you for your help,0.6369,positive
+Dell Alienware m16,i finally managed to get the laptop i've always wanted specs: model: zephyrus m16 cpu: i9 13900h gpu: rtx 4090 16gb memory: 32gb ddr5 ssd: 2tb operating system: windows 11 lid illumination: anime matrix so far i haven't found any game it can't run,0.0,neutral
+Dell Alienware m16,someone stole my asus rog zephyrus m16.,0.0,neutral
+Dell Alienware m16,bad luck just has a funny way of following me around sometimes.,0.34,positive
+Dell Alienware m16,"it's the 2022 model which has the 19 12900h, rtx 3070ti, 16gb ram, and 1to ssd.",0.0,neutral
+Dell Alienware m16,it was still and great laptop and the only issue is that it was a tad dirty dusty.,0.296,positive
+Dell Alienware m16,just happened to swing into best buy today and couldn't pass up on the deal.,0.6369,positive
+Dell Alienware m16,this is a decent upgrade from my current msi gl66 with a 85w 3070.,0.0,neutral
+Dell Alienware m16,i shunt modded a zephyrus m16 4090 gu604vy to have a thin and light laptop that has the performance equal to 5090 laptops without paying a crazy premium ( 1600 for the m16 vs 3500 for 5090s with similar form factor).,0.2584,positive
+Dell Alienware m16,"there are other shunt modded 4090 laptops, but they are thick desktop replacements, and i wanted a laptop that i could still easily travel with.",0.4767,positive
+Dell Alienware m16,"the m16 is a good candidate for a shunt mod because despite being a thin and light, it is designed with enough power phases and cooling to handle a 150w tdp gpu a power hungry cpu, especially once you repaste it.",0.4404,positive
+Dell Alienware m16,shunt mod pictures before ( after ( the laptop was shunt modded by stacking a 1mohm resistor on top of the 5mohm shunt resistor at the back of the motherboard.,0.2023,positive
+Dell Alienware m16,any power readings will be 6 times lower than the actual power draw.,-0.296,negative
+Dell Alienware m16,i also repasted the old paste liquid metal on the cpu gpu with ptm 7950 and replaced the vrm thermal putty with better aftermarket putty (upsiren ux pro ultra).,0.4404,positive
+Dell Alienware m16,"result power draw reading is around 40-45w depending on the test runs, verifying that the shunt mod worked.",0.0,neutral
+Dell Alienware m16,actual power draw would be 240w.,0.0,neutral
+Dell Alienware m16,the benchmarks are also 20 higher than the next highest m16's.,0.0,neutral
+Dell Alienware m16,"power draw measurement example ( benchmark comparisons shunt modded m16 next best m16 improvement through shunt mod average 5090 laptop difference vs 5090 laptop average benchmark link :-- :-- :-- --: :-- --: :-- speedway 6911 ( steel nomad 6137 ( steel nomad light 27498 ( port royal 16323 ( time spy graphics 25444 ( time spy overall 23106 ( solar bay extreme 24617 ( average 19.2 3.5 conclusion if you can take the risk, shunt modding a 4090 laptop can get you performance matching or better than a majority of 5090 laptops for 1 2 the price.",0.8402,positive
+Dell Alienware m16,shunt modding a thin and light laptop can get almost as good a result as desktop replacements while still having good portability.,0.642,positive
+Dell Alienware m16,"it gets damn hot, lap cooler ordered.",-0.4019,negative
+Dell Alienware m16,every repair company says they can only repair by replacing the whole keyboard for like 200 whereas a key is like 10-20. does anyone know of a way to get this key replaced without the whole keyboard?,0.6124,positive
+Dell Alienware m16,i'm too broke right now for the whole keyboard.,-0.4215,negative
+Dell Alienware m16,i tried contacting dell customer service but they make it near impossible to contact them.,0.0,neutral
+Dell Alienware m16,"i need to access the fan in my laptop to see why it's making a grinding noise and see if i can clean the dust out a bit better, but i can't get into it.",0.5346,positive
+Dell Alienware m16,do i need to remove the screw in picture 2?,-0.1027,negative
+Dell Alienware m16,"if so, what tool would you recommend, as i have not had luck with it so far.",0.0052,neutral
+Dell Alienware m16,thank you!,0.4199,positive
+Dell Alienware m16,"my laptop doesn't have dell power manager, i change the battery settings on bios sarts charging at 75 and stops at 80, first few days it did work, but right now it doesn't work at all, i checked my bios settings it is still set to custom, but whenever i charge it it goes over 80, i tried updating bios but it still doesn't work, can you guys share some of your experience and how did you fix it, it would really help",0.7572,positive
+Dell Alienware m16,"hi, i just wanted to share my experience with my alienware m16 r2.",0.296,positive
+Dell Alienware m16,the problems started as soon as i bought it.,-0.4019,negative
+Dell Alienware m16,"1. just working with basic applications and listening to youtube, the temperature reaches 70 c. 2. games like fortnite in performance mode don't go above 80 fps, and the fans are at 70 of their capacity.",0.4019,positive
+Dell Alienware m16,3. the graphics configuration option in the nvidia control panel constantly disappears; i have to restart for it to reappear.,-0.34,negative
+Dell Alienware m16,"i could list many more problems, but i'd like to know what other people with this model have experienced.",0.3079,positive
+Dell Alienware m16,what problems have they had?,-0.4019,negative
+Dell Alienware m16,and could you give me tips on how to get the most out of it or improve certain aspects?,0.6124,positive
+Dell Alienware m16,it was working fine all day then suddenly stopped working - no audio will come out of my laptop s speakers.,-0.3182,negative
+Dell Alienware m16,"i've tried updating the drivers, power switching, updating, even the obvious ensuring it's not mute or it's on the correct audio source.",0.2732,positive
+Dell Alienware m16,anyone have any insight into the issue?,0.0,neutral
+Dell Alienware m16,brand new laptop barely a month old.,0.0,neutral
+Dell Alienware m16,update: resolved - check comments,0.1779,positive
+Dell Alienware m16,i wanted to share with you guys what i have observed based on some people who posts the same issue that i currently have right now.,0.296,positive
+Dell Alienware m16,"today, i have decided to clean my laptop since it has been 2 years since i purchased and have been using it.",0.4019,positive
+Dell Alienware m16,while i was trying to disassemble my unit i have found out that the power connector going to the motherboard is melted.,0.0,neutral
+Dell Alienware m16,"and to my surprise, my system still works with it but is not able to pull full performance hence why i decided to clean it.",0.6249,positive
+Dell Alienware m16,"any help,recommendations and advices are very welcome.",0.5095,positive
+Dell Alienware m16,p.s i am very careful and take good care of my system.,0.7902,positive
+Dell Alienware m16,it has been on a cooling pad with dust filters since day 1. i also found out there isn't much dust accumulation through years of use.,0.0,neutral
+Dell Alienware m16,(ave 6-8 hours of use everyday),0.0,neutral
+Dell Alienware m16,she's overheating bad .,-0.5423,negative
+Dell Alienware m16,here are some pics of the motherboard.,0.0,neutral
+Dell Alienware m16,"the cpu and gpu both have foam borders that compress when the heatsink is pressed on, creating essentially a gasket.",0.296,positive
+Dell Alienware m16,i just want some input!,0.1511,positive
+Dell Alienware m16,we bought an alienware m16 laptop at my workplace for video editing purposes only.,0.0,neutral
+Dell Alienware m16,since it's a company property i never used it for anything else - no gaming at all.,-0.296,negative
+Dell Alienware m16,today it randomly died out of nowhere.,-0.5574,negative
+Dell Alienware m16,"it was working fine the whole day, even right before i left the office.",0.2023,positive
+Dell Alienware m16,i just closed it without turning it off as i always do since i continue working at home.,0.0,neutral
+Dell Alienware m16,"when i opened it up again, firstly the keyboard started acting up.",0.0,neutral
+Dell Alienware m16,"i wanted to enter my pin, but when i pressed a key once, it pressed it twice.",0.0,neutral
+Dell Alienware m16,"the keyboard didn't function properly basically at all, then the backlight turned off and the keyboard stopped reacting completely.",-0.2263,negative
+Dell Alienware m16,"so i shut the laptop down properly to restart it, and when i turned it on, the alien figure started blinking.",0.0,neutral
+Dell Alienware m16,"i thought the battery died so i plugged it in, but the screen didn't turn on.",-0.3182,negative
+Dell Alienware m16,i just heard the windows sound but black screen.,0.0,neutral
+Dell Alienware m16,"as this happened before, i pressed the d button during reboot as that brought up the bios and solved the issue normally.",0.2732,positive
+Dell Alienware m16,"this time the keyboard went crazy, then the laptop turned off and since then i cannot turn it back on.",-0.34,negative
+Dell Alienware m16,it's really annoying as this is a really expensive laptop.,-0.4576,negative
+Dell Alienware m16,did i do anything wrong?,-0.4767,negative
+Dell Alienware m16,i don't understand what's the issue or what happened out of nowhere.,0.0,neutral
+Dell Alienware m16,event loggers only show hypervisor logs before crash.,-0.4019,negative
+Dell Alienware m16,"disabled every bit of hypervisor, virtualization, overclocking, reinstalled drivers, checked vents, disabled hybrid graphics, still does it.",0.0,neutral
+Dell Alienware m16,i'll be gaming and then boom it goes bfocnefocmforndocifjd or whatever the last sound was and then turns off and back on.,0.0,neutral
+Dell Alienware m16,minidumps from driver verifier really only show issues that would show up as a result of a crash not the problem itself.,-0.1134,negative
+Dell Alienware m16,anyone else with this issue?,0.0,neutral
+Dell Alienware m16,"hey everyone, for the past few years i've managed my laptop overheating by using a portable fan underneath it.",0.3182,positive
+Dell Alienware m16,"however, after a recent update to an old game, it's been getting much hotter than before.",0.0,neutral
+Dell Alienware m16,"i'm already playing on the lowest graphics settings, so i'm not sure what else i can do.",-0.4635,negative
+Dell Alienware m16,any advice would be appreciated.,0.5106,positive
+Dell Alienware m16,thanks,0.4404,positive
+Dell Alienware m16,"i get the error code 2, 2 and it never gets to post.",-0.4019,negative
+Dell Alienware m16,it didnt loose power or anything during the update and j was a foot away and the screen just went black and it just does nothing.,0.2411,positive
+Dell Alienware m16,please send help,0.6124,positive
+Dell Alienware m16,picked up my first alienware laptop.,0.0,neutral
+Dell Alienware m16,"specs are ultra 7, 4060, 16gb ram, and 1tb storage.",0.0,neutral
+Dell Alienware m16,"not a heavy gamer, but wanted one for the few instances that i do.",0.0,neutral
+Dell Alienware m16,please leave any advice or recommendations.,0.2732,positive
+Dell Alienware m16,ive had this laptop for about one year now i think?,0.0,neutral
+Dell Alienware m16,"its great, i love it, but recently ive been experiencing some issues with the cooling.",0.631,positive
+Dell Alienware m16,"as you can see in the image below, these are my average idle temperatures with no other apps open or running expect for roblox on the homepage.",-0.296,negative
+Dell Alienware m16,ive also have been experiencing major performance drops.,0.0,neutral
+Dell Alienware m16,"(im talking 30 fps max on low graphics in a freaking roblox game) these issues have been popping up ever since i updated my nvidia drivers to version 595.59. my warranty on it just recently ended and i really don't want to have to potentially waste money fixing it when the fix could just be really simple, so im taking it here.",-0.802,negative
+Dell Alienware m16,"(and yes ive tried updating to the new version, downgrading drivers, downloading drivers from dell, updating bios, and cleaning the fans)",0.4019,positive

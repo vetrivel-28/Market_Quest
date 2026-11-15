@@ -60,13 +60,19 @@ st.markdown("""
 
 @st.cache_data
 def load_data():
-    """Load all analysis data from amazon_final_files/ and reddit_vader_results/."""
+    """Load analysis data from datasets/amazon_final_files/ and datasets/reddit_vader_results/."""
     import glob, os, re as _re
     from collections import defaultdict
     data = {}
 
-    AMAZON_DIR = 'amazon_final_files'
-    REDDIT_DIR = 'reddit_vader_results/reddit_vader_results'
+    BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+    AMAZON_DIR = os.path.join(BASE_DIR, 'datasets', 'amazon_final_files')
+    REDDIT_DIR = os.path.join(BASE_DIR, 'datasets', 'reddit_vader_results')
+
+    if not os.path.isdir(AMAZON_DIR):
+        print(f"Warning: Amazon dataset directory not found: {AMAZON_DIR}")
+    if not os.path.isdir(REDDIT_DIR):
+        print(f"Warning: Reddit dataset directory not found: {REDDIT_DIR}")
 
     BRAND_PREFIXES = ['ASUS', 'HP', 'Dell', 'Lenovo', 'Apple', 'MSI', 'Acer']
 

@@ -1,271 +1,327 @@
-﻿import { useEffect, useState, useMemo } from "react";
+import React, { useEffect, useState, useMemo } from "react";
 import { getCompetitorAdvantages } from "../api";
-import { BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer, Cell, Legend } from "recharts";
+import {
+  useFilters,
+  BRAND_COLORS,
+} from "../context/FilterContext";
+import VisualContainer from "../components/VisualContainer";
+import KPICard from "../components/KPICard";
+import {
+  BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer,
+  Legend, Cell,
+} from "recharts";
 
-const BC   = { ASUS:"#6366f1", HP:"#22c55e", Dell:"#f59e0b", Lenovo:"#06b6d4" };
-const SEV  = { High:{ color:"#b91c1c", bg:"#fee2e2", label:"High" }, Medium:{ color:"#92400e", bg:"#fef3c7", label:"Medium" }, Low:{ color:"#15803d", bg:"#dcfce7", label:"Low" } };
-const TYPE = { price:"Price", rating:"Rating", feature:"Feature", complaint:"Complaint" };
-const TYPE_COLOR = { price:"#22c55e", rating:"#fbbf24", feature:"#06b6d4", complaint:"#f97316" };
+const SEVERITY_COLORS = {
+  High: { bg: "#fee2e2", text: "#991b1b", border: "#fca5a5" },
+  Medium: { bg: "#fef3c7", text: "#92400e", border: "#fcd34d" },
+  Low: { bg: "#d1fae5", text: "#065f46", border: "#6ee7b7" },
+};
 
-function SevBadge({ sev }) {
-  const s = SEV[sev] || SEV.Low;
-  return <span style={{ background:s.bg, color:s.color, borderRadius:4, padding:"2px 8px", fontSize:"0.72rem", fontWeight:700, whiteSpace:"nowrap" }}>{s.label}</span>;
-}
+const ADV_TYPE_COLORS = {
+  price: "#2563eb",
+  rating: "#0891b2",
+  feature: "#059669",
+  complaint: "#dc2626",
+};
 
-function MetricCard({ label, value, sub, color }) {
-  return (
-    <div className="metric-card">
-      <div className="label">{label}</div>
-      <div className="value" style={{ color: color||"var(--accent2)", fontSize:"1.4rem" }}>{value}</div>
-      {sub && <div style={{ fontSize:"0.72rem", color:"var(--muted)", marginTop:3 }}>{sub}</div>}
-    </div>
-  );
-}
+export default function CompetitorAdvantages() {
+  const { target } = useFilters();
 
-export default function CompetitorAdvantages({ target }) {
-  const [all, setAll]           = useState([]);
-  const [loading, setLoading]   = useState(true);
-  const [err, setErr]           = useState(null);
-  const [fBrand, setFBrand]     = useState("All");
-  const [fSev, setFSev]         = useState("All");
-  const [fType, setFType]       = useState("All");
-  const [expanded, setExpanded] = useState({});
+  const [allAdvantages, setAllAdvantages] = useState([]);
+  const [loading, setLoading] = useState(true);
+  const [fCompetitor, setFCompetitor] = useState("All");
+  const [fSeverity, setFSeverity] = useState("All");
+  const [fType, setFType] = useState("All");
 
   useEffect(() => {
     setLoading(true);
     getCompetitorAdvantages(target)
-      .then(r => { setAll(r.data.advantages || []); setLoading(false); })
-      .catch(e => { setErr(e.message); setLoading(false); });
+      .then((r) => {
+        setAllAdvantages(r.data.advantages || []);
+        setLoading(false);
+      })
+      .catch(() => setLoading(false));
   }, [target]);
 
-  const brands = useMemo(() => ["All", ...Array.from(new Set(all.map(a => a.competitor).filter(b => b !== "ASUS")))], [all]);
-  const types  = ["All", "price", "rating", "feature", "complaint"];
-  const sevs   = ["All", "High", "Medium", "Low"];
+  const competitorsList = useMemo(() => {
+    const list = Array.from(new Set(allAdvantages.map((a) => a.competitor).filter((c) => c !== target)));
+    return ["All", ...list];
+  }, [allAdvantages, target]);
 
-  const filtered = useMemo(() => all.filter(a =>
-    a.competitor !== "ASUS" &&
-    (fBrand === "All" || a.competitor === fBrand) &&
-    (fSev   === "All" || a.severity   === fSev) &&
-    (fType  === "All" || a.adv_type   === fType)
-  ), [all, fBrand, fSev, fType]);
+  const filteredAdvantages = useMemo(() => {
+    return allAdvantages.filter((adv) => {
+      if (adv.competitor === target) return false;
+      if (fCompetitor !== "All" && adv.competitor !== fCompetitor) return false;
+      if (fSeverity !== "All" && adv.severity !== fSeverity) return false;
+      if (fType !== "All" && adv.adv_type !== fType) return false;
+      return true;
+    });
+  }, [allAdvantages, target, fCompetitor, fSeverity, fType]);
 
-  // Feature frequency chart — how many times each feature beats ASUS
-  const featChart = useMemo(() => {
+  // Aggregate count by competitor
+  const competitorBarData = useMemo(() => {
     const counts = {};
-    filtered.forEach(a => {
-      const k = a.advantage;
-      if (!counts[k]) counts[k] = { feature:k, High:0, Medium:0, Low:0, total:0 };
-      counts[k][a.severity]++;
-      counts[k].total++;
+    allAdvantages.forEach((adv) => {
+      if (adv.competitor === target) return;
+      if (!counts[adv.competitor]) {
+        counts[adv.competitor] = { competitor: adv.competitor, High: 0, Medium: 0, Low: 0, total: 0 };
+      }
+      counts[adv.competitor][adv.severity] = (counts[adv.competitor][adv.severity] || 0) + 1;
+      counts[adv.competitor].total += 1;
     });
-    return Object.values(counts).sort((a,b) => b.total - a.total).slice(0, 10);
-  }, [filtered]);
+    return Object.values(counts);
+  }, [allAdvantages, target]);
 
-  // Group by competitor brand -> model
-  const grouped = useMemo(() => {
-    const g = {};
-    filtered.forEach(a => {
-      if (!g[a.competitor]) g[a.competitor] = {};
-      const key = a.competitor_model + " vs " + a.target_model;
-      if (!g[a.competitor][key]) g[a.competitor][key] = { competitor_model:a.competitor_model, target_model:a.target_model, items:[] };
-      g[a.competitor][key].items.push(a);
+  // Type breakdown
+  const typeCounts = useMemo(() => {
+    const counts = { price: 0, rating: 0, feature: 0, complaint: 0 };
+    filteredAdvantages.forEach((adv) => {
+      if (counts[adv.adv_type] !== undefined) counts[adv.adv_type]++;
     });
-    // Sort each brand's matchups by High count desc
-    Object.keys(g).forEach(brand => {
-      const sorted = Object.values(g[brand]).sort((a,b) => {
-        const ha = a.items.filter(x=>x.severity==="High").length;
-        const hb = b.items.filter(x=>x.severity==="High").length;
-        return hb - ha;
-      });
-      g[brand] = sorted;
-    });
-    return g;
-  }, [filtered]);
+    return counts;
+  }, [filteredAdvantages]);
 
-  // Executive summary stats
-  const highCount    = filtered.filter(a => a.severity === "High").length;
-  const featuresHit  = new Set(filtered.map(a => a.advantage)).size;
-  const brandsAhead  = new Set(filtered.map(a => a.competitor)).size;
-
-  if (loading) return <div style={{ color:"var(--muted)", padding:"3rem", textAlign:"center" }}>Analysing competitor data...</div>;
-  if (err)     return <div style={{ color:"var(--red)", padding:"1rem" }}>Error: {err}</div>;
+  const highSeverityCount = filteredAdvantages.filter((a) => a.severity === "High").length;
+  const mediumSeverityCount = filteredAdvantages.filter((a) => a.severity === "Medium").length;
 
   return (
     <div>
-      <div className="page-title">Competitor Advantages vs {target}</div>
-
-      {/* Executive Summary */}
-      <div className="metric-grid" style={{ marginBottom:"1.5rem" }}>
-        <MetricCard label="Total Advantages"       value={filtered.length}  sub={`of ${all.filter(a=>a.competitor!=="ASUS").length} total`} />
-        <MetricCard label="High Impact"            value={highCount}        color="var(--red)"    sub="severity: High" />
-        <MetricCard label="Competitor Brands Ahead" value={brandsAhead}     color="var(--yellow)" sub="brands outperforming" />
-        <MetricCard label="Features Outperformed"  value={featuresHit}      color="#06b6d4"       sub="distinct features" />
-      </div>
-
-      {/* Active filter summary */}
-      <div style={{ fontSize:"0.78rem", color:"var(--muted)", marginBottom:"1rem", display:"flex", gap:8, flexWrap:"wrap", alignItems:"center" }}>
-        <span>Active filters:</span>
-        <span style={{ background:"var(--surface2)", borderRadius:4, padding:"2px 8px" }}>Brand: {fBrand}</span>
-        <span style={{ background:"var(--surface2)", borderRadius:4, padding:"2px 8px" }}>Severity: {fSev}</span>
-        <span style={{ background:"var(--surface2)", borderRadius:4, padding:"2px 8px" }}>Type: {fType}</span>
-        {(fBrand!=="All"||fSev!=="All"||fType!=="All") && (
-          <button onClick={()=>{setFBrand("All");setFSev("All");setFType("All");}} style={{ background:"var(--red)", color:"#fff", border:"none", borderRadius:4, padding:"2px 8px", fontSize:"0.72rem", cursor:"pointer" }}>Clear</button>
-        )}
-      </div>
-
-      {/* Filters */}
-      <div className="card" style={{ marginBottom:"1.5rem" }}>
-        <div style={{ display:"flex", gap:24, flexWrap:"wrap" }}>
+      {/* Page Header */}
+      <div className="pbi-page-header">
+        <div className="pbi-breadcrumb">MarketQuest Studio / Reports / Competitor Advantages</div>
+        <div className="pbi-page-title-row">
           <div>
-            <div style={{ fontSize:"0.72rem", color:"var(--muted)", marginBottom:6, textTransform:"uppercase", letterSpacing:"0.05em" }}>Competitor Brand</div>
-            <div style={{ display:"flex", gap:6, flexWrap:"wrap" }}>
-              {brands.map(b => (
-                <button key={b} onClick={()=>setFBrand(b)} style={{
-                  padding:"5px 14px", borderRadius:6, fontSize:"0.8rem", cursor:"pointer",
-                  background: fBrand===b ? (BC[b]||"var(--accent)") : "var(--surface2)",
-                  color: fBrand===b ? "#fff" : "var(--muted)",
-                  border:"1px solid "+(fBrand===b?"transparent":"var(--border)"),
-                }}>{b}</button>
-              ))}
-            </div>
-          </div>
-          <div>
-            <div style={{ fontSize:"0.72rem", color:"var(--muted)", marginBottom:6, textTransform:"uppercase", letterSpacing:"0.05em" }}>Severity</div>
-            <div style={{ display:"flex", gap:6 }}>
-              {sevs.map(s => {
-                const sc = SEV[s];
-                return <button key={s} onClick={()=>setFSev(s)} style={{
-                  padding:"5px 14px", borderRadius:6, fontSize:"0.8rem", cursor:"pointer",
-                  background: fSev===s ? (sc?.color||"var(--accent)") : "var(--surface2)",
-                  color: fSev===s ? "#fff" : "var(--muted)",
-                  border:"1px solid "+(fSev===s?"transparent":"var(--border)"),
-                }}>{s}</button>;
-              })}
-            </div>
-          </div>
-          <div>
-            <div style={{ fontSize:"0.72rem", color:"var(--muted)", marginBottom:6, textTransform:"uppercase", letterSpacing:"0.05em" }}>Advantage Type</div>
-            <div style={{ display:"flex", gap:6, flexWrap:"wrap" }}>
-              {types.map(t => (
-                <button key={t} onClick={()=>setFType(t)} style={{
-                  padding:"5px 14px", borderRadius:6, fontSize:"0.8rem", cursor:"pointer",
-                  background: fType===t ? (TYPE_COLOR[t]||"var(--accent)") : "var(--surface2)",
-                  color: fType===t ? "#fff" : "var(--muted)",
-                  border:"1px solid "+(fType===t?"transparent":"var(--border)"),
-                }}>{TYPE[t]||"All"}</button>
-              ))}
-            </div>
+            <h1 className="pbi-page-title">Competitor Advantage Matrix & Threat Heatmap</h1>
+            <p className="pbi-page-desc">
+              Systematic inventory of pricing gaps, star rating leads, feature superiority, and lower complaint rates held by rivals over {target}.
+            </p>
           </div>
         </div>
       </div>
 
-      {filtered.length === 0 ? (
-        <div className="card"><p style={{ color:"var(--green)" }}>No advantages match the current filters.</p></div>
-      ) : (
-        <>
-          {/* Feature frequency chart */}
-          <div className="card" style={{ marginBottom:"1.5rem" }}>
-            <div className="section-title">Features Where Competitors Beat {target}</div>
-            <p style={{ fontSize:"0.78rem", color:"var(--muted)", marginBottom:"0.75rem" }}>Number of competitor models outperforming ASUS per feature, stacked by severity.</p>
-            <ResponsiveContainer width="100%" height={240}>
-              <BarChart data={featChart} margin={{ bottom:10 }}>
-                <XAxis dataKey="feature" tick={{ fill:"#94a3b8", fontSize:11 }} />
-                <YAxis tick={{ fill:"#94a3b8" }} allowDecimals={false} />
-                <Tooltip contentStyle={{ background:"#ffffff", border:"1px solid #e2e8f0" }} />
-                <Legend />
-                <Bar dataKey="High"   stackId="a" fill="#ef4444" radius={[0,0,0,0]} />
-                <Bar dataKey="Medium" stackId="a" fill="#f59e0b" radius={[0,0,0,0]} />
-                <Bar dataKey="Low"    stackId="a" fill="#22c55e" radius={[4,4,0,0]} />
-              </BarChart>
-            </ResponsiveContainer>
-          </div>
+      {/* KPI Cards */}
+      <div className="pbi-grid-kpis">
+        <KPICard
+          title="Total Advantage Signals"
+          value={filteredAdvantages.length}
+          businessQuestion="How many verified statistical advantages are held by rivals over target?"
+          grain="Signal Pair"
+          denominator="Matched Model Pairs"
+          delta={filteredAdvantages.length}
+          deltaLabel="active"
+        />
+        <KPICard
+          title="High Severity Threats"
+          value={highSeverityCount}
+          businessQuestion="How many advantages involve critical pricing (&gt;₹10k) or feature (&gt;30%) leads?"
+          grain="Severity High"
+          denominator="Priority Action Needed"
+          delta={highSeverityCount}
+          deltaLabel="urgent"
+          isPositiveGood={false}
+        />
+        <KPICard
+          title="Price Advantage Gaps"
+          value={typeCounts.price}
+          businessQuestion="How many competing models undercut target spec peers by ₹3,000 or more?"
+          grain="Price Delta"
+          denominator="Direct Spec Peers"
+          delta={typeCounts.price}
+          deltaLabel="skus"
+          isPositiveGood={false}
+        />
+        <KPICard
+          title="Feature Superiority Leads"
+          value={typeCounts.feature}
+          businessQuestion="How many hardware aspects show &gt;15% higher customer satisfaction for rivals?"
+          grain="Aspect Satisfaction"
+          denominator="Customer Review Sentences"
+          delta={typeCounts.feature}
+          deltaLabel="aspects"
+          isPositiveGood={false}
+        />
+        <KPICard
+          title="Lower Complaint Leads"
+          value={typeCounts.complaint}
+          businessQuestion="In how many cases do rivals enjoy &gt;15% lower complaint frequencies?"
+          grain="Complaint Frequency"
+          denominator="Negative Sentiment Mentions"
+          delta={typeCounts.complaint}
+          deltaLabel="aspects"
+          isPositiveGood={false}
+        />
+      </div>
 
-          {/* Grouped cards */}
-          {Object.entries(grouped).map(([brand, matchups]) => (
-            <div key={brand} style={{ marginBottom:"1.5rem" }}>
-              {/* Brand header */}
-              <div style={{ display:"flex", alignItems:"center", gap:10, marginBottom:"0.75rem" }}>
-                <span style={{ width:12, height:12, borderRadius:3, background:BC[brand]||"#6366f1", display:"inline-block" }} />
-                <span style={{ fontWeight:700, color:BC[brand]||"var(--text)", fontSize:"1.05rem" }}>{brand}</span>
-                <span style={{ fontSize:"0.78rem", color:"var(--muted)" }}>{matchups.reduce((s,m)=>s+m.items.length,0)} advantages across {matchups.length} matchup{matchups.length>1?"s":""}</span>
-                <span style={{ marginLeft:"auto", background:"#fee2e2", color:"#b91c1c", borderRadius:4, padding:"2px 8px", fontSize:"0.72rem", fontWeight:700 }}>
-                  {matchups.reduce((s,m)=>s+m.items.filter(x=>x.severity==="High").length,0)} High
-                </span>
-              </div>
+      {/* Slicer Ribbon for Advantage Filtering */}
+      <div
+        style={{
+          display: "flex",
+          gap: 12,
+          padding: "10px 14px",
+          background: "#ffffff",
+          border: "1px solid #e2e8f0",
+          borderRadius: 8,
+          marginBottom: "1.25rem",
+          alignItems: "center",
+          flexWrap: "wrap",
+        }}
+      >
+        <div style={{ display: "flex", alignItems: "center", gap: 6 }}>
+          <span style={{ fontSize: "0.74rem", fontWeight: 700, color: "#64748b" }}>RIVAL:</span>
+          <select className="pbi-select" value={fCompetitor} onChange={(e) => setFCompetitor(e.target.value)}>
+            {competitorsList.map((c) => (
+              <option key={c} value={c}>{c}</option>
+            ))}
+          </select>
+        </div>
 
-              {/* Top 3 critical per brand callout */}
-              {(() => {
-                const top3 = matchups.flatMap(m=>m.items).filter(a=>a.severity==="High").slice(0,3);
-                if (!top3.length) return null;
-                return (
-                  <div style={{ background:"#ffffff", border:"1px solid var(--border)", borderLeft:"3px solid #dc2626", borderRadius:8, padding:"10px 14px", marginBottom:"0.75rem" }}>
-                    <div style={{ fontSize:"0.72rem", color:"#dc2626", fontWeight:700, marginBottom:6, textTransform:"uppercase" }}>Top Critical Advantages</div>
-                    {top3.map((a,i) => (
-                      <div key={i} style={{ fontSize:"0.82rem", color:"var(--text)", marginBottom:4 }}>
-                        <span style={{ color:"#dc2626" }}>▶ </span>
-                        <span style={{ fontWeight:600 }}>{a.competitor_model}</span>
-                        <span style={{ color:"var(--muted)" }}> vs {a.target_model} — </span>
-                        <span>{TYPE[a.adv_type]||a.adv_type} · {a.detail}</span>
-                      </div>
-                    ))}
-                  </div>
-                );
-              })()}
+        <div style={{ display: "flex", alignItems: "center", gap: 6 }}>
+          <span style={{ fontSize: "0.74rem", fontWeight: 700, color: "#64748b" }}>SEVERITY:</span>
+          <select className="pbi-select" value={fSeverity} onChange={(e) => setFSeverity(e.target.value)}>
+            {["All", "High", "Medium", "Low"].map((s) => (
+              <option key={s} value={s}>{s}</option>
+            ))}
+          </select>
+        </div>
 
-              {/* Matchup cards */}
-              {matchups.map((mu, mi) => {
-                const key = brand+"-"+mi;
-                const isOpen = expanded[key];
-                const highN = mu.items.filter(x=>x.severity==="High").length;
-                return (
-                  <div key={mi} className="card" style={{ marginBottom:"0.6rem", borderLeft:"3px solid "+(BC[brand]||"#6366f1") }}>
-                    <div style={{ display:"flex", justifyContent:"space-between", alignItems:"center" }}>
-                      <div>
-                        <span style={{ fontWeight:700, color:BC[brand]||"var(--text)" }}>{mu.competitor_model}</span>
-                        <span style={{ color:"var(--muted)", fontSize:"0.82rem" }}> vs </span>
-                        <span style={{ fontWeight:600, color:"var(--accent2)" }}>{mu.target_model}</span>
-                        <span style={{ marginLeft:10, fontSize:"0.78rem", color:"var(--muted)" }}>{mu.items.length} advantage{mu.items.length>1?"s":""}</span>
-                        {highN > 0 && <span style={{ marginLeft:6, background:"#fee2e2", color:"#b91c1c", borderRadius:4, padding:"1px 6px", fontSize:"0.7rem", fontWeight:700 }}>{highN} High</span>}
-                      </div>
-                      <button onClick={()=>setExpanded(p=>({...p,[key]:!p[key]}))} style={{ background:"var(--surface2)", border:"1px solid var(--border)", color:"var(--muted)", borderRadius:6, padding:"3px 10px", fontSize:"0.78rem", cursor:"pointer" }}>
-                        {isOpen?"▲ Hide":"▼ Show"}
-                      </button>
-                    </div>
+        <div style={{ display: "flex", alignItems: "center", gap: 6 }}>
+          <span style={{ fontSize: "0.74rem", fontWeight: 700, color: "#64748b" }}>TYPE:</span>
+          <select className="pbi-select" value={fType} onChange={(e) => setFType(e.target.value)}>
+            {["All", "price", "rating", "feature", "complaint"].map((t) => (
+              <option key={t} value={t}>{t.toUpperCase()}</option>
+            ))}
+          </select>
+        </div>
 
-                    {isOpen && (
-                      <div style={{ marginTop:"0.75rem" }}>
-                        {mu.items.map((a, ai) => (
-                          <div key={ai} style={{
-                            display:"flex", justifyContent:"space-between", alignItems:"flex-start",
-                            padding:"8px 10px", borderRadius:6, marginBottom:4,
-                            background:"#ffffff",
-                            border:"1px solid var(--border)",
-                            borderLeft:"3px solid "+(SEV[a.severity]?.color||"var(--muted)"),
-                          }}>
-                            <div style={{ flex:1 }}>
-                              <div style={{ display:"flex", alignItems:"center", gap:8, marginBottom:3 }}>
-                                <span style={{ fontSize:"0.82rem", color:TYPE_COLOR[a.adv_type]||"var(--text)", fontWeight:600 }}>
-                                  {TYPE[a.adv_type]||a.adv_type}
-                                </span>
-                                <span style={{ fontSize:"0.78rem", color:"var(--muted)" }}>· {a.advantage}</span>
-                              </div>
-                              <div style={{ fontSize:"0.8rem", color:"var(--text)" }}>{a.detail}</div>
-                            </div>
-                            <div style={{ display:"flex", flexDirection:"column", alignItems:"flex-end", gap:4, marginLeft:12 }}>
-                              <SevBadge sev={a.severity} />
-                              {a.metric && <span style={{ fontSize:"0.78rem", color:SEV[a.severity]?.color||"var(--muted)", fontWeight:700 }}>{a.metric}</span>}
-                            </div>
-                          </div>
-                        ))}
-                      </div>
-                    )}
-                  </div>
-                );
-              })}
-            </div>
-          ))}
-        </>
-      )}
+        {(fCompetitor !== "All" || fSeverity !== "All" || fType !== "All") && (
+          <button
+            className="pbi-action-btn"
+            onClick={() => { setFCompetitor("All"); setFSeverity("All"); setFType("All"); }}
+            style={{ marginLeft: "auto", color: "#dc2626" }}
+          >
+            Clear Filters
+          </button>
+        )}
+      </div>
+
+      {/* Visuals: Rival Advantage Distribution Bar + Matrix Table */}
+      <div className="pbi-grid-2">
+        <VisualContainer
+          title="Competitor Advantages by Rival OEM & Severity"
+          businessQuestion="Which competing brand holds the highest concentration of high-severity advantages?"
+          data={competitorBarData}
+          exportFilename="competitor_advantages_by_oem"
+          sampleSize={`${allAdvantages.length} total signals`}
+        >
+          <ResponsiveContainer width="100%" height={260}>
+            <BarChart data={competitorBarData} margin={{ top: 10, right: 20, left: 0, bottom: 20 }}>
+              <XAxis dataKey="competitor" tick={{ fill: "#64748b", fontSize: 12 }} />
+              <YAxis tick={{ fill: "#64748b", fontSize: 11 }} />
+              <Tooltip contentStyle={{ background: "#ffffff", border: "1px solid #e2e8f0", borderRadius: 6, fontSize: "0.8rem" }} />
+              <Legend wrapperStyle={{ fontSize: "0.78rem" }} />
+              <Bar dataKey="High" stackId="a" fill="#dc2626" name="High Severity" />
+              <Bar dataKey="Medium" stackId="a" fill="#d97706" name="Medium Severity" />
+              <Bar dataKey="Low" stackId="a" fill="#059669" name="Low Severity" />
+            </BarChart>
+          </ResponsiveContainer>
+        </VisualContainer>
+
+        <VisualContainer
+          title={`Advantage Breakdown by Category (${filteredAdvantages.length} Verified)`}
+          businessQuestion="What proportion of rival leads stem from pricing vs feature sentiment vs complaints?"
+          data={[
+            { type: "Price Under-cut", count: typeCounts.price, fill: ADV_TYPE_COLORS.price },
+            { type: "Star Rating Lead", count: typeCounts.rating, fill: ADV_TYPE_COLORS.rating },
+            { type: "Feature Sentiment", count: typeCounts.feature, fill: ADV_TYPE_COLORS.feature },
+            { type: "Lower Complaint", count: typeCounts.complaint, fill: ADV_TYPE_COLORS.complaint },
+          ]}
+          exportFilename="advantage_category_breakdown"
+          sampleSize="Filtered advantages"
+        >
+          <ResponsiveContainer width="100%" height={260}>
+            <BarChart
+              data={[
+                { type: "Price", count: typeCounts.price, fill: ADV_TYPE_COLORS.price },
+                { type: "Rating", count: typeCounts.rating, fill: ADV_TYPE_COLORS.rating },
+                { type: "Feature", count: typeCounts.feature, fill: ADV_TYPE_COLORS.feature },
+                { type: "Complaint", count: typeCounts.complaint, fill: ADV_TYPE_COLORS.complaint },
+              ]}
+              layout="vertical"
+              margin={{ top: 10, right: 30, left: 30, bottom: 10 }}
+            >
+              <XAxis type="number" tick={{ fill: "#64748b", fontSize: 11 }} />
+              <YAxis type="category" dataKey="type" tick={{ fill: "#64748b", fontSize: 11 }} />
+              <Tooltip contentStyle={{ background: "#ffffff", border: "1px solid #e2e8f0", fontSize: "0.8rem" }} />
+              <Bar dataKey="count" radius={[0, 4, 4, 0]}>
+                <Cell fill={ADV_TYPE_COLORS.price} />
+                <Cell fill={ADV_TYPE_COLORS.rating} />
+                <Cell fill={ADV_TYPE_COLORS.feature} />
+                <Cell fill={ADV_TYPE_COLORS.complaint} />
+              </Bar>
+            </BarChart>
+          </ResponsiveContainer>
+        </VisualContainer>
+      </div>
+
+      {/* Granular Traceable Table */}
+      <VisualContainer
+        title="Traceable Competitor Advantage Matrix"
+        businessQuestion="What is the exact supporting metric and rival model for each advantage?"
+        data={filteredAdvantages}
+        exportFilename="traceable_competitor_advantages"
+        sampleSize={`${filteredAdvantages.length} records`}
+      >
+        <div style={{ overflowX: "auto" }}>
+          <table className="pbi-table">
+            <thead>
+              <tr>
+                <th>RIVAL BRAND</th>
+                <th>RIVAL MODEL</th>
+                <th>TARGET MODEL</th>
+                <th>ADVANTAGE DOMAIN</th>
+                <th>METRIC DELTA</th>
+                <th>SEVERITY</th>
+                <th>EVIDENCE DETAILS</th>
+              </tr>
+            </thead>
+            <tbody>
+              {filteredAdvantages.map((adv, idx) => (
+                <tr key={idx}>
+                  <td>
+                    <span
+                      className="pbi-badge"
+                      style={{
+                        backgroundColor: `${BRAND_COLORS[adv.competitor] || BRAND_COLORS.Market}15`,
+                        color: BRAND_COLORS[adv.competitor] || BRAND_COLORS.Market,
+                      }}
+                    >
+                      {adv.competitor}
+                    </span>
+                  </td>
+                  <td style={{ fontWeight: 600 }}>{adv.competitor_model}</td>
+                  <td>{adv.target_model}</td>
+                  <td style={{ fontWeight: 600 }}>{adv.advantage}</td>
+                  <td>
+                    <span style={{ fontWeight: 700, color: "#991b1b" }}>{adv.metric}</span>
+                  </td>
+                  <td>
+                    <span
+                      className="pbi-badge"
+                      style={{
+                        backgroundColor: SEVERITY_COLORS[adv.severity]?.bg || "#f1f5f9",
+                        color: SEVERITY_COLORS[adv.severity]?.text || "#475569",
+                      }}
+                    >
+                      {adv.severity}
+                    </span>
+                  </td>
+                  <td style={{ fontSize: "0.74rem", color: "#475569" }}>{adv.detail}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+      </VisualContainer>
     </div>
   );
 }

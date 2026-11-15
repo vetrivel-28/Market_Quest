@@ -171,3 +171,14 @@ if st.session_state.get('data_fetched'):
             st.info("No strategy generated yet.")
 else:
     st.info("👈 Configure settings and click 'Fetch Data' to begin analysis")
+# create a function to find duplicate values in a list 
+    # create a binary search implementation 
+    # create a binary search implementation 
+    # create a binary search implementation
+    # create a binary search implementation 
+
+        -- find top 5 customers by revenue in the last 30 days
+
+        -- find top 5 products by sales in the last 30 days
+    
+    
