@@ -599,17 +599,6 @@ The primary objective is to bridge the gap between raw product data and meaningf
 
 ---
 
-## 👨‍💻 Author
-
-**Vetrivel A.**
-
-Integrated M.Sc. Data Science
-Coimbatore Institute of Technology
-
-- GitHub: [@vetrivel-28](https://github.com/vetrivel-28)
-- Project: [MarketQuest](https://github.com/vetrivel-28/Market_Quest)
-
----
 
 \<p align="center">
 &#x20; \<strong>MarketQuest\</strong>
