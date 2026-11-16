@@ -4,9 +4,12 @@ Run with: uvicorn api.main:app --reload --port 8000
 """
 
 from contextlib import asynccontextmanager
+import logging
+import threading
+import time
 from model_groups import get_spec_peers, get_group_label, get_brand, GROUPS
 from model_prices import get_price_rating, MODEL_PRICE_RATING
-from fastapi import FastAPI, Query
+from fastapi import FastAPI, HTTPException, Query
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 import pandas as pd
@@ -16,6 +19,8 @@ import sys
 import re
 from collections import defaultdict
 from dotenv import load_dotenv
+
+logger = logging.getLogger(__name__)
 
 # Load .env from project root (one level up from api/)
 load_dotenv(os.path.join(os.path.dirname(__file__), "..", ".env"))
@@ -32,73 +37,77 @@ _rag_index = None
 _rag_embed = None
 _rag_embeddings = None
 rm = None
+_rag_lock = threading.Lock()
 
 
-def _init_rag():
+def _init_rag() -> bool:
     """Initialize the RAG model on the first chat request, not at startup."""
     global _rag_ready, _rag_df, _rag_index
     global _rag_embed, _rag_embeddings, rm
 
     if _rag_ready:
-        return
+        return True
 
-    orig_data = None
-    orig_cache = None
+    with _rag_lock:
+        if _rag_ready:
+            return True
 
-    try:
-        import rag_model as rag_module
-        rm = rag_module
+        orig_data = None
+        orig_cache = None
 
-        # Point the RAG model at the centralized datasets directory.
-        data_dir = os.path.join(BASE_DIR, "datasets", "reddit_vader_results")
-        if not os.path.isdir(data_dir):
-            raise FileNotFoundError(
-                f"Reddit dataset directory not found for RAG: {data_dir}"
-            )
-
-        cache_file = os.path.join(os.path.abspath(RAG_DIR), "rag_cache.pkl")
-
-        # Temporarily patch constants so the module uses absolute paths.
-        orig_data = rm.DATA_DIR
-        orig_cache = rm.CACHE_FILE
-        rm.DATA_DIR = data_dir
-        rm.CACHE_FILE = cache_file
-
-        from sentence_transformers import SentenceTransformer
-
-        print("Loading RAG dataset...")
-        _rag_df = rm.load_dataset(data_dir)
-
-        print("Loading embedding model...")
         try:
-            _rag_embed = SentenceTransformer(
-                "all-MiniLM-L6-v2", local_files_only=True
+            import rag_model as rag_module
+            rm = rag_module
+
+            data_dir = os.path.join(BASE_DIR, "datasets", "reddit_vader_results")
+            if not os.path.isdir(data_dir):
+                raise FileNotFoundError(
+                    f"Reddit dataset directory not found for RAG: {data_dir}"
+                )
+
+            cache_file = os.path.join(os.path.abspath(RAG_DIR), "rag_cache.pkl")
+
+            orig_data = rm.DATA_DIR
+            orig_cache = rm.CACHE_FILE
+            rm.DATA_DIR = data_dir
+            rm.CACHE_FILE = cache_file
+
+            from sentence_transformers import SentenceTransformer
+
+            logger.info("Loading RAG dataset")
+            _rag_df = rm.load_dataset(data_dir)
+
+            logger.info("Loading sentence embedding model")
+            try:
+                _rag_embed = SentenceTransformer(
+                    "all-MiniLM-L6-v2", local_files_only=True
+                )
+            except Exception:
+                logger.info("Local sentence model unavailable; trying model download")
+                _rag_embed = SentenceTransformer("all-MiniLM-L6-v2")
+
+            logger.info("Building FAISS index")
+            _rag_index, _rag_embeddings = rm.build_index(
+                _rag_df,
+                _rag_embed,
+                cache_file=cache_file
             )
+
+            _rag_ready = True
+            logger.info("RAG model ready")
+
         except Exception:
-            # Download only if the model is not already cached locally.
-            _rag_embed = SentenceTransformer("all-MiniLM-L6-v2")
+            _rag_ready = False
+            logger.exception("RAG initialization failed")
 
-        print("Building FAISS index...")
-        _rag_index, _rag_embeddings = rm.build_index(
-            _rag_df,
-            _rag_embed,
-            cache_file=cache_file
-        )
+        finally:
+            if rm is not None:
+                if orig_data is not None:
+                    rm.DATA_DIR = orig_data
+                if orig_cache is not None:
+                    rm.CACHE_FILE = orig_cache
 
-        _rag_ready = True
-        print("RAG model ready.")
-
-    except Exception as e:
-        _rag_ready = False
-        print(f"RAG init failed: {type(e).__name__}: {e}")
-
-    finally:
-        # Restore the module's original path constants even if initialization fails.
-        if rm is not None:
-            if orig_data is not None:
-                rm.DATA_DIR = orig_data
-            if orig_cache is not None:
-                rm.CACHE_FILE = orig_cache
+    return _rag_ready
 
 
 @asynccontextmanager
@@ -115,6 +124,31 @@ app.add_middleware(
     allow_methods=["*"],
     allow_headers=["*"],
 )
+
+
+@app.middleware("http")
+async def log_request_duration(request, call_next):
+    started_at = time.perf_counter()
+    try:
+        response = await call_next(request)
+    except Exception:
+        logger.exception(
+            "Request failed method=%s path=%s duration_ms=%.1f",
+            request.method,
+            request.url.path,
+            (time.perf_counter() - started_at) * 1000,
+        )
+        raise
+
+    logger.info(
+        "Request completed method=%s path=%s status=%s duration_ms=%.1f",
+        request.method,
+        request.url.path,
+        response.status_code,
+        (time.perf_counter() - started_at) * 1000,
+    )
+    return response
+
 
 # ── Constants ─────────────────────────────────────────────────────────────────
 AMAZON_DIR = os.path.join(BASE_DIR, "datasets", "amazon_final_files")
@@ -142,6 +176,7 @@ ASPECT_KEYWORDS = {
 
 # ── Data loading (cached at startup) ─────────────────────────────────────────
 _cache = {}
+_cache_lock = threading.Lock()
 
 
 def infer_brand(name: str) -> str:
@@ -174,10 +209,17 @@ def load_all() -> dict:
     if _cache:
         return _cache
 
+    with _cache_lock:
+        if _cache:
+            return _cache
+        return _load_all()
+
+
+def _load_all() -> dict:
     if not os.path.isdir(AMAZON_DIR):
-        print(f"Warning: Amazon dataset directory not found: {AMAZON_DIR}")
+        logger.warning("Amazon dataset directory not found: %s", AMAZON_DIR)
     if not os.path.isdir(REDDIT_DIR):
-        print(f"Warning: Reddit dataset directory not found: {REDDIT_DIR}")
+        logger.warning("Reddit dataset directory not found: %s", REDDIT_DIR)
 
     frames = []
     for fp in glob.glob(f"{AMAZON_DIR}/*.csv"):
@@ -189,6 +231,7 @@ def load_all() -> dict:
             df["source"] = "amazon"
             frames.append(df)
         except Exception:
+            logger.exception("Could not load Amazon CSV %s", fp)
             pass
 
     for fp in glob.glob(f"{REDDIT_DIR}/*.csv"):
@@ -202,6 +245,7 @@ def load_all() -> dict:
             df["source"] = "reddit"
             frames.append(df)
         except Exception:
+            logger.exception("Could not load Reddit CSV %s", fp)
             pass
 
     if not frames:
@@ -445,9 +489,9 @@ def get_model_aspects(brand: str = Query(default=None), model: str = Query(defau
         model = None
     d = load_all()
     df = d["model_aspects"].copy()
-    if brand:
+    if brand and not df.empty:
         df = df[df["brand"].str.lower() == brand.lower()]
-    if model:
+    if model and not df.empty:
         df = df[df["laptop_name"].str.lower() == model.lower()]
     df = df.where(pd.notna(df), None)
     return {"model_aspects": df.to_dict(orient="records")}
@@ -798,10 +842,10 @@ def chat(req: ChatRequest):
         _init_rag()
 
     if not _rag_ready or rm is None:
-        return {
-            "answer": "RAG model could not be initialized. Please check backend logs.",
-            "meta": None,
-        }
+        raise HTTPException(
+            status_code=503,
+            detail="RAG model is unavailable. Check backend logs.",
+        )
 
     try:
         # Product- and aspect-aware review retrieval.
@@ -967,8 +1011,12 @@ def chat(req: ChatRequest):
                 "gemini":     gemini_used,
             }
         }
-    except Exception as e:
-        return {"answer": f"Error: {str(e)}", "meta": None}
+    except Exception as exc:
+        logger.exception("Chat request failed")
+        raise HTTPException(
+            status_code=500,
+            detail="Chat request failed. Check backend logs.",
+        ) from exc
 
 
 @app.get("/")
@@ -1069,7 +1117,7 @@ def get_data_quality():
     missing_ratings = int(m["rating"].isnull().sum()) if not m.empty else 0
 
     return {
-        "status": "HEALTHY",
+        "status": "HEALTHY" if total_records else "EMPTY",
         "total_records_ingested": total_records,
         "sources_breakdown": sources,
         "null_sentence_count": null_sentences,

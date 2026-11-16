@@ -11,26 +11,62 @@ export default function StrengthsWeaknesses() {
   const [advantages, setAdvantages] = useState([]);
   const [opportunities, setOpportunities] = useState([]);
   const [loading, setLoading] = useState(true);
+  const [failedSections, setFailedSections] = useState([]);
+  const [error, setError] = useState("");
 
   // User-inspectable thresholds (Phase 5 requirement)
   const [strengthThreshold, setStrengthThreshold] = useState(45);
   const [weaknessThreshold, setWeaknessThreshold] = useState(15);
 
   useEffect(() => {
+    let active = true;
     setLoading(true);
-    Promise.all([
+    setError("");
+    setFailedSections([]);
+    setAspects([]);
+    setAdvantages([]);
+    setOpportunities([]);
+
+    Promise.allSettled([
       getModelAspects(target),
       getCompetitorAdvantages(target),
       getOpportunities(),
     ])
-      .then(([aspRes, advRes, oppRes]) => {
-        setAspects(aspRes.data.model_aspects || []);
-        setAdvantages(advRes.data.advantages || []);
-        setOpportunities(oppRes.data.opportunities || []);
+      .then(([aspResult, advResult, oppResult]) => {
+        if (!active) return;
+
+        const failures = [];
+        const applyResult = (result, setter, section, field) => {
+          if (
+            result.status === "fulfilled" &&
+            Array.isArray(result.value.data?.[field])
+          ) {
+            setter(result.value.data[field]);
+          } else {
+            setter([]);
+            failures.push(section);
+          }
+        };
+
+        applyResult(aspResult, setAspects, "aspect sentiment", "model_aspects");
+        applyResult(advResult, setAdvantages, "competitor threats", "advantages");
+        applyResult(oppResult, setOpportunities, "opportunities", "opportunities");
+
+        setFailedSections(failures);
+        if (failures.length) {
+          setError(`Could not load ${failures.join(", ")}. Affected counts are unavailable.`);
+        }
         setLoading(false);
-      })
-      .catch(() => setLoading(false));
+      });
+    return () => {
+      active = false;
+    };
   }, [target]);
+
+  const metricValue = (section, value) =>
+    loading ? "…" : failedSections.includes(section) ? "—" : value;
+  const metricDelta = (section, value) =>
+    loading || failedSections.includes(section) ? null : value;
 
   // Aggregate aspect metrics for target brand
   const aggregatedAspects = useMemo(() => {
@@ -133,44 +169,65 @@ export default function StrengthsWeaknesses() {
         </div>
       </div>
 
+      {loading && (
+        <div role="status" style={{ marginBottom: 12, color: "#475569" }}>
+          Loading SWOT analysis…
+        </div>
+      )}
+      {!loading && error && (
+        <div
+          role="alert"
+          style={{
+            marginBottom: 12,
+            padding: "10px 12px",
+            border: "1px solid #fecaca",
+            borderRadius: 6,
+            background: "#fef2f2",
+            color: "#991b1b",
+          }}
+        >
+          {error}
+        </div>
+      )}
+
       {/* KPI Ribbon */}
       <div className="pbi-grid-kpis">
         <KPICard
           title="Verified Strengths"
-          value={strengthsList.length}
+          value={metricValue("aspect sentiment", strengthsList.length)}
           businessQuestion="How many hardware aspects satisfy the user-defined strength threshold?"
           grain="Aspect Score"
           denominator={`Pos % ≥ ${strengthThreshold}%`}
-          delta={strengthsList.length}
+          delta={metricDelta("aspect sentiment", strengthsList.length)}
           deltaLabel="aspects"
           isPositiveGood={true}
         />
         <KPICard
           title="Critical Vulnerabilities"
-          value={weaknessesList.length}
+          value={metricValue("aspect sentiment", weaknessesList.length)}
           businessQuestion="How many hardware aspects exceed the critical complaint threshold?"
           grain="Aspect Score"
           denominator={`Neg % ≥ ${weaknessThreshold}%`}
-          delta={weaknessesList.length}
+          delta={metricDelta("aspect sentiment", weaknessesList.length)}
           deltaLabel="aspects"
           isPositiveGood={false}
         />
         <KPICard
           title="High-Demand Opportunities"
-          value={opportunitiesList.length}
+          value={metricValue("opportunities", opportunitiesList.length)}
           businessQuestion="How many market opportunity avenues exhibit surging customer discussion volume?"
           grain="Category Trend"
           denominator="Reddit + Amazon Discourse"
-          delta={opportunitiesList.length}
+          delta={metricDelta("opportunities", opportunitiesList.length)}
           deltaLabel="avenues"
         />
         <KPICard
           title="High-Severity Threats"
-          value={threatsList.length}
+          value={metricValue("competitor threats", threatsList.length)}
           businessQuestion="How many rival advantages pose urgent commercial displacement threat?"
           grain="Rival Signal"
           denominator="Severe Delta > 30%"
-          delta={threatsList.length}
+          delta={metricDelta("competitor threats", threatsList.length)}
           deltaLabel="threats"
           isPositiveGood={false}
         />
@@ -180,15 +237,23 @@ export default function StrengthsWeaknesses() {
       <div className="pbi-grid-2">
         {/* Quadrant 1: STRENGTHS */}
         <VisualContainer
-          title={`[S] Strengths — Verified Customer Praise (${strengthsList.length})`}
+          title={`[S] Strengths — Verified Customer Praise (${metricValue("aspect sentiment", strengthsList.length)})`}
           businessQuestion={`Which hardware aspects achieve ≥${strengthThreshold}% customer positive sentiment?`}
           data={strengthsList}
           exportFilename="swot_strengths"
-          sampleSize={`${strengthsList.length} aspects`}
+          sampleSize={`${metricValue("aspect sentiment", strengthsList.length)} aspects`}
           style={{ borderTop: "4px solid #059669" }}
         >
           <div style={{ display: "flex", flexDirection: "column", gap: 10, maxHeight: 340, overflowY: "auto" }}>
-            {strengthsList.length === 0 ? (
+            {loading ? (
+              <div style={{ color: "#64748b", fontSize: "0.8rem" }}>Loading aspect sentiment…</div>
+            ) : failedSections.includes("aspect sentiment") ? (
+              <div style={{ color: "#991b1b", fontSize: "0.8rem" }}>Aspect sentiment is unavailable because its request failed.</div>
+            ) : aspects.length === 0 ? (
+              <div style={{ color: "#64748b", fontSize: "0.8rem", textAlign: "center", padding: "1.5rem" }}>
+                No aspect data is available for {target}.
+              </div>
+            ) : strengthsList.length === 0 ? (
               <div style={{ color: "#64748b", fontSize: "0.8rem", textAlign: "center", padding: "1.5rem" }}>
                 No aspects meet the current ≥{strengthThreshold}% threshold.
               </div>
@@ -220,15 +285,23 @@ export default function StrengthsWeaknesses() {
 
         {/* Quadrant 2: WEAKNESSES */}
         <VisualContainer
-          title={`[W] Weaknesses — Customer Complaint Drivers (${weaknessesList.length})`}
+          title={`[W] Weaknesses — Customer Complaint Drivers (${metricValue("aspect sentiment", weaknessesList.length)})`}
           businessQuestion={`Which hardware aspects exceed the ≥${weaknessThreshold}% negative complaint threshold?`}
           data={weaknessesList}
           exportFilename="swot_weaknesses"
-          sampleSize={`${weaknessesList.length} aspects`}
+          sampleSize={`${metricValue("aspect sentiment", weaknessesList.length)} aspects`}
           style={{ borderTop: "4px solid #dc2626" }}
         >
           <div style={{ display: "flex", flexDirection: "column", gap: 10, maxHeight: 340, overflowY: "auto" }}>
-            {weaknessesList.length === 0 ? (
+            {loading ? (
+              <div style={{ color: "#64748b", fontSize: "0.8rem" }}>Loading aspect sentiment…</div>
+            ) : failedSections.includes("aspect sentiment") ? (
+              <div style={{ color: "#991b1b", fontSize: "0.8rem" }}>Aspect sentiment is unavailable because its request failed.</div>
+            ) : aspects.length === 0 ? (
+              <div style={{ color: "#64748b", fontSize: "0.8rem", textAlign: "center", padding: "1.5rem" }}>
+                No aspect data is available for {target}.
+              </div>
+            ) : weaknessesList.length === 0 ? (
               <div style={{ color: "#64748b", fontSize: "0.8rem", textAlign: "center", padding: "1.5rem" }}>
                 No aspects exceed the current ≥{weaknessThreshold}% complaint threshold.
               </div>
@@ -268,7 +341,15 @@ export default function StrengthsWeaknesses() {
           style={{ borderTop: "4px solid #0891b2" }}
         >
           <div style={{ display: "flex", flexDirection: "column", gap: 10, maxHeight: 340, overflowY: "auto" }}>
-            {opportunitiesList.map((opp, idx) => (
+            {loading ? (
+              <div style={{ color: "#64748b", fontSize: "0.8rem" }}>Loading opportunities…</div>
+            ) : failedSections.includes("opportunities") ? (
+              <div style={{ color: "#991b1b", fontSize: "0.8rem" }}>Opportunity data is unavailable because its request failed.</div>
+            ) : opportunitiesList.length === 0 ? (
+              <div style={{ color: "#64748b", fontSize: "0.8rem", textAlign: "center", padding: "1.5rem" }}>
+                No opportunity data was returned.
+              </div>
+            ) : opportunitiesList.map((opp, idx) => (
               <div
                 key={idx}
                 style={{
@@ -296,15 +377,23 @@ export default function StrengthsWeaknesses() {
 
         {/* Quadrant 4: THREATS */}
         <VisualContainer
-          title="[T] Competitive Threats — High-Severity Rival Leads"
+          title={`[T] Competitive Threats — High-Severity Rival Leads (${metricValue("competitor threats", threatsList.length)})`}
           businessQuestion="Which competing models exert immediate commercial pressure via pricing or ratings?"
           data={threatsList}
           exportFilename="swot_threats"
-          sampleSize={`${threatsList.length} high threats`}
+          sampleSize={`${metricValue("competitor threats", threatsList.length)} high threats`}
           style={{ borderTop: "4px solid #d97706" }}
         >
           <div style={{ display: "flex", flexDirection: "column", gap: 10, maxHeight: 340, overflowY: "auto" }}>
-            {threatsList.map((th, idx) => (
+            {loading ? (
+              <div style={{ color: "#64748b", fontSize: "0.8rem" }}>Loading competitor threats…</div>
+            ) : failedSections.includes("competitor threats") ? (
+              <div style={{ color: "#991b1b", fontSize: "0.8rem" }}>Competitor threat data is unavailable because its request failed.</div>
+            ) : threatsList.length === 0 ? (
+              <div style={{ color: "#64748b", fontSize: "0.8rem", textAlign: "center", padding: "1.5rem" }}>
+                No high-severity threats were returned.
+              </div>
+            ) : threatsList.map((th, idx) => (
               <div
                 key={idx}
                 style={{

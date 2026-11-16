@@ -51,7 +51,7 @@ export default function Chatbot() {
         ...p,
         {
           role: "bot",
-          text: "Could not communicate with the analytical backend. Please verify FastAPI is running on port 8000.",
+          text: "Could not get a response from the analytical backend. Please try again, or check backend availability.",
           meta: null,
         },
       ]);

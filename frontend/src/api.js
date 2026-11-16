@@ -1,35 +1,45 @@
 import axios from "axios";
 
-const BASE = "http://localhost:8000/api";
+const backendOrigin = (
+  import.meta.env.VITE_API_BASE_URL ||
+  (import.meta.env.DEV
+    ? "http://localhost:8000"
+    : "https://market-quest-6vg9.onrender.com")
+).replace(/\/+$/, "");
 
-export const getBrands = () => axios.get(`${BASE}/brands`);
-export const getModels = (brand) => axios.get(`${BASE}/models`, { params: brand ? { brand } : {} });
-export const getSentiment = () => axios.get(`${BASE}/sentiment`);
+const api = axios.create({
+  baseURL: `${backendOrigin}/api`,
+  timeout: 60000,
+});
+
+export const getBrands = () => api.get("/brands");
+export const getModels = (brand) => api.get("/models", { params: brand ? { brand } : {} });
+export const getSentiment = () => api.get("/sentiment");
 export const getAspects = (brand) =>
-  axios.get(`${BASE}/aspects`, { params: brand ? { brand } : {} });
+  api.get("/aspects", { params: brand ? { brand } : {} });
 export const getOpportunities = (brand) =>
-  axios.get(`${BASE}/opportunities`, { params: brand ? { brand } : {} });
+  api.get("/opportunities", { params: brand ? { brand } : {} });
 export const getModelAspects = (brand, model) =>
-  axios.get(`${BASE}/model-aspects`, { params: { brand, model } });
+  api.get("/model-aspects", { params: { brand, model } });
 export const getCompetitorAdvantages = (target) =>
-  axios.get(`${BASE}/competitor-advantages`, { params: { target } });
+  api.get("/competitor-advantages", { params: { target } });
 export const getSpecPeers = (model) =>
-  axios.get(`${BASE}/spec-peers`, { params: { model } });
+  api.get("/spec-peers", { params: { model } });
 export const getSummary = (target) =>
-  axios.get(`${BASE}/summary`, { params: { target } });
+  api.get("/summary", { params: { target } });
 export const getPriceModels = (brand) =>
-  axios.get(`${BASE}/price-models`, { params: brand ? { brand } : {} });
+  api.get("/price-models", { params: brand ? { brand } : {} });
 export const getModelComparison = (asusModel) =>
-  axios.get(`${BASE}/model-comparison`, { params: { asus_model: asusModel } });
+  api.get("/model-comparison", { params: { asus_model: asusModel } });
 
 export const sendChat = (query) =>
-  axios.post(`${BASE}/chat`, { query });
+  api.post("/chat", { query });
 
 export const getInsights = (asusModel) =>
-  axios.get(`${BASE}/insights`, { params: { asus_model: asusModel } });
+  api.get("/insights", { params: { asus_model: asusModel } });
 
 export const getKPIs = (target) =>
-  axios.get(`${BASE}/kpis`, { params: target ? { target } : {} });
+  api.get("/kpis", { params: target ? { target } : {} });
 
 export const getDataQuality = () =>
-  axios.get(`${BASE}/data-quality`);
+  api.get("/data-quality");
