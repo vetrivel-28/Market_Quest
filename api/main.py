@@ -3,6 +3,9 @@ FastAPI backend — serves all analysis data as REST endpoints.
 Run with: uvicorn api.main:app --reload --port 8000
 """
 
+from contextlib import asynccontextmanager
+from model_groups import get_spec_peers, get_group_label, get_brand, GROUPS
+from model_prices import get_price_rating, MODEL_PRICE_RATING
 from fastapi import FastAPI, Query
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
@@ -16,10 +19,7 @@ from dotenv import load_dotenv
 
 # Load .env from project root (one level up from api/)
 load_dotenv(os.path.join(os.path.dirname(__file__), "..", ".env"))
-from model_prices import get_price_rating, MODEL_PRICE_RATING
-from model_groups import get_spec_peers, get_group_label, get_brand, GROUPS
 
-from contextlib import asynccontextmanager
 
 # ── Base & RAG model setup ────────────────────────────────────────────────────
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -30,44 +30,84 @@ _rag_ready = False
 _rag_df = None
 _rag_index = None
 _rag_embed = None
+_rag_embeddings = None
+rm = None
+
 
 def _init_rag():
-    global _rag_ready, _rag_df, _rag_index, _rag_embed
+    """Initialize the RAG model on the first chat request, not at startup."""
+    global _rag_ready, _rag_df, _rag_index
+    global _rag_embed, _rag_embeddings, rm
+
     if _rag_ready:
         return
+
+    orig_data = None
+    orig_cache = None
+
     try:
-        import rag_model as rm
-        # Point the RAG model at the centralized datasets directory
+        import rag_model as rag_module
+        rm = rag_module
+
+        # Point the RAG model at the centralized datasets directory.
         data_dir = os.path.join(BASE_DIR, "datasets", "reddit_vader_results")
         if not os.path.isdir(data_dir):
-            print(f"Warning: Reddit dataset directory not found for RAG: {data_dir}")
+            raise FileNotFoundError(
+                f"Reddit dataset directory not found for RAG: {data_dir}"
+            )
+
         cache_file = os.path.join(os.path.abspath(RAG_DIR), "rag_cache.pkl")
-        # Temporarily patch constants so the module uses absolute paths
+
+        # Temporarily patch constants so the module uses absolute paths.
         orig_data = rm.DATA_DIR
         orig_cache = rm.CACHE_FILE
-        rm.DATA_DIR   = data_dir
+        rm.DATA_DIR = data_dir
         rm.CACHE_FILE = cache_file
+
         from sentence_transformers import SentenceTransformer
-        _rag_df    = rm.load_dataset(data_dir)
+
+        print("Loading RAG dataset...")
+        _rag_df = rm.load_dataset(data_dir)
+
+        print("Loading embedding model...")
         try:
-            _rag_embed = SentenceTransformer("all-MiniLM-L6-v2", local_files_only=True)
+            _rag_embed = SentenceTransformer(
+                "all-MiniLM-L6-v2", local_files_only=True
+            )
         except Exception:
+            # Download only if the model is not already cached locally.
             _rag_embed = SentenceTransformer("all-MiniLM-L6-v2")
-        _rag_index, _ = rm.build_index(_rag_df, _rag_embed, cache_file=cache_file)
-        rm.DATA_DIR   = orig_data
-        rm.CACHE_FILE = orig_cache
+
+        print("Building FAISS index...")
+        _rag_index, _rag_embeddings = rm.build_index(
+            _rag_df,
+            _rag_embed,
+            cache_file=cache_file
+        )
+
         _rag_ready = True
         print("RAG model ready.")
+
     except Exception as e:
-        print(f"RAG init failed: {e}")
+        _rag_ready = False
+        print(f"RAG init failed: {type(e).__name__}: {e}")
+
+    finally:
+        # Restore the module's original path constants even if initialization fails.
+        if rm is not None:
+            if orig_data is not None:
+                rm.DATA_DIR = orig_data
+            if orig_cache is not None:
+                rm.CACHE_FILE = orig_cache
+
 
 @asynccontextmanager
 async def lifespan(app):
-    load_all()   # warm cache at startup
-    _init_rag()  # load RAG model
+    # Keep startup lightweight. RAG is initialized on the first /api/chat request.
     yield
 
-app = FastAPI(title="Laptop Intelligence API", version="1.0.0", lifespan=lifespan)
+app = FastAPI(title="Laptop Intelligence API",
+              version="1.0.0", lifespan=lifespan)
 
 app.add_middleware(
     CORSMiddleware,
@@ -86,28 +126,30 @@ if not os.path.isdir(REDDIT_DIR):
 BRAND_PREFIXES = ["ASUS", "HP", "Dell", "Lenovo", "Apple", "MSI", "Acer"]
 
 ASPECT_KEYWORDS = {
-    "performance": ["performance","fast","speed","smooth","lag","gaming","processor","cpu","amd","intel","fps","powerful"],
-    "battery":     ["battery","backup","charging","charge","drain"],
-    "display":     ["display","screen","brightness","refresh","resolution","fhd","144hz","panel"],
-    "price":       ["price","cost","expensive","cheap","value","money","deal","worth"],
-    "design":      ["design","build","look","stylish","weight","portable","body","plastic","premium"],
-    "keyboard":    ["keyboard","keys","typing","trackpad","touchpad"],
-    "audio":       ["speaker","speakers","audio","sound","mic"],
-    "camera":      ["camera","webcam"],
-    "thermal":     ["heat","heating","temperature","thermal","fan","cooling","hot"],
-    "storage":     ["ssd","hdd","storage"],
-    "ram":         ["ram","memory"],
-    "graphics":    ["gpu","graphics","rtx","gtx","nvidia"],
+    "performance": ["performance", "fast", "speed", "smooth", "lag", "gaming", "processor", "cpu", "amd", "intel", "fps", "powerful"],
+    "battery":     ["battery", "backup", "charging", "charge", "drain"],
+    "display":     ["display", "screen", "brightness", "refresh", "resolution", "fhd", "144hz", "panel"],
+    "price":       ["price", "cost", "expensive", "cheap", "value", "money", "deal", "worth"],
+    "design":      ["design", "build", "look", "stylish", "weight", "portable", "body", "plastic", "premium"],
+    "keyboard":    ["keyboard", "keys", "typing", "trackpad", "touchpad"],
+    "audio":       ["speaker", "speakers", "audio", "sound", "mic"],
+    "camera":      ["camera", "webcam"],
+    "thermal":     ["heat", "heating", "temperature", "thermal", "fan", "cooling", "hot"],
+    "storage":     ["ssd", "hdd", "storage"],
+    "ram":         ["ram", "memory"],
+    "graphics":    ["gpu", "graphics", "rtx", "gtx", "nvidia"],
 }
 
 # ── Data loading (cached at startup) ─────────────────────────────────────────
 _cache = {}
+
 
 def infer_brand(name: str) -> str:
     for b in BRAND_PREFIXES:
         if str(name).lower().startswith(b.lower()):
             return b
     return "Unknown"
+
 
 def classify(score) -> str:
     try:
@@ -116,14 +158,17 @@ def classify(score) -> str:
     except:
         return "Neutral"
 
+
 def detect_aspects(text: str) -> list:
     t = str(text).lower()
     return [a for a, kws in ASPECT_KEYWORDS.items()
             if any(re.search(r"\b" + kw + r"\b", t) for kw in kws)]
 
+
 def short_name(fname: str) -> str:
     stem = os.path.splitext(os.path.basename(fname))[0]
     return stem.replace("_", " ").strip().rstrip(".,- ")
+
 
 def load_all() -> dict:
     if _cache:
@@ -171,29 +216,39 @@ def load_all() -> dict:
         all_s = pd.concat(frames, ignore_index=True)
     all_s["laptop_name"] = all_s["laptop_name"].str.strip()
     all_s["brand"] = all_s["brand"].str.strip()
-    all_s["compound_score"] = pd.to_numeric(all_s.get("compound_score", 0), errors="coerce").fillna(0)
+    all_s["compound_score"] = pd.to_numeric(
+        all_s.get("compound_score", 0), errors="coerce").fillna(0)
     all_s["sentiment_label"] = all_s["compound_score"].apply(classify)
 
     # Models
     grp = all_s.groupby(["laptop_name", "brand"], as_index=False).agg(
         total_sentences=("sentence", "count"),
         avg_sentiment=("compound_score", "mean"),
-        review=("sentence", lambda x: " | ".join(x.dropna().astype(str).head(3))),
+        review=("sentence", lambda x: " | ".join(
+            x.dropna().astype(str).head(3))),
     )
-    grp["price"]  = grp["laptop_name"].apply(lambda n: get_price_rating(n)["price"])
-    grp["rating"] = grp["laptop_name"].apply(lambda n: get_price_rating(n)["rating"])
+    grp["price"] = grp["laptop_name"].apply(
+        lambda n: get_price_rating(n)["price"])
+    grp["rating"] = grp["laptop_name"].apply(
+        lambda n: get_price_rating(n)["rating"])
     grp["category"] = grp["laptop_name"].apply(get_group_label)
+
     def assign_price_band(p):
-        if not p or pd.isna(p): return "Unpriced"
-        if p < 50000: return "Budget (< ₹50k)"
-        if p < 80000: return "Mid-Range (₹50k-₹80k)"
-        if p < 120000: return "Upper-Mid (₹80k-₹1.2L)"
+        if not p or pd.isna(p):
+            return "Unpriced"
+        if p < 50000:
+            return "Budget (< ₹50k)"
+        if p < 80000:
+            return "Mid-Range (₹50k-₹80k)"
+        if p < 120000:
+            return "Upper-Mid (₹80k-₹1.2L)"
         return "Premium (> ₹1.2L)"
     grp["price_band"] = grp["price"].apply(assign_price_band)
     valid_p = grp["price"].dropna()
     valid_r = grp["rating"].dropna()
     m_avg_p = float(valid_p.mean()) if len(valid_p) else 1.0
     m_avg_r = float(valid_r.mean()) if len(valid_r) else 1.0
+
     def calc_val(row):
         p = row["price"]
         r = row["rating"]
@@ -208,15 +263,18 @@ def load_all() -> dict:
         return pd.Series({
             "Positive": round((g["sentiment_label"] == "Positive").sum() / total * 100, 1),
             "Negative": round((g["sentiment_label"] == "Negative").sum() / total * 100, 1),
-            "Neutral":  round((g["sentiment_label"] == "Neutral").sum()  / total * 100, 1),
+            "Neutral":  round((g["sentiment_label"] == "Neutral").sum() / total * 100, 1),
             "Total": total,
         })
-    sent_df = all_s.groupby("brand").apply(sent_pct, include_groups=False).reset_index()
+    sent_df = all_s.groupby("brand").apply(
+        sent_pct, include_groups=False).reset_index()
     sent_df.rename(columns={"brand": "Brand"}, inplace=True)
 
     # Global aspect stats
-    aspect_stats = defaultdict(lambda: {"demand": 0, "strength": 0, "weakness": 0})
-    model_asp_stats = defaultdict(lambda: defaultdict(lambda: {"d": 0, "s": 0, "w": 0}))
+    aspect_stats = defaultdict(
+        lambda: {"demand": 0, "strength": 0, "weakness": 0})
+    model_asp_stats = defaultdict(
+        lambda: defaultdict(lambda: {"d": 0, "s": 0, "w": 0}))
 
     for _, row in all_s.iterrows():
         aspects = detect_aspects(row.get("sentence", ""))
@@ -260,7 +318,7 @@ def load_all() -> dict:
 
     opp_df = aspects_df[["aspect", "demand", "demand_pct"]].copy()
     opp_df.rename(columns={"aspect": "opportunity", "demand": "mentions",
-                            "demand_pct": "percentage"}, inplace=True)
+                           "demand_pct": "percentage"}, inplace=True)
 
     _cache.update({
         "sentences": all_s,
@@ -328,7 +386,8 @@ def _get_aspect_records(brand: str | None = None) -> list[dict]:
         model_aspects = d["model_aspects"]
         if model_aspects.empty:
             return []
-        model_aspects = model_aspects[model_aspects["brand"].str.lower() == brand.lower()]
+        model_aspects = model_aspects[model_aspects["brand"].str.lower(
+        ) == brand.lower()]
         if model_aspects.empty:
             return []
         df = model_aspects.groupby("aspect", as_index=False).agg(
@@ -347,8 +406,10 @@ def _get_aspect_records(brand: str | None = None) -> list[dict]:
     rows = df.to_dict(orient="records")
     for row in rows:
         demand = row["demand"] or 0
-        row["positive_pct"] = round(row["strength"] / demand * 100, 1) if demand else 0.0
-        row["negative_pct"] = round(row["weakness"] / demand * 100, 1) if demand else 0.0
+        row["positive_pct"] = round(
+            row["strength"] / demand * 100, 1) if demand else 0.0
+        row["negative_pct"] = round(
+            row["weakness"] / demand * 100, 1) if demand else 0.0
     return rows
 
 
@@ -445,7 +506,8 @@ def get_competitor_advantages(target: str = Query("ASUS")):
     if ma.empty:
         return {"advantages": []}
 
-    target_models = ma[ma["brand"].str.lower() == target.lower()]["laptop_name"].unique()
+    target_models = ma[ma["brand"].str.lower() == target.lower()
+                       ]["laptop_name"].unique()
     seen = set()
 
     for t_model in target_models:
@@ -453,7 +515,7 @@ def get_competitor_advantages(target: str = Query("ASUS")):
         t_pr = get_price_rating(t_model)
 
         for peer in peers:
-            p_name  = peer["model"]
+            p_name = peer["model"]
             p_brand = peer["brand"]
 
             match = find_model_in_df(p_name, p_brand, ma)
@@ -461,7 +523,7 @@ def get_competitor_advantages(target: str = Query("ASUS")):
                 continue
             c_model = match["laptop_name"]
             c_brand = match["brand"]
-            c_pr    = get_price_rating(c_model)
+            c_pr = get_price_rating(c_model)
 
             # ── Price advantage ──────────────────────────────────────────
             if t_pr["price"] and c_pr["price"]:
@@ -502,15 +564,17 @@ def get_competitor_advantages(target: str = Query("ASUS")):
                         })
 
             # ── Feature / complaint advantages ───────────────────────────
-            t_asp = ma[(ma["laptop_name"] == t_model) & (ma["brand"].str.lower() == target.lower())]
-            c_asp = ma[(ma["laptop_name"] == c_model) & (ma["brand"].str.lower() == c_brand.lower())]
+            t_asp = ma[(ma["laptop_name"] == t_model) & (
+                ma["brand"].str.lower() == target.lower())]
+            c_asp = ma[(ma["laptop_name"] == c_model) & (
+                ma["brand"].str.lower() == c_brand.lower())]
 
             for _, c_row in c_asp.iterrows():
-                asp     = c_row["aspect"]
+                asp = c_row["aspect"]
                 t_match = t_asp[t_asp["aspect"] == asp]
                 if t_match.empty:
                     continue
-                t_row    = t_match.iloc[0]
+                t_row = t_match.iloc[0]
                 diff_pos = c_row["pos_ratio"] - t_row["pos_ratio"]
                 diff_neg = t_row["neg_ratio"] - c_row["neg_ratio"]
 
@@ -568,10 +632,12 @@ def get_model_comparison(asus_model: str = Query(...)):
     if group_name is None:
         return {"error": "Model not found in any spec group", "models": []}
 
-    row_models = GROUPS[group_name][row_key]   # e.g. [ASUS ..., HP ..., Dell ..., Lenovo ...]
+    # e.g. [ASUS ..., HP ..., Dell ..., Lenovo ...]
+    row_models = GROUPS[group_name][row_key]
     group_label = get_group_label(asus_model)
 
-    ASPECTS_LIST = ["performance","battery","display","thermal","keyboard","design","price","graphics","ram","storage"]
+    ASPECTS_LIST = ["performance", "battery", "display", "thermal",
+                    "keyboard", "design", "price", "graphics", "ram", "storage"]
 
     result_models = []
     for m_name in row_models:
@@ -657,20 +723,25 @@ def get_insights(asus_model: str = Query(...)):
             rows = ma[ma["laptop_name"].str.lower() == asus_model.lower()]
             if rows.empty:
                 # fuzzy: token overlap
-                norm = set(re.sub(r"[^a-z0-9 ]", " ", asus_model.lower()).split())
+                norm = set(re.sub(r"[^a-z0-9 ]", " ",
+                           asus_model.lower()).split())
                 for name in ma["laptop_name"].unique():
-                    tokens = set(re.sub(r"[^a-z0-9 ]", " ", name.lower()).split())
+                    tokens = set(
+                        re.sub(r"[^a-z0-9 ]", " ", name.lower()).split())
                     if len(norm & tokens) >= 2:
                         rows = ma[ma["laptop_name"] == name]
                         break
-            model_asp_list = rows.to_dict(orient="records") if not rows.empty else []
+            model_asp_list = rows.to_dict(
+                orient="records") if not rows.empty else []
 
-        analysis  = competitor_analysis(asus_model)
+        analysis = competitor_analysis(asus_model)
         if analysis:
             pr = get_price_rating(asus_model)
-            analysis["price"] = analysis.get("asus_price") or pr.get("price") or 0
-            analysis["rating"] = analysis.get("asus_rating") or pr.get("rating") or 0.0
-        insights  = generate_insights(asus_model, model_asp_list)
+            analysis["price"] = analysis.get(
+                "asus_price") or pr.get("price") or 0
+            analysis["rating"] = analysis.get(
+                "asus_rating") or pr.get("rating") or 0.0
+        insights = generate_insights(asus_model, model_asp_list)
         return {"analysis": analysis, "insights": insights}
     except Exception as e:
         return {"error": str(e), "analysis": None, "insights": []}
@@ -680,8 +751,10 @@ def get_insights(asus_model: str = Query(...)):
 def get_summary(target: str = Query("ASUS")):
     """Home page AI Market Summary data."""
     d = load_all()
-    brands = sorted(d["models"]["brand"].dropna().unique().tolist()) if not d["models"].empty else []
-    opps = d["opportunities"].head(5).to_dict(orient="records") if not d["opportunities"].empty else []
+    brands = sorted(d["models"]["brand"].dropna(
+    ).unique().tolist()) if not d["models"].empty else []
+    opps = d["opportunities"].head(5).to_dict(
+        orient="records") if not d["opportunities"].empty else []
     adv_resp = get_competitor_advantages(target)
     advantages = adv_resp["advantages"][:6]
 
@@ -711,33 +784,87 @@ def get_summary(target: str = Query("ASUS")):
 
 GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY", "")
 
+
 class ChatRequest(BaseModel):
     query: str
+
 
 @app.post("/api/chat")
 def chat(req: ChatRequest):
     """RAG retrieval -> Gemini LLM -> answer."""
+
+    # Initialize RAG only when the first chat request arrives.
     if not _rag_ready:
-        return {"answer": "RAG model is still loading. Please try again in a moment.", "meta": None}
+        _init_rag()
+
+    if not _rag_ready or rm is None:
+        return {
+            "answer": "RAG model could not be initialized. Please check backend logs.",
+            "meta": None,
+        }
+
     try:
-        import rag_model as rm
+        # Product- and aspect-aware review retrieval.
+        complaint_words = [
+            "complaint", "issue", "problem", "bad", "poor",
+            "negative", "fail", "drain", "heat", "overheat",
+        ]
+        is_complaint_query = any(
+            word in req.query.lower() for word in complaint_words
+        )
 
-        # Step 1 — FAISS retrieval: top relevant review sentences
-        if any(w in req.query.lower() for w in ["complaint", "issue", "problem", "bad", "poor", "negative", "fail", "drain", "heat"]):
-            results = rm.retrieve(req.query, _rag_df, _rag_index, _rag_embed, top_k=10)
-            # Sort by negative sentiment first so actual customer complaints are prioritized
-            results.sort(key=lambda r: float(r.get("compound_score", 0)))
+        # Identify a specific model when the user names one.
+        matched_product = rm.match_product(req.query, _rag_df)
+        matched_aspect = rm.detect_aspect(req.query)
+        retrieval_count = 10 if is_complaint_query else 5
+
+        results = rm.retrieve(
+            query=req.query,
+            df=_rag_df,
+            index=_rag_index,
+            embed_model=_rag_embed,
+            top_k=retrieval_count,
+            embeddings=_rag_embeddings,
+            product=matched_product,
+            aspect=matched_aspect,
+        )
+
+        # Prioritize negative sentiment for complaint-focused questions.
+        if is_complaint_query:
+            results.sort(
+                key=lambda row: float(row.get("compound_score", 0))
+            )
             results = results[:5]
-        else:
-            results = rm.retrieve(req.query, _rag_df, _rag_index, _rag_embed, top_k=5)
 
-        # Step 2 — Assemble context
+        # Print evidence for local retrieval-quality inspection.
+        print("\n========== RAG RETRIEVED REVIEWS ==========")
+        print(f"User query: {req.query}")
+        print(f"Retrieved reviews: {len(results)}")
+        for i, row in enumerate(results, 1):
+            print(f"\nReview {i}")
+            print(f"Product: {row.get('product')}")
+            print(f"Sentence: {row.get('sentence')}")
+            print(f"Sentiment: {row.get('compound_score')}")
+            print(f"Similarity: {row.get('similarity_score')}")
+        print("========== END RAG RESULTS ==========\n")
+
+        if not results:
+            return {
+                "answer": "I could not find sufficiently relevant customer reviews for this question.",
+                "meta": None,
+            }
+
+        # Step 2 — Assemble context.
         context_lines = []
-        for r in results:
-            score = r.get("compound_score", 0.0)
-            tone  = "positive" if float(score) > 0.05 else ("negative" if float(score) < -0.05 else "neutral")
+        for row in results:
+            score = row.get("compound_score", 0.0)
+            tone = (
+                "positive" if float(score) > 0.05
+                else "negative" if float(score) < -0.05
+                else "neutral"
+            )
             context_lines.append(
-                f"- [{r['product']} | {tone}] {r['sentence']}"
+                f"- [{row['product']} | {tone}] {row['sentence']}"
             )
         context = "\n".join(context_lines)
 
@@ -755,17 +882,21 @@ def chat(req: ChatRequest):
         answer = None
         gemini_used = False
         if GEMINI_API_KEY:
-            import json, urllib.request
+            import json
+            import urllib.request
             for model_name in ["gemini-2.0-flash", "gemini-1.5-flash", "gemini-2.5-flash"]:
                 try:
                     url = f"https://generativelanguage.googleapis.com/v1beta/models/{model_name}:generateContent?key={GEMINI_API_KEY}"
-                    body = json.dumps({"contents": [{"parts": [{"text": prompt}]}]}).encode("utf-8")
-                    req_obj = urllib.request.Request(url, data=body, headers={"Content-Type": "application/json"})
+                    body = json.dumps(
+                        {"contents": [{"parts": [{"text": prompt}]}]}).encode("utf-8")
+                    req_obj = urllib.request.Request(url, data=body, headers={
+                                                     "Content-Type": "application/json"})
                     with urllib.request.urlopen(req_obj, timeout=10) as resp:
                         if resp.status == 200:
                             resp_data = json.loads(resp.read().decode("utf-8"))
                             cand = resp_data.get("candidates", [])[0]
-                            answer = cand.get("content", {}).get("parts", [])[0].get("text", "").strip()
+                            answer = cand.get("content", {}).get(
+                                "parts", [])[0].get("text", "").strip()
                             if answer:
                                 gemini_used = True
                                 break
@@ -782,12 +913,17 @@ def chat(req: ChatRequest):
                 valid_m = m_df[m_df["value_score"].notnull()]
                 if not valid_m.empty:
                     if "asus" in q_lower:
-                        valid_m = valid_m[valid_m["brand"].str.lower() == "asus"]
-                    top_v = valid_m.sort_values("value_score", ascending=False).head(3)
-                    lines = [f"Based on our catalog Price-to-Rating Value Index, here are the top models:"]
+                        valid_m = valid_m[valid_m["brand"].str.lower()
+                                          == "asus"]
+                    top_v = valid_m.sort_values(
+                        "value_score", ascending=False).head(3)
+                    lines = [
+                        f"Based on our catalog Price-to-Rating Value Index, here are the top models:"]
                     for _, row in top_v.iterrows():
-                        lines.append(f"• **{row['laptop_name']}** — Value Score: **{row['value_score']} pts** (Price: ₹{int(row['price']):,}, Rating: {row['rating']} ★)")
-                    lines.append("\n*Formula:* Value Score compares customer rating relative to market price baseline.")
+                        lines.append(
+                            f"• **{row['laptop_name']}** — Value Score: **{row['value_score']} pts** (Price: ₹{int(row['price']):,}, Rating: {row['rating']} ★)")
+                    lines.append(
+                        "\n*Formula:* Value Score compares customer rating relative to market price baseline.")
                     answer = "\n".join(lines)
 
             # If still not answered, synthesize review excerpts into clean, readable format
@@ -803,17 +939,21 @@ def chat(req: ChatRequest):
                 for prod, r_list in by_prod.items():
                     top_r = r_list[0]
                     sc = float(top_r.get("compound_score", 0))
-                    sentiment_badge = "✅ Positive" if sc > 0.05 else ("⚠️ Complaint" if sc < -0.05 else "ℹ️ Neutral")
+                    sentiment_badge = "✅ Positive" if sc > 0.05 else (
+                        "⚠️ Complaint" if sc < -0.05 else "ℹ️ Neutral")
                     clean_sent = top_r["sentence"].strip().rstrip(". ")
-                    lines.append(f"• **{prod}** [{sentiment_badge}]:\n  > \"{clean_sent}.\"\n")
+                    lines.append(
+                        f"• **{prod}** [{sentiment_badge}]:\n  > \"{clean_sent}.\"\n")
 
-                lines.append(f"**Synthesis:** Findings indicate key customer sentiment revolves around hardware reliability, thermal cooling, and battery life tradeoffs in this class.")
+                lines.append(
+                    f"**Synthesis:** Findings indicate key customer sentiment revolves around hardware reliability, thermal cooling, and battery life tradeoffs in this class.")
                 answer = "\n".join(lines)
 
         # Meta from top result
         top = results[0]
         score = top.get("compound_score", 0.0)
-        tone  = "positive" if float(score) > 0.05 else ("negative" if float(score) < -0.05 else "neutral")
+        tone = "positive" if float(score) > 0.05 else (
+            "negative" if float(score) < -0.05 else "neutral")
 
         return {
             "answer": answer,
@@ -841,37 +981,50 @@ def get_kpis(target: str = Query("ASUS")):
     d = load_all()
     sentences = d["sentences"]
     models = d["models"]
-    
+
     total_brands = int(models["brand"].nunique()) if not models.empty else 0
     total_models = len(models)
     total_sentences = len(sentences)
-    
+
     valid_prices = models["price"].dropna()
     valid_ratings = models["rating"].dropna()
-    market_avg_price = round(float(valid_prices.mean()), 0) if len(valid_prices) else 0
-    market_avg_rating = round(float(valid_ratings.mean()), 2) if len(valid_ratings) else 0.0
-    
-    market_pos_pct = round(float((sentences["sentiment_label"] == "Positive").mean() * 100), 1) if not sentences.empty else 0.0
-    market_neg_pct = round(float((sentences["sentiment_label"] == "Negative").mean() * 100), 1) if not sentences.empty else 0.0
-    market_neu_pct = round(float((sentences["sentiment_label"] == "Neutral").mean() * 100), 1) if not sentences.empty else 0.0
-    
+    market_avg_price = round(float(valid_prices.mean()),
+                             0) if len(valid_prices) else 0
+    market_avg_rating = round(float(valid_ratings.mean()), 2) if len(
+        valid_ratings) else 0.0
+
+    market_pos_pct = round(float((sentences["sentiment_label"] == "Positive").mean(
+    ) * 100), 1) if not sentences.empty else 0.0
+    market_neg_pct = round(float((sentences["sentiment_label"] == "Negative").mean(
+    ) * 100), 1) if not sentences.empty else 0.0
+    market_neu_pct = round(float((sentences["sentiment_label"] == "Neutral").mean(
+    ) * 100), 1) if not sentences.empty else 0.0
+
     target_models = models[models["brand"].str.lower() == target.lower()]
-    target_sentences = sentences[sentences["brand"].str.lower() == target.lower()]
-    
+    target_sentences = sentences[sentences["brand"].str.lower(
+    ) == target.lower()]
+
     target_prices = target_models["price"].dropna()
     target_ratings = target_models["rating"].dropna()
-    
-    target_avg_price = round(float(target_prices.mean()), 0) if len(target_prices) else 0
-    target_avg_rating = round(float(target_ratings.mean()), 2) if len(target_ratings) else 0.0
-    target_pos_pct = round(float((target_sentences["sentiment_label"] == "Positive").mean() * 100), 1) if not target_sentences.empty else 0.0
-    target_neg_pct = round(float((target_sentences["sentiment_label"] == "Negative").mean() * 100), 1) if not target_sentences.empty else 0.0
-    
+
+    target_avg_price = round(float(target_prices.mean()),
+                             0) if len(target_prices) else 0
+    target_avg_rating = round(float(target_ratings.mean()), 2) if len(
+        target_ratings) else 0.0
+    target_pos_pct = round(float((target_sentences["sentiment_label"] == "Positive").mean(
+    ) * 100), 1) if not target_sentences.empty else 0.0
+    target_neg_pct = round(float((target_sentences["sentiment_label"] == "Negative").mean(
+    ) * 100), 1) if not target_sentences.empty else 0.0
+
     brand_counts = sentences["brand"].value_counts()
-    sov = {b: round(float(c / total_sentences * 100), 1) for b, c in brand_counts.items()} if total_sentences else {}
-    
-    categories = sorted([c for c in models["category"].unique() if c and c != "Ungrouped"])
-    price_bands = ["Budget (< ₹50k)", "Mid-Range (₹50k-₹80k)", "Upper-Mid (₹80k-₹1.2L)", "Premium (> ₹1.2L)"]
-    
+    sov = {b: round(float(c / total_sentences * 100), 1)
+           for b, c in brand_counts.items()} if total_sentences else {}
+
+    categories = sorted(
+        [c for c in models["category"].unique() if c and c != "Ungrouped"])
+    price_bands = ["Budget (< ₹50k)", "Mid-Range (₹50k-₹80k)",
+                   "Upper-Mid (₹80k-₹1.2L)", "Premium (> ₹1.2L)"]
+
     return {
         "market": {
             "total_brands": total_brands,
@@ -908,13 +1061,13 @@ def get_data_quality():
     d = load_all()
     s = d["sentences"]
     m = d["models"]
-    
+
     total_records = len(s)
     sources = s["source"].value_counts().to_dict() if not s.empty else {}
     null_sentences = int(s["sentence"].isnull().sum()) if not s.empty else 0
     missing_prices = int(m["price"].isnull().sum()) if not m.empty else 0
     missing_ratings = int(m["rating"].isnull().sum()) if not m.empty else 0
-    
+
     return {
         "status": "HEALTHY",
         "total_records_ingested": total_records,
