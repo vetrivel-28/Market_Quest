@@ -15,6 +15,23 @@ Transform product reviews, pricing data, and customer sentiment into actionable 
 
 ---
 
+## 📸 Application Screenshots
+
+### 1. Executive Overview
+![Executive Overview](docs/Screenshots/Executive_overview.png)
+
+### 2. Intelligence Center
+![Intelligence Center](docs/Screenshots/intelligence_center.png)
+
+### 3. SWOT Analysis
+![SWOT Analysis](docs/Screenshots/swot_analysis.png)
+
+### 4. Specification Peer Comparison
+![Specification Peer Comparison](docs/Screenshots/specpeer_comparison.png)
+
+### 5. Target Brand Analysis
+![Target Brand Analysis](docs/Screenshots/Target_Brand.png)
+
 ---
 
 ## 📌 Overview
