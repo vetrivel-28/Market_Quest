@@ -1,5 +1,5 @@
 import React, { useEffect, useState, useMemo } from "react";
-import { getInsights, getModels } from "../api";
+import { getInsights, getModels, getPriceModels } from "../api";
 import { useFilters, BRAND_COLORS, formatCurrency, formatRating } from "../context/FilterContext";
 import VisualContainer from "../components/VisualContainer";
 import KPICard from "../components/KPICard";
@@ -115,31 +115,57 @@ export default function Insights() {
   const { target, selectedModel, setSelectedModel } = useFilters();
 
   const [availableModels, setAvailableModels] = useState([]);
+  const [modelDetailsMap, setModelDetailsMap] = useState({});
   const [insightsData, setInsightsData] = useState([]);
   const [analysisMeta, setAnalysisMeta] = useState(null);
   const [loading, setLoading] = useState(false);
   const [fType, setFType] = useState("All");
+
   const currentModel = availableModels.includes(selectedModel)
     ? selectedModel
     : availableModels[0] || "";
 
   useEffect(() => {
     let active = true;
-    setAvailableModels([]);
-    setInsightsData([]);
-    setAnalysisMeta(null);
     setLoading(true);
 
-    getModels(target)
-      .then((r) => {
-        if (!active) return;
-        const mList = (r.data.models || []).map((m) => m.laptop_name);
-        setAvailableModels(mList);
-        if (mList.length === 0) setLoading(false);
-      })
-      .catch(() => {
-        if (active) setLoading(false);
+    Promise.allSettled([
+      getModels(target),
+      getPriceModels(target),
+    ]).then(([modRes, prRes]) => {
+      if (!active) return;
+      const rawModels = modRes.status === "fulfilled"
+        ? (Array.isArray(modRes.value?.data) ? modRes.value.data : (modRes.value?.data?.models || []))
+        : [];
+      const prModels = prRes.status === "fulfilled"
+        ? (Array.isArray(prRes.value?.data) ? prRes.value.data : (prRes.value?.data?.models || []))
+        : [];
+
+      const dMap = {};
+      // Populate from price-models first (canonical prices)
+      prModels.forEach((m) => {
+        if (m && m.laptop_name) {
+          dMap[m.laptop_name.toLowerCase()] = m;
+        }
       });
+      // Populate/merge with raw models
+      rawModels.forEach((m) => {
+        if (m && m.laptop_name) {
+          const k = m.laptop_name.toLowerCase();
+          dMap[k] = { ...m, ...(dMap[k] || {}) };
+        }
+      });
+
+      const mList = rawModels.length > 0
+        ? rawModels.map((m) => m.laptop_name).filter(Boolean)
+        : prModels.map((m) => m.laptop_name).filter(Boolean);
+
+      setModelDetailsMap(dMap);
+      setAvailableModels(mList);
+      if (mList.length === 0) setLoading(false);
+    }).catch(() => {
+      if (active) setLoading(false);
+    });
 
     return () => {
       active = false;
@@ -158,6 +184,7 @@ export default function Insights() {
     setLoading(true);
     setInsightsData([]);
     setAnalysisMeta(null);
+
     getInsights(currentModel)
       .then((r) => {
         if (!active) return;
@@ -178,6 +205,20 @@ export default function Insights() {
     if (fType === "All") return insightsData;
     return insightsData.filter((ins) => ins.type === fType);
   }, [insightsData, fType]);
+
+  const currentModelDetails = modelDetailsMap[currentModel.toLowerCase()] || {};
+  const catalogPrice = Number(
+    analysisMeta?.price ||
+    analysisMeta?.asus_price ||
+    currentModelDetails.price ||
+    0
+  );
+  const catalogRating = Number(
+    analysisMeta?.rating ||
+    analysisMeta?.asus_rating ||
+    currentModelDetails.rating ||
+    0
+  );
 
   return (
     <div>
@@ -214,7 +255,7 @@ export default function Insights() {
       </div>
 
       {/* Model Spec Overview Banner */}
-      {analysisMeta && (
+      {currentModel && (
         <div className="pbi-grid-kpis">
           <KPICard
             title="Analyzed SKU"
@@ -225,14 +266,14 @@ export default function Insights() {
           />
           <KPICard
             title="Catalog Price"
-            value={formatCurrency(analysisMeta.price || analysisMeta.asus_price)}
+            value={formatCurrency(catalogPrice)}
             businessQuestion="What is the verified e-commerce listing price of this model?"
             grain="Price Dimension"
             denominator="Amazon India"
           />
           <KPICard
             title="Star Rating"
-            value={formatRating(analysisMeta.rating || analysisMeta.asus_rating)}
+            value={formatRating(catalogRating)}
             businessQuestion="What is the customer review star rating for this SKU?"
             grain="Star Rating"
             denominator="Verified Reviews"
@@ -258,41 +299,56 @@ export default function Insights() {
           alignItems: "center",
         }}
       >
-        <span style={{ fontSize: "0.74rem", fontWeight: 700, color: "#64748b", marginRight: 8 }}>
-          FILTER BY TYPE:
+        <span style={{ fontSize: "0.72rem", fontWeight: 700, color: "#64748b", textTransform: "uppercase", marginRight: 6 }}>
+          Filter by Type:
         </span>
-        {["All", "threat", "price", "gap", "advantage", "weakness"].map((t) => (
+        {[
+          { key: "All", label: "All Findings" },
+          { key: "threat", label: "Competitor Threat" },
+          { key: "price", label: "Price Anomaly" },
+          { key: "gap", label: "Feature Sentiment Gap" },
+          { key: "advantage", label: "Target Advantage" },
+          { key: "weakness", label: "Complaint Driver" },
+        ].map((t) => (
           <button
-            key={t}
-            className={`pbi-action-btn ${fType === t ? "active" : ""}`}
-            onClick={() => setFType(t)}
-            style={fType === t ? { background: "#4338ca", color: "#fff", borderColor: "#4338ca" } : {}}
+            key={t.key}
+            onClick={() => setFType(t.key)}
+            className={`pbi-brand-pill ${fType === t.key ? "selected" : ""}`}
+            style={{ fontSize: "0.75rem", padding: "4px 10px" }}
           >
-            {t === "All" ? "All Findings" : INSIGHT_TYPE_META[t]?.label || t.toUpperCase()}
+            {t.label}
           </button>
         ))}
       </div>
 
-      {/* Insights Feed */}
-      <VisualContainer
-        title={`Algorithmic Intelligence Findings (${filteredInsights.length} Verified Records)`}
-        businessQuestion="What specific findings, complaints, or rival advantages are diagnosed for this model?"
-        data={filteredInsights}
-        exportFilename={`${currentModel.replace(/\s+/g, "_").toLowerCase()}_insights`}
-        sampleSize={`${filteredInsights.length} findings`}
-      >
-        {loading ? (
-          <div style={{ padding: "2rem", textAlign: "center", color: "#64748b" }}>
-            Running multi-factor competitor intelligence diagnostics...
+      {/* Main Content Area */}
+      {loading ? (
+        <div style={{ padding: "3rem", textAlign: "center", color: "#64748b" }}>
+          Generating algorithmic competitive intelligence for {currentModel}...
+        </div>
+      ) : filteredInsights.length === 0 ? (
+        <div className="pbi-card" style={{ padding: "2.5rem", textAlign: "center", color: "#64748b" }}>
+          <div style={{ fontSize: "1.8rem", marginBottom: 8 }}>🔍</div>
+          <div style={{ fontWeight: 600 }}>No {fType !== "All" ? fType : ""} findings flagged for {currentModel}.</div>
+          <div style={{ fontSize: "0.78rem", marginTop: 4 }}>
+            Try selecting a different insight category or switch to another analyzed SKU above.
           </div>
-        ) : filteredInsights.length === 0 ? (
-          <div style={{ padding: "2rem", textAlign: "center", color: "#64748b" }}>
-            No findings detected under this filter category for the selected model.
+        </div>
+      ) : (
+        <VisualContainer
+          title={`Algorithmic Intelligence Findings (${filteredInsights.length} Verified Records)`}
+          businessQuestion="What specific findings, complaints, or rival advantages are diagnosed for this model?"
+          data={filteredInsights}
+          exportFilename={`${currentModel.toLowerCase().replace(/\s+/g, "_")}_insights`}
+          sampleSize={`${filteredInsights.length} findings`}
+        >
+          <div style={{ display: "flex", flexDirection: "column", gap: 10 }}>
+            {filteredInsights.map((ins, i) => (
+              <InsightCard key={i} ins={ins} />
+            ))}
           </div>
-        ) : (
-          filteredInsights.map((ins, idx) => <InsightCard key={idx} ins={ins} />)
-        )}
-      </VisualContainer>
+        </VisualContainer>
+      )}
     </div>
   );
 }

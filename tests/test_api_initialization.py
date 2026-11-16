@@ -13,6 +13,34 @@ import api.main as api
 
 
 class ApiInitializationTests(unittest.TestCase):
+    def test_models_route_converts_missing_numeric_values_to_json_null(self):
+        models = pd.DataFrame(
+            [
+                {
+                    "laptop_name": "ASUS test model",
+                    "brand": "ASUS",
+                    "price": float("nan"),
+                    "rating": float("nan"),
+                    "value_score": float("nan"),
+                }
+            ]
+        )
+
+        with (
+            patch.object(api, "load_all", return_value={"models": models}),
+            patch.object(
+                api.cache,
+                "get_or_compute",
+                side_effect=lambda _key, compute, ttl=None: compute(),
+            ),
+        ):
+            result = api.get_models()
+
+        row = result["models"][0]
+        self.assertIsNone(row["price"])
+        self.assertIsNone(row["rating"])
+        self.assertIsNone(row["value_score"])
+
     def test_concurrent_load_all_calls_share_one_initialization(self):
         original_cache = api._cache
         api._cache = {}

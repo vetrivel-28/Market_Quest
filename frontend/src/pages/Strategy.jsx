@@ -51,17 +51,25 @@ export default function Strategy() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
+    let active = true;
     setLoading(true);
-    Promise.all([
+    Promise.allSettled([
       getModelAspects(target),
       getCompetitorAdvantages(target),
     ])
       .then(([aspRes, advRes]) => {
-        setAspects(aspRes.data.model_aspects || []);
-        setAdvantages(advRes.data.advantages || []);
+        if (!active) return;
+        if (aspRes.status === "fulfilled") setAspects(aspRes.value?.data?.model_aspects || []);
+        if (advRes.status === "fulfilled") setAdvantages(advRes.value?.data?.advantages || []);
         setLoading(false);
       })
-      .catch(() => setLoading(false));
+      .catch(() => {
+        if (active) setLoading(false);
+      });
+
+    return () => {
+      active = false;
+    };
   }, [target]);
 
   // Derive strategic items based on weaknesses

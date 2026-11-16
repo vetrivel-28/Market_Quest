@@ -18,21 +18,29 @@ export default function Home() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
+    let active = true;
     setLoading(true);
-    Promise.all([
+    Promise.allSettled([
       getKPIs(target),
       getSummary(target),
       getSentiment(),
       getPriceModels(),
     ])
       .then(([kpiRes, sumRes, sentRes, modRes]) => {
-        setKpis(kpiRes.data);
-        setSummary(sumRes.data);
-        setSentiment(sentRes.data.sentiment || []);
-        setModels(modRes.data.models || []);
+        if (!active) return;
+        if (kpiRes.status === "fulfilled") setKpis(kpiRes.value?.data);
+        if (sumRes.status === "fulfilled") setSummary(sumRes.value?.data);
+        if (sentRes.status === "fulfilled") setSentiment(sentRes.value?.data?.sentiment || []);
+        if (modRes.status === "fulfilled") setModels(modRes.value?.data?.models || []);
         setLoading(false);
       })
-      .catch(() => setLoading(false));
+      .catch(() => {
+        if (active) setLoading(false);
+      });
+
+    return () => {
+      active = false;
+    };
   }, [target]);
 
   // Filter models based on global slicers
@@ -72,7 +80,7 @@ export default function Home() {
   const brandComparisonData = useMemo(() => {
     const brandsList = Object.keys(BRAND_COLORS).filter((b) => b !== "Market");
     return brandsList.map((b) => {
-      const bModels = models.filter((m) => m.brand === b && m.price);
+      const bModels = models.filter((m) => (m.brand || "").toLowerCase() === b.toLowerCase() && m.price);
       const avgP = bModels.length ? Math.round(bModels.reduce((s, m) => s + m.price, 0) / bModels.length) : 0;
       const bRatings = bModels.filter((m) => m.rating);
       const avgR = bRatings.length ? Number((bRatings.reduce((s, m) => s + m.rating, 0) / bRatings.length).toFixed(2)) : 0;

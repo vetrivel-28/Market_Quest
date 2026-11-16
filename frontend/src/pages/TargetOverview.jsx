@@ -29,19 +29,26 @@ function ModelRow({ model, target, onSelectForCompare }) {
   const [loadingDetails, setLoadingDetails] = useState(false);
 
   useEffect(() => {
+    let active = true;
     if (expanded && aspects.length === 0) {
       setLoadingDetails(true);
-      Promise.all([
+      Promise.allSettled([
         getModelAspects(target, model.laptop_name),
         getSpecPeers(model.laptop_name),
       ])
         .then(([aspRes, peerRes]) => {
-          setAspects(aspRes.data.model_aspects || []);
-          setPeers(peerRes.data || { peers: [], group: "Ungrouped" });
+          if (!active) return;
+          if (aspRes.status === "fulfilled") setAspects(aspRes.value?.data?.model_aspects || []);
+          if (peerRes.status === "fulfilled") setPeers(peerRes.value?.data || { peers: [], group: "Ungrouped" });
           setLoadingDetails(false);
         })
-        .catch(() => setLoadingDetails(false));
+        .catch(() => {
+          if (active) setLoadingDetails(false);
+        });
     }
+    return () => {
+      active = false;
+    };
   }, [expanded, target, model.laptop_name]);
 
   const weaknesses = aspects.filter((a) => a.neg_ratio >= 18).sort((a, b) => b.neg_ratio - a.neg_ratio);

@@ -44,13 +44,19 @@ export default function CompetitorAdvantages() {
   }, [target]);
 
   const competitorsList = useMemo(() => {
-    const list = Array.from(new Set(allAdvantages.map((a) => a.competitor).filter((c) => c !== target)));
+    const list = Array.from(
+      new Set(
+        allAdvantages
+          .map((a) => a.competitor)
+          .filter((c) => c && (!target || c.toLowerCase() !== target.toLowerCase()))
+      )
+    );
     return ["All", ...list];
   }, [allAdvantages, target]);
 
   const filteredAdvantages = useMemo(() => {
     return allAdvantages.filter((adv) => {
-      if (adv.competitor === target) return false;
+      if (adv.competitor && target && adv.competitor.toLowerCase() === target.toLowerCase()) return false;
       if (fCompetitor !== "All" && adv.competitor !== fCompetitor) return false;
       if (fSeverity !== "All" && adv.severity !== fSeverity) return false;
       if (fType !== "All" && adv.adv_type !== fType) return false;
@@ -62,7 +68,7 @@ export default function CompetitorAdvantages() {
   const competitorBarData = useMemo(() => {
     const counts = {};
     allAdvantages.forEach((adv) => {
-      if (adv.competitor === target) return;
+      if (adv.competitor && target && adv.competitor.toLowerCase() === target.toLowerCase()) return;
       if (!counts[adv.competitor]) {
         counts[adv.competitor] = { competitor: adv.competitor, High: 0, Medium: 0, Low: 0, total: 0 };
       }

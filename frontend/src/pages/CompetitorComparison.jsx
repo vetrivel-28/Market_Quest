@@ -87,8 +87,12 @@ export default function CompetitorComparison() {
   }, [currentModel]);
 
   const modelsList = data?.models || [];
-  const targetModelData = modelsList.find((m) => m.is_target || m.brand.toLowerCase() === target.toLowerCase());
-  const rivalModels = modelsList.filter((m) => !(m.is_target || m.brand.toLowerCase() === target.toLowerCase()));
+  const targetModelData = modelsList.find(
+    (m) => m.is_target || (m.brand && target && m.brand.toLowerCase() === target.toLowerCase())
+  );
+  const rivalModels = modelsList.filter(
+    (m) => !(m.is_target || (m.brand && target && m.brand.toLowerCase() === target.toLowerCase()))
+  );
 
   // Radar chart transformation
   const radarData = useMemo(() => {
@@ -97,7 +101,7 @@ export default function CompetitorComparison() {
       const row = { aspect: ASPECT_LABELS[asp] || asp };
       modelsList.forEach((m) => {
         const key = m.brand + (m.is_target ? " (Target)" : "");
-        row[key] = m.aspects[asp]?.pos_ratio || 0;
+        row[key] = m.aspects?.[asp]?.pos_ratio || 0;
       });
       return row;
     });

@@ -2,6 +2,167 @@ import React, { useState, useRef, useEffect } from "react";
 import { sendChat } from "../api";
 import { useFilters } from "../context/FilterContext";
 
+// Rich Markdown & Analyst Block Formatter
+function FormattedMessage({ text }) {
+  if (!text) return null;
+
+  // Split into lines
+  const rawLines = text.split("\n");
+
+  const renderInlineFormatted = (str) => {
+    if (!str) return null;
+    // Replace markdown bold, quotes, and badges
+    const parts = [];
+    // Regex splits by bold (**...**) or quotes ("> ...") or badges ([...])
+    const regex = /(\*\*[^*]+\*\*|\[[^\]]+\]|\*[^*]+\*)/g;
+    let lastIdx = 0;
+    let match;
+
+    while ((match = regex.exec(str)) !== null) {
+      if (match.index > lastIdx) {
+        parts.push(str.substring(lastIdx, match.index));
+      }
+      const token = match[0];
+      if (token.startsWith("**") && token.endsWith("**")) {
+        parts.push(
+          <strong key={match.index} style={{ fontWeight: 700, color: "#0f172a" }}>
+            {token.slice(2, -2)}
+          </strong>
+        );
+      } else if (token.startsWith("*") && token.endsWith("*")) {
+        parts.push(
+          <em key={match.index} style={{ color: "#475569" }}>
+            {token.slice(1, -1)}
+          </em>
+        );
+      } else if (token.startsWith("[") && token.endsWith("]")) {
+        const badgeContent = token.slice(1, -1);
+        const isPos = badgeContent.includes("Positive") || badgeContent.includes("✅");
+        const isNeg = badgeContent.includes("Complaint") || badgeContent.includes("⚠️") || badgeContent.includes("Negative");
+        parts.push(
+          <span
+            key={match.index}
+            className="pbi-badge"
+            style={{
+              backgroundColor: isPos ? "#d1fae5" : isNeg ? "#fee2e2" : "#f1f5f9",
+              color: isPos ? "#065f46" : isNeg ? "#991b1b" : "#475569",
+              fontWeight: 700,
+              fontSize: "0.68rem",
+              margin: "0 4px",
+              padding: "2px 6px",
+              borderRadius: 4,
+            }}
+          >
+            {badgeContent}
+          </span>
+        );
+      }
+      lastIdx = regex.lastIndex;
+    }
+    if (lastIdx < str.length) {
+      parts.push(str.substring(lastIdx));
+    }
+    return parts.length ? parts : str;
+  };
+
+  return (
+    <div style={{ display: "flex", flexDirection: "column", gap: 6, fontSize: "0.84rem", lineHeight: 1.55 }}>
+      {rawLines.map((line, idx) => {
+        const trimmed = line.trim();
+        if (!trimmed) {
+          return <div key={idx} style={{ height: 4 }} />;
+        }
+
+        // Section Headers (### ...)
+        if (trimmed.startsWith("###")) {
+          const title = trimmed.replace(/^###\s*/, "");
+          return (
+            <div
+              key={idx}
+              style={{
+                fontWeight: 800,
+                fontSize: "0.95rem",
+                color: "#1e1b4b",
+                borderBottom: "1px solid #e2e8f0",
+                paddingBottom: 4,
+                marginTop: 6,
+                marginBottom: 2,
+              }}
+            >
+              {title}
+            </div>
+          );
+        }
+
+        // Blockquotes (> "...")
+        if (trimmed.startsWith(">") || trimmed.startsWith("&gt;")) {
+          const quote = trimmed.replace(/^(?:>|&gt;)\s*/, "").replace(/^"|"$/g, "");
+          return (
+            <div
+              key={idx}
+              style={{
+                margin: "4px 0 6px 8px",
+                padding: "6px 12px",
+                backgroundColor: "#f8fafc",
+                borderLeft: "3px solid #6366f1",
+                borderRadius: "0 6px 6px 0",
+                fontStyle: "italic",
+                color: "#334155",
+                fontSize: "0.8rem",
+              }}
+            >
+              "{quote}"
+            </div>
+          );
+        }
+
+        // Bullet list item (• or -)
+        if (trimmed.startsWith("•") || trimmed.startsWith("- ") || /^\*\s/.test(trimmed)) {
+          const bulletBody = trimmed.replace(/^(?:•|-|\*)\s*/, "");
+          return (
+            <div key={idx} style={{ display: "flex", alignItems: "flex-start", gap: 6, margin: "2px 0" }}>
+              <span style={{ color: "#4338ca", fontWeight: 800, lineHeight: 1.4 }}>•</span>
+              <div style={{ flex: 1 }}>{renderInlineFormatted(bulletBody)}</div>
+            </div>
+          );
+        }
+
+        // Numbered list item (e.g. **1. ...**)
+        if (/^\*\*\d+\./.test(trimmed)) {
+          return (
+            <div
+              key={idx}
+              style={{
+                background: "#fdfefe",
+                border: "1px solid #e2e8f0",
+                borderRadius: 6,
+                padding: "6px 10px",
+                margin: "4px 0",
+              }}
+            >
+              {renderInlineFormatted(trimmed)}
+            </div>
+          );
+        }
+
+        // Sub-bullets (indented)
+        if (line.startsWith("   •") || line.startsWith("   -") || line.startsWith("  -")) {
+          const subContent = line.replace(/^\s*(?:•|-)\s*/, "");
+          return (
+            <div key={idx} style={{ marginLeft: 20, display: "flex", gap: 6, fontSize: "0.8rem", color: "#475569" }}>
+              <span>–</span>
+              <div>{renderInlineFormatted(subContent)}</div>
+            </div>
+          );
+        }
+
+        // Standard text line
+        return <div key={idx}>{renderInlineFormatted(line)}</div>;
+      })}
+    </div>
+  );
+}
+
 export default function Chatbot() {
   const { target, competitors, priceBand, category, selectedModel } = useFilters();
 
@@ -22,10 +183,10 @@ export default function Chatbot() {
   }, [msgs]);
 
   const promptChips = [
-    `Summarize ${target} market sentiment`,
-    `Which ${target} model has best Value Score?`,
+    `Which ${target || "ASUS"} model has best Value Score?`,
     `What are the top battery complaints?`,
-    `Compare ${target} vs ${competitors[0] || "HP"} in gaming thermals`,
+    `Summarize ${target || "ASUS"} market sentiment`,
+    `Compare ${target || "ASUS"} vs ${competitors[0] || "HP"} in gaming thermals`,
   ];
 
   const handleSend = async (queryText) => {
@@ -36,7 +197,6 @@ export default function Chatbot() {
     setLoading(true);
 
     try {
-      // Send the clean, natural query to RAG without embedding noise
       const r = await sendChat(q);
       setMsgs((p) => [
         ...p,
@@ -102,7 +262,11 @@ export default function Chatbot() {
           <div className="chat-messages">
             {msgs.map((m, i) => (
               <div key={i} className={`chat-msg ${m.role}`}>
-                <div style={{ whiteSpace: "pre-line", lineHeight: 1.55 }}>{m.text}</div>
+                {m.role === "bot" ? (
+                  <FormattedMessage text={m.text} />
+                ) : (
+                  <div style={{ whiteSpace: "pre-line", lineHeight: 1.55 }}>{m.text}</div>
+                )}
 
                 {/* Grounding Metadata Expander */}
                 {m.meta && (
@@ -156,7 +320,7 @@ export default function Chatbot() {
             <input
               type="text"
               className="pbi-input"
-              placeholder={`Ask about ${target}, battery, thermals, or value...`}
+              placeholder={`Ask about ${target || "ASUS"}, battery, thermals, or value...`}
               value={input}
               onChange={(e) => setInput(e.target.value)}
               onKeyDown={onKey}

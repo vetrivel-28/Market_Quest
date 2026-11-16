@@ -12,34 +12,44 @@ const api = axios.create({
   timeout: 60000,
 });
 
-export const getBrands = () => api.get("/brands");
-export const getModels = (brand) => api.get("/models", { params: brand ? { brand } : {} });
-export const getSentiment = () => api.get("/sentiment");
-export const getAspects = (brand) =>
-  api.get("/aspects", { params: brand ? { brand } : {} });
-export const getOpportunities = (brand) =>
-  api.get("/opportunities", { params: brand ? { brand } : {} });
-export const getModelAspects = (brand, model) =>
-  api.get("/model-aspects", { params: { brand, model } });
-export const getCompetitorAdvantages = (target) =>
-  api.get("/competitor-advantages", { params: { target } });
-export const getSpecPeers = (model) =>
-  api.get("/spec-peers", { params: { model } });
-export const getSummary = (target) =>
-  api.get("/summary", { params: { target } });
-export const getPriceModels = (brand) =>
-  api.get("/price-models", { params: brand ? { brand } : {} });
-export const getModelComparison = (asusModel) =>
-  api.get("/model-comparison", { params: { asus_model: asusModel } });
+// In-flight GET request deduplication map to prevent redundant concurrent fetches
+const inFlightRequests = new Map();
 
-export const sendChat = (query) =>
-  api.post("/chat", { query });
+function dedupGet(url, params = {}) {
+  const queryStr = new URLSearchParams(
+    Object.entries(params).filter(([_, v]) => v !== undefined && v !== null && v !== "")
+  ).toString();
+  const cacheKey = `${url}?${queryStr}`;
 
-export const getInsights = (asusModel) =>
-  api.get("/insights", { params: { asus_model: asusModel } });
+  if (inFlightRequests.has(cacheKey)) {
+    return inFlightRequests.get(cacheKey);
+  }
 
-export const getKPIs = (target) =>
-  api.get("/kpis", { params: target ? { target } : {} });
+  const reqPromise = api.get(url, { params }).finally(() => {
+    // Keep in map for 1500ms to coalesce rapid identical re-renders
+    setTimeout(() => {
+      inFlightRequests.delete(cacheKey);
+    }, 1500);
+  });
 
-export const getDataQuality = () =>
-  api.get("/data-quality");
+  inFlightRequests.set(cacheKey, reqPromise);
+  return reqPromise;
+}
+
+export const getBrands = () => dedupGet("/brands");
+export const getModels = (brand) => dedupGet("/models", brand ? { brand } : {});
+export const getSentiment = () => dedupGet("/sentiment");
+export const getAspects = (brand) => dedupGet("/aspects", brand ? { brand } : {});
+export const getOpportunities = (brand) => dedupGet("/opportunities", brand ? { brand } : {});
+export const getModelAspects = (brand, model) => dedupGet("/model-aspects", { brand, model });
+export const getCompetitorAdvantages = (target) => dedupGet("/competitor-advantages", { target });
+export const getSpecPeers = (model) => dedupGet("/spec-peers", { model });
+export const getSummary = (target) => dedupGet("/summary", { target });
+export const getPriceModels = (brand) => dedupGet("/price-models", brand ? { brand } : {});
+export const getModelComparison = (asusModel) => dedupGet("/model-comparison", { asus_model: asusModel });
+
+export const sendChat = (query) => api.post("/chat", { query });
+
+export const getInsights = (asusModel) => dedupGet("/insights", { asus_model: asusModel });
+export const getKPIs = (target) => dedupGet("/kpis", target ? { target } : {});
+export const getDataQuality = () => dedupGet("/data-quality");

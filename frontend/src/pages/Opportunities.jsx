@@ -20,11 +20,11 @@ export default function Opportunities() {
     setLoading(true);
     setOpportunities([]);
     setModels([]);
-    Promise.all([getOpportunities(target), getPriceModels(target)])
+    Promise.allSettled([getOpportunities(target), getPriceModels(target)])
       .then(([oppRes, modelRes]) => {
         if (!active) return;
-        setOpportunities(oppRes.data.opportunities || []);
-        setModels(modelRes.data.models || []);
+        if (oppRes.status === "fulfilled") setOpportunities(oppRes.value?.data?.opportunities || []);
+        if (modelRes.status === "fulfilled") setModels(modelRes.value?.data?.models || []);
         setLoading(false);
       })
       .catch(() => {
