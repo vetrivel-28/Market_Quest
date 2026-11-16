@@ -1,10 +1,19 @@
+
 # MarketQuest | AI-Powered Laptop Market Intelligence Platform
 
-\<p align="center">   \<strong>From Product Data to Market Intelligence.\</strong>   \<br />   Transform product reviews, pricing data, and customer sentiment into actionable business insights. \</p>
+**From Product Data to Market Intelligence.**
 
-\<p align="center">   \<a href="[https://market-quest-rosy.vercel.app](https://market-quest-rosy.vercel.app)">🌐 Live Demo\</a> •   \<a href="[https://market-quest-6vg9.onrender.com/docs](https://market-quest-6vg9.onrender.com/docs)">📚 API Documentation\</a> •   \<a href="[https://github.com/vetrivel-28/Market_Quest](https://github.com/vetrivel-28/Market_Quest)">💻 GitHub Repository\</a> \</p>
+Transform product reviews, pricing data, and customer sentiment into actionable business insights.
 
-\<p align="center">   \<img src="[https://img.shields.io/badge/Python-FastAPI-blue?style=for-the-badge&logo=python](https://img.shields.io/badge/Python-FastAPI-blue?style=for-the-badge\&logo=python)" alt="Python and FastAPI" />   \<img src="[https://img.shields.io/badge/React-Vite-61DAFB?style=for-the-badge&logo=react](https://img.shields.io/badge/React-Vite-61DAFB?style=for-the-badge\&logo=react)" alt="React and Vite" />   \<img src="[https://img.shields.io/badge/AI-RAG%20%7C%20FAISS-purple?style=for-the-badge](https://img.shields.io/badge/AI-RAG%20%7C%20FAISS-purple?style=for-the-badge)" alt="AI RAG and FAISS" />   \<img src="[https://img.shields.io/badge/Cache-Redis-red?style=for-the-badge&logo=redis](https://img.shields.io/badge/Cache-Redis-red?style=for-the-badge\&logo=redis)" alt="Redis" />   \<img src="[https://img.shields.io/badge/Deployment-Vercel%20%7C%20Render-black?style=for-the-badge](https://img.shields.io/badge/Deployment-Vercel%20%7C%20Render-black?style=for-the-badge)" alt="Deployment" /> \</p>
+🌐 [Live Demo](https://market-quest-rosy.vercel.app) | 📚 [API Documentation](https://market-quest-6vg9.onrender.com/docs) | 💻 [GitHub Repository](https://github.com/vetrivel-28/Market_Quest)
+
+![Python](https://img.shields.io/badge/Python-FastAPI-blue?style=for-the-badge&logo=python)
+![React](https://img.shields.io/badge/React-Vite-61DAFB?style=for-the-badge&logo=react)
+![AI](https://img.shields.io/badge/AI-RAG%20%7C%20FAISS-purple?style=for-the-badge)
+![Redis](https://img.shields.io/badge/Cache-Redis-red?style=for-the-badge&logo=redis)
+![Deployment](https://img.shields.io/badge/Deployment-Vercel%20%7C%20Render-black?style=for-the-badge)
+
+---
 
 ---
 
@@ -29,20 +38,18 @@ By combining data analytics, machine learning, Natural Language Processing (NLP)
 
 The platform combines structured analytics with an AI-powered conversational interface, making market intelligence accessible through both dashboards and natural-language queries.
 
+
 ## 🌐 Live Application
 
-\<p align="center">
-&#x20; \<a href="[https://market-quest-rosy.vercel.app](https://market-quest-rosy.vercel.app)">
-&#x20;   \<strong>🚀 Explore MarketQuest Live\</strong>
-&#x20; \</a>
-\</p>
+🚀 **[Explore MarketQuest Live](https://market-quest-rosy.vercel.app)**
 
-| Component         | URL                                                              |
-| ----------------- | ---------------------------------------------------------------- |
-| Live Application  | [MarketQuest](https://market-quest-rosy.vercel.app)              |
-| Backend API       | [FastAPI Backend](https://market-quest-6vg9.onrender.com)        |
-| API Documentation | [Swagger UI](https://market-quest-6vg9.onrender.com/docs)        |
-| Source Code       | [GitHub Repository](https://github.com/vetrivel-28/Market_Quest) |
+| Component | URL |
+|---|---|
+| Live Application | [MarketQuest](https://market-quest-rosy.vercel.app) |
+| Backend API | [FastAPI Backend](https://market-quest-6vg9.onrender.com) |
+| API Documentation | [Swagger UI](https://market-quest-6vg9.onrender.com/docs) |
+| Source Code | [GitHub Repository](https://github.com/vetrivel-28/Market_Quest) |
+
 
 > **Note:** The backend is hosted on Render. If the service has been idle, its first request may take longer while the service starts.
 
